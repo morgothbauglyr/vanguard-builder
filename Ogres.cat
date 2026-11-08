@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Ogres" id="fcbe-01ec-655a-a186" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="false" revision="11" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Large (Ogre)" id="a8c1-0f86-be6c-7e6f" hidden="false"/>
+  </categoryEntries>
+  <infoLinks>
+    <infoLink name="Intimidating" id="c2c3-9bfa-48aa-ad0f" hidden="false" targetId="a333-d2f3-c75d-962b" type="rule"/>
+    <infoLink name="High &amp; Mighty" id="06af-881f-3869-7484" hidden="false" targetId="44ca-ed52-b68a-d39f" type="rule"/>
+    <infoLink name="TRIBAL DEFIANCE (2)" id="9b24-d392-1bbb-2874" hidden="false" targetId="e25c-be75-3d27-a516" type="rule"/>
+  </infoLinks>
+  <publications>
+    <publication name="Vanguard abridged Warbands-dec31.pd" id="fcbe-01ec-pubN65537"/>
+  </publications>
+  <rules>
+    <rule name="Warband - Special Validation Rules" id="bf6f-50e4-70a7-2e3d" hidden="false">
+      <description>Battlescribe will take into account the additional validation rules imposed by the &apos;High &amp; Mighty&apos; war band rule with 1 exception - it will allow you to take an additional Support AND Spellcaster while the rules state OR (so only 1 additional figure is allowed).  Please play fair and make sure you do not validate this rule.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="Berserker Brave" id="4fef-d987-fa61-1a13" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="0f8f-43d4-5a37-c87f" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Large (Ogre)" id="21ef-6b11-f707-f2cb" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Troop" id="abd3-e9b8-032c-2962" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="7812-aa07-6be2-73e5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="e7ec-5aab-9ef7-d2b2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="12c9-96fe-0ebf-5a01" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Vicious" id="8050-bd4a-f0b8-5abf" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Unbreakable" id="cf36-f43b-d6f3-b22c" hidden="false" targetId="cfa9-9ce0-371c-e7cd" type="rule"/>
+        <infoLink name="Frenzy (1)" id="5821-5c7d-786d-ec2c" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Berserker Brave" id="79e2-3be9-990e-77c9" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Red Goblin" id="7146-f7c4-00b4-a061" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="6e51-c080-add0-8cb3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="d3fd-30b3-e3d7-ddc1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="HERE YOU GO BOSS (1)" id="2492-490e-afd0-53c2" hidden="false" targetId="40b9-6130-2358-57dc" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Red Goblin" id="977e-afe5-c505-9494" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ogre Sergeant" id="9d6f-b3e8-d7df-5973" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="a353-7add-1830-b74e" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Large Command" id="0990-4f45-3835-b7e5" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
+        <categoryLink name="Has Crushing Strength" id="3a7b-7a9b-d989-234a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="5a60-918e-1b08-5716" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="492b-0d1e-1436-dccc" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Headstrong" id="70bc-f34e-c0a7-b9fe" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+        <infoLink name="Power Dice Blue (1)" id="0113-140e-8e3a-253b" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="DEFENSIVE SLAM (2)" id="4356-a879-ba12-3ffb" hidden="false" targetId="e46a-d6bc-04bd-080f" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Ogre Sergeant" id="958d-c3a2-f12d-ef18" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Red Goblin Biggit" id="eda8-9aa1-95e6-7381" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="dcda-2a06-8325-184e" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Has Crushing Strength" id="c463-25cc-85a0-d6f2" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="49f7-4fe5-4e4b-18d9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice Red (1)" id="db16-8c20-a815-a86e" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="bfce-fa4f-43bb-fdf4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Sneaky" id="63c1-2b7c-6f23-b819" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Inspiring (Goblin models only)" id="ffd0-b41c-763e-5c7c" hidden="false" targetId="f27f-a107-2b95-d159" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Red Goblin Biggit" id="3b74-73df-6197-5355" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Siege Breaker" id="2344-f0a4-1a41-0d8a" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="cffa-3ed2-5553-b159" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Large (Ogre)" id="824d-f103-3001-477d" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Has Crushing Strength" id="7ac4-2c3b-dbd4-e128" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="c1b6-b92e-09d7-076e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="f2a0-07aa-e99f-692e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Defender" id="0313-4ea5-9445-dcdb" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule"/>
+        <infoLink name="Smash" id="e2e4-a8ea-b99d-880e" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Steady" id="30f7-dc76-3f3b-2910" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="SIEGE MENTALITY (1)" id="5371-a515-b099-e82f" hidden="false" targetId="021c-dd71-6c73-e800" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Siege Breaker" id="9328-cb8a-d797-4e6a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Boomer" id="83bc-a290-e6e7-a474" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="584a-8df7-4487-ab51" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Large (Ogre)" id="d10f-89cf-9024-df06" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Has Crushing Strength" id="b0e8-f6c3-e7cf-e195" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="235b-7234-49f4-d101" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Boomer" id="56ce-1e74-7930-45f0" collective="false" hidden="false" import="true" targetId="bb18-9b8e-83e2-aeb5" type="selectionEntry">
+          <constraints>
+            <constraint id="1ccc-e662-64d8-7087" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5443-884f-2a72-c812" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="18e5-e289-722a-fdc5" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Boomer" id="445a-4be4-b8ee-d379" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Hunter" id="2f2c-3bb8-ae84-ffab" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="e784-aac5-6043-22ba" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Large (Ogre)" id="600c-12dc-4e4a-2af3" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Troop" id="5457-8014-bbee-424f" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="8a7d-9f33-7ae8-8bb1" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="21"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="50e5-c5b8-4d8c-f763" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ensnare" id="03fc-bd02-cafb-9afb" hidden="false" targetId="7161-27b3-c5fe-64c7" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="3e85-e059-7871-17eb" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Pathfinder" id="c6ed-8007-0d67-9a09" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="6th Sense" id="99c2-0379-8cd4-5049" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Hunter" id="79f7-5f51-8751-4ebd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ogre Warlock" id="62c7-6717-cc19-c52c" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="506e-73f6-603b-dbb6" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Large (Ogre)" id="cf7a-7b49-c44b-cb9c" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Spellbook - Ogre Warlock" id="b778-5ec8-5211-4ff4" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="786e-b5a7-d39c-a384" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="44c2-cf6a-0d4b-6974" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <modifiers>
+            <modifier field="786e-b5a7-d39c-a384" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="62c7-6717-cc19-c52c" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="44c2-cf6a-0d4b-6974" type="decrement" value="1">
+              <repeats>
+                <repeat childId="c033-2980-b549-f3c8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="62c7-6717-cc19-c52c" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Spellbook - Ogres (Free)" id="6c00-8602-bb2a-1f44" collective="false" hidden="false" import="true" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Ogres (Paid)" id="14fc-dccd-65dc-121d" collective="false" hidden="false" import="true" targetId="3614-4389-a100-7db2" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Primoridal" id="f4cb-41b9-1885-e301" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name=" Items" id="aa7d-8c58-50e9-e355" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice Red (1)" id="e7bd-b0c4-b69c-b85d" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="CACKLE! (1)" id="3aa6-f509-b816-c65a" hidden="false" targetId="5114-7b84-b23b-5d76" type="rule"/>
+        <infoLink name="Fanatical Acolytes" id="ab94-717d-4f57-2a83" hidden="false" targetId="b86d-7bc3-ad3f-ca95" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Ogre Warlock" id="b6e6-7612-6c6e-2595" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Brawler" id="3a0d-8827-1ef8-c2e5" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="a538-622e-6d6b-5360" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Large (Ogre)" id="9e46-4c42-23ff-1e86" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Troop" id="4645-eef6-44ca-3a4d" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="4fd9-0ed0-4c12-596e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="c522-9b91-aa48-3dea" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Brawler" id="c174-7a4e-a4a8-4fed" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Cleaver" id="9e4d-cf28-c5db-9585" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="f434-1183-c346-6318" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Large (Ogre)" id="9cc1-02c5-3c0c-bfd8" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Troop" id="2a81-1fe5-77db-cb57" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="e45d-aca1-5353-b3da" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="1617-00ba-b285-2509" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="1e5c-6946-3093-131a" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Cleaver" id="84a2-ba4f-6cfe-40fa" hidden="false" publicationId="a3d2-75b6-8c4e-cbde" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Shooter" id="2240-d39b-c464-4b22" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="04d9-5ef4-4459-363c" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Large (Ogre)" id="bf23-9780-77e7-5252" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Has Crushing Strength" id="bef1-0ec8-b47e-a824" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="25"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="2dfb-38aa-6ffc-2bd7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Heavy Crossbow" id="65d4-dc37-4c48-4092" collective="false" hidden="false" import="true" targetId="56c8-38a6-0bee-253a" type="selectionEntry">
+          <constraints>
+            <constraint id="07a1-eac9-f5f6-9570" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="50c4-2dd8-7422-8441" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="9bfe-91ab-0201-ddb4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Shooter" id="32cc-2446-684e-3ff6" hidden="false" publicationId="a3d2-75b6-8c4e-cbde" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Paymaster" id="4c75-96c1-52eb-1ef2" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="453f-948a-860b-f1df" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Large (Ogre)" id="f4e9-59f4-64a4-21bc" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Has Crushing Strength" id="e563-1112-7a0b-abb4" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="2b1c-e4e0-f9f4-b377" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Swarm" id="1106-07b0-af5c-197a" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
+        <infoLink name="Inspiring" id="8162-d514-8051-00d3" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Power Dice Red (1)" id="b460-af7c-d016-5535" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="BOUNTY (2)" id="2a44-5a01-2f97-67dc" hidden="false" targetId="94c6-5bde-3612-95b9" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="fa93-8233-97fa-28e8" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Paymaster" id="417e-577e-4e40-2dc3" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Crocodog" id="ec57-768a-b8df-2ab7" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="56c6-c4f3-cae2-381f" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Through the Legs" id="2b07-6d31-82e4-739e" hidden="false" targetId="7f66-635f-33f4-13ca" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Crocodog" id="745e-48e2-faed-f2f2" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Boomer Sergeant" id="a6ab-ffec-01d2-e9ee" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="8ceb-59a1-6007-7510" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Large (Ogre)" id="c9c3-b274-1e44-e709" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Has Crushing Strength" id="4bc2-9041-ab3b-7431" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="9b10-85cf-407b-35b3" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Sawn-off" id="f8e8-0942-3397-e7d5" collective="false" hidden="false" import="true" targetId="5e5e-f238-8233-4b30" type="selectionEntry">
+          <constraints>
+            <constraint id="7eda-364b-459b-66f9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="fa64-cdf2-2f35-9a3f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="7c3c-270b-da36-91a1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Power Dice Red (1)" id="01a9-e001-5112-aba9" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="POINT BLANK (1)" id="1495-00ef-c8d7-4d6f" hidden="false" targetId="901b-c485-28ac-59ee" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Boomer Sergeant" id="bf24-af94-7195-fbc0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Berserker Bully" id="f4ec-94a5-2b1a-c4df" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="07db-9bf1-76f3-807c" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Large (Ogre)" id="539f-af00-3616-f3dc" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Has Crushing Strength" id="e735-0710-9b01-5629" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="95e2-6758-7467-1725" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="73c2-cf22-9928-45da" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Power Dice Red (2)" id="cf5f-10f2-9f97-d73f" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Vicious" id="ad01-2341-e14f-81de" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Inspiring (Berserker Braves only)" id="5c91-7306-7d7e-af9a" hidden="false" targetId="e775-5985-f1f3-9f23" type="rule"/>
+        <infoLink name="Unbreakable" id="2dfe-0486-31fc-d267" hidden="false" targetId="cfa9-9ce0-371c-e7cd" type="rule"/>
+        <infoLink name="Frenzy (1)" id="7977-b1b4-802e-306a" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
+        <infoLink name="BATTLE RAGE (2)" id="bfc0-0d22-95a2-86fe" hidden="false" targetId="66d3-661b-3962-5e14" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Berserker Bully" id="e300-73ee-c343-22d8" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Matriarch" id="ed74-9016-5763-ea2b" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="f53f-ded0-26d4-7012" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Large (Ogre)" id="7f40-8f41-04e0-00ce" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
+        <categoryLink name="Has Crushing Strength" id="9b31-8aab-2215-2d92" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="27ec-3b7c-92a2-0055" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="3af2-c9a4-ad4f-9018" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Power Dice Red (2)" id="51ea-2006-7159-6a8f" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Master Tactician" id="6248-e039-9875-614c" hidden="false" targetId="dd07-9d5f-1c25-383f" type="rule"/>
+        <infoLink name="Very Inspiring" id="2713-b934-e2c5-f8ed" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
+        <infoLink name="TRIBAL AUTHORITY (1)" id="a672-5f93-ab5f-6267" hidden="false" targetId="a1d0-8e09-8d52-8723" type="rule"/>
+        <infoLink name="SEIZE THE MOMENT (2)" id="1b83-c1c1-6043-3001" hidden="false" targetId="655a-e694-3497-7340" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="The Matriarch" id="c9ec-ece5-8c03-1eb4" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="Spell - Battle Fury (long)" id="63f1-6e55-23d6-1160" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Target an Engaged friendly model that is not Knocked-down. If any hits are scored, that model may immediately make a Melee action for free against any one model it is Engaged with, even if it is already Activated and/or Fatigued.</description>
+    </rule>
+    <rule name="Spell - Might of the Tribes (long)" id="e6e2-b696-5fb1-b56d" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Target a friendly model, even if it is Engaged. That model may re-roll any failed Armour rolls until the end of the Round. In addition, the Crushing Strength and Piercing special rules are limited to (1) against this model until the end of the Round.</description>
+    </rule>
+    <rule name="High &amp; Mighty" id="44ca-ed52-b68a-d39f" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>An Ogre Warband has no limit on the number of LARGE OGRE models it can include. In this warband, GRUNTS do count towards the minimum number of WARRIORS or GRUNTS, but do not count towards unlocks for SUPPORT, SPELLCASTER or
+COMMAND models. An Ogre Warband may select one additional SUPPORT or SPELLCASTER model to the normal limit.</description>
+    </rule>
+    <rule name="Inspiring (Goblin models only)" id="f27f-a107-2b95-d159" hidden="false" publicationId="a3d2-75b6-8c4e-cbde"/>
+    <rule name="CACKLE! (1)" id="5114-7b84-b23b-5d76" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
+    </rule>
+    <rule name="Ensnare" id="7161-27b3-c5fe-64c7" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Models attempting to Break Away from this model must re-roll successfull Armour rolls.</description>
+    </rule>
+    <rule name="DEFENSIVE SLAM (2)" id="e46a-d6bc-04bd-080f" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Use this ability when the Ogre Sergeant attacks a model in Melee. That model cannot Retaliate against any Melee attacks made by the Ogre Sergeant this Turn.</description>
+    </rule>
+    <rule name="TRIBAL DEFIANCE (2)" id="e25c-be75-3d27-a516" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Use at any time during one of your activations. Until the end of the Round, all friendly OGRE models gain one free bonus die each time they make an Armour roll in response to a Melee or Ranged attack.</description>
+    </rule>
+    <rule name="Intimidating" id="a333-d2f3-c75d-962b" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>When subjected to a Melee attack or in base contact with an Objective, an OGRE model may choose one non-LARGE model that it is Engaging. That model is ignored for determining Outnumbering or who may claim the Objective.</description>
+    </rule>
+    <rule name="HERE YOU GO BOSS (1)" id="40b9-6130-2358-57dc" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Use at any time while this model is unactivated, standing, un-Engaged and within 3” of a friendly OGRE model. Spend the Power and mark the RED GOBLIN as Activated. The OGRE gains one of the following rules for the remainder of the current Turn: 6th Sense, Marksman, Vicious, Regeneration (5+).</description>
+    </rule>
+    <rule name="Heavy Crossbow" id="7538-8a0c-2df1-2b2c" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>A model which takes damage from a Ranged attack by this weapon is marked as Fatigued.</description>
+    </rule>
+    <rule name="BOUNTY (2)" id="94c6-5bde-3612-95b9" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Once per game, spend the Power and take a long action to mark an enemy model within 12” and in Line of Sight with a Bounty token. For the remainder of the game all friendly OGRE models may add +1 die to any Melee attacks against enemy models with one or more Bounty Tokens.</description>
+    </rule>
+    <rule name="Fanatical Acolytes" id="b86d-7bc3-ad3f-ca95" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>When casting a spell, this model may re-roll one die for each standing Berserker Brave or Berserker Bully within 6”.</description>
+    </rule>
+    <rule name="Through the Legs" id="7f66-635f-33f4-13ca" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>This model may ignore friendly OGRE models when determining if it has LOS to make a qualifying charge.</description>
+    </rule>
+    <rule name="POINT BLANK (1)" id="901b-c485-28ac-59ee" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Spend the Power before making a Melee attack against an enemy model. The Boomer Sergeant may use its Sawn-Off Ranged attack from the facing in which the enemy model is Engaged. Note that it cannot also gain a bonus die for a qualifying Charge. This counts as a Ranged attack.</description>
+    </rule>
+    <rule name="Inspiring (Berserker Braves only)" id="e775-5985-f1f3-9f23" hidden="false" publicationId="a3d2-75b6-8c4e-cbde"/>
+    <rule name="BATTLE RAGE (2)" id="66d3-661b-3962-5e14" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>If this model can Engage an enemy model with a follow-up move, it may Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
+    </rule>
+    <rule name="TRIBAL AUTHORITY (1)" id="a1d0-8e09-8d52-8723" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Spend the Power at the start of an Activation by this model. This model may cast one Ogre Faction Special Spell during its Turn, as a normal cast action</description>
+    </rule>
+    <rule name="SEIZE THE MOMENT (2)" id="655a-e694-3497-7340" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Use this ability at the start of the Round, immediately after rolling for Power. The warband which finished the previous Round last, takes the first Turn this Round. Only useable once per game.</description>
+    </rule>
+    <rule name="SIEGE MENTALITY (1)" id="021c-dd71-6c73-e800" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Use at any time during this model’s Activation. For the remainder of the Round, while within 3” of the Siege Breaker, friendly models have the Dodge special rule.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Battle Fury (long)" id="1b32-27a2-3ffa-30c3" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="a29b-6eb5-ac8a-dc11" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Battle Fury (long)" id="4886-3c24-cabc-35e5" hidden="false" targetId="63f1-6e55-23d6-1160" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Battle Fury (long)" id="f489-bf45-d213-3316" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Might of the Tribes (long)" id="eacf-5b2c-564e-59a9" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="1c3b-70ec-18eb-d196" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Might of the Tribes (long)" id="58ee-8d71-7154-b8d4" hidden="false" targetId="e6e2-b696-5fb1-b56d" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Might of the Tribes (long)" id="7647-67d9-b5be-2640" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Boomer" id="bb18-9b8e-83e2-aeb5" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Reload" id="f00b-5da5-a5e1-a225" hidden="false" targetId="e403-0d82-dc63-2958" type="rule"/>
+        <infoLink name="Equipment - Piercing (1)" id="6e0c-46ce-1dbd-3d73" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Boomer" id="f1eb-7827-4425-0284" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">4D8, Piercing (1), Reload, Area Effect ( 3” / 2D8 / Piercing (1) )</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Heavy Crossbow" id="56c8-38a6-0bee-253a" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Reload" id="8af6-7d50-bad9-5d97" hidden="false" targetId="e403-0d82-dc63-2958" type="rule"/>
+        <infoLink name="Equipment - Piercing (2)" id="584e-4966-555e-ab17" hidden="false" targetId="66f1-9dc0-f0e2-4ae8" type="rule"/>
+        <infoLink name="Heavy Crossbow" id="3b98-d183-7591-75b3" hidden="false" targetId="7538-8a0c-2df1-2b2c" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Heavy Crossbow" id="8eb0-009b-bed9-4749" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">2D8, Piercing (2), Reload</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Sawn-off" id="5e5e-f238-8233-4b30" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Breath" id="01ad-f1cd-7a57-d009" hidden="false" targetId="4e7b-e090-b103-6569" type="rule"/>
+        <infoLink name="Equipment - Piercing (1)" id="2e65-b619-badb-3b3b" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Sawn-off" id="d889-7c43-ce3e-f05a" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">6&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">2D8, Piercing (1), Breath</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name=" Spellbook - Ogres (Free)" id="c033-2980-b549-f3c8" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="03a4-a588-3fb0-da16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Battle Fury (long)" id="f36b-4aef-a74e-a955" collective="false" hidden="false" import="true" targetId="1b32-27a2-3ffa-30c3" type="selectionEntry">
+          <constraints>
+            <constraint id="9285-c1d5-6340-c410" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Might of the Tribes (long)" id="caed-7d8c-0d37-27d3" collective="false" hidden="false" import="true" targetId="eacf-5b2c-564e-59a9" type="selectionEntry">
+          <constraints>
+            <constraint id="6708-9e72-e2df-c8f1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Ogres (Paid)" id="3614-4389-a100-7db2" collective="false" hidden="false" import="true">
+      <entryLinks>
+        <entryLink name="Battle Fury (long)" id="b7a2-9764-d049-d47b" collective="false" hidden="false" import="true" targetId="1b32-27a2-3ffa-30c3" type="selectionEntry">
+          <constraints>
+            <constraint id="0148-dbd9-79c0-1ae2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Might of the Tribes (long)" id="53e9-afca-e6fa-00ae" collective="false" hidden="false" import="true" targetId="eacf-5b2c-564e-59a9" type="selectionEntry">
+          <constraints>
+            <constraint id="14e2-7dff-76e8-eb63" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Ogre Warlock" id="d4fd-7e38-9f21-f0e9" collective="false" hidden="false" import="true">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="2d10-a6c2-eaa1-eba2" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Windblast (long)" id="1c31-94f8-d19c-447b" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink name="Fireball (short)" id="6e36-3e84-b43b-8cd0" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink name="Zap (short)" id="f830-763e-7997-39f3" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

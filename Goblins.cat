@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Goblins" id="90a1-0805-2d59-2786" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Goblin" id="54b6-fd45-6d0a-bcab" hidden="false"/>
+    <categoryEntry name="Troll" id="b0f0-86c7-ccee-7509" hidden="false"/>
+  </categoryEntries>
+  <publications>
+    <publication name="Rulebook" id="90a1-0805-pubN68594"/>
+  </publications>
+  <rules>
+    <rule name="FLEE! (1)" id="69ad-826c-44e8-9761" hidden="false">
+      <description>When an enemy model declares the intention to Engage a GOBLIN model, the GOBLIN model may elect to Flee unless it is already activated, Fatigued or Engaged. If the GOBLIN elects to FLEE, it moves before, and directly away from, the enemy model as far as possible with a free Walk action. It is then marked as Fatigued. If the enemy model can no longer reach the GOBLIN to Engage it, it may perform a Walk action (if it hasn’t already) and then its activation is over. This special ability is not limited to one use per Round.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="Rabble" id="7489-3233-a9c8-b929" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="6c47-452d-b81a-043d" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="b64b-78de-5a98-6ea1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Goblin" id="71f7-4e3f-21dd-2ea1" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="49e8-ee96-bd80-58ba" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="de19-1518-205f-0f6b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Spear" id="299d-8223-962a-fa13" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+          <constraints>
+            <constraint id="175d-ecac-4687-1cce" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sneaky" id="468d-051e-d3cb-4769" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Swarm" id="d3c7-145a-9615-4ed6" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="49e8-ee96-bd80-58ba" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Rabble" id="7f9e-78a0-4e87-536f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Spitter" id="b3c8-8d84-fb9b-3b2f" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="3168-bda2-72b5-0a93" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="6328-6a7b-f9fd-1f7f" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Goblin" id="0067-4282-9fec-5c33" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3777-ac8a-053b-96f0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="d46d-46e1-6370-692c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Bow" id="543b-dadb-fd92-abc8" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+          <constraints>
+            <constraint id="45a6-06c2-3a40-928e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="95ba-2391-1703-0f33" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier field="3777-ac8a-053b-96f0" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Spitter" id="0b82-cc52-0219-b37b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Luggit" id="4e92-57c3-9e49-9514" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="b7ed-a11d-d896-0877" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="0332-6288-47ae-58b3" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="d8cc-9e69-be5a-6af8" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Goblin" id="e758-7598-b746-7501" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="5c00-8e65-8fa7-229b" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="d521-2b35-0f91-368b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sneaky" id="79f5-b762-3127-1984" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="fa2f-d328-b31b-427f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Smash" id="6c39-4425-b00f-d692" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="5c00-8e65-8fa7-229b" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Luggit" id="9274-7f95-3605-9294" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Mawbeast" id="ebdb-51bc-c3a1-59ed" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="8438-8ce2-67de-28cd" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Beast" id="fe81-5e40-3eb7-eec8" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="86ff-0f15-faa8-eacf" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="HOWL! (1)" id="c813-a862-b934-3899" hidden="false" targetId="1e48-b698-f75f-8907" type="rule"/>
+        <infoLink name="Vicious" id="4fd0-c96b-ecfc-4f98" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="86ff-0f15-faa8-eacf" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="86ff-0f15-faa8-eacf" type="increment" value="2">
+          <conditions>
+            <condition childId="1af7-b1a4-4c3b-2d57" childName="Magwa &amp; Jo&apos;os" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Mawbeast" id="9dac-97a5-5176-6b41" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Troll" id="ec50-2bdc-3864-2472" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="da2e-d858-d376-0523" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Crushing Strength" id="e4f8-48e3-657e-63b6" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Has Regenerate" id="e092-98ee-58d9-a737" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Troll" id="f4ca-6009-5f25-2f9a" hidden="false" primary="false" targetId="b0f0-86c7-ccee-7509"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="4b07-b3ab-77c5-2cfa" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="7733-bb07-4e2d-1f94" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Pound" id="9825-5c0d-1cda-9879" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+        <infoLink name="Crushing Strength (2)" id="df4b-051a-7a47-005b" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="ffd6-9fdb-d476-ac90" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Vicious Swipe" id="dce9-dc12-9511-4baf" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="4b07-b3ab-77c5-2cfa" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Troll" id="fdc7-932f-7c04-5633" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Troll</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Banggit" id="1181-5c57-3949-2788" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="8e50-a73f-724a-d3fb" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Goblin" id="b48f-3b49-3549-caa6" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="2a37-840d-d466-2d69" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Dodgy Grenades" id="5fc9-72a6-4fa6-5d47" collective="false" hidden="false" import="true" targetId="f266-69c9-276c-6e6c" type="selectionEntry">
+          <constraints>
+            <constraint id="46fd-a690-0fff-4ff5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="112e-46c2-ea28-ee60" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="36a2-f709-0810-edf0" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Dodge" id="50a2-6f32-1a1c-6c79" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink name="Sneaky" id="efd4-e1cd-4012-f6a9" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Weapon - DODGY GRENADES (x)" id="2bae-9457-036c-534c" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="2a37-840d-d466-2d69" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banggit" id="fb0e-e482-006f-ede2" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Wiz" id="4805-5858-0499-cb12" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="9b52-e8b9-4bd4-773e" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Goblin" id="47d9-cc01-41fc-0b32" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="aa9e-7197-7830-d53e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Spellbook - Basic Wiz" id="4807-949c-e384-7168" collective="false" hidden="false" import="true" targetId="1a31-45a4-51fa-961e" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="3f38-886d-1972-255d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="e75e-11e6-aeb1-559b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+          <modifiers>
+            <modifier field="e75e-11e6-aeb1-559b" type="decrement" value="1">
+              <repeats>
+                <repeat childId="1c71-d065-6a11-665a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="4805-5858-0499-cb12" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="3f38-886d-1972-255d" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="4805-5858-0499-cb12" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Spellbook - Goblins (Free)" id="1c71-d065-6a11-665a" collective="false" hidden="false" import="true" targetId="a7a8-a7fb-2ab5-11ad" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Corrupt" id="fe8e-0e14-d990-e532" collective="false" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name=" Items" id="c63b-93dc-59e7-6814" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Goblins (Paid)" id="f49a-f380-9101-1651" collective="false" hidden="false" import="true" targetId="6acc-99dc-a694-7385" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="CACKLE! (1)" id="edc3-2837-a0e3-4109" hidden="false" targetId="fed1-eaba-a309-3d60" type="rule"/>
+        <infoLink name="Power Dice Red (1)" id="7d3b-6032-0f86-6e90" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Inspiring" id="0484-36ea-eaf7-dcc7" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="aa9e-7197-7830-d53e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Wiz" id="623f-b8bc-466b-890b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Biggit" id="7af8-3b3c-9bd0-0da2" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="81f5-b75f-5846-ae8c" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="4e6e-d7df-7ce6-deeb" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Goblin" id="a87b-c8b9-9c44-f1a1" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="95d1-830c-d4c1-776f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="60fa-3745-25df-8f89" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sneaky" id="5da5-ebe2-18e1-0f27" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Inspiring" id="587f-0b84-6a7a-2b91" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="3886-8052-37d9-6737" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Power Dice Red (2)" id="b75f-fe64-118e-b88a" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="95d1-830c-d4c1-776f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Biggit" id="6f9f-6a10-8412-c26e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Stinggit" id="a9f7-6679-d674-f1d6" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="e87f-2182-5233-6f2a" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Goblin" id="321d-fde6-12bb-ba71" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="08fe-537e-f25c-36aa" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="e3a4-cee5-0f25-8683" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Throwing Knife" id="8674-5764-7293-fb7f" collective="false" hidden="false" import="true" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
+          <constraints>
+            <constraint id="7266-65d3-3849-63a0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="1209-4a86-d767-5085" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sneaky" id="a181-96b9-54f5-90cf" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Inspiring ( Sneaks Only )" id="e0c5-fd89-a1ac-6889" hidden="false" targetId="03ff-213e-65cd-5787" type="rule"/>
+        <infoLink name="Power Dice White (1)" id="8c16-a46e-3222-6095" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Scout" id="533e-0261-f112-0beb" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+        <infoLink name="Stealthy" id="d937-6567-ee61-7d3c" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="ESCAPE! (2)" id="96e1-1411-1db3-3059" hidden="false" targetId="9c8f-f12c-f9a4-3cfe" type="rule"/>
+        <infoLink name="AGILE FEINT (2)" id="51a3-91a1-a28e-9dc7" hidden="false" targetId="6166-35dc-3536-4da4" type="rule"/>
+        <infoLink name="POISON BLADES (1)" id="3b2f-537a-cd8a-4340" hidden="false" targetId="e10e-8c3c-e71d-dce7" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="08fe-537e-f25c-36aa" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Stinggit" id="1b0c-c5c1-bb9f-f11b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Sneak" id="c180-7915-a812-9504" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="e5e7-b2e9-3897-dd4d" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="7db2-cdeb-0ce8-832a" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Goblin" id="17d3-f998-d43c-dceb" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="4f54-e736-6975-a717" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="adfe-2e45-3b4c-adf1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Throwing Knife" id="e10f-08f7-c9ca-797b" collective="false" hidden="false" import="true" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
+          <constraints>
+            <constraint id="c238-1374-57de-e6cf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="16d7-d89a-0eb3-4868" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sneaky" id="8cd2-90ff-fd94-987b" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Pathfinder" id="604f-c7be-014c-b8ad" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="Smokebombs" id="3f70-bb2e-7746-501f" hidden="false" targetId="0411-af6c-8d01-c995" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="4f54-e736-6975-a717" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Sneak" id="2600-1cb6-e3e0-808e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Winggit" id="d62a-0b20-ff32-cd66" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="af7b-39e7-aa81-9911" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Goblin" id="6a78-f2e7-35be-cf84" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Machine" id="f9f4-d71d-c903-1e99" hidden="false" primary="false" targetId="f2ce-7a17-00cb-6f89"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0ac5-e4b8-9655-a012" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Firebombs" id="c0cd-2f5a-2e69-9d2b" collective="false" hidden="false" import="true" targetId="c914-d44c-c7cb-1086" type="selectionEntry">
+          <constraints>
+            <constraint id="3da5-cbb4-91a3-3b35" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="86cf-d23d-592d-2c98" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fly" id="da7b-abbb-36e8-d3c8" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
+        <infoLink name="Eye in the Sky" id="73cc-280a-2761-1dd1" hidden="false" targetId="183e-368f-a5b5-79f6" type="rule"/>
+        <infoLink name="Implacable" id="002d-2736-9710-c699" hidden="false" targetId="afa2-2e2c-3747-941a" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="0ac5-e4b8-9655-a012" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Winggit" id="096d-2fc5-fdac-8f53" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">8+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Machine</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Blaggit" id="ba79-c641-953d-57ca" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="b40d-da0d-1886-c90d" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Goblin" id="8bcb-1fea-8f8d-cbc1" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="5a06-3f19-01a5-2226" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="72fe-0999-86e7-24c9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sneaky" id="246b-ffac-4287-91b8" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Scout" id="e4e7-0c0b-3783-4814" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+        <infoLink name="Stealthy" id="1919-fd10-e4df-3295" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="CRAFTY TACTICS (1)" id="f393-70ee-f9f0-7483" hidden="false" targetId="f069-d718-acca-4da0" type="rule"/>
+        <infoLink name="Dodge" id="e0d9-aa84-595a-89c8" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink name="Rabble Rouser" id="5a1e-7ec1-0d72-c3da" hidden="false" targetId="8a2f-0ad0-f85c-fc9a" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="5a06-3f19-01a5-2226" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Blaggit" id="38e0-3f6e-670c-1ca7" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Mawpup Launcher" id="93ea-291e-3728-4920" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="925a-1dfd-3dde-dd43" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Goblin" id="2f03-8d18-e54e-50a6" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="f823-231f-2d12-0ffe" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Mawpup Launcher" id="5730-ec4b-7771-27eb" collective="false" hidden="false" import="true" targetId="cde4-1b90-3acc-3f7a" type="selectionEntry">
+          <constraints>
+            <constraint id="84f6-69d7-252c-6945" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7ad8-63ce-65a6-e74a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="faf8-32f5-081e-24f4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Pup and Over" id="5db7-e9ef-36e3-70d2" hidden="false" targetId="a2e4-0d9d-e4de-44a5" type="rule"/>
+        <infoLink name="PUPPY YELP! (1)" id="9f51-46de-2d03-444a" hidden="false" targetId="23ac-910e-f5bc-3598" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="f823-231f-2d12-0ffe" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Mawpup Launcher" id="8d25-bb97-20c9-e7da" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">7+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Snaggit" id="b03e-bb32-c7e5-1a6a" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="116f-9d06-5615-d8de" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Goblin" id="cd8c-d435-64fe-d13b" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="8e8a-649a-7254-0d5d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="2426-6ed0-0fed-db73" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Dastardly Traps" id="3dd3-86b7-e71e-96ec" collective="false" hidden="false" import="true" targetId="b650-452b-e4f2-a3ad" type="selectionEntry">
+          <constraints>
+            <constraint id="6535-3d93-bd95-6f5b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="28f2-64be-4649-453f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sneaky" id="bfe7-ed0c-b9e3-4f8c" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Pathfinder" id="648b-1945-ee51-5d90" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="8e8a-649a-7254-0d5d" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Snaggit" id="a924-87aa-2d8e-a91d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Dast" id="6af0-035c-5e2c-9e0e" hidden="false">
+          <description>As a short action, this model may place a 25mm trap marker anywhere within 6” in Open Ground or Difficult Terrain but not within 6” of another trap marker or 3” of an enemy model. When an enemy model moves within 3” of a trap marker, it immediately suffers a 2D8 Me 5+ attack with Crushing Strength (1). The target model is marked as Fatigued if it suffers any wounds. The trap marker is then removed. A Warband can have a maximum of 4 Dastardly Trap markers on the table at any time.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry name="Magwa &amp; Jo&apos;os" id="1af7-b1a4-4c3b-2d57" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="adb4-d5a3-a372-c1f0" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="a628-aa0b-2bf7-d6e9" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Goblin" id="8676-0f2e-c2b3-3252" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Beast" id="e70a-39a7-11ce-4b64" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="6ee5-2b2b-13a8-3824" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Vicious" id="4303-3301-890e-2695" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Inspiring (Beasts only)" id="48b6-e9c3-c82a-9aac" hidden="false" targetId="fe66-a62b-ddab-fa89" type="rule"/>
+        <infoLink name="Power Dice White (1)" id="3f79-b798-2b62-ef5c" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Pack Leader" id="825f-0263-b1e6-2983" hidden="false" targetId="5f0c-936a-2cf6-fb0b" type="rule"/>
+        <infoLink name="ALPHA HOWL! (2)" id="a6ca-9165-f59a-4f7c" hidden="false" targetId="e9c5-4826-b65e-0a04" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="9157-310b-f67e-2b1e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Magwa &amp; Jo&apos;os" id="8106-2166-a184-ac9d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin, Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Kuzlo &amp; Madfall" id="414d-3c77-3b2e-6b55" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="af89-391f-1b32-8827" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Cavalry" id="84b3-a327-02f1-167f" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Goblin" id="bb6c-af50-aa85-b5df" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="742c-628d-4f11-02c8" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="46"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="a5b1-1acb-24e8-6383" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Corrupt" id="6bc9-f132-e456-dabb" collective="false" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Goblins (Free)" id="82d0-12f2-e4b7-abb9" collective="false" hidden="false" import="true" targetId="a7a8-a7fb-2ab5-11ad" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Goblins (Paid)" id="7696-6af6-8249-8d99" collective="false" hidden="false" import="true" targetId="6acc-99dc-a694-7385" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Inspiring" id="9118-7150-0cab-8805" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Dodge" id="6b01-72c2-b219-24d5" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink name="6th Sense" id="11da-6f8a-f0a7-f044" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
+        <infoLink name="Cavalry" id="c624-3e7e-a126-3aba" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink name="Power Dice White (1)" id="bb3a-1b39-4206-f7a2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Kuzlo &amp; Madfall" id="1aa3-7da8-d722-9f01" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Spell Siphon (2)" id="53be-d00a-0ab2-256c" hidden="false">
+          <description>This model can choose to cast any one spell known by an enemy spellcaster within 9&quot; and LOS. The siphoned spell is cast with its original action length, range, dice and effects. Siphoned spells cannot be boosted.  The enemy model can continue to use the same spell in their own Turn as normal.</description>
+        </rule>
+        <rule name="Gobble" id="71e1-1d24-06e4-97c3" hidden="false">
+          <description>When this model achieves a hit with all its dice in a single Melee attack against GRUNT or WARRIOR of height 2 or less, the enemy model is removed from play as a casualty. No armour save is allowed.</description>
+        </rule>
+      </rules>
+      <selectionEntryGroups>
+        <selectionEntryGroup name=" Spellbook - Basic Kuzlo" id="58f2-fdea-da85-14fc" collective="false" hidden="false" import="true" page="41" publicationId="37f5-f8f9-pubN68000">
+          <categoryLinks>
+            <categoryLink name="Spellcaster" id="0f85-ead3-02a1-0aff" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+          </categoryLinks>
+          <constraints>
+            <constraint id="9117-e14e-24b8-b2a0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="db1d-c971-ab45-acc4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Zap (short)" id="dbad-b0bb-26be-b0c1" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry">
+              <constraints>
+                <constraint id="434d-0e91-1f47-5e16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier field="db1d-c971-ab45-acc4" type="decrement" value="1">
+              <repeats>
+                <repeat childId="82d0-12f2-e4b7-abb9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="414d-3c77-3b2e-6b55" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="9117-e14e-24b8-b2a0" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="414d-3c77-3b2e-6b55" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry name="Summon Familiar (short)" id="0bd7-aaa6-563e-bb95" collective="false" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="e9ae-faa1-c5dc-cdeb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+              </costs>
+              <modifiers>
+                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+              </modifiers>
+              <profiles>
+                <profile name="Summon Familiar (short)" id="4a8f-0853-4ba1-1e80" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c023-a997-9c10-c42c">Self</characteristic>
+                    <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+                    <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                    <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+                    <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="HOWL! (1)" id="1e48-b698-f75f-8907" hidden="false">
+      <description>Use when the model activates or after it has finished its actions. Any friendly, non-Fatigued and non-activated Mawbeasts within 6” of this model can immediately make a Walk action directly towards this model without being marked as activated. An individual Mawbeast can only Howl! once per Round.</description>
+    </rule>
+    <rule name="Vicious Swipe" id="6b03-4684-97f3-c6a9" hidden="false">
+      <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
+    </rule>
+    <rule name="Weapon - DODGY GRENADES (x)" id="3337-2f17-f0ea-8545" hidden="false">
+      <description>Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X)) Pay (X) power to make a Ranged attack with the Dodgy Grenades. Before the attack is made, roll a single die and add (X) to the result. On a result of 8 or more, the grenade explodes before being thrown - the Banggit suffers 1 automatic hit with Piercing (X) and the ranged attack fails. Otherwise, the attack proceeds as normal with Piercing (X).</description>
+    </rule>
+    <rule name="CACKLE! (1)" id="fed1-eaba-a309-3d60" hidden="false">
+      <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
+    </rule>
+    <rule name="Spell - Slink" id="40ae-7df8-1e18-ce14" hidden="false">
+      <description>Target a friendly GOBLIN model, with a -1 modifier on the roll. If a hit is scored, instead of suffering a wound, the target model removes any Activation counter on it and can be activated again this Round in a later Turn.</description>
+    </rule>
+    <rule name="Spell - Shrivel" id="69c1-f427-8071-25ff" hidden="false">
+      <description>For each hit scored, the target suffers a -1 modifier to any Melee or Ranged attack it makes until the end of the Round.
+
+Boosted version: 
+
+Cast as a long action instead. The spell rolls 3D8 rather than 2D8.</description>
+    </rule>
+    <rule name="AGILE FEINT (2)" id="6166-35dc-3536-4da4" hidden="false">
+      <description>Use this ability after a model has made a Melee attack and after any Retaliation.  The model may make a free Break Away action.</description>
+    </rule>
+    <rule name="ESCAPE! (2)" id="9c8f-f12c-f9a4-3cfe" hidden="false">
+      <description>The same as the Flee! warband ability, but may be used even if the model is already Activated or Fatigued.  However, Escape! is limited to one use per round for this model.</description>
+    </rule>
+    <rule name="POISON BLADES (1)" id="e10e-8c3c-e71d-dce7" hidden="false">
+      <description>Use this ability when the model makes a Ranged Attack with his Throwing Knives.  The attack has the Piercing (1) rule.</description>
+    </rule>
+    <rule name="Inspiring ( Sneaks Only )" id="03ff-213e-65cd-5787" hidden="false"/>
+    <rule name="Smokebombs" id="0411-af6c-8d01-c995" hidden="false">
+      <description>This model can always Break Away without having to make any Armour rolls.</description>
+    </rule>
+    <rule name="Eye in the Sky" id="183e-368f-a5b5-79f6" hidden="false">
+      <description>Friendly models (excluding the Winggit itself) making Ranged attacks against enemy models that are within 9&quot; of the Winggit always have clear LOS unless LOS is blocked.</description>
+    </rule>
+    <rule name="Implacable" id="afa2-2e2c-3747-941a" hidden="false">
+      <description>This model cannot be Knocked-down for any reason and remains standing if any rule requires it to be Knocked-down.</description>
+    </rule>
+    <rule name="Rabble Rouser" id="8a2f-0ad0-f85c-fc9a" hidden="false">
+      <description>While within 6&quot; of this model, friendly GOBLIN models (not including the Blaggit) have their Nerve value improved by 1 (e.g. +6 becomes 5+ ).</description>
+    </rule>
+    <rule name="CRAFTY TACTICS (1)" id="f069-d718-acca-4da0" hidden="false">
+      <description>Use this ability during any of your Turns if this model is not Fatigued. Spend the power to remove 1 Fatigue counter from a friendly model within 6&quot; of this model. This ability may be used once per round.</description>
+    </rule>
+    <rule name="PUPPY YELP! (1)" id="23ac-910e-f5bc-3598" hidden="false">
+      <description>Use this ability after a Ranged attack using the Mawpup Launcher has been resolved. Any friendly, non-Fatigued and non-activated Mawbeasts within 6&quot; of the target can immediately make a Walk action directly towards the target without being marked as activated.</description>
+    </rule>
+    <rule name="Pup and Over" id="a2e4-0d9d-e4de-44a5" hidden="false">
+      <description>This model has the Marksman special rule when making a Ranged attack against a target that is within 9&quot; of a friendly Winggit.</description>
+    </rule>
+    <rule name="Weapon - Dastardly Traps" id="a2e1-d7a5-624c-dbf8" hidden="false">
+      <description>As a short action, this model may place a 25mm trap marker anywhere within 6&quot; in Open Ground or Difficult Terrain but not within 6&quot; of another trap marker or within 3&quot; of an enemy model. When an enemy model moves within 3&quot; of a trap marker, it immediately suffers a 2D8 Me 5+ attack with Crushing Strength (1). The target model is marked as Fatigued if it suffers any wounds. The trap marker is then removed. A warband can have a maximum of 4 Dastardly Trap markers on the table at any time.</description>
+    </rule>
+    <rule name="ALPHA HOWL! (2)" id="e9c5-4826-b65e-0a04" hidden="false">
+      <description>This is a group Assault Action. Magwa &amp; Jo&apos;os must the nominated group leader. All the members of the group have the Bloodlust special rule until the end of the turn.</description>
+    </rule>
+    <rule name="Pack Leader" id="5f0c-936a-2cf6-fb0b" hidden="false">
+      <description>You may take up two additional Mawbeast units in your Warband beyond those normally allowed in the Warband selection rules.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Slink (short)" id="2335-9511-3f2b-6927" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="f82d-75d2-cae6-6e10" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="64d2-690d-9e2c-eba2" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Slink" id="37fc-f8c3-894e-4c46" hidden="false" targetId="40ae-7df8-1e18-ce14" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Slink (short)" id="4564-fe29-d32e-0296" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Shrivel (short)" id="de79-50fc-40a7-baa3" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="af03-770e-989e-eb18" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="c95c-2b2a-e8ac-7976" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Shrivel" id="5686-c489-b478-a12a" hidden="false" targetId="69c1-f427-8071-25ff" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Shrivel (short)" id="ef5e-8fc9-6848-c0ed" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Dodgy Grenades" id="f266-69c9-276c-6e6c" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Weapon - DODGY GRENADES (x)" id="6843-0a1a-63bc-6f08" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Dodgy Grenades" id="a03e-59ee-5e9f-782a" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">6&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (X), Area Effect (2” / 1D8 / Piercing (X))</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Throwing Knife" id="73a7-6dbd-4dfa-a544" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Throwing Knife" id="871a-7f8d-2510-3eb3" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Firebombs" id="c914-d44c-c7cb-1086" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Piercing (2)" id="9753-9f98-6614-7d2e" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Firebombs" id="7c0e-a58e-741e-2eaa" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (2), Area Effect (2” / 2D8)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Mawpup Launcher" id="cde4-1b90-3acc-3f7a" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Piercing (1)" id="785a-2c50-b25f-f0f5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Reload" id="f96e-3c99-3298-c9b9" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Mawpup Launcher" id="801c-572e-78e8-18c7" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">18&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1), 4D8, Reload</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Dastardly Traps" id="b650-452b-e4f2-a3ad" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Dastardly Traps" id="1530-9a96-75d7-608b" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
+          <characteristics>
+            <characteristic name="Rules" typeId="71ed-d60e-e323-198b">2D8 Me 5+,  Crushing Strength (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name=" Spellbook - Goblins (Free)" id="a7a8-a7fb-2ab5-11ad" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="b1bc-bb15-68b1-f133" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Shrivel (short)" id="271e-d303-7eee-a60f" collective="false" hidden="false" import="true" targetId="de79-50fc-40a7-baa3" type="selectionEntry">
+          <constraints>
+            <constraint id="d386-fd56-e2a6-b9cc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Slink (short)" id="74a8-54bf-9e09-8146" collective="false" hidden="false" import="true" targetId="2335-9511-3f2b-6927" type="selectionEntry">
+          <constraints>
+            <constraint id="81ed-1851-3d50-b3cd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Basic Wiz" id="1a31-45a4-51fa-961e" collective="false" hidden="false" import="true" page="41" publicationId="90a1-0805-pubN68594">
+      <entryLinks>
+        <entryLink name="Stun (short)" id="c505-c817-5d8e-f568" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry">
+          <constraints>
+            <constraint id="ab72-a29b-8e07-e4b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Zap (short)" id="68dc-4834-d360-fbcc" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry">
+          <constraints>
+            <constraint id="3ce3-2690-d927-a05a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Goblins (Paid)" id="6acc-99dc-a694-7385" collective="false" hidden="false" import="true">
+      <entryLinks>
+        <entryLink name="Shrivel (short)" id="0dab-c9d9-728c-b233" collective="false" hidden="false" import="true" targetId="de79-50fc-40a7-baa3" type="selectionEntry">
+          <constraints>
+            <constraint id="f4f9-5c3a-554e-606b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Slink (short)" id="fd51-37f4-4f47-b346" collective="false" hidden="false" import="true" targetId="2335-9511-3f2b-6927" type="selectionEntry">
+          <constraints>
+            <constraint id="7eb1-f099-ea0a-3855" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

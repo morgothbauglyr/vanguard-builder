@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Salamanders" id="6a64-c3e7-75aa-c9d0" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Salamander" id="6b7c-7596-f6d2-7b04" hidden="false"/>
+    <categoryEntry name="Ghekkotah" id="a3cb-4a4b-9100-7648" hidden="false"/>
+  </categoryEntries>
+  <infoLinks>
+    <infoLink name="FLAMES OF KTHORLAQ (1)" id="f35d-cf67-42ae-28d4" hidden="false" targetId="ae06-a1c5-957a-754b" type="rule"/>
+    <infoLink name="KTHORLAQ&apos;S HONOUR (1)" id="8860-4a67-86cb-29d5" hidden="false" targetId="f0b8-f22c-622b-023f" type="rule"/>
+  </infoLinks>
+  <publications>
+    <publication name="Rulebook" id="6a64-c3e7-pubN69392"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry name="Fire Elemental" id="f5b8-0675-fa65-778a" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="78d2-d514-fe97-4362" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Regenerate" id="621f-6f64-5525-e4ce" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Elemental" id="297b-26ca-ddf5-e561" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="04e0-3427-c9f1-4820" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="519b-ead7-e37a-ffb1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Elemental Fire" id="e8b2-77c0-6525-73f0" collective="false" hidden="false" import="true" targetId="2346-5110-1b46-3636" type="selectionEntry">
+          <constraints>
+            <constraint id="9a1d-6486-50cb-1e45" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5656-a314-3618-047a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Regenerate (6+)" id="d143-ea9d-bf78-6352" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Power Dice Red (1)" id="346e-c02d-eff0-4d8f" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="NATURE&apos;S INFERNO (2)" id="9724-9075-889e-6039" hidden="false" targetId="d242-3681-db0e-f4eb" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="04e0-3427-c9f1-4820" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Fire Elemental" id="2e5e-4398-0378-66bd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Lekelidon" id="f5a2-3dc6-9e1d-4ecd" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="5da7-7310-ad85-d0fc" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Beast" id="c665-acb8-4d9e-8032" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="a9c3-b263-6dee-07a0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Acid Spit" id="54c6-be62-e16a-4356" hidden="false" import="true" targetId="3ae3-3a74-193d-2b3b" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="LEAP OF DEATH (1)" id="51c2-8b3d-1acb-a214" hidden="false" targetId="8b66-2b73-1c95-59cc" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="a9c3-b263-6dee-07a0" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Lekelidon" id="d1e4-87c9-b303-6e79" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Corsair" id="a656-082c-5561-d787" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="39e5-1897-9f2f-c150" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Has Crushing Strength" id="afd8-f4c8-5d28-1dd1" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Salamander" id="5d80-3b67-b51a-3b40" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="e1e4-c98a-14af-6697" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="21"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="def1-d479-5c74-d0e0" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Pistol" id="debb-3f9e-5647-29da" collective="false" hidden="false" import="true" targetId="5235-9816-1af9-0f07" type="selectionEntry">
+          <constraints>
+            <constraint id="2bc3-ae7c-1f2f-e7f5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="240a-bfdd-48c3-cebd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Blazing Brands" id="a54c-1c65-06be-c076" hidden="false" targetId="a7aa-6bbd-9d27-6f54" type="rule"/>
+        <infoLink name="GUN SMOKE (1)" id="e1c2-d118-30e8-6f5d" hidden="false" targetId="74ed-1e07-5ea2-71eb" type="rule"/>
+        <infoLink name="Scout" id="6fd5-cbc2-9ade-6391" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="b4d1-b08d-d739-e87d" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="e1e4-c98a-14af-6697" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Corsair" id="8855-cc31-4399-c573" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Firebrand" id="965b-1ef2-c230-33f7" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="3aeb-16ce-9cf2-b5b9" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="fe27-f28f-0471-e394" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Has Regenerate" id="789f-2954-637b-66f9" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Salamander" id="8a01-0ce5-291a-b692" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="4eb0-b782-1772-2847" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="4290-dcbe-30e9-e20c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Pistol" id="96b4-dc0e-fd49-5e29" collective="false" hidden="false" import="true" targetId="5235-9816-1af9-0f07" type="selectionEntry">
+          <constraints>
+            <constraint id="4146-3513-0b37-6b77" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7c37-e2d0-308e-bdec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice White (1)" id="2fea-64c2-a40d-0de1" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Vicious" id="e537-ef1e-65ad-f8b1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Regenerate (7+)" id="f8d9-6007-fd5f-b24f" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="c6be-0ddb-dd6a-18e4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="6th Sense" id="16dd-d825-8586-62ea" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
+        <infoLink name="Scout" id="be3b-a291-7df4-bf54" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+        <infoLink name="Salamander Legend" id="97df-9d96-77f1-a0c3" hidden="false" targetId="1131-ad33-a947-c46b" type="rule"/>
+        <infoLink name="Riposte" id="fec7-162f-e20a-cf19" hidden="false" targetId="0192-ff68-06dc-c8f2" type="rule"/>
+        <infoLink name="RAPID FIRE (2)" id="97f7-43a8-d585-5a80" hidden="false" targetId="dfb2-52f2-75ef-9a99" type="rule"/>
+        <infoLink name="Fancy Swordplay" id="8995-7803-3cb8-50ef" hidden="false" targetId="94bd-cfc3-53b9-b61a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Firebrand" id="4c79-84da-ab7d-ae02" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Salamander Prime" id="15d9-223b-5397-dc5f" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="8880-5f71-b000-f603" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Has Crushing Strength" id="494c-3031-7487-f91a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Troop" id="16cc-f497-81bf-17d0" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Salamander" id="6166-e5b5-ecfa-3ea9" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="c714-fdca-8bcd-6d6f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="a79c-d41d-72bd-cc18" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Two-handed Weapon" id="b5f7-25b7-a0dc-f668" collective="false" hidden="false" import="true" targetId="a92e-488d-72b3-41c0" type="selectionEntry">
+          <constraints>
+            <constraint id="61f8-e33d-cb74-4258" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="2"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="8a38-5279-3c4e-1fa0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Headstrong" id="4f72-1a7a-4053-0226" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="c714-fdca-8bcd-6d6f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Salamander Prime" id="c1e7-fdc1-e59c-b188" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Salamander Unblooded" id="b4e7-de81-8b2e-2577" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="1d00-86a3-3562-5fcc" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="3d9d-9078-4962-c698" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="c745-fcca-a126-26d5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Salamander" id="bb5f-2dda-f69b-2305" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3179-69ae-b8a6-043c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="c10e-578a-215f-e11c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+        <constraint id="1eb9-bf6a-cf2c-9441" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="fc17-c911-230b-2967" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="181e-ac54-6b8a-df22" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="1eb9-bf6a-cf2c-9441" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Salamander Unblooded" id="e13b-b0d4-b8a7-fdbc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Mage-Priest" id="d6c9-89a9-656a-53d4" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="9e3f-cc8e-f337-de4d" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Salamander" id="57b2-456a-be70-7ca1" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="aea2-7d62-b57b-39b8" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="03cb-24b4-3c32-419e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basic Mage-Priest" id="68a1-192d-d8d9-5f56" collective="false" hidden="false" import="true" targetId="73c3-a16b-3edf-b20e" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="6676-ffc2-1a61-eebe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="16f8-4ce3-4f4e-5194" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+          <modifiers>
+            <modifier field="6676-ffc2-1a61-eebe" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="d6c9-89a9-656a-53d4" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="16f8-4ce3-4f4e-5194" type="decrement" value="1">
+              <repeats>
+                <repeat childId="c97d-225f-e168-e62e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="d6c9-89a9-656a-53d4" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Spellbook - Noble" id="a84c-001e-28c4-4206" collective="false" hidden="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Salamanders (Paid)" id="00f1-5cd8-873b-8632" collective="false" hidden="false" import="true" targetId="46c9-779a-fc90-96ee" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Salamanders (Free)" id="2aab-d3c4-019d-1ee3" collective="false" hidden="false" import="true" targetId="c97d-225f-e168-e62e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="INNER FIRE (2)" id="d1b9-fbc9-e9e4-4107" hidden="false" targetId="0bce-0fe3-2d49-6bfd" type="rule"/>
+        <infoLink name="Power Dice Red (2)" id="91b7-a19e-a082-71a2" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="HEALING FLAME (2)" id="e38b-418b-8f23-77ce" hidden="false" targetId="496a-d729-dd3c-71b4" type="rule"/>
+        <infoLink name="Elemental Fuel" id="4a56-f6df-6e95-9868" hidden="false" targetId="34d6-4f22-1438-3f01" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="aea2-7d62-b57b-39b8" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Mage-Priest" id="dbf2-c4bb-6e94-4f99" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ghekkotah Hunter" id="f0e8-3378-dd07-3e8b" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Troop" id="09bb-de25-27f8-efc0" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Grunt" id="11fe-2f92-5a1a-271e" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Ghekkotah" id="4f0e-39e3-c0f0-559d" hidden="false" primary="false" targetId="a3cb-4a4b-9100-7648"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="7c32-46ef-d8e2-dc2e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="a1db-8a78-508d-bcab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Blowpipe" id="aa80-84e5-21a3-2327" collective="false" hidden="false" import="true" targetId="9692-4901-30f6-771e" type="selectionEntry">
+          <constraints>
+            <constraint id="b6b0-38ab-6609-5359" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="4305-efc0-1363-c690" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Marksman" id="e61c-8e33-b2c7-ae0c" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="Stealthy" id="a52d-e5d2-ed61-1ca8" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Pathfinder" id="574c-89e1-5562-2d86" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="SHIFTING SCALES (1)" id="f7dd-df79-642e-59dc" hidden="false" targetId="f6b6-b024-a559-f35a" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="7c32-46ef-d8e2-dc2e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ghekkotah Hunter" id="4c18-633e-7a1c-e4ec" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">7+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ghekkotah</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Battle-Captain" id="54e7-a866-9f2a-4bb7" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="a237-7482-fbb6-f520" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="49b2-b196-489a-43fc" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Salamander" id="a5da-9e8e-b176-2f0f" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="7f1e-0d7f-5d30-917e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="bd62-2ba1-c5cc-bb29" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="537a-3f4a-1448-816e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Headstrong" id="c661-2326-3c15-2b08" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+        <infoLink name="Inspiring" id="12ab-3619-4f7b-eda4" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Steady" id="de5f-2afd-dad4-1f47" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Power Dice White (1)" id="18bb-1fe5-7935-8ad2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="SLAMBACK (1)" id="57e7-c7b8-78b8-6667" hidden="false" targetId="4a69-6bb9-8169-f08d" type="rule"/>
+        <infoLink name="EVASIVE MANOUVRES (2)" id="b3fb-e0d3-95e3-ae5a" hidden="false" targetId="48ba-36be-ba96-ecb5" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="7f1e-0d7f-5d30-917e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Battle-Captain" id="ca28-f0b9-7d39-2013" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Salamander Veteran" id="88a0-baa1-649b-c645" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Has Crushing Strength" id="2140-78a7-b5a1-e7c7" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Troop" id="a9d9-c6f5-75ad-6175" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Salamander" id="af5d-d10e-5896-dd7d" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Warrior" id="4313-ce49-e4fb-9cb4" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="124a-34c1-5efd-5050" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="27c2-b6ef-9d1a-187b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="3a5d-383e-8474-cdf8" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Inspiring (Grunts &amp; Warriors only)" id="b7a1-a91d-d93e-7fc1" hidden="false" targetId="393c-e681-96ad-82c7" type="rule"/>
+        <infoLink name="ORDEAL OF FIRE (2)" id="d2c1-9dd9-ffe1-396c" hidden="false" targetId="d7ce-eaee-28a9-c98f" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="124a-34c1-5efd-5050" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Salamander Veteran" id="91c4-6cb7-9198-d0f6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ghekkotah Warrior" id="eeb4-dae2-8388-bf16" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Troop" id="8c4e-83a7-6e13-fea7" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Ghekkotah" id="1e0d-7c7a-5937-4e6a" hidden="false" primary="false" targetId="a3cb-4a4b-9100-7648"/>
+        <categoryLink name="Grunt" id="e714-ee79-a76b-4312" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="33e3-0a70-64d2-75a2" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="4100-2115-708c-c954" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="SHIFTING SCALES (1)" id="c31a-f860-2d23-2fdb" hidden="false" targetId="f6b6-b024-a559-f35a" type="rule"/>
+        <infoLink name="Pathfinder" id="0ee6-cb07-f2b3-a63f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="Stealthy" id="4329-c68c-c7db-0dd8" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Vicious" id="1e6f-6319-dbf9-ffaf" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="33e3-0a70-64d2-75a2" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ghekkotah Warrior" id="a1ed-50d7-b487-d7bd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Gekottah</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ceremonial Guard" id="476f-5e00-24e8-0540" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="d034-d9e8-865e-0259" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Salamander" id="8bac-a05a-d849-dd66" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Has Crushing Strength" id="1c4f-b25c-437a-8cb6" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3167-d83c-2c11-18d2" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="cc67-55ea-119d-7002" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Brothers in Arms" id="fb06-35d4-0c73-dfcc" hidden="false" targetId="0007-21d3-a56c-c645" type="rule"/>
+        <infoLink name="Rekindle the Embers" id="face-bb2f-a2ed-5d20" hidden="false" targetId="3429-95d3-0f47-64ca" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="4d04-021f-9042-7267" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Headstrong" id="84ec-3bab-8522-c1f1" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+        <infoLink name="Parry" id="14ba-6ae8-1e9f-0478" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
+        <infoLink name="Vicious" id="64d2-a2b5-f1bd-890f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="3167-d83c-2c11-18d2" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ceremonial Guard" id="e5c8-2b0e-75f6-2bf7" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ghekkotah Clutch Warden" id="6a94-f23f-48cf-6e75" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="e3b0-c1c8-6d43-2b61" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Ghekkotah" id="685c-7aae-8912-4bc5" hidden="false" primary="false" targetId="a3cb-4a4b-9100-7648"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="6135-4993-6928-a3ff" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="27"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Blowpipe" id="5b33-52fe-7c55-7d23" hidden="false" import="true" targetId="9692-4901-30f6-771e" type="selectionEntry">
+          <constraints>
+            <constraint id="dc9d-e311-5a57-f341-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="dc9d-e311-5a57-f341-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name=" Items" id="11a1-65c6-31e4-ace4" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="SHIFTING SCALES (1)" id="5f34-2222-29d9-2675" hidden="false" targetId="f6b6-b024-a559-f35a" type="rule"/>
+        <infoLink name="Pathfinder" id="2253-0815-1560-ff96" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="Stealthy" id="0fed-07f1-d4d2-404d" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Vicious" id="2b84-4e6c-ca9e-3ca1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Inspiring (Ghekkotah only)" id="83f5-de80-5589-9e65" hidden="false" targetId="a8e2-751f-d827-31c6" type="rule"/>
+        <infoLink name="Power Dice Red (1)" id="a86f-5ec1-cc7d-f355" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="6135-4993-6928-a3ff" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ghekkotah Clutch Warden" id="5563-1fe7-3a1a-84ef" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Poison Darts" id="a7f2-eee2-af63-0b41" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+          </costs>
+          <rules>
+            <rule name="Poison Darts" id="251c-74da-e24b-cda9" hidden="false">
+              <description>When making a ranged attack with this model’s Blowpipe, If any wounds are caused, the target is marked as Fatigued.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Tyrant" id="2149-58d2-8dc3-c952" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="5d67-3142-c365-5793" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Salamander" id="e186-2532-7ade-ad45" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Has Crushing Strength" id="f923-8137-a842-d658" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="ba72-ee8b-7237-4dde" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="45f3-a396-7ed8-0faa" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="4a82-8fab-46b6-23ad" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Bloodlust" id="eb77-7c91-9e25-7334" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="SAVAGE ROAR (2)" id="8c48-ab91-2389-bd23" hidden="false" targetId="b1b5-6d5e-afc2-8228" type="rule"/>
+        <infoLink name="Simmering Rage" id="d3a7-08fc-9fc1-3176" hidden="false" targetId="209b-acdf-a3de-0bfd" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="ba72-ee8b-7237-4dde" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Tyrant" id="deba-6c79-2a00-674a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Rhinosaur Caraphract" id="9cc7-0bff-5cfc-de78" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="0aed-ae3c-3ee5-d782" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Salamander" id="b822-01d0-471e-ca61" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Cavalry" id="a61b-1e52-f44f-3cc8" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Has Crushing Strength" id="7117-389e-be8f-8c72" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="14d8-2373-e1ba-59b4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="f340-3da1-5d79-1bf2" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="ae4c-f276-4234-2ecd" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Cavalry" id="778d-2d9d-29b9-b4b6" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink name="Smash" id="dfe7-60aa-5c98-c483" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Steady" id="5d65-c39b-279f-5d37" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="SAVAGE IMPACT (1)" id="0346-ed55-c2f3-90c6" hidden="false" targetId="1baa-9789-1981-1923" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="14d8-2373-e1ba-59b4" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Rhinosaur Caraphract" id="98e2-f6ed-2295-679d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ceremonial Guard Captain" id="63eb-ba29-efe2-d7bb" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="1a01-965a-3885-8f3b" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Salamander" id="9023-88ec-3af8-b659" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Has Crushing Strength" id="e3f0-4b96-538b-a8c5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="5bdf-dd3d-24c0-2703" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="1d6a-8180-8449-a8e3" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Rekindle the Embers" id="eba2-e415-e629-304d" hidden="false" targetId="3429-95d3-0f47-64ca" type="rule"/>
+        <infoLink name="SHIELD WALL (2)" id="8503-d2f9-9891-dc03" hidden="false" targetId="c942-73e9-36a5-d5ff" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="1f3d-7e04-e87c-caf0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Headstrong" id="4ffe-840e-8af2-1b45" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+        <infoLink name="Parry" id="e87f-a2d9-a40f-78c1" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
+        <infoLink name="Vicious" id="74e9-ac6c-2877-2789" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="5bdf-dd3d-24c0-2703" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ceremonial Guard Captain" id="e73f-100c-ca70-16d0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">3+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="KTHORLAQ&apos;S HONOUR (1)" id="f0b8-f22c-622b-023f" hidden="false">
+      <description>This ability may be used any time a SALAMANDER model fails a Fallback Check. The model automatically passes the test. It may be used more than once in a Round.</description>
+    </rule>
+    <rule name="FLAMES OF KTHORLAQ (1)" id="ae06-a1c5-957a-754b" hidden="false">
+      <description>Select a SALAMANDER model in the warband. The model gains Bloodlust and Smash until the end of the current Round.</description>
+    </rule>
+    <rule name="Spell - Shimmer" id="d174-58ff-d98b-2f27" hidden="false">
+      <description>Enemy models targeting friendly models that are within 9” of the caster suffer a -1 modifier to hit with all attacks. This lasts until the end of the Round. Place a spell effect marker on the casting model as a reminder.</description>
+    </rule>
+    <rule name="LEAP OF DEATH (1)" id="8b66-2b73-1c95-59cc" hidden="false">
+      <description>Use this ability when declaring a Run action with this model that does not Engage. This model gains the Fly special rule until the end of the Turn. At the end of this Run, this model may make a free Ranged attack: Range 6”, Breath, Piercing (1), from each of its front and rear base edges.</description>
+    </rule>
+    <rule name="GUN SMOKE (1)" id="74ed-1e07-5ea2-71eb" hidden="false">
+      <description>Use this ability when this model attacks with a pistol, before dice are rolled. This model gains the Stealthy and Dodge special rules until the end of the Round, regardless of whether the attack hits.</description>
+    </rule>
+    <rule name="Blazing Brands" id="a7aa-6bbd-9d27-6f54" hidden="false">
+      <description>While Firebrand is part of the same warband, this model has the Stubborn special rule.</description>
+    </rule>
+    <rule name="RAPID FIRE (2)" id="dfb2-52f2-75ef-9a99" hidden="false">
+      <description>Use this ability when this model is aboutto perform a ranged attack,before dice are rolled. The model may shoot twice at two different targets that are within3” of each other following the normal targeting rules. This cannot be as part of a Group or Fatigue Action.</description>
+    </rule>
+    <rule name="Riposte" id="0192-ff68-06dc-c8f2" hidden="false">
+      <description>When thismodel is the target of a Melee attackand alltheattacker’sdice miss, this model may make a Retaliation for free. No Activated or Fatigued counter is placed on this model after a Riposte.</description>
+    </rule>
+    <rule name="Fancy Swordplay" id="94bd-cfc3-53b9-b61a" hidden="false">
+      <description>Melee attacks against this model are made with a -1 modifier to the attackers Me stat.</description>
+    </rule>
+    <rule name="Salamander Legend" id="1131-ad33-a947-c46b" hidden="false">
+      <description>When taken in a Salamander warband, Firebrand is not considered a Mercenary. She does count as being at Rank 5 to match her legendary status however.</description>
+    </rule>
+    <rule name="Weapon - Two-handed Weapon" id="28c2-80b7-60dc-49e8" hidden="false">
+      <description>Melee type equipment. The model gains an additional Crushing Strength (taking it to 2), but increases its Armor by 1 (i.e 5+ becomes 6+).</description>
+    </rule>
+    <rule name="INNER FIRE (2)" id="0bce-0fe3-2d49-6bfd" hidden="false">
+      <description>Use this ability when this model activates. The model’s Armour improves by 2 until the end
+of the Round (i.e. 6+ becomes 4+) to no better than 3+.</description>
+    </rule>
+    <rule name="Attack - Elemental Fire" id="2c68-64eb-43e1-eedb" hidden="false">
+      <description>This model may make a Ranged attack with a Shoot action using Elemental Fire. Range 9”, 3D8, Breath. The attack always hits on a 5+ regardless of any modifiers.</description>
+    </rule>
+    <rule name="NATURE&apos;S INFERNO (2)" id="d242-3681-db0e-f4eb" hidden="false">
+      <description>Use this ability when this model makes a Ranged Attack with Elemental Fire before any dice are rolled. The attack has Piercing (1).</description>
+    </rule>
+    <rule name="ORDEAL OF FIRE (2)" id="d7ce-eaee-28a9-c98f" hidden="false">
+      <description>Use this ability during this model’s activation, before or after an action, even if it is Engaged or Knocked-down. Models of race SALAMANDER (including the Veteran itself) and Fire Elementals are immune to the effects of this attack. All other models within 2” take 2 automatic hits with Piercing (1). Make Armour rolls as normal. This ability can only be used once per game.</description>
+    </rule>
+    <rule name="HEALING FLAME (2)" id="496a-d729-dd3c-71b4" hidden="false">
+      <description>Spend the Power as a long action. Roll a die for each friendly model within 6”. On score of 6+, that model regains a wound previously suffered.</description>
+    </rule>
+    <rule name="Elemental Fuel" id="34d6-4f22-1438-3f01" hidden="false">
+      <description>While within 6” of one or more friendly Fire Elementals, this model’s Special Abilities cost 1 less Power to use.</description>
+    </rule>
+    <rule name="SHIFTING SCALES (1)" id="f6b6-b024-a559-f35a" hidden="false">
+      <description>Use this ability when this model activates. Until the end of the Round, the models gains the Dodge and Parry abilities.</description>
+    </rule>
+    <rule name="Rekindle the Embers" id="3429-95d3-0f47-64ca" hidden="false">
+      <description>While within 6” of a friendly Fire Elemental or Mage Priest, this model has the Bloodlust special rule.</description>
+    </rule>
+    <rule name="Brothers in Arms" id="0007-21d3-a56c-c645" hidden="false">
+      <description>This model gains +1 die in Melee while it is a member of a Shield Wall group action.</description>
+    </rule>
+    <rule name="Inspiring (Ghekkotah only)" id="a8e2-751f-d827-31c6" hidden="false">
+      <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
+    </rule>
+    <rule name="SAVAGE ROAR (2)" id="b1b5-6d5e-afc2-8228" hidden="false">
+      <description>Use Savage Roar when the Tyrant is the target of a Melee attack, before the attack roll is made. The attacking model reduces its Crushing Strength by 1, to a minimum of 0 for that attack.</description>
+    </rule>
+    <rule name="Simmering Rage" id="209b-acdf-a3de-0bfd" hidden="false">
+      <description>For each wound the Tyrant has suffered, increase the Tyrant’s Crushing Strength by +1.</description>
+    </rule>
+    <rule name="SAVAGE IMPACT (1)" id="1baa-9789-1981-1923" hidden="false">
+      <description>Use before a qualifying Charge action. If any wounds are caused by this model in the subsequent free Melee attack and it is not killed, the target is also pushed directly backwards 3”, stopping if it hits any terrain, objectives or other models. The Rhinosaur Cataphract may then choose to move forwards back into base contact to remain Engaged.</description>
+    </rule>
+    <rule name="SHIELD WALL (2)" id="c942-73e9-36a5-d5ff" hidden="false">
+      <description>Group Action. This works exactly like the standard Group Assault, but this model must be the group leader, and the group members can only consist of COMMAND, WARRIOR and SUPPORT models. In addition, enemy models retaliating against Melee attacks from this Group Assault, suffer a -2 to-hit modifier.</description>
+    </rule>
+    <rule name="SLAMBACK (1)" id="4a69-6bb9-8169-f08d" hidden="false">
+      <description>Use this ability when this model declares a Retaliation before dice arerolled. Any hits this Retaliation scores are resolved with an additional+1 Crushing Strength.</description>
+    </rule>
+    <rule name="EVASIVE MANOUVRES (2)" id="48ba-36be-ba96-ecb5" hidden="false">
+      <description>Group Action:
+What: The group members each make a Run action with +1 Sp and gain theDodge special rule until the end of the Round. Group members can only be of classes COMMAND, WARRIOR or GRUNT. The Run cannot be used to Engage enemy models. All group membersmust finish their movement within 6” of each other.
+When: Spend the Power to nominate this model as the group leader and the group and activate them together.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Shimmer (long)" id="32da-238e-d143-6c98" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="6d47-0bab-96c6-0495" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Shimmer" id="8a35-6432-772b-b194" hidden="false" targetId="d174-58ff-d98b-2f27" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Shimmer (long)" id="44a4-47fd-ce55-1e4f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Flame Tongue (short)" id="82f1-5445-2efb-4372" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="ae5e-9aca-7493-e536" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Flame Tongue (short)" id="7a6e-55d4-6c7c-059f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (4)</characteristic>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Firebolt" id="7b22-d5ea-43d4-bd3b" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Piercing (1)" id="69b2-5f5d-cd1b-9a57" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Firebolt" id="5e78-aabf-0c45-02c6" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+          <characteristics>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">-</characteristic>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistol" id="5235-9816-1af9-0f07" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Piercing (1)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+        <infoLink name="Equipment - Pound" id="87fd-6612-8588-a3d3" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Pistol" id="87f9-3979-0e14-456d" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">6&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1), Pound</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Two-handed Weapon" id="a92e-488d-72b3-41c0" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Weapon - Two-handed Weapon" id="021c-02df-3a90-a066" hidden="false" targetId="28c2-80b7-60dc-49e8" type="rule"/>
+        <infoLink name="Equipment - Crushing Strength (+1)" id="19df-0289-aff6-b969" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Two-handed Weapon" id="3dc7-fb5b-7779-5e54" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
+          <characteristics>
+            <characteristic name="Rules" typeId="71ed-d60e-e323-198b">Crushing Strength (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Elemental Fire" id="2346-5110-1b46-3636" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Attack - Elemental Fire" id="c457-e29c-31fb-9965" hidden="false" targetId="2c68-64eb-43e1-eedb" type="rule"/>
+        <infoLink name="Equipment - Breath" id="eb85-a5ea-0797-ccff" hidden="false" targetId="4e7b-e090-b103-6569" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Elemental Fire" id="e4ed-90b7-af27-5134" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+          <characteristics>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">3D8</characteristic>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Blowpipe" id="9692-4901-30f6-771e" collective="false" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="Blowpipe" id="1389-bbf0-0017-f387" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Acid Spit" id="3ae3-3a74-193d-2b3b" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Piercing (1)" id="7006-bfce-2b5a-4f81" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Acid Spit" id="dbd9-b03e-26b9-118d" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name=" Spellbook - Basic Mage-Priest" id="73c3-a16b-3edf-b20e" collective="false" hidden="false" import="true" page="41" publicationId="6a64-c3e7-pubN69392">
+      <entryLinks>
+        <entryLink name="Fireball (short)" id="4c43-6399-a95a-bbd9" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink name="Shockwave (long)" id="a215-ce71-3988-01ab" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Salamanders (Free)" id="c97d-225f-e168-e62e" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="ddd2-78d9-37a3-dddb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Flame Tongue (short)" id="1946-d70f-2e77-25a6" collective="false" hidden="false" import="true" targetId="82f1-5445-2efb-4372" type="selectionEntry">
+          <constraints>
+            <constraint id="eac0-85d9-3c11-6015" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Shimmer (long)" id="31f0-7dac-df8c-b7a0" collective="false" hidden="false" import="true" targetId="32da-238e-d143-6c98" type="selectionEntry">
+          <constraints>
+            <constraint id="2a6a-511d-5074-d6d3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Salamanders (Paid)" id="46c9-779a-fc90-96ee" collective="false" hidden="false" import="true">
+      <entryLinks>
+        <entryLink name="Flame Tongue (short)" id="4c52-cf2d-ad6f-8424" collective="false" hidden="false" import="true" targetId="82f1-5445-2efb-4372" type="selectionEntry">
+          <constraints>
+            <constraint id="46ee-97d8-b467-baeb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Shimmer (long)" id="7078-3dce-d918-eac4" collective="false" hidden="false" import="true" targetId="32da-238e-d143-6c98" type="selectionEntry">
+          <constraints>
+            <constraint id="f7cc-e125-a27f-5f13" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

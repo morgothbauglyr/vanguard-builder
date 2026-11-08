@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="The Trident Realm" id="1696-0eed-a727-7052" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" authorUrl="https://github.com/BitPsycho/BS_KOW_Vanguard/" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Neritican" id="130e-52f0-0f36-1c32" hidden="false"/>
+  </categoryEntries>
+  <infoLinks>
+    <infoLink name="RISING TIDES (1)" id="dfee-30d3-c1ac-c2cf" hidden="false" targetId="fd9f-cfe1-fed3-435a" type="rule"/>
+  </infoLinks>
+  <publications>
+    <publication name="Vanguard abridged Warbands-dec31.pdf" id="1696-0eed-pubN65537"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry name="Otter Bevy" id="4b76-23c7-8441-b2dd" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="2c26-92b0-ea7b-9b30" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="18f5-8aa5-1331-f8b2" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Neritican" id="0e39-24bf-c009-9f46" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Beast" id="1037-14ec-7aff-742e" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Swarm" id="45d8-b569-0c5e-5760" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
+        <infoLink name="Vicious" id="d720-ee00-7eba-7456" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Otter Bevy" id="32a3-be30-5403-f530" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">7+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">7+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican, Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Naiad Heartpiercer" id="e8fb-f2e2-3040-217e" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="a4e7-6100-cbbd-1e2b" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="bfaf-b9e7-c8c6-e52a" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Regenerate" id="e663-e913-e6f5-c7fa" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Neritican" id="ec19-2b0c-50b5-6a54" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Harpoon-gun" id="6eff-f55f-7d10-4666" collective="false" hidden="false" import="true" targetId="d71a-d386-7476-f5d0" type="selectionEntry">
+          <constraints>
+            <constraint id="c0b4-0bf9-51f5-6838" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="6e49-4852-cc8f-4a04" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="aa7f-3920-abf9-b0f1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Regenerate (7+)" id="ff41-0f62-febb-3a5b" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Naiad Heartpiercer" id="2274-7a92-4b69-3454" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Giga" id="56be-d423-328c-cef8" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="6798-28d2-ec7c-2320" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Neritican" id="8010-522d-ce59-ebb3" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Beast" id="b119-e183-41e3-db70" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Has Crushing Strength" id="998c-51c2-884f-9e8b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="e35a-8842-f999-a4ed" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="3468-7446-6c04-ea38" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Pound" id="bd95-bb16-864f-a41f" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+        <infoLink name="Steady" id="aca5-143c-1b86-077b" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Vicious Swipe" id="e539-4b3f-6fa1-c3b4" hidden="false" targetId="22b8-f8ac-e757-9f41" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Giga" id="2be6-1a5d-52a7-defd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Riverguard Sentinel" id="9fa9-3e4c-6d10-1583" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="2bf4-5e06-2734-9dfa" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Neritican" id="da06-fe78-e057-8f5a" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="6f35-5a9a-1b0a-c2ac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="e0bc-358e-472a-cb81" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Javelin" id="72ae-cf26-0b49-f40b" collective="false" hidden="false" import="true" targetId="b0c4-65da-186f-f194" type="selectionEntry">
+          <constraints>
+            <constraint id="f221-2c6d-8f74-d297" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="4816-bec5-ca23-6f4c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="953a-05df-8f33-b392" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Pathfinder" id="52f5-c3ad-9fee-04e6" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="Marksman" id="41e8-fa78-a3fa-025f" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="Stealthy" id="13b2-63aa-7a7d-c213" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Power Dice Red (2)" id="7df2-f295-52eb-2993" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="EVASION (1)" id="9232-a06b-f63e-00a6" hidden="false" targetId="f14f-1146-9788-eac7" type="rule"/>
+        <infoLink name="BOUNDER (1)" id="c1b4-186e-92f0-a7a6" hidden="false" targetId="e92a-80d0-8e3e-ba30" type="rule"/>
+        <infoLink name="Combined Fire" id="43d6-b428-6818-20b7" hidden="false" targetId="9572-126b-ed39-c8f9" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="6f35-5a9a-1b0a-c2ac" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="e0bc-358e-472a-cb81" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Riverguard Sentinel" id="f07c-e68c-d0aa-35fb" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Riverguard" id="c1ba-ed3d-22a4-bc66" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="ced0-70c3-d904-8b67" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="3e72-c367-187a-7b44" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Neritican" id="ae34-1967-1f07-3978" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="9869-6434-5c9d-a11b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Javelin" id="97a6-7cc3-5557-e1b1" collective="false" hidden="false" import="true" targetId="b0c4-65da-186f-f194" type="selectionEntry">
+          <constraints>
+            <constraint id="0a32-a42f-ffac-c0d1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="9efe-c72a-65f3-4a22" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Pathfinder" id="7894-62d5-25dc-bc4c" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="BOUNDER (1)" id="3074-fc7f-6425-1cbc" hidden="false" targetId="e92a-80d0-8e3e-ba30" type="rule"/>
+        <infoLink name="Stealthy" id="ac3c-e311-fca0-e969" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Combined Fire" id="d659-477b-d796-eeba" hidden="false" targetId="9572-126b-ed39-c8f9" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Riverguard" id="eddf-23e3-878d-cc3d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Thuul" id="2ea9-61f3-f09f-d1dc" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="d9d3-5e52-b848-f991" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="76da-a702-c6bb-6722" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Neritican" id="7187-c663-c04d-ab00" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="6ed6-1161-ae62-d856" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Thuul" id="64b5-85a8-e935-d6c1" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">3+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Thuul Mythican" id="9c63-3743-fd7d-070e" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="01c8-c1f8-da89-1328" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Neritican" id="5c25-1ca5-a030-4f57" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="d4fc-f193-2a6b-c5e3" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basic Thuul Mythican" id="1728-08cc-04df-c7da" collective="false" hidden="false" import="true" targetId="9d50-15cd-cc21-61c9" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="9cd8-75ed-6dae-2ad1" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
+            <constraint id="7c03-0d51-6ebd-6b59" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="3"/>
+          </constraints>
+          <modifiers>
+            <modifier field="9cd8-75ed-6dae-2ad1" type="decrement" value="1">
+              <repeats>
+                <repeat childId="7006-4753-dc92-1c1c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="9c63-3743-fd7d-070e" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="7c03-0d51-6ebd-6b59" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="9c63-3743-fd7d-070e" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Spellbook - The Trident Realm (Paid)" id="dd85-dc6d-d788-29ba" collective="false" hidden="false" import="true" targetId="26e9-51fe-f21a-8985" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Primoridal" id="5613-41a0-70fa-4e21" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - The Trident Realm (Free)" id="61d9-854a-88b9-ea88" collective="false" hidden="false" import="true" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice White (1)" id="6f2c-8c89-8077-5cfd" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Inspiring" id="2cdc-1a66-3e1b-6fd3" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Thuul Mythican" id="875e-e193-9005-1af5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Water Elemental" id="a665-20c6-3a04-54b2" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="eae5-46ba-b0fb-30f9" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Elemental" id="3a4e-b0e5-c46e-8f2b" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
+        <categoryLink name="Has Crushing Strength" id="d192-9f3c-cea1-d048" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Has Regenerate" id="34ad-013d-1b5a-e92c" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="6001-29c2-8c40-18a6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="9ce8-a303-2b88-2035" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="da5b-a9d0-eb4b-a00e" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Water Elemental" id="d69e-25a6-4072-a2c0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Naiad Lurker" id="e944-4c48-43c6-df62" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="dd1a-49d5-3056-0324" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Neritican" id="3727-22bd-c6fe-eec4" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Has Regenerate" id="52c7-48b6-2627-fa77" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Net" id="97a3-5c08-18a9-45c1" collective="false" hidden="false" import="true" targetId="f0f3-31e0-0168-f571" type="selectionEntry">
+          <constraints>
+            <constraint id="4789-fa8e-9b46-9d26" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="214e-9192-c648-6ecf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Trident" id="c259-b090-95d7-6a1a" collective="false" hidden="false" import="true" targetId="d7a4-ea56-28b9-e013" type="selectionEntry">
+          <constraints>
+            <constraint id="03a7-7ea1-0090-c5fa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="be2b-8695-e8fb-3a76" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="be48-4c3d-4dbc-bb8e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice Red (1)" id="8a3d-0e8a-108c-e0c1" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Regenerate (7+)" id="127c-ac8b-e252-50f2" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Stealthy" id="7e56-5285-6498-d75b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Naiad Lurker" id="5eb2-a2c6-2508-df68" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Naiad Centurion" id="43a5-2a04-0c45-4feb" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="92ed-d135-1b6e-68ff" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Neritican" id="38e6-be21-67cb-3a81" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Has Crushing Strength" id="16d2-a22a-8d99-403b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Has Regenerate" id="854a-db29-850a-2d37" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Harpoon-gun" id="e9b6-4bd9-ba11-59fc" collective="false" hidden="false" import="true" targetId="d71a-d386-7476-f5d0" type="selectionEntry">
+          <constraints>
+            <constraint id="bfa5-4c80-f958-6f2c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7023-0e9c-d6cc-e29f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="8410-1c4e-5db2-3862" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="54b8-d63f-83ea-aad1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Inspiring" id="2f5f-9585-1942-52ea" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Regenerate (7+)" id="6407-e377-3acc-baae" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Power Dice Blue (1)" id="5dbc-3a94-7701-6404" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="BATTLE RAGE (2)" id="ef4e-3fda-aed8-521e" hidden="false" targetId="e956-4817-e249-a976" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Naiad Centurion" id="2e56-d145-318b-93e6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Naiad Initiate" id="14ca-e8cb-89a8-5e85" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="1e11-afbb-11d8-c455" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="35bf-ba14-a7b0-5a99" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Neritican" id="00d5-f579-8bae-1322" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Trident" id="e6a7-060b-6022-ff59" collective="false" hidden="false" import="true" targetId="d7a4-ea56-28b9-e013" type="selectionEntry">
+          <constraints>
+            <constraint id="f0d9-444a-555a-0741" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0914-3236-6cea-6521" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="746a-22a2-919e-65f2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Kyron&apos;s Blessing" id="27b6-a87f-f6db-f139" hidden="false" targetId="1fdb-8a87-696f-1b9a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Naiad Initiate" id="8eab-046e-92a8-27ec" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Mythican Aquamage" id="fbcd-88f7-4d5d-37cf" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="b7b5-24e1-10a8-4e19" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Command" id="eeb3-98af-3688-f4b2" hidden="false" primary="false" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Neritican" id="d6d5-059f-efe9-a16a" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="+1 Large" id="450b-5de9-b55a-88b8" hidden="false" primary="false" targetId="0e3f-0c65-189b-70eb"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="ef38-176f-cb60-39d9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+        <constraint id="90f4-1e7c-e1f3-a27b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="b56c-1269-4edd-4ce4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basic Mythican Aquamage" id="9482-3688-31b3-805b" collective="false" hidden="false" import="true" targetId="e386-c40c-67ca-6c71" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="80ee-74d0-783d-71d4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
+            <constraint id="7bd9-bc85-fae8-c9ed" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="3"/>
+          </constraints>
+          <modifiers>
+            <modifier field="80ee-74d0-783d-71d4" type="decrement" value="1">
+              <repeats>
+                <repeat childId="7006-4753-dc92-1c1c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="fbcd-88f7-4d5d-37cf" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="7bd9-bc85-fae8-c9ed" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="fbcd-88f7-4d5d-37cf" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Spellbook - The Trident Realm (Paid)" id="f96d-6b29-f069-2286" collective="false" hidden="false" import="true" targetId="26e9-51fe-f21a-8985" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Primoridal" id="6169-c228-2883-709d" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - The Trident Realm (Free)" id="5b28-5e53-785f-8223" collective="false" hidden="false" import="true" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
+        <entryLink name="Rule Check - Allows 1 more Large then Normal" id="c878-342e-e8fd-727e" collective="false" hidden="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice White (1)" id="8bd5-bcc4-3fdc-00cf" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Inspiring" id="e309-9351-d643-9e12" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Elemental  Mastery" id="c805-b3e0-caf9-f6a5" hidden="false" targetId="5909-b9c3-50ca-6819" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Mythican Aquamage" id="5a5b-47ef-0356-78ef" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Riverguard Treeleaper" id="5851-e725-db14-f584" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="7bbf-9061-168d-8524" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Has Crushing Strength" id="cad5-3f03-6416-c5c8" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Neritican" id="18e8-5ad8-2935-e533" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="78ca-89a4-fe7d-51bf" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Pathfinder" id="028d-de70-13d2-d575" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="BOUNDER (1)" id="b0c9-1948-1247-bc33" hidden="false" targetId="e92a-80d0-8e3e-ba30" type="rule"/>
+        <infoLink name="Stealthy" id="b97d-0289-3d54-d65b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="abc3-9a3d-4281-2197" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Death from Above" id="7250-7a85-2ec0-2401" hidden="false" targetId="cc6a-f638-8528-fe79" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Riverguard Treeleaper" id="fe29-4536-d699-a565" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Riverguard Dambuster" id="56ee-2e8b-6990-9ed2" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="d6eb-9a63-d2aa-3b54" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Neritican" id="58c8-02be-92b0-592d" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Cavalry" id="79c7-f139-e047-9c9b" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Has Crushing Strength" id="4e3c-d244-611c-c342" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="c5b3-a0de-bcdf-a02c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Smash" id="422a-5a45-e6eb-b93f" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Regenerate (7+)" id="da80-8f09-c4c0-cf3d" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="6a10-19ca-ff5a-e286" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Defensive Toxins" id="9797-c1e0-c979-9d0c" hidden="false" targetId="f2b2-cbe4-1910-bb06" type="rule"/>
+        <infoLink name="Steady" id="287b-436b-a2d2-2537" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Cavalry" id="58e6-9efe-21d4-d7a3" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink name="TONGUE LASH (2)" id="8c71-8107-d69b-5306" hidden="false" targetId="9422-4d23-502f-c924" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Riverguard Dambuster" id="147e-042c-6a41-f5f3" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Placoderm Defender" id="d8e8-88b5-66d1-530a" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="b6c2-6b44-dbb6-525c" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="01e5-12e0-420e-03e8" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Steady" id="45a2-1947-dfbf-07c9" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Defender" id="78bb-3429-f04e-2b4f" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule"/>
+        <infoLink name="Parry" id="baf8-c6f8-d323-ec4c" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
+        <infoLink name="SLAMBACK (1)" id="f59d-acdf-16f3-026e" hidden="false" targetId="9be6-0f68-1b99-9a02" type="rule"/>
+        <infoLink name="Fluid Defense" id="da35-28ae-5656-e6c4" hidden="false" targetId="4353-28e2-7b1f-9084" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Placoderm Defender" id="07c4-720f-b228-5c2c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D2</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Naiad Envoy" id="ecd9-6a06-b221-97ac" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="4ea2-603a-a3a1-3197" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="1e6c-4800-627a-5a7f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Kraken&apos;s Call" id="46f0-2d8c-375a-033d" hidden="false" targetId="0dbc-a8d5-6085-2386" type="rule"/>
+        <infoLink name="Bloodlust" id="5370-f5b0-52fa-092e" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="Unbreakable" id="66c5-cc00-9e7f-699a" hidden="false" targetId="cfa9-9ce0-371c-e7cd" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Naiad Envoy" id="54be-b678-a4ee-f4e5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Riverguard Dambuster Sentinel" id="9d26-a269-4965-a803" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="4be8-48ab-3ce9-2520" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Large Command" id="e076-0750-9b41-8f0e" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
+        <categoryLink name="Neritican" id="317b-3212-6ca5-10c4" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Cavalry" id="c229-1a75-8de8-a0b0" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Has Regenerate" id="a110-e2b5-66a6-1bd8" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Has Crushing Strength" id="d9af-bb97-7578-7244" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="ef9b-79ca-9455-4dfc" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Rule Check - Is Large Command" id="0b60-028b-040d-dbda" collective="false" hidden="false" import="true" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Smash" id="88cd-d26b-909e-6959" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Regenerate (7+)" id="297f-f423-ccfb-d064" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="f34d-b2a6-0408-5787" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Defensive Toxins" id="4d75-f713-8b01-c686" hidden="false" targetId="f2b2-cbe4-1910-bb06" type="rule"/>
+        <infoLink name="Steady" id="2812-fe94-e41a-cbc1" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Cavalry" id="7ad0-ff56-5f9f-9557" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink name="TONGUE LASH (2)" id="8333-1c8e-c628-ab87" hidden="false" targetId="9422-4d23-502f-c924" type="rule"/>
+        <infoLink name="Very Inspiring (Riverguard (all types) only)" id="a16e-bf07-d7a8-bec4" hidden="false" targetId="2f13-440c-deae-0811" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Riverguard Dambuster Sentinel" id="7005-a14b-dfb5-babf" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="Spell - Riptide" id="8f7e-a461-a88b-93a4" hidden="false">
+      <description>Target an enemy model even if it is Engaged. The model is moved 3” (as directly and as far as possible) away from the caster, making Armour rolls if forced to Break Away as normal. The model must  then make a Nerve test. If it fails, it is Knocked-down. Models with Steady may roll to avoid this as normal.</description>
+    </rule>
+    <rule name="Spell - Crushing Pressure" id="7a97-4229-8776-c990" hidden="false">
+      <description>If the target suffers any wounds, they are pinned in place and cannot make any Walk or Run actions for the rest of this Round.</description>
+    </rule>
+    <rule name="RISING TIDES (1)" id="fd9f-cfe1-fed3-435a" hidden="false">
+      <description>Use this ability when you activate a model. That model may EITHER add 2 to its Sp stat until the end of the Round OR, if it is Knocked-down, it may stand up for free. This ability may be used any number of times in a Round.</description>
+    </rule>
+    <rule name="Vicious Swipe" id="22b8-f8ac-e757-9f41" hidden="false">
+      <description>When attempting to Break Away from a Giga, enemy models have a  -1 modifier when they make their Armour roll.</description>
+    </rule>
+    <rule name="BOUNDER (1)" id="e92a-80d0-8e3e-ba30" hidden="false">
+      <description>Use this ability when this model is activated. Grants this model the Fly ability until the end of the Round.</description>
+    </rule>
+    <rule name="EVASION (1)" id="f14f-1146-9788-eac7" hidden="false">
+      <description>Use this ability when this model activates. Grants this model the Dodge and Parry abilities until the end of the Round.</description>
+    </rule>
+    <rule name="Equipment - Trident" id="424e-7d48-2087-3f92" hidden="false">
+      <description>A model hit with this weapon in Melee, is marked as Fatigued.</description>
+    </rule>
+    <rule name="Equipment - Net" id="85c4-9aa4-c6ee-5a59" hidden="false">
+      <description>Break away actions from this model are made rolling 2 dice for the Armour roll rather than the normal 1. Each failed roll causes a wound.</description>
+    </rule>
+    <rule name="BATTLE RAGE (2)" id="e956-4817-e249-a976" hidden="false">
+      <description>If this model can Engage an enemy model with a follow-up move, it may Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
+    </rule>
+    <rule name="Combined Fire" id="9572-126b-ed39-c8f9" hidden="false">
+      <description>When involved in a Group Shoot Action, Riverguard models add +1 dice to their Ranged Attack roll if one or more other Riverguard models in the group fire at the same target. This includes any Riverguard Sentinels in the Group.</description>
+    </rule>
+    <rule name="Kyron&apos;s Blessing" id="1fdb-8a87-696f-1b9a" hidden="false">
+      <description>While within 6&quot; of  one or more friendly Water Elementals, this model has its Ar value improved by 1 (e.g. 6+ becomes 5+).</description>
+    </rule>
+    <rule name="Elemental  Mastery" id="5909-b9c3-50ca-6819" hidden="false">
+      <description>You may take one additional Water Elemental in your warband beyond the limit for Large models normally allowed in the warband selection rules. 
+In addition, this model may cast its Riptide spell as a short action instead of the normal long action.</description>
+    </rule>
+    <rule name="Death from Above" id="cc6a-f638-8528-fe79" hidden="false">
+      <description>When this model uses its BOUNDER special ability and then performs a qualifying charge action in the same Round, it has Crushing Strength (2) in its subsequent
+Melee attack. Use this ability before any attack dice are rolled.</description>
+    </rule>
+    <rule name="Defensive Toxins" id="f2b2-cbe4-1910-bb06" hidden="false">
+      <description>In the End Phase, any enemy models Engaged by the Dambuster automatically suffer one hit with Crushing Strength (2).</description>
+    </rule>
+    <rule name="TONGUE LASH (2)" id="9422-4d23-502f-c924" hidden="false">
+      <description>Use during the model’s Turn to make a Ranged attack as follows: Range 9”, 2D8. Any model hit by the attack is not wounded but is moved directly (the shortest route) into base contact with the Dambuster’s
+front arc and marked as Fatigued. The model’s front arc and base should be flush with the Dambuster’s. Models that were Knocked-down remain so. If it is not possible to move the model, or it is Large, the attack has no effect.</description>
+    </rule>
+    <rule name="Fluid Defense" id="4353-28e2-7b1f-9084" hidden="false">
+      <description>While within 2&quot; of this model, friendly WARRIOR models have the Parry special rule.</description>
+    </rule>
+    <rule name="SLAMBACK (1)" id="9be6-0f68-1b99-9a02" hidden="false">
+      <description>Use this ability when this model declares a Retaliation before dice are rolled. Any hits the Retaliation scores are resolved with Crushing Strength (2).</description>
+    </rule>
+    <rule name="Kraken&apos;s Call" id="0dbc-a8d5-6085-2386" hidden="false">
+      <description>While within 6&quot; of this model, friendly models have the Unbreakable  and Bloodlust special rules.</description>
+    </rule>
+    <rule name="Very Inspiring (Riverguard (all types) only)" id="2f13-440c-deae-0811" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
+      <description/>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Crushing Pressure (long)" id="3e97-62a4-37d3-7986" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="af9a-86e0-a700-f9e2" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Crushing Pressure" id="46b4-049f-f76d-3eda" hidden="false" targetId="7a97-4229-8776-c990" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Crushing Pressure (long)" id="a7db-0f45-ce00-378a" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (1)</characteristic>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Riptide (long)" id="d1e0-1b53-1c49-d174" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="f916-4ce6-c78f-5439" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Riptide" id="2436-9622-83c4-1a6b" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Riptide (long)" id="e2d0-2afd-b58f-32f5" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Harpoon-gun" id="d71a-d386-7476-f5d0" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Piercing (1)" id="f689-0b5a-259c-d192" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Harpoon-gun" id="497e-058c-5430-3f04" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Javelin" id="b0c4-65da-186f-f194" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Pound" id="b5ab-10da-fd4f-6b2b" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Javelin" id="278a-b83c-1c8b-6b80" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Pound</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Trident" id="d7a4-ea56-28b9-e013" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Trident" id="ac8d-2013-a530-f1b9" hidden="false" targetId="424e-7d48-2087-3f92" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Trident" id="62be-a121-03f9-2092" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
+          <characteristics>
+            <characteristic name="Rules" typeId="71ed-d60e-e323-198b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Net" id="f0f3-31e0-0168-f571" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Equipment - Net" id="34d8-0ed6-a8d2-8f02" hidden="false" targetId="85c4-9aa4-c6ee-5a59" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Net" id="408a-fa0e-3d99-4fb3" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
+          <characteristics>
+            <characteristic name="Rules" typeId="71ed-d60e-e323-198b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Riptide (short)" id="546f-b6d9-0128-becb" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="3a6a-148e-dc82-90b9" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Riptide" id="cec4-f8bb-7266-9727" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Riptide (short)" id="5c75-b1d6-f77b-316d" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name=" Spellbook - The Trident Realm (Free)" id="7006-4753-dc92-1c1c" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="03a4-a588-3fb0-da16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Crushing Pressure (long)" id="25a6-6c1c-c3c1-03ea" collective="false" hidden="false" import="true" targetId="3e97-62a4-37d3-7986" type="selectionEntry">
+          <constraints>
+            <constraint id="0e07-0d02-dbb1-475d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Riptide (long)" id="ac51-b8dd-b323-4846" collective="false" hidden="false" import="true" targetId="d1e0-1b53-1c49-d174" type="selectionEntry">
+          <constraints>
+            <constraint id="1aae-a5b3-751f-8801" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - The Trident Realm (Paid)" id="26e9-51fe-f21a-8985" collective="false" hidden="false" import="true">
+      <entryLinks>
+        <entryLink name="Riptide (long)" id="9b1d-a5cc-c74e-8a1c" collective="false" hidden="false" import="true" targetId="d1e0-1b53-1c49-d174" type="selectionEntry">
+          <constraints>
+            <constraint id="2508-949f-283b-45b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Crushing Pressure (long)" id="8675-5ad5-0e16-5f64" collective="false" hidden="false" import="true" targetId="3e97-62a4-37d3-7986" type="selectionEntry">
+          <constraints>
+            <constraint id="9424-0b06-4fe4-9d0f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Basic Thuul Mythican" id="9d50-15cd-cc21-61c9" collective="false" hidden="false" import="true">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="2d10-a6c2-eaa1-eba2" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Windblast (long)" id="1c31-94f8-d19c-447b" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink name="Shockwave (long)" id="0a0f-84f2-1865-5919" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+        <entryLink name="Stun (short)" id="b02d-ed57-7557-392d" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Basic Mythican Aquamage" id="e386-c40c-67ca-6c71" collective="false" hidden="false" import="true">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="5a61-e372-120c-1601" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Riptide (short)" id="c7b8-c694-b393-46e2" collective="false" hidden="false" import="true" targetId="546f-b6d9-0128-becb" type="selectionEntry">
+          <constraints>
+            <constraint id="8c5c-6767-6f42-a192" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Riptide (short)" id="40c3-96ba-d2af-9443" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+              <characteristics>
+                <characteristic name="Range" typeId="c023-a997-9c10-c42c">9</characteristic>
+                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Chain Lightning (long)" id="7d13-1a18-e8e1-fc0d" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="5916-3e7d-9f52-0581" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Spell - Piercing (2)" id="7605-a743-70a8-cab5" hidden="false" targetId="2d6c-7f42-6d86-f6fc" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Chain Lightning" id="bebe-fedf-b190-1542" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+              <characteristics>
+                <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (2)</characteristic>
+                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Waterlogged (long)" id="49eb-efb3-016a-fd43" collective="false" hidden="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink name="Spellcaster" id="8636-d850-14cc-f992" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+          </categoryLinks>
+          <constraints>
+            <constraint id="f2a3-3edd-d455-77d8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Waterlogged (long)" id="e8aa-f6d8-5412-05ad" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+              <characteristics>
+                <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

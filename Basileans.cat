@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Basileans" id="2ca9-c8c4-57e1-efec" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication name="Rulebook" id="2ca9-c8c4-pubN70502"/>
+  </publications>
+  <rules>
+    <rule name="Iron Resolve (2)" id="765e-101e-046d-a0aa" hidden="false">
+      <description>This ability may be used any number of times and at any time a Basilean model suffers 1 or more hits from an attack or spell. When the ability is used, the model can make all required Armour rolls for the attack at an unmodified 3+. Each model in the warband may only use this ability once per Round.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="Man-At-Arms" id="a118-1929-8eea-99c3" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="1c8a-98e5-e78d-bb33" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="1a9b-1ffb-1d8c-9d3e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0dfc-22c7-78ed-b217" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="657c-2add-eafb-9081" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Spear" id="78ca-670f-dd40-4127" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="6899-b6a6-7fec-2337" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="0dfc-22c7-78ed-b217" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="0dfc-22c7-78ed-b217" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="657c-2add-eafb-9081" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Man-At-Arms" id="8351-424d-7af2-64ba" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Veteran Sergeant" id="e1cd-58a4-d165-4733" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="ba83-af0b-61f4-4130" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Troop" id="45f7-3938-ddfd-2b1e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="f7d9-8b56-1ee9-9b27" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="5d2f-16f6-eb8f-94a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="274a-dc55-704b-87d4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Inspiring" id="dbb0-1dd9-b6a8-1e6d" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Parry" id="ec00-dc42-fe9e-97af" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
+        <infoLink name="RALLY ON ME! (2)" id="5f9d-c291-157f-e9fc" hidden="false" targetId="a343-1dc8-0245-1a8b" type="rule"/>
+        <infoLink name="Power Dice White (1)" id="7ddd-4755-3f88-a82f" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="f7d9-8b56-1ee9-9b27" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="5d2f-16f6-eb8f-94a5" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Veteran Sergeant" id="1222-45b9-1edb-dc7c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Crossbowman" id="f387-2b55-0616-8fdc" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="2095-1069-91b4-26f6" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="c30c-a2e2-29ff-5a02" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="55f3-4fda-3c5c-522b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="cc25-24af-81a2-b252" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Crossbow" id="4754-e0b6-4434-8321" collective="false" hidden="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry">
+          <constraints>
+            <constraint id="ca60-c831-7390-5a7a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="ed3b-ff17-93d8-6b8c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="55f3-4fda-3c5c-522b" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="cc25-24af-81a2-b252" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Crossbowman" id="8c10-a933-e0cc-9478" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Paladin Chaplain" id="dc7e-e079-cc73-c329" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="644e-1a0b-a35f-1a98" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Has Crushing Strength" id="5708-3f24-b4b6-b6c5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="7aea-562b-cde9-5463" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="44c9-c78a-0a98-788d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Spellbook - Basilean (Free)" id="6c00-3c18-131a-73f5" collective="false" hidden="false" import="true" targetId="8d13-85a7-128d-858b" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink name="Spellcaster" id="482f-1b19-b63a-fcf4" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink name=" Spellbook - Noble" id="7c07-9555-0746-bbea" collective="false" hidden="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink name=" Items" id="492b-c5b0-8ad0-3d2f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basic Paladin Chaplain" id="94b7-511b-293e-5bdb" collective="false" hidden="false" import="true" targetId="4292-7980-5b3c-f3d3" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="93fd-b4bf-7859-b019" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="3"/>
+            <constraint id="85c5-2c2d-2b2a-b5b0" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
+          </constraints>
+          <modifiers>
+            <modifier field="85c5-2c2d-2b2a-b5b0" type="decrement" value="1">
+              <repeats>
+                <repeat childId="6c00-3c18-131a-73f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="dc7e-e079-cc73-c329" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="93fd-b4bf-7859-b019" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="dc7e-e079-cc73-c329" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Spellbook - Basilean (Paid)" id="c43f-0499-c54e-cc4b" collective="false" hidden="false" import="true" targetId="f034-9998-2d1d-d593" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink name="Spellcaster" id="162f-dab6-6957-889a" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Parry" id="9950-3314-dae5-f17d" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="ed57-5615-987f-4c94" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Defender" id="f341-e663-9b18-19a3" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="7aea-562b-cde9-5463" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="44c9-c78a-0a98-788d" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Paladin Chaplain" id="364e-d23a-5051-1c24" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Sisterhood" id="4470-f95d-22e6-ce1c" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="f40d-ea8d-6774-026a" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="5314-c7fb-1186-d36c" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="7036-534a-93ab-334a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="91b3-0762-0eba-63c4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="da79-bb29-6da4-caf1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="7036-534a-93ab-334a" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="91b3-0762-0eba-63c4" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Sisterhood" id="4223-1062-1408-2eb0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Sisterhood Scout" id="629e-604a-563d-d11e" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="1b96-9a29-1158-921a" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="fc3e-edbd-5e69-8169" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="5d53-9c06-c94b-f691" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="22ff-ffc7-246e-9af9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="716f-cdc5-c65a-529a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Bow" id="b083-a23a-473d-cafc" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+          <constraints>
+            <constraint id="9059-42ce-b26c-71a3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sharp Shooter (1)" id="4fed-c084-4302-c825" hidden="false" targetId="6bf5-bb0a-1a02-94d8" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="5d53-9c06-c94b-f691" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="22ff-ffc7-246e-9af9" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Sisterhood Scout" id="e467-a1ac-d559-0bf8" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Paladin Defender" id="5bab-8a0d-5e7f-b0d8" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="b727-8103-bb9b-63d9" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="e57d-57e5-8966-ad46" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="b28c-8ef6-7b0c-b931" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="667f-2f80-fee0-c3bd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="1e03-9d66-847a-b108" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="a8e1-7d8e-847a-81b7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Parry" id="844b-d324-2d40-c124" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="f145-d549-ca68-d3da" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Defender" id="4024-e297-9177-ee87" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="667f-2f80-fee0-c3bd" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="1e03-9d66-847a-b108" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Paladin Defender" id="66ef-fdec-c47e-e7ef" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Sergeant" id="a2cd-da42-efa1-3b8e" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="b033-bdea-9593-8764" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="a74e-4efa-e064-3adc" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="c55d-2c39-f1a2-7522" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="0300-9e43-e761-c17b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="459b-58b0-6b33-31a6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Parry" id="ab8b-7455-1119-b564" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
+        <infoLink name="EVADE (1)" id="8653-30cf-e2d6-4b3f" hidden="false" targetId="654d-b104-a14c-f71d" type="rule"/>
+        <infoLink name="Helping Hand" id="c0d0-3210-475f-40f8" hidden="false" targetId="ba84-1ee2-b571-f1af" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="c55d-2c39-f1a2-7522" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="0300-9e43-e761-c17b" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Sergeant" id="9620-d393-0eb9-def7" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Gur Panther" id="b54d-4830-7012-a97e" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="a30d-26f8-ec25-a33e" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="5bcf-7848-adb3-a170" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="8b9e-bba9-d487-4528" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Vicious" id="afc6-21d0-fea8-fdfb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Reactive Bite" id="eda2-db02-fdac-e5ec" hidden="false" targetId="fc35-aa6b-42a6-904a" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="5bcf-7848-adb3-a170" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="8b9e-bba9-d487-4528" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Gur Panther" id="8818-db08-caaa-5e4b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">8</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean, Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Veteran Sister" id="af50-dad3-ff49-5a4d" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="3131-a5b9-a2a4-1416" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="d5fe-5a70-7668-aaaf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="272f-1e46-b1e0-04ab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="529f-9c81-4c36-cc11" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice Red (1)" id="d607-3a70-d0c8-2285" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="d5fe-5a70-7668-aaaf" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="272f-1e46-b1e0-04ab" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Veteran Sister" id="c9a2-2374-0f8f-b7db" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Dictator" id="31d7-e7f1-ace2-282e" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="7d12-f0a4-0eea-7798" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="8604-7fd9-b17a-b814" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="99e4-862f-3681-e10a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="77cc-6232-b55f-a28c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="bf74-bb68-5ff6-0df9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice Red (1)" id="d035-b099-78c1-5b42" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="a871-b3b5-f507-f3f4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Power Dice White (1)" id="27a4-75e7-e7fe-d31a" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Inspiring" id="25ab-1520-e6ab-7a2c" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="SMITE! (2) " id="c4a9-c1bd-95aa-4d37" hidden="false" targetId="c045-30e4-97e9-3308" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="99e4-862f-3681-e10a" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="77cc-6232-b55f-a28c" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Dictator" id="38f3-5d39-ac2c-788a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">3+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ogre Palace Guard" id="fcc2-035c-ccb2-f7fa" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="de11-5290-628a-cacc" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Crushing Strength" id="64c1-1538-3bfe-b211" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3f89-755c-4fef-c970" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="2630-f95c-6dc9-9ff8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="7af6-f0bf-2291-7c4e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Steady" id="21fa-87c2-3575-9291" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Smash" id="d4c6-0552-f12c-5539" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Crushing Strength (2)" id="c049-f31b-d0f6-79e8" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="3f89-755c-4fef-c970" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="2630-f95c-6dc9-9ff8" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ogre Palace Guard" id="d70f-fa1c-c6a9-d422" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean, Ogre</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Abbess" id="1049-5ad8-1940-f875" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="a354-8d5c-38ab-1cdf" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="21d0-350a-9a8a-abca" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0a33-12fd-b8d8-73ec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="01b6-9649-55a9-d5e2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="921f-c660-7f94-07c4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Power Dice White (2)" id="e4b9-87bc-2778-b108" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="Vicious" id="1218-2790-b27e-c1a4" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Inspiring" id="f605-2328-da1a-635d" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="64e0-45d8-05b8-e4dd" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="BLESSING OF THE GODS (2)" id="0fbc-d10e-9994-b565" hidden="false" targetId="b121-9296-adcb-eab6" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="0a33-12fd-b8d8-73ec" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="01b6-9649-55a9-d5e2" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Abbess" id="8f11-c869-e08c-d646" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">3+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="War-Wizard" id="88cb-d1d1-3e57-d49a" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="9b66-65cf-caf6-8c73" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="daf2-02c3-f26a-4ee4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
+        <constraint id="5fe9-ddab-fd5c-edc9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="f9f0-aea0-f649-6011" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basilean (Free)" id="abc5-483f-3923-73ad" collective="false" hidden="false" import="true" targetId="8d13-85a7-128d-858b" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink name="Spellcaster" id="9ec7-7b15-2bff-6395" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink name=" Spellbook - Noble" id="be20-d1ec-c9da-bda6" collective="false" hidden="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basic War-Wizard" id="fdad-e92d-1bff-ca4e" collective="false" hidden="false" import="true" targetId="3743-eda4-9f31-9725" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="9616-167e-1eba-8eaa" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
+            <constraint id="6b51-ffbf-6322-2726" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="3"/>
+          </constraints>
+          <modifiers>
+            <modifier field="9616-167e-1eba-8eaa" type="decrement" value="1">
+              <repeats>
+                <repeat childId="abc5-483f-3923-73ad" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="88cb-d1d1-3e57-d49a" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="6b51-ffbf-6322-2726" type="decrement" value="1">
+              <repeats>
+                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="88cb-d1d1-3e57-d49a" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Spellbook - Basilean (Paid)" id="d4dd-1a77-5452-7d35" collective="false" hidden="false" import="true" targetId="f034-9998-2d1d-d593" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink name="Spellcaster" id="9bfe-9d6d-2692-9e25" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="EXTEND PROTECTION (1)" id="3550-0f10-3e78-b8b3" hidden="false" targetId="4b33-0802-a103-606d" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="daf2-02c3-f26a-4ee4" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+        <modifier field="5fe9-ddab-fd5c-edc9" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="War-Wizard" id="e820-4351-c847-a9bb" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="Evade (1)" id="654d-b104-a14c-f71d" hidden="false">
+      <description>Use this ability when the Sergeant is to perform a Break Away action. The Sergeant may Break Away from any models it is Engaged with without having to make Armour rolls and may then perform a Brace Action if desired.</description>
+    </rule>
+    <rule name="Blessing Of The Gods (2)" id="b121-9296-adcb-eab6" hidden="false">
+      <description>Use when the Abbess activates. The Abbess makes a Walk action and is then marked as both Activated and Fatigued. Remove any activation counters from up to 3 BASILEAN models within 6” of the Abbess who are not currently Fatigued. These models are free to act again this Round. The Abbess may only use this Special Ability once per game.</description>
+    </rule>
+    <rule name="Rally On Me! (2)" id="a343-1dc8-0245-1a8b" hidden="false">
+      <description>This is a Group Action. The Veteran Sergeant and all members of the group may Break Away from any models they are Engaged with without having to make Armour rolls. Other models in the group must end their moves within 3&quot; of the Veteran Sergeant. All group members then perform a Brace Action.</description>
+    </rule>
+    <rule name="Smite! (2) " id="c045-30e4-97e9-3308" hidden="false">
+      <description>Use at any time. The model has Crushing Strength (4) the next time it makes a Melee attack this Round.</description>
+    </rule>
+    <rule name="Reactive Bite" id="fc35-aa6b-42a6-904a" hidden="false">
+      <description>If this model Retaliates in Melee, it adds a bonus dice to its roll in addition to any other bonus dice or modifiers that may apply.</description>
+    </rule>
+    <rule name="Extend Protection (1)" id="4b33-0802-a103-606d" hidden="false">
+      <description>Use when casting Shield. Cast the Shield spell as normal but then also apply the same spell effect to 1 friendly model within 6&quot; of the War-Wizard, even if that model is Engaged.</description>
+    </rule>
+    <rule name="Spell - Divine Flame" id="fd65-4918-4453-556f" hidden="false">
+      <description>Choose a friendly model within range of the caster as the target. No dice roll is required. The target model may make a single 2D8 Melee attack at Me 3+ on an enemy model using any Crushing Strength the target model normally has. The enemy model may already be Engaged with the target or up to 1” away. The target model must have a Melee stat to be able to use this spell.
+
+
+Boosted version: Cost 1 Power. As above but the target model may make a second 2D8 attack in the same way against a different enemy model following the same rules.</description>
+    </rule>
+    <rule name="Spell - Blessed Light" id="b3c2-eec3-4a9a-3836" hidden="false">
+      <description>Choose a friendly model within 12” of the caster. No dice roll is required. The next time that model is targeted by an attack, the attacking model must re-roll any dice that caused a hit and accept the new result.</description>
+    </rule>
+    <rule name="Helping Hand" id="ba84-1ee2-b571-f1af" hidden="false">
+      <description>When this model activates for the first time in a Round, roll a die. On a 7+, add one Power to the warband&apos;s current pool.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Blessed Light (long)" id="c918-4d1e-760b-888a" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="7f91-3c9b-938d-1df9" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="a6ed-6590-8fd0-7fbe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="4654-57fe-a5c5-127c" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Blessed Light" id="7d8a-2c15-67c2-7c87" hidden="false" targetId="b3c2-eec3-4a9a-3836" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Blessed Light (long)" id="76b2-84f6-cb9d-9a09" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">12</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Divine Flame (long)" id="c531-ac22-4682-3836" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="fb62-a8b8-76b8-6c77" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="eb95-738c-f767-7423" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Is Faction Spell" id="d97f-5818-6795-a62e" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Spell - Divine Flame" id="cab2-66d1-78c9-7729" hidden="false" targetId="fd65-4918-4453-556f" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Divine Flame (long)" id="f985-2597-a05c-e4aa" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">1P</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name=" Spellbook - Basilean (Free)" id="8d13-85a7-128d-858b" collective="false" hidden="false" import="true">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="c9ef-ef13-54a8-646d" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="6f8c-133f-d1e6-6bfb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Blessed Light (long)" id="b168-0d97-89ac-0b36" collective="false" hidden="false" import="true" targetId="c918-4d1e-760b-888a" type="selectionEntry">
+          <constraints>
+            <constraint id="71d7-f546-8970-9281" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Divine Flame (long)" id="f505-75b8-8aa5-7b90" collective="false" hidden="false" import="true" targetId="c531-ac22-4682-3836" type="selectionEntry">
+          <constraints>
+            <constraint id="def9-2a6a-5db7-3ae0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Basic War-Wizard" id="3743-eda4-9f31-9725" collective="false" hidden="false" import="true" page="41" publicationId="2ca9-c8c4-pubN70502">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="9ab3-d49d-ea26-7d49" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Heal (short)" id="5071-0e57-1a43-6900" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
+          <constraints>
+            <constraint id="cbb7-d894-3ce7-9eb7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Lightning Bolt (long)" id="c406-2cf2-18ad-c224" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry">
+          <constraints>
+            <constraint id="7c16-d909-bc80-4e42" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Shield (short)" id="b570-7c2c-d3ba-66b2" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry">
+          <constraints>
+            <constraint id="367b-c0b3-0754-f314" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Basic Paladin Chaplain" id="4292-7980-5b3c-f3d3" collective="false" hidden="false" import="true" page="41" publicationId="2ca9-c8c4-pubN70502">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="4087-fde4-6c48-e2b7" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Heal (short)" id="2dbd-1d4e-64d9-5d44" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
+          <constraints>
+            <constraint id="7989-9814-f0dc-a45d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Shield (short)" id="5715-b770-8849-3107" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry">
+          <constraints>
+            <constraint id="48ed-62d7-83e6-dcd0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Stun (short)" id="d1e4-aca5-e1da-8442" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry">
+          <constraints>
+            <constraint id="8e93-d6b0-65ea-6dac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name=" Spellbook - Basilean (Paid)" id="f034-9998-2d1d-d593" collective="false" hidden="false" import="true">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="fc31-d525-e23c-1d4e" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Blessed Light (long)" id="e858-6d63-7c67-2e21" collective="false" hidden="false" import="true" targetId="c918-4d1e-760b-888a" type="selectionEntry">
+          <constraints>
+            <constraint id="b6a2-5eee-2df3-ce98" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Divine Flame (long)" id="0b63-125e-32b6-871a" collective="false" hidden="false" import="true" targetId="c531-ac22-4682-3836" type="selectionEntry">
+          <constraints>
+            <constraint id="cb66-89ed-fa4f-afe3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
