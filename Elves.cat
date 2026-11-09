@@ -59,8 +59,7 @@
         <categoryLink name="Troop" id="7a4c-d8cb-7a72-b0e1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
       <constraints>
-        <constraint id="1a22-7b60-504c-d107" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
-        <constraint id="ecfc-40b0-bf3b-a4ca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="419f-be21-35bf-41b8" shared="true" type="max" value="0"/>
+        <constraint id="1a22-7b60-504c-d107" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
       </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
@@ -82,11 +81,6 @@
       </infoLinks>
       <modifiers>
         <modifier field="1a22-7b60-504c-d107" type="increment" value="1">
-          <repeats>
-            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-        <modifier field="ecfc-40b0-bf3b-a4ca" type="increment" value="1">
           <repeats>
             <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
           </repeats>
@@ -656,7 +650,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Pound" id="7f2c-b2c1-777d-b0a3" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule"/>
+        <infoLink name="Pound" id="7f2c-b2c1-777d-b0a3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Compound Bow" id="2c71-8452-2713-0063" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
