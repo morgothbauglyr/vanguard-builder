@@ -226,17 +226,12 @@
     <publication name="Reference Cards" id="a3d2-75b6-8c4e-cbde"/>
     <publication name="FAQ &amp; Errata" id="9dff-33d6-57bd-974c"/>
     <publication name="Equipment Cards" id="2cf9-338e-6b9a-a228"/>
+    <publication name="Homebrew" id="4a94-de20-b936-ea2d" hidden="false" publicationDate="-" publisher="-" publisherUrl="-" shortName="HB"/>
   </publications>
-  <rules>
-    <rule name=" Kings of War - Vanguard V1.5" id="d723-d3e3-097a-5773" hidden="false"/>
-  </rules>
   <sharedRules>
     <rule name="Reload" id="607b-a841-9e41-92c0" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Shoot is a long action for any Ranged weapons with the Reload rule. However, the model may
 pivot on the spot before making an attack. Alternatively the model may Shoot as a short action, but with a -1 to hit modifier. In this case it may not pivot first.</description>
-    </rule>
-    <rule name="Is Also Large" id="cf1a-01c1-55e7-dc57" hidden="true">
-      <description>Indicates the category has the large category as well</description>
     </rule>
     <rule name="Sharp Shooter (1)" id="6bf5-bb0a-1a02-94d8" hidden="false">
       <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (1).</description>
@@ -268,23 +263,23 @@ pivot on the spot before making an attack. Alternatively the model may Shoot as 
     <rule name="Inspiring" id="c182-1549-6080-b945" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
     </rule>
-    <rule name="Power Dice Red (3)" id="b97d-fd69-997a-8ad9" hidden="false">
-      <description>equals Black</description>
+    <rule name="Power Dice R/B (3)" id="b97d-fd69-997a-8ad9" hidden="false">
+      <description>Red/Black</description>
     </rule>
-    <rule name="Power Dice Red (1)" id="df35-5711-86fa-5665" hidden="false">
-      <description>equals Black</description>
+    <rule name="Power Dice R/B (1)" id="df35-5711-86fa-5665" hidden="false">
+      <description>Red/Black</description>
     </rule>
-    <rule name="Power Dice Red (2)" id="5606-f1ee-89dc-5257" hidden="false">
-      <description>equals Black</description>
+    <rule name="Power Dice R/B (2)" id="5606-f1ee-89dc-5257" hidden="false">
+      <description>Red/Black</description>
     </rule>
-    <rule name="Power Dice White (2)" id="f6e9-e0d4-227e-a80c" hidden="false">
-      <description>equals Orange</description>
+    <rule name="Power Dice W/O (2)" id="f6e9-e0d4-227e-a80c" hidden="false">
+      <description>White/Orange</description>
     </rule>
-    <rule name="Power Dice White (3)" id="a284-293d-4e91-fd5e" hidden="false">
-      <description>equals Orange</description>
+    <rule name="Power Dice W/O (3)" id="a284-293d-4e91-fd5e" hidden="false">
+      <description>White/Orange</description>
     </rule>
-    <rule name="Power Dice White (1)" id="fb0f-ab7c-3175-77f3" hidden="false">
-      <description>equals Orange</description>
+    <rule name="Power Dice W/O (1)" id="fb0f-ab7c-3175-77f3" hidden="false">
+      <description>White/Orange</description>
     </rule>
     <rule name="Smite (2)" id="fed8-40cc-4cff-77d7" hidden="false"/>
     <rule name="Smite (1)" id="276c-ca90-ca2a-fd15" hidden="false"/>
@@ -302,18 +297,6 @@ pivot on the spot before making an attack. Alternatively the model may Shoot as 
     </rule>
     <rule name="Single Use" id="ec94-22fd-e225-478b" hidden="false">
       <description>Discard this item after use.</description>
-    </rule>
-    <rule name="Once per game" id="db3c-d73d-067c-a871" hidden="false">
-      <description>This item may only be used once per game.</description>
-    </rule>
-    <rule name="No spellcasters" id="88f7-09d3-6fba-b333" hidden="false">
-      <description>Cannot be taken by spellcasters</description>
-    </rule>
-    <rule name="No Large" id="27ab-48a4-066c-a97a" hidden="false">
-      <description>Cannot be taken by Large models</description>
-    </rule>
-    <rule name="No Cavalry" id="5440-db56-a248-6579" hidden="false">
-      <description>Cannot be taken by models with the cavalry special rule</description>
     </rule>
     <rule name="6th Sense" id="fa8a-67fe-b077-d4f8" hidden="false" page="37" publicationId="37f5-f8f9-pubN68000">
       <description>A standing model with this rule attacked by Melee in their rear arc may turn to face the attacker, which occurs before any Melee attack is resolved. The attacking model loses any bonus for attacking from the rear. A model Engaged with any other enemy model may not use this rule.</description>
@@ -404,14 +387,14 @@ Pound: If an attack with this rule scores 3 or more hits and the target is not k
     <rule name="Very Inspiring" id="67df-803d-48b0-1418" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule, and all friendly models within 9” of it, may re-roll failed Nerve tests.</description>
     </rule>
-    <rule name="Power Dice Blue (3)" id="6666-aa83-282c-65d3" hidden="false">
-      <description>equals Green</description>
+    <rule name="Power Dice B/G (3)" id="6666-aa83-282c-65d3" hidden="false">
+      <description>Blue/Green</description>
     </rule>
-    <rule name="Power Dice Blue (2)" id="619f-55e5-7df8-c3e6" hidden="false">
-      <description>equals Green</description>
+    <rule name="Power Dice B/G (2)" id="619f-55e5-7df8-c3e6" hidden="false">
+      <description>Blue/Green</description>
     </rule>
-    <rule name="Power Dice Blue (1)" id="9f0b-f977-bb53-fe2e" hidden="false">
-      <description>equals Green</description>
+    <rule name="Power Dice B/G (1)" id="9f0b-f977-bb53-fe2e" hidden="false">
+      <description>Blue/Green</description>
     </rule>
     <rule name="Crushing Strength (6)" id="5546-4beb-d018-5968" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
@@ -445,26 +428,19 @@ when rolling for hits (including casting spells).</description>
     <rule name="Expert Rider" id="761a-5ccb-142e-0ebb" hidden="false">
       <description>This model can also claim the +1 Melee attack modifier for its cavalry special rule against targets of equal Height, not just those of lower Height.</description>
     </rule>
-    <rule name="Weapon - Spear" id="0eac-eab3-f72e-6f2c" hidden="false">
-      <description>Models with spears not Engaged with an enemy model but within 2” of a friendly model that is, grant the Engaged model one bonus die for its Melee attacks. Only 1 bonus die may be given to a model in this way, regardless of the number of spears in range. Models with spears participating in a Group Charge Action to do not have to engage enemy models but must end their move within 2” of a model in the group that is engaged.</description>
+    <rule name="Long Reach" id="0eac-eab3-f72e-6f2c" hidden="false">
+      <description>If this model is not Engaged with an enemy model and within 2&quot; of a friendly model that is Engaged with an enemy model, that friendly model gains +1D8 for it&apos;s melee attacks. Only 1 bonus die may be given to a model in this way. Models with Long Reach participating in a Group Charge Action to do not have to engage enemy models but must end their move within 2” of a model in the group that is engaged.</description>
     </rule>
     <rule name="Spell - Marksman" id="15a0-b274-e8ba-6a75" hidden="false" page="38"/>
-    <rule name="Spell - Piercing (1)" id="34ba-33d9-c057-fd44" hidden="false"/>
     <rule name="Spell - Crushing Strength (n)" id="af6b-f940-da85-9762" hidden="false">
       <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
-    <rule name="Spell - Piercing (2)" id="2d6c-7f42-6d86-f6fc" hidden="false"/>
     <rule name="Items Warning - Stats Modifier" id="2d98-c03d-6662-8840" hidden="false">
       <description>Modifies base stats from the warband member - this is NOT done automatically so please verify and adjust manually !</description>
     </rule>
     <rule name="Combined Fire" id="b43b-e9a2-0881-2568" hidden="false">
       <description>When involved in a Group Shoot Action, models of this type add +1 dice to their Ranged Attack roll if one or more other models of the same type in the group fire at the same target.</description>
     </rule>
-    <rule name="Equipment - Piercing (1)" id="40b8-1250-1347-c904" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
-    <rule name="Equipment - Reload" id="e403-0d82-dc63-2958" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
-    <rule name="Equipment - Crushing Strength (+1)" id="82d0-84b3-3276-df29" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
-    <rule name="Equipment - Crushing Strength (+2)" id="b0ea-37a6-4747-6af7" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
-    <rule name="Equipment - Piercing (+1)" id="dfdb-34ce-bc3f-140d" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
     <rule name="Equipment - Bandages" id="97fb-93b0-0bf8-af1c" hidden="false">
       <description>A model with this item may discard it during its activation to Roll a die. On a 4+, recover 1 Wound the model has previously suffered.</description>
     </rule>
@@ -489,14 +465,9 @@ when rolling for hits (including casting spells).</description>
     <rule name="Equipment - Wicked dagger" id="9a71-1b3b-1a54-aa1d" hidden="false">
       <description>The model has the Sneaky special rule when making a Melee attack with this item.</description>
     </rule>
-    <rule name="Equipment - Defender" id="40bf-70cf-ef3c-26b3" hidden="false"/>
-    <rule name="Equipment - Sneaky" id="d541-b132-5e5f-de72" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000"/>
     <rule name="Bounty Hunter" id="ea86-3849-9e63-44c6" hidden="false">
       <description>Remove all fatigue tokens from this model whenever he kills a a model</description>
     </rule>
-    <rule name="Equipment - Breath" id="4e7b-e090-b103-6569" hidden="false" page="37" publicationId="37f5-f8f9-pubN68000"/>
-    <rule name="Equipment - Pound" id="1cc2-005a-94cc-da35" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
-    <rule name="Equipment - Piercing (2)" id="66f1-9dc0-f0e2-4ae8" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
     <rule name="Equipment - Marksman" id="9bcc-d59f-7ada-1a84" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
     <rule name="Frenzy (1)" id="e9c1-10e3-312f-3d7e" hidden="false">
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus die for a roll.</description>
@@ -513,8 +484,6 @@ when rolling for hits (including casting spells).</description>
     <rule name="Equipment - Rare Mount" id="d29f-2d41-1e43-8b6a" hidden="false" page="121" publicationId="37f5-f8f9-pubN68000">
       <description>The model gains +2 Sp to a maximum of 8, +1 Height, +1 Wound and the model’s base size becomes Cav. The model may not use the Fly special rule.</description>
     </rule>
-    <rule name="Spell - Piercing (3)" id="b105-0099-4718-6af8" hidden="false"/>
-    <rule name="Spell - Piercing (n)" id="91a5-5602-eac6-f16a" hidden="false"/>
     <rule name="Master Tactician" id="dd07-9d5f-1c25-383f" hidden="false">
       <description>After both sides have finished deployment, you may redeploy up to 2 of your models. If both sides have models with this ability, then they alternate redeployments starting with the side which finished deployment first. The redeployments do not count towards determining who finished first.</description>
     </rule>
@@ -647,9 +616,9 @@ it kills with a Melee attack with this weapon.</description>
     </rule>
     <rule name="Spell - Heal" id="3d8d-65cc-f49a-0bc6" hidden="false">
       <description>Target a single friendly model in range (but not the caster), even if it is Engaged, and roll
-3D8. For each 6+ rolled, the target recovers 1 wound previously suffered.</description>
+3D8. For each 5+ rolled, the target recovers 1 wound previously suffered.</description>
     </rule>
-    <rule name="Spell- Mindstorm" id="4d9d-8238-8300-52d8" hidden="false">
+    <rule name="Spell - Mindstorm" id="4d9d-8238-8300-52d8" hidden="false">
       <description>LOS is not required to the target to cast this spell.</description>
     </rule>
     <rule name="Spell - Shield" id="8d90-83a0-01a7-bae8" hidden="false">
@@ -659,7 +628,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <rule name="Spell - Shockwave" id="5b79-4821-e953-114e" hidden="false">
       <description>All models (including friendly ones) of up to Height 2 within 3” of the caster are moved 3” directly away from the caster. Movement will only be blocked by Impassable Terrain or other models not affected by the Shockwave. Move the models furthest away from the caster first. Models cannot become Engaged when moved by Shockwave – halt them 1” away if they would be. Models already Engaged will still end up Engaged with each other if both are moved.</description>
     </rule>
-    <rule name="Spell- Shockwave Boosted" id="9015-c2cf-850e-517d" hidden="false">
+    <rule name="Spell - Shockwave Boosted" id="9015-c2cf-850e-517d" hidden="false">
       <description>As above, but models up to Height 3 are affected for this casting.</description>
     </rule>
     <rule name="Spell - Stun" id="0657-9869-6e33-4139" hidden="false">
@@ -670,6 +639,30 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     </rule>
     <rule name="Area Effect (range / dice / rules)" id="77ba-b2d8-11ad-a1c9" hidden="false">
       <description>Attacks that have the Area Effect rule may also hit models near to the original target and at the same Terrain Height the target is currently on or in. The Area Effect rule will detail the size of the affected area, how many attack dice are rolled and any Special Rules that may apply (note that the Special Rules from the initial attack don’t automatically apply). Once any damage and effects on the original target are resolved, the extended area effect attacks are then resolved in any order the player using the attack wishes. Unlike normal Ranged attacks, you may not spend Power to gain additional dice on Area Effect attacks.</description>
+    </rule>
+    <rule name="Polearm" id="a345-368f-6337-e54d" hidden="false" publicationId="4a94-de20-b936-ea2d">
+      <description>Charges against this model in it&apos;s front arc always count as hindered.</description>
+    </rule>
+    <rule name="Piercing (n)" id="5972-bb61-ccbd-1037" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
+      <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
+    </rule>
+    <rule name="Toxic" id="1c25-a379-3b06-355c" hidden="false">
+      <description>If an attack with this rule wounds the target, it is marked as Fatigued.</description>
+    </rule>
+    <rule name="Engaged Cast" id="a8dc-9e80-db50-c93c" hidden="false" publicationId="4a94-de20-b936-ea2d">
+      <description>This spell may be Cast while Engaged. Targets may Retaliate if possible.</description>
+    </rule>
+    <rule name="Lumbering" id="b1a8-29de-d850-c215" hidden="false">
+      <description>This unit cannot Climb, Jump or enter Difficult Terrain. Melee attack against it are always considered to be in the rear arc.</description>
+    </rule>
+    <rule name="Ensnare" id="f6ec-c30d-a3b1-738b" hidden="false">
+      <description>Melee Attacks against this model&apos;s front arc suffer from a -1 modifier.</description>
+    </rule>
+    <rule name="Torrent" id="c62a-d2c1-4b9f-b24d" hidden="false">
+      <description>Rolling to hit for this ranged attack is never modified.</description>
+    </rule>
+    <rule name="WILD CHARGE (1)" id="b41c-7626-ecab-be22" hidden="false">
+      <description>Spend 1 Power to increase this model&apos;s SP by 1.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -704,8 +697,8 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (1)" id="9075-c2a4-08b7-f061" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
-        <infoLink name="Equipment - Reload" id="4585-4b49-78cd-0588" hidden="false" targetId="e403-0d82-dc63-2958" type="rule"/>
+        <infoLink name="Piercing (1)" id="9075-c2a4-08b7-f061" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Reload" id="4585-4b49-78cd-0588" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Crossbow" id="51ae-7031-fa5a-78be" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
@@ -826,7 +819,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (+1)" id="43a1-fca9-cf71-5ad1" hidden="false" targetId="dfdb-34ce-bc3f-140d" type="rule"/>
+        <infoLink name="Piercing (n)" id="43a1-fca9-cf71-5ad1" hidden="false" targetId="5972-bb61-ccbd-1037" type="rule"/>
         <infoLink name="Equipment - Bodkin Arrow" id="c1da-7849-d5b3-7e8c" hidden="false" targetId="e292-1a66-8d2c-4437" type="rule"/>
       </infoLinks>
       <profiles>
@@ -863,7 +856,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Crushing Strength (+1)" id="5fbf-d99f-6133-4457" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="5fbf-d99f-6133-4457" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Equipment - Heavy Weapon" id="22f6-f53d-a763-0da8" hidden="false" targetId="2881-f56a-a40d-b710" type="rule"/>
       </infoLinks>
       <profiles>
@@ -947,7 +940,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Sneaky" id="fd44-1bd8-fab3-4e9f" hidden="false" targetId="d541-b132-5e5f-de72" type="rule"/>
+        <infoLink name="Sneaky" id="fd44-1bd8-fab3-4e9f" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Equipment - Wicked dagger" id="defb-72ee-32e1-71c6" hidden="false" targetId="9a71-1b3b-1a54-aa1d" type="rule"/>
       </infoLinks>
       <profiles>
@@ -1119,7 +1112,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
             <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">-</characteristic>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365">Breath</characteristic>
           </characteristics>
         </profile>
@@ -1156,6 +1149,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       </costs>
       <infoLinks>
         <infoLink name="Spell - Heal" id="574e-2017-05b8-0bbf" hidden="false" targetId="3d8d-65cc-f49a-0bc6" type="rule"/>
+        <infoLink name="Spell - Heal (Boosted)" id="a79d-11a2-c706-a585" hidden="false" targetId="3d8d-65cc-f49a-0bc6" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Heal (short)" id="a47a-89bb-68ca-2051" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
@@ -1163,8 +1157,9 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
             <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">
+</characteristic>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365">(long)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1177,7 +1172,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Spell - Piercing (1)" id="d247-2f3d-3f45-2c67" hidden="false" targetId="34ba-33d9-c057-fd44" type="rule"/>
+        <infoLink name="Piercing (1)" id="d247-2f3d-3f45-2c67" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
         <infoLink name="Spell - Marksman" id="9bae-fc92-7fd6-4d7a" hidden="false" targetId="15a0-b274-e8ba-6a75" type="rule"/>
       </infoLinks>
       <profiles>
@@ -1200,7 +1195,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Spell - Piercing (1)" id="8f9a-b006-bf7e-4a8d" hidden="false" targetId="34ba-33d9-c057-fd44" type="rule"/>
+        <infoLink name="Piercing (1)" id="8f9a-b006-bf7e-4a8d" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
         <infoLink name="Spell- Mindstorm" id="0ce9-5b53-9f60-dafc" hidden="false" targetId="4d9d-8238-8300-52d8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -1250,6 +1245,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       <infoLinks>
         <infoLink name="Spell - Shockwave" id="7e7f-1224-0cc7-e82b" hidden="false" targetId="5b79-4821-e953-114e" type="rule"/>
         <infoLink name="Spell- Shockwave Boosted" id="00ad-b4c8-b983-2051" hidden="false" targetId="9015-c2cf-850e-517d" type="rule"/>
+        <infoLink name="Engaged Cast" id="d89d-7893-794b-5281" hidden="false" targetId="a8dc-9e80-db50-c93c" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Shockwave (long)" id="ce8f-dc4d-2644-76ba" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
@@ -1415,8 +1411,8 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (1)" id="7f8a-7beb-9468-5154" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
-        <infoLink name="Equipment - Reload" id="bbe0-35c5-8237-faa0" hidden="false" targetId="e403-0d82-dc63-2958" type="rule"/>
+        <infoLink name="Piercing (1)" id="7f8a-7beb-9468-5154" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Reload" id="bbe0-35c5-8237-faa0" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Crossbow" id="e532-1a89-d259-e2cf" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
@@ -1481,7 +1477,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (2)" id="f014-2ee9-6e18-8a41" hidden="false" targetId="66f1-9dc0-f0e2-4ae8" type="rule"/>
+        <infoLink name="Piercing (2)" id="f014-2ee9-6e18-8a41" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Holy Hand Grenades" id="9523-c915-2d02-3295" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
@@ -1825,7 +1821,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       <infoLinks>
         <infoLink name="Equipment - Forgebreaker" id="2a9c-3cbb-9bda-0ebb" hidden="false" targetId="15af-8a27-0d9a-fadc" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="5555-76e8-db5c-2eab" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Equipment - Pound" id="8f37-9f43-df40-4290" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule"/>
+        <infoLink name="Pound" id="8f37-9f43-df40-4290" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Forgebreaker" id="7e55-dcbe-35c3-94dc" hidden="false" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
@@ -2230,6 +2226,47 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       <rules>
         <rule name="Rule Check - Allows 1 more Command then Normal" id="f441-800c-d58f-0060" hidden="true" publicationId="37f5-f8f9-pubN68000">
           <description>Checks the rule that some war bands are allowed to take 1 more Command model</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry name="Throwing Knife" id="6a18-4227-239c-0d6c" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <comment>Homebrew</comment>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1.5"/>
+      </costs>
+      <profiles>
+        <profile name="Throwing Knife" id="e8e8-8b78-4f2b-bcd9" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Chain Lightning (long)" id="3c3a-f11b-6b5c-6355" collective="false" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
+      <constraints>
+        <constraint id="1ab4-7701-2247-afcc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Piercing (2)" id="7433-a5c1-ff46-6170" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Chain Lightning" id="4572-f18e-1ecf-fee3" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (2)</characteristic>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Spell - Chain Lightning" id="8492-43b7-59b7-e7c0" hidden="false">
+          <description>If any wounds are suffered by the target, choose another un-Engaged enemy model within 3” of the target and roll to attack again. Repeat this process until there are no eligible models. Each model can only be attacked once from a single casting of this spell. Targets beyond the first may be outside LOS of the casting model but must in LOS from the previous target.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -2876,7 +2913,11 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Basic " id="cff4-79e8-2c40-b46c" collective="false" hidden="false" import="true" page="41" publicationId="37f5-f8f9-pubN68000">
       <entryLinks>
-        <entryLink name="Fireball (short)" id="29ee-0b25-fe08-8b3f" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink name="Fireball (short)" id="29ee-0b25-fe08-8b3f" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry">
+          <infoLinks>
+            <infoLink name="Breath" id="87a2-43ed-f704-71ff" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
+          </infoLinks>
+        </entryLink>
         <entryLink name="Hammer (long)" id="c537-e997-7fca-99f7" collective="false" hidden="false" import="true" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
         <entryLink name="Heal (short)" id="be07-8b41-f020-1ad7" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
         <entryLink name="Lightning Bolt (long)" id="fa52-d8c2-9b5d-86ce" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
@@ -2889,8 +2930,11 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Noble" id="9d30-0373-64e2-5580" collective="false" hidden="false" import="true" page="123" publicationId="37f5-f8f9-pubN68000">
+      <entryLinks>
+        <entryLink name="Chain Lightning (long)" id="4367-17f4-b784-fedd" hidden="false" import="true" targetId="3c3a-f11b-6b5c-6355" type="selectionEntry"/>
+      </entryLinks>
       <selectionEntries>
-        <selectionEntry name="Dazzle (short)" id="c2b8-c293-d9ce-92da" collective="false" defaultAmount="1" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Dazzle (short)" id="c2b8-c293-d9ce-92da" collective="false" defaultAmount="1" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
           <constraints>
             <constraint id="4c4f-5323-6f51-8884" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -2917,7 +2961,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry name="Deteriorate (long)" id="a272-3ba8-9519-834c" collective="false" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Deteriorate (long)" id="a272-3ba8-9519-834c" collective="false" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
           <constraints>
             <constraint id="8ade-df7e-2574-5811" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -2944,7 +2988,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry name="Transpose (long)" id="6df9-6ad8-eef8-09f2" collective="false" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Transpose (long)" id="6df9-6ad8-eef8-09f2" collective="false" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
           <constraints>
             <constraint id="9ad2-2f5d-943e-ab3d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -2971,7 +3015,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry name="Blur (short)" id="3601-86d0-95b0-fc28" collective="false" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Blur (short)" id="3601-86d0-95b0-fc28" collective="false" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
           <constraints>
             <constraint id="ee93-2e69-cbf1-cb24" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -2996,7 +3040,7 @@ other Ranged attacks from any source for the remainder of the Round. The target 
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry name="Teleport (long)" id="01a6-2c13-d66c-4161" collective="false" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Teleport (long)" id="01a6-2c13-d66c-4161" collective="false" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
           <constraints>
             <constraint id="1be6-e2dc-b5e1-7ae1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -3020,33 +3064,6 @@ other Ranged attacks from any source for the remainder of the Round. The target 
             </rule>
             <rule name="Spell - Teleport Boosted" id="75f9-9e10-97bc-a55e" hidden="false">
               <description>Boosted version: Cost 2 Power. As above but the caster may target an enemy model instead. Your opponent may choose the facing of any of their teleported models.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
-        <selectionEntry name="Chain Lightning" id="ac78-515c-104d-d4d3" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="a504-3eab-3bc0-64f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Spell - Piercing (2)" id="49bc-82d0-f953-df1b" hidden="false" targetId="2d6c-7f42-6d86-f6fc" type="rule"/>
-          </infoLinks>
-          <profiles>
-            <profile name="Chain Lightning" id="d300-b4c9-69ce-4b88" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
-              <characteristics>
-                <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
-                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
-                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (2)</characteristic>
-                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule name="Spell - Chain Lightning" id="e175-ff89-60d1-3e3f" hidden="false">
-              <description>If any wounds are suffered by the target, choose another un-Engaged enemy model within 3” of the target and roll to attack again. Repeat this process until there are no eligible models. Each model can only be attacked once from a single casting of this spell. Targets beyond the first may be outside LOS of the casting model but must in LOS from the previous target.</description>
             </rule>
           </rules>
         </selectionEntry>
