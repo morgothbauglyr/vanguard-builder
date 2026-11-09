@@ -230,8 +230,8 @@
   </publications>
   <sharedRules>
     <rule name="Reload" id="607b-a841-9e41-92c0" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Shoot is a long action for any Ranged weapons with the Reload rule. However, the model may
-pivot on the spot before making an attack. Alternatively the model may Shoot as a short action, but with a -1 to hit modifier. In this case it may not pivot first.</description>
+      <description>Shoot is a long action for any Ranged weapons with the Reload rule. However, the model may pivot on the spot before making an attack. 
+Alternatively the model may Shoot as a short action, but with a -1 to hit modifier. In this case it may not pivot first.</description>
     </rule>
     <rule name="Sharp Shooter (1)" id="6bf5-bb0a-1a02-94d8" hidden="false">
       <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (1).</description>
@@ -251,7 +251,8 @@ pivot on the spot before making an attack. Alternatively the model may Shoot as 
     <rule name="Crushing Strength (3)" id="a715-6836-a848-093a" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
-    <rule name="Vicious" id="7ab6-3cc6-82ce-2437" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
+    <rule name="Elite" id="7ab6-3cc6-82ce-2437" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
+      <comment>Renamed from Vicious</comment>
       <description>A model with this rule can re-roll any 1s when making Melee attacks.</description>
     </rule>
     <rule name="Steady" id="b26e-9018-2d56-fa19" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
@@ -469,7 +470,7 @@ when rolling for hits (including casting spells).</description>
       <description>Remove all fatigue tokens from this model whenever he kills a a model</description>
     </rule>
     <rule name="Equipment - Marksman" id="9bcc-d59f-7ada-1a84" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000"/>
-    <rule name="Frenzy (1)" id="e9c1-10e3-312f-3d7e" hidden="false">
+    <rule name="FRENZY (1)" id="e9c1-10e3-312f-3d7e" hidden="false">
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus die for a roll.</description>
     </rule>
     <rule name="Inspiring (Grunts &amp; Warriors only)" id="393c-e681-96ad-82c7" hidden="false">
@@ -664,6 +665,12 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <rule name="WILD CHARGE (1)" id="b41c-7626-ecab-be22" hidden="false">
       <description>Spend 1 Power to increase this model&apos;s SP by 1.</description>
     </rule>
+    <rule name="DRAW POWER (1)" id="b2f7-7807-311b-9a5f" hidden="false">
+      <description>Use this ability to gain 2 bonus dice when this model makes a Cast action. Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus die for a roll.</description>
+    </rule>
+    <rule name="MASTER OF MAGIC (2)" id="9fe1-3523-6999-f986" hidden="false">
+      <description>Pay 2 Power when this model activates. Any (long) cast actions become (short) for the duration of this model&apos;s activation.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Spear" id="da36-7b90-c7e5-26c1" collective="false" hidden="false" import="true" type="upgrade">
@@ -674,7 +681,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Weapon - Spear" id="88ea-4a58-bccb-2b5e" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule"/>
+        <infoLink name="Long Reach" id="88ea-4a58-bccb-2b5e" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Spear" id="52f9-f421-4b85-925b" hidden="true" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
@@ -1149,7 +1156,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       </costs>
       <infoLinks>
         <infoLink name="Spell - Heal" id="574e-2017-05b8-0bbf" hidden="false" targetId="3d8d-65cc-f49a-0bc6" type="rule"/>
-        <infoLink name="Spell - Heal (Boosted)" id="a79d-11a2-c706-a585" hidden="false" targetId="3d8d-65cc-f49a-0bc6" type="rule"/>
+        <infoLink name="Spell - Heal" id="a79d-11a2-c706-a585" hidden="false" targetId="3d8d-65cc-f49a-0bc6" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Heal (short)" id="a47a-89bb-68ca-2051" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
@@ -1157,8 +1164,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
             <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">
-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365">(long)</characteristic>
           </characteristics>
         </profile>
@@ -1196,7 +1202,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       </costs>
       <infoLinks>
         <infoLink name="Piercing (1)" id="8f9a-b006-bf7e-4a8d" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
-        <infoLink name="Spell- Mindstorm" id="0ce9-5b53-9f60-dafc" hidden="false" targetId="4d9d-8238-8300-52d8" type="rule"/>
+        <infoLink name="Spell - Mindstorm" id="0ce9-5b53-9f60-dafc" hidden="false" targetId="4d9d-8238-8300-52d8" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Mind Storm (long)" id="2283-34ee-2cb4-320d" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
@@ -1244,7 +1250,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       </costs>
       <infoLinks>
         <infoLink name="Spell - Shockwave" id="7e7f-1224-0cc7-e82b" hidden="false" targetId="5b79-4821-e953-114e" type="rule"/>
-        <infoLink name="Spell- Shockwave Boosted" id="00ad-b4c8-b983-2051" hidden="false" targetId="9015-c2cf-850e-517d" type="rule"/>
+        <infoLink name="Spell - Shockwave Boosted" id="00ad-b4c8-b983-2051" hidden="false" targetId="9015-c2cf-850e-517d" type="rule"/>
         <infoLink name="Engaged Cast" id="d89d-7893-794b-5281" hidden="false" targetId="a8dc-9e80-db50-c93c" type="rule"/>
       </infoLinks>
       <profiles>
@@ -1322,20 +1328,6 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Rule Check - Is Large Command" id="2dc8-0349-7db9-27e1" collective="false" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
-      <constraints>
-        <constraint id="dc27-ff67-62c7-036e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-        <constraint id="afb2-aa26-18ad-452e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <rules>
-        <rule name="Rule Check - Is Large Command" id="fa91-f75e-5c3f-1646" hidden="true">
-          <description>Indicates that the command figure is also a large figure</description>
-        </rule>
-      </rules>
-    </selectionEntry>
     <selectionEntry name="Rule Check - Allows 1 more Large then Normal" id="36af-b45d-473d-d895" collective="false" hidden="false" import="true" type="upgrade">
       <constraints>
         <constraint id="4fef-b70e-c24e-786f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -1350,15 +1342,6 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry name="Rule Check - Ignore Large Limit" id="75a6-b0bd-5078-4077" collective="false" hidden="false" import="true" type="upgrade">
-      <constraints>
-        <constraint id="727f-dbfa-44e2-4c80" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-        <constraint id="a972-eca1-49df-583b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry name="Spear (Common)" id="7da7-23d4-56b5-549d" collective="false" hidden="false" import="true" page="120" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <constraints>
         <constraint id="620d-6b42-6677-bcc2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1367,7 +1350,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Weapon - Spear" id="3caa-e9a9-8afa-e27d" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule"/>
+        <infoLink name="Long Reach" id="3caa-e9a9-8afa-e27d" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Spear" id="56ac-a1ed-3afd-0304" hidden="true" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
