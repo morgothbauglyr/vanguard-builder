@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Nightstalkers" id="1ecc-fae0-608b-85be" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Nightstalker" id="4100-0b22-ed1d-21f6" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Butcher" id="f2c4-1b3c-2af9-b877" hidden="false" import="true" targetId="46fe-ec09-37c5-aa45" type="selectionEntry"/>
+    <entryLink name="Reaper" id="780b-6335-008d-e7f1" hidden="false" import="true" targetId="4225-ae6e-720c-8622" type="selectionEntry"/>
+    <entryLink name="Phantom" id="7dd1-b8e8-581a-3e8e" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
+    <entryLink name="Ravager" id="3c88-44fc-1bc1-c7a3" hidden="false" import="true" targetId="efb2-f856-9e7c-11e8" type="selectionEntry"/>
+  </entryLinks>
   <infoLinks>
     <infoLink name="DREAD (1)" id="70e0-3c13-9e95-8602" hidden="false" targetId="a396-7368-c857-ebd5" type="rule"/>
   </infoLinks>
@@ -145,96 +154,6 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Reaper" id="5c8b-6105-6423-a066" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Warrior" id="a595-a86f-51a2-47c7" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="413f-f156-8bee-e4b1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-        <categoryLink name="Has Crushing Strength" id="ef06-7c46-aba4-214c" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="07e2-d4d6-6fbc-6c77" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="0625-2b99-c777-4935" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Stealthy" id="35dd-fe38-9a76-581b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="da11-c357-8757-ee70" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="07e2-d4d6-6fbc-6c77" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Reaper" id="d50c-d738-718a-cdd9" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Phantom" id="1239-231c-cb7b-1f0e" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Warrior" id="9f82-de69-3135-8ce3" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="f7c9-ff50-5a7d-74fb" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="538d-63ec-9bb3-2adc" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="b0f4-78d1-0183-7d5e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Stealthy" id="570f-5f8e-1a5d-ad5e" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Fly" id="8d23-efc4-fc2e-373e" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Vicious" id="60a3-94de-ea4b-4072" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="538d-63ec-9bb3-2adc" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Phantom" id="bc66-ab25-f8a6-82e7" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry name="Horror" id="2ca7-f02e-307f-5ac6" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Warrior" id="89e8-ed79-ffcb-01eb" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
@@ -275,93 +194,6 @@
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Shadowhound" id="3033-835e-b9e4-7b94" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Support" id="c5b4-6be8-09ac-6575" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
-        <categoryLink name="Has Regenerate" id="7237-9a15-5b46-fc25" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="02b2-57e6-c84c-b9ba" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Stealthy" id="7306-81fd-24a0-1118" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Bloodlust" id="2c04-140d-2d0e-0ca4" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Regenerate (6+)" id="2100-258c-4ee5-9b12" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="02b2-57e6-c84c-b9ba" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Shadowhound" id="46fc-2f9c-8093-c4bd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker, Beast</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Butcher" id="de32-d18c-5f6c-4aa5" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Large" id="b04e-e0be-b04f-0174" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
-        <categoryLink name="Has Crushing Strength" id="5db7-0481-33c9-3956" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="5f29-4331-3c1e-75df" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="d086-8330-518f-6a97" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Stealthy" id="bcd3-a9aa-7dd9-b721" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="07ce-9ce8-6d37-2c64" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Pound" id="221c-3211-4e26-c1ff" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="5f29-4331-3c1e-75df" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Butcher" id="3b2c-f761-cede-bf02" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -618,6 +450,22 @@
       </profiles>
     </selectionEntry>
   </selectionEntries>
+  <sharedProfiles>
+    <profile name="Reaper" id="15c7-9daa-a75b-b6ab" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
   <sharedRules>
     <rule name="DREAD (1)" id="a396-7368-c857-ebd5" hidden="false">
       <description>Nominate any one of your Nightstalker models on the table that is not Fatigued. Pick one enemy model within 3” of the nominated Nightstalker. This model must immediately make a Nerve test with a -1 modifier. If the test if failed the model is marked as Activated. Any rules that apply to Nerve tests (e.g. Inspiring) can be used normally. This ability may be used once in each Nightstalker Turn, and is not limited to one use per Round.</description>
@@ -661,7 +509,7 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
       </costs>
       <infoLinks>
         <infoLink name="Attack - Firebolt" id="3b46-be9a-2f18-d846" hidden="false" targetId="7095-4a5b-4a7a-ea05" type="rule"/>
-        <infoLink name="Equipment - Piercing (1)" id="9dd1-51e6-73ff-4291" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+        <infoLink name="Piercing (1)" id="9dd1-51e6-73ff-4291" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Firebolt" id="a676-068b-ea0d-4f9b" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -713,6 +561,225 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
             <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Phantom" id="6742-6719-e2c6-c54d" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="fc04-f053-dd98-f9d1" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="57a8-fe14-b4c0-6042" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Nightstalker" id="0f24-3e2c-c648-3bbc" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="b888-7b8c-3051-2872" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="7350-0522-8504-0cc9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Stealthy" id="4c26-aad1-02b1-a0fe" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Fly" id="eb24-7c97-3b2e-5612" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
+        <infoLink name="Vicious" id="0988-2e9e-70ca-9c48" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="b888-7b8c-3051-2872" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Phantom" id="e379-d049-73e4-293f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Butcher" id="46fe-ec09-37c5-aa45" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="574e-6ed3-e563-efaa" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Crushing Strength" id="424e-1327-186e-a15c" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Nightstalker" id="a322-cf9e-ced0-e93a" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="1024-cc8f-50e2-ca2c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="dbb9-3cc8-bbbc-35fd" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Stealthy" id="5638-c44e-a5a1-e463" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Crushing Strength (2)" id="86ec-7173-a79e-ae6c" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Pound" id="383e-324c-0503-49b9" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="1024-cc8f-50e2-ca2c" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Butcher" id="6a87-787f-3a2e-882b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Reaper" id="4225-ae6e-720c-8622" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="68dd-2bf5-c322-998c" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="fbc3-8e42-e5ff-e762" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="c147-f009-f52d-20cf" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Nightstalker" id="cfb1-b998-55cc-9743" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="dc50-a150-7486-0d27" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="7ded-2a9d-1006-f5ff" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Stealthy" id="fb14-a58d-a662-ab9d" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="b93d-bff6-0573-0a9f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Reaper" id="4452-8578-21e2-d056" hidden="false" targetId="15c7-9daa-a75b-b6ab" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="dc50-a150-7486-0d27" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Ravager" id="efb2-f856-9e7c-11e8" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="cfd2-211b-990e-a23d" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Nightstalker" id="7aea-b2d5-cdda-1a82" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3330-3a37-9ff1-b6d9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="d647-8957-266e-16e9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Stealthy" id="7f17-4c8c-aff5-0fa5" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Pound" id="52a2-7e80-f5f5-316f" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="3330-3a37-9ff1-b6d9" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ravager" id="dbb9-8154-5cbc-3a3a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="ETHERIC CHARGE (1)" id="30ec-0534-c0bb-ac15" hidden="false">
+          <description>Use this ability to gain 2 bonus dice when this model makes a Ranged Attack. Spend the power before rolling any dice. This may not be used with spending power to gain an extra dice normally. In effect, this ability replaces it.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry name="Void Blaster" id="1179-9684-cc81-dd35" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Void Blaster" id="739f-81d8-3beb-eb80" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+              <characteristics>
+                <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+                <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">
+</characteristic>
+                <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Shadowhound" id="84d0-e79f-f11f-677e" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="8feb-da39-14aa-677d" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Has Regenerate" id="06e2-c4de-5bd9-8b57" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Nightstalker" id="e5ef-6d6c-4133-037a" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="2fc6-abfc-4307-d99f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Stealthy" id="a529-1ed7-6943-2156" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Bloodlust" id="be61-54aa-f934-a969" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="09ae-9737-40eb-b511" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="2fc6-abfc-4307-d99f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Shadowhound" id="bcbe-9f2b-1e67-295b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
