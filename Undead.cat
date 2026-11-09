@@ -14,6 +14,9 @@
         <categoryLink name="Grunt" id="7762-fca4-0d96-fe88" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="4efc-8d4d-cce7-5949" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="2527-31b3-5859-cf03" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
@@ -23,6 +26,13 @@
       <infoLinks>
         <infoLink name="Mob Assault" id="53f9-7ae9-1ef6-1593" hidden="false" targetId="02e7-0f47-e451-32e3" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="2527-31b3-5859-cf03" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Zombie" id="9cc2-ba28-1e05-ed33" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -47,6 +57,9 @@
         <categoryLink name="Grunt" id="a388-1f49-8639-8006" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="234d-1609-0a18-2168" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="7f36-9cfa-4399-e428" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
@@ -56,6 +69,13 @@
       <infoLinks>
         <infoLink name="Dodge" id="41a1-23f0-4dd2-d475" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="7f36-9cfa-4399-e428" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Ghoul" id="3890-340e-da92-cf48" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -80,12 +100,22 @@
         <categoryLink name="Grunt" id="1329-2051-5656-346e" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="afde-80e2-25e5-0a56" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="11b8-d2af-1aaa-b49a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="9717-a412-7766-4a44" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
+      <modifiers>
+        <modifier field="11b8-d2af-1aaa-b49a" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Skeleton" id="e4cd-06fb-ba17-5cae" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -111,6 +141,9 @@
         <categoryLink name="Troop" id="aa3f-2c1f-07f5-b705" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Beast" id="9651-4eec-135e-eded" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="8b3a-7a4b-dd23-5f4f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
@@ -118,6 +151,13 @@
         <infoLink name="Vicious" id="f96c-055c-0e99-e247" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Swarm" id="003b-1a2e-d701-22b6" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="8b3a-7a4b-dd23-5f4f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Skeletal Dog Pack" id="da83-c190-9fc4-d00d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -142,12 +182,22 @@
         <categoryLink name="Warrior" id="db08-3b1e-9444-9cc7" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="394b-02f6-5f53-07bb" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="72b7-2d88-58ec-1c0d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="da78-095f-4c2e-56c7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
+      <modifiers>
+        <modifier field="72b7-2d88-58ec-1c0d" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Revenant" id="19bd-67f6-9596-294c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -172,6 +222,9 @@
         <categoryLink name="Support" id="d615-b3d4-962f-5f2a" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="c6e2-a617-d331-a667" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="e778-454f-533f-8502" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
@@ -182,6 +235,13 @@
         <infoLink name="Fly" id="9768-52dd-c787-2677" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="6766-8044-5b75-432f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="e778-454f-533f-8502" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Wraith" id="3f70-056d-ef98-a941" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -206,6 +266,9 @@
         <categoryLink name="Large" id="76e7-74d0-cab7-e846" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="7132-89b1-a8c7-6fac" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="2170-d9b3-16db-9b2d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
@@ -217,6 +280,13 @@
         <infoLink name="Crushing Strength (2)" id="e519-3eac-d8d8-04e8" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Bloodlust" id="2a0b-7b85-1352-d27c" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="2170-d9b3-16db-9b2d" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Werewolf" id="42f6-37d9-5c5b-e2b2" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -241,6 +311,9 @@
         <categoryLink name="Grunt" id="a1ff-cd27-dc67-9b69" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="e6a9-884d-5ced-4578" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="0ac6-4118-cfc2-c149" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
@@ -259,6 +332,13 @@
       <infoLinks>
         <infoLink name="CHILLING STRIKE (1)" id="3541-c870-ae9b-c60d" hidden="false" targetId="7b1b-c384-0c44-8698" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="0ac6-4118-cfc2-c149" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Skeleton Archer" id="4000-736f-9b9e-d2de" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -283,6 +363,9 @@
         <categoryLink name="Command" id="fc4e-3dd7-8935-0c7e" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Spellcaster" id="d2cc-de71-af7b-2951" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="a34f-2100-1c44-a9d0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>
       </costs>
@@ -311,8 +394,15 @@
         <entryLink name=" Spellbook - Undead (Paid)" id="9e3b-213f-2e75-2278" collective="false" hidden="false" import="true" targetId="5667-108d-8c27-6780" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice White (2)" id="ce0c-9705-affd-e25e" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="Power Dice W/O (2)" id="ce0c-9705-affd-e25e" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="a34f-2100-1c44-a9d0" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Necromancer" id="5a91-251b-23cf-d7fd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -337,6 +427,9 @@
         <categoryLink name="Grunt" id="8551-c81d-002b-e966" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="9443-d6ad-6f40-c3a3" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="256f-7608-821d-0b9e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
@@ -346,6 +439,13 @@
         <infoLink name="Smash" id="860c-3eb6-2bbb-8ff8" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Fly" id="1a23-8165-294d-eda8" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="256f-7608-821d-0b9e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Vampire Bat Swarm" id="989f-3720-3072-ee5f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -365,11 +465,15 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Vampire Halfling" id="d02c-e2f5-e51a-bc52" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Vampire" id="d02c-e2f5-e51a-bc52" collective="false" hidden="false" import="true" type="model">
+      <comment>renamed from Vampire Halfling</comment>
       <categoryLinks>
         <categoryLink name="Command" id="d2b3-0c2b-508a-44df" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="62c3-4850-2297-c46d" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="6181-57e4-ba36-6dfd" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
@@ -382,10 +486,17 @@
         <infoLink name="Stealthy" id="b955-18ca-374c-af89" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Bloodlust" id="6418-5213-61a4-bdd9" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="6th Sense" id="b49a-1c4e-c682-f060" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
-        <infoLink name="Power Dice Blue (1)" id="ef09-1085-1b26-e10f" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
-        <infoLink name="ANKLE BITER (1)" id="7476-9119-d31a-3e29" hidden="false" targetId="cd8f-9905-1426-7685" type="rule"/>
+        <infoLink name="Power Dice B/G (1)" id="ef09-1085-1b26-e10f" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="BLOOD SIPHON (1)" id="7476-9119-d31a-3e29" hidden="false" targetId="cd8f-9905-1426-7685" type="rule"/>
         <infoLink name="LEECH (2)" id="8300-ad93-94c4-a9f0" hidden="false" targetId="f63e-e3a5-8d2b-0c47" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="6181-57e4-ba36-6dfd" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Vampire Halfling" id="812c-bccd-9a5b-8037" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -410,6 +521,9 @@
         <categoryLink name="Support" id="49f2-4109-36a4-987d" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="01f2-c6ca-2f41-08bc" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="1007-3c9a-705b-5b79" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
       </costs>
@@ -417,12 +531,19 @@
         <entryLink name=" Items" id="6ec2-e7f3-7ebe-39c7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice Red (1)" id="93b5-66cb-c8c7-9e18" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="93b5-66cb-c8c7-9e18" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="3197-569a-b9cc-4ec6" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Vicious" id="96b9-352b-af53-dfad" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Pathfinder" id="74c2-2041-e7b5-c33f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="ANCIENT FURY (2)" id="a65d-ecdb-496b-c035" hidden="false" targetId="ad07-c2a6-0f98-2d0c" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="1007-3c9a-705b-5b79" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Barrow Wight" id="a0cc-fe04-4e83-5ffc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -447,6 +568,9 @@
         <categoryLink name="Warrior" id="b1e8-0674-96da-c185" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="7473-2145-ff1c-e63c" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="cfcf-7a49-d6dd-3171" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
@@ -457,6 +581,13 @@
         <infoLink name="Mob Assault" id="e673-d11a-9549-f25e" hidden="false" targetId="02e7-0f47-e451-32e3" type="rule"/>
         <infoLink name="Vicious" id="a4c0-1d6f-432f-d21c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="cfcf-7a49-d6dd-3171" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Armoured Zombie Orc" id="4de4-2932-6791-e6ff" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -480,6 +611,9 @@
       <categoryLinks>
         <categoryLink name="Command" id="61fb-b01e-dc04-2468" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="f4ba-ab35-5b22-53e9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
@@ -487,7 +621,7 @@
         <entryLink name=" Items" id="e7a9-acc7-2d00-bfba" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice Red (2)" id="2079-6584-cdb3-db26" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice R/B (2)" id="2079-6584-cdb3-db26" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Dodge" id="7b17-4f5e-dc72-6e2a" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="Stealthy" id="046b-2b2b-04c1-b3c5" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Pathfinder" id="1e9f-c0ce-c595-5b6c" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
@@ -495,6 +629,13 @@
         <infoLink name="Scout" id="806e-7f5e-1020-e545" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Shallow Graves (short)" id="6b7c-bcc5-464e-c6d7" hidden="false" targetId="c2dd-c89e-2c7d-b490" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="f4ba-ab35-5b22-53e9" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Crypt Gouger" id="c55f-c1b5-b692-4f7e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -519,6 +660,9 @@
         <categoryLink name="Large" id="f18e-9e2c-086d-1575" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="3728-e89e-4a7a-ebee" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="ca0e-2452-1dab-e578" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
       </costs>
@@ -530,6 +674,13 @@
         <infoLink name="Crushing Strength (1)" id="d729-8220-d0e8-c5fe" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="TORMENTOR FLAILS (n)" id="5096-1234-6f98-37f4" hidden="false" targetId="9e76-ab2f-d2d9-7499" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="ca0e-2452-1dab-e578" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Goreblight" id="602d-548f-aa2f-2ce5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -554,6 +705,9 @@
         <categoryLink name="Large" id="ca32-1bc2-e762-ebd5" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="2c59-1a6a-020d-fa9a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="3ab1-c378-4d03-c216" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
       </costs>
@@ -565,6 +719,13 @@
         <infoLink name="Crushing Strength (2)" id="d060-234a-58aa-d43a" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Vicious Swipe" id="47f3-6a85-16f5-4ec1" hidden="false" targetId="b392-dfdc-2ea7-2c91" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="3ab1-c378-4d03-c216" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Zombie Troll" id="0692-1aa3-a47c-6c20" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -589,6 +750,9 @@
         <categoryLink name="Support" id="3a07-8506-e0bf-e291" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="f218-62cd-7c2b-618f" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="c6dd-3a4f-db24-5d38" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20"/>
       </costs>
@@ -600,6 +764,13 @@
         <infoLink name="Vicious" id="b42d-8a75-53c9-f718" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="f1f6-1093-57f9-bcca" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="c6dd-3a4f-db24-5d38" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Soul Reaver" id="9840-e5a6-02ad-67c5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -623,6 +794,9 @@
       <categoryLinks>
         <categoryLink name="Support" id="645f-509a-eef9-f33c" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="9055-a4c3-62ed-328c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
       </costs>
@@ -636,6 +810,13 @@
         <infoLink name="HE SLIMED ME (2)" id="3aee-8e28-1111-dceb" hidden="false" targetId="4f5e-4e0b-2d81-a088" type="rule"/>
         <infoLink name="Chilling Presence" id="042a-80cf-2ddd-707d" hidden="false" targetId="77cc-7ee8-a477-8446" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="9055-a4c3-62ed-328c" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Ghost" id="6a51-3ebd-f73a-98ff" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -688,7 +869,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
     <rule name="LEECH (2)" id="f63e-e3a5-8d2b-0c47" hidden="false">
       <description>Use this ability when this model kills an opponent with a Melee Attack to recover 1 wound it has previously suffered. If the model killed is a COMMAND or LARGE model, 2 wounds are recovered.</description>
     </rule>
-    <rule name="ANKLE BITER (1)" id="cd8f-9905-1426-7685" hidden="false">
+    <rule name="BLOOD SIPHON (1)" id="cd8f-9905-1426-7685" hidden="false">
+      <comment>renamed from ANKLE BITER (1)</comment>
       <description>Use this ability when an enemy model Retaliates against this model. Resolve the Retaliation and if the vampire is still alive, even if Knocked-down, the Retaliating model suffers one automatic hit with Crushing Strength (2).</description>
     </rule>
     <rule name="ANCIENT FURY (2)" id="ad07-c2a6-0f98-2d0c" hidden="false">
