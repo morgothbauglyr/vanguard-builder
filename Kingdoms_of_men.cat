@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Kingdoms of men" id="4ae3-a7bd-8c61-17e5" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Human" id="b96e-aef3-406c-e708" hidden="false"/>
+    <categoryEntry name="Ogre" id="138c-f73c-8c70-6bcc" hidden="false"/>
+  </categoryEntries>
   <infoLinks>
     <infoLink name="Strength Of Men (1)" id="c77a-ff23-26e5-ba6a" hidden="false" targetId="cf8f-0754-d0bc-d940" type="rule"/>
   </infoLinks>
@@ -11,6 +15,7 @@
       <categoryLinks>
         <categoryLink name="Grunt" id="8a8a-575a-db29-51e9" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="2398-951d-918b-8c7e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Human" id="7d21-7aa5-225a-7a9e" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="82e6-13e8-fbb1-fd62" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -20,34 +25,6 @@
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="5c21-cab0-fee7-27cb" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Spear" id="920e-8ede-5f02-60f4" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
-          <constraints>
-            <constraint id="77fd-ca68-cefd-5cc6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="04da-c9c9-a514-859c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-            <modifier field="622e-e125-aee2-476c" type="set" value="0">
-              <conditions>
-                <condition childId="4f88-030a-c9af-53a7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="30bb-6e57-a0d0-20dc" shared="true" type="greaterThan" value="0"/>
-              </conditions>
-            </modifier>
-            <modifier field="77fd-ca68-cefd-5cc6" type="set" value="1">
-              <conditions>
-                <condition childId="4f88-030a-c9af-53a7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="30bb-6e57-a0d0-20dc" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink name="Heavy Weapon" id="7687-9f5a-6fd7-d524" collective="false" hidden="false" import="true" targetId="25be-393f-0875-eae9" type="selectionEntry">
-          <constraints>
-            <constraint id="121c-e1d9-d66f-3f0c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="75d2-b878-349e-da0b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="2"/>
-          </modifiers>
-        </entryLink>
       </entryLinks>
       <modifiers>
         <modifier field="82e6-13e8-fbb1-fd62" type="increment" value="1">
@@ -74,11 +51,56 @@
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="e92c-a8d0-4797-6d04" hidden="false">
+          <constraints>
+            <constraint id="11be-2822-b448-b9fb" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Heavy Weapon" id="7687-9f5a-6fd7-d524" collective="false" hidden="false" import="true" targetId="25be-393f-0875-eae9" type="selectionEntry">
+              <constraints>
+                <constraint id="121c-e1d9-d66f-3f0c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
+                <constraint id="75d2-b878-349e-da0b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="b888-e3bd-8798-6364" type="set" value="2"/>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Spear" id="920e-8ede-5f02-60f4" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+              <constraints>
+                <constraint id="77fd-ca68-cefd-5cc6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
+                <constraint id="04da-c9c9-a514-859c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+                <modifier field="622e-e125-aee2-476c" type="set" value="0">
+                  <conditions>
+                    <condition childId="4f88-030a-c9af-53a7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="30bb-6e57-a0d0-20dc" shared="true" type="greaterThan" value="0"/>
+                  </conditions>
+                </modifier>
+                <modifier field="77fd-ca68-cefd-5cc6" type="set" value="1">
+                  <conditions>
+                    <condition childId="4f88-030a-c9af-53a7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="30bb-6e57-a0d0-20dc" shared="true" type="equalTo" value="0"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Hand Weapon" id="b25c-ee02-2c33-d570" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="5825-2b4e-1a2b-4548" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Leader of Men" id="e192-a8fb-a257-5bb6" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="551e-0992-7d37-1696" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="fb07-a1f9-958a-089d" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Human" id="fbb0-70dd-1940-0ab8" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="61b8-bf0b-0105-4c26" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -93,7 +115,7 @@
         <infoLink name="Crushing Strength (1)" id="daa3-ce60-0b80-fcd1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Power Dice Blue (1)" id="6d47-3ebc-c39f-e8e7" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="Very Inspiring" id="67da-657e-d978-6563" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
-        <infoLink name="For The Kingdom! (1)" id="1dbf-8791-074a-f5ea" hidden="false" targetId="9456-6f8a-0f51-ca8f" type="rule"/>
+        <infoLink name="FOR THE KINGDOM! (1)" id="1dbf-8791-074a-f5ea" hidden="false" targetId="9456-6f8a-0f51-ca8f" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="61b8-bf0b-0105-4c26" type="increment" value="1">
@@ -125,6 +147,7 @@
       <categoryLinks>
         <categoryLink name="Support" id="efaf-64f2-45f6-a686" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Cavalry" id="4e0d-7af1-346d-2b60" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Human" id="398d-d28e-f6c2-498a" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="ce3a-69c6-f0c5-cae3" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -168,25 +191,24 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Berserker" id="2425-1463-8bb9-50b2" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Fanatic" id="2425-1463-8bb9-50b2" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
-        <categoryLink name="Warrior" id="3b67-754d-8c5f-3681" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="f31f-de84-23f6-152e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Troop" id="3a80-5dac-67a4-7553" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Grunt" id="ae77-4ab8-abe1-6173" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Human" id="69e0-f4e3-c9cd-63dc" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="20e1-e17f-d8b6-b2cd" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="21"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="7c93-3583-8d1a-788e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Steady" id="a13f-a073-674e-7657" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Vicious" id="b424-57b2-175d-fdb5" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="7295-327c-6739-b0c7" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Frenzy (1)" id="2436-2606-d37d-ac59" hidden="false" targetId="7eb9-34c9-ac35-a0cb" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="20e1-e17f-d8b6-b2cd" type="increment" value="1">
@@ -196,19 +218,17 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Berserker" id="231b-6911-010a-f004" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+        <profile name="Fanatic" id="231b-6911-010a-f004" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
             <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
             <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">7+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -217,6 +237,7 @@
     <selectionEntry name="Veteran Soldier" id="ff59-ef58-37e3-02d7" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="9fe5-3c4f-a05e-97ce" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Human" id="6c08-fa60-6595-1e09" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="d85e-4e9c-3e27-153a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -263,6 +284,7 @@
         <categoryLink name="Warrior" id="13e4-b130-f109-06ce" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="3aaa-f54d-fc13-4d64" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="542c-b506-0153-0bff" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Human" id="deb6-146d-b1e5-ee0d" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="fd5e-5644-6d2e-50fb" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -324,6 +346,7 @@
       <categoryLinks>
         <categoryLink name="Warrior" id="8621-fcaf-4f44-ef19" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="bed0-ccea-770c-8b8c" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Human" id="0cbc-d69c-f950-9f38" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="79ce-47c7-1503-c9a0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -373,6 +396,7 @@
       <categoryLinks>
         <categoryLink name="Large" id="dfdf-a6b3-3adb-c9ef" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="de8e-b863-ce99-9cd4" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Ogre" id="31d7-97f8-1c0c-ede4" hidden="false" primary="false" targetId="138c-f73c-8c70-6bcc"/>
       </categoryLinks>
       <constraints>
         <constraint id="9d45-251c-3c7a-a9a2" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -415,6 +439,7 @@
     <selectionEntry name="Wizard" id="8444-955e-abb4-f580" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="c294-6faa-f8c0-225f" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Human" id="d05e-1cdc-6ac1-2137" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="2976-bf66-b9bf-1115" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -475,9 +500,309 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Assassin" id="9b63-9dee-a30e-241d" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="542e-3b6c-00d8-d768" hidden="false" primary="false" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Human" id="35f9-7ae1-e8e4-782d" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="d860-dff4-a3cd-cc2d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="2e7a-21df-f6af-c757" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Throwing Knife *" id="ad59-b971-af07-2dea" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry">
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Stealthy" id="ddf9-5d12-097b-13da" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Pathfinder" id="d13f-0be3-2ed6-1423" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="Sneaky" id="cb6a-7f39-e452-66d9" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="d860-dff4-a3cd-cc2d" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Assassin" id="939e-8018-fbbd-7805" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bowman" id="80c8-ca45-89a7-4c6c" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="cff7-3b8c-8fb6-1bfd" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="ea45-f8f5-14dd-bb41" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Human" id="58df-7755-55ae-9d66" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="8173-695c-ac01-db58" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="6151-3442-901c-5f20" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="8173-695c-ac01-db58" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Crossbowman" id="7852-ff8b-ad0e-bb89" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="c9a2-be1c-c853-4a78" defaultSelectionEntryId="f600-6225-d48b-5909" hidden="false">
+          <constraints>
+            <constraint id="1285-ec6d-7f3f-354d-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="1285-ec6d-7f3f-354d-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Crossbow" id="391c-310b-13b0-006a" collective="false" hidden="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry">
+              <modifiers>
+                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Bow" id="f600-6225-d48b-5909" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+              <modifiers>
+                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Berserker" id="bd21-9249-4b31-e857" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="3fff-46f1-11f1-5218" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="42ba-84af-4f9e-e44a" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Human" id="20d6-9a38-6633-db6e" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3e4a-84a9-a5d0-47b9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="21"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="4568-c408-a1b1-e246" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Steady" id="d4f7-a947-7a17-4060" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Vicious" id="e17a-9d5c-291c-e8f6" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Bloodlust" id="965d-13f2-3d49-7ce9" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="Frenzy (1)" id="6f1c-cad8-4db8-54f5" hidden="false" targetId="7eb9-34c9-ac35-a0cb" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="3e4a-84a9-a5d0-47b9" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Berserker" id="d2f5-7249-473d-8e75" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">7+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Light Cavalrist" id="0681-62da-ea91-9bfe" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="2525-8266-0c5b-29b3" hidden="false" primary="false" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Cavalry" id="50db-aa4a-411a-c48b" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Human" id="33ef-1659-3a8e-2e49" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="384c-5a38-6547-07b0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="ca48-92a9-dac9-d38d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Cavalry" id="6dd4-2b47-6b1a-4bdc" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="384c-5a38-6547-07b0" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Light Cavalrist" id="b2ce-c5cb-871b-b8fd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">8</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Beast Knight" id="bdf5-a5f7-d85c-e29c" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="69bc-6cc7-d4f5-6afa" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Cavalry" id="1e65-0fda-cbb9-0183" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Has Crushing Strength" id="7f9f-3e5b-1efc-1851" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Cannot have Mount" id="0fd9-86ad-68b0-1969" hidden="false" primary="false" targetId="62e6-0d2d-51f7-6eef"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="f6de-0069-5334-ae1e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Cavalry" id="7296-7796-6e1d-9891" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink name="Crushing Strength (2)" id="c75a-bf19-27af-384b" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Smash" id="d1e0-c404-0a08-396b" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Devastating Charge" id="54ec-e470-7af8-b9d4" hidden="false" targetId="7fb9-65c2-b83b-92a6" type="rule"/>
+        <infoLink name="Headstrong" id="b847-ef59-1365-79a5" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="f6de-0069-5334-ae1e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Beast Knight" id="ee74-3073-cc2c-3041" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">3+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ballista" id="f65c-ee6f-660c-a9bc" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="609b-9582-4656-ec77" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Machine" id="d53a-7be1-e327-8e5d" hidden="false" primary="false" targetId="f2ce-7a17-00cb-6f89"/>
+        <categoryLink name="Human" id="bd04-87ea-7fb0-d08a" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="d9dd-239f-ae8d-fc24" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Lumbering" id="250c-5e12-9c43-85a9" hidden="false" targetId="b1a8-29de-d850-c215" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="d9dd-239f-ae8d-fc24" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ballista" id="b71f-562a-a0e9-8db2" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">2</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">7+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Ballista Shot" id="217c-ed8e-128d-75a6" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d598-76fc-7f0e-0378-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d598-76fc-7f0e-0378-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Piercing (3)" id="d047-cc03-1dbd-927d" hidden="false" targetId="9fd9-8e4c-3cc5-a0e9" type="rule"/>
+            <infoLink name="Reload" id="a42e-3ec9-6805-6f5b" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Ballista Shot" id="f4b5-58ae-e64f-b0d4" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+              <characteristics>
+                <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">48&quot;</characteristic>
+                <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">3D8</characteristic>
+                <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (3), Reload</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </selectionEntries>
   <sharedRules>
-    <rule name="Strength Of Men (1)" id="cf8f-0754-d0bc-d940" hidden="false">
+    <rule name="STRENGTH OF MEN (1)" id="cf8f-0754-d0bc-d940" hidden="false">
       <description>Spend power when any model in this warband fails a Nerve test to immediately allow them to re-roll that Nerve test. If they pass and are also within range of a model with Inspiring, they also gain Crushing Strength (1) (or add +1 to their value if they already have it) until the end of the round. Being in range of a model with Inspiring doesn’t grant a second re-roll.</description>
     </rule>
     <rule name="Spell - Instill Courage" id="3871-53bf-691a-3518" hidden="false">
@@ -489,14 +814,14 @@
     <rule name="Heavy Weapon" id="71fa-07af-61bb-2b6a" hidden="false">
       <description>The model gains Crushing Strength (1) or adds +1 to its Crushing Strength value when making a Melee attack with this weapon</description>
     </rule>
-    <rule name="For The Kingdom! (1)" id="9456-6f8a-0f51-ca8f" hidden="false">
+    <rule name="FOR THE KINGDOM! (1)" id="9456-6f8a-0f51-ca8f" hidden="false">
       <description>Use this ability at any time during one of yout Turns. All friendly, unengaged, standing Human models within 9” of this model make an immediate free Walk action. Models do not have to be moved. but if they do, it must be directly
 towards the Leader of Men model following the normal movement rules. This move cannot be used to Engage enemy models.</description>
     </rule>
     <rule name="Devastating Charge" id="7fb9-65c2-b83b-92a6" hidden="false">
       <description>This model gain Crushing Strength (2) for any free Melee action it gets following a qualifying Charge action.</description>
     </rule>
-    <rule name="Frenzy (1)" id="7eb9-34c9-ac35-a0cb" hidden="false">
+    <rule name="FRENZY (1)" id="7eb9-34c9-ac35-a0cb" hidden="false">
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee Attack. Spend the power before rolling any dice. This may not be used with spending power to gain an extra dice normally. In effect, this ability replaces it.</description>
     </rule>
     <rule name="Equipment - Large Shield" id="58db-b8e8-62fe-ccfe" hidden="false">
@@ -510,8 +835,8 @@ towards the Leader of Men model following the normal movement rules. This move c
       </costs>
       <infoLinks>
         <infoLink name="Equipment - Marksman" id="98b2-e2f5-155f-3623" hidden="false" targetId="9bcc-d59f-7ada-1a84" type="rule"/>
-        <infoLink name="Equipment - Piercing (1)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
-        <infoLink name="Equipment - Reload" id="05e0-3d08-6188-2291" hidden="false" targetId="e403-0d82-dc63-2958" type="rule"/>
+        <infoLink name="Piercing (1)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Reload" id="05e0-3d08-6188-2291" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Rifle" id="601d-8267-5d52-9b4c" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
