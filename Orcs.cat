@@ -22,7 +22,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Swarm" id="8579-1e01-ee2a-96af" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
-        <infoLink name="Vicious" id="5ca8-a97a-fab5-8ccd" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="5ca8-a97a-fab5-8ccd" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="31af-7c38-3c57-8aa0" type="increment" value="1">
@@ -43,8 +43,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orcling</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -87,8 +85,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -110,8 +106,8 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="9b3b-b5be-04ae-3878" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Vicious" id="ea31-9797-83d4-d61c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="2611-4a73-b942-e74b" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Elite" id="ea31-9797-83d4-d61c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="2611-4a73-b942-e74b" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring (Grunts &amp; Warriors only)" id="a4fc-93f5-b28f-5836" hidden="false" targetId="393c-e681-96ad-82c7" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -133,8 +129,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -185,8 +179,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -209,7 +201,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="bd8c-5d58-6048-c3dc" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Vicious" id="2fab-0fff-a921-e323" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="2fab-0fff-a921-e323" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Frenzy (1)" id="0d5b-a179-1139-8e0f" hidden="false" targetId="19ed-2e2a-44a9-25df" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -231,8 +223,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -275,8 +265,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -322,8 +310,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -369,8 +355,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Troll</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -392,10 +376,10 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="e2b3-6627-45fb-bb17" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Vicious" id="3b43-10d5-155a-a3eb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="3b43-10d5-155a-a3eb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Savage (2)" id="1b36-abfd-6d93-4c49" hidden="false" targetId="6abf-1bc0-adce-cc64" type="rule"/>
         <infoLink name="Inspiring" id="38dc-b76a-418b-a5e4" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice Red (2)" id="abf3-5067-5b5b-d1c1" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice R/B (2)" id="abf3-5067-5b5b-d1c1" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="00b5-9daa-c336-1a97" type="increment" value="1">
@@ -416,8 +400,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -459,7 +441,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="6e98-f90e-3649-b4f7" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="3df2-e4e4-4920-f032" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="3df2-e4e4-4920-f032" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="30ea-2e40-f9af-3d78" type="increment" value="1">
@@ -480,8 +462,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -523,11 +503,12 @@
         <infoLink name="Spell - Green Rage" id="d9ea-cb9b-7a7c-de3e" hidden="false" targetId="72f8-f88d-2782-e3b2" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Green Rage (short)" id="8bfe-724b-c892-cd02" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Green Rage (short)" id="8bfe-724b-c892-cd02" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -548,11 +529,12 @@
         <infoLink name="Spell - God-fuel" id="b13c-b797-b76e-3b77" hidden="false" targetId="7726-330f-aa8f-507a" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="God-fuel (long)" id="9eda-dce2-0ee2-f9bb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="God-fuel (long)" id="9eda-dce2-0ee2-f9bb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">4D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -580,8 +562,8 @@
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Basic God Speaker" id="c912-fb67-aa12-175d" collective="false" hidden="false" import="true">
       <entryLinks>
-        <entryLink name="Fireball (short)" id="f6a5-6d88-6372-7e53" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
-        <entryLink name="Mind Storm (long)" id="9407-90bb-fbbe-9ddb" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+        <entryLink name="Fireball" id="f6a5-6d88-6372-7e53" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink name="Mind Storm" id="9407-90bb-fbbe-9ddb" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry name="God-fuel (short)" id="e67c-f9bd-9d63-4ad5" collective="false" hidden="false" import="true" type="upgrade">
@@ -595,11 +577,12 @@
             <infoLink name="Spell - God-fuel" id="6811-a1d3-ba8f-094c" hidden="false" targetId="7726-330f-aa8f-507a" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="God-fuel (short)" id="c134-4de1-6a9b-341a" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+            <profile name="God-fuel (short)" id="c134-4de1-6a9b-341a" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
               <characteristics>
+                <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">4D8</characteristic>
-                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
                 <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
                 <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
               </characteristics>

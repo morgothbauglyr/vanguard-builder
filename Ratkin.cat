@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Ratkin" id="1bf8-e261-53ce-da80" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <infoLinks>
-    <infoLink name="BLOOD FRENZY (2)" id="3fcc-d2de-4847-5458" hidden="false" targetId="847d-7845-2686-6a4c" type="rule"/>
+    <infoLink name="Blood Frenzy (2)" id="3fcc-d2de-4847-5458" hidden="false" targetId="847d-7845-2686-6a4c" type="rule"/>
     <infoLink name="Pack Mentality" id="c88b-017a-9674-23aa" hidden="false" targetId="7ec2-95a2-9ab0-7d81" type="rule"/>
   </infoLinks>
   <publications>
@@ -39,8 +39,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -55,7 +53,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
       </costs>
       <infoLinks>
-        <infoLink name="Vicious" id="b565-3a4b-9d72-1b6f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="b565-3a4b-9d72-1b6f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Cavalry" id="b430-76dc-459d-d0ce" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
       </infoLinks>
       <profiles>
@@ -70,8 +68,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -100,8 +96,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -144,8 +138,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -167,7 +159,7 @@
         <infoLink name="Pound" id="978f-4796-ae83-9ea3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
         <infoLink name="Regenerate (6+)" id="687d-9c40-34b5-696f" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="cec5-1954-de1b-803e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="d682-0fd7-b8b5-1b04" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="d682-0fd7-b8b5-1b04" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Brute" id="b610-8dcc-f61d-0473" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -181,8 +173,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -201,7 +191,7 @@
         <entryLink name=" Items" id="9d6f-e1e5-5429-d699" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Vicious" id="6801-b32e-a130-57f8" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="6801-b32e-a130-57f8" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="5bf0-ec38-3ee8-a1d2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
       <profiles>
@@ -216,8 +206,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -235,11 +223,11 @@
         <entryLink name=" Items" id="f182-ebd9-635c-576c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="BLAZING PARRY (2)" id="90a4-be60-c065-57df" hidden="false" targetId="c5d8-75e7-2c84-2d20" type="rule"/>
+        <infoLink name="Blazing Parry (2)" id="90a4-be60-c065-57df" hidden="false" targetId="c5d8-75e7-2c84-2d20" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="d31d-3233-c9bb-a8b2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Inspiring" id="a289-0694-1d07-3881" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Steady" id="b37b-46c6-44c8-1bc2" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice Blue (1)" id="4f21-03d0-a4f3-c95e" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice B/G (1)" id="4f21-03d0-a4f3-c95e" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="War Chief" id="aebf-ec6d-d972-1d6d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -253,8 +241,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -272,9 +258,9 @@
         <entryLink name=" Items" id="6b8a-5a32-8145-7389" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Vicious" id="368e-ea04-2ffa-bfcb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="368e-ea04-2ffa-bfcb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Steady" id="3801-a80f-0248-c341" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="RAKING CLAWS (1)" id="b315-4162-112e-32cc" hidden="false" targetId="9b78-ba22-b4ef-05be" type="rule"/>
+        <infoLink name="Raking Claws (1)" id="b315-4162-112e-32cc" hidden="false" targetId="9b78-ba22-b4ef-05be" type="rule"/>
         <infoLink name="Smash" id="9973-67e4-fb72-a52d" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="122a-ccf5-31df-c106" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
@@ -290,8 +276,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -329,8 +313,8 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Inane POWER SURGE (n)" id="4934-f03a-e8d9-afad" hidden="false" targetId="0463-a247-0695-d99e" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="d6c4-84df-5f60-2a16" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Insane Power Surge (n)" id="4934-f03a-e8d9-afad" hidden="false" targetId="0463-a247-0695-d99e" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="d6c4-84df-5f60-2a16" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Headstrong" id="8631-1250-1e17-ce95" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="a8a3-e6e5-1b02-a280" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
@@ -346,8 +330,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -378,8 +360,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Ecil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">-</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -408,8 +388,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -445,8 +423,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -462,7 +438,7 @@
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="50ed-c382-e506-afc7" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Pound" id="f85e-f0f9-3cfa-d0a5" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Vicious" id="d2db-819e-ddf7-3e69" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="d2db-819e-ddf7-3e69" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Wild Attack (n)" id="be21-f495-dca8-3330" hidden="false" targetId="fd1e-492c-a63d-b6b8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -477,8 +453,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -532,11 +506,12 @@
         <infoLink name="Spell - Vermin Swarm" id="cfe3-19cd-066e-ad39" hidden="false" targetId="a5ae-238f-eeae-7de8" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Vermin Swarm (long)" id="80c8-c94a-75d1-85cb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Vermin Swarm (long)" id="80c8-c94a-75d1-85cb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -554,11 +529,12 @@
         <infoLink name="Spell - Lair" id="d8c3-c594-a810-59d9" hidden="false" targetId="7bfc-b91a-1fb1-ca36" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Lair (long)" id="f58e-a7f0-7515-7aca" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Lair (long)" id="f58e-a7f0-7515-7aca" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b"/>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -570,10 +546,11 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <profiles>
-        <profile name="Throwing Knife" id="8021-2815-9a4d-9b84" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Throwing Knife" id="8021-2815-9a4d-9b84" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
           </characteristics>
         </profile>
       </profiles>
@@ -583,10 +560,11 @@
         <infoLink name="Piercing (1)" id="487c-681a-e030-e293" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Blight Cannon" id="393c-5bb2-d048-8c24" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Blight Cannon" id="393c-5bb2-d048-8c24" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">3D8, Piercing (1)</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -598,10 +576,10 @@
         <categoryLink name="Spellcaster" id="60d7-46de-bf95-48e4" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Lightning Bolt (long)" id="79b9-6a4c-e709-a7f6" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Stun (short)" id="4eff-aca9-b85a-48cb" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
-        <entryLink name="Zap (short)" id="5dbb-788d-d590-aec0" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
-        <entryLink name="Shockwave (long)" id="13af-2994-7aa9-5b21" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="79b9-6a4c-e709-a7f6" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Stun" id="4eff-aca9-b85a-48cb" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
+        <entryLink name="Zap" id="5dbb-788d-d590-aec0" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
+        <entryLink name="Shockwave" id="13af-2994-7aa9-5b21" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Ratkin (Free)" id="b60f-43ba-f438-a55f" collective="false" hidden="false" import="true">

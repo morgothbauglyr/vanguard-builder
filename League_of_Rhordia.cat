@@ -55,8 +55,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -82,7 +80,7 @@
         <infoLink name="Crushing Strength (1)" id="73e6-bd79-da11-169a" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Cavalry" id="d177-cbec-3752-5afc" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Smash" id="cdad-a7e1-00c1-9bd5" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="b0b7-0cbe-df51-3ba1" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="b0b7-0cbe-df51-3ba1" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Expert Rider" id="5653-42cc-5171-99f2" hidden="false" targetId="761a-5ccb-142e-0ebb" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -109,8 +107,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -167,8 +163,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -243,8 +237,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -296,8 +288,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast/Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
           </characteristics>
         </profile>
@@ -356,8 +346,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Halfling</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -384,8 +372,8 @@
         <infoLink name="Inspiring" id="8f27-320b-f0e3-960f" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="531e-a844-1cad-6fb1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Parry" id="8771-4348-557b-e373" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="9685-4473-b78e-a7a0" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="ace4-b56f-06b7-8118" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="9685-4473-b78e-a7a0" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="ace4-b56f-06b7-8118" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="55c2-5f22-365a-9e8e" type="increment" value="1">
@@ -411,8 +399,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13"/>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -456,7 +442,7 @@
       <infoLinks>
         <infoLink name="6th Sense" id="6aaa-778b-3704-4140" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Stealthy" id="ba29-5b59-ff46-c72b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="5b9c-9152-8459-4412" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="5b9c-9152-8459-4412" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="5ad7-ea40-d1b0-226f" type="increment" value="1">
@@ -482,8 +468,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Halfling</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -514,15 +498,16 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (2)" id="d3fe-b47b-0a76-8f11" hidden="false" targetId="66f1-9dc0-f0e2-4ae8" type="rule"/>
-        <infoLink name="Equipment - Marksman" id="b949-03da-7112-de91" hidden="false" targetId="9bcc-d59f-7ada-1a84" type="rule"/>
-        <infoLink name="Equipment - Reload" id="b6d8-eb52-888a-c1c4" hidden="false" targetId="e403-0d82-dc63-2958" type="rule"/>
+        <infoLink name="Piercing (2)" id="d3fe-b47b-0a76-8f11" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Marksman" id="b949-03da-7112-de91" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="Reload" id="b6d8-eb52-888a-c1c4" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Musket" id="cdf7-7515-6d84-850a" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Musket" id="cdf7-7515-6d84-850a" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Marksman, Piercing (2), Reload</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Marksman, Piercing (2), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -532,15 +517,8 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Weapon - Halberd" id="5314-c4ba-9b6a-e1dd" hidden="false" targetId="c781-cc2c-a8be-2851" type="rule"/>
+        <infoLink name="Halberd" id="5314-c4ba-9b6a-e1dd" hidden="false" targetId="c25f-4a60-cc36-4a32" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Halberd" id="ea44-ae88-d0e3-4eea" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
-          <characteristics>
-            <characteristic name="Rules" typeId="71ed-d60e-e323-198b"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Celestial Screen (short)" id="dd1c-5ff2-e105-2c2d" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -553,11 +531,12 @@ member of the warband for the duration of the current game only, and does count 
         <infoLink name="Spell - Celestial Screen" id="ffbb-ba14-02a9-9679" hidden="false" targetId="c5cf-5b6d-017c-46e9" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Celestial Screen (short)" id="c47c-8581-9135-39da" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Celestial Screen (short)" id="c47c-8581-9135-39da" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -572,11 +551,12 @@ member of the warband for the duration of the current game only, and does count 
         <entryLink name="Rule Check - Is Faction Spell" id="7dac-e033-fa6a-7925" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <profiles>
-        <profile name="Illusory Bombard (long)" id="1752-3756-cb32-45de" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Illusory Bombard (long)" id="1752-3756-cb32-45de" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (1), Area Effect (2”/1D8)</characteristic>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -627,9 +607,9 @@ member of the warband for the duration of the current game only, and does count 
         <categoryLink name="Spellcaster" id="d46d-bdbb-2860-45e2" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Heal (short)" id="0890-0041-549f-c772" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="c2d2-6505-baad-28b4" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Windblast (long)" id="4630-6e25-048d-a2c1" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink name="Heal" id="0890-0041-549f-c772" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="c2d2-6505-baad-28b4" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Windblast" id="4630-6e25-048d-a2c1" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

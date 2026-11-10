@@ -58,8 +58,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -83,8 +81,8 @@
       <infoLinks>
         <infoLink name="Inspiring" id="dbb0-1dd9-b6a8-1e6d" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Parry" id="ec00-dc42-fe9e-97af" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="RALLY ON ME! (2)" id="5f9d-c291-157f-e9fc" hidden="false" targetId="a343-1dc8-0245-1a8b" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="7ddd-4755-3f88-a82f" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Rally On Me! (2)" id="5f9d-c291-157f-e9fc" hidden="false" targetId="a343-1dc8-0245-1a8b" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="7ddd-4755-3f88-a82f" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="f7d9-8b56-1ee9-9b27" type="increment" value="1">
@@ -110,8 +108,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -164,8 +160,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -244,8 +238,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -290,8 +282,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -347,8 +337,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -399,8 +387,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -423,7 +409,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Parry" id="ab8b-7455-1119-b564" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="EVADE (1)" id="8653-30cf-e2d6-4b3f" hidden="false" targetId="654d-b104-a14c-f71d" type="rule"/>
+        <infoLink name="Evade (1)" id="8653-30cf-e2d6-4b3f" hidden="false" targetId="654d-b104-a14c-f71d" type="rule"/>
         <infoLink name="Helping Hand" id="c0d0-3210-475f-40f8" hidden="false" targetId="ba84-1ee2-b571-f1af" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -450,8 +436,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -469,7 +453,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
       </costs>
       <infoLinks>
-        <infoLink name="Vicious" id="afc6-21d0-fea8-fdfb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="afc6-21d0-fea8-fdfb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Reactive Bite" id="eda2-db02-fdac-e5ec" hidden="false" targetId="fc35-aa6b-42a6-904a" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -496,8 +480,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean, Beast</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -518,7 +500,7 @@
         <entryLink name=" Items" id="529f-9c81-4c36-cc11" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice Red (1)" id="d607-3a70-d0c8-2285" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="d607-3a70-d0c8-2285" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="d5fe-5a70-7668-aaaf" type="increment" value="1">
@@ -544,8 +526,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -567,11 +547,11 @@
         <entryLink name=" Items" id="bf74-bb68-5ff6-0df9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice Red (1)" id="d035-b099-78c1-5b42" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="d035-b099-78c1-5b42" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="a871-b3b5-f507-f3f4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="27a4-75e7-e7fe-d31a" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="27a4-75e7-e7fe-d31a" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="25ab-1520-e6ab-7a2c" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="SMITE! (2) " id="c4a9-c1bd-95aa-4d37" hidden="false" targetId="c045-30e4-97e9-3308" type="rule"/>
+        <infoLink name="Smite! (2) " id="c4a9-c1bd-95aa-4d37" hidden="false" targetId="c045-30e4-97e9-3308" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="99e4-862f-3681-e10a" type="increment" value="1">
@@ -597,8 +577,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -648,8 +626,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean, Ogre</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -671,11 +647,11 @@
         <entryLink name=" Items" id="921f-c660-7f94-07c4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice White (2)" id="e4b9-87bc-2778-b108" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
-        <infoLink name="Vicious" id="1218-2790-b27e-c1a4" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Power Dice W/O (2)" id="e4b9-87bc-2778-b108" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="Elite" id="1218-2790-b27e-c1a4" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring" id="f605-2328-da1a-635d" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="64e0-45d8-05b8-e4dd" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="BLESSING OF THE GODS (2)" id="0fbc-d10e-9994-b565" hidden="false" targetId="b121-9296-adcb-eab6" type="rule"/>
+        <infoLink name="Blessing Of The Gods (2)" id="0fbc-d10e-9994-b565" hidden="false" targetId="b121-9296-adcb-eab6" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="0a33-12fd-b8d8-73ec" type="increment" value="1">
@@ -701,8 +677,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -752,7 +726,7 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="EXTEND PROTECTION (1)" id="3550-0f10-3e78-b8b3" hidden="false" targetId="4b33-0802-a103-606d" type="rule"/>
+        <infoLink name="Extend Protection (1)" id="3550-0f10-3e78-b8b3" hidden="false" targetId="4b33-0802-a103-606d" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="daf2-02c3-f26a-4ee4" type="increment" value="1">
@@ -778,8 +752,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Basilean</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -836,11 +808,12 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <infoLink name="Spell - Blessed Light" id="7d8a-2c15-67c2-7c87" hidden="false" targetId="b3c2-eec3-4a9a-3836" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Blessed Light (long)" id="76b2-84f6-cb9d-9a09" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Blessed Light (long)" id="76b2-84f6-cb9d-9a09" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -864,11 +837,12 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <infoLink name="Spell - Divine Flame" id="cab2-66d1-78c9-7729" hidden="false" targetId="fd65-4918-4453-556f" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Divine Flame (long)" id="f985-2597-a05c-e4aa" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Divine Flame (long)" id="f985-2597-a05c-e4aa" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">1P</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -902,17 +876,17 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Spellcaster" id="9ab3-d49d-ea26-7d49" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Heal (short)" id="5071-0e57-1a43-6900" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
+        <entryLink name="Heal" id="5071-0e57-1a43-6900" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
           <constraints>
             <constraint id="cbb7-d894-3ce7-9eb7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Lightning Bolt (long)" id="c406-2cf2-18ad-c224" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry">
+        <entryLink name="Lightning Bolt" id="c406-2cf2-18ad-c224" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry">
           <constraints>
             <constraint id="7c16-d909-bc80-4e42" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Shield (short)" id="b570-7c2c-d3ba-66b2" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry">
+        <entryLink name="Shield" id="b570-7c2c-d3ba-66b2" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry">
           <constraints>
             <constraint id="367b-c0b3-0754-f314" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -924,17 +898,17 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Spellcaster" id="4087-fde4-6c48-e2b7" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Heal (short)" id="2dbd-1d4e-64d9-5d44" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
+        <entryLink name="Heal" id="2dbd-1d4e-64d9-5d44" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
           <constraints>
             <constraint id="7989-9814-f0dc-a45d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Shield (short)" id="5715-b770-8849-3107" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry">
+        <entryLink name="Shield" id="5715-b770-8849-3107" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry">
           <constraints>
             <constraint id="48ed-62d7-83e6-dcd0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Stun (short)" id="d1e4-aca5-e1da-8442" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry">
+        <entryLink name="Stun" id="d1e4-aca5-e1da-8442" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry">
           <constraints>
             <constraint id="8e93-d6b0-65ea-6dac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>

@@ -7,7 +7,7 @@
     <entryLink name="Butcher" id="f2c4-1b3c-2af9-b877" hidden="false" import="true" targetId="46fe-ec09-37c5-aa45" type="selectionEntry"/>
     <entryLink name="Reaper" id="780b-6335-008d-e7f1" hidden="false" import="true" targetId="4225-ae6e-720c-8622" type="selectionEntry"/>
     <entryLink name="Phantom" id="7dd1-b8e8-581a-3e8e" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
-    <entryLink name="Ravager" id="3c88-44fc-1bc1-c7a3" hidden="false" import="true" targetId="efb2-f856-9e7c-11e8" type="selectionEntry"/>
+    <entryLink name="Ravager *" id="3c88-44fc-1bc1-c7a3" hidden="false" import="true" targetId="efb2-f856-9e7c-11e8" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink name="DREAD (1)" id="70e0-3c13-9e95-8602" hidden="false" targetId="a396-7368-c857-ebd5" type="rule"/>
@@ -54,8 +54,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -98,8 +96,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -147,8 +143,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -191,8 +185,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -214,7 +206,7 @@
       <infoLinks>
         <infoLink name="Stealthy" id="8687-7ee6-80f5-8bbf" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Fly" id="6df5-4736-1b7f-95a1" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Power Dice Blue (1)" id="7160-6975-6754-2ae0" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice B/G (1)" id="7160-6975-6754-2ae0" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="WAIL (2)" id="8c6a-a3d0-3a7d-bcbd" hidden="false" targetId="9a6b-7f27-b20b-82c1" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -236,8 +228,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -259,7 +249,7 @@
       <infoLinks>
         <infoLink name="Stealthy" id="b08c-dd68-9b95-9e4b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Fly" id="d671-8c85-ff58-f504" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Power Dice White (2)" id="5ce8-e609-4ed0-7bbc" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="Power Dice W/O (2)" id="5ce8-e609-4ed0-7bbc" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
         <infoLink name="CAUSE FEAR (2)" id="13e1-304b-ed64-44f7" hidden="false" targetId="7655-5392-a1d7-97b6" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -281,8 +271,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -305,7 +293,7 @@
       <infoLinks>
         <infoLink name="Stealthy" id="78d6-52ee-ae52-c424" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Soul Thirst (short)" id="6419-77cb-a2b0-3562" hidden="false" targetId="27bf-77f4-754f-3299" type="rule"/>
-        <infoLink name="Power Dice Red (2)" id="4066-ef0e-a365-4459" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice R/B (2)" id="4066-ef0e-a365-4459" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="7ef2-b5d1-8234-605c" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -327,8 +315,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -352,7 +338,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Stealthy" id="e467-4adf-5eb3-7b6f" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="880e-812e-1086-6073" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="880e-812e-1086-6073" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="5aab-bebe-107b-f695" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -374,8 +360,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -419,7 +403,7 @@
       <infoLinks>
         <infoLink name="Stealthy" id="ddc1-36f5-1e5b-b258" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Fly" id="c612-9348-7271-7e51" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="ca17-b9e6-2d42-2c91" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="ca17-b9e6-2d42-2c91" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="All-seeing" id="0249-c795-3250-f1bb" hidden="false" targetId="2298-7df1-effa-eb3d" type="rule"/>
         <infoLink name="DRAW DARK POWER (1)" id="134a-f4f6-55c1-bc78" hidden="false" targetId="0a5f-6449-36ac-7c51" type="rule"/>
       </infoLinks>
@@ -442,8 +426,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">-</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nightstalker</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
           </characteristics>
         </profile>
@@ -515,7 +497,7 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
         <profile name="Firebolt" id="a676-068b-ea0d-4f9b" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
             <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">-</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476">-</characteristic>
             <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
           </characteristics>
         </profile>
@@ -532,11 +514,12 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
         <infoLink name="Spell - Horrify" id="c1c3-9eb7-f43a-4315" hidden="false" targetId="4638-4002-1860-b2d0" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Horrify (short)" id="39ce-44e1-2f5d-5450" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Horrify (short)" id="39ce-44e1-2f5d-5450" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -554,11 +537,12 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
         <infoLink name="Spell - Fear the Darkness" id="277a-2e3c-2027-c95f" hidden="false" targetId="adab-76fd-ae17-7a6d" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Fear the Darkness (long)" id="c326-7ba1-163f-4f6c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Fear the Darkness (long)" id="c326-7ba1-163f-4f6c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -583,7 +567,7 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
       <infoLinks>
         <infoLink name="Stealthy" id="4c26-aad1-02b1-a0fe" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Fly" id="eb24-7c97-3b2e-5612" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Vicious" id="0988-2e9e-70ca-9c48" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="0988-2e9e-70ca-9c48" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="b888-7b8c-3051-2872" type="increment" value="1">
@@ -682,7 +666,7 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Ravager" id="efb2-f856-9e7c-11e8" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+    <selectionEntry name="Ravager *" id="efb2-f856-9e7c-11e8" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="cfd2-211b-990e-a23d" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Nightstalker" id="7aea-b2d5-cdda-1a82" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
@@ -734,8 +718,7 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
             <profile name="Void Blaster" id="739f-81d8-3beb-eb80" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
               <characteristics>
                 <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-                <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">
-</characteristic>
+                <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
                 <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
               </characteristics>
             </profile>
@@ -808,8 +791,8 @@ Cast as a long action instead. As above, but the modifier is increased to -2 and
         <categoryLink name="Spellcaster" id="ac91-4f53-8641-c689" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Hammer (long)" id="877c-b0a0-53a2-eaeb" collective="false" hidden="false" import="true" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="2eb9-1e49-e9cb-fedb" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Hammer" id="877c-b0a0-53a2-eaeb" collective="false" hidden="false" import="true" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="2eb9-1e49-e9cb-fedb" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Nightstalkers (Paid)" id="3da4-49f4-1093-06f3" collective="false" hidden="false" import="true">

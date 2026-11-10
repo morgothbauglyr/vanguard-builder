@@ -45,8 +45,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -136,8 +134,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -184,8 +180,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -207,7 +201,7 @@
         <entryLink name=" Items" id="7c93-3583-8d1a-788e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Vicious" id="b424-57b2-175d-fdb5" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="b424-57b2-175d-fdb5" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="7295-327c-6739-b0c7" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -272,8 +266,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -335,8 +327,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -385,8 +375,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -429,8 +417,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ogre</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -493,8 +479,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -513,7 +497,7 @@
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="2e7a-21df-f6af-c757" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Throwing Knife" id="ad59-b971-af07-2dea" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry">
+        <entryLink name="Throwing Knife (Rare) *" id="ad59-b971-af07-2dea" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
@@ -624,7 +608,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Steady" id="d4f7-a947-7a17-4060" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Vicious" id="e17a-9d5c-291c-e8f6" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="e17a-9d5c-291c-e8f6" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="965d-13f2-3d49-7ce9" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="FRENZY (1)" id="6f1c-cad8-4db8-54f5" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
       </infoLinks>
@@ -647,8 +631,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -792,7 +774,7 @@
             <profile name="Ballista Shot" id="f4b5-58ae-e64f-b0d4" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
               <characteristics>
                 <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">48&quot;</characteristic>
-                <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">3D8</characteristic>
+                <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
                 <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (3), Reload</characteristic>
               </characteristics>
             </profile>
@@ -893,15 +875,16 @@ towards the Leader of Men model following the normal movement rules. This move c
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Marksman" id="98b2-e2f5-155f-3623" hidden="false" targetId="9bcc-d59f-7ada-1a84" type="rule"/>
+        <infoLink name="Marksman" id="98b2-e2f5-155f-3623" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
         <infoLink name="Piercing (1)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
         <infoLink name="Reload" id="05e0-3d08-6188-2291" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Rifle" id="601d-8267-5d52-9b4c" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Rifle" id="601d-8267-5d52-9b4c" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Marksman, Piercing (1), Reload</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Marksman, Piercing (1), Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -917,11 +900,12 @@ towards the Leader of Men model following the normal movement rules. This move c
         <infoLink name="Spell - Instill Courage" id="f3fa-16cf-f4d8-216a" hidden="false" targetId="3871-53bf-691a-3518" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Instill Courage (short)" id="327b-c04f-04cb-b053" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Instill Courage (short)" id="327b-c04f-04cb-b053" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b"/>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -939,11 +923,12 @@ towards the Leader of Men model following the normal movement rules. This move c
         <infoLink name="Spell - Adrenaline Shot" id="2020-1f44-05ef-d64b" hidden="false" targetId="49a0-7f9c-8dd1-5f0d" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Adrenaline Shot (short)" id="1952-4024-bc65-1e62" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Adrenaline Shot (short)" id="1952-4024-bc65-1e62" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -954,9 +939,9 @@ towards the Leader of Men model following the normal movement rules. This move c
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name=" Spellbook - Basic Wizard" id="1e7e-880c-0d73-1421" collective="false" hidden="false" import="true" page="41" publicationId="4ae3-a7bd-pubN68954">
       <entryLinks>
-        <entryLink name="Fireball (short)" id="b9f8-8ef9-e574-4699" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
-        <entryLink name="Heal (short)" id="170f-2bf1-e2ad-8a94" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="4be8-ec10-94b7-0a48" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Fireball" id="b9f8-8ef9-e574-4699" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink name="Heal" id="170f-2bf1-e2ad-8a94" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="4be8-ec10-94b7-0a48" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Kingdom of Men (Free)" id="7724-d8e9-4d28-e58a" collective="false" hidden="false" import="true">

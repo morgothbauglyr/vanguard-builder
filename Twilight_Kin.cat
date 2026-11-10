@@ -11,9 +11,9 @@
   </categoryEntries>
   <entryLinks>
     <entryLink name="Butcher" id="7537-7a74-f040-622e" hidden="false" import="true" targetId="46fe-ec09-37c5-aa45" type="selectionEntry"/>
-    <entryLink name="Ravager" id="adb9-90c1-6927-01f9" hidden="false" import="true" targetId="efb2-f856-9e7c-11e8" type="selectionEntry"/>
+    <entryLink name="Ravager *" id="adb9-90c1-6927-01f9" hidden="false" import="true" targetId="efb2-f856-9e7c-11e8" type="selectionEntry"/>
     <entryLink name="Shadowhound" id="fe9d-2303-92f2-481b" hidden="false" import="true" targetId="84d0-e79f-f11f-677e" type="selectionEntry"/>
-    <entryLink name="Phantom (+)" id="d301-2849-81bf-4356" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
+    <entryLink name="Phantom" id="d301-2849-81bf-4356" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink name="BITTER AND TWISTED (2)" id="cc38-820d-82ef-b6cf" hidden="false" targetId="aa01-3403-023a-f3d1" type="rule"/>
@@ -391,7 +391,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="e6ec-551f-be2e-ab66" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="WILD CHARGE (1)" id="1d60-c7ee-1f0f-76af" hidden="false" targetId="b41c-7626-ecab-be22" type="rule"/>
+        <infoLink name="WILD CHARGE (1) *" id="1d60-c7ee-1f0f-76af" hidden="false" targetId="b41c-7626-ecab-be22" type="rule"/>
         <infoLink name="Stealthy" id="91bc-7ebd-a77c-0df0" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
       </infoLinks>
       <profiles>
@@ -422,16 +422,11 @@
             <infoLink name="Torrent" id="04c9-9b8c-2469-4177" hidden="false" targetId="c62a-d2c1-4b9f-b24d" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Cosmic Fire" id="9fe6-c5ff-86e6-0f4d" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
-              <characteristics>
-                <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
-              </characteristics>
-            </profile>
             <profile name="Cosmic Fire" id="33e6-57e8-26cb-b526" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
               <characteristics>
                 <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
-                <characteristic name="Dice Roll" typeId="2088-497d-b499-8476"/>
-                <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
+                <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+                <characteristic name="Rules" typeId="b478-b971-cc61-444f">Torrent</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -452,7 +447,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Ensnare" id="18f9-62c4-4990-bc14" hidden="false" targetId="f6ec-c30d-a3b1-738b" type="rule"/>
-        <infoLink name="Vicious" id="caa9-c8e6-84ae-d00b" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="caa9-c8e6-84ae-d00b" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Pathfinder" id="f597-9702-d5df-ec33" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -492,7 +487,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="a280-fc99-b030-6dd3" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Vicious" id="b8b9-ed16-659e-3156" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="b8b9-ed16-659e-3156" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="033f-011d-a4a2-3c38" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Sneaky" id="e31e-4379-fda4-d88d" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
       </infoLinks>
@@ -607,7 +602,7 @@
       <infoLinks>
         <infoLink name="Power Dice W/O (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="RANGE BOOST (1)" id="9c9d-a275-e000-fc50" hidden="false" targetId="3d46-c3f5-4d69-6b21" type="rule"/>
-        <infoLink name="MASTER OF MAGIC (2)" id="3de3-f8c1-4a10-75a1" hidden="false" targetId="9fe1-3523-6999-f986" type="rule"/>
+        <infoLink name="MASTER OF MAGIC (2) *" id="3de3-f8c1-4a10-75a1" hidden="false" targetId="9fe1-3523-6999-f986" type="rule"/>
         <infoLink name="Inspiring" id="83a1-3b55-44ee-0555" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -668,11 +663,12 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <infoLink name="Spell - Weeping Sores" id="68fa-2d24-8586-356b" hidden="false" targetId="0aab-ec42-b95e-ada2" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Weeping Sores (short)" id="12c2-1f7a-ab81-6a7c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Weeping Sores (short)" id="12c2-1f7a-ab81-6a7c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -687,11 +683,12 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <entryLink name="Rule Check - Is Faction Spell" id="124b-9970-9a3c-a0f4" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <profiles>
-        <profile name="Summon the Reaper (long)" id="089c-7efb-115e-68d4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Summon the Reaper (long)" id="089c-7efb-115e-68d4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -707,10 +704,11 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <infoLink name="Piercing (1)" id="378e-a40a-05df-aa1b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Stalker Bow" id="b620-64ae-8c05-572a" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Stalker Bow" id="b620-64ae-8c05-572a" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Pound, Piercing (1)</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Pound, Piercing (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -759,16 +757,16 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Basic Summoner Crone" id="ef34-fb59-8c69-cd65" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
       <entryLinks>
-        <entryLink name="Heal (short)" id="5537-250d-93cb-eb40" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="45dc-740f-9c55-836c" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Mind Storm (long)" id="9a24-4d72-00a9-da7a" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+        <entryLink name="Heal" id="5537-250d-93cb-eb40" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="45dc-740f-9c55-836c" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Mind Storm" id="9a24-4d72-00a9-da7a" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Basic Sorceress" id="99cd-fb26-1a40-85c9" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
       <entryLinks>
-        <entryLink name="Heal (short)" id="1563-5d07-22c6-832c" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="aa6f-5d5b-0fd4-cd2f" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Mind Storm (long)" id="08b4-20eb-043d-b9b7" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+        <entryLink name="Heal" id="1563-5d07-22c6-832c" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="aa6f-5d5b-0fd4-cd2f" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Mind Storm" id="08b4-20eb-043d-b9b7" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

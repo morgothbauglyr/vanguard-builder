@@ -22,7 +22,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Swarm" id="45d8-b569-0c5e-5760" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
-        <infoLink name="Vicious" id="d720-ee00-7eba-7456" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="d720-ee00-7eba-7456" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Otter Bevy" id="32a3-be30-5403-f530" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -36,8 +36,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican, Beast</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -80,8 +78,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -118,8 +114,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -153,7 +147,7 @@
         <infoLink name="Pathfinder" id="52f5-c3ad-9fee-04e6" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Marksman" id="41e8-fa78-a3fa-025f" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
         <infoLink name="Stealthy" id="13b2-63aa-7a7d-c213" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Power Dice Red (2)" id="7df2-f295-52eb-2993" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice R/B (2)" id="7df2-f295-52eb-2993" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="EVASION (1)" id="9232-a06b-f63e-00a6" hidden="false" targetId="f14f-1146-9788-eac7" type="rule"/>
         <infoLink name="BOUNDER (1)" id="c1b4-186e-92f0-a7a6" hidden="false" targetId="e92a-80d0-8e3e-ba30" type="rule"/>
         <infoLink name="Combined Fire" id="43d6-b428-6818-20b7" hidden="false" targetId="9572-126b-ed39-c8f9" type="rule"/>
@@ -182,8 +176,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -228,8 +220,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -259,8 +249,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -299,7 +287,7 @@
         <entryLink name=" Spellbook - The Trident Realm (Free)" id="61d9-854a-88b9-ea88" collective="false" hidden="false" import="true" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice White (1)" id="6f2c-8c89-8077-5cfd" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="6f2c-8c89-8077-5cfd" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="2cdc-1a66-3e1b-6fd3" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
       <profiles>
@@ -314,8 +302,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -350,8 +336,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -388,7 +372,7 @@
         <entryLink name=" Items" id="be48-4c3d-4dbc-bb8e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice Red (1)" id="8a3d-0e8a-108c-e0c1" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="8a3d-0e8a-108c-e0c1" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Regenerate (7+)" id="127c-ac8b-e252-50f2" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
         <infoLink name="Stealthy" id="7e56-5285-6498-d75b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
       </infoLinks>
@@ -404,8 +388,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -437,7 +419,7 @@
         <infoLink name="Crushing Strength (1)" id="54b8-d63f-83ea-aad1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Inspiring" id="2f5f-9585-1942-52ea" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Regenerate (7+)" id="6407-e377-3acc-baae" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
-        <infoLink name="Power Dice Blue (1)" id="5dbc-3a94-7701-6404" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice B/G (1)" id="5dbc-3a94-7701-6404" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="BATTLE RAGE (2)" id="ef4e-3fda-aed8-521e" hidden="false" targetId="e956-4817-e249-a976" type="rule"/>
       </infoLinks>
       <profiles>
@@ -452,8 +434,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -495,8 +475,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -542,7 +520,7 @@
         <entryLink name="Rule Check - Allows 1 more Large then Normal" id="c878-342e-e8fd-727e" collective="false" hidden="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice White (1)" id="8bd5-bcc4-3fdc-00cf" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="8bd5-bcc4-3fdc-00cf" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="e309-9351-d643-9e12" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Elemental  Mastery" id="c805-b3e0-caf9-f6a5" hidden="false" targetId="5909-b9c3-50ca-6819" type="rule"/>
       </infoLinks>
@@ -558,8 +536,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -596,8 +572,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -637,8 +611,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
           </characteristics>
         </profile>
@@ -673,8 +645,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D2</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -707,8 +677,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -728,7 +696,6 @@
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="ef9b-79ca-9455-4dfc" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Rule Check - Is Large Command" id="0b60-028b-040d-dbda" collective="false" hidden="false" import="true" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Smash" id="88cd-d26b-909e-6959" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
@@ -752,8 +719,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
           </characteristics>
         </profile>
@@ -818,9 +783,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
     <rule name="Kraken&apos;s Call" id="0dbc-a8d5-6085-2386" hidden="false">
       <description>While within 6&quot; of this model, friendly models have the Unbreakable  and Bloodlust special rules.</description>
     </rule>
-    <rule name="Very Inspiring (Riverguard (all types) only)" id="2f13-440c-deae-0811" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
-      <description/>
-    </rule>
+    <rule name="Very Inspiring (Riverguard (all types) only)" id="2f13-440c-deae-0811" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Crushing Pressure (long)" id="3e97-62a4-37d3-7986" collective="false" hidden="false" import="true" type="upgrade">
@@ -834,11 +797,12 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <infoLink name="Spell - Crushing Pressure" id="46b4-049f-f76d-3eda" hidden="false" targetId="7a97-4229-8776-c990" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Crushing Pressure (long)" id="a7db-0f45-ce00-378a" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Crushing Pressure (long)" id="a7db-0f45-ce00-378a" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (1)</characteristic>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -856,11 +820,12 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <infoLink name="Spell - Riptide" id="2436-9622-83c4-1a6b" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Riptide (long)" id="e2d0-2afd-b58f-32f5" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Riptide (long)" id="e2d0-2afd-b58f-32f5" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -872,13 +837,14 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (1)" id="f689-0b5a-259c-d192" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+        <infoLink name="Piercing (1)" id="f689-0b5a-259c-d192" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Harpoon-gun" id="497e-058c-5430-3f04" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Harpoon-gun" id="497e-058c-5430-3f04" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1)</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -888,13 +854,14 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Pound" id="b5ab-10da-fd4f-6b2b" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule"/>
+        <infoLink name="Pound" id="b5ab-10da-fd4f-6b2b" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Javelin" id="278a-b83c-1c8b-6b80" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Javelin" id="278a-b83c-1c8b-6b80" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Pound</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Pound</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -906,13 +873,6 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       <infoLinks>
         <infoLink name="Equipment - Trident" id="ac8d-2013-a530-f1b9" hidden="false" targetId="424e-7d48-2087-3f92" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Trident" id="62be-a121-03f9-2092" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
-          <characteristics>
-            <characteristic name="Rules" typeId="71ed-d60e-e323-198b"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Net" id="f0f3-31e0-0168-f571" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -921,13 +881,6 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       <infoLinks>
         <infoLink name="Equipment - Net" id="34d8-0ed6-a8d2-8f02" hidden="false" targetId="85c4-9aa4-c6ee-5a59" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Net" id="408a-fa0e-3d99-4fb3" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
-          <characteristics>
-            <characteristic name="Rules" typeId="71ed-d60e-e323-198b"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Riptide (short)" id="546f-b6d9-0128-becb" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -940,11 +893,12 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <infoLink name="Spell - Riptide" id="cec4-f8bb-7266-9727" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Riptide (short)" id="5c75-b1d6-f77b-316d" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Riptide (short)" id="5c75-b1d6-f77b-316d" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -995,9 +949,9 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Spellcaster" id="2d10-a6c2-eaa1-eba2" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Windblast (long)" id="1c31-94f8-d19c-447b" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
-        <entryLink name="Shockwave (long)" id="0a0f-84f2-1865-5919" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
-        <entryLink name="Stun (short)" id="b02d-ed57-7557-392d" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
+        <entryLink name="Windblast" id="1c31-94f8-d19c-447b" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink name="Shockwave" id="0a0f-84f2-1865-5919" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+        <entryLink name="Stun" id="b02d-ed57-7557-392d" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Basic Mythican Aquamage" id="e386-c40c-67ca-6c71" collective="false" hidden="false" import="true">
@@ -1010,41 +964,21 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
             <constraint id="8c5c-6767-6f42-a192" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Riptide (short)" id="40c3-96ba-d2af-9443" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+            <profile name="Riptide (short)" id="40c3-96ba-d2af-9443" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
               <characteristics>
+                <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">9</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
                 <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
                 <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
         </entryLink>
+        <entryLink name="Chain Lightning" id="859b-2495-7620-0d33" hidden="false" import="true" targetId="3c3a-f11b-6b5c-6355" type="selectionEntry"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry name="Chain Lightning (long)" id="7d13-1a18-e8e1-fc0d" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="5916-3e7d-9f52-0581" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Spell - Piercing (2)" id="7605-a743-70a8-cab5" hidden="false" targetId="2d6c-7f42-6d86-f6fc" type="rule"/>
-          </infoLinks>
-          <profiles>
-            <profile name="Chain Lightning" id="bebe-fedf-b190-1542" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
-              <characteristics>
-                <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
-                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
-                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (2)</characteristic>
-                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
         <selectionEntry name="Waterlogged (long)" id="49eb-efb3-016a-fd43" collective="false" hidden="false" import="true" type="upgrade">
           <categoryLinks>
             <categoryLink name="Spellcaster" id="8636-d850-14cc-f992" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
@@ -1056,11 +990,12 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
             <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
           </costs>
           <profiles>
-            <profile name="Waterlogged (long)" id="e8aa-f6d8-5412-05ad" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+            <profile name="Waterlogged (long)" id="e8aa-f6d8-5412-05ad" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
               <characteristics>
+                <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
                 <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
                 <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
               </characteristics>

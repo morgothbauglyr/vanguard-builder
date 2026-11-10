@@ -52,8 +52,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -107,8 +105,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human, Villein</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -166,8 +162,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human, Villein</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -224,8 +218,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human, Villein</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -279,8 +271,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human, Knight</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -330,8 +320,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human, Knight</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -357,7 +345,7 @@
         <infoLink name="Defender" id="3e44-41a1-076c-9cb5" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule"/>
         <infoLink name="Inspiring" id="2eca-cef8-1909-73ce" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="7a41-c13f-39f3-2d73" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice Red (2)" id="de91-1207-cb39-2239" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice R/B (2)" id="de91-1207-cb39-2239" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="b60d-c8a2-72ce-6cb9" type="increment" value="1">
@@ -383,8 +371,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human, Knight</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -427,7 +413,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Inspiring" id="a7a8-e2be-c208-a445" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice Blue (1)" id="04ea-8a8a-d10e-b863" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice B/G (1)" id="04ea-8a8a-d10e-b863" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="d424-364c-efdf-a747" type="increment" value="1">
@@ -453,8 +439,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -504,11 +488,12 @@ Cast as a long action instead. The modifier is increased to -2.</description>
         <infoLink name="Spell - Mist of Faith" id="7986-3d1f-0b23-f727" hidden="false" targetId="2638-d43e-5a5e-e12e" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Mist of Faith (short)" id="e20f-3c79-bd3f-db84" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Mist of Faith (short)" id="e20f-3c79-bd3f-db84" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -526,11 +511,12 @@ Cast as a long action instead. The modifier is increased to -2.</description>
         <infoLink name="Spell - Water’s Blessing" id="97ce-6661-f35f-5c55" hidden="false" targetId="c8f4-aee8-113c-b693" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Water’s Blessing (long)" id="21a8-e29a-4bd5-fb61" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Water’s Blessing (long)" id="21a8-e29a-4bd5-fb61" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -545,10 +531,11 @@ Cast as a long action instead. The modifier is increased to -2.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <profiles>
-        <profile name="Longbow" id="bdbd-f56b-ad42-6c57" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Longbow" id="bdbd-f56b-ad42-6c57" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">15&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">15&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
           </characteristics>
         </profile>
       </profiles>
@@ -560,9 +547,9 @@ Cast as a long action instead. The modifier is increased to -2.</description>
         <categoryLink name="Spellcaster" id="e3c9-c524-b30e-ad58" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Heal (short)" id="ed25-a888-353f-0e24" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="615c-7e8a-fce1-4a4d" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Windblast (long)" id="b946-d9c5-2a43-823e" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink name="Heal" id="ed25-a888-353f-0e24" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="615c-7e8a-fce1-4a4d" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Windblast" id="b946-d9c5-2a43-823e" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Brotherhood (Free)" id="bc01-f8dd-c68e-6c14" collective="false" hidden="false" import="true">

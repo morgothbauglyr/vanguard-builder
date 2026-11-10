@@ -55,8 +55,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -106,8 +104,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -140,8 +136,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -171,8 +165,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -201,7 +193,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Regenerate (6+)" id="2f5b-cec5-0b96-2677" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="96f5-18c5-a070-1a45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="96f5-18c5-a070-1a45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="NATURE&apos;S INFERNO (2)" id="c774-f254-5dcb-075b" hidden="false" targetId="85aa-aaf2-0860-e8db" type="rule"/>
       </infoLinks>
       <profiles>
@@ -216,8 +208,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -246,8 +236,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -282,8 +270,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -312,7 +298,7 @@
       <infoLinks>
         <infoLink name="Smash" id="6e06-971a-8c31-309b" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Cavalry" id="bf79-b01a-28b4-4f9e" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="b4fe-a2a5-116b-96e5" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="b4fe-a2a5-116b-96e5" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Headstrong" id="f6f2-1205-4078-1842" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="cc95-1dff-fac2-f9e0" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
@@ -328,8 +314,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -369,7 +353,7 @@
       <infoLinks>
         <infoLink name="RANGE BOOST (2)" id="4ec1-7ec4-edb7-cf50" hidden="false" targetId="84d4-320d-f36e-8b09" type="rule"/>
         <infoLink name="Inspiring" id="f77e-d09a-c24e-7302" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="cc53-8724-d8c7-caae" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="cc53-8724-d8c7-caae" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Druid" id="dc6f-f556-c46d-a0d5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -383,8 +367,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -428,7 +410,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Steady" id="f484-615a-9e3b-183e" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="2a49-0117-00c6-b501" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="2a49-0117-00c6-b501" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="NATURE&apos;S DEFENCE (2)" id="98f1-74be-9b06-5955" hidden="false" targetId="b949-6132-1690-0444" type="rule"/>
         <infoLink name="Inspiring" id="57f0-1cac-3987-dc0b" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
@@ -456,8 +438,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -492,8 +472,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -528,8 +506,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -568,8 +544,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -604,8 +578,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Nature</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -626,7 +598,7 @@
         <infoLink name="Crushing Strength (1)" id="9a2d-6b96-45fd-89dc" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Inspiring (Grunts &amp; Warriors only)" id="cd28-6d50-a1e6-ee56" hidden="false" targetId="393c-e681-96ad-82c7" type="rule"/>
         <infoLink name="ORDEAL OF FIRE (2)" id="454a-69a4-5211-b667" hidden="false" targetId="9307-5f62-5eaf-eab7" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="5313-3de6-b9d9-9a14" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="5313-3de6-b9d9-9a14" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Salamander Veteran" id="1d7e-72d2-68ff-61fb" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -640,8 +612,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -723,11 +693,12 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Spell - Barrier of Vines" id="7a8b-294a-c5cb-76c5" hidden="false" targetId="b80f-2bfb-415c-77b7" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Barrier of Vines (long)" id="5bad-b486-b167-b3ba" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Barrier of Vines (long)" id="5bad-b486-b167-b3ba" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -753,11 +724,12 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Spell - Vengeful Flock" id="ba71-135e-535d-3bf5" hidden="false" targetId="50e4-78ab-4465-1c9c" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Vengeful Flock (long)" id="761a-a4a2-08a0-f1b7" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Vengeful Flock (long)" id="761a-a4a2-08a0-f1b7" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -771,13 +743,6 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       <infoLinks>
         <infoLink name="Weapon - Trident" id="cfd5-432b-619e-8da1" hidden="false" targetId="9dc2-e531-ce6e-1988" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Trident" id="3b51-d185-d951-ebdd" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
-          <characteristics>
-            <characteristic name="Rules" typeId="71ed-d60e-e323-198b"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Net" id="ce14-4a74-242b-e06f" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -786,26 +751,20 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       <infoLinks>
         <infoLink name="Weapon - Net" id="4fae-3116-d47f-ae93" hidden="false" targetId="8946-b3b2-6deb-88bc" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Net" id="8c95-b165-0b81-0c18" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
-          <characteristics>
-            <characteristic name="Rules" typeId="71ed-d60e-e323-198b"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Harpoon-Gun" id="f259-3342-9dfc-9b5c" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (1)" id="0d0d-0a56-a607-9d32" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+        <infoLink name="Piercing (1)" id="0d0d-0a56-a607-9d32" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Harpoon-Gun" id="f504-5080-0cfa-319c" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Harpoon-Gun" id="f504-5080-0cfa-319c" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1)</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -816,13 +775,13 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       </costs>
       <infoLinks>
         <infoLink name="Attack - Elemental Fire" id="b2ea-ae91-a179-c7be" hidden="false" targetId="3051-6282-ea3d-c9a7" type="rule"/>
-        <infoLink name="Equipment - Breath" id="6063-82dc-f4ca-3732" hidden="false" targetId="4e7b-e090-b103-6569" type="rule"/>
+        <infoLink name="Breath" id="6063-82dc-f4ca-3732" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Elemental Fire" id="f46c-ab9b-b408-8840" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
             <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">3D8</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
             <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath</characteristic>
           </characteristics>
         </profile>
@@ -836,11 +795,12 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <profiles>
-        <profile name="Tanglefoot (long)" id="6584-795d-c49a-e283" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Tanglefoot (long)" id="6584-795d-c49a-e283" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -855,10 +815,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Weapon - Centaur Bow" id="dfad-0add-6ae7-0324" hidden="false" targetId="03db-c212-842a-57ce" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Centaur Bow" id="828f-1bf2-0e9c-9f11" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Centaur Bow" id="828f-1bf2-0e9c-9f11" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (x)</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (x)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -907,9 +868,9 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <categoryLink name="Spellcaster" id="3661-ae41-1c85-8c1d" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Heal (short)" id="7ff8-a0dd-dacb-50ff" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="e10c-7bbb-bbf7-1061" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Windblast (long)" id="2726-e977-0056-0bba" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink name="Heal" id="7ff8-a0dd-dacb-50ff" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="e10c-7bbb-bbf7-1061" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Windblast" id="2726-e977-0056-0bba" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Basic Gladewalker Druid" id="691a-4874-ea8a-3099" collective="false" hidden="false" import="true" page="41" publicationId="4c75-46a3-pubN69892">
@@ -917,8 +878,8 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <categoryLink name="Spellcaster" id="6d92-fc09-3096-20e3" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Heal (short)" id="6a3a-1abe-0332-7a1c" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="8392-652a-e3aa-692d" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Heal" id="6a3a-1abe-0332-7a1c" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="8392-652a-e3aa-692d" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
         <entryLink name="Tanglefoot (long)" id="37c9-6cc3-3d3a-0208" collective="false" hidden="false" import="true" targetId="af30-2c37-5081-0ecd" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>

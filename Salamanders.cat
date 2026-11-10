@@ -38,7 +38,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Regenerate (6+)" id="d143-ea9d-bf78-6352" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="346e-c02d-eff0-4d8f" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="346e-c02d-eff0-4d8f" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="NATURE&apos;S INFERNO (2)" id="9724-9075-889e-6039" hidden="false" targetId="d242-3681-db0e-f4eb" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -60,8 +60,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -103,8 +101,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
@@ -159,8 +155,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -192,8 +186,8 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice White (1)" id="2fea-64c2-a40d-0de1" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-        <infoLink name="Vicious" id="e537-ef1e-65ad-f8b1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="2fea-64c2-a40d-0de1" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Elite" id="e537-ef1e-65ad-f8b1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Regenerate (7+)" id="f8d9-6007-fd5f-b24f" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="c6be-0ddb-dd6a-18e4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="6th Sense" id="16dd-d825-8586-62ea" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
@@ -215,8 +209,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -269,8 +261,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -316,8 +306,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -360,7 +348,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="INNER FIRE (2)" id="d1b9-fbc9-e9e4-4107" hidden="false" targetId="0bce-0fe3-2d49-6bfd" type="rule"/>
-        <infoLink name="Power Dice Red (2)" id="91b7-a19e-a082-71a2" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice R/B (2)" id="91b7-a19e-a082-71a2" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="HEALING FLAME (2)" id="e38b-418b-8f23-77ce" hidden="false" targetId="496a-d729-dd3c-71b4" type="rule"/>
         <infoLink name="Elemental Fuel" id="4a56-f6df-6e95-9868" hidden="false" targetId="34d6-4f22-1438-3f01" type="rule"/>
       </infoLinks>
@@ -383,8 +371,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -436,8 +422,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ghekkotah</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -463,7 +447,7 @@
         <infoLink name="Headstrong" id="c661-2326-3c15-2b08" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="12ab-3619-4f7b-eda4" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Steady" id="de5f-2afd-dad4-1f47" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice White (1)" id="18bb-1fe5-7935-8ad2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="18bb-1fe5-7935-8ad2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="SLAMBACK (1)" id="57e7-c7b8-78b8-6667" hidden="false" targetId="4a69-6bb9-8169-f08d" type="rule"/>
         <infoLink name="EVASIVE MANOUVRES (2)" id="b3fb-e0d3-95e3-ae5a" hidden="false" targetId="48ba-36be-ba96-ecb5" type="rule"/>
       </infoLinks>
@@ -531,8 +515,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -557,7 +539,7 @@
         <infoLink name="SHIFTING SCALES (1)" id="c31a-f860-2d23-2fdb" hidden="false" targetId="f6b6-b024-a559-f35a" type="rule"/>
         <infoLink name="Pathfinder" id="0ee6-cb07-f2b3-a63f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Stealthy" id="4329-c68c-c7db-0dd8" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Vicious" id="1e6f-6319-dbf9-ffaf" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="1e6f-6319-dbf9-ffaf" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="33e3-0a70-64d2-75a2" type="increment" value="1">
@@ -578,8 +560,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Gekottah</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -606,7 +586,7 @@
         <infoLink name="Crushing Strength (1)" id="4d04-021f-9042-7267" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="84ec-3bab-8522-c1f1" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Parry" id="14ba-6ae8-1e9f-0478" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="Vicious" id="64d2-a2b5-f1bd-890f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="64d2-a2b5-f1bd-890f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="3167-d83c-2c11-18d2" type="increment" value="1">
@@ -627,8 +607,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -658,9 +636,9 @@
         <infoLink name="SHIFTING SCALES (1)" id="5f34-2222-29d9-2675" hidden="false" targetId="f6b6-b024-a559-f35a" type="rule"/>
         <infoLink name="Pathfinder" id="2253-0815-1560-ff96" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Stealthy" id="0fed-07f1-d4d2-404d" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Vicious" id="2b84-4e6c-ca9e-3ca1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="2b84-4e6c-ca9e-3ca1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring (Ghekkotah only)" id="83f5-de80-5589-9e65" hidden="false" targetId="a8e2-751f-d827-31c6" type="rule"/>
-        <infoLink name="Power Dice Red (1)" id="a86f-5ec1-cc7d-f355" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice R/B (1)" id="a86f-5ec1-cc7d-f355" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="6135-4993-6928-a3ff" type="increment" value="1">
@@ -811,7 +789,7 @@
         <infoLink name="Crushing Strength (1)" id="1f3d-7e04-e87c-caf0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="4ffe-840e-8af2-1b45" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Parry" id="e87f-a2d9-a40f-78c1" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="Vicious" id="74e9-ac6c-2877-2789" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="74e9-ac6c-2877-2789" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="5bdf-dd3d-24c0-2703" type="increment" value="1">
@@ -936,11 +914,12 @@ When: Spend the Power to nominate this model as the group leader and the group a
         <infoLink name="Spell - Shimmer" id="8a35-6432-772b-b194" hidden="false" targetId="d174-58ff-d98b-2f27" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Shimmer (long)" id="44a4-47fd-ce55-1e4f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Shimmer (long)" id="44a4-47fd-ce55-1e4f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -955,11 +934,12 @@ When: Spend the Power to nominate this model as the group leader and the group a
         <entryLink name="Rule Check - Is Faction Spell" id="ae5e-9aca-7493-e536" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <profiles>
-        <profile name="Flame Tongue (short)" id="7a6e-55d4-6c7c-059f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Flame Tongue (short)" id="7a6e-55d4-6c7c-059f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (4)</characteristic>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -971,13 +951,13 @@ When: Spend the Power to nominate this model as the group leader and the group a
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (1)" id="69b2-5f5d-cd1b-9a57" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
+        <infoLink name="Piercing (1)" id="69b2-5f5d-cd1b-9a57" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Firebolt" id="5e78-aabf-0c45-02c6" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
             <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">-</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476">-</characteristic>
             <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
           </characteristics>
         </profile>
@@ -988,14 +968,15 @@ When: Spend the Power to nominate this model as the group leader and the group a
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Equipment - Piercing (1)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
-        <infoLink name="Equipment - Pound" id="87fd-6612-8588-a3d3" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule"/>
+        <infoLink name="Piercing (1)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Pound" id="87fd-6612-8588-a3d3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Pistol" id="87f9-3979-0e14-456d" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Pistol" id="87f9-3979-0e14-456d" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">6&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1), Pound</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1), Pound</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1006,15 +987,8 @@ When: Spend the Power to nominate this model as the group leader and the group a
       </costs>
       <infoLinks>
         <infoLink name="Weapon - Two-handed Weapon" id="021c-02df-3a90-a066" hidden="false" targetId="28c2-80b7-60dc-49e8" type="rule"/>
-        <infoLink name="Equipment - Crushing Strength (+1)" id="19df-0289-aff6-b969" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
+        <infoLink name="Crushing Strength (2)" id="19df-0289-aff6-b969" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Two-handed Weapon" id="3dc7-fb5b-7779-5e54" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
-          <characteristics>
-            <characteristic name="Rules" typeId="71ed-d60e-e323-198b">Crushing Strength (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Elemental Fire" id="2346-5110-1b46-3636" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -1022,13 +996,13 @@ When: Spend the Power to nominate this model as the group leader and the group a
       </costs>
       <infoLinks>
         <infoLink name="Attack - Elemental Fire" id="c457-e29c-31fb-9965" hidden="false" targetId="2c68-64eb-43e1-eedb" type="rule"/>
-        <infoLink name="Equipment - Breath" id="eb85-a5ea-0797-ccff" hidden="false" targetId="4e7b-e090-b103-6569" type="rule"/>
+        <infoLink name="Breath" id="eb85-a5ea-0797-ccff" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Elemental Fire" id="e4ed-90b7-af27-5134" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
             <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="2088-497d-b499-8476">3D8</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
             <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath</characteristic>
           </characteristics>
         </profile>
@@ -1036,10 +1010,11 @@ When: Spend the Power to nominate this model as the group leader and the group a
     </selectionEntry>
     <selectionEntry name="Blowpipe" id="9692-4901-30f6-771e" collective="false" hidden="false" import="true" type="upgrade">
       <profiles>
-        <profile name="Blowpipe" id="1389-bbf0-0017-f387" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Blowpipe" id="1389-bbf0-0017-f387" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1049,10 +1024,11 @@ When: Spend the Power to nominate this model as the group leader and the group a
         <infoLink name="Piercing (1)" id="7006-bfce-2b5a-4f81" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Acid Spit" id="dbd9-b03e-26b9-118d" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Acid Spit" id="dbd9-b03e-26b9-118d" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1)</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1061,8 +1037,8 @@ When: Spend the Power to nominate this model as the group leader and the group a
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name=" Spellbook - Basic Mage-Priest" id="73c3-a16b-3edf-b20e" collective="false" hidden="false" import="true" page="41" publicationId="6a64-c3e7-pubN69392">
       <entryLinks>
-        <entryLink name="Fireball (short)" id="4c43-6399-a95a-bbd9" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
-        <entryLink name="Shockwave (long)" id="a215-ce71-3988-01ab" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+        <entryLink name="Fireball" id="4c43-6399-a95a-bbd9" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink name="Shockwave" id="a215-ce71-3988-01ab" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Salamanders (Free)" id="c97d-225f-e168-e62e" collective="false" hidden="false" import="true">

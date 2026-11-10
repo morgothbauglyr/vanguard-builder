@@ -45,8 +45,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -88,8 +86,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -128,8 +124,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -148,7 +142,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
       <infoLinks>
-        <infoLink name="Vicious" id="f96c-055c-0e99-e247" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="f96c-055c-0e99-e247" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Swarm" id="003b-1a2e-d701-22b6" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -170,8 +164,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -210,8 +202,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -254,8 +244,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -276,7 +264,7 @@
         <entryLink name=" Items" id="401e-c680-aba1-df0d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Vicious" id="48f6-465b-6983-4981" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="48f6-465b-6983-4981" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="e519-3eac-d8d8-04e8" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Bloodlust" id="2a0b-7b85-1352-d27c" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
@@ -299,8 +287,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -351,8 +337,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -415,8 +399,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20/25mm</characteristic>
           </characteristics>
         </profile>
@@ -458,8 +440,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -509,8 +489,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -533,7 +511,7 @@
       <infoLinks>
         <infoLink name="Power Dice R/B (1)" id="93b5-66cb-c8c7-9e18" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="3197-569a-b9cc-4ec6" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Vicious" id="96b9-352b-af53-dfad" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="96b9-352b-af53-dfad" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Pathfinder" id="74c2-2041-e7b5-c33f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="ANCIENT FURY (2)" id="a65d-ecdb-496b-c035" hidden="false" targetId="ad07-c2a6-0f98-2d0c" type="rule"/>
       </infoLinks>
@@ -556,8 +534,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -579,7 +555,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Mob Assault" id="e673-d11a-9549-f25e" hidden="false" targetId="02e7-0f47-e451-32e3" type="rule"/>
-        <infoLink name="Vicious" id="a4c0-1d6f-432f-d21c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="a4c0-1d6f-432f-d21c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="cfcf-7a49-d6dd-3171" type="increment" value="1">
@@ -600,8 +576,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -648,8 +622,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
@@ -693,8 +665,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
           </characteristics>
         </profile>
@@ -738,8 +708,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
@@ -761,7 +729,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="dec3-3624-907c-7850" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Vicious" id="b42d-8a75-53c9-f718" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Elite" id="b42d-8a75-53c9-f718" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="f1f6-1093-57f9-bcca" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -783,8 +751,6 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
@@ -829,16 +795,15 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
-            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
-        <profile name="Ectoplasmic Blast (short)" id="4a62-61d1-615a-515e" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Ectoplasmic Blast (short)" id="4a62-61d1-615a-515e" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (1)</characteristic>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -910,11 +875,12 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Spell - Curse of Ages" id="4886-3c24-cabc-35e5" hidden="false" targetId="e7ce-4877-330b-59e8" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Curse of Ages (long)" id="794e-e282-167b-fb80" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Curse of Ages (long)" id="794e-e282-167b-fb80" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -929,11 +895,12 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <entryLink name="Rule Check - Is Faction Spell" id="1c3b-70ec-18eb-d196" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <profiles>
-        <profile name="Ectoplasmic Blast (long)" id="663f-70cd-9287-36a7" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Ectoplasmic Blast (long)" id="663f-70cd-9287-36a7" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (1)</characteristic>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -948,10 +915,11 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Weapon - CHILLING STRIKE (1)" id="a8ab-0750-476e-885b" hidden="false" targetId="b378-36cb-06bf-e6d6" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Eldritch Warbow" id="8fe9-bd3f-4103-47c4" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+        <profile name="Eldritch Warbow" id="8fe9-bd3f-4103-47c4" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
           <characteristics>
-            <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Chilling Strike (1)</characteristic>
+            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Chilling Strike (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -967,11 +935,12 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Spell - Raise Dead" id="e92e-9b4c-c147-f614" hidden="false" targetId="2593-e658-6ad7-35f5" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Raise Dead (long)" id="b0d7-f296-d8c0-fa32" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+        <profile name="Raise Dead (long)" id="b0d7-f296-d8c0-fa32" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
           <characteristics>
+            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
             <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
@@ -1022,10 +991,10 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Spellcaster" id="2d10-a6c2-eaa1-eba2" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Heal (short)" id="1c31-94f8-d19c-447b" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt (long)" id="59ea-5518-00c5-00a8" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Heal" id="1c31-94f8-d19c-447b" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="59ea-5518-00c5-00a8" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
         <entryLink name="Raise Dead (long)" id="6e36-3e84-b43b-8cd0" collective="false" hidden="false" import="true" targetId="9913-ed45-c064-0bc7" type="selectionEntry"/>
-        <entryLink name="Shield (short)" id="c3f8-5dc2-59d2-c07c" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry"/>
+        <entryLink name="Shield" id="c3f8-5dc2-59d2-c07c" collective="false" hidden="false" import="true" targetId="eaa9-4984-a19c-6832" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
