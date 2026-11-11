@@ -5,23 +5,406 @@
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Elf" id="c28f-4b04-8d39-6762" hidden="false"/>
-    <categoryEntry name="Nightstalker" id="2615-83c2-1465-b61c" hidden="false"/>
-    <categoryEntry name="Infantry" id="4750-158c-bdec-9b26" hidden="false"/>
-    <categoryEntry name="Large Infantry" id="1cd9-4c14-f0e1-537a" hidden="false"/>
   </categoryEntries>
   <entryLinks>
+    <entryLink name="Bitter and Twisted" id="f54d-16ea-d7c8-3ce4" hidden="false" targetId="91d1-7198-2e3c-67b0" type="selectionEntry"/>
+    <entryLink name="Voidwalker *" id="d016-2186-4de6-217c" hidden="false" targetId="1b35-b103-b847-b0af" type="selectionEntry"/>
+    <entryLink name="Voidtouched Mutant *" id="bcce-b705-29a3-40e9" hidden="false" targetId="e3af-4dbc-5eef-6cab" type="selectionEntry"/>
+    <entryLink name="Summoner Crone" id="3202-75b1-9b3a-0df8" collective="false" hidden="false" targetId="e6ca-2117-c882-5adc" type="selectionEntry"/>
+    <entryLink name="Summoned Reaper" id="9283-66d7-4ddd-19b0" collective="false" hidden="false" targetId="38d7-3b95-d478-ee2a" type="selectionEntry"/>
+    <entryLink name="Twilight Assassin *" id="67e8-927f-8f91-0d1c" hidden="false" targetId="780a-38b7-ed44-ade9" type="selectionEntry"/>
+    <entryLink name="Leithguard *" id="4aa8-258a-d868-34ba" collective="false" hidden="false" targetId="a8d5-4a12-f89d-7d73" type="selectionEntry"/>
+    <entryLink name="Shadow" id="b377-b96c-be3d-b7ed" collective="false" hidden="false" targetId="8334-76d9-80d5-b442" type="selectionEntry"/>
     <entryLink name="Butcher" id="7537-7a74-f040-622e" hidden="false" import="true" targetId="46fe-ec09-37c5-aa45" type="selectionEntry"/>
     <entryLink name="Ravager *" id="adb9-90c1-6927-01f9" hidden="false" import="true" targetId="efb2-f856-9e7c-11e8" type="selectionEntry"/>
+    <entryLink name="Leithguard Archer *" id="80df-d69d-b211-523c" hidden="false" targetId="97b6-1d59-6a1c-9dda" type="selectionEntry"/>
+    <entryLink name="Sorceress *" id="5e70-e0ba-530f-f326" collective="false" hidden="false" targetId="f78e-96e3-b99a-6284" type="selectionEntry"/>
     <entryLink name="Shadowhound" id="fe9d-2303-92f2-481b" hidden="false" import="true" targetId="84d0-e79f-f11f-677e" type="selectionEntry"/>
+    <entryLink name="Executioner" id="587b-0c2c-9351-c7fb" collective="false" hidden="false" targetId="4588-7fd5-5276-3d63" type="selectionEntry"/>
+    <entryLink name="Impaler" id="1406-191f-864a-123c" collective="false" hidden="false" targetId="2020-1dfb-0ceb-8f59" type="selectionEntry"/>
+    <entryLink name="Blade Dancer" id="6fc2-2122-fab8-3f28" collective="false" hidden="false" targetId="2889-9be3-269f-f281" type="selectionEntry"/>
     <entryLink name="Phantom" id="d301-2849-81bf-4356" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
+    <entryLink name="Citizen Levy (X)" id="237a-fe95-a856-cc8e" collective="false" hidden="false" targetId="ab8e-9780-0b13-8ba1" type="selectionEntry"/>
   </entryLinks>
-  <infoLinks>
-    <infoLink name="BITTER AND TWISTED (2)" id="cc38-820d-82ef-b6cf" hidden="false" targetId="aa01-3403-023a-f3d1" type="rule"/>
-  </infoLinks>
   <publications>
     <publication name="Rulebook" id="c0ab-ccb6-pubN68676"/>
   </publications>
-  <selectionEntries>
+  <sharedProfiles>
+    <profile name="Summon the Reaper" id="089c-7efb-115e-68d4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Choose any enemy model within Range, even those out of LOS or that are Engaged. Place a Nightstalker Reaper model anywhere within 3” of the target model and not within 1” of any other models. It may be Activated in a subsequent Turn. While in play, the Reaper is part of the caster’s warband but doesn’t count towards the Warband’s break limit for making Fallback checks. While it is in play, in the End phase of each Round, roll a die. On a result
+of 1 or 2, the Reaper is removed from play. The casting model may only have one such Reaper model in play at any one time.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+      </characteristics>
+    </profile>
+    <profile name="Weeping Sores" id="12c2-1f7a-ab81-6a7c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Roll to hit and wound the target. In addition to any damage that may be caused, the target suffers a -1 modifier to all Melee and Ranged attacks it makes for the remainder of the Round.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+      </characteristics>
+    </profile>
+    <profile name="Stalker Bow" id="b620-64ae-8c05-572a" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Pound, Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blade Dancer" id="7c4f-c85c-605f-c409" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Citizen Levy" id="3996-5894-4a4e-c025" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Executioner" id="e7d8-77b1-b6e6-0f2a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">3+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Impaler" id="f72f-9590-7c8c-f12e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Leithguard" id="fac3-a0bf-fab0-c9fd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shadow" id="68e7-7620-33e6-8b43" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Summoner Crone" id="d797-a074-4cb6-0980" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Summoner Crone" id="1eca-4d7c-3dd7-9c77" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twilight Assassin" id="1134-f027-d43d-7cd4" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Voidtouched Mutant" id="a5db-e8e5-2be6-5746" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Voidwalker" id="7f6e-7d96-7d05-8059" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="BATTLE RAGE" id="b261-1cc2-d69c-f8ca" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">3</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model may make a follow-up move.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model may Engage an enemy model with a follow-up move and initiate another Melee. This model will not get any bonus dice for charging. Once this second Melee has been resolved, mark this model as Fatigued.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="BITTER AND TWISTED" id="6915-ce21-e1b3-86a0" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At any time.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Until the end of the current Round, all models in the warband of category ELF, have the Elite special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sorceress" id="ea4b-c03e-f571-385a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">3+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Summoned Reaper" id="6a78-9766-f139-71dd" hidden="false">
+      <description>While this model is in play, in the End phase of each Round, roll a die. On a result
+of 1 or 2, the Reaper is removed from play.</description>
+    </rule>
+    <rule name="Whirlwind of Steel" id="0746-6214-0174-7e49" hidden="false">
+      <description>Enemy models making a Melee attack against this model, even if it is knocked-down, suffer a -1 modifier when rolling to hit.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Weeping Sores" id="2b0a-998a-d6e3-c6f7" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell - Faction" id="dd22-1ba4-9195-fc92" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+        <categoryLink name="Spell" id="ebd6-394b-6f72-7a95" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Weeping Sores" id="8a90-66a7-4b61-09bf" hidden="false" targetId="12c2-1f7a-ab81-6a7c" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Summon the Reaper" id="feab-38a0-cef0-0be8" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell" id="82f8-c4ac-4c8c-74b3" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="2535-e712-7f52-9e26" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Summon the Reaper " id="706e-20df-d96e-3594" hidden="false" targetId="089c-7efb-115e-68d4" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Stalker Bow" id="edd9-95a5-b684-3e8d" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Stalker Bow" id="520d-487f-c872-cd35" hidden="false" targetId="b620-64ae-8c05-572a" type="profile"/>
+        <infoLink name="Pound" id="70cc-0207-1f56-370f" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+        <infoLink name="Piercing (1)" id="378e-a40a-05df-aa1b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Blade Dancer" id="2889-9be3-269f-f281" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="8a45-1a26-2ef3-5528" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Elf" id="530c-0ee7-a205-3857" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="83e9-868e-b610-7651" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="a7d6-6f4a-c2b6-e12e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Blade Dancer" id="ee37-e330-e000-98a6" hidden="false" targetId="7c4f-c85c-605f-c409" type="profile"/>
+        <infoLink name="Bloodlust" id="0208-63f2-80df-2e45" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="Dodge" id="4505-9a7f-10b0-386e" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink name="Whirlwind of Steel" id="5368-5a8f-e768-21b9" hidden="false" targetId="0746-6214-0174-7e49" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="83e9-868e-b610-7651" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Citizen Levy (X)" id="ab8e-9780-0b13-8ba1" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="b71e-d69e-4bcd-bb84" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="e580-41a1-fc37-14aa" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Elf" id="ffef-3c1d-4e0a-70e1" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0c0a-0598-277b-238e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="2986-7671-a2d0-9c8e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Spear" id="ace3-864a-2340-1380" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+          <constraints>
+            <constraint id="81f4-fb8e-d8da-8981" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="b8b1-5875-a32e-a92c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Citizen Levy" id="c4fc-a6cf-92cc-4e7d" hidden="false" targetId="3996-5894-4a4e-c025" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="0c0a-0598-277b-238e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Executioner" id="4588-7fd5-5276-3d63" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="80ea-55b2-7949-a10d" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="9df9-5655-788e-48cb" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Elf" id="5e93-5c51-dcf5-df90" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="54ce-426b-a5fe-bb6f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="9854-ac05-9b15-4efd" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Executioner" id="d140-cac7-c38c-76aa" hidden="false" targetId="e7d8-77b1-b6e6-0f2a" type="profile"/>
+        <infoLink name="6th Sense" id="a671-027a-ed80-68f4" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
+        <infoLink name="Inspiring" id="ffcc-5f3b-2dac-6c23" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="96d0-5e03-8fe1-ac10" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Power Dice W/O (2)" id="ea38-f788-477a-8f25" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="BATTLE RAGE" id="6a45-fe3d-7ce4-0aa4" hidden="false" targetId="b261-1cc2-d69c-f8ca" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="54ce-426b-a5fe-bb6f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Impaler" id="2020-1dfb-0ceb-8f59" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="ad1d-7671-ccf6-fe1c" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="a376-0a1f-375d-10b7" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="f72d-4713-246a-ab5b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Elf" id="ba7e-7810-4473-3d72" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="fc80-b257-1b32-b72a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="edfe-d9d0-04df-778c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Impaler" id="92a3-0df4-162d-28a2" hidden="false" targetId="f72f-9590-7c8c-f12e" type="profile"/>
+        <infoLink name="Crushing Strength (1)" id="8ccd-bb56-88a3-ece0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="fc80-b257-1b32-b72a" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
     <selectionEntry name="Leithguard *" id="a8d5-4a12-f89d-7d73" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Grunt" id="af78-f68e-ab2d-744c" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
@@ -45,6 +428,9 @@
           </modifiers>
         </entryLink>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Leithguard" id="8ef3-4d8d-4c39-9246" hidden="false" targetId="fac3-a0bf-fab0-c9fd" type="profile"/>
+      </infoLinks>
       <modifiers>
         <modifier field="142a-e6db-4e2a-6410" type="increment" value="1">
           <repeats>
@@ -52,284 +438,6 @@
           </repeats>
         </modifier>
       </modifiers>
-      <profiles>
-        <profile name="Leithguard" id="fac3-a0bf-fab0-c9fd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Summoned Reaper" id="38d7-3b95-d478-ee2a" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
-      <categoryLinks>
-        <categoryLink name="Nightstalker" id="63e4-313a-e50a-383f" hidden="false" primary="false" targetId="2615-83c2-1465-b61c"/>
-        <categoryLink name="Additional Special Rules" id="3731-e4fe-89a6-8121" hidden="false" primary="true" targetId="9c8b-2b85-5f43-b599"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="1874-0740-1a5b-297f-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
-        <constraint id="1874-0740-1a5b-297f-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Spell - Summon the Reaper" id="fcdb-62ff-bc2b-a6b5" hidden="false" targetId="6a78-9766-f139-71dd" type="rule"/>
-        <infoLink name="Reaper" id="715a-0d8e-8968-8be7" hidden="false" targetId="15c7-9daa-a75b-b6ab" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="8f30-863d-2208-ff30" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Stealthy" id="dc28-6d82-18d0-18e3" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry name="Shadow" id="8334-76d9-80d5-b442" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
-      <categoryLinks>
-        <categoryLink name="Warrior" id="036e-c223-87dd-503e" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="82bd-a400-611f-84c2" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-        <categoryLink name="Elf" id="d691-9b7a-7cab-7268" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="d41a-d643-c6d1-9d51" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="0b54-d643-acfb-11f8" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Stalker Bow" id="d7d0-be53-8667-ea90" collective="false" hidden="false" import="true" targetId="edd9-95a5-b684-3e8d" type="selectionEntry">
-          <constraints>
-            <constraint id="f673-558d-a5cb-389c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="8ec8-a397-8099-8d8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Scout" id="b06c-c3a5-1c91-26c2" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="d41a-d643-c6d1-9d51" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Shadow" id="68e7-7620-33e6-8b43" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Blade Dancer" id="2889-9be3-269f-f281" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
-      <categoryLinks>
-        <categoryLink name="Support" id="8a45-1a26-2ef3-5528" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
-        <categoryLink name="Elf" id="530c-0ee7-a205-3857" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="83e9-868e-b610-7651" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="a7d6-6f4a-c2b6-e12e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Bloodlust" id="0208-63f2-80df-2e45" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Dodge" id="4505-9a7f-10b0-386e" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
-        <infoLink name="Whirlwind of Steel" id="5368-5a8f-e768-21b9" hidden="false" targetId="0746-6214-0174-7e49" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="83e9-868e-b610-7651" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Blade Dancer" id="7c4f-c85c-605f-c409" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Executioner" id="4588-7fd5-5276-3d63" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
-      <categoryLinks>
-        <categoryLink name="Command" id="80ea-55b2-7949-a10d" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
-        <categoryLink name="Has Crushing Strength" id="9df9-5655-788e-48cb" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-        <categoryLink name="Elf" id="5e93-5c51-dcf5-df90" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="54ce-426b-a5fe-bb6f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="9854-ac05-9b15-4efd" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="6th Sense" id="a671-027a-ed80-68f4" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
-        <infoLink name="Inspiring" id="ffcc-5f3b-2dac-6c23" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="96d0-5e03-8fe1-ac10" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="BATTLE RAGE (2)" id="0523-bc00-1bb4-47d2" hidden="false" targetId="a709-0ecb-9b8b-e287" type="rule"/>
-        <infoLink name="Power Dice W/O (2)" id="ea38-f788-477a-8f25" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="54ce-426b-a5fe-bb6f" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Executioner" id="e7d8-77b1-b6e6-0f2a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">3+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Summoner Crone" id="e6ca-2117-c882-5adc" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
-      <categoryLinks>
-        <categoryLink name="Spellcaster" id="68da-2285-a3ae-7c03" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
-        <categoryLink name="Elf" id="6fc0-d963-24c1-33a4" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="01d2-a33c-5065-17b3" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="c658-d03f-b092-53ce" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Twilight Kin (Free)" id="54cf-8a21-e6ef-b4d2" collective="false" hidden="false" import="true" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Corrupt" id="a603-3ed6-efe9-12e9" collective="false" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Twilight Kin (Paid)" id="3ba5-6e40-9255-8cd9" collective="false" hidden="false" import="true" targetId="46d9-28d9-ccfa-61ec" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Summoner Crone" id="afaa-1281-79e9-b1f4" collective="false" hidden="false" import="true" targetId="ef34-fb59-8c69-cd65" type="selectionEntryGroup">
-          <constraints>
-            <constraint id="ceb6-ef0c-f5e3-6fcc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="cfb9-a277-301d-5c23" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
-          </constraints>
-          <modifiers>
-            <modifier field="ceb6-ef0c-f5e3-6fcc" type="decrement" value="1">
-              <repeats>
-                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="e6ca-2117-c882-5adc" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="cfb9-a277-301d-5c23" type="decrement" value="1">
-              <repeats>
-                <repeat childId="0ca4-940a-1d85-666d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="e6ca-2117-c882-5adc" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Power Dice R/B (1)" id="f6b9-cc84-6e9b-0f91" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
-        <infoLink name="RANGE BOOST (1)" id="0e0c-be90-48c2-64bb" hidden="false" targetId="3d46-c3f5-4d69-6b21" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="01d2-a33c-5065-17b3" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Summoner Crone" id="1eca-4d7c-3dd7-9c77" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Impaler" id="2020-1dfb-0ceb-8f59" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
-      <categoryLinks>
-        <categoryLink name="Warrior" id="ad1d-7671-ccf6-fe1c" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="a376-0a1f-375d-10b7" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-        <categoryLink name="Has Crushing Strength" id="f72d-4713-246a-ab5b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-        <categoryLink name="Elf" id="ba7e-7810-4473-3d72" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="fc80-b257-1b32-b72a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="edfe-d9d0-04df-778c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="8ccd-bb56-88a3-ece0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="fc80-b257-1b32-b72a" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Impaler" id="f72f-9590-7c8c-f12e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Leithguard Archer *" id="97b6-1d59-6a1c-9dda" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
@@ -379,37 +487,160 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Shadow" id="8334-76d9-80d5-b442" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="036e-c223-87dd-503e" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="82bd-a400-611f-84c2" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Elf" id="d691-9b7a-7cab-7268" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="d41a-d643-c6d1-9d51" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="0b54-d643-acfb-11f8" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Stalker Bow" id="d7d0-be53-8667-ea90" collective="false" hidden="false" import="true" targetId="edd9-95a5-b684-3e8d" type="selectionEntry">
+          <constraints>
+            <constraint id="f673-558d-a5cb-389c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="8ec8-a397-8099-8d8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Shadow" id="e094-79fa-9db6-4c82" hidden="false" targetId="68e7-7620-33e6-8b43" type="profile"/>
+        <infoLink name="Scout" id="b06c-c3a5-1c91-26c2" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="d41a-d643-c6d1-9d51" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Sorceress *" id="f78e-96e3-b99a-6284" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Elf" id="4783-c929-cac6-ddec" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+        <categoryLink name="Command" id="5d77-91b5-7446-100f" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Spellcaster" id="7526-a4fd-0397-4102" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="f47e-a3e7-1eab-3c68" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="48"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="431e-7ef5-9602-22f9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spell selection - Sorceress" id="37c0-4eeb-fa0f-d75e" collective="false" hidden="false" import="true" targetId="99cd-fb26-1a40-85c9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Sorceress" id="f1f1-1d09-7d06-3789" hidden="false" targetId="ea4b-c03e-f571-385a" type="profile"/>
+        <infoLink name="Power Dice W/O (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Inspiring" id="83a1-3b55-44ee-0555" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Master of Magic" id="dc8a-1c52-9a68-6b95" hidden="false" targetId="5cd5-4c4f-7e1e-5b37" type="profile"/>
+        <infoLink name="RANGE BOOST (3&quot;)" id="ed33-5b3b-210a-657a" hidden="false" targetId="0a32-50d1-0ea3-830e" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="f47e-a3e7-1eab-3c68" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Summoned Reaper" id="38d7-3b95-d478-ee2a" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Additional Special Rules" id="3731-e4fe-89a6-8121" hidden="false" primary="true" targetId="9c8b-2b85-5f43-b599"/>
+        <categoryLink name="Nightstalker" id="7d3f-450e-7dca-fc90" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="1874-0740-1a5b-297f-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="1874-0740-1a5b-297f-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name=" Summon the Reaper" id="fcdb-62ff-bc2b-a6b5" hidden="false" targetId="6a78-9766-f139-71dd" type="rule"/>
+        <infoLink name="Reaper" id="715a-0d8e-8968-8be7" hidden="false" targetId="15c7-9daa-a75b-b6ab" type="profile"/>
+        <infoLink name="Crushing Strength (1)" id="8f30-863d-2208-ff30" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Stealthy" id="dc28-6d82-18d0-18e3" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Summoner Crone" id="e6ca-2117-c882-5adc" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="68da-2285-a3ae-7c03" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Elf" id="6fc0-d963-24c1-33a4" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="01d2-a33c-5065-17b3" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="c658-d03f-b092-53ce" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spell selection - Summoner Crone" id="afaa-1281-79e9-b1f4" collective="false" hidden="false" import="true" targetId="ef34-fb59-8c69-cd65" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Summoner Crone" id="c498-ff5b-3903-ebfb" hidden="false" targetId="1eca-4d7c-3dd7-9c77" type="profile"/>
+        <infoLink name="Power Dice R/B (1)" id="f6b9-cc84-6e9b-0f91" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="RANGE BOOST (3&quot;)" id="94f9-4a72-04ad-6297" hidden="false" targetId="0a32-50d1-0ea3-830e" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="01d2-a33c-5065-17b3" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Twilight Assassin *" id="780a-38b7-ed44-ade9" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Elf" id="b009-16ea-753f-66b1" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+        <categoryLink name="Support" id="31a7-6c7b-8c8e-7604" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="eb5a-ef73-7b0d-536d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Twilight Assassin" id="f3f2-3b0e-8be9-8e1a" hidden="false" targetId="1134-f027-d43d-7cd4" type="profile"/>
+        <infoLink name="Crushing Strength (1)" id="a280-fc99-b030-6dd3" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Elite" id="b8b9-ed16-659e-3156" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Stealthy" id="033f-011d-a4a2-3c38" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Sneaky" id="e31e-4379-fda4-d88d" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="eb5a-ef73-7b0d-536d" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
     <selectionEntry name="Voidtouched Mutant *" id="e3af-4dbc-5eef-6cab" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="a503-fb20-36b9-9d7a" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="98f5-e8e5-7afa-0cb3" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Beast" id="feea-d9ef-3952-533a" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
-        <categoryLink name="Nightstalker" id="0b26-35f0-810a-3a9d" hidden="false" primary="false" targetId="2615-83c2-1465-b61c"/>
+        <categoryLink name="Nightstalker" id="72af-e600-a0f9-af7d" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
       <infoLinks>
+        <infoLink name="Voidtouched Mutant" id="c793-7997-39dc-98f5" hidden="false" targetId="a5db-e8e5-2be6-5746" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="e6ec-551f-be2e-ab66" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="WILD CHARGE (1) *" id="1d60-c7ee-1f0f-76af" hidden="false" targetId="b41c-7626-ecab-be22" type="rule"/>
         <infoLink name="Stealthy" id="91bc-7ebd-a77c-0df0" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Climber" id="e594-eeda-fa4a-4acd" hidden="false" targetId="5db9-a777-85c4-8055" type="rule"/>
+        <infoLink name="Wild Charge" id="1b9a-692e-e31e-2d2e" hidden="false" targetId="3cc4-3959-4c8e-b26e" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Voidtouched Mutant" id="a5db-e8e5-2be6-5746" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
         <selectionEntry name="Cosmic Fire" id="6a35-4e42-f2bf-b21f" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -446,6 +677,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
       <infoLinks>
+        <infoLink name="Voidwalker" id="628c-2964-9b84-9a85" hidden="false" targetId="7f6e-7d96-7d05-8059" type="profile"/>
         <infoLink name="Ensnare" id="18f9-62c4-4990-bc14" hidden="false" targetId="f6ec-c30d-a3b1-738b" type="rule"/>
         <infoLink name="Elite" id="caa9-c8e6-84ae-d00b" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Pathfinder" id="f597-9702-d5df-ec33" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
@@ -457,317 +689,102 @@
           </repeats>
         </modifier>
       </modifiers>
-      <profiles>
-        <profile name="Voidwalker" id="7f6e-7d96-7d05-8059" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Twilight Assassin *" id="780a-38b7-ed44-ade9" hidden="false" import="true" type="model">
+    <selectionEntry name="Faction Abilities" id="91d1-7198-2e3c-67b0" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Elf" id="b009-16ea-753f-66b1" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-        <categoryLink name="Support" id="31a7-6c7b-8c8e-7604" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Faction Ability" id="3dc2-a484-be92-9378" hidden="false" primary="true" targetId="b736-f2bd-d93d-6b4d"/>
       </categoryLinks>
       <constraints>
-        <constraint id="eb5a-ef73-7b0d-536d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+        <constraint id="e043-ec9f-bf11-92a0-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="e043-ec9f-bf11-92a0-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
-      </costs>
       <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="a280-fc99-b030-6dd3" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Elite" id="b8b9-ed16-659e-3156" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Stealthy" id="033f-011d-a4a2-3c38" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Sneaky" id="e31e-4379-fda4-d88d" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="BITTER AND TWISTED" id="aae4-7b72-9ef9-1a8b" hidden="false" targetId="6915-ce21-e1b3-86a0" type="profile"/>
       </infoLinks>
-      <modifiers>
-        <modifier field="eb5a-ef73-7b0d-536d" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Twilight Assassin" id="1134-f027-d43d-7cd4" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Citizen Levy (X)" id="ab8e-9780-0b13-8ba1" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
-      <categoryLinks>
-        <categoryLink name="Grunt" id="b71e-d69e-4bcd-bb84" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
-        <categoryLink name="Troop" id="e580-41a1-fc37-14aa" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-        <categoryLink name="Elf" id="ffef-3c1d-4e0a-70e1" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="0c0a-0598-277b-238e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="2986-7671-a2d0-9c8e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Spear" id="ace3-864a-2340-1380" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
-          <constraints>
-            <constraint id="81f4-fb8e-d8da-8981" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="b8b1-5875-a32e-a92c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <modifiers>
-        <modifier field="0c0a-0598-277b-238e" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Citizen Levy" id="3996-5894-4a4e-c025" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Sorceress *" id="f78e-96e3-b99a-6284" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
-      <categoryLinks>
-        <categoryLink name="Elf" id="4783-c929-cac6-ddec" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
-        <categoryLink name="Command" id="5d77-91b5-7446-100f" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
-        <categoryLink name="Spellcaster" id="7526-a4fd-0397-4102" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="f47e-a3e7-1eab-3c68" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="431e-7ef5-9602-22f9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Twilight Kin (Free)" id="74cf-5261-32b2-7847" collective="false" hidden="false" import="true" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Corrupt" id="1de7-265e-63d2-eafb" collective="false" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Twilight Kin (Paid)" id="dbb6-7c95-cec9-6d8b" collective="false" hidden="false" import="true" targetId="46d9-28d9-ccfa-61ec" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Sorceress" id="37c0-4eeb-fa0f-d75e" collective="false" hidden="false" import="true" targetId="99cd-fb26-1a40-85c9" type="selectionEntryGroup">
-          <constraints>
-            <constraint id="a019-ba16-27f9-ac7e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="445b-a904-d32d-8877" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
-          </constraints>
-          <modifiers>
-            <modifier field="a019-ba16-27f9-ac7e" type="decrement" value="1">
-              <repeats>
-                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="f78e-96e3-b99a-6284" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="445b-a904-d32d-8877" type="decrement" value="1">
-              <repeats>
-                <repeat childId="0ca4-940a-1d85-666d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="f78e-96e3-b99a-6284" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Power Dice W/O (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-        <infoLink name="RANGE BOOST (1)" id="9c9d-a275-e000-fc50" hidden="false" targetId="3d46-c3f5-4d69-6b21" type="rule"/>
-        <infoLink name="MASTER OF MAGIC (2) *" id="3de3-f8c1-4a10-75a1" hidden="false" targetId="9fe1-3523-6999-f986" type="rule"/>
-        <infoLink name="Inspiring" id="83a1-3b55-44ee-0555" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="f47e-a3e7-1eab-3c68" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Summoner Crone" id="d797-a074-4cb6-0980" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">3+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-  </selectionEntries>
-  <sharedRules>
-    <rule name="BITTER AND TWISTED (2)" id="aa01-3403-023a-f3d1" hidden="false">
-      <description>Until the end of the current Round, all models in the warband of race ELF, have the Vicious special rule.</description>
-    </rule>
-    <rule name="Spell - Weeping Sores" id="0aab-ec42-b95e-ada2" hidden="false">
-      <description>Roll to hit and wound the target. In addition to any damage that may be caused, the target suffers a -1 modifier to all Melee and Ranged attacks it makes for the remainder of the Round.</description>
-    </rule>
-    <rule name="Spell - Summon the Reaper" id="6a78-9766-f139-71dd" hidden="false">
-      <description>Choose any enemy model within Range, even those out of LOS or that are Engaged. Place a Nightstalker Reaper model anywhere within 3” of the target model and not within 1” of any other models. It may be Activated in a subsequent Turn. While in play, the Reaper is part of the caster’s warband but doesn’t count towards the Warband’s break limit for making Fallback checks. While it is in play, in the End phase of each Round, roll a die. On a result
-of 1 or 2, the Reaper is removed from play. The casting model may only have one such Reaper model in play at any one time.</description>
-    </rule>
-    <rule name="Whirlwind of Steel" id="0746-6214-0174-7e49" hidden="false">
-      <description>Enemy models making a Melee attack against this model, even if it is knocked-down, suffer a -1 modifier when rolling to hit.</description>
-    </rule>
-    <rule name="BATTLE RAGE (2)" id="a709-0ecb-9b8b-e287" hidden="false">
-      <description>If this model can Engage an enemy model with a follow-up move, it may spend the Power and Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
-    </rule>
-    <rule name="RANGE BOOST (1)" id="3d46-c3f5-4d69-6b21" hidden="false">
-      <description>Use this ability to increase the range of one of the caster’s spells by 3” (where a Range is specified). The RANGE BOOST must be paid for during the caster’s activation just before the chosen spell is cast.</description>
-    </rule>
-  </sharedRules>
-  <sharedSelectionEntries>
-    <selectionEntry name="Weeping Sores (short)" id="2b0a-998a-d6e3-c6f7" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="3a6d-0969-4c17-7f03" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Spell - Weeping Sores" id="68fa-2d24-8586-356b" hidden="false" targetId="0aab-ec42-b95e-ada2" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Weeping Sores (short)" id="12c2-1f7a-ab81-6a7c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Summon the Reaper (long)" id="feab-38a0-cef0-0be8" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="124b-9970-9a3c-a0f4" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
-      <profiles>
-        <profile name="Summon the Reaper (long)" id="089c-7efb-115e-68d4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Stalker Bow" id="edd9-95a5-b684-3e8d" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Pound" id="70cc-0207-1f56-370f" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Piercing (1)" id="378e-a40a-05df-aa1b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Stalker Bow" id="b620-64ae-8c05-572a" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Pound, Piercing (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Twilight Kin (Free)" id="0ca4-940a-1d85-666d" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Twilight Kin" id="0ca4-940a-1d85-666d" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="05b5-f939-0e64-aab9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
         <entryLink name="Summon the Reaper (long)" id="b48e-9462-603f-f2c1" collective="false" hidden="false" import="true" targetId="feab-38a0-cef0-0be8" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink name="Spell" id="4489-8529-7505-c404" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+            <categoryLink name="Spell - Faction" id="1c8a-8bb1-9bed-1691" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+          </categoryLinks>
           <constraints>
             <constraint id="d208-cbd6-03fc-e28d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink name="Spell - Summon the Reaper" id="4082-c6cb-d052-d3d4" hidden="false" targetId="6a78-9766-f139-71dd" type="rule"/>
-          </infoLinks>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditions>
+                <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="3"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink name="Weeping Sores (short)" id="e8b3-b680-efbc-cbaa" collective="false" hidden="false" import="true" targetId="2b0a-998a-d6e3-c6f7" type="selectionEntry">
           <constraints>
             <constraint id="8aa7-2576-4ce6-3859" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Twilight Kin (Paid)" id="46d9-28d9-ccfa-61ec" collective="false" hidden="false" import="true">
-      <entryLinks>
-        <entryLink name="Summon the Reaper (long)" id="fbf6-f1f9-4993-6b89" collective="false" hidden="false" import="true" targetId="feab-38a0-cef0-0be8" type="selectionEntry">
-          <constraints>
-            <constraint id="53b1-02db-aa55-a881" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
           <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
-          </modifiers>
-        </entryLink>
-        <entryLink name="Weeping Sores (short)" id="384e-acf5-feda-9dd8" collective="false" hidden="false" import="true" targetId="2b0a-998a-d6e3-c6f7" type="selectionEntry">
-          <constraints>
-            <constraint id="c361-5505-99db-6343" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="3"/>
+                    <condition childId="6abc-d2e3-789a-2564" childName="Spell - Faction" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Basic Summoner Crone" id="ef34-fb59-8c69-cd65" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
+    <selectionEntryGroup name=" Spell selection - Summoner Crone" id="ef34-fb59-8c69-cd65" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
       <entryLinks>
-        <entryLink name="Heal" id="5537-250d-93cb-eb40" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt" id="45dc-740f-9c55-836c" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Mind Storm" id="9a24-4d72-00a9-da7a" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+        <entryLink name=" Spellbook - Twilight Kin" id="bafe-abd5-3633-f74d" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Corrupt" id="6173-c730-1a62-85bf" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Spellbook - Summoner Crone" id="356b-861f-1b04-2620" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="1e70-5cc2-f14e-4189" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="898d-7edf-9154-82b3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Heal" id="5537-250d-93cb-eb40" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+            <entryLink name="Lightning Bolt" id="45dc-740f-9c55-836c" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+            <entryLink name="Mind Storm" id="9a24-4d72-00a9-da7a" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Basic Sorceress" id="99cd-fb26-1a40-85c9" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
+    <selectionEntryGroup name=" Spell selection - Sorceress" id="99cd-fb26-1a40-85c9" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
+      <constraints>
+        <constraint id="a782-d8d8-ca40-0c4a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+        <constraint id="881e-eb95-2bfc-0ca5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
+      </constraints>
       <entryLinks>
-        <entryLink name="Heal" id="1563-5d07-22c6-832c" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt" id="aa6f-5d5b-0fd4-cd2f" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Mind Storm" id="08b4-20eb-043d-b9b7" collective="false" hidden="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+        <entryLink name=" Spellbook - Twilight Kin" id="20a2-4c9e-7ba6-938f" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Corrupt" id="9092-6ff7-2da2-d9ba" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Spellbook - Sorceress" id="f04c-6cb8-4104-f3b4" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="0022-c5a8-70c5-e9ca" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="213d-cd9e-dafb-04c1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Zap" id="1563-5d07-22c6-832c" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
+            <entryLink name="Lightning Bolt" id="aa6f-5d5b-0fd4-cd2f" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+            <entryLink name="Thunderclap *" id="08b4-20eb-043d-b9b7" collective="false" hidden="false" import="true" targetId="fb3d-817e-7dde-6ee2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

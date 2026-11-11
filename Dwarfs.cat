@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Dwarfs" id="8927-8290-f594-f21d" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="false" revision="10" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
+    <entryLink name="Faction Abilities" id="560b-288a-fa9d-048a" hidden="false" targetId="d320-518f-a42e-faf8" type="selectionEntry"/>
     <entryLink name="Battle Driller" id="a948-4c88-e652-b9cf" hidden="false" import="true" targetId="cee6-4f6a-1582-040e" type="selectionEntry"/>
     <entryLink name="Berserker Lord" id="aca9-ef17-e7e9-b13e" hidden="false" import="true" targetId="2221-61d8-b7c1-2410" type="selectionEntry"/>
     <entryLink name="Brock Rider" id="66ee-b745-fbbd-a273" hidden="false" import="true" targetId="b1a3-c037-3210-1704" type="selectionEntry"/>
@@ -17,10 +18,6 @@
     <entryLink name="Steel Juggernaut" id="98ca-24aa-d502-07c9" hidden="false" import="true" targetId="633c-a900-fbcf-a8dd" type="selectionEntry"/>
     <entryLink name="Stone Priest" id="8f9e-51f1-4932-2cf4" hidden="false" import="true" targetId="6315-3a89-14fb-7b47" type="selectionEntry"/>
   </entryLinks>
-  <infoLinks>
-    <infoLink name="Tactical Redeployment (2)" id="529e-513d-f380-6861" hidden="false" targetId="2eb7-cba9-b223-8b07" type="rule"/>
-    <infoLink name="Bullheaded" id="ddf1-3db9-8427-cb71" hidden="false" targetId="3270-2e91-2529-bee7" type="rule"/>
-  </infoLinks>
   <publications>
     <publication name="Rulebook" id="8927-8290-pubN71629"/>
   </publications>
@@ -36,7 +33,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
       </characteristics>
     </profile>
     <profile name="Berserker Lord" id="cd13-a1a3-e86b-1494" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -50,7 +47,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Brock Rider" id="9bdd-2a12-c1aa-c108" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -78,7 +75,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Dwarf Ranger" id="12eb-55c0-bfa3-3bf7" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -92,7 +89,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Dwarf Sergeant" id="d581-253e-7bd6-79ab" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -106,7 +103,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Earth Elemental" id="ec9d-80d2-e145-f3e0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -120,7 +117,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Flame Priest" id="9ff0-05df-1606-50ec" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -134,7 +131,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Ironclad" id="e19c-863d-89ec-2212" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -148,7 +145,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Ironguard" id="bc3e-0753-a7fb-239a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -204,7 +201,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Shieldbreaker" id="66ba-8fde-ecfb-a573" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -218,7 +215,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Steel Juggernaut" id="dc14-c3bb-2684-501e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -232,7 +229,7 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Stone Priest" id="9a08-4ab2-0237-bf64" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -246,27 +243,79 @@
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TACTICAL REDEPLOYMENT" id="5f7d-45fe-651c-8ced" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At any time during your turns.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Select a DWARF COMMAND model in the warband. All DWARF models within 9&quot;, including the nominated COMMAND model that are not knocked-down or Engaged, may immediately move up to 3&quot; in any direction, following the normal movement rules. Models are not marked as activated after moving if they are not already. Once any moves are completed, all models that were eligible to move are given a free Brace action (mark them all as such).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TREMOR STOMP" id="a15f-69a4-7205-29bb" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697"/>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">During this model&apos;s activation.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Use a short action during this model&apos;s activation to create a Shockwave. The model may be engaged.
+All models (including friendly ones) of up to Height 2 within 3” of the model are moved 3” directly away from it. Movement will only be blocked by Impassable Terrain or other models not affected by the Shockwave. Move the models furthest away first. Models cannot become Engaged when moved by Shockwave – halt them 1” away if they would be. Models already Engaged will still end up Engaged with each other if both are moved.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Light Cannon" id="afbc-fc3e-fef3-38da" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Throwing Mastiff" id="1adb-9d0c-6d5f-fb57" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">3D8, Piercing (1), Reload</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Forged Anew" id="346e-1dab-4a8a-3774" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Cast on self or target a single friendly model within range, even if it is Engaged. Roll 2D8. For each 7+ rolled, the Ar stat of the target is improved by 1 until the end of the Round. (e.g. 5+ becomes 4+), to a maximum of 3+.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+      </characteristics>
+    </profile>
+    <profile name="Earthquake" id="8c67-3dc8-036f-ea6f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
+</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Each model under the area of the Breath attack must roll a die. If a model rolls equal to or under its Sp stat, it is Knocked-down and must make a single Armour Roll to avoid suffering a wound. Models that have the Steady special rule may re-roll the test against their Sp stat.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dwarf Flame Thrower" id="9115-8aae-5804-2498" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">4D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath, Piercing (1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <sharedRules>
-    <rule name="Tactical Redeployment (2)" id="2eb7-cba9-b223-8b07" hidden="false">
-      <description>Select a DWARF COMMAND model in the warband. All DWARF models within 9&quot;, including the nominated COMMAND model that are not knocked-down or Engaged, may immediately move up to 3&quot; in any direction, following the normal movement rules. Models are not marked as activated after moving if they are not already. Once any moves are completed, all models that were eligible to move are given a free Brace action (mark them all as such).</description>
-    </rule>
     <rule name="Spell - Earthquake" id="f5ff-97ee-4d00-5dbd" hidden="false">
       <description>Each model under the area of the Breath attack must roll a die. If a model rolls equal to or under its Sp stat, it is Knocked-down and must make a single Armour Roll to avoid suffering a wound. Models that have the Steady special rule may re-roll the test against their Sp stat.</description>
     </rule>
     <rule name="Spell - Forged Anew" id="ee51-cc1f-7424-01ed" hidden="false">
       <description>Cast on self or target a single friendly model within range, even if it is Engaged. Roll 3D8. For each 7+ rolled, the Ar stat of the target is improved by 1 until the end of the Round. (e.g. 5+ becomes 4+), to a maximum of 3+.</description>
     </rule>
-    <rule name="Weapon - Shieldbreaker Hammer" id="df56-154a-31a4-ba5b" hidden="false">
+    <rule name="Shieldbreaker Hammer" id="df56-154a-31a4-ba5b" hidden="false">
       <description>The model may reroll one of its Melee attack dice that failed to cause a hit.</description>
     </rule>
-    <rule name="Combined Fire (IW)" id="77bd-2e36-8af2-0916" hidden="false">
+    <rule name="Combined Fire (Ironwatch)" id="77bd-2e36-8af2-0916" hidden="false">
       <description>When involved in a Group Shoot Action, Ironwatch models add +1 dice to their Ranged Attack roll if one or more other Ironwatch models in the group fire at the same target.</description>
     </rule>
-    <rule name="Weapon - Battledrill" id="b0f8-686f-9124-0d75" hidden="false">
+    <rule name="Battledrill" id="b0f8-686f-9124-0d75" hidden="false">
       <description>When this model makes a Melee attack (not a Retaliation) with the Battledrill, hits are scored on a 5+ regardless of any modifiers. Every hit scored counts as an exploding 8 result and so another die can be rolled.</description>
     </rule>
     <rule name="Cumbersome" id="6c53-a6c0-aa68-6dc7" hidden="false">
@@ -275,7 +324,7 @@
     <rule name="Hammer and Anvil" id="16e1-5b86-4dfd-4a49" hidden="false">
       <description>Ironclad models Engaged with the same enemy model as one or more friendly Shieldbreakers, have the Swarm special rule.</description>
     </rule>
-    <rule name="Combined Fire (DR)" id="52d5-d6b4-461f-e937" hidden="false">
+    <rule name="Combined Fire (Ranger)" id="52d5-d6b4-461f-e937" hidden="false">
       <description>When involved in a Group Shoot Action, Dwarf Ranger models (including Ranger Captains) add +1 dice to their Ranged attack roll if one or more other Dwarf Ranger models in the group fire at the same target.</description>
     </rule>
     <rule name="Concentrated Fire" id="8be9-95c7-8650-21b7" hidden="false">
@@ -284,59 +333,36 @@
     <rule name="Cumbersome" id="9fc5-7ae2-f0ff-b7d1" hidden="false">
       <description>This model cannot Climb, or be given any kind of Mount.</description>
     </rule>
-    <rule name="Tremor Stomp (2)" id="1ce3-e861-11f8-0945" hidden="false">
-      <description>Spend the Power to make a short action during this model&apos;s Turn to create a Shockwave. Use the rules for the Shockwave spell (not the boosted version). This is not considered to be the casting of a spell however. The model can be Engaged but must be standing to use Tremor Stomp. Armour rolls for models forced to move out of contact with the Steel Juggernaut are not required.</description>
-    </rule>
     <rule name="Bullheaded" id="3270-2e91-2529-bee7" hidden="false">
       <description>DWARF models in this warband add +1 to the result when rolling for Headstrong. This means that on a 5+, the Fatigue counter is removed and the model may act as normal.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry name="Earthquake (long)" id="ec39-14a6-d6ed-70ea" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Earthquake" id="ec39-14a6-d6ed-70ea" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell" id="3b60-8519-95a2-a61a" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="a33b-56fe-3f32-f0d1" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3830-d507-6158-d535" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="4833-8dcc-7b7f-8840" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
       <infoLinks>
-        <infoLink name="Spell - Earthquake" id="4e43-0572-c01f-b4d9" hidden="false" targetId="f5ff-97ee-4d00-5dbd" type="rule"/>
+        <infoLink name="Earthquake" id="9c7e-2b3a-1332-6ce7" hidden="false" targetId="8c67-3dc8-036f-ea6f" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Earthquake (long)" id="8c67-3dc8-036f-ea6f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath</characteristic>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Forged Anew (short)" id="49a1-8788-eb57-a63d" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Forged Anew" id="49a1-8788-eb57-a63d" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="d4a8-1c4a-b5e7-8fe6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="3070-6f6b-a06c-4325" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
       <infoLinks>
-        <infoLink name="Spell - Forged Anew" id="b482-e61f-4493-0e6e" hidden="false" targetId="ee51-cc1f-7424-01ed" type="rule"/>
+        <infoLink name="Forged Anew" id="663f-5b9a-88af-8dbf" hidden="false" targetId="346e-1dab-4a8a-3774" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Forged Anew (short)" id="346e-1dab-4a8a-3774" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Shieldbreaker Hammer" id="6830-fba8-662e-933e" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -359,53 +385,29 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
+        <infoLink name="Dwarf Flame Thrower" id="2cb3-5c2f-fbcd-3b11" hidden="false" targetId="9115-8aae-5804-2498" type="profile"/>
         <infoLink name="Piercing (1)" id="4517-5f36-7f1a-3ee2" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
         <infoLink name="Breath" id="20a1-7afc-849a-3cab" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Dwarf Flame Thrower" id="9115-8aae-5804-2498" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476">4D8</characteristic>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath, Piercing (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Throwing Mastiff" id="99f3-675a-d20a-fa2c" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
+        <infoLink name="Throwing Mastiff" id="2264-8d80-5ec0-d57b" hidden="false" targetId="1adb-9d0c-6d5f-fb57" type="profile"/>
         <infoLink name="Piercing (1)" id="6c6b-a2ea-7612-517e" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
         <infoLink name="Reload" id="b80b-bd22-6c2f-be93" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Throwing Mastiff" id="1adb-9d0c-6d5f-fb57" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f">3D8, Piercing (1), Reload</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Light Cannon" id="d866-e580-8ac7-c6a1" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
+        <infoLink name="Light Cannon" id="c6f6-ce63-0c8f-8270" hidden="false" targetId="afbc-fc3e-fef3-38da" type="profile"/>
         <infoLink name="Piercing (2)" id="0b5a-1682-bbdf-c6db" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Light Cannon" id="afbc-fc3e-fef3-38da" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (2)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Battle Driller" id="cee6-4f6a-1582-040e" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -466,8 +468,8 @@
         <infoLink name="Elite" id="aa2a-e4d9-c31b-98d1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Steady" id="d165-7082-8aaf-06c9" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Bloodlust" id="6a44-65f1-e056-d8c3" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="FRENZY (1)" id="363a-a11a-5b38-7704" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
         <infoLink name="Berserker Lord" id="98d1-dca4-c267-d75b" hidden="false" targetId="cd13-a1a3-e86b-1494" type="profile"/>
+        <infoLink name="Frenzy" id="a3e7-39ef-bb33-52dc" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="910e-c381-254a-283c" type="increment" value="1">
@@ -495,9 +497,9 @@
         <infoLink name="Cavalry" id="1b14-e2d3-0f31-e8ef" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Elite" id="5eff-2865-40bf-611e" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Parry" id="c7e8-ab4d-883d-aef6" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="FRENZY (1)" id="3208-b1c5-34f3-f00e" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
         <infoLink name="Bloodlust" id="c91e-9a90-d74d-1322" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Brock Rider" id="e60b-2d30-b30c-2228" hidden="false" targetId="9bdd-2a12-c1aa-c108" type="profile"/>
+        <infoLink name="Frenzy" id="8d56-267a-5615-ae60" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="3d89-cdc5-9cfc-5955" type="increment" value="1">
@@ -906,10 +908,10 @@
         <infoLink name="Crushing Strength (3)" id="3f11-e24b-c87a-4171" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
         <infoLink name="Smash" id="9a5f-6394-1236-4998" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Steady" id="854c-4180-b236-de4c" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Tremor Stomp (2)" id="35ae-69aa-89d2-4154" hidden="false" targetId="1ce3-e861-11f8-0945" type="rule"/>
         <infoLink name="Power Dice R/B (1)" id="9896-c709-b097-3967" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Headstrong" id="0946-1697-d104-0c2c" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Steel Juggernaut" id="b26a-9cd3-4e0f-fb39" hidden="false" targetId="dc14-c3bb-2684-501e" type="profile"/>
+        <infoLink name="TREMOR STOMP" id="8ded-3387-7dcc-2f6e" hidden="false" targetId="a15f-69a4-7205-29bb" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="207d-780f-fe3b-d70c" type="increment" value="1">
@@ -931,27 +933,7 @@
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="98e9-8492-a1f4-3397" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Stone Priest" id="4a40-8351-ee83-5181" collective="false" hidden="false" import="true" targetId="1efa-90a0-441e-0c53" type="selectionEntryGroup">
-          <constraints>
-            <constraint id="5bde-dc63-23df-7983" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
-            <constraint id="ebf9-2c11-3e53-ed69" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
-          </constraints>
-          <modifiers>
-            <modifier field="5bde-dc63-23df-7983" type="decrement" value="1">
-              <repeats>
-                <repeat childId="3374-d57c-24bf-593a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="6315-3a89-14fb-7b47" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="ebf9-2c11-3e53-ed69" type="decrement" value="1">
-              <repeats>
-                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="6315-3a89-14fb-7b47" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink name=" Spellbook - Dwarfs (Free)" id="ffcd-33bb-35db-6892" collective="false" hidden="false" import="true" targetId="3374-d57c-24bf-593a" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Dwarfs (Paid)" id="5d4c-37f2-5d12-1a88" collective="false" hidden="false" import="true" targetId="1561-1798-6aaa-1855" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Noble" id="a175-24fd-4f30-13f5" collective="false" hidden="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basic Stone Priest" id="4a40-8351-ee83-5181" collective="false" hidden="false" import="true" targetId="1efa-90a0-441e-0c53" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="6397-8402-2010-5ba0" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
@@ -966,54 +948,73 @@
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry name="Faction Abilities" id="d320-518f-a42e-faf8" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Faction Ability" id="f7d6-2c63-db05-cc84" hidden="false" primary="true" targetId="b736-f2bd-d93d-6b4d"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="9447-4a8c-87cd-b045-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="9447-4a8c-87cd-b045-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Bullheaded" id="d4a2-1a3c-5a4c-d8bd" hidden="false" targetId="3270-2e91-2529-bee7" type="rule"/>
+        <infoLink name="TACTICAL REDEPLOYMENT" id="554a-1b0a-1438-ca4e" hidden="false" targetId="5f7d-45fe-651c-8ced" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Dwarfs (Free)" id="3374-d57c-24bf-593a" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Dwarfs" id="3374-d57c-24bf-593a" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="ecf4-8fed-ca9e-02cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="ecf4-8fed-ca9e-02cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
         <entryLink name="Earthquake (long)" id="ad91-59b1-28b2-aac6" collective="false" hidden="false" import="true" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
-          <constraints>
-            <constraint id="d17b-3e02-ed92-f2c8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditions>
+                <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="3"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink name="Forged Anew (short)" id="1686-4f34-17dd-99c4" collective="false" hidden="false" import="true" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
-          <constraints>
-            <constraint id="c9b4-f51d-dbf8-32a7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Dwarfs (Paid)" id="1561-1798-6aaa-1855" collective="false" hidden="false" import="true">
-      <entryLinks>
-        <entryLink name="Earthquake (long)" id="a207-e9c5-9439-2c66" collective="false" hidden="false" import="true" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
-          <constraints>
-            <constraint id="0eb5-2cc8-f8de-d545" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
           <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
-          </modifiers>
-        </entryLink>
-        <entryLink name="Forged Anew (short)" id="5c5d-58f9-3b46-6aaa" collective="false" hidden="false" import="true" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
-          <constraints>
-            <constraint id="5430-83f2-04af-5628" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="3"/>
+                    <condition childId="6abc-d2e3-789a-2564" childName="Spell - Faction" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Basic Stone Priest" id="1efa-90a0-441e-0c53" collective="false" hidden="false" import="true" page="41" publicationId="8927-8290-pubN71629">
-      <categoryLinks>
-        <categoryLink name="Spellcaster" id="7bbd-1991-e3d1-1922" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
-      </categoryLinks>
+    <selectionEntryGroup name=" Spell slection - Stone Priest" id="1efa-90a0-441e-0c53" collective="false" hidden="false" import="true" page="41" publicationId="8927-8290-pubN71629">
+      <constraints>
+        <constraint id="55b6-dce6-7c73-a14d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+        <constraint id="aa3c-5172-f58f-d36d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
+      </constraints>
       <entryLinks>
-        <entryLink name="Fireball" id="df45-f591-7371-f92a" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
-        <entryLink name="Hammer" id="8a05-1a0c-d470-d480" collective="false" hidden="false" import="true" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
-        <entryLink name="Heal" id="cac5-020d-59a6-46bd" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink name=" Spellbook - Dwarfs" id="e316-16cf-b954-4223" hidden="false" import="true" sortIndex="2" targetId="3374-d57c-24bf-593a" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Noble" id="1132-195c-bc21-48c6" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
       </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Spellbook - Stone Priest" id="774b-7af4-69a8-b44c" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="1db3-f181-8c6b-8114" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="5685-76d1-203f-288e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Heal" id="cac5-020d-59a6-46bd" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+            <entryLink name="Fireball" id="df45-f591-7371-f92a" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+            <entryLink name="Hammer" id="8a05-1a0c-d470-d480" collective="false" hidden="false" import="true" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

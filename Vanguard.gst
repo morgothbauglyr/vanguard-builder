@@ -21,14 +21,14 @@
     <categoryEntry name="Has Regenerate" id="e1b6-5b55-c5a8-92d7" hidden="true"/>
     <categoryEntry name="Beast" id="46ca-5ca3-a00c-938e" hidden="false"/>
     <categoryEntry name="Elemental" id="0436-7e86-818f-9cb3" hidden="false"/>
-    <categoryEntry name="+1 Large" id="0e3f-0c65-189b-70eb" hidden="true"/>
-    <categoryEntry name="+1 Spellcaster" id="c245-14cb-7ad8-08eb" hidden="true"/>
-    <categoryEntry name="+1 Command" id="1951-64f4-88df-1a2c" hidden="true"/>
+    <categoryEntry name="+1 Large" id="0e3f-0c65-189b-70eb" hidden="false"/>
+    <categoryEntry name="+1 Spellcaster" id="c245-14cb-7ad8-08eb" hidden="false"/>
+    <categoryEntry name="+1 Command" id="1951-64f4-88df-1a2c" hidden="false"/>
     <categoryEntry name="Machine" id="f2ce-7a17-00cb-6f89" hidden="false"/>
     <categoryEntry name="Item - Not For Spellcaster" id="f0be-9a1c-ce3d-054e" hidden="true"/>
-    <categoryEntry name="Item - Common" id="122b-7ea5-3606-25d3" hidden="true"/>
-    <categoryEntry name="Item - Rare" id="93ab-84de-150c-48d6" hidden="true"/>
-    <categoryEntry name="Item Unique" id="af77-71a6-ae26-6c62" hidden="true"/>
+    <categoryEntry name="Item - Common" id="122b-7ea5-3606-25d3" hidden="false"/>
+    <categoryEntry name="Item - Rare" id="93ab-84de-150c-48d6" hidden="false"/>
+    <categoryEntry name="Item - Unique" id="af77-71a6-ae26-6c62" hidden="false"/>
     <categoryEntry name="Item - Armour" id="f328-cd29-ed6d-039f" hidden="true"/>
     <categoryEntry name="Item - Melee" id="939e-8f40-e91b-75c9" hidden="true"/>
     <categoryEntry name="Item - Ranged" id="26fc-5919-55f0-1b8f" hidden="true"/>
@@ -37,6 +37,12 @@
     <categoryEntry name="Item - Mount" id="a253-a909-98fe-a7e3" hidden="false"/>
     <categoryEntry name="Spell - Faction" id="6abc-d2e3-789a-2564" hidden="true"/>
     <categoryEntry name="Spell - Basic" id="1d27-4644-eec1-0394" hidden="true"/>
+    <categoryEntry name="Faction Ability" id="b736-f2bd-d93d-6b4d" hidden="false"/>
+    <categoryEntry name="Spell - Primordial" id="8734-44a1-1adb-20a6" hidden="false"/>
+    <categoryEntry name="Spell - Noble" id="dfa3-5556-19d0-c3bd" hidden="false"/>
+    <categoryEntry name="Spell - Corrupt" id="8c26-6259-b763-b3ab" hidden="false"/>
+    <categoryEntry name="Item - Uncommon" id="d24e-a366-033b-3c0b" hidden="false"/>
+    <categoryEntry name="+1 Support" id="9e8a-8bfd-c8a2-5b7b" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
@@ -53,6 +59,11 @@
             <modifier field="d131-c299-3e04-cbf7" type="increment" value="1">
               <repeats>
                 <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
+              </repeats>
+            </modifier>
+            <modifier field="d131-c299-3e04-cbf7" type="increment" value="1">
+              <repeats>
+                <repeat childId="1951-64f4-88df-1a2c" childName="+1 Command" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -81,6 +92,23 @@
             </modifier>
           </modifiers>
         </categoryLink>
+        <categoryLink name="Support" id="cd54-3c4c-f51d-c27e" hidden="false" primary="false" targetId="c194-28e4-665e-319c">
+          <constraints>
+            <constraint id="711d-47ee-927e-81df" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="0"/>
+          </constraints>
+          <modifiers>
+            <modifier field="711d-47ee-927e-81df" type="increment" value="1">
+              <repeats>
+                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
+              </repeats>
+            </modifier>
+            <modifier field="711d-47ee-927e-81df" type="increment" value="1">
+              <repeats>
+                <repeat childId="9e8a-8bfd-c8a2-5b7b" childName="+1 Support" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink name="Spellcaster" id="6f5d-28f5-5c15-9bae" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb">
           <constraints>
             <constraint id="ef03-b5e3-0379-e179" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -91,16 +119,9 @@
                 <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
               </repeats>
             </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Support" id="cd54-3c4c-f51d-c27e" hidden="false" primary="false" targetId="c194-28e4-665e-319c">
-          <constraints>
-            <constraint id="711d-47ee-927e-81df" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="711d-47ee-927e-81df" type="increment" value="1">
+            <modifier field="ef03-b5e3-0379-e179" type="increment" value="1">
               <repeats>
-                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
+                <repeat childId="c245-14cb-7ad8-08eb" childName="+1 Spellcaster" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -120,6 +141,11 @@
                 <condition childId="5649-5554-ab64-b9dc" childName="Large Command" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
               </conditions>
             </modifier>
+            <modifier field="902d-71ae-0a7e-d3de" type="increment" value="1">
+              <repeats>
+                <repeat childId="0e3f-0c65-189b-70eb" childName="+1 Large" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
+              </repeats>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Item Unique" id="4ae7-09a8-d2ea-971b" hidden="false" targetId="af77-71a6-ae26-6c62">
@@ -132,8 +158,26 @@
                 <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="150"/>
               </repeats>
             </modifier>
+            <modifier field="498e-e798-c739-8b47" type="set" value="0">
+              <conditions>
+                <condition field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atMost" value="100"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </categoryLink>
+        <categoryLink name="Item - Rare" id="1e26-8914-3711-4a5e" hidden="false" targetId="93ab-84de-150c-48d6">
+          <constraints>
+            <constraint id="ff9a-6651-b4f1-38c8" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+          </constraints>
+          <modifiers>
+            <modifier field="ff9a-6651-b4f1-38c8" type="increment" value="2">
+              <repeats>
+                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="150"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Faction Ability" id="c94d-067a-0766-db7f" hidden="false" targetId="b736-f2bd-d93d-6b4d"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -160,24 +204,23 @@
         </characteristicType>
       </characteristicTypes>
     </profileType>
-    <profileType name="Spell" id="33dc-fb92-76ea-f796" sortIndex="8">
+    <profileType name="Spell" id="33dc-fb92-76ea-f796" sortIndex="5">
       <characteristicTypes>
         <characteristicType name="Action" id="4e66-0225-3cc6-27c7" defaultValue="short"/>
         <characteristicType name="Range" id="c023-a997-9c10-c42c"/>
         <characteristicType name="Dice Roll" id="8297-1752-8ed2-7571"/>
         <characteristicType name="Effect" id="1a53-41d9-8d96-a949" kind="longText"/>
         <characteristicType name="Rules" id="8b19-fa5a-3224-b8b5" kind="longText"/>
-        <characteristicType name="Rules Boosted" id="ed87-4c1b-85df-b365" kind="longText"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Area Effect" id="4dc9-b7a9-fe41-a041" sortIndex="7">
+    <profileType name="Area Effect" id="4dc9-b7a9-fe41-a041" sortIndex="6">
       <characteristicTypes>
         <characteristicType name="Range" id="f9c3-6e8c-513c-004c"/>
         <characteristicType name="Dice" id="2e7f-fdd0-d47c-b762"/>
         <characteristicType name="Rules" id="db39-0dbc-ae1f-4d0b"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Attack - Ranged" id="3cda-8938-b7d6-58ab" sortIndex="6">
+    <profileType name="Attack - Ranged" id="3cda-8938-b7d6-58ab" sortIndex="4">
       <characteristicTypes>
         <characteristicType name="Range" id="41f5-319f-6ccd-eaec"/>
         <characteristicType name="Dice" id="2088-497d-b499-8476">
@@ -204,7 +247,7 @@
         <characteristicType name="Base" id="e476-5d4c-a82f-dd23" defaultValue="Cavalry"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Item" id="b118-12cb-7836-115e" hidden="false" sortIndex="9">
+    <profileType name="Item" id="b118-12cb-7836-115e" hidden="false" sortIndex="8">
       <characteristicTypes>
         <characteristicType name="Type" id="55a7-a7a7-147b-28bc"/>
         <characteristicType name="Rarity" id="501c-2c79-497a-befb">
@@ -225,10 +268,23 @@
         <characteristicType name="Notes" id="7735-767f-4672-87c8" kind="longText"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Attack - Melee" id="5379-8df5-b98c-876b" hidden="false" sortIndex="5">
+    <profileType name="Attack - Melee" id="5379-8df5-b98c-876b" hidden="false" sortIndex="3">
       <characteristicTypes>
         <characteristicType name="Dice" id="b753-a334-dc09-1e8c"/>
         <characteristicType name="Rules" id="3037-7410-ede7-401d"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Ability" id="39ba-3647-6510-7709" hidden="false" kind="ability" sortIndex="7">
+      <characteristicTypes>
+        <characteristicType name="Power Cost" id="1bf9-e90f-6415-1697">
+          <formatRules>
+            <formatRule name="New Format Rule" id="2767-2685-8112-c533" hidden="false" match="([\s\S]*)" replace="OPEN $1CLOSE" type="regex">
+              <comment>Brackets OPEN CLOSE</comment>
+            </formatRule>
+          </formatRules>
+        </characteristicType>
+        <characteristicType name="Timing" id="4502-0f40-9d79-bc93" kind="longText"/>
+        <characteristicType name="Effect" id="b9cf-1e25-5292-ae34" kind="longText"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -239,46 +295,6 @@
     <publication name="Equipment Cards" id="2cf9-338e-6b9a-a228"/>
     <publication name="Homebrew" id="4a94-de20-b936-ea2d" hidden="false" publicationDate="-" publisher="-" publisherUrl="-" shortName="HB"/>
   </publications>
-  <rules>
-    <rule name="Homebrew" id="0b9e-bab5-3628-4ab1" hidden="false" publicationId="4a94-de20-b936-ea2d">
-      <description>Entries maked with * are house rule additions</description>
-    </rule>
-    <rule name="Terrain - Obstacles" id="19ad-2120-c624-1882" hidden="false" publicationId="4a94-de20-b936-ea2d">
-      <description>Obstacles are linear barriers that may lie in a model’s path as it moves. Examples are walls, hedges and fences. 
-Obstacles up to half the height of the model cam be moved over freely. Obstacles higher than that need to be climbed.
-Obstacles will often provide cover for targets behind them as they can cause LOS (see page 25) to be Partially Blocked. Models cannot stand on top of terrain designated as a linear obstacle.</description>
-    </rule>
-    <rule name="Movement - Vertical Movement" id="e48e-9abc-f05e-1efe" hidden="false" publicationId="4a94-de20-b936-ea2d">
-      <description>Moving up and down stairs has no penalty.
-
-
-Models can Climb up or down surfaces unless they have been declared impassable terrain, converting the height of the surface being scaled into inches for movement purposes. 
-Ladders, ropes and other climbing aids count as Open Terrain, otherwise the climbed surface counts as Difficult Terrain.
-
-
-Units climbing must reach the top (or bottom) by the end of their activation. Models cannot stop part-way up a wall, ladder or other surface during a Climb. 
-A model that would just reach the top or bottom of a surface being climbed is considered to have successfully moved between levels and is placed at the appropriate end, but there must be sufficient room to place the model in position or the action cannot be performed.
-
-
-Models with keywords of BEAST or MACHINE, those with equipment of type Mount, and models with the Cavalry special rule, cannot Climb unless they also have the Climbing special rule.</description>
-    </rule>
-    <rule name="Movement - Jumping" id="7d78-7bdf-66da-f736" hidden="false" publicationId="4a94-de20-b936-ea2d">
-      <description>As part of a run action a model can Jump horizontal distances equal to or less than its unmodified Sp value in inches but must make a test against its Sp value to do so and have sufficient movement to land and be placed on the destination. Roll a D8 and add the model’s Sp value. If the result is 9 or more, the model successfully jumps the gap and may continue moving on the other side. Otherwise, the model Falls into the gap and may take damage as a result (see Falling above). The falling model is placed in the level it lands, directly below the point the jump was attempted from. Note that for this test, a roll of 1 is always a failure and 8 is always a success.</description>
-    </rule>
-    <rule name="Arcs and Line of Sight - Blocked &amp; Partially Blocked" id="48ce-7ba0-8ed0-c115" hidden="false" publicationId="4a94-de20-b936-ea2d">
-      <description>replace second and third bullet point with:
-A blocking model or blocking terrain piece of the same height as the enemy model. However, this may be ignored if your model has a greater height than the blocking item and is within 3” of the blocking item and also within 3&quot; of the enemy model.
-
-
-If LOS to an enemy model traces through more than 3” of Low Visibilty Terrain that is equal or greater than its Height, LOS is Blocked.</description>
-    </rule>
-    <rule name="Terrain - Low Visibility Terrain" id="9157-9410-d7fe-0eed" hidden="false" publicationId="4a94-de20-b936-ea2d">
-      <description>Woods, high grass, areas of smoke etc. are examples of Low Visibility Terrain. Area terrain pieces can be declared to be Low Visibility Terraion in addition to being Open, Difficult or Impassable.
-If LOS to an enemy model traces through more than 3” of Low Visibilty Terrain that is equal or greater than its Height, LOS is Blocked.
-
-</description>
-    </rule>
-  </rules>
   <sharedProfiles>
     <profile name="Battle Mount" id="1308-ab2f-a052-cc51" hidden="false" typeId="8a78-e385-0694-eacc" typeName="Mount">
       <characteristics>
@@ -941,7 +957,6 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Fireball (Boosted)" id="b810-d5ea-5d87-057c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -951,7 +966,6 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Hammer" id="1270-9c77-eb21-68b4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -961,7 +975,6 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If any hits are scored, no wounds are caused. Instead, the target is Knocked-down.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Heal" id="3df5-6ee6-191f-3be8" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -971,17 +984,15 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a single friendly model in range (but not the caster), even if it is Engaged, and roll 3D8. For each 6+ rolled, the target recovers 1 wound previously suffered.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Heal (Boosted)" id="f50a-24b5-ceb7-9aeb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
       <characteristics>
-        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
         <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a single friendly model in range (but not the caster), even if it is Engaged, and roll 3D8. For each 5+ rolled, the target recovers 1 wound previously suffered.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Lightning Bolt (Boosted)" id="765f-a174-e22d-79b2" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -991,7 +1002,6 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (2), Area Effect (2&quot; / 2D8), Piercing (1), Marksman</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Lightning Bolt" id="11b4-1653-e59c-d6d9" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1001,7 +1011,6 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (1), Marksman</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Mind Storm" id="9bb7-b067-32b0-0222" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1011,7 +1020,6 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">LOS is not required to the target to cast this spell.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (1)</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Shield" id="e0d7-fee1-45e8-331b" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1022,7 +1030,6 @@ base. The model may not use the Fly special rule.</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No dice roll required. Caster gains the Stealthy special rule and improves its
 Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Spell Effect marker on the caster as a reminder.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Shockwave (Boosted)" id="7551-b074-a9d2-9a34" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1033,7 +1040,6 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">All models (including friendly ones) of up to Height 3 within 3” of the caster are moved 3” directly away from the caster. Movement will only be blocked by Impassable Terrain or other models not affected by the Shockwave. Move the models furthest away from the caster first. Models cannot become Engaged
 when moved by Shockwave – halt them 1” away if they would be. Models already Engaged will still end up Engaged with each other if both are moved.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (1), Engaged Cast</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Shockwave" id="abda-29e8-853c-3aef" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1044,7 +1050,6 @@ when moved by Shockwave – halt them 1” away if they would be. Models already
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">All models (including friendly ones) of up to Height 2 within 3” of the caster are moved 3” directly away from the caster. Movement will only be blocked by Impassable Terrain or other models not affected by the Shockwave. Move the models furthest away from the caster first. Models cannot become Engaged
 when moved by Shockwave – halt them 1” away if they would be. Models already Engaged will still end up Engaged with each other if both are moved.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Engaged Cast</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Stun" id="3a17-d338-afd6-ff91" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1054,7 +1059,6 @@ when moved by Shockwave – halt them 1” away if they would be. Models already
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If any hits are scored, no wounds are caused. Instead, the target is marked as Fatigued.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Windblast" id="c7f4-e79f-3b0b-d947" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1065,7 +1069,6 @@ when moved by Shockwave – halt them 1” away if they would be. Models already
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No wounds are caused. Instead, for each hit scored, the target model is pushed back 3” directly away from the caster stopping only for Impassable terrain or other models. If a model is pushed into an enemy model, it stops
 and is Engaged.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Zap (Boosted)" id="3a57-284b-d51a-f83e" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1075,7 +1078,6 @@ and is Engaged.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (1)</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Zap" id="898c-bbf9-3cb6-a0a6" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1085,7 +1087,6 @@ and is Engaged.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Dazzle (Boosted)" id="d0ac-c778-4b8c-8a06" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1096,7 +1097,6 @@ and is Engaged.</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If any hits are scored, the target is considered blinded. For the remainder of the Round, it cannot make any Ranged attacks and rolls 1 less die when making Melee attacks.  In addition each attack made against the model counts as being made from the rear arc.
 The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Dazzle" id="6332-f28d-ea27-917b" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1107,7 +1107,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If any hits are scored, the target is considered blinded. For the remainder of the Round, it cannot make any Ranged attacks and rolls 1 less die when making Melee attacks. 
 The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Deteriorate (Boosted)" id="20e5-4091-359c-5155" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1117,7 +1116,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">May be targeted against enemy models that are Engaged. For each 5+ scored, the target’s Ar stat is worsened by 1 until the end of the Round (e.g. 4+ becomes 5+).</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (2)</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Deteriorate" id="78cf-b32c-6a59-96ed" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1127,7 +1125,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">May be targeted against enemy models that are Engaged. For each 6+ scored, the target’s Ar stat is worsened by 1 until the end of the Round (e.g. 4+ becomes 5+).</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Transpose (Boosted)" id="27fc-e802-4b4a-8edb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1137,7 +1134,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No dice roll is required. The caster and one friendly model that is not engaged within 6” of the caster swap places. They may be placed facing any direction but otherwise must be put exactly in the other model’s position (or as close as possible, base-size permitting). The caster is marked as Activated.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (2)</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Transpose" id="d054-882d-eb75-5a65" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1147,7 +1143,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No dice roll is required. The caster and one friendly model that is not engaged within 6” of the caster swap places. They may be placed facing any direction but otherwise must be put exactly in the other model’s position (or as close as possible, base-size permitting). Both models are marked as Activated.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Blur" id="2fce-7120-7c12-2bc1" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1157,7 +1152,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly model. If any hits are scored, the model cannot be targeted directly by any other Ranged attacks from any source for the remainder of the Round. The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Teleport (Boosted)" id="4c1f-851e-d476-0562" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1167,7 +1161,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target an enemy, un-Engaged model of Height 2 or less and roll a single die. On a score of 4+, pick up and replace the model anywhere within 6” of the casting model facing a direction of your choosing. The target model must now take a Nerve test. If failed, the target model is marked as Fatigued.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (2)</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Teleport" id="c24a-9626-db78-9b7a" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1177,7 +1170,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly, un-Engaged model of Height 2 or less and roll a single die. On a score of 4+, pick up and replace the model anywhere within 6” of the casting model facing a direction of your choosing. The target model must now take a Nerve test. If failed, the target model is marked as Fatigued.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Chain Lightning" id="caa5-a074-f67e-4ea3" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1188,7 +1180,6 @@ The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If any wounds are suffered by the target, choose another un-Engaged enemy model within 3” of the target and roll to attack again. Repeat this process until there are no eligible models. Each model can only be attacked once from a single casting of this spell. Targets beyond the first may be outside LOS of the
 casting model but must in LOS from the previous target.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (2)</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Waterlogged" id="ddc5-880e-3668-2b7b" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1198,7 +1189,6 @@ casting model but must in LOS from the previous target.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Place a 6” diameter piece of Height 0 Difficult Terrain in base contact with the caster. The terrain piece remains in place until the model casts the same spell again, in which case it is move to a new position.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Tanglefoot" id="36e0-7d5f-c99f-322e" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1209,7 +1199,6 @@ casting model but must in LOS from the previous target.</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If any hits are scored, the target is ensnared in thick and fast growing
 brambles. The model must spend a long action on its next activation (or as soon as it can) to free itself. It cannot perform any other action until it does so. While entangled, the model loses 1 die from any Melee or Ranged attack it makes and all attacks against it are considered to be from its rear arc. The target doesn’t suffer any wounds.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Veiling Fog" id="a9a4-4d8b-2c54-4457" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1219,7 +1208,6 @@ brambles. The model must spend a long action on its next activation (or as soon 
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Choose a friendly model within 12” of the caster. No dice roll is required. For the remainder of the Round, when shooting at this model, attacking models count their Ra value as 2 higher when rolling for hits (including casting spells).</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Nature&apos;s Cloak" id="10a0-9be8-8442-d6b1" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1229,7 +1217,6 @@ brambles. The model must spend a long action on its next activation (or as soon 
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Cast on self. No dice roll is required. The casting model cannot be the target of any Ranged attacks or be Engaged by any new models for the remainder of the Round.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Engaged Cast</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Brisk Work" id="b572-9427-4958-1b4e" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1239,7 +1226,6 @@ brambles. The model must spend a long action on its next activation (or as soon 
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly model that is not Knocked-down and is un-Engaged. No dice roll is required. That model may immediately take a Walk action for free, even if it is already Activated and/or Fatigued.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Stoneskin (Boosted)" id="bee1-f0f0-c116-0e56" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1249,7 +1235,6 @@ brambles. The model must spend a long action on its next activation (or as soon 
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Spend a maximum of 2 Power. No dice roll is required. Place n spell effect tokens on a friendly model within 9” of the caster. This model may discard any of the tokens at any time in the Round to automatically save one hit against it. The tokens are removed at the end of the Round if not used.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (n)</characteristic>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Stoneskin" id="76f1-244a-e383-aaca" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1259,7 +1244,6 @@ brambles. The model must spend a long action on its next activation (or as soon 
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No dice roll is required. Place a spell effect token on a friendly model within 9” of the caster. This model may discard the token at any time in the Round to automatically save one hit against it. The token is removed at the end of the Round if not used.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Lure" id="154b-9867-41be-0ee6" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1272,7 +1256,6 @@ When an un-Engaged enemy model that is within 6” of the marker and has LOS to 
 model as far as it can go. If a model must also make a Fallback Check, this is made instead and the test for the Lure is not required.
 The marker is removed in the End Phase.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Shatter" id="17cd-eac2-da19-e136" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1282,7 +1265,6 @@ The marker is removed in the End Phase.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If the target model is hit, no wounds are caused. Instead, the target model’s Ar stat is worsened by 1 (to a maximum of 8+) for the remainder of the game. Multiple castings on the same model do not have a cumulative effect.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Malevolence" id="be43-b340-7a84-4527" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1292,7 +1274,6 @@ The marker is removed in the End Phase.</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Roll 1D8. If the result is equal to or greater than the caster’s Ra stat, all enemy models within 6” of the caster must make an Armour roll to avoid taking a wound.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Posession" id="4697-c8b1-fb0b-0f82" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1303,7 +1284,6 @@ The marker is removed in the End Phase.</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target an un-Activated enemy model. If the target model is hit, no wounds are caused. Mark the model with a token instead as a reminder. When the model is Activated roll a die. On a 6+, you can choose what the model does for its first short action, including attacking models in its own Warband. The token is then removed and the model may finish its Turn as normal. On a 5 or less,
 just remove the token.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Summon Familiar" id="505b-3668-9dde-0313" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1314,7 +1294,6 @@ just remove the token.</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No dice roll required. Place a suitable token or model to represent the
 familiar next to the casting model (within 1”) as a reminder (it has no physical effect on the game). In a subsequent Round, the familiar may be removed (spent) to improve the caster’s Ra stat by 2 for the next spell it casts (for example Ra 5+ becomes Ra 3+). A caster may only have one summoned familiar at a time.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Nightfall" id="f8fc-ee88-bc55-e339" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1324,7 +1303,6 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No dice roll is required. For the remainder of the Round, while within 3” of the caster, all models gain the Stealthy special rule.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Nightfall (Boosted)" id="c742-8517-e3c5-c146" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -1334,7 +1312,6 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No dice roll is required. For the remainder of the Round, while within 3” of the caster, all models gain the Stealthy special rule.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Riposting Rapier" id="cfeb-8928-25a8-7f77" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
@@ -1344,6 +1321,129 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
         <characteristic name="Gold" typeId="55ab-9aee-c2c3-927c">4</characteristic>
         <characteristic name="Effect" typeId="08b5-578a-af42-cf55">When Retaliating, the model has a +1modifier to its Melee attacks.</characteristic>
         <characteristic name="Notes" typeId="7735-767f-4672-87c8"/>
+      </characteristics>
+    </profile>
+    <profile name="Rifle" id="601d-8267-5d52-9b4c" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Marksman, Piercing (1), Reload</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Meteor *" id="85ed-6229-b1f6-478b" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Meteor (Boosted) *" id="a58d-3b04-79fc-2bf3" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (1), Piercing (1), Area Effect (3&quot; / 2D8)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Meteor (Boosted)*" id="fc73-dc4b-2345-0a94" hidden="false" typeId="4dc9-b7a9-fe41-a041" typeName="Area Effect">
+      <characteristics>
+        <characteristic name="Range" typeId="f9c3-6e8c-513c-004c">3&quot;</characteristic>
+        <characteristic name="Dice" typeId="2e7f-fdd0-d47c-b762">2D8</characteristic>
+        <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b"/>
+      </characteristics>
+    </profile>
+    <profile name="Flameblast *" id="9f27-e1bc-16d4-b6af" hidden="false" typeId="4dc9-b7a9-fe41-a041" typeName="Area Effect">
+      <characteristics>
+        <characteristic name="Range" typeId="f9c3-6e8c-513c-004c">3&quot;</characteristic>
+        <characteristic name="Dice" typeId="2e7f-fdd0-d47c-b762">3D8</characteristic>
+        <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b"/>
+      </characteristics>
+    </profile>
+    <profile name="Flameblast *" id="2b46-6085-7569-37eb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">
+</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Area Effect (3&quot;, 3D8)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thunderclap *" id="5380-53c9-c868-13b8" hidden="false" typeId="4dc9-b7a9-fe41-a041" typeName="Area Effect">
+      <characteristics>
+        <characteristic name="Range" typeId="f9c3-6e8c-513c-004c">2&quot;</characteristic>
+        <characteristic name="Dice" typeId="2e7f-fdd0-d47c-b762">1D8</characteristic>
+        <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b"/>
+      </characteristics>
+    </profile>
+    <profile name="Thunderclap *" id="0e2f-614b-7c03-fc06" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If any wounds are inflicted on a target, including those hit by the Area Effect, it is knocked down.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Area Effect (2&quot; / 1D8)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phothep&apos;s Ring of Protection (unique)" id="af23-7d97-7e7f-9568" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
+      <characteristics>
+        <characteristic name="Type" typeId="55a7-a7a7-147b-28bc">Magic</characteristic>
+        <characteristic name="Rarity" typeId="501c-2c79-497a-befb">unique</characteristic>
+        <characteristic name="Gold" typeId="55ab-9aee-c2c3-927c">8</characteristic>
+        <characteristic name="Effect" typeId="08b5-578a-af42-cf55">This model gains Ar 2+. This effect ends after an action during which this model takes a wound.</characteristic>
+        <characteristic name="Notes" typeId="7735-767f-4672-87c8"/>
+      </characteristics>
+    </profile>
+    <profile name="DRAW POWER" id="13b4-8630-5434-6ee2" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Cast action, before rolling any dice. </characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Gain 2 bonus dice for the Cast action. Cannot be used in conjunction with the **+1 Die** Standard Power Use</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="FRENZY" id="b280-d15f-9f0a-8e99" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a attack (excluding Realiate), before rolling any dice. </characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Gain 2 bonus dice for the Melee attack. Cannot be used in conjunction with the **+1 Die** Standard Power Use</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="DRAW DARK POWER" id="5cd5-4c4f-7e1e-5b37" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When taking a Cast Action.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may Cast a long action spell as a short action.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WILD CHARGE" id="3cc4-3959-4c8e-b26e" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of this model&apos;s activation. </characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Increase this model&apos;s SP by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="RANGE BOOST (6&quot;)" id="ec0a-6cfc-234e-3a25" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Cast action, before dice are rolled.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Increase the range of the spell used in this Cast action by 6” (where a Range is specified).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="RANGE BOOST (3&quot;)" id="0a32-50d1-0ea3-830e" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Cast action, before dice are rolled.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Increase the range of the spell used in this Cast action by 3” (where a Range is specified).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="LIFELEECH" id="7dfb-f62b-52e8-1eb1" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model kills an opponent with a Melee Attack.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Recover 1 wound this model has previously suffered. If the model killed is a COMMAND or LARGE model, 2 wounds are recovered.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1548,15 +1648,8 @@ when rolling for hits (including casting spells).</description>
     <rule name="Long Reach" id="0eac-eab3-f72e-6f2c" hidden="false">
       <description>If this model is not Engaged with an enemy model and within 2&quot; of a friendly model that is Engaged with an enemy model, that friendly model gains +1D8 for it&apos;s melee attacks. Only 1 bonus die may be given to a model in this way. Models with Long Reach participating in a Group Charge Action to do not have to engage enemy models but must end their move within 2” of a model in the group that is engaged.</description>
     </rule>
-    <rule name="Spell - Marksman" id="15a0-b274-e8ba-6a75" hidden="false" page="38"/>
-    <rule name="Spell - Crushing Strength (n)" id="af6b-f940-da85-9762" hidden="false">
-      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
     <rule name="Combined Fire" id="b43b-e9a2-0881-2568" hidden="false">
       <description>When involved in a Group Shoot Action, models of this type add +1 dice to their Ranged Attack roll if one or more other models of the same type in the group fire at the same target.</description>
-    </rule>
-    <rule name="FRENZY (1)" id="e9c1-10e3-312f-3d7e" hidden="false">
-      <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus die for a roll.</description>
     </rule>
     <rule name="Inspiring (Grunts &amp; Warriors only)" id="393c-e681-96ad-82c7" hidden="false">
       <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
@@ -1570,32 +1663,6 @@ when rolling for hits (including casting spells).</description>
     <rule name="Master Tactician" id="dd07-9d5f-1c25-383f" hidden="false">
       <description>After both sides have finished deployment, you may redeploy up to 2 of your models. If both sides have models with this ability, then they alternate redeployments starting with the side which finished deployment first. The redeployments do not count towards determining who finished first.</description>
     </rule>
-    <rule name="Spell - Hammer" id="06b9-7ecf-e062-76b2" hidden="false">
-      <description>If any hits are scored, no wounds are caused. Instead, the target is Knocked-down.</description>
-    </rule>
-    <rule name="Spell - Heal" id="3d8d-65cc-f49a-0bc6" hidden="false">
-      <description>Target a single friendly model in range (but not the caster), even if it is Engaged, and roll
-3D8. For each 5+ rolled, the target recovers 1 wound previously suffered.</description>
-    </rule>
-    <rule name="Spell - Mindstorm" id="4d9d-8238-8300-52d8" hidden="false">
-      <description>LOS is not required to the target to cast this spell.</description>
-    </rule>
-    <rule name="Spell - Shield" id="8d90-83a0-01a7-bae8" hidden="false">
-      <description>Cast on self. No dice roll required. Caster gains the Stealthy special rule and improves its
-Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Spell Effect marker on the caster as a reminder.</description>
-    </rule>
-    <rule name="Spell - Shockwave" id="5b79-4821-e953-114e" hidden="false">
-      <description>All models (including friendly ones) of up to Height 2 within 3” of the caster are moved 3” directly away from the caster. Movement will only be blocked by Impassable Terrain or other models not affected by the Shockwave. Move the models furthest away from the caster first. Models cannot become Engaged when moved by Shockwave – halt them 1” away if they would be. Models already Engaged will still end up Engaged with each other if both are moved.</description>
-    </rule>
-    <rule name="Spell - Shockwave Boosted" id="9015-c2cf-850e-517d" hidden="false">
-      <description>As above, but models up to Height 3 are affected for this casting.</description>
-    </rule>
-    <rule name="Spell - Stun" id="0657-9869-6e33-4139" hidden="false">
-      <description>If any hits are scored, no wounds are caused. Instead, the target is marked as Fatigued.</description>
-    </rule>
-    <rule name="Spell - Windblast" id="7e74-999e-b787-59b4" hidden="false">
-      <description>No wounds are caused. Instead, for each hit scored, the target model is pushed back 3” directly away from the caster stopping only for Impassable terrain or other models. If a model is pushed into an enemy model, it stops and is Engaged.</description>
-    </rule>
     <rule name="Area Effect" id="77ba-b2d8-11ad-a1c9" hidden="false">
       <description>Attacks that have the Area Effect rule may also hit models near to the original target and at the same Terrain Height the target is currently on or in. The Area Effect rule will detail the size of the affected area, how many attack dice are rolled and any Special Rules that may apply (note that the Special Rules from the initial attack don’t automatically apply). Once any damage and effects on the original target are resolved, the extended area effect attacks are then resolved in any order the player using the attack wishes. Unlike normal Ranged attacks, you may not spend Power to gain additional dice on Area Effect attacks.</description>
     </rule>
@@ -1605,7 +1672,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <rule name="Piercing (n)" id="5972-bb61-ccbd-1037" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
-    <rule name="Toxic" id="1c25-a379-3b06-355c" hidden="false">
+    <rule name="Weaken" id="1c25-a379-3b06-355c" hidden="false">
       <description>If an attack with this rule wounds the target, it is marked as Fatigued.</description>
     </rule>
     <rule name="Engaged Cast" id="a8dc-9e80-db50-c93c" hidden="false" publicationId="4a94-de20-b936-ea2d">
@@ -1620,15 +1687,6 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <rule name="Torrent" id="c62a-d2c1-4b9f-b24d" hidden="false">
       <description>Rolling to hit for this ranged attack is never modified.</description>
     </rule>
-    <rule name="WILD CHARGE (1) *" id="b41c-7626-ecab-be22" hidden="false" publicationId="4a94-de20-b936-ea2d">
-      <description>Spend 1 Power to increase this model&apos;s SP by 1.</description>
-    </rule>
-    <rule name="DRAW POWER (1)" id="b2f7-7807-311b-9a5f" hidden="false">
-      <description>Use this ability to gain 2 bonus dice when this model makes a Cast action. Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus die for a roll.</description>
-    </rule>
-    <rule name="MASTER OF MAGIC (2) *" id="9fe1-3523-6999-f986" hidden="false">
-      <description>Pay 2 Power when this model activates. Any (long) cast actions become (short) for the duration of this model&apos;s activation.</description>
-    </rule>
     <rule name="Power Cost (2)" id="520b-88f6-e24c-081b" hidden="false">
       <description>Pay (n) Power to perform this action.</description>
     </rule>
@@ -1642,7 +1700,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       <description>Pay (n) Power to perform this action.</description>
     </rule>
     <rule name="No Damage" id="ccc2-04b6-98b0-e4cd" hidden="false">
-      <description>This action does not cause the target to suffer any wounds.</description>
+      <description>This attack does not cause the target to suffer any wounds.</description>
     </rule>
     <rule name="Melee (n+)" id="e57f-74e7-b63f-02d7" hidden="false">
       <description>This Melee Attack hits on n+</description>
@@ -1653,11 +1711,26 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <rule name="Halberd" id="c25f-4a60-cc36-4a32" hidden="false">
       <description>The model has the Crushing Strength (1) and Vicious special rules when making a free Melee attack after a qualifying charge. In addition, enemy models that have the Cavalry special rule, do not get the +1 to-hit bonus for attacking this model in its front arc in Melee.</description>
     </rule>
-    <rule name="Viscious *" id="1ecc-286f-cb53-764b" hidden="false" publicationId="4a94-de20-b936-ea2d">
+    <rule name="Vicious *" id="1ecc-286f-cb53-764b" hidden="false" publicationId="4a94-de20-b936-ea2d">
       <description>The player owning the attacking model can force the target player to re-roll one successful armor save. This can be used to re-roll an Exploding 8 to try and prevent it Exploding!</description>
     </rule>
-    <rule name="Climbing" id="5db9-a777-85c4-8055" hidden="false">
+    <rule name="Climber" id="5db9-a777-85c4-8055" hidden="false">
       <description>This model may Climb even though it&apos;s other characteristics would normally prevent it from doing so.</description>
+    </rule>
+    <rule name="Support Caster *" id="c96e-9f0b-a1d3-6280" hidden="false" publicationId="4a94-de20-b936-ea2d">
+      <description>This unit may use the Cast action even though it is not of the SPELLCASTER class. For any other purposes such as list building and campaign advancement they count only as their original class.</description>
+    </rule>
+    <rule name="Immobilize" id="e51d-ace9-df8b-eeb3" hidden="false">
+      <description>If this attack causes any wounds to the target, the target becomes immobilized. A model that is immobilized has it&apos;s Sp reduced to 0 until the end of it&apos;s next activation. It also cannot make a Break Away action.</description>
+    </rule>
+    <rule name="Implacable" id="afa2-2e2c-3747-941a" hidden="false">
+      <description>This model cannot be Knocked-down for any reason and remains standing if any rule requires it to be Knocked-down.</description>
+    </rule>
+    <rule name="Vicious Swipe" id="6b03-4684-97f3-c6a9" hidden="false">
+      <description>When attempting to Break Away from this unit, enemy models have a -1 modifier when they make their Armour Save roll.</description>
+    </rule>
+    <rule name="Explode" id="e9a5-bac6-5fb1-cb03" hidden="false">
+      <description>When this model is removed as a casualty, all models in 3&quot; take one automatic hit.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -1737,10 +1810,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Lucky Charm" id="7980-d650-4b19-96ba" hidden="false" targetId="30f1-8de9-f78d-4449" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Healing Herbs (Rare)" id="789d-9dfb-10a0-02ce" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
+    <selectionEntry name="Healing Herbs (Uncommon)" id="789d-9dfb-10a0-02ce" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Item - Rare" id="fd47-944a-e044-98c5" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
         <categoryLink name="Item - Sundries" id="9941-1869-dcdd-81b9" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
+        <categoryLink name="Item - Uncommon" id="f491-9f1e-60ef-2e92" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <constraints>
         <constraint id="39e5-d662-457d-3eb6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -1888,10 +1961,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Battle Potion" id="ce25-aff4-ea75-ce43" hidden="false" targetId="dc08-3a26-8929-2199" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Potion of Haste (Rare)" id="8b2a-7e6e-7f0f-5519" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
+    <selectionEntry name="Potion of Haste (Uncommon)" id="8b2a-7e6e-7f0f-5519" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Sundries" id="101e-1a9b-e5bd-ab8d" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
-        <categoryLink name="Item - Rare" id="99e6-d956-c368-cf52" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
+        <categoryLink name="Item - Uncommon" id="c63d-8b2d-0dbc-872b" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <constraints>
         <constraint id="7206-366e-ac94-ccbf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -1904,10 +1977,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Potion of Haste" id="134b-5baf-1629-d4fa" hidden="false" targetId="041b-9c88-76f2-824c" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Potion of Concentration (Rare)" id="5750-640e-0f6d-bd24" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
+    <selectionEntry name="Potion of Concentration (Uncommon)" id="5750-640e-0f6d-bd24" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Item - Rare" id="e090-f836-9752-2346" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
         <categoryLink name="Item - Sundries" id="06aa-ca7d-6b6b-7d13" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
+        <categoryLink name="Item - Uncommon" id="f54e-8a75-a217-dd9a" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <constraints>
         <constraint id="03e5-d07e-c7eb-4d23" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -1940,10 +2013,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Marksman&apos;s Rifle" id="e3df-1473-d08a-7aa8" hidden="false" targetId="8aa5-c3cd-b2f3-90e0" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Long Bow (Rare)" id="99d5-d34b-8f87-0c7d" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
+    <selectionEntry name="Long Bow (Uncommon)" id="99d5-d34b-8f87-0c7d" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Ranged" id="4ba3-a761-3a1b-9ba1" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
-        <categoryLink name="Item - Rare" id="dad6-3588-f92a-ac04" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
+        <categoryLink name="Item - Uncommon" id="8527-447f-6619-04b4" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <constraints>
         <constraint id="50c4-81e4-16b5-d3c2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2005,9 +2078,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry name="Fireball" id="1000-11e2-0937-9685" collective="false" displayGroup="Items" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Fireball" id="1000-11e2-0937-9685" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="e8f3-f33f-6b32-fc4b" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="81c6-783a-c5e1-2fa1" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="827e-7c31-709c-74f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2017,13 +2091,22 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
       </costs>
       <infoLinks>
         <infoLink name="Breath" id="3218-b537-41ec-f536" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
-        <infoLink name="Fireball (Boosted)" id="edf6-2ad6-546c-ba50" hidden="false" targetId="b810-d5ea-5d87-057c" type="profile"/>
-        <infoLink name="Fireball" id="2d63-84b7-26c7-7e7b" hidden="false" targetId="ee3a-a7b1-7519-c4a2" type="profile"/>
+        <infoLink name="Fireball (Boosted)" id="edf6-2ad6-546c-ba50" hidden="false" targetId="b810-d5ea-5d87-057c" type="profile">
+          <modifiers>
+            <modifier field="8297-1752-8ed2-7571" type="set" value="3D8"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fireball" id="2d63-84b7-26c7-7e7b" hidden="false" targetId="ee3a-a7b1-7519-c4a2" type="profile">
+          <modifiers>
+            <modifier field="8297-1752-8ed2-7571" type="set" value="3D8"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Hammer" id="1fd6-4a9e-51ce-6476" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="0471-7de1-4d12-1edf" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="4244-7154-7bae-1f78" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="03ca-9b21-966e-4977" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2038,6 +2121,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Heal" id="85f7-47a9-b45a-d785" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="8e3c-c81c-1184-f16f" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="6290-883a-a9ad-9c1b" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="9775-87b1-0a04-ac60" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2050,9 +2134,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Heal" id="172f-3e04-1854-89bd" hidden="false" targetId="3df5-6ee6-191f-3be8" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Lightning Bolt" id="5a49-5dec-45cd-0ef2" collective="false" displayGroup="Items" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Lightning Bolt" id="5a49-5dec-45cd-0ef2" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="299d-d179-db0d-6bff" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="e9ff-11ad-a2a5-6899" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="2f24-9b49-e372-fae2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2070,6 +2155,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Mind Storm" id="97d8-9273-1780-9e7b" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="d67f-19b6-0139-a9d0" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="6efc-f1bd-6929-7f41" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="dedb-d054-0d77-102d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2085,6 +2171,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Shield" id="eaa9-4984-a19c-6832" collective="false" displayGroup="Spell" hidden="false" import="true" page="120" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="56c5-f82b-c071-a17a" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="41a8-f1a3-bef5-fa8b" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="c3a7-e795-7edd-efee" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2099,6 +2186,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Shockwave" id="c138-2461-fd50-e309" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="54b1-7d03-b6b1-bc94" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="99b5-6c42-355d-ab5c" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="e7e6-3f2a-5190-7716" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2115,6 +2203,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Stun" id="b952-579e-3ca1-9ae0" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="4830-ccb9-4efd-8e8a" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="c365-6cb4-641b-8496" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="988a-5153-7994-92e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2129,6 +2218,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Windblast" id="5fd3-a380-e44f-d9d2" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="05a9-a254-bbdb-d102" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="9858-3958-7a6c-e17a" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="43d4-e8d4-1d71-43a2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2143,6 +2233,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Zap" id="8156-c369-ee4a-09ab" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="4320-4c6b-2342-269e" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="4e43-0441-ef4b-fc20" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
       </categoryLinks>
       <constraints>
         <constraint id="90a8-e787-db5e-cb27" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2235,10 +2326,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Light Crowssbow" id="f260-b4b8-ec96-86fd" hidden="false" targetId="3866-7526-383a-e2fd" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Healing Potion (Unique)" id="881b-a22c-a9c1-f94b" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
+    <selectionEntry name="Healing Potion (Rare)" id="881b-a22c-a9c1-f94b" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Sundries" id="8df1-834a-24cf-7c5b" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
-        <categoryLink name="Item Unique" id="de04-c6eb-b3f4-d389" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Rare" id="f206-8fe4-e762-9c02" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
       </categoryLinks>
       <constraints>
         <constraint id="d488-eac8-356d-76ea" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2560,10 +2651,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Elixir of Resilience  (Rare)" id="7e65-ba56-0078-096d" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
+    <selectionEntry name="Elixir of Resilience  (Uncommon)" id="7e65-ba56-0078-096d" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Sundries" id="d646-4eeb-68bd-adba" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
-        <categoryLink name="Item - Rare" id="2b85-d1e1-2203-350a" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
+        <categoryLink name="Item - Uncommon" id="ee42-28e4-abf4-8762" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <constraints>
         <constraint id="b5b4-a36a-50b7-0305" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2661,10 +2752,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Explorer&apos;s Map" id="9eff-b9d7-21b1-c4bb" hidden="false" targetId="5229-0a0e-c1d7-e1d3" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Holy Water (Unique)" id="acc5-fc39-efd9-38e5" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
+    <selectionEntry name="Holy Water (Rare)" id="acc5-fc39-efd9-38e5" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Item Unique" id="8e8a-6b21-0051-4444" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
         <categoryLink name="Item - Sundries" id="f402-d6be-b9ac-d218" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
+        <categoryLink name="Item - Rare" id="48dd-3910-87d7-b122" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
       </categoryLinks>
       <constraints>
         <constraint id="eed1-830d-9f65-63dc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2808,10 +2899,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Crushing Strength (1)" id="8e8d-3a26-3f48-fb50" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Energy Chrystal (Rare)" id="44ca-a538-18ed-43c0" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
+    <selectionEntry name="Energy Chrystal (Uncommon)" id="44ca-a538-18ed-43c0" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="e654-c9df-83ae-f023" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item - Rare" id="c1f8-2321-6c62-355b" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
+        <categoryLink name="Item - Uncommon" id="62aa-ba5c-597a-6d15" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <constraints>
         <constraint id="9b03-68b6-a24b-5108" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2916,11 +3007,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Throwing Knife (Rare) *" id="6a18-4227-239c-0d6c" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
-      <comment>Homebrew</comment>
+    <selectionEntry name="Throwing Knife (Uncommon) *" id="6a18-4227-239c-0d6c" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Item - Rare" id="dd15-451c-fc72-9c8c" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
         <categoryLink name="Item - Ranged" id="1897-9d06-cfc2-7b23" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
+        <categoryLink name="Item - Uncommon" id="1e2a-d1f4-3992-707d" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1"/>
@@ -2933,6 +3023,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Chain Lightning" id="3c3a-f11b-6b5c-6355" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="9bbd-2093-eb7c-ac2a" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Noble" id="062a-3aad-ae5e-efba" hidden="false" primary="false" targetId="dfa3-5556-19d0-c3bd"/>
       </categoryLinks>
       <constraints>
         <constraint id="1ab4-7701-2247-afcc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2945,10 +3036,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Chain Lightning" id="fc9e-0734-c2ac-edef" hidden="false" targetId="caa5-a074-f67e-4ea3" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Poison Bottle * (Rare)" id="9674-e301-99bc-aae4" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+    <selectionEntry name="Poison Bottle * (Uncommon)" id="9674-e301-99bc-aae4" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Sundries" id="49c8-fddb-9def-857d" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
-        <categoryLink name="Item - Rare" id="f65d-501a-0276-8942" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
+        <categoryLink name="Item - Uncommon" id="6fa3-e6fc-0e39-0b1b" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
       <constraints>
         <constraint id="7646-9355-74de-d0ab" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2965,6 +3056,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Lure" id="4748-0d29-9459-da37" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="375c-6a23-eee8-d3fc" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Corrupt" id="83d0-18ed-723f-c6de" hidden="false" primary="false" targetId="8c26-6259-b763-b3ab"/>
       </categoryLinks>
       <constraints>
         <constraint id="7049-ff1d-1b8d-864d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2979,6 +3071,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Malevolence" id="e503-8704-9e6e-9d3a" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="267b-039e-e2d3-5e73" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Corrupt" id="db75-e8a7-5851-0363" hidden="false" primary="false" targetId="8c26-6259-b763-b3ab"/>
       </categoryLinks>
       <constraints>
         <constraint id="fd86-85ed-6579-571a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -2993,6 +3086,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Nightfall" id="16c5-53f3-9cd3-e15e" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="e150-a483-170a-70b3" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Corrupt" id="a284-278a-c6de-669b" hidden="false" primary="false" targetId="8c26-6259-b763-b3ab"/>
       </categoryLinks>
       <constraints>
         <constraint id="3700-4565-fa37-a8cc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3008,6 +3102,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Possession" id="11cd-aea6-52e2-a46e" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="7d05-d5d3-514d-e5bb" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Corrupt" id="8490-ebe9-a233-27ea" hidden="false" primary="false" targetId="8c26-6259-b763-b3ab"/>
       </categoryLinks>
       <constraints>
         <constraint id="190d-0aea-90b8-72bb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3022,6 +3117,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Shatter" id="7680-8994-646e-0630" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="1043-de66-6be9-c28c" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Corrupt" id="926d-e759-4dc2-3a3b" hidden="false" primary="false" targetId="8c26-6259-b763-b3ab"/>
       </categoryLinks>
       <constraints>
         <constraint id="4453-5f01-3176-0594" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3036,6 +3132,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Summon Familiar" id="fdd4-fcd4-c9c7-9b98" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="97a0-5829-0ac6-00b0" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Corrupt" id="48d8-7748-54ec-0220" hidden="false" primary="false" targetId="8c26-6259-b763-b3ab"/>
       </categoryLinks>
       <constraints>
         <constraint id="2f6c-e20f-f6a8-d199" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3050,6 +3147,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Blur" id="3601-86d0-95b0-fc28" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="162f-0a6a-5fc1-8402" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Noble" id="4c04-6552-d454-c7fd" hidden="false" primary="false" targetId="dfa3-5556-19d0-c3bd"/>
       </categoryLinks>
       <constraints>
         <constraint id="ee93-2e69-cbf1-cb24" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3064,6 +3162,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Dazzle" id="c2b8-c293-d9ce-92da" collective="false" defaultAmount="1" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="ae1c-076b-6002-34c7" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Noble" id="4ec6-fc05-c8f2-375e" hidden="false" primary="false" targetId="dfa3-5556-19d0-c3bd"/>
       </categoryLinks>
       <constraints>
         <constraint id="4c4f-5323-6f51-8884" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3079,6 +3178,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Deteriorate" id="a272-3ba8-9519-834c" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="ba58-7009-b196-1a45" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Noble" id="3d22-d56c-cd1f-6429" hidden="false" primary="false" targetId="dfa3-5556-19d0-c3bd"/>
       </categoryLinks>
       <constraints>
         <constraint id="8ade-df7e-2574-5811" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3094,6 +3194,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Teleport" id="01a6-2c13-d66c-4161" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="dd10-be06-2865-3f01" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Noble" id="74a9-9da0-da95-e1f6" hidden="false" primary="false" targetId="dfa3-5556-19d0-c3bd"/>
       </categoryLinks>
       <constraints>
         <constraint id="1be6-e2dc-b5e1-7ae1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3109,6 +3210,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Transpose" id="6df9-6ad8-eef8-09f2" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="6042-7966-2a88-5aa0" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Noble" id="79c9-035d-1a37-3351" hidden="false" primary="false" targetId="dfa3-5556-19d0-c3bd"/>
       </categoryLinks>
       <constraints>
         <constraint id="9ad2-2f5d-943e-ab3d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3124,6 +3226,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Waterlogged" id="767b-7ecc-ea7d-bca4" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="93e0-7931-8b34-956c" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Primordial" id="d015-7fad-7c54-6810" hidden="false" primary="false" targetId="8734-44a1-1adb-20a6"/>
       </categoryLinks>
       <constraints>
         <constraint id="9566-6098-6a22-4a22" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3138,6 +3241,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Brisk Work" id="1328-4f7f-5a94-2b21" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="3784-536d-b3dc-de05" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Primordial" id="9b40-e515-790a-375c" hidden="false" primary="false" targetId="8734-44a1-1adb-20a6"/>
       </categoryLinks>
       <constraints>
         <constraint id="323c-b0c2-1270-27a0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3152,6 +3256,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Nature&apos;s Cloak" id="a1d6-03a8-c8fd-f532" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="8dae-7992-9c3a-caf7" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Primordial" id="571a-a4f7-f29a-e877" hidden="false" primary="false" targetId="8734-44a1-1adb-20a6"/>
       </categoryLinks>
       <constraints>
         <constraint id="7197-58e8-fcae-1299" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3166,6 +3271,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Stoneskin" id="e750-a00c-c3de-4573" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="ff8d-609f-1fd2-cae8" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Primordial" id="2159-096d-b461-d870" hidden="false" primary="false" targetId="8734-44a1-1adb-20a6"/>
       </categoryLinks>
       <constraints>
         <constraint id="f4cd-62ee-aad8-0649" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3178,9 +3284,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <infoLink name="Stoneskin" id="96fe-ae9d-10ce-18ca" hidden="false" targetId="76f1-244a-e383-aaca" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Tanglefoor" id="fbbb-1f05-b56a-ad1c" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Tanglefoot" id="fbbb-1f05-b56a-ad1c" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="b4ef-4a30-65ff-39d8" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Primordial" id="121e-d021-46b7-78a9" hidden="false" primary="false" targetId="8734-44a1-1adb-20a6"/>
       </categoryLinks>
       <constraints>
         <constraint id="e68b-ee4f-4023-88c3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3195,6 +3302,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
     <selectionEntry name="Veiling Fog" id="edfe-9494-5ffb-dc6c" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="eb18-0b48-5278-843c" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Primordial" id="2497-5a3a-155f-51ea" hidden="false" primary="false" targetId="8734-44a1-1adb-20a6"/>
       </categoryLinks>
       <constraints>
         <constraint id="8e4a-2cec-4860-6f99" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -3233,6 +3341,125 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
             <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
             <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
             <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Rifle" id="bd04-09be-458e-ae12" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Rifle" id="55e7-638c-d283-ddc4" hidden="false" targetId="601d-8267-5d52-9b4c" type="profile"/>
+        <infoLink name="Marksman" id="98b2-e2f5-155f-3623" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="Piercing (1)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Reload" id="05e0-3d08-6188-2291" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Meteor *" id="4ffd-e794-1fcd-0549" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell - Basic" id="eb11-cfe5-6a11-59c8" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
+        <categoryLink name="Spell" id="4141-d5cb-a2e8-eb48" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="2500-6b84-fc2f-2923" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Meteor (Boosted)" id="9564-daf3-3161-c1f1" hidden="false" targetId="fc73-dc4b-2345-0a94" type="profile"/>
+        <infoLink name="Meteor (Boosted)" id="c628-a5f6-9cd1-7e87" hidden="false" targetId="a58d-3b04-79fc-2bf3" type="profile"/>
+        <infoLink name="Piercing (1)" id="63e9-1bf5-427d-16d3" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Meteor" id="06f8-4ea4-6bf3-0e53" hidden="false" targetId="85ed-6229-b1f6-478b" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Flameblast *" id="57f1-eb55-0275-ef61" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell - Basic" id="ee2e-581f-d3ad-e994" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
+        <categoryLink name="Spell" id="520a-d53c-5800-c07d" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="9f87-3144-ccc6-0600" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Flameblast *" id="9d5b-2b5d-8439-d840" hidden="false" targetId="2b46-6085-7569-37eb" type="profile">
+          <modifiers>
+            <modifier field="8297-1752-8ed2-7571" type="set" value="4D8"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Flameblast *" id="9b9f-7984-0705-a3a8" hidden="false" targetId="9f27-e1bc-16d4-b6af" type="profile">
+          <modifiers>
+            <modifier field="2e7f-fdd0-d47c-b762" type="set" value="4D8"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Thunderclap *" id="fb3d-817e-7dde-6ee2" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell - Basic" id="7669-9b15-2e0e-85af" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
+        <categoryLink name="Spell" id="7f6d-c7a5-4a62-521a" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Thunderclap *" id="6db2-32be-101e-3dce" hidden="false" targetId="0e2f-614b-7c03-fc06" type="profile"/>
+        <infoLink name="Thunderclap *" id="9a0a-94fe-5428-57ae" hidden="false" targetId="5380-53c9-c868-13b8" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Phothep&apos;s Ring of Invincibility (unique)" id="ddf5-9710-ee08-8d4b" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Item Unique" id="a4dd-48f1-30ec-e2b3" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Magic" id="f0da-9698-0a96-bba4" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Phothep&apos;s Ring of Protection (unique)" id="b174-6e26-c4c2-8a2a" hidden="false" targetId="af23-7d97-7e7f-9568" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Rifle (Uncommon) *" id="d223-9cf4-2145-4d5a" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Item - Ranged" id="591e-f94c-b625-0bc8" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
+        <categoryLink name="Item - Uncommon" id="e543-1979-cd21-f8e5" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Rifle" id="1315-5cb5-9a99-e1e7" hidden="false" targetId="601d-8267-5d52-9b4c" type="profile"/>
+        <infoLink name="Marksman" id="6fb3-0d2f-6be4-e814" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="Piercing (1)" id="567a-c740-9254-47e0" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Reload" id="6166-7717-13c3-6118" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Rifle (Uncommon)" id="5389-00dc-7c2f-d9ec" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
+          <characteristics>
+            <characteristic name="Type" typeId="55a7-a7a7-147b-28bc">Ranged</characteristic>
+            <characteristic name="Rarity" typeId="501c-2c79-497a-befb">Uncommon</characteristic>
+            <characteristic name="Gold" typeId="55ab-9aee-c2c3-927c">4</characteristic>
+            <characteristic name="Effect" typeId="08b5-578a-af42-cf55"/>
+            <characteristic name="Notes" typeId="7735-767f-4672-87c8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Heavy Armour (Uncommon) *" id="725c-06ab-ae3b-aac5" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Item - Armour" id="d186-1c55-bc3b-f8c7" hidden="false" primary="true" targetId="f328-cd29-ed6d-039f"/>
+        <categoryLink name="Item - Rare" id="d840-eb02-1339-1729" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="ae6d-f2b9-e291-3198" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="d1b5-303a-517d-1d54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+      </costs>
+      <profiles>
+        <profile name="Heavy Armour" id="b5ba-552e-3b8b-7bc6" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
+          <characteristics>
+            <characteristic name="Type" typeId="55a7-a7a7-147b-28bc">Armour</characteristic>
+            <characteristic name="Rarity" typeId="501c-2c79-497a-befb">Uncommon</characteristic>
+            <characteristic name="Gold" typeId="55ab-9aee-c2c3-927c">4</characteristic>
+            <characteristic name="Effect" typeId="08b5-578a-af42-cf55">This model improves it&apos;s Ar by 1 up to a maximum of 4+. In addition the model loses the Fly and Scout special rules while using this item.</characteristic>
+            <characteristic name="Notes" typeId="7735-767f-4672-87c8"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3456,6 +3683,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink name="Heavy Armour (Uncommon) *" id="f412-7855-cc6a-7603" hidden="false" import="true" targetId="725c-06ab-ae3b-aac5" type="selectionEntry"/>
           </entryLinks>
           <modifiers>
             <modifier field="hidden" type="set" value="true">
@@ -3520,6 +3748,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
               </modifiers>
             </entryLink>
             <entryLink name="Throwing Knife (Rare) *" id="6903-b849-475c-8eb9" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry"/>
+            <entryLink name="Rifle (Uncommon)" id="d4b9-42cd-562d-41c4" hidden="false" import="true" targetId="d223-9cf4-2145-4d5a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Magic" id="f528-beb2-baa9-5dff" collective="false" hidden="false" import="true">
@@ -3749,6 +3978,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink name="Phothep&apos;s Ring of Protection (unique)" id="5104-c03d-68ee-e321" hidden="false" import="true" targetId="ddf5-9710-ee08-8d4b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Mount" id="0015-42c1-97a8-0bf7" collective="false" hidden="false" import="true">
@@ -3818,8 +4048,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Basic " id="cff4-79e8-2c40-b46c" collective="false" hidden="false" import="true" page="41" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Basic " id="cff4-79e8-2c40-b46c" collective="false" hidden="false" import="true" page="41" publicationId="37f5-f8f9-pubN68000">
       <entryLinks>
+        <entryLink name="Flameblast *" id="2a0b-8540-e2ef-bb9e" hidden="false" targetId="57f1-eb55-0275-ef61" type="selectionEntry"/>
+        <entryLink name="Meteor *" id="13bc-e3f7-dadf-8443" hidden="false" targetId="4ffd-e794-1fcd-0549" type="selectionEntry"/>
         <entryLink name="Fireball" id="29ee-0b25-fe08-8b3f" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
         <entryLink name="Hammer" id="c537-e997-7fca-99f7" collective="false" hidden="false" import="true" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
         <entryLink name="Heal" id="be07-8b41-f020-1ad7" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
@@ -3830,9 +4062,10 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <entryLink name="Stun" id="54de-efad-9312-e794" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
         <entryLink name="Windblast" id="bb70-7b73-0f6a-f8c4" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
         <entryLink name="Zap" id="d6e2-dee0-bfa6-5738" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
+        <entryLink name="Thunderclap *" id="a1d1-9bb6-5f5d-9d4f" hidden="false" import="true" targetId="fb3d-817e-7dde-6ee2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Noble" id="9d30-0373-64e2-5580" collective="false" hidden="false" import="true" page="123" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Noble" id="9d30-0373-64e2-5580" collective="false" hidden="false" import="true" page="123" publicationId="37f5-f8f9-pubN68000">
       <constraints>
         <constraint id="43b2-53eb-f733-557c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
@@ -3845,7 +4078,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <entryLink name="Teleport" id="dbf4-3ae0-a0d4-83ae" hidden="false" import="true" targetId="01a6-2c13-d66c-4161" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Primoridal" id="6890-416f-3aac-976f" collective="false" hidden="false" import="true" page="124" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Primoridal" id="6890-416f-3aac-976f" collective="false" hidden="false" import="true" page="124" publicationId="37f5-f8f9-pubN68000">
       <constraints>
         <constraint id="86bf-ff88-04b7-d151" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
@@ -3858,7 +4091,7 @@ Armour value by 1 until the end of the round (e.g. Ar 5+ becomes 4+). Place a Sp
         <entryLink name="Stoneskin" id="f9c4-3539-3331-7d0e" hidden="false" import="true" targetId="e750-a00c-c3de-4573" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Corrupt" id="2924-30ce-7cca-d3bc" collective="false" hidden="false" import="true" page="125" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Corrupt" id="2924-30ce-7cca-d3bc" collective="false" hidden="false" import="true" page="125" publicationId="37f5-f8f9-pubN68000">
       <constraints>
         <constraint id="27cc-19c3-4b41-a218" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>

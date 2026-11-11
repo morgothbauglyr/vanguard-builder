@@ -21,15 +21,11 @@
     <entryLink name="Winggit" id="ee3f-cd19-b475-267a" hidden="false" import="true" targetId="d62a-0b20-ff32-cd66" type="selectionEntry"/>
     <entryLink name="Wiz" id="c986-52b4-dc36-04ac" hidden="false" import="true" targetId="4805-5858-0499-cb12" type="selectionEntry"/>
     <entryLink name="Shroom Wiz" id="f85a-4724-3470-8b1e" hidden="false" import="true" targetId="defc-c13a-cc4a-5402" type="selectionEntry"/>
+    <entryLink name="Flee" id="20e0-f549-aaf4-c6da" hidden="false" import="true" targetId="9031-a02a-72ee-2c94" type="selectionEntry"/>
   </entryLinks>
   <publications>
     <publication name="Rulebook" id="90a1-0805-pubN68594"/>
   </publications>
-  <rules>
-    <rule name="FLEE! (1)" id="69ad-826c-44e8-9761" hidden="false">
-      <description>When an enemy model declares the intention to Engage a GOBLIN model, the GOBLIN model may elect to Flee unless it is already activated, Fatigued or Engaged. If the GOBLIN elects to FLEE, it moves before, and directly away from, the enemy model as far as possible with a free Walk action. It is then marked as Fatigued. If the enemy model can no longer reach the GOBLIN to Engage it, it may perform a Walk action (if it hasn’t already) and then its activation is over. This special ability is not limited to one use per Round.</description>
-    </rule>
-  </rules>
   <sharedProfiles>
     <profile name="Spidro Gigante" id="0dc9-6095-46f2-9d33" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
@@ -334,10 +330,11 @@
         <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
       </characteristics>
     </profile>
-    <profile name="Dastardly Traps" id="9f49-0a59-4edd-79c2" hidden="false" typeId="5379-8df5-b98c-876b" typeName="Attack - Melee">
+    <profile name="Dastardly Traps" id="9f49-0a59-4edd-79c2" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
       <characteristics>
-        <characteristic name="Dice" typeId="b753-a334-dc09-1e8c">2D8</characteristic>
-        <characteristic name="Rules" typeId="3037-7410-ede7-401d">Crushing Strength (1), Melee (5+)</characteristic>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">3&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">2D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1), Ranged (5+)</characteristic>
       </characteristics>
     </profile>
     <profile name="Dodgy Grenades" id="4009-bb1e-4247-21fa" hidden="false" typeId="4dc9-b7a9-fe41-a041" typeName="Area Effect">
@@ -361,38 +358,102 @@
         <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1), Reload</characteristic>
       </characteristics>
     </profile>
+    <profile name="AGILE FEINT" id="c643-d8b3-2526-4d35" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">After this model has made a Melee attack and after any Retaliation.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may make a free Break Away action.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="ALPHA HOWL!" id="cb6f-e1fe-fa1f-a7c8" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When declaring a Group Assault Action</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Magwa &amp; Jo&apos;os must the nominated group leader. All the members of the group have the Bloodlust special rule until the end of the turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="CACKLE" id="b77c-7f80-1613-ad68" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use when the model activates</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may cast the same spell twice this Turn if it has enough actions.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="CRAFTY TACTICS" id="7a8d-6794-6e09-42ed" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">During any of your Turns if this model is not Fatigued.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Remove 1 Fatigue counter from a friendly model within 6&quot; of this model. This ability may be used once per round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="ESCAPE!" id="c281-7cda-b8db-9267" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When an enemy model declares the intention to Engage this model</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model may elect to Escape! If it elects to Escape!, it moves before, and directly away from, the enemy model as far as possible with a free Walk action. It is then marked as Fatigued. If the enemy model can no longer reach this model to Engage it, it may perform a Walk action (if it hasn’t already) and then its activation is over. Escape! is limited to one use per Round for this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="FLEE!" id="a03e-6bd5-70a6-fb38" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When an enemy model declares the intention to Engage a GOBLIN model.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The GOBLIN model may elect to Flee unless it is already activated, Fatigued or Engaged. If the GOBLIN elects to FLEE, it moves before, and directly away from, the enemy model as far as possible with a free Walk action. It is then marked as Fatigued. If the enemy model can no longer reach the GOBLIN to Engage it, it may perform a Walk action (if it hasn’t already) and then its activation is over. This special ability is not limited to one use per Round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="HOWL!" id="68ab-a9f4-253d-258f" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use when the model activates or after it has finished its actions.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Any friendly, non-Fatigued and non-activated Mawbeasts within 6” of this model can immediately make a Walk action directly towards this model without being marked as activated. An individual Mawbeast can only Howl! once per Round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="I CAN SEE TIME!" id="8099-47ea-d06a-95f1" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when activating this model.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Once during this activation, after rolling dice during the first Cast action in this activation you may choose to re-roll all dice.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="POISON BLADES" id="d656-0b16-b48b-3382" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">The model makes a Ranged Attack with their Throwing Knives, before rolling dice.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The attack has the Piercing (1) rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="PUPPY YELP!" id="0c66-1163-93fb-9c3c" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">After a Ranged attack using the Mawpup Launcher has been resolved.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Any friendly, non-Fatigued and non-activated Mawbeasts within 6&quot; of the target can immediately make a Walk action directly towards the target without being marked as activated.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="DODGY GRENADES" id="fcb3-1fd8-fe07-9a2e" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">X</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When declaring a Ranged Attack Action.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Make a Ranged attack with the Dodgy Grenades. Before the attack is made, roll a single die and add (X) to the result. On a result of 8 or more, the grenade explodes before being thrown - the Banggit suffers 1 automatic hit with Piercing (X) and the ranged attack fails. Otherwise, the attack proceeds as normal
+Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dodgy Grenades" id="a03e-59ee-5e9f-782a" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (X), Area Effect</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="DASTARDLY TRAPS" id="15dc-72da-9b22-18d6" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">-</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When declaring a Short Action</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">As a short action, this model may place a 25mm trap marker anywhere within 6&quot; in Open Ground or Difficult Terrain but not within 6&quot; of another trap marker or within 3&quot; of an enemy model. When an enemy model moves within 3&quot; of a trap marker, it immediately suffers a 2D8 Ra 5+ attack with Piercing (1). The target model is marked as Fatigued if it suffers any wounds. The trap marker is then removed. A warband can have a maximum of 4 Dastardly Trap markers on the table at any time.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
-    <rule name="HOWL! (1)" id="1e48-b698-f75f-8907" hidden="false">
-      <description>Use when the model activates or after it has finished its actions. Any friendly, non-Fatigued and non-activated Mawbeasts within 6” of this model can immediately make a Walk action directly towards this model without being marked as activated. An individual Mawbeast can only Howl! once per Round.</description>
-    </rule>
-    <rule name="Vicious Swipe" id="6b03-4684-97f3-c6a9" hidden="false">
-      <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
-    </rule>
-    <rule name="Weapon - DODGY GRENADES (x)" id="3337-2f17-f0ea-8545" hidden="false">
-      <description>Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X)) Pay (X) power to make a Ranged attack with the Dodgy Grenades. Before the attack is made, roll a single die and add (X) to the result. On a result of 8 or more, the grenade explodes before being thrown - the Banggit suffers 1 automatic hit with Piercing (X) and the ranged attack fails. Otherwise, the attack proceeds as normal with Piercing (X).</description>
-    </rule>
-    <rule name="CACKLE! (1)" id="fed1-eaba-a309-3d60" hidden="false">
-      <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
-    </rule>
-    <rule name="Spell - Slink" id="40ae-7df8-1e18-ce14" hidden="false">
-      <description>Target a friendly GOBLIN model, with a -1 modifier on the roll. If a hit is scored, instead of suffering a wound, the target model removes any Activation counter on it and can be activated again this Round in a later Turn.</description>
-    </rule>
-    <rule name="Spell - Shrivel" id="69c1-f427-8071-25ff" hidden="false">
-      <description>For each hit scored, the target suffers a -1 modifier to any Melee or Ranged attack it makes until the end of the Round.
-
-Boosted version: 
-
-Cast as a long action instead. The spell rolls 3D8 rather than 2D8.</description>
-    </rule>
-    <rule name="AGILE FEINT (2)" id="6166-35dc-3536-4da4" hidden="false">
-      <description>Use this ability after a model has made a Melee attack and after any Retaliation.  The model may make a free Break Away action.</description>
-    </rule>
-    <rule name="ESCAPE! (2)" id="9c8f-f12c-f9a4-3cfe" hidden="false">
-      <description>The same as the Flee! warband ability, but may be used even if the model is already Activated or Fatigued.  However, Escape! is limited to one use per round for this model.</description>
-    </rule>
-    <rule name="POISON BLADES (1)" id="e10e-8c3c-e71d-dce7" hidden="false">
-      <description>Use this ability when the model makes a Ranged Attack with his Throwing Knives.  The attack has the Piercing (1) rule.</description>
+    <rule name="Dodgy Grenades" id="3337-2f17-f0ea-8545" hidden="false">
+      <description>Using the Ability **Dodgy Grenades** is required to use this attack.</description>
     </rule>
     <rule name="Inspiring ( Sneaks Only )" id="03ff-213e-65cd-5787" hidden="false"/>
     <rule name="Smokebombs" id="0411-af6c-8d01-c995" hidden="false">
@@ -401,62 +462,40 @@ Cast as a long action instead. The spell rolls 3D8 rather than 2D8.</description
     <rule name="Eye in the Sky" id="183e-368f-a5b5-79f6" hidden="false">
       <description>Friendly models (excluding the Winggit itself) making Ranged attacks against enemy models that are within 9&quot; of the Winggit always have clear LOS unless LOS is blocked.</description>
     </rule>
-    <rule name="Implacable" id="afa2-2e2c-3747-941a" hidden="false">
-      <description>This model cannot be Knocked-down for any reason and remains standing if any rule requires it to be Knocked-down.</description>
-    </rule>
     <rule name="Rabble Rouser" id="8a2f-0ad0-f85c-fc9a" hidden="false">
       <description>While within 6&quot; of this model, friendly GOBLIN models (not including the Blaggit) have their Nerve value improved by 1 (e.g. +6 becomes 5+ ).</description>
-    </rule>
-    <rule name="CRAFTY TACTICS (1)" id="f069-d718-acca-4da0" hidden="false">
-      <description>Use this ability during any of your Turns if this model is not Fatigued. Spend the power to remove 1 Fatigue counter from a friendly model within 6&quot; of this model. This ability may be used once per round.</description>
-    </rule>
-    <rule name="PUPPY YELP! (1)" id="23ac-910e-f5bc-3598" hidden="false">
-      <description>Use this ability after a Ranged attack using the Mawpup Launcher has been resolved. Any friendly, non-Fatigued and non-activated Mawbeasts within 6&quot; of the target can immediately make a Walk action directly towards the target without being marked as activated.</description>
     </rule>
     <rule name="Pup and Over" id="a2e4-0d9d-e4de-44a5" hidden="false">
       <description>This model has the Marksman special rule when making a Ranged attack against a target that is within 9&quot; of a friendly Winggit.</description>
     </rule>
-    <rule name="Weapon - Dastardly Traps" id="a2e1-d7a5-624c-dbf8" hidden="false">
-      <description>As a short action, this model may place a 25mm trap marker anywhere within 6&quot; in Open Ground or Difficult Terrain but not within 6&quot; of another trap marker or within 3&quot; of an enemy model. When an enemy model moves within 3&quot; of a trap marker, it immediately suffers a 2D8 Me 5+ attack with Crushing Strength (1). The target model is marked as Fatigued if it suffers any wounds. The trap marker is then removed. A warband can have a maximum of 4 Dastardly Trap markers on the table at any time.</description>
-    </rule>
-    <rule name="ALPHA HOWL! (2)" id="e9c5-4826-b65e-0a04" hidden="false">
-      <description>This is a group Assault Action. Magwa &amp; Jo&apos;os must the nominated group leader. All the members of the group have the Bloodlust special rule until the end of the turn.</description>
-    </rule>
     <rule name="Pack Leader" id="5f0c-936a-2cf6-fb0b" hidden="false">
       <description>You may take up two additional Mawbeast units in your Warband beyond those normally allowed in the Warband selection rules.</description>
     </rule>
-    <rule name="I CAN SEE TIME (1)" id="1698-dec6-500e-ae16" hidden="false">
-      <description>Use this ability when activating this model.
-After rolling dice during any Cast action in this activation you may choose to re-roll all dice.</description>
+    <rule name="Dastardly Traps" id="3b26-96e1-2ad1-d070" hidden="false">
+      <description>Using the Ability **Dastardly Traps** is required to use this attack.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Slink" id="2335-9511-3f2b-6927" collective="false" displayGroup="Spell" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Spell" id="21e0-6523-ade4-fbea" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
-        <categoryLink name="Faction Spell" id="4a8a-0527-9c27-2855" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+        <categoryLink name="Spell - Faction" id="4a8a-0527-9c27-2855" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
       </categoryLinks>
       <constraints>
         <constraint id="f82d-75d2-cae6-6e10" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
-      </costs>
       <infoLinks>
         <infoLink name="Slink" id="5a27-a74c-9e0f-4753" hidden="false" targetId="21a3-7192-ca82-9ae8" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Shrivel" id="de79-50fc-40a7-baa3" collective="false" displayGroup="Spell" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Faction Spell" id="3e8c-d9c4-cf1f-2fb1" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+        <categoryLink name="Spell - Faction" id="3e8c-d9c4-cf1f-2fb1" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
         <categoryLink name="Spell" id="effc-52a1-5a35-54ad" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
       </categoryLinks>
       <constraints>
         <constraint id="af03-770e-989e-eb18" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
-      </costs>
       <infoLinks>
         <infoLink name="Shrivel (Boosted)" id="98cf-768b-3774-4fba" hidden="false" targetId="1160-6c16-629d-58a6" type="profile"/>
         <infoLink name="Shrivel" id="7e4a-8735-9c0c-072e" hidden="false" targetId="2ec3-9f83-ea23-4704" type="profile"/>
@@ -467,18 +506,10 @@ After rolling dice during any Cast action in this activation you may choose to r
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Weapon - DODGY GRENADES (x)" id="6843-0a1a-63bc-6f08" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
+        <infoLink name="Dodgy Grenades" id="1875-90cf-e977-6b3a" hidden="false" targetId="a03e-59ee-5e9f-782a" type="profile"/>
+        <infoLink name="Dodgy Grenades" id="6843-0a1a-63bc-6f08" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
         <infoLink name="Dodgy Grenades" id="88c1-c7a6-0690-df0b" hidden="false" targetId="4009-bb1e-4247-21fa" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Dodgy Grenades" id="a03e-59ee-5e9f-782a" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (X), Area Effect</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Firebombs" id="c914-d44c-c7cb-1086" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -516,7 +547,7 @@ After rolling dice during any Cast action in this activation you may choose to r
         <infoLink name="Dastardly Traps" id="e0ac-5f63-8db2-ff62" hidden="false" targetId="9f49-0a59-4edd-79c2" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Spidro Gigante" id="c885-9d28-a7ff-16f0" hidden="false" import="true" type="model">
+    <selectionEntry name="Spidro Gigante *" id="c885-9d28-a7ff-16f0" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="9737-b000-2d72-51b4" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Beast" id="2b96-e22f-2159-ee94" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
@@ -530,7 +561,7 @@ After rolling dice during any Cast action in this activation you may choose to r
       <infoLinks>
         <infoLink name="Spidro Gigante" id="b029-6704-c8f4-c0c6" hidden="false" targetId="0dc9-6095-46f2-9d33" type="profile"/>
         <infoLink name="Pathfinder" id="136b-b4be-638e-87b5" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
-        <infoLink name="Climbing" id="e4ad-a3ea-94a4-edd4" hidden="false" targetId="5db9-a777-85c4-8055" type="rule"/>
+        <infoLink name="Climber" id="e4ad-a3ea-94a4-edd4" hidden="false" targetId="5db9-a777-85c4-8055" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="2136-c697-def2-d84f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Toxic" id="d6b7-3c14-0303-d4dc" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
         <infoLink name="Vicious Swipe" id="84df-8e95-7360-e0c9" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
@@ -574,6 +605,7 @@ After rolling dice during any Cast action in this activation you may choose to r
         <infoLink name="Dodge" id="50a2-6f32-1a1c-6c79" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="Sneaky" id="efd4-e1cd-4012-f6a9" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Weapon - DODGY GRENADES (x)" id="2bae-9457-036c-534c" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
+        <infoLink name="Dodgy Grenades" id="9fe2-b048-c3f0-b030" hidden="false" targetId="fcb3-1fd8-fe07-9a2e" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="2a37-840d-d466-2d69" type="increment" value="1">
@@ -632,9 +664,9 @@ After rolling dice during any Cast action in this activation you may choose to r
         <infoLink name="Sneaky" id="246b-ffac-4287-91b8" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Scout" id="e4e7-0c0b-3783-4814" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Stealthy" id="1919-fd10-e4df-3295" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="CRAFTY TACTICS (1)" id="f393-70ee-f9f0-7483" hidden="false" targetId="f069-d718-acca-4da0" type="rule"/>
         <infoLink name="Dodge" id="e0d9-aa84-595a-89c8" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="Rabble Rouser" id="5a1e-7ec1-0d72-c3da" hidden="false" targetId="8a2f-0ad0-f85c-fc9a" type="rule"/>
+        <infoLink name="Crafty Tactics" id="6dc0-6ae3-aea5-d134" hidden="false" targetId="7a8d-6794-6e09-42ed" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="5a06-3f19-01a5-2226" type="increment" value="1">
@@ -769,8 +801,8 @@ After rolling dice during any Cast action in this activation you may choose to r
         <infoLink name="Inspiring (Beasts only)" id="48b6-e9c3-c82a-9aac" hidden="false" targetId="fe66-a62b-ddab-fa89" type="rule"/>
         <infoLink name="Power Dice W/O (1)" id="3f79-b798-2b62-ef5c" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Pack Leader" id="825f-0263-b1e6-2983" hidden="false" targetId="5f0c-936a-2cf6-fb0b" type="rule"/>
-        <infoLink name="ALPHA HOWL! (2)" id="a6ca-9165-f59a-4f7c" hidden="false" targetId="e9c5-4826-b65e-0a04" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="9157-310b-f67e-2b1e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Alpha Howl!" id="1824-fb8f-25d9-7c2a" hidden="false" targetId="cb6f-e1fe-fa1f-a7c8" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Mawbeast" id="ebdb-51bc-c3a1-59ed" collective="false" hidden="false" import="true" type="model">
@@ -786,8 +818,8 @@ After rolling dice during any Cast action in this activation you may choose to r
       </costs>
       <infoLinks>
         <infoLink name="Mawbeast" id="cb7c-34b3-ee7a-6626" hidden="false" targetId="9dac-97a5-5176-6b41" type="profile"/>
-        <infoLink name="HOWL! (1)" id="c813-a862-b934-3899" hidden="false" targetId="1e48-b698-f75f-8907" type="rule"/>
         <infoLink name="Elite" id="4fd0-c96b-ecfc-4f98" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Howl!" id="0f33-1750-2ef3-7e83" hidden="false" targetId="68ab-a9f4-253d-258f" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="86ff-0f15-faa8-eacf" type="increment" value="1">
@@ -828,7 +860,7 @@ After rolling dice during any Cast action in this activation you may choose to r
       <infoLinks>
         <infoLink name="Mawpup Launcher" id="995b-d8e0-f723-8516" hidden="false" targetId="8d25-bb97-20c9-e7da" type="profile"/>
         <infoLink name="Pup and Over" id="5db7-e9ef-36e3-70d2" hidden="false" targetId="a2e4-0d9d-e4de-44a5" type="rule"/>
-        <infoLink name="PUPPY YELP! (1)" id="9f51-46de-2d03-444a" hidden="false" targetId="23ac-910e-f5bc-3598" type="rule"/>
+        <infoLink name="Puppy Yelp!" id="45e2-db21-bf64-cd15" hidden="false" targetId="0c66-1163-93fb-9c3c" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="f823-231f-2d12-0ffe" type="increment" value="1">
@@ -892,6 +924,9 @@ After rolling dice during any Cast action in this activation you may choose to r
             <constraint id="6535-3d93-bd95-6f5b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="28f2-64be-4649-453f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Dastardly Traps" id="300e-0eb3-800e-6db5" hidden="false" targetId="3b26-96e1-2ad1-d070" type="rule"/>
+          </infoLinks>
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
@@ -901,6 +936,7 @@ After rolling dice during any Cast action in this activation you may choose to r
         <infoLink name="Snaggit" id="5fa1-f9c2-0c8e-2520" hidden="false" targetId="a924-87aa-2d8e-a91d" type="profile"/>
         <infoLink name="Sneaky" id="bfe7-ed0c-b9e3-4f8c" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Pathfinder" id="648b-1945-ee51-5d90" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink name="Dastardly Traps" id="e8b8-40c2-3aaa-6278" hidden="false" targetId="15dc-72da-9b22-18d6" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="8e8a-649a-7254-0d5d" type="increment" value="1">
@@ -909,11 +945,6 @@ After rolling dice during any Cast action in this activation you may choose to r
           </repeats>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Dast" id="6af0-035c-5e2c-9e0e" hidden="false">
-          <description>As a short action, this model may place a 25mm trap marker anywhere within 6” in Open Ground or Difficult Terrain but not within 6” of another trap marker or 3” of an enemy model. When an enemy model moves within 3” of a trap marker, it immediately suffers a 2D8 Me 5+ attack with Crushing Strength (1). The target model is marked as Fatigued if it suffers any wounds. The trap marker is then removed. A Warband can have a maximum of 4 Dastardly Trap markers on the table at any time.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry name="Sneak" id="c180-7915-a812-9504" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -1018,9 +1049,9 @@ After rolling dice during any Cast action in this activation you may choose to r
         <infoLink name="Power Dice W/O (1)" id="8c16-a46e-3222-6095" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Scout" id="533e-0261-f112-0beb" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Stealthy" id="d937-6567-ee61-7d3c" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="ESCAPE! (2)" id="96e1-1411-1db3-3059" hidden="false" targetId="9c8f-f12c-f9a4-3cfe" type="rule"/>
-        <infoLink name="AGILE FEINT (2)" id="51a3-91a1-a28e-9dc7" hidden="false" targetId="6166-35dc-3536-4da4" type="rule"/>
-        <infoLink name="POISON BLADES (1)" id="3b2f-537a-cd8a-4340" hidden="false" targetId="e10e-8c3c-e71d-dce7" type="rule"/>
+        <infoLink name="Agile Feint" id="b69e-3947-6e42-a488" hidden="false" targetId="c643-d8b3-2526-4d35" type="profile"/>
+        <infoLink name="Escape!" id="bdc2-764e-d7d1-7661" hidden="false" targetId="c281-7cda-b8db-9267" type="profile"/>
+        <infoLink name="Poison Blades" id="a767-55a2-6e40-cca3" hidden="false" targetId="d656-0b16-b48b-3382" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="08fe-537e-f25c-36aa" type="increment" value="1">
@@ -1110,14 +1141,14 @@ After rolling dice during any Cast action in this activation you may choose to r
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Spellbook - Basic Wiz" id="4807-949c-e384-7168" collective="false" hidden="false" import="true" targetId="1a31-45a4-51fa-961e" type="selectionEntryGroup"/>
+        <entryLink name=" Spell Selection - Wiz" id="4807-949c-e384-7168" collective="false" hidden="false" import="true" targetId="1a31-45a4-51fa-961e" type="selectionEntryGroup"/>
         <entryLink name=" Items" id="c63b-93dc-59e7-6814" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Wiz" id="ff79-3b4b-78a5-6da2" hidden="false" targetId="623f-b8bc-466b-890b" type="profile"/>
-        <infoLink name="CACKLE! (1)" id="edc3-2837-a0e3-4109" hidden="false" targetId="fed1-eaba-a309-3d60" type="rule"/>
         <infoLink name="Power Dice R/B (1)" id="7d3b-6032-0f86-6e90" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Inspiring" id="0484-36ea-eaf7-dcc7" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Cackle" id="d5ea-27bd-aed9-3835" hidden="false" targetId="b77c-7f80-1613-ad68" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="aa9e-7197-7830-d53e" type="increment" value="1">
@@ -1127,7 +1158,7 @@ After rolling dice during any Cast action in this activation you may choose to r
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Shroom Wiz" id="defc-c13a-cc4a-5402" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Shroom Wiz *" id="defc-c13a-cc4a-5402" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="eec4-6b73-4e9c-d77d" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Goblin" id="3968-9e46-3786-8b70" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
@@ -1139,13 +1170,13 @@ After rolling dice during any Cast action in this activation you may choose to r
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Spellbook - Basic Shroom Wiz" id="26f9-a176-d228-dffb" collective="false" hidden="false" import="true" targetId="f2a8-2cf3-b7a3-e9a1" type="selectionEntryGroup"/>
+        <entryLink name=" Spell Selection - Shroom Wiz" id="26f9-a176-d228-dffb" collective="false" hidden="false" import="true" targetId="f2a8-2cf3-b7a3-e9a1" type="selectionEntryGroup"/>
         <entryLink name=" Items" id="8556-15d3-3587-762b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Shroom Wiz" id="257c-0fc1-e559-91c9" hidden="false" targetId="bfa4-3c78-266d-f9fc" type="profile"/>
-        <infoLink name="I CAN SEE TIME (1)" id="a94b-6492-f4fd-b954" hidden="false" targetId="1698-dec6-500e-ae16" type="rule"/>
         <infoLink name="Power Dice R/B (2)" id="0880-db8c-559b-27a0" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="I can see time!" id="5798-3b41-dfe3-8123" hidden="false" targetId="8099-47ea-d06a-95f1" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="aa73-ff6c-4c65-5638" type="increment" value="1">
@@ -1154,6 +1185,18 @@ After rolling dice during any Cast action in this activation you may choose to r
           </repeats>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Faction Abilities" id="9031-a02a-72ee-2c94" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Faction Ability" id="730d-91bd-a2b1-81e4" hidden="false" primary="true" targetId="b736-f2bd-d93d-6b4d"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="12b0-7241-efaa-6d59-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="12b0-7241-efaa-6d59-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Flee!" id="e878-c152-9b23-338a" hidden="false" targetId="a03e-6bd5-70a6-fb38" type="profile"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1213,12 +1256,12 @@ After rolling dice during any Cast action in this activation you may choose to r
       <entryLinks>
         <entryLink name="Slink" id="9a9d-1cd1-cbaf-19f9" hidden="false" import="true" targetId="2335-9511-3f2b-6927" type="selectionEntry">
           <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0">
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" scope="parent" shared="true" type="lessThan" value="2"/>
-                    <condition childId="6abc-d2e3-789a-2564" childName="Spell - Faction" field="selections" scope="parent" shared="true" type="atMost" value="1"/>
+                    <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                    <condition childId="6abc-d2e3-789a-2564" childName="Spell - Faction" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1227,9 +1270,9 @@ After rolling dice during any Cast action in this activation you may choose to r
         </entryLink>
         <entryLink name="Shrivel" id="7a63-55d1-9e52-2049" hidden="false" import="true" targetId="de79-50fc-40a7-baa3" type="selectionEntry">
           <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0">
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditions>
-                <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" scope="parent" shared="true" type="lessThan" value="2"/>
+                <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
               </conditions>
             </modifier>
           </modifiers>

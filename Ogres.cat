@@ -34,7 +34,7 @@
         <infoLink name="Crushing Strength (1)" id="12c9-96fe-0ebf-5a01" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Elite" id="8050-bd4a-f0b8-5abf" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Unbreakable" id="cf36-f43b-d6f3-b22c" hidden="false" targetId="cfa9-9ce0-371c-e7cd" type="rule"/>
-        <infoLink name="FRENZY (1)" id="5821-5c7d-786d-ec2c" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
+        <infoLink name="Frenzy" id="9b39-18cf-7d20-8339" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Berserker Brave" id="79e2-3be9-990e-77c9" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -274,24 +274,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Spellbook - Ogre Warlock" id="b778-5ec8-5211-4ff4" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup">
-          <constraints>
-            <constraint id="786e-b5a7-d39c-a384" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="44c2-cf6a-0d4b-6974" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
-          </constraints>
-          <modifiers>
-            <modifier field="786e-b5a7-d39c-a384" type="decrement" value="1">
-              <repeats>
-                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="62c7-6717-cc19-c52c" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="44c2-cf6a-0d4b-6974" type="decrement" value="1">
-              <repeats>
-                <repeat childId="c033-2980-b549-f3c8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="62c7-6717-cc19-c52c" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
+        <entryLink name=" Spellbook - Ogre Warlock" id="b778-5ec8-5211-4ff4" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Ogres (Free)" id="6c00-8602-bb2a-1f44" collective="false" hidden="false" import="true" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Ogres (Paid)" id="14fc-dccd-65dc-121d" collective="false" hidden="false" import="true" targetId="3614-4389-a100-7db2" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Primoridal" id="f4cb-41b9-1885-e301" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
@@ -549,8 +532,8 @@
         <infoLink name="Elite" id="ad01-2341-e14f-81de" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring (Berserker Braves only)" id="5c91-7306-7d7e-af9a" hidden="false" targetId="e775-5985-f1f3-9f23" type="rule"/>
         <infoLink name="Unbreakable" id="2dfe-0486-31fc-d267" hidden="false" targetId="cfa9-9ce0-371c-e7cd" type="rule"/>
-        <infoLink name="FRENZY (1)" id="7977-b1b4-802e-306a" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
         <infoLink name="BATTLE RAGE (2)" id="bfc0-0d22-95a2-86fe" hidden="false" targetId="66d3-661b-3962-5e14" type="rule"/>
+        <infoLink name="Frenzy" id="c36b-f8e0-6971-fab8" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Berserker Bully" id="e300-73ee-c343-22d8" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -733,7 +716,7 @@ COMMAND models. An Ogre Warband may select one additional SUPPORT or SPELLCASTER
           <characteristics>
             <characteristic name="Range" typeId="f9c3-6e8c-513c-004c">3&quot;</characteristic>
             <characteristic name="Dice" typeId="2e7f-fdd0-d47c-b762">2D8</characteristic>
-            <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b"> Piercing (1)</characteristic>
+            <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b">Piercing (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>

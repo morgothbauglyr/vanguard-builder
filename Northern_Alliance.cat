@@ -1,83 +1,380 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Northern Alliance" id="257e-724d-d140-2297" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink name="Faction Abilities" id="cab4-b908-c0d3-cf0c" hidden="false" targetId="5114-ebbf-c9f3-3cb9" type="selectionEntry"/>
+    <entryLink name="Thegn" id="958e-e816-8c5c-71b5" collective="false" hidden="false" targetId="be69-8cbc-af47-b13d" type="selectionEntry"/>
+    <entryLink name="Snow Troll Prime" id="efa1-9619-6c11-a35a" collective="false" hidden="false" targetId="ec69-8386-5abe-0af5" type="selectionEntry"/>
+    <entryLink name="Snow Troll" id="0536-2936-f0d8-cb7f" collective="false" hidden="false" targetId="e979-1f66-f438-a103" type="selectionEntry"/>
+    <entryLink name="Ice Naiad" id="0241-dc32-a126-ce79" collective="false" hidden="false" targetId="28e1-ab53-94e5-9149" type="selectionEntry"/>
+    <entryLink name="Huscarl" id="9db2-adea-f6cc-ce51" collective="false" hidden="false" targetId="879e-2eee-0e9f-0f03" type="selectionEntry"/>
+    <entryLink name="Ice Kin Hunter" id="d4a1-1203-1432-9a45" collective="false" hidden="false" targetId="8061-440d-5419-dc41" type="selectionEntry"/>
+    <entryLink name="Ice Queen" id="2c18-6187-8773-1f50" collective="false" hidden="false" targetId="3a3a-da30-5132-1a13" type="selectionEntry"/>
+    <entryLink name="Human Clansman" id="b202-9130-aa50-d1bc" collective="false" hidden="false" targetId="c4a5-8c4f-3c3f-21cc" type="selectionEntry"/>
+    <entryLink name="Ice Elemental" id="d75d-5cd1-8bb4-743a" collective="false" hidden="false" targetId="4dfc-e61a-8bc3-5010" type="selectionEntry"/>
+    <entryLink name="Dwarf Clansman" id="5974-760a-8852-6f23" collective="false" hidden="false" targetId="8e97-95d1-cdc2-a553" type="selectionEntry"/>
+    <entryLink name="Elf Clansman" id="6ad3-047a-6009-0814" collective="false" hidden="false" targetId="058e-1f17-f0ab-89ac" type="selectionEntry"/>
+    <entryLink name="Ice Blade" id="afcb-160c-f44d-d885" collective="false" hidden="false" targetId="4660-6bb4-83bf-749d" type="selectionEntry"/>
+    <entryLink name="Half-Elf Berserker" id="4750-6485-5f36-06e3" collective="false" hidden="false" targetId="3370-de14-1830-b042" type="selectionEntry"/>
+    <entryLink name="Frostfang Cavalry" id="b2af-c72d-48ed-26a1" collective="false" hidden="false" targetId="da6c-db9c-f1df-c5bf" type="selectionEntry"/>
+  </entryLinks>
   <publications>
     <publication name="Rulebook" id="ffea-0323-pubN70796"/>
   </publications>
-  <rules>
-    <rule name="HARDY VETERANS (1)" id="6bfa-4e8a-573d-8ca9" hidden="false">
-      <description>Use this ability when a model would be knocked down, Spend 1 power to gain the Steady ability for this attack. Models that already have Steady may re-roll the result. This ability may be used any number of time in a Round.</description>
+  <sharedProfiles>
+    <profile name="Dwarf Clansman" id="dd46-15d0-a1f0-b1dd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Elf Clansman" id="0f43-dd7b-637c-c642" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Frostfang Cavalry" id="296b-68f8-88d8-9be5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">3+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Half-Elf Berserker" id="68f5-446f-055a-3bfc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Human Clansman" id="3f9d-e647-50e6-921c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Huscarl" id="4acd-492e-018d-fe16" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ice Blade" id="0a68-095a-a923-41c5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ice Elemental" id="2f49-d247-733b-8582" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ice Kin Hunter" id="1d33-f7c9-5875-cda6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ice Naiad" id="3e10-dde8-d04b-ca8a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ice Queen" id="5ea8-bc0e-8f0b-0789" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Snow Troll" id="3152-34de-b380-a47b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Snow Troll Prime" id="849d-a9dc-c37c-7e56" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thegn" id="3838-b5f4-c1c0-d89b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hold Fast" id="fa24-60c0-7b61-3b45" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
+</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly model, even if it is Engaged. For the remainder of the Round, that model has a +1 modifier to any Nerve tests it is required to make and may add 1 bonus die to any Armour rolls it must take.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+      </characteristics>
+    </profile>
+    <profile name="Hold Fast (Boosted)" id="ae04-a52c-f06c-adc6" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
+</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly model, even if it is Engaged. For the remainder of the Round, that model has a +2 modifier to any Nerve tests it is required to make and may add 2 bonus die to any Armour rolls it must take.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+      </characteristics>
+    </profile>
+    <profile name="Icy Breath" id="ed58-6f28-0b45-a276" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Power Cost (2), Breath, Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Winter’s Bite" id="c726-bf12-df2a-2992" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">If the target suffers any wounds, it is Knocked-down and marked as Fatigued.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+      </characteristics>
+    </profile>
+    <profile name="BLADE MASTER" id="76ea-5fb8-762e-d1f6" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Melee attack (including Retaliations) before dice are rolled. </characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may attack all enemy models it is Enaged with in its front arc by dividing the attack dice between them. Allocate the dice to be used for each enemy model before any are rolled. If the model initiated the Fight, only one enemy model may Retaliate (enemy player’s choice) and only after all the model&apos;s attacks are resolved.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="HARDY VETERANS" id="aeb2-16eb-3c7f-466d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When a model would be knocked down.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Gain the Steady ability for this attack. Models that already have Steady may re-roll the result. This ability may be used any number of time in a Round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="HEAD SWING" id="d344-10b4-d6ad-75d5" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal. </characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Every enemy model that is Engaged with this model must make a Nerve test with a -1 Modifier. If any model fails its test, it is knocked-down and marked as Fatigued. Once all models have made a test, the Melee attack ends. Models may Retaliate if permitted to do so as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="ICE BLAST" id="a2a1-c385-7bfa-3667" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When a model is knocked down by this model in Melee.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model must take a Nerve test. If the test is failed, the model is marked as Fatigued.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="LASH" id="c7a1-3b94-8775-888d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when casting the Lightning Bolt spell.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Lightning Bolt becomes a short action to cast instead of a long action.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="RAPID FIRE" id="3b97-56c0-520e-d2b2" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of this model&apos;s activation.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may make separate ranged attacks at two different targets that are within 3&quot; of each other following the normal targeting rules. This cannot be as part of a Group Action. The model may not make a Fatigue Action during this activation.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Frost Hammer" id="79a0-5d5c-4b24-84a8" hidden="false">
+      <description>A great two-handed hammer wielded by the Dwarf clans in the North. The model gains Crushing Strength (1) and reduces it&apos;s Ar by 1.</description>
     </rule>
     <rule name="Talannar’s Pack" id="c0ca-1849-6fe6-9e5e" hidden="false">
       <description>Northern Alliance Warbands may take 1 additional LARGE model than the game size would normally allow.</description>
     </rule>
-  </rules>
-  <selectionEntries>
-    <selectionEntry name="Human Clansman" id="c4a5-8c4f-3c3f-21cc" collective="false" hidden="false" import="true" type="model">
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Hold Fast" id="3d8c-4bad-b9e2-97ad" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Grunt" id="1ec1-af5e-9952-af8c" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
-        <categoryLink name="Troop" id="d83b-440d-05e5-4355" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Spell" id="2f06-36fe-5176-a36d" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="bd29-6b58-128b-ccef" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="b33e-c0f1-205e-2cb2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Hold Fast (Boosted)" id="5224-fdcc-6b3c-c3cf" hidden="false" targetId="ae04-a52c-f06c-adc6" type="profile"/>
+        <infoLink name="Hold Fast" id="59ea-ec22-fe4f-768e" hidden="false" targetId="fa24-60c0-7b61-3b45" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Winter’s Bite" id="1a7a-2ab5-8462-8622" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell" id="6e00-93a3-2f48-e5b8" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="1102-702c-aa77-bee0" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0b3f-574e-d2b8-f87f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Winter’s Bite" id="36c4-d956-b369-0499" hidden="false" targetId="c726-bf12-df2a-2992" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Frosthammer" id="62d4-ccf4-1150-dd04" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Has Crushing Strength" id="d600-ee65-a54a-197f" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1"/>
       </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="8e44-8791-2f60-4c14" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (1)" id="7d2b-03ed-9b58-a05a" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Weapon - Frost Hammer" id="c5d6-b523-4647-cc52" hidden="false" targetId="79a0-5d5c-4b24-84a8" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Frost-Trident" id="a92b-70ae-f79a-8fb7" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
       <profiles>
-        <profile name="Human Clansman" id="3f9d-e647-50e6-921c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+        <profile name="Frost-Trident" id="6e18-ac89-1790-c0c7" hidden="false" typeId="5379-8df5-b98c-876b" typeName="Attack - Melee">
           <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+            <characteristic name="Dice" typeId="b753-a334-dc09-1e8c"/>
+            <characteristic name="Rules" typeId="3037-7410-ede7-401d">Immobilize</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Elf Clansman" id="058e-1f17-f0ab-89ac" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Icy Breath" id="a342-7c80-73a9-a964" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Grunt" id="299e-33ec-06d5-e8f3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
-        <categoryLink name="Troop" id="2ed1-9380-e758-facf" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Spell" id="3b5a-db35-09f6-64cc" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="d584-c266-9c2e-90f3" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink name="Bow" id="5e38-e3b6-94e6-a579" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
-          <constraints>
-            <constraint id="be58-d379-4e1b-76ff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="9d94-8e79-a2d5-138e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-          </modifiers>
-        </entryLink>
-        <entryLink name=" Items" id="5f22-f44e-70b1-ae41" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <profiles>
-        <profile name="Elf Clansman" id="0f43-dd7b-637c-c642" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink name="Icy Breath" id="c767-21a1-9a45-7987" hidden="false" targetId="ed58-6f28-0b45-a276" type="profile"/>
+        <infoLink name="Power Cost (2)" id="03e0-5123-5888-285f" hidden="false" targetId="520b-88f6-e24c-081b" type="rule"/>
+      </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Dwarf Clansman" id="8e97-95d1-cdc2-a553" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Dwarf Clansman" id="8e97-95d1-cdc2-a553" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Grunt" id="8528-831f-12f7-b4d7" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="20dd-6204-91d5-679d" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
@@ -93,59 +390,63 @@
         </entryLink>
         <entryLink name=" Items" id="7035-83b8-f193-4488" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
-      <profiles>
-        <profile name="Dwarf Clansman" id="dd46-15d0-a1f0-b1dd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
+      <infoLinks>
+        <infoLink name="Dwarf Clansman" id="78cb-4137-a335-973f" hidden="false" targetId="dd46-15d0-a1f0-b1dd" type="profile">
           <modifiers>
             <modifier field="cbb8-58cf-daa7-a95a" type="set" value="6+">
               <conditions>
-                <condition childId="ee1d-46fc-b3e8-8ce2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="8e97-95d1-cdc2-a553" shared="false" type="greaterThan" value="0"/>
+                <condition childId="ee1d-46fc-b3e8-8ce2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="greaterThan" value="0"/>
               </conditions>
             </modifier>
           </modifiers>
-        </profile>
-      </profiles>
+        </infoLink>
+        <infoLink name="Headstrong" id="c864-0cdd-4c37-0d13" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+      </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Huscarl" id="879e-2eee-0e9f-0f03" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Elf Clansman" id="058e-1f17-f0ab-89ac" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
-        <categoryLink name="Warrior" id="e51b-8925-46f5-5fe0" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="c878-e13c-43fd-ed88" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Grunt" id="299e-33ec-06d5-e8f3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="2ed1-9380-e758-facf" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="8da6-a8c9-d945-6e57" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Bow" id="5e38-e3b6-94e6-a579" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+          <constraints>
+            <constraint id="be58-d379-4e1b-76ff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name=" Items" id="5f22-f44e-70b1-ae41" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
-      <profiles>
-        <profile name="Huscarl" id="4acd-492e-018d-fe16" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink name="Elf Clansman" id="06b3-6471-0aaf-524a" hidden="false" targetId="0f43-dd7b-637c-c642" type="profile"/>
+      </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Half-Elf Berserker" id="3370-de14-1830-b042" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Frostfang Cavalry" id="da6c-db9c-f1df-c5bf" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="82ac-59e2-6ccb-cf5f" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Cavalry" id="5356-cb18-1e80-2876" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Has Crushing Strength" id="a533-54db-8832-2032" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Rule Check - Allows 1 more Large then Normal" id="33bd-7a35-ad7a-758f" collective="false" hidden="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Frostfang Cavalry" id="4c3f-4021-bc03-a6a3" hidden="false" targetId="296b-68f8-88d8-9be5" type="profile"/>
+        <infoLink name="Bloodlust" id="7ebe-3db7-e61f-af17" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="Smash" id="029f-d28c-af27-33df" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Crushing Strength (3)" id="1f18-611f-ba70-e71c" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
+        <infoLink name="Cavalry" id="7993-a40f-5781-5e37" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Half-Elf Berserker" id="3370-de14-1830-b042" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Warrior" id="a8e0-3f38-9af8-0ab8" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="1ecd-3718-3606-59d6" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
@@ -157,65 +458,85 @@
         <entryLink name=" Items" id="fb27-1eda-2699-b6ab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="FRENZY (1)" id="e6f3-ef64-d9f9-ef0b" hidden="false" targetId="7543-6f96-15f0-8234" type="rule"/>
+        <infoLink name="Half-Elf Berserker" id="04a0-1631-c37b-7a2b" hidden="false" targetId="68f5-446f-055a-3bfc" type="profile"/>
         <infoLink name="Bloodlust" id="d89d-6991-4779-65be" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="Frenzy" id="9313-ad4e-cf5d-517c" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Half-Elf Berserker" id="68f5-446f-055a-3bfc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Ice Naiad" id="28e1-ab53-94e5-9149" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Human Clansman" id="c4a5-8c4f-3c3f-21cc" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
-        <categoryLink name="Warrior" id="7b9d-97dc-c9b5-acd1" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="b6a4-061f-07cd-8918" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-        <categoryLink name="Has Regenerate" id="b684-ad07-0a8a-90f6" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Grunt" id="1ec1-af5e-9952-af8c" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="d83b-440d-05e5-4355" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <entryLinks>
-        <entryLink name="Frost-Trident" id="583a-2c95-f053-ef2b" collective="false" hidden="false" import="true" targetId="a92b-70ae-f79a-8fb7" type="selectionEntry">
-          <constraints>
-            <constraint id="1ecd-847c-650a-4bf5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="1b16-5cf6-d7fd-7070" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-        </entryLink>
-        <entryLink name=" Items" id="d8a3-6392-1ae4-6220" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Items" id="8e44-8791-2f60-4c14" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Regenerate (7+)" id="a179-7925-3eae-d3d9" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Human Clansman" id="307b-1258-e436-c5b1" hidden="false" targetId="3f9d-e647-50e6-921c" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Ice Naiad" id="3e10-dde8-d04b-ca8a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">++</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Ice Kin Hunter" id="8061-440d-5419-dc41" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Huscarl" id="879e-2eee-0e9f-0f03" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="e51b-8925-46f5-5fe0" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="c878-e13c-43fd-ed88" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Crushing Strength" id="a17f-d44a-d105-1c26" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="8da6-a8c9-d945-6e57" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Huscarl" id="215b-6071-94be-5c3d" hidden="false" targetId="4acd-492e-018d-fe16" type="profile"/>
+        <infoLink name="Crushing Strength (1)" id="f197-23db-15aa-94bc" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Ice Blade" id="4660-6bb4-83bf-749d" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="3f4e-92b3-a653-4ac2" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="9d2d-b0f6-529f-e2ef" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="87c5-24f0-22bc-7925" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Blade Master" id="e8fd-5701-8685-6c1a" hidden="false" targetId="76ea-5fb8-762e-d1f6" type="profile"/>
+        <infoLink name="Ice Blade" id="4be7-8502-b7f5-16f8" hidden="false" targetId="0a68-095a-a923-41c5" type="profile"/>
+        <infoLink name="6th Sense" id="2876-8767-b0ec-5beb" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
+        <infoLink name="Bloodlust" id="22fe-e8d3-d454-1a09" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="ba0c-7e83-440e-8224" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Dodge" id="cc5c-2319-bde6-e961" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="f500-866f-5882-c701" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Frenzy" id="5bcd-68d5-77c5-a0fe" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Ice Elemental" id="4dfc-e61a-8bc3-5010" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="ef54-2c9e-5b3c-d79f" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Crushing Strength" id="428f-13aa-bddd-4443" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="47"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Icy Breath" id="5d8f-dd39-0f45-021e" collective="false" hidden="false" import="true" targetId="a342-7c80-73a9-a964" type="selectionEntry"/>
+        <entryLink name=" Items" id="2a80-6f49-c870-788a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ice Elemental" id="624e-00c8-f235-1353" hidden="false" targetId="2f49-d247-733b-8582" type="profile"/>
+        <infoLink name="Crushing Strength (2)" id="5292-d250-5b9a-a3dc" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Pound" id="ce1d-f05e-9971-b544" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+        <infoLink name="ICE BLAST" id="ff79-7e35-32c9-626a" hidden="false" targetId="a2a1-c385-7bfa-3667" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Ice Kin Hunter" id="8061-440d-5419-dc41" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="2335-2578-270a-d5fc" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
       </categoryLinks>
@@ -235,105 +556,55 @@
         <entryLink name=" Items" id="45cf-866b-21b4-7a07" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
+        <infoLink name="Ice Kin Hunter" id="63b9-3b6b-6fb3-8002" hidden="false" targetId="1d33-f7c9-5875-cda6" type="profile"/>
         <infoLink name="Scout" id="5bb6-78b9-0bbc-4526" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Marksman" id="d88d-eb93-1001-3831" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
         <infoLink name="Pathfinder" id="169d-4756-4258-8a72" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
-        <infoLink name="RAPID FIRE (2)" id="7df6-c0cf-6cb3-ed5b" hidden="false" targetId="6844-5a38-9d94-2b07" type="rule"/>
+        <infoLink name="RAPID FIRE" id="5dfe-26ed-70ba-59eb" hidden="false" targetId="3b97-56c0-520e-d2b2" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Ice Kin Hunter" id="1d33-f7c9-5875-cda6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Ice Elemental" id="4dfc-e61a-8bc3-5010" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Ice Naiad" id="28e1-ab53-94e5-9149" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
-        <categoryLink name="Large" id="ef54-2c9e-5b3c-d79f" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
-        <categoryLink name="Has Crushing Strength" id="428f-13aa-bddd-4443" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Warrior" id="7b9d-97dc-c9b5-acd1" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="b6a4-061f-07cd-8918" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Has Regenerate" id="b684-ad07-0a8a-90f6" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="47"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
       <entryLinks>
-        <entryLink name="Icy Breath" id="5d8f-dd39-0f45-021e" collective="false" hidden="false" import="true" targetId="a342-7c80-73a9-a964" type="selectionEntry">
+        <entryLink name="Frost-Trident" id="583a-2c95-f053-ef2b" collective="false" hidden="false" import="true" targetId="a92b-70ae-f79a-8fb7" type="selectionEntry">
           <constraints>
-            <constraint id="5913-2225-70c4-9612" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
-            <constraint id="eebe-7b08-028b-1c1b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+            <constraint id="1ecd-847c-650a-4bf5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="1b16-5cf6-d7fd-7070" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Rule Check - Allows 1 more Large then Normal" id="a9f1-0ab5-a9fe-df9c" collective="false" hidden="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
-        <entryLink name=" Items" id="2a80-6f49-c870-788a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Items" id="d8a3-6392-1ae4-6220" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Crushing Strength (2)" id="5292-d250-5b9a-a3dc" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Pound" id="ce1d-f05e-9971-b544" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="ICE BLAST (1)" id="713e-cf9c-1648-14a6" hidden="false" targetId="5d80-fea9-b189-b720" type="rule"/>
-        <infoLink name="ICY BREATH (2) " id="9109-62fa-99cf-ba65" hidden="false" targetId="7841-792d-2343-0277" type="rule"/>
+        <infoLink name="Ice Naiad" id="4300-e01b-32a6-1998" hidden="false" targetId="3e10-dde8-d04b-ca8a" type="profile"/>
+        <infoLink name="Regenerate (7+)" id="a179-7925-3eae-d3d9" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Ice Elemental" id="2f49-d247-733b-8582" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Frostfang Cavalry" id="da6c-db9c-f1df-c5bf" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Ice Queen" id="3a3a-da30-5132-1a13" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
-        <categoryLink name="Large" id="82ac-59e2-6ccb-cf5f" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
-        <categoryLink name="Cavalry" id="5356-cb18-1e80-2876" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
-        <categoryLink name="Has Crushing Strength" id="a533-54db-8832-2032" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Spellcaster" id="a81e-f4c3-1b12-07c0" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
       <entryLinks>
-        <entryLink name="Rule Check - Allows 1 more Large then Normal" id="33bd-7a35-ad7a-758f" collective="false" hidden="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+        <entryLink name="Spell selection - Ice Queen" id="0bf2-a3df-ef3d-ff71" collective="false" hidden="false" import="true" targetId="9255-ad3a-b198-7dac" type="selectionEntryGroup"/>
+        <entryLink name=" Items" id="2754-0d91-1bc0-35e1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Bloodlust" id="7ebe-3db7-e61f-af17" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Smash" id="029f-d28c-af27-33df" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Crushing Strength (3)" id="1f18-611f-ba70-e71c" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
-        <infoLink name="Cavalry" id="7993-a40f-5781-5e37" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink name="Ice Queen" id="8c06-883c-cb70-de94" hidden="false" targetId="5ea8-bc0e-8f0b-0789" type="profile"/>
+        <infoLink name="Inspiring" id="c97c-206c-8671-8cf9" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Power Dice B/G (1)" id="c22c-1e15-77f5-f5d2" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="LASH" id="a018-219d-1647-a9a3" hidden="false" targetId="c7a1-3b94-8775-888d" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Frostfang Cavalry" id="296b-68f8-88d8-9be5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">3+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Snow Troll" id="e979-1f66-f438-a103" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Snow Troll" id="e979-1f66-f438-a103" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="8422-1650-5d22-1268" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="ad75-c89e-2f63-741b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
@@ -343,75 +614,23 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
       </costs>
       <entryLinks>
-        <entryLink name="Rule Check - Allows 1 more Large then Normal" id="a4db-231a-c4e3-b279" collective="false" hidden="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
         <entryLink name=" Items" id="3b6d-e1ba-b5f4-5bca" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
+        <infoLink name="Snow Troll" id="e3f5-04cd-4b66-34b0" hidden="false" targetId="3152-34de-b380-a47b" type="profile"/>
         <infoLink name="Elite" id="b8bd-5395-47d2-a3c3" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="e16c-3af6-22fc-f345" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Regenerate (6+)" id="1cd5-b43f-b428-8f2e" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Vicious Swipe" id="6c51-4af0-3e25-178d" hidden="false" targetId="1453-a604-8789-f293" type="rule"/>
+        <infoLink name="Vicious Swipe" id="6c51-4af0-3e25-178d" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Snow Troll" id="3152-34de-b380-a47b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Ice Blade" id="4660-6bb4-83bf-749d" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Command" id="3f4e-92b3-a653-4ac2" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
-        <categoryLink name="Has Crushing Strength" id="9d2d-b0f6-529f-e2ef" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="87c5-24f0-22bc-7925" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="6th Sense" id="2876-8767-b0ec-5beb" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
-        <infoLink name="Bloodlust" id="22fe-e8d3-d454-1a09" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="ba0c-7e83-440e-8224" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Dodge" id="cc5c-2319-bde6-e961" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="f500-866f-5882-c701" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-        <infoLink name="FRENZY (1)" id="8a1e-4b18-e300-75b3" hidden="false" targetId="7543-6f96-15f0-8234" type="rule"/>
-        <infoLink name="BLADE MASTER (2)" id="96c7-5f30-63cf-4dba" hidden="false" targetId="8778-5d9f-7ab1-456e" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Ice Blade" id="0a68-095a-a923-41c5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Snow Troll Prime" id="ec69-8386-5abe-0af5" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Snow Troll Prime" id="ec69-8386-5abe-0af5" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="6d7a-4dca-7abc-f0ef" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="5e5b-9f1c-b2b4-ce8f" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Large Command" id="7002-72a9-491f-195a" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
         <categoryLink name="Has Regenerate" id="2068-5184-dabc-9e6f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Large" id="1fbd-37f2-bf32-b4ee" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54"/>
@@ -420,31 +639,16 @@
         <entryLink name=" Items" id="3bd0-469e-b593-0406" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
+        <infoLink name="Snow Troll Prime" id="1003-759d-dec5-7384" hidden="false" targetId="849d-a9dc-c37c-7e56" type="profile"/>
         <infoLink name="Elite" id="3ab3-bc7d-3dc6-6946" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="a9fe-baee-e8f9-c7e5" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Regenerate (6+)" id="6147-dd33-f146-06af" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Vicious Swipe" id="b011-8164-ec8a-a72d" hidden="false" targetId="1453-a604-8789-f293" type="rule"/>
+        <infoLink name="Vicious Swipe" id="b011-8164-ec8a-a72d" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
         <infoLink name="Power Dice W/O (1)" id="939e-ecdc-c236-2891" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="4972-fc04-627c-fb68" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Snow Troll Prime" id="849d-a9dc-c37c-7e56" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Thegn" id="be69-8cbc-af47-b13d" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Thegn" id="be69-8cbc-af47-b13d" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="4bdf-ea9b-bb2c-108d" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="751f-b0f0-cd9b-d17c" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
@@ -456,293 +660,107 @@
         <entryLink name=" Items" id="a36e-38dd-1dec-2ba6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
+        <infoLink name="Thegn" id="27cc-27e5-a3fe-6367" hidden="false" targetId="3838-b5f4-c1c0-d89b" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="d14f-a841-feaf-c9fa" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Inspiring" id="616f-fee8-70ac-2d9d" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="HEAD SWING (1)" id="6c9a-b0ac-ea5a-4605" hidden="false" targetId="eb4b-1dd8-49ac-39dc" type="rule"/>
         <infoLink name="Power Dice B/G (1)" id="4e64-e2d7-64c9-a66f" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="HEAD SWING" id="d992-8a03-1cf1-e797" hidden="false" targetId="d344-10b4-d6ad-75d5" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Thegn" id="3838-b5f4-c1c0-d89b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Ice Queen" id="3a3a-da30-5132-1a13" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Faction Abilities" id="5114-ebbf-c9f3-3cb9" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Spellcaster" id="a81e-f4c3-1b12-07c0" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Faction Ability" id="1339-79d6-0c3c-0742" hidden="false" primary="true" targetId="b736-f2bd-d93d-6b4d"/>
+        <categoryLink name="+1 Large" id="1076-d6de-8b6d-d00f" hidden="false" primary="false" targetId="0e3f-0c65-189b-70eb"/>
       </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Spellbook - Northern Alliance (Free)" id="9abf-9db5-7149-1704" collective="false" hidden="false" import="true" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Noble" id="c4ce-500d-bb69-65bf" collective="false" hidden="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Ice Queen" id="0bf2-a3df-ef3d-ff71" collective="false" hidden="false" import="true" targetId="9255-ad3a-b198-7dac" type="selectionEntryGroup">
-          <constraints>
-            <constraint id="9372-e967-6bfe-f184" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
-            <constraint id="4c0e-f946-981d-1e19" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
-          </constraints>
-          <modifiers>
-            <modifier field="4c0e-f946-981d-1e19" type="decrement" value="1">
-              <repeats>
-                <repeat childId="9abf-9db5-7149-1704" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="3a3a-da30-5132-1a13" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="9372-e967-6bfe-f184" type="decrement" value="1">
-              <repeats>
-                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="3a3a-da30-5132-1a13" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink name=" Items" id="2754-0d91-1bc0-35e1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Northern Alliance (Paid)" id="498f-a850-8814-0dfb" collective="false" hidden="false" import="true" targetId="9fe7-6a3f-1b49-6e01" type="selectionEntryGroup"/>
-      </entryLinks>
+      <constraints>
+        <constraint id="8875-6ddc-e6dd-f591-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="8875-6ddc-e6dd-f591-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <infoLinks>
-        <infoLink name="Inspiring" id="c97c-206c-8671-8cf9" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice B/G (1)" id="c22c-1e15-77f5-f5d2" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
-        <infoLink name="LASH (1)" id="c910-a95e-7053-5238" hidden="false" targetId="eed2-78c2-dbd5-daae" type="rule"/>
+        <infoLink name="Talannar’s Pack" id="4f60-dc1e-faed-4f4e" hidden="false" targetId="c0ca-1849-6fe6-9e5e" type="rule"/>
+        <infoLink name="HARDY VETERANS" id="a254-3d68-aee1-0350" hidden="false" targetId="aeb2-16eb-3c7f-466d" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Ice Queen" id="5ea8-bc0e-8f0b-0789" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-  </selectionEntries>
-  <sharedRules>
-    <rule name="FRENZY (1)" id="7543-6f96-15f0-8234" hidden="false">
-      <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus dice for a roll.</description>
-    </rule>
-    <rule name="RAPID FIRE (2)" id="6844-5a38-9d94-2b07" hidden="false">
-      <description>Use this ability when this model is about to perform a ranged attack, before dice are rolled. The model may shoot twice at two different targets that are within 3&quot; of each other following the normal targeting rules. This cannot be as part of a Group or Fatigue Action.</description>
-    </rule>
-    <rule name="ICE BLAST (1)" id="5d80-fea9-b189-b720" hidden="false">
-      <description>Use this ability when a model is knocked down by this elemental in Melee. The model must take a Nerve test. If the test is failed, the model is marked as Fatigued.</description>
-    </rule>
-    <rule name="Spell - Icy Breath (2)" id="2714-56d3-a46b-0f22" hidden="false">
-      <description>Use this ability when taking a Shoot action. Make a Ranged attack using an Ra value of 5+, 3D8, Range 9&quot;, Breath, Piercing (1).</description>
-    </rule>
-    <rule name="Vicious Swipe" id="1453-a604-8789-f293" hidden="false">
-      <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
-    </rule>
-    <rule name="HEAD SWING (1)" id="eb4b-1dd8-49ac-39dc" hidden="false">
-      <description>Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal. Every enemy model that is Engaged with this model must make a Nerve test with a -1 Modifier. If any model fails its test, it is knocked-down and marked as Fatigued. Once all models have made a test, the Melee attack ends. Models may Retaliate if permitted to do so as normal.</description>
-    </rule>
-    <rule name="BLADE MASTER (2)" id="8778-5d9f-7ab1-456e" hidden="false">
-      <description>Use this ability when this model makes a Melee attack (including Retaliations) before dice are rolled. The Ice Blade may attack all enemy models it is Enaged with in its front arc by dividing the attack dice between them. Allocate the dice to be used for each enemy model before any are rolled. If the Ice Blade initiated the Fight, only one enemy model may Retaliate (enemy player’s choice) and only after all the Ice Blade’s attacks are resolved. Bonus die granted for the status of models (e.g. knocked-down) can only be allocated to that model).</description>
-    </rule>
-    <rule name="Spell - Hold Fast" id="ffa6-6048-3d20-7166" hidden="false">
-      <description>Target a friendly model, even if it is Engaged. For the remainder of the Round, that model has a +1 modifier to any Nerve tests it is required to make and may add 1 bonus die to any Armour rolls it must take.
-
-Boosted version: 
-
-Cast as a long action instead. As above, but the modifier is increased to +2 and the bonus dice are increased to 2.</description>
-    </rule>
-    <rule name="Spell - Winter’s Bite" id="6265-aaaa-030e-9a8e" hidden="false">
-      <description>If the target suffers any wounds, they are Knocked-down and marked as Fatigued.</description>
-    </rule>
-    <rule name="Weapon - Frost Trident" id="66ae-fde3-ed43-fa51" hidden="false">
-      <description>For any wound caused by a Melee attack with the Frost-Trident, the target model is pinned in place until the end of their next activation. While the model is pinned their Sp is reduced to 0 and they cannot make a Break Away action.</description>
-    </rule>
-    <rule name="Weapon - Frost Hammer" id="79a0-5d5c-4b24-84a8" hidden="false">
-      <description>A great two-handed hammer wielded by the Dwarf clans in the North. The model gains Crushing Strength (1) and increases its Ar by 1.</description>
-    </rule>
-    <rule name="LASH (1)" id="eed2-78c2-dbd5-daae" hidden="false">
-      <description>use this ability when casting the Lightning Bolt spell to make it a short action to cast instead of a long action.</description>
-    </rule>
-    <rule name="ICY BREATH (2) " id="7841-792d-2343-0277" hidden="false">
-      <description>Use this ability when taking a Shoot action. Make a Ranged attack using an Ra value of 5+, 3D8, Range 9”, Breath, Piercing (1).</description>
-    </rule>
-  </sharedRules>
-  <sharedSelectionEntries>
-    <selectionEntry name="Hold Fast (short)" id="3d8c-4bad-b9e2-97ad" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="0fef-f873-9a8b-5892" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Spell - Hold Fast" id="6826-196b-8f60-fb40" hidden="false" targetId="ffa6-6048-3d20-7166" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Hold Fast (short)" id="fa24-60c0-7b61-3b45" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Winter’s Bite (long)" id="1a7a-2ab5-8462-8622" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="0a12-c240-5e70-f52d" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Spell - Winter’s Bite" id="bcd2-1e7e-65ae-dc11" hidden="false" targetId="6265-aaaa-030e-9a8e" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Winter’s Bite (long)" id="c726-bf12-df2a-2992" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Frosthammer" id="62d4-ccf4-1150-dd04" collective="false" hidden="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink name="Has Crushing Strength" id="d600-ee65-a54a-197f" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="7d2b-03ed-9b58-a05a" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Weapon - Frost Hammer" id="c5d6-b523-4647-cc52" hidden="false" targetId="79a0-5d5c-4b24-84a8" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry name="Frost-Trident" id="a92b-70ae-f79a-8fb7" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Weapon - Frost Trident" id="8dd9-9efb-de2c-9166" hidden="false" targetId="66ae-fde3-ed43-fa51" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry name="Icy Breath" id="a342-7c80-73a9-a964" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Spell - Icy Breath (2)" id="9c04-c676-9bdb-1044" hidden="false" targetId="2714-56d3-a46b-0f22" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Icy Breath" id="0457-6b6b-79ec-335b" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (1)</characteristic>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Northern Alliance (Free)" id="9bd4-dbdc-cec2-78ab" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Spellbook - Northern Alliance" id="9bd4-dbdc-cec2-78ab" collective="false" hidden="false" import="true">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="7789-b9ee-84ef-c2bc" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <constraints>
-        <constraint id="6032-4472-7a55-c528" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="6032-4472-7a55-c528" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
         <entryLink name="Hold Fast (short)" id="5525-0edd-e3c8-dd73" collective="false" hidden="false" import="true" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
-          <constraints>
-            <constraint id="658b-3365-9601-5b1d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditions>
+                <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink name="Winter’s Bite (long)" id="1002-06a5-b601-7ce3" collective="false" hidden="false" import="true" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
           <constraints>
             <constraint id="e327-e35c-9313-666b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Basic Ice Queen" id="9255-ad3a-b198-7dac" collective="false" hidden="false" import="true" page="41" publicationId="ffea-0323-pubN70796">
-      <categoryLinks>
-        <categoryLink name="Spellcaster" id="2683-e2f6-12c2-f781" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink name="Heal" id="3c02-90e6-c37d-d8fb" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink name="Lightning Bolt" id="241c-886f-314d-bf99" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Windblast" id="accc-fa6f-feb4-d208" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
-      </entryLinks>
-      <selectionEntries>
-        <selectionEntry name="Dazzle (short)" id="d816-2c0f-29cc-c438" collective="false" hidden="false" import="true" type="upgrade">
-          <categoryLinks>
-            <categoryLink name="Spellcaster" id="590f-09cd-e964-9eef" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
-          </categoryLinks>
-          <constraints>
-            <constraint id="5624-f1b8-4ba0-8b09" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-          </costs>
-          <profiles>
-            <profile name="Dazzle (short)" id="5484-994c-0649-fc6d" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-              <characteristics>
-                <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-                <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
-                <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Northern Alliance (Paid)" id="9fe7-6a3f-1b49-6e01" collective="false" hidden="false" import="true">
-      <categoryLinks>
-        <categoryLink name="Spellcaster" id="ede3-a950-e451-d1ec" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink name="Hold Fast (short)" id="0de7-3200-5643-d15e" collective="false" hidden="false" import="true" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
-          <constraints>
-            <constraint id="7102-be10-1c13-5103" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
           <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
-          </modifiers>
-        </entryLink>
-        <entryLink name="Winter’s Bite (long)" id="4028-4bd0-83ab-d970" collective="false" hidden="false" import="true" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
-          <constraints>
-            <constraint id="d155-48ee-8734-e772" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
+                    <condition childId="6abc-d2e3-789a-2564" childName="Spell - Faction" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </entryLink>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Spell selection - Ice Queen" id="9255-ad3a-b198-7dac" collective="false" hidden="false" import="true" page="41" publicationId="ffea-0323-pubN70796">
+      <entryLinks>
+        <entryLink name=" Spellbook - Northern Alliance (Free)" id="9d8b-ede0-7133-bc75" hidden="false" import="true" sortIndex="2" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Noble" id="c3f4-9262-5558-a72c" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Spellbook - Ice Queen" id="a9f7-91e3-541c-f866" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="7a4d-0d28-92ac-2022" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="add5-df41-b515-12b4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Heal" id="3c02-90e6-c37d-d8fb" collective="false" hidden="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+            <entryLink name="Lightning Bolt" id="241c-886f-314d-bf99" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+            <entryLink name="Windblast" id="accc-fa6f-feb4-d208" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Dazzle (short)" id="d816-2c0f-29cc-c438" collective="false" hidden="false" import="true" type="upgrade">
+              <categoryLinks>
+                <categoryLink name="Spellcaster" id="590f-09cd-e964-9eef" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+              </categoryLinks>
+              <constraints>
+                <constraint id="5624-f1b8-4ba0-8b09" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Dazzle (short)" id="5484-994c-0649-fc6d" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
+                    <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+                    <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+                    <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
+                    <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

@@ -517,7 +517,6 @@
         <entryLink name=" Spellbook - The Trident Realm (Paid)" id="f96d-6b29-f069-2286" collective="false" hidden="false" import="true" targetId="26e9-51fe-f21a-8985" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Primoridal" id="6169-c228-2883-709d" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - The Trident Realm (Free)" id="5b28-5e53-785f-8223" collective="false" hidden="false" import="true" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
-        <entryLink name="Rule Check - Allows 1 more Large then Normal" id="c878-342e-e8fd-727e" collective="false" hidden="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Power Dice W/O (1)" id="8bd5-bcc4-3fdc-00cf" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
