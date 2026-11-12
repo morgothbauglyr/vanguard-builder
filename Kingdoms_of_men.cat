@@ -5,7 +5,7 @@
     <categoryEntry name="Ogre" id="138c-f73c-8c70-6bcc" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink name="Priest" id="d51b-77f7-4cd0-dbfd" hidden="false" targetId="eec4-9d3b-8184-2521" type="selectionEntry"/>
+    <entryLink name="Priest *" id="d51b-77f7-4cd0-dbfd" hidden="false" targetId="eec4-9d3b-8184-2521" type="selectionEntry"/>
     <entryLink name="Wizard" id="b1d3-6960-c1d1-b3a1" collective="false" hidden="false" targetId="8444-955e-abb4-f580" type="selectionEntry"/>
     <entryLink name="Veteran Soldier" id="32d1-e7cb-b673-7706" collective="false" hidden="false" targetId="ff59-ef58-37e3-02d7" type="selectionEntry"/>
     <entryLink name="Leader of Men" id="421d-5b84-4cf1-d0fd" collective="false" hidden="false" targetId="e192-a8fb-a257-5bb6" type="selectionEntry"/>
@@ -23,6 +23,7 @@
     <entryLink name="Beast Knight *" id="631c-d33b-34b5-8bad" hidden="false" targetId="bdf5-a5f7-d85c-e29c" type="selectionEntry"/>
     <entryLink name="Berserker" id="0ee7-c157-5dc9-0437" collective="false" hidden="false" targetId="bd21-9249-4b31-e857" type="selectionEntry"/>
     <entryLink name="Faction Abilities" id="c5b7-beb9-b4b7-4a84" hidden="false" import="true" targetId="aef2-1ecb-81b8-01cd" type="selectionEntry"/>
+    <entryLink name="Captain of the Watch *" id="af52-d07e-275e-66f4" hidden="false" import="true" targetId="f3d5-02ef-54ba-84bd" type="selectionEntry"/>
   </entryLinks>
   <publications>
     <publication name="Rulebook" id="4ae3-a7bd-pubN68954"/>
@@ -300,10 +301,34 @@
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">All friendly, unengaged, standing Human models within 9” of this model may make an immediate free Walk action directly towards this model following the normal movement rules. This move cannot be used to Engage enemy models.</characteristic>
       </characteristics>
     </profile>
+    <profile name="EVER VIGILANT" id="5cc2-0e45-91f7-216b" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">3</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">An enemy model is activated within 12&quot; of this model.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Before the enemy model takes an action, select up to 2 friendly HUMAN models of the GRUNT or WARRIOR class. These models may perform a Walk action of up to 4&quot; following the normal movement rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Captain of the Watch *" id="6a21-8f00-ddd3-a5b4" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Devastating Charge" id="7fb9-65c2-b83b-92a6" hidden="false">
       <description>This model gain Crushing Strength (2) for any free Melee action it gets following a qualifying Charge action.</description>
+    </rule>
+    <rule name="Master of Magic" id="a1a9-27ee-64a9-c78e" hidden="false">
+      <description>This model allows the re-rolling of an additional Power Dice when Rolling for Power.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -357,16 +382,8 @@
             <constraint id="1285-ec6d-7f3f-354d-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Crossbow" id="391c-310b-13b0-006a" collective="false" hidden="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry">
-              <modifiers>
-                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Bow" id="f600-6225-d48b-5909" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
-              <modifiers>
-                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink name="Crossbow" id="391c-310b-13b0-006a" collective="false" hidden="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry"/>
+            <entryLink name="Bow" id="f600-6225-d48b-5909" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -381,34 +398,18 @@
         <constraint id="acf6-7168-ec66-0f78" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="cfe3-d4b2-2848-342e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spell selection - Archwizard" id="11f7-f3c3-f78b-a563" collective="false" hidden="false" import="true" targetId="72cc-e692-06a8-acbc" type="selectionEntryGroup">
-          <constraints>
-            <constraint id="6074-d6ad-d76e-d554" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="56cc-7139-7715-2b40" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
-          </constraints>
-          <modifiers>
-            <modifier field="56cc-7139-7715-2b40" type="decrement" value="1">
-              <repeats>
-                <repeat childId="7724-d8e9-4d28-e58a" childName=" Spellbook - Kingdom of Men (Free)" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="7681-e0c5-4a5d-6f4a" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="6074-d6ad-d76e-d554" type="decrement" value="1">
-              <repeats>
-                <repeat childId="8264-6e8e-3e44-c2c9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="7681-e0c5-4a5d-6f4a" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
+        <entryLink name=" Spell selection - Archwizard" id="11f7-f3c3-f78b-a563" collective="false" hidden="false" import="true" targetId="72cc-e692-06a8-acbc" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
+        <infoLink name="Master of Magic" id="3d54-ee27-83d7-c88c" hidden="false" targetId="a1a9-27ee-64a9-c78e" type="rule"/>
         <infoLink name="Archwizard" id="f005-e60b-1d32-dcd9" hidden="false" targetId="62c9-bc69-7238-b334" type="profile"/>
-        <infoLink name="Power Dice W/O (1)" id="4b4f-cbce-05d3-da5e" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (2)" id="4b4f-cbce-05d3-da5e" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
         <infoLink name="Very Inspiring" id="0c12-19a5-65bd-618b" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
-        <infoLink name="Draw Power" id="0393-2214-13ea-20cb" hidden="false" targetId="13b4-8630-5434-6ee2" type="profile"/>
+        <infoLink name="DRAW POWER" id="0393-2214-13ea-20cb" hidden="false" targetId="13b4-8630-5434-6ee2" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="acf6-7168-ec66-0f78" type="increment" value="1">
@@ -466,7 +467,7 @@
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="2e7a-21df-f6af-c757" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Throwing Knife (Rare) *" id="ad59-b971-af07-2dea" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry">
+        <entryLink name="Throwing Knife (Uncommon) *" id="ad59-b971-af07-2dea" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
@@ -580,7 +581,7 @@
         <infoLink name="Steady" id="d4f7-a947-7a17-4060" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Elite" id="e17a-9d5c-291c-e8f6" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="965d-13f2-3d49-7ce9" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Frenzy" id="9cbc-ba8c-0ab1-6a8a" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
+        <infoLink name="FRENZY" id="9cbc-ba8c-0ab1-6a8a" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="3e4a-84a9-a5d0-47b9" type="increment" value="1">
@@ -936,6 +937,42 @@
         <infoLink name="STRENGTH OF MEN" id="9b5f-fa59-17c3-b68a" hidden="false" targetId="e69f-7034-a1cf-4853" type="profile"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry name="Captain of the Watch *" id="f3d5-02ef-54ba-84bd" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="7979-e6c0-a8f1-7057" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="fe11-3b39-c953-7623" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Captain of the Watch *" id="f87e-a595-0400-3755" hidden="false" targetId="6a21-8f00-ddd3-a5b4" type="profile"/>
+        <infoLink name="Power Dice White/Orange (1)" id="fb40-e50f-68d1-39d7" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="EVER VIGILANT" id="cac6-bf47-3464-356a" hidden="false" targetId="5cc2-0e45-91f7-216b" type="profile"/>
+        <infoLink name="Very Inspiring" id="897c-c078-0739-3e1c" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="fe11-3b39-c953-7623" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="2a84-51a0-242d-115c" defaultSelectionEntryId="5461-a11e-ac8f-cb46" hidden="false">
+          <entryLinks>
+            <entryLink name="Bow" id="5461-a11e-ac8f-cb46" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+              <modifiers>
+                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Rifle" id="c394-7a82-db0e-5ab5" hidden="false" import="true" targetId="bd04-09be-458e-ae12" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name=" Spell selection - Wizard" id="1e7e-880c-0d73-1421" collective="false" hidden="false" import="true" page="41" publicationId="4ae3-a7bd-pubN68954">
@@ -944,8 +981,8 @@
         <constraint id="f9ff-7e79-51b5-2c98" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Kingdom of Men (Free)" id="2d09-01b3-6557-8127" hidden="false" import="true" sortIndex="2" targetId="7724-d8e9-4d28-e58a" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Primoridal" id="c42c-af04-1656-566c" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Kingdom of Men" id="2d09-01b3-6557-8127" hidden="false" import="true" sortIndex="2" targetId="7724-d8e9-4d28-e58a" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Primoridal" id="c42c-af04-1656-566c" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook Wizard" id="ef21-a305-9763-d5dc" hidden="false" sortIndex="1">
@@ -975,7 +1012,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spellbook - Kingdom of Men" id="7724-d8e9-4d28-e58a" collective="false" hidden="false" import="true">
       <entryLinks>
-        <entryLink name="Adrenaline Shot (short)" id="2a6a-c061-a83d-4298" collective="false" hidden="false" import="true" targetId="e17f-88db-1820-4c70" type="selectionEntry">
+        <entryLink name="Adrenaline Shot" id="2a6a-c061-a83d-4298" collective="false" hidden="false" import="true" targetId="e17f-88db-1820-4c70" type="selectionEntry">
           <constraints>
             <constraint id="9848-37c1-36c1-bb66" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -987,7 +1024,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Instill Courage (short)" id="907e-96ef-b506-f621" collective="false" hidden="false" import="true" targetId="81c5-41b9-4e60-6468" type="selectionEntry">
+        <entryLink name="Instill Courage" id="907e-96ef-b506-f621" collective="false" hidden="false" import="true" targetId="81c5-41b9-4e60-6468" type="selectionEntry">
           <constraints>
             <constraint id="8714-0053-9263-51b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -1013,7 +1050,7 @@
       </constraints>
       <entryLinks>
         <entryLink name=" Spellbook - Kingdom of Men" id="423b-5561-7778-c7b8" hidden="false" import="true" sortIndex="2" targetId="7724-d8e9-4d28-e58a" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Primoridal" id="c4c0-4960-48a0-0440" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Primoridal" id="c4c0-4960-48a0-0440" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook Archwizard" id="45d0-dd08-f86f-dd5b" hidden="false" sortIndex="1">

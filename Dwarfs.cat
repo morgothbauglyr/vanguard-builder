@@ -288,8 +288,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <characteristics>
         <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
         <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
-        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
-</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Each model under the area of the Breath attack must roll a die. If a model rolls equal to or under its Sp stat, it is Knocked-down and must make a single Armour Roll to avoid suffering a wound. Models that have the Steady special rule may re-roll the test against their Sp stat.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath</characteristic>
       </characteristics>
@@ -369,7 +368,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Weapon - Shieldbreaker Hammer" id="0e7a-ecc4-a31a-3278" hidden="false" targetId="df56-154a-31a4-ba5b" type="rule"/>
+        <infoLink name="Shieldbreaker Hammer" id="0e7a-ecc4-a31a-3278" hidden="false" targetId="df56-154a-31a4-ba5b" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Battledrill" id="bd6c-1cdb-4b06-ce6b" collective="false" hidden="false" import="true" type="upgrade">
@@ -377,7 +376,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Weapon - Battledrill" id="5fff-c58a-b80e-c622" hidden="false" targetId="b0f8-686f-9124-0d75" type="rule"/>
+        <infoLink name="Battledrill" id="5fff-c58a-b80e-c622" hidden="false" targetId="b0f8-686f-9124-0d75" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Dwarf Flame Thrower" id="af38-a8b6-9f81-6026" collective="false" hidden="false" import="true" type="upgrade">
@@ -469,7 +468,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Steady" id="d165-7082-8aaf-06c9" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Bloodlust" id="6a44-65f1-e056-d8c3" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Berserker Lord" id="98d1-dca4-c267-d75b" hidden="false" targetId="cd13-a1a3-e86b-1494" type="profile"/>
-        <infoLink name="Frenzy" id="a3e7-39ef-bb33-52dc" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
+        <infoLink name="FRENZY" id="a3e7-39ef-bb33-52dc" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="910e-c381-254a-283c" type="increment" value="1">
@@ -499,7 +498,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Parry" id="c7e8-ab4d-883d-aef6" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
         <infoLink name="Bloodlust" id="c91e-9a90-d74d-1322" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Brock Rider" id="e60b-2d30-b30c-2228" hidden="false" targetId="9bdd-2a12-c1aa-c108" type="profile"/>
-        <infoLink name="Frenzy" id="8d56-267a-5615-ae60" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
+        <infoLink name="FRENZY" id="8d56-267a-5615-ae60" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="3d89-cdc5-9cfc-5955" type="increment" value="1">
@@ -569,7 +568,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <infoLinks>
         <infoLink name="Headstrong" id="020f-3fcf-0542-e178" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Scout" id="473e-26fb-85f1-99ed" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-        <infoLink name="Combined Fire (DR)" id="9f1e-7596-0a80-b16b" hidden="false" targetId="52d5-d6b4-461f-e937" type="rule"/>
+        <infoLink name="Combined Fire (Ranger)" id="9f1e-7596-0a80-b16b" hidden="false" targetId="52d5-d6b4-461f-e937" type="rule"/>
         <infoLink name="Dwarf Ranger" id="a2fd-f79f-975f-d598" hidden="false" targetId="12eb-55c0-bfa3-3bf7" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -744,17 +743,13 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <entryLink name=" Items" id="f153-06d3-07c3-3746" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Crossbow" id="9bad-3b91-8734-9d22" collective="false" hidden="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry">
           <constraints>
-            <constraint id="5324-16b8-11f9-362e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="1a20-a73f-b4ea-d810" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-          </modifiers>
         </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="72d9-8c7d-5ec5-6133" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
-        <infoLink name="Combined Fire (IW)" id="7554-fe31-efe5-4d72" hidden="false" targetId="77bd-2e36-8af2-0916" type="rule"/>
+        <infoLink name="Combined Fire (Ironwatch)" id="7554-fe31-efe5-4d72" hidden="false" targetId="77bd-2e36-8af2-0916" type="rule"/>
         <infoLink name="Ironwatch" id="dac1-e2fb-eb6b-e370" hidden="false" targetId="77ae-2680-04e3-4169" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -833,7 +828,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Inspiring" id="464f-020a-fe30-1103" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Power Dice W/O (1)" id="58c9-efe4-5fdc-b2f6" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Scout" id="3aaf-9702-54e4-665b" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-        <infoLink name="Combined Fire (DR)" id="4432-f3ca-135d-d347" hidden="false" targetId="52d5-d6b4-461f-e937" type="rule"/>
+        <infoLink name="Combined Fire (Ranger)" id="4432-f3ca-135d-d347" hidden="false" targetId="52d5-d6b4-461f-e937" type="rule"/>
         <infoLink name="Ranger Captain" id="5e8f-62c8-6671-7476" hidden="false" targetId="a885-1d88-a973-7dd7" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -933,7 +928,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="98e9-8492-a1f4-3397" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Stone Priest" id="4a40-8351-ee83-5181" collective="false" hidden="false" import="true" targetId="1efa-90a0-441e-0c53" type="selectionEntryGroup"/>
+        <entryLink name=" Spell slection - Stone Priest" id="4a40-8351-ee83-5181" collective="false" hidden="false" import="true" targetId="1efa-90a0-441e-0c53" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="6397-8402-2010-5ba0" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
@@ -968,7 +963,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <constraint id="ecf4-8fed-ca9e-02cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Earthquake (long)" id="ad91-59b1-28b2-aac6" collective="false" hidden="false" import="true" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
+        <entryLink name="Earthquake" id="ad91-59b1-28b2-aac6" collective="false" hidden="false" import="true" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditions>
@@ -977,7 +972,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Forged Anew (short)" id="1686-4f34-17dd-99c4" collective="false" hidden="false" import="true" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
+        <entryLink name="Forged Anew" id="1686-4f34-17dd-99c4" collective="false" hidden="false" import="true" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditionGroups>

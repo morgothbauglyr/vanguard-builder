@@ -43,6 +43,9 @@
     <categoryEntry name="Spell - Corrupt" id="8c26-6259-b763-b3ab" hidden="false"/>
     <categoryEntry name="Item - Uncommon" id="d24e-a366-033b-3c0b" hidden="false"/>
     <categoryEntry name="+1 Support" id="9e8a-8bfd-c8a2-5b7b" hidden="false"/>
+    <categoryEntry name="Orc" id="856b-c467-78b0-fc6b" hidden="false"/>
+    <categoryEntry name="Ratkin" id="37c7-bca8-2467-70d0" hidden="false"/>
+    <categoryEntry name="Ogre" id="37ce-ffb8-2fa8-7b69" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
@@ -148,7 +151,7 @@
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink name="Item Unique" id="4ae7-09a8-d2ea-971b" hidden="false" targetId="af77-71a6-ae26-6c62">
+        <categoryLink name="Item - Unique" id="4ae7-09a8-d2ea-971b" hidden="false" targetId="af77-71a6-ae26-6c62">
           <constraints>
             <constraint id="498e-e798-c739-8b47" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
           </constraints>
@@ -278,7 +281,7 @@
       <characteristicTypes>
         <characteristicType name="Power Cost" id="1bf9-e90f-6415-1697">
           <formatRules>
-            <formatRule name="New Format Rule" id="2767-2685-8112-c533" hidden="false" match="([\s\S]*)" replace="OPEN $1CLOSE" type="regex">
+            <formatRule name="New Format Rule" id="2767-2685-8112-c533" hidden="false" match="([\s\S]*)" replace="($1)" type="regex">
               <comment>Brackets OPEN CLOSE</comment>
             </formatRule>
           </formatRules>
@@ -1367,8 +1370,7 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
         <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
         <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
-        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">
-</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Area Effect (3&quot;, 3D8)</characteristic>
       </characteristics>
     </profile>
@@ -1400,14 +1402,14 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
     <profile name="DRAW POWER" id="13b4-8630-5434-6ee2" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Cast action, before rolling any dice. </characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Cast action, before rolling any dice.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Gain 2 bonus dice for the Cast action. Cannot be used in conjunction with the **+1 Die** Standard Power Use</characteristic>
       </characteristics>
     </profile>
     <profile name="FRENZY" id="b280-d15f-9f0a-8e99" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a attack (excluding Realiate), before rolling any dice. </characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a attack (excluding Realiate), before rolling any dice.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Gain 2 bonus dice for the Melee attack. Cannot be used in conjunction with the **+1 Die** Standard Power Use</characteristic>
       </characteristics>
     </profile>
@@ -1421,7 +1423,7 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
     <profile name="WILD CHARGE" id="3cc4-3959-4c8e-b26e" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of this model&apos;s activation. </characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of this model&apos;s activation.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Increase this model&apos;s SP by 1.</characteristic>
       </characteristics>
     </profile>
@@ -1444,6 +1446,72 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
         <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model kills an opponent with a Melee Attack.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Recover 1 wound this model has previously suffered. If the model killed is a COMMAND or LARGE model, 2 wounds are recovered.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="RAPID FIRE" id="3b97-56c0-520e-d2b2" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of this model&apos;s activation.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may make separate ranged attacks at two different targets that are within 3&quot; of each other following the normal targeting rules. This cannot be as part of a Group Action. The model may not make a Fatigue Action during this activation.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="BLADE MASTER" id="76ea-5fb8-762e-d1f6" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Melee attack (including Retaliations) before dice are rolled.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may attack all enemy models it is Enaged with in its front arc by dividing the attack dice between them. Allocate the dice to be used for each enemy model before any are rolled. If the model initiated the Fight, only one enemy model may Retaliate (enemy player’s choice) and only after all the model&apos;s attacks are resolved.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="DEMONIC ROAR" id="4bf3-5177-29d0-ade9" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When the Tormentor is the target of a Melee attack, before the attack roll is made.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The attacking model must make a Nerve test with a -1 modifier. If the test is failed, the attacking model’s Melee value becomes 7+ for the remainder of the Turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="CONFUSE" id="2944-74d3-e9a5-171c" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use at any time</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">All outnumbering bonuses for models attacking this model are ignored for the rest of the Round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="FURY" id="5919-d269-777a-a572" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">After an ABYSSAL model was attacked in melee</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This ability may be used on a model that is already Activated and Fatigued. The model may retaliate. If the model was eligible to retaliate normally it gains 2 bonus dice to attack.
+This Special Ability may be used any number of times in a Round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="LEAPING FIREBOLT" id="b5e8-3c88-22c7-80d2" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model makes a ranged attack with Firebolt.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The range of the attack is increased to 12”</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blowpipe" id="1389-bbf0-0017-f387" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
+      </characteristics>
+    </profile>
+    <profile name="Pistol" id="87f9-3979-0e14-456d" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1), Pound</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flame Tongue" id="7a6e-55d4-6c7c-059f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (4)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1483,23 +1551,29 @@ Alternatively the model may Shoot as a short action, but with a -1 to hit modifi
     <rule name="Inspiring" id="c182-1549-6080-b945" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
     </rule>
-    <rule name="Power Dice R/B (3)" id="b97d-fd69-997a-8ad9" hidden="false">
-      <description>Red/Black</description>
+    <rule name="Power Dice Red/Black (3)" id="b97d-fd69-997a-8ad9" hidden="false">
+      <description>
+</description>
     </rule>
-    <rule name="Power Dice R/B (1)" id="df35-5711-86fa-5665" hidden="false">
-      <description>Red/Black</description>
+    <rule name="Power Dice Red/Black (1)" id="df35-5711-86fa-5665" hidden="false">
+      <description>
+</description>
     </rule>
-    <rule name="Power Dice R/B (2)" id="5606-f1ee-89dc-5257" hidden="false">
-      <description>Red/Black</description>
+    <rule name="Power Dice Red/Black (2)" id="5606-f1ee-89dc-5257" hidden="false">
+      <description>
+</description>
     </rule>
-    <rule name="Power Dice W/O (2)" id="f6e9-e0d4-227e-a80c" hidden="false">
-      <description>White/Orange</description>
+    <rule name="Power Dice White/Orange (2)" id="f6e9-e0d4-227e-a80c" hidden="false">
+      <description>
+</description>
     </rule>
-    <rule name="Power Dice W/O (3)" id="a284-293d-4e91-fd5e" hidden="false">
-      <description>White/Orange</description>
+    <rule name="Power Dice White/Orange (3)" id="a284-293d-4e91-fd5e" hidden="false">
+      <description>
+</description>
     </rule>
-    <rule name="Power Dice W/O (1)" id="fb0f-ab7c-3175-77f3" hidden="false">
-      <description>White/Orange</description>
+    <rule name="Power Dice White/Orange (1)" id="fb0f-ab7c-3175-77f3" hidden="false">
+      <description>
+</description>
     </rule>
     <rule name="Smite (2)" id="fed8-40cc-4cff-77d7" hidden="false"/>
     <rule name="Smite (1)" id="276c-ca90-ca2a-fd15" hidden="false"/>
@@ -1604,14 +1678,17 @@ Pound: If an attack with this rule scores 3 or more hits and the target is not k
     <rule name="Very Inspiring" id="67df-803d-48b0-1418" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule, and all friendly models within 9” of it, may re-roll failed Nerve tests.</description>
     </rule>
-    <rule name="Power Dice B/G (3)" id="6666-aa83-282c-65d3" hidden="false">
-      <description>Blue/Green</description>
+    <rule name="Power Dice Blue/Green (3)" id="6666-aa83-282c-65d3" hidden="false">
+      <description>
+</description>
     </rule>
-    <rule name="Power Dice B/G (2)" id="619f-55e5-7df8-c3e6" hidden="false">
-      <description>Blue/Green</description>
+    <rule name="Power Dice Blue/Green (2)" id="619f-55e5-7df8-c3e6" hidden="false">
+      <description>
+</description>
     </rule>
-    <rule name="Power Dice B/G (1)" id="9f0b-f977-bb53-fe2e" hidden="false">
-      <description>Blue/Green</description>
+    <rule name="Power Dice Blue/Green (1)" id="9f0b-f977-bb53-fe2e" hidden="false">
+      <description>
+</description>
     </rule>
     <rule name="Crushing Strength (6)" id="5546-4beb-d018-5968" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
@@ -1732,15 +1809,37 @@ when rolling for hits (including casting spells).</description>
     <rule name="Explode" id="e9a5-bac6-5fb1-cb03" hidden="false">
       <description>When this model is removed as a casualty, all models in 3&quot; take one automatic hit.</description>
     </rule>
+    <rule name="Evasive" id="ffc0-22d9-92b0-a78f" hidden="false">
+      <description>This model deftly evades enemy attacks. Crushing Strength from enemy attacks is reduced to a maximum of (1).</description>
+    </rule>
+    <rule name="Worthless" id="0a86-0161-dd39-1d09" hidden="false">
+      <description>This model may never claim or score objectives/VPs, and is never worth VPs to the owning
+player.</description>
+    </rule>
+    <rule name="Two-handed Weapon" id="28c2-80b7-60dc-49e8" hidden="false">
+      <description>The model gains Crushing Strength (+2), but worsens its Armor by 1 (i.e 5+ becomes 6+).</description>
+    </rule>
+    <rule name="Crushing Strength (+1)" id="a183-8a40-07d8-9da4" hidden="false">
+      <description>This model gains Crushing Strength (1) or, if it already has Crushing Strength (n), increases n by 1.</description>
+    </rule>
+    <rule name="Crushing Strength (n)" id="1d1e-d82f-335a-f222" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
+      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
+    </rule>
+    <rule name="Piercing (+1)" id="784c-4463-7f33-2eb8" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
+      <description>This model gains Piercing (1) or, if it already has Piercing (n), increases n by 1.</description>
+    </rule>
+    <rule name="Lowered Armour (n)" id="2981-aa7b-6e88-ca75" hidden="false">
+      <description>This model worsens its Armor by n (i.e 5+ becomes 6+).</description>
+    </rule>
+    <rule name="Lowered Armour (1)" id="d471-ad07-79a8-169e" hidden="false">
+      <description>This model worsens its Armor by 1 (i.e 5+ becomes 6+). This effect is cumulative.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Spear" id="da36-7b90-c7e5-26c1" collective="false" displayGroup="Equipment" hidden="false" import="true" type="upgrade">
       <constraints>
         <constraint id="622e-e125-aee2-476c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
       <infoLinks>
         <infoLink name="Long Reach" id="88ea-4a58-bccb-2b5e" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule"/>
       </infoLinks>
@@ -1749,9 +1848,6 @@ when rolling for hits (including casting spells).</description>
       <constraints>
         <constraint id="531b-7993-9145-f83c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
       <infoLinks>
         <infoLink name="Piercing (1)" id="9075-c2a4-08b7-f061" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
         <infoLink name="Reload" id="4585-4b49-78cd-0588" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
@@ -1762,9 +1858,6 @@ when rolling for hits (including casting spells).</description>
       <constraints>
         <constraint id="5ef0-5160-d6c3-c370" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
       <infoLinks>
         <infoLink name="Bow" id="6b72-38e4-6887-f4ef" hidden="false" targetId="3322-ab30-f43f-c5c0" type="profile"/>
       </infoLinks>
@@ -1773,9 +1866,6 @@ when rolling for hits (including casting spells).</description>
       <constraints>
         <constraint id="ddc5-9be6-43ce-c1d8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
       <infoLinks>
         <infoLink name="Light Crossbow" id="b6c2-0e4b-b72b-a8d3" hidden="false" targetId="4e1f-effc-e390-f3c6" type="profile"/>
       </infoLinks>
@@ -2061,7 +2151,7 @@ when rolling for hits (including casting spells).</description>
       </costs>
       <infoLinks>
         <infoLink name="Blade of Slashing" id="e11f-8f76-2151-7dda" hidden="false" targetId="7789-92be-cdb5-8468" type="profile"/>
-        <infoLink name="Viscious *" id="c34e-9101-c12f-11f7" hidden="false" targetId="1ecc-286f-cb53-764b" type="rule"/>
+        <infoLink name="Vicious *" id="c34e-9101-c12f-11f7" hidden="false" targetId="1ecc-286f-cb53-764b" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Rule Check - Is Faction Spell" id="8264-6e8e-3e44-c2c9" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
@@ -2345,7 +2435,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Holy Hand Grenades (Unique)" id="fba9-6bf4-ce58-8257" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Ranged" id="5747-8f6a-f866-0f39" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
-        <categoryLink name="Item Unique" id="6aad-2a51-3c0d-e2c5" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="6aad-2a51-3c0d-e2c5" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="5471-4292-5e78-f626" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2364,7 +2454,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Ophidian Book of Secrets (Unique)" id="c80c-dd51-206d-f4e7" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="c6b1-8b4f-ce00-05ae" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="6b27-dec6-1802-b9ad" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="6b27-dec6-1802-b9ad" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="325d-f7c1-70e8-4b82" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2387,7 +2477,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Firescorch Scroll (Unique)" id="b266-c09f-6383-460e" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Ranged" id="a2dd-a0fa-807a-d393" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
-        <categoryLink name="Item Unique" id="1e52-c933-07e2-8bd6" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="1e52-c933-07e2-8bd6" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="0302-3be8-07ae-bc5f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2405,7 +2495,7 @@ when rolling for hits (including casting spells).</description>
     </selectionEntry>
     <selectionEntry name="Helm of Command (Unique)" id="d5c2-e514-72d7-e580" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Item Unique" id="f83b-3567-5ce5-0e6b" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="f83b-3567-5ce5-0e6b" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
         <categoryLink name="Item - Magic" id="4263-e74b-3047-5833" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
       </categoryLinks>
       <constraints>
@@ -2422,7 +2512,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Wings of Honeymaze (Unique)" id="a092-df17-db31-c34d" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="f778-26c2-c1c6-4bf3" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="3704-4f61-ba14-bcd4" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="3704-4f61-ba14-bcd4" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="1501-51d7-58bf-75dc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2451,7 +2541,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Battle Mount (Unique)" id="19b0-113d-b2aa-2b1a" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Mount" id="fd9d-aa87-1f0f-7d6b" hidden="false" primary="true" targetId="a253-a909-98fe-a7e3"/>
-        <categoryLink name="Item Unique" id="766d-1444-68b3-1873" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="766d-1444-68b3-1873" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="cd17-0ab3-f752-c689" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2468,7 +2558,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Cloak of the Chameleon (Unique)" id="9603-763b-6261-1f44" collective="false" displayGroup="Items" hidden="false" import="true" page="121" publicationId="37f5-f8f9-pubN68000" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="ec5a-5054-6430-15db" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="f841-2ef2-9395-3e2a" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="f841-2ef2-9395-3e2a" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="dbb0-b69d-305f-480d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2705,7 +2795,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Dunstan&apos;s Amulet of Protection (Unique)" id="b293-8b88-aee4-17a9" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="f0ac-14bd-6cb4-8c2f" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="7f54-2aa1-b048-fc15" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="7f54-2aa1-b048-fc15" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="cf59-4845-ab18-3ac3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2722,7 +2812,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Helm of Confidence (Unique)" id="4527-2480-0aa0-399f" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="12b1-b9db-4266-c0fc" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="58e4-1d44-5950-cd09" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="58e4-1d44-5950-cd09" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="71fb-fdea-c465-56a5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2739,7 +2829,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Explorer&apos;s Map (Unique)" id="c14d-9fb6-e747-3a8f" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Sundries" id="2bea-0335-2d35-384e" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
-        <categoryLink name="Item Unique" id="eb7e-2e8c-d75d-f60d" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="eb7e-2e8c-d75d-f60d" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="2149-39ec-304d-ac56" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2771,7 +2861,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Restorative Brew (Unique)" id="b94a-6480-25e6-036f" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Sundries" id="e296-f08b-a1ec-4f13" hidden="false" primary="true" targetId="e0bc-4034-f549-b7ec"/>
-        <categoryLink name="Item Unique" id="9712-e0d1-a3c7-3191" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="9712-e0d1-a3c7-3191" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="0ce7-719b-3080-f590" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2787,7 +2877,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Lifeleech Blade (Unique)" id="b198-364b-acf7-4939" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Melee" id="20b7-4fd7-babb-3d4b" hidden="false" primary="true" targetId="939e-8f40-e91b-75c9"/>
-        <categoryLink name="Item Unique" id="4872-9d92-e352-34e1" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="4872-9d92-e352-34e1" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="3996-55e8-58d5-85f4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2804,7 +2894,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Soulthirst Blade (Unique)" id="44a1-89c3-9eba-646d" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Melee" id="5e79-775e-3ea4-d14b" hidden="false" primary="true" targetId="939e-8f40-e91b-75c9"/>
-        <categoryLink name="Item Unique" id="adce-1337-6476-9e97" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="adce-1337-6476-9e97" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="6b64-3654-5a4d-bd15" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2821,7 +2911,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Medallion of Life (Unique)" id="8ae1-5225-f66d-c4a2" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="7763-440d-ac07-7a44" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="2671-3b76-77ea-042d" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="2671-3b76-77ea-042d" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
         <categoryLink name="Has Regenerate" id="e131-19d3-1a97-3ae5" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
       </categoryLinks>
       <constraints>
@@ -2839,7 +2929,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Power Rune (Unique)" id="162d-52de-31a8-b83a" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="752b-2985-f52d-1d7d" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="4c6d-fd7b-2ddc-fa40" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="4c6d-fd7b-2ddc-fa40" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="a96e-f1fe-805e-4e2f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2855,7 +2945,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Soulthirst Bow (Unique)" id="ea7e-6ded-e744-8b5d" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Ranged" id="6a13-25ad-c4d6-21c4" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
-        <categoryLink name="Item Unique" id="ea1b-c50b-adab-4eb0" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="ea1b-c50b-adab-4eb0" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="8ab8-1f3d-67bb-5456" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2872,7 +2962,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Spidersilk Armour (Unique)" id="7246-7b76-50ab-d015" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Armour" id="2326-c7e1-a394-e99c" hidden="false" primary="true" targetId="f328-cd29-ed6d-039f"/>
-        <categoryLink name="Item Unique" id="8556-166e-f074-3b8a" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="8556-166e-f074-3b8a" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="0f4f-afd5-033b-2308" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -2987,7 +3077,7 @@ when rolling for hits (including casting spells).</description>
     <selectionEntry name="Tome of Valandor (Unique)" id="114f-0f22-3410-36ba" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
       <categoryLinks>
         <categoryLink name="Item - Magic" id="3778-16ca-5aa7-dc7d" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
-        <categoryLink name="Item Unique" id="4c89-2f1f-a475-4003" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="4c89-2f1f-a475-4003" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
       </categoryLinks>
       <constraints>
         <constraint id="7964-56fa-3eed-f0ca" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -3049,7 +3139,7 @@ when rolling for hits (including casting spells).</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
       </costs>
       <infoLinks>
-        <infoLink name="Toxic" id="a686-ffc7-d4d8-7a2f" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
+        <infoLink name="Weaken" id="a686-ffc7-d4d8-7a2f" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
         <infoLink name="Poison Bottle *" id="01e7-80de-105e-632e" hidden="false" targetId="ff8c-50ef-365d-ce12" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -3346,9 +3436,9 @@ when rolling for hits (including casting spells).</description>
       </profiles>
     </selectionEntry>
     <selectionEntry name="Rifle" id="bd04-09be-458e-ae12" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
+      <constraints>
+        <constraint id="703c-13c9-b0f0-c024" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <infoLinks>
         <infoLink name="Rifle" id="55e7-638c-d283-ddc4" hidden="false" targetId="601d-8267-5d52-9b4c" type="profile"/>
         <infoLink name="Marksman" id="98b2-e2f5-155f-3623" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
@@ -3365,10 +3455,10 @@ when rolling for hits (including casting spells).</description>
         <constraint id="2500-6b84-fc2f-2923" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Meteor (Boosted)" id="9564-daf3-3161-c1f1" hidden="false" targetId="fc73-dc4b-2345-0a94" type="profile"/>
-        <infoLink name="Meteor (Boosted)" id="c628-a5f6-9cd1-7e87" hidden="false" targetId="a58d-3b04-79fc-2bf3" type="profile"/>
+        <infoLink name="Meteor (Boosted)*" id="9564-daf3-3161-c1f1" hidden="false" targetId="fc73-dc4b-2345-0a94" type="profile"/>
+        <infoLink name="Meteor (Boosted) *" id="c628-a5f6-9cd1-7e87" hidden="false" targetId="a58d-3b04-79fc-2bf3" type="profile"/>
         <infoLink name="Piercing (1)" id="63e9-1bf5-427d-16d3" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
-        <infoLink name="Meteor" id="06f8-4ea4-6bf3-0e53" hidden="false" targetId="85ed-6229-b1f6-478b" type="profile"/>
+        <infoLink name="Meteor *" id="06f8-4ea4-6bf3-0e53" hidden="false" targetId="85ed-6229-b1f6-478b" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Flameblast *" id="57f1-eb55-0275-ef61" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
@@ -3402,9 +3492,9 @@ when rolling for hits (including casting spells).</description>
         <infoLink name="Thunderclap *" id="9a0a-94fe-5428-57ae" hidden="false" targetId="5380-53c9-c868-13b8" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Phothep&apos;s Ring of Invincibility (unique)" id="ddf5-9710-ee08-8d4b" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Phothep&apos;s Ring of Invincibility (Unique)" id="ddf5-9710-ee08-8d4b" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Item Unique" id="a4dd-48f1-30ec-e2b3" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
+        <categoryLink name="Item - Unique" id="a4dd-48f1-30ec-e2b3" hidden="false" primary="false" targetId="af77-71a6-ae26-6c62"/>
         <categoryLink name="Item - Magic" id="f0da-9698-0a96-bba4" hidden="false" primary="true" targetId="f483-9016-24b0-c0d4"/>
       </categoryLinks>
       <costs>
@@ -3419,6 +3509,9 @@ when rolling for hits (including casting spells).</description>
         <categoryLink name="Item - Ranged" id="591e-f94c-b625-0bc8" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
         <categoryLink name="Item - Uncommon" id="e543-1979-cd21-f8e5" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="24e3-9f8e-45fa-d158" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4"/>
       </costs>
@@ -3464,6 +3557,103 @@ when rolling for hits (including casting spells).</description>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Blowpipe" id="9692-4901-30f6-771e" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="79cf-8f93-7012-ca0b-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="79cf-8f93-7012-ca0b-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Blowpipe" id="fec8-61f6-3ea0-b7b3" hidden="false" targetId="1389-bbf0-0017-f387" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Pistol" id="5235-9816-1af9-0f07" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="d441-c6b0-8a54-e898" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Pistol" id="5283-c8aa-4b9b-f163" hidden="false" targetId="87f9-3979-0e14-456d" type="profile"/>
+        <infoLink name="Piercing (1)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Pound" id="87fd-6612-8588-a3d3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Two-handed Weapon" id="a92e-488d-72b3-41c0" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="2b5d-2f8d-8183-98cb" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Crushing Strength (+1)" id="19df-0289-aff6-b969" hidden="false" targetId="a183-8a40-07d8-9da4" type="rule"/>
+        <infoLink name="Lowered Armour (1)" id="b689-feaa-688f-4c2c" hidden="false" targetId="d471-ad07-79a8-169e" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Flame Tongue *" id="82f1-5445-2efb-4372" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Flame Tongue" id="1871-24fc-4960-fe15" hidden="false" targetId="7a6e-55d4-6c7c-059f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Two-handed Weapon (Uncommon) *" id="a3b9-68d6-48a1-bea4" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Item - Melee" id="5623-4d0d-e9af-b9c8" hidden="false" primary="true" targetId="939e-8f40-e91b-75c9"/>
+        <categoryLink name="Item - Uncommon" id="292d-0852-11ea-87c0" hidden="false" primary="false" targetId="d24e-a366-033b-3c0b"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="a0dd-69f6-421a-3a52" field="selections" includeChildForces="true" includeChildSelections="true" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="0847-9d46-788a-bd9d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Crushing Strength (+1)" id="9459-6b98-8bed-e11a" hidden="false" targetId="a183-8a40-07d8-9da4" type="rule"/>
+        <infoLink name="Lowered Armour (-1)" id="ed39-0669-86c9-80df" hidden="false" targetId="d471-ad07-79a8-169e" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Two-handed Weapon" id="67f5-f2ce-ef88-b536" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
+          <characteristics>
+            <characteristic name="Type" typeId="55a7-a7a7-147b-28bc">Melee</characteristic>
+            <characteristic name="Rarity" typeId="501c-2c79-497a-befb">common</characteristic>
+            <characteristic name="Gold" typeId="55ab-9aee-c2c3-927c">2</characteristic>
+            <characteristic name="Effect" typeId="08b5-578a-af42-cf55">The model gains Crushing Strength (+1), but also Lowered Armor (1).</characteristic>
+            <characteristic name="Notes" typeId="7735-767f-4672-87c8">
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistol (rare) *" id="19b3-170f-8853-71f8" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Item - Ranged" id="e704-eac2-2bdf-a25e" hidden="false" primary="true" targetId="26fc-5919-55f0-1b8f"/>
+        <categoryLink name="Item - Rare" id="f8f0-f589-6f1b-066f" hidden="false" primary="false" targetId="93ab-84de-150c-48d6"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="92a9-d206-1f99-08a6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="a79d-27b2-1430-273c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Pistol" id="9581-15c1-6c42-6757" hidden="false" targetId="87f9-3979-0e14-456d" type="profile"/>
+        <infoLink name="Piercing (1)" id="4794-c5cc-dfeb-c27c" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Pound" id="7300-3cba-78f2-7d46" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Pistol (rare) *" id="de21-e16a-b5ad-bceb" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
+          <characteristics>
+            <characteristic name="Type" typeId="55a7-a7a7-147b-28bc">Ranged</characteristic>
+            <characteristic name="Rarity" typeId="501c-2c79-497a-befb">Rare</characteristic>
+            <characteristic name="Gold" typeId="55ab-9aee-c2c3-927c">4</characteristic>
+            <characteristic name="Effect" typeId="08b5-578a-af42-cf55"/>
+            <characteristic name="Notes" typeId="7735-767f-4672-87c8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name=" Items" id="c9c8-ac7b-333d-0312" collective="false" hidden="false" import="true">
@@ -3489,7 +3679,7 @@ when rolling for hits (including casting spells).</description>
             <entryLink name="Sheaf of Arrows (Common)" id="bdf8-c21c-2bdd-79e6" collective="false" hidden="false" import="true" targetId="2db4-dd6c-12e6-93af" type="selectionEntry"/>
             <entryLink name="Smelling Salts (Common)" id="09b4-9bcb-0f97-0457" collective="false" hidden="false" import="true" targetId="c124-0384-a03b-b63e" type="selectionEntry"/>
             <entryLink name="Dwarven Ale (Common)" id="db48-a5bc-3019-5750" collective="false" hidden="false" import="true" targetId="e94e-576b-6270-9a37" type="selectionEntry"/>
-            <entryLink name="Elixir of Resilience  (Rare)" id="cf91-89cd-c712-7e0d" collective="false" hidden="false" import="true" targetId="7e65-ba56-0078-096d" type="selectionEntry">
+            <entryLink name="Elixir of Resilience  (Uncommon)" id="cf91-89cd-c712-7e0d" collective="false" hidden="false" import="true" targetId="7e65-ba56-0078-096d" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3498,7 +3688,7 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Potion of Concentration (Rare)" id="9099-2fce-3864-ca9d" collective="false" hidden="false" import="true" targetId="5750-640e-0f6d-bd24" type="selectionEntry">
+            <entryLink name="Potion of Concentration (Uncommon)" id="9099-2fce-3864-ca9d" collective="false" hidden="false" import="true" targetId="5750-640e-0f6d-bd24" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3507,7 +3697,7 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Potion of Haste (Rare)" id="67d9-3597-db6f-b3cd" collective="false" hidden="false" import="true" targetId="8b2a-7e6e-7f0f-5519" type="selectionEntry">
+            <entryLink name="Potion of Haste (Uncommon)" id="67d9-3597-db6f-b3cd" collective="false" hidden="false" import="true" targetId="8b2a-7e6e-7f0f-5519" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3525,7 +3715,7 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Healing Herbs (Rare)" id="6e75-0eff-69bb-a06a" collective="false" hidden="false" import="true" targetId="789d-9dfb-10a0-02ce" type="selectionEntry">
+            <entryLink name="Healing Herbs (Uncommon)" id="6e75-0eff-69bb-a06a" collective="false" hidden="false" import="true" targetId="789d-9dfb-10a0-02ce" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3543,7 +3733,7 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Healing Potion (Unique)" id="f322-5433-3603-624a" collective="false" hidden="false" import="true" targetId="881b-a22c-a9c1-f94b" type="selectionEntry">
+            <entryLink name="Healing Potion (Rare)" id="f322-5433-3603-624a" collective="false" hidden="false" import="true" targetId="881b-a22c-a9c1-f94b" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3552,7 +3742,7 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Holy Water (Unique)" id="bfee-9613-c4bf-8204" collective="false" hidden="false" import="true" targetId="acc5-fc39-efd9-38e5" type="selectionEntry">
+            <entryLink name="Holy Water (Rare)" id="bfee-9613-c4bf-8204" collective="false" hidden="false" import="true" targetId="acc5-fc39-efd9-38e5" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3570,7 +3760,7 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Poison Bottle * (Rare)" id="2c88-678e-6b9c-ff3e" hidden="false" import="true" targetId="9674-e301-99bc-aae4" type="selectionEntry"/>
+            <entryLink name="Poison Bottle * (Uncommon)" id="2c88-678e-6b9c-ff3e" hidden="false" import="true" targetId="9674-e301-99bc-aae4" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Melee" id="66e8-e5f5-911a-1b3e" hidden="false" import="true">
@@ -3644,6 +3834,15 @@ when rolling for hits (including casting spells).</description>
             </entryLink>
             <entryLink name="Blade of Slashing (Rare) *" id="a525-493e-0989-b567" hidden="false" import="true" targetId="0388-228f-7c5e-e5e6" type="selectionEntry"/>
             <entryLink name="Riposting Rapier (Rare)" id="2e58-9a40-e325-171f" hidden="false" import="true" targetId="1355-63c2-5272-f1fc" type="selectionEntry"/>
+            <entryLink name="Two-handed Weapon (uncommon)" id="7099-4edd-2f40-4934" hidden="false" import="true" targetId="a3b9-68d6-48a1-bea4" type="selectionEntry">
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditions>
+                    <condition childId="c023-9db1-28d3-470e" childName="Has Crushing Strength" field="selections" scope="parent" shared="true" type="notInstanceOf" value="1"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armour" id="952f-a549-5487-1c53" collective="false" hidden="false" import="true">
@@ -3702,7 +3901,7 @@ when rolling for hits (including casting spells).</description>
             <entryLink name="Bow (Common)" id="d9bd-070e-a9c8-5059" collective="false" hidden="false" import="true" targetId="4f77-1522-0c42-837c" type="selectionEntry"/>
             <entryLink name="Crossbow (Common)" id="8a11-688c-fed8-9996" collective="false" hidden="false" import="true" targetId="52d0-6471-7175-d63f" type="selectionEntry"/>
             <entryLink name="Light Crossbow (Common)" id="2f27-bb5d-87e2-d458" collective="false" hidden="false" import="true" targetId="db7e-76e7-0af9-ad52" type="selectionEntry"/>
-            <entryLink name="Long Bow (Rare)" id="6d45-19d2-a7bc-01dd" collective="false" hidden="false" import="true" targetId="99d5-d34b-8f87-0c7d" type="selectionEntry">
+            <entryLink name="Long Bow (Uncommon)" id="6d45-19d2-a7bc-01dd" collective="false" hidden="false" import="true" targetId="99d5-d34b-8f87-0c7d" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3747,8 +3946,9 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Throwing Knife (Rare) *" id="6903-b849-475c-8eb9" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry"/>
-            <entryLink name="Rifle (Uncommon)" id="d4b9-42cd-562d-41c4" hidden="false" import="true" targetId="d223-9cf4-2145-4d5a" type="selectionEntry"/>
+            <entryLink name="Throwing Knife (Uncommon) *" id="6903-b849-475c-8eb9" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry"/>
+            <entryLink name="Rifle (Uncommon) *" id="d4b9-42cd-562d-41c4" hidden="false" import="true" targetId="d223-9cf4-2145-4d5a" type="selectionEntry"/>
+            <entryLink name="Pistol (rare) *" id="7e95-9d9e-8db9-d668" hidden="false" import="true" targetId="19b3-170f-8853-71f8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Magic" id="f528-beb2-baa9-5dff" collective="false" hidden="false" import="true">
@@ -3757,7 +3957,7 @@ when rolling for hits (including casting spells).</description>
           </constraints>
           <entryLinks>
             <entryLink name="Lucky Charm (Common)" id="bf0b-bf44-9a0c-6bd2" collective="false" hidden="false" import="true" targetId="5c65-0cc1-2bb8-869b" type="selectionEntry"/>
-            <entryLink name="Energy Chrystal (Rare)" id="35c7-5f3b-2cf5-b259" collective="false" hidden="false" import="true" targetId="44ca-a538-18ed-43c0" type="selectionEntry">
+            <entryLink name="Energy Chrystal (Uncommon)" id="35c7-5f3b-2cf5-b259" collective="false" hidden="false" import="true" targetId="44ca-a538-18ed-43c0" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditionGroups>
@@ -3978,7 +4178,7 @@ when rolling for hits (including casting spells).</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Phothep&apos;s Ring of Protection (unique)" id="5104-c03d-68ee-e321" hidden="false" import="true" targetId="ddf5-9710-ee08-8d4b" type="selectionEntry"/>
+            <entryLink name="Phothep&apos;s Ring of Invincibility (unique)" id="5104-c03d-68ee-e321" hidden="false" import="true" targetId="ddf5-9710-ee08-8d4b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Mount" id="0015-42c1-97a8-0bf7" collective="false" hidden="false" import="true">
@@ -4063,6 +4263,7 @@ when rolling for hits (including casting spells).</description>
         <entryLink name="Windblast" id="bb70-7b73-0f6a-f8c4" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
         <entryLink name="Zap" id="d6e2-dee0-bfa6-5738" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
         <entryLink name="Thunderclap *" id="a1d1-9bb6-5f5d-9d4f" hidden="false" import="true" targetId="fb3d-817e-7dde-6ee2" type="selectionEntry"/>
+        <entryLink name="Flame Tongue" id="8e30-a5fe-95c9-3efb" hidden="false" import="true" targetId="82f1-5445-2efb-4372" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Spellbook - Noble" id="9d30-0373-64e2-5580" collective="false" hidden="false" import="true" page="123" publicationId="37f5-f8f9-pubN68000">
@@ -4084,7 +4285,7 @@ when rolling for hits (including casting spells).</description>
       </constraints>
       <entryLinks>
         <entryLink name="Waterlogged" id="e107-b027-2967-247f" hidden="false" import="true" targetId="767b-7ecc-ea7d-bca4" type="selectionEntry"/>
-        <entryLink name="Tanglefoor" id="a1cc-1b43-b939-f713" hidden="false" import="true" targetId="fbbb-1f05-b56a-ad1c" type="selectionEntry"/>
+        <entryLink name="Tanglefoot" id="a1cc-1b43-b939-f713" hidden="false" import="true" targetId="fbbb-1f05-b56a-ad1c" type="selectionEntry"/>
         <entryLink name="Veiling Fog" id="9650-b803-2910-a280" hidden="false" import="true" targetId="edfe-9494-5ffb-dc6c" type="selectionEntry"/>
         <entryLink name="Nature&apos;s Cloak" id="e1cd-2ada-cf65-7ec9" hidden="false" import="true" targetId="a1d6-03a8-c8fd-f532" type="selectionEntry"/>
         <entryLink name="Brisk Work" id="e745-6ce6-b4ab-1f06" hidden="false" import="true" targetId="1328-4f7f-5a94-2b21" type="selectionEntry"/>

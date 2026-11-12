@@ -18,8 +18,8 @@
     <entryLink name="Succubus" id="0c4d-0d6a-ec8c-84c0" hidden="false" import="true" targetId="28cf-9e1d-62bb-a210" type="selectionEntry"/>
     <entryLink name="Succubus Lurker" id="8801-36fe-2667-38ee" hidden="false" import="true" targetId="afc3-1423-01ff-3766" type="selectionEntry"/>
     <entryLink name="Tormentor" id="7493-e9d5-079e-f1d0" hidden="false" import="true" targetId="bb72-18af-1888-cf66" type="selectionEntry"/>
-    <entryLink name="Fury" id="3313-110e-0507-2e65" hidden="false" import="true" targetId="2859-59a2-3fde-166d" type="selectionEntry"/>
-    <entryLink name="Tortured Soul" id="ba98-0f21-1828-b8da" hidden="false" import="true" targetId="6291-7ed4-b334-fc83" type="selectionEntry"/>
+    <entryLink name="Faction Abilities" id="3313-110e-0507-2e65" hidden="false" import="true" targetId="2859-59a2-3fde-166d" type="selectionEntry"/>
+    <entryLink name="Tortured Soul *" id="ba98-0f21-1828-b8da" hidden="false" import="true" targetId="6291-7ed4-b334-fc83" type="selectionEntry"/>
     <entryLink name="Infernal Berserker *" id="a9e2-c431-46a0-75dd" hidden="false" import="true" targetId="f969-de91-77bb-d271" type="selectionEntry"/>
     <entryLink name="Efreet *" id="1120-693e-d250-5fb9" hidden="false" import="true" targetId="a6ee-de02-7dec-06df" type="selectionEntry"/>
   </entryLinks>
@@ -250,35 +250,6 @@
         <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
-    <profile name="CONFUSE" id="2944-74d3-e9a5-171c" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use at any time</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">All outnumbering bonuses for models attacking this model are ignored for the rest of the Round.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="DEMONIC ROAR" id="4bf3-5177-29d0-ade9" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When the Tormentor is the target of a Melee attack, before the attack roll is made.</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The attacking model must make a Nerve test with a -1 modifier. If the test is failed, the attacking model’s Melee value becomes 7+ for the remainder of the Turn.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="FURY" id="5919-d269-777a-a572" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">After an ABYSSAL model was attacked in melee</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This ability may be used on a model that is already Activated and Fatigued. The model may retaliate. If the model was eligible to retaliate normally it gains 2 bonus dice to attack.
-This Special Ability may be used any number of times in a Round.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="LEAPING FIREBOLT" id="b5e8-3c88-22c7-80d2" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model makes a ranged attack with Firebolt.</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The range of the attack is increased to 12”</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Tormented Soul" id="ec4c-397a-ce71-7582" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
         <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
@@ -310,14 +281,14 @@ This Special Ability may be used any number of times in a Round.</characteristic
     <profile name="Efreet *" id="d6ea-a511-5da3-f02c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
         <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-        <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
         <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
         <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
       </characteristics>
     </profile>
@@ -479,7 +450,7 @@ This Special Ability may be used any number of times in a Round.</characteristic
       </entryLinks>
       <infoLinks>
         <infoLink name="Flamebearer" id="83f2-1cce-694b-afb5" hidden="false" targetId="5c25-1482-0398-f0bd" type="profile"/>
-        <infoLink name="Leaping Firebolt" id="5ec7-46ff-f0c7-a88b" hidden="false" targetId="b5e8-3c88-22c7-80d2" type="profile"/>
+        <infoLink name="LEAPING FIREBOLT" id="5ec7-46ff-f0c7-a88b" hidden="false" targetId="b5e8-3c88-22c7-80d2" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="d76c-3044-e46e-2bf4" type="increment" value="1">
@@ -681,7 +652,7 @@ This Special Ability may be used any number of times in a Round.</characteristic
         <infoLink name="Stealthy" id="9d0c-538a-e1f2-79c8" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Power Dice W/O (2)" id="85e3-292f-aa4d-55b2" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
         <infoLink name="Seductress" id="0c31-1f5a-4895-2748" hidden="false" targetId="3b1f-273a-88cb-ba55" type="profile"/>
-        <infoLink name="Confuse" id="85ce-8ba5-85cd-840e" hidden="false" targetId="2944-74d3-e9a5-171c" type="profile"/>
+        <infoLink name="CONFUSE" id="85ce-8ba5-85cd-840e" hidden="false" targetId="2944-74d3-e9a5-171c" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="7e9c-6216-5127-c296" type="increment" value="1">
@@ -772,7 +743,7 @@ This Special Ability may be used any number of times in a Round.</characteristic
         <infoLink name="Inspiring" id="e97d-6629-99f0-cfdd" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Regenerate (6+)" id="2e3e-4902-33d6-ce51" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Tormentor" id="fbf5-1192-eefb-9e07" hidden="false" targetId="a927-eb9f-bbaf-a858" type="profile"/>
-        <infoLink name="Demonic Roar" id="8a1e-3f23-0943-4b2c" hidden="false" targetId="4bf3-5177-29d0-ade9" type="profile"/>
+        <infoLink name="DEMONIC ROAR" id="8a1e-3f23-0943-4b2c" hidden="false" targetId="4bf3-5177-29d0-ade9" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="b906-c7f3-b6b3-945e" type="increment" value="1">
@@ -791,7 +762,7 @@ This Special Ability may be used any number of times in a Round.</characteristic
         <constraint id="5f9a-ce0b-965c-ad8f-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Fury" id="0d52-670d-4265-76da" hidden="false" targetId="5919-d269-777a-a572" type="profile"/>
+        <infoLink name="FURY" id="0d52-670d-4265-76da" hidden="false" targetId="5919-d269-777a-a572" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Tortured Soul *" id="6291-7ed4-b334-fc83" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
@@ -837,7 +808,7 @@ This Special Ability may be used any number of times in a Round.</characteristic
         <infoLink name="WILD CHARGE" id="182d-2540-d4a8-88d0" hidden="false" targetId="3cc4-3959-4c8e-b26e" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Efreet *" id="a6ee-de02-7dec-06df" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
+    <selectionEntry name="Efreet *" id="a6ee-de02-7dec-06df" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="b99b-7e92-fa02-cd29" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
       </categoryLinks>
@@ -848,7 +819,7 @@ This Special Ability may be used any number of times in a Round.</characteristic
         <entryLink name="Spellbook - Efreet" id="34e1-1426-3e81-5b6e" hidden="false" targetId="117a-6963-1ce3-4d2a" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Efreet" id="7ec7-f810-942d-c042" hidden="false" targetId="d6ea-a511-5da3-f02c" type="profile"/>
+        <infoLink name="Efreet *" id="7ec7-f810-942d-c042" hidden="false" targetId="d6ea-a511-5da3-f02c" type="profile"/>
         <infoLink name="Infernal Immolation" id="5cee-a420-fcfa-d9f6" hidden="false" targetId="4d4d-f673-7c80-8104" type="rule"/>
         <infoLink name="Support Caster *" id="6079-b252-b451-d8e5" hidden="false" targetId="c96e-9f0b-a1d3-6280" type="rule"/>
       </infoLinks>
@@ -895,7 +866,7 @@ This Special Ability may be used any number of times in a Round.</characteristic
       </constraints>
       <entryLinks>
         <entryLink name=" Spellbook - Abyss" id="0902-853f-4453-fa06" hidden="false" import="true" sortIndex="2" targetId="30c3-93d4-728b-b6b6" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Corrupt" id="55c6-4bc5-c2c9-0a5c" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="55c6-4bc5-c2c9-0a5c" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Abyssal Warlock" id="c49c-05ae-1f11-7b54" hidden="false" sortIndex="1">

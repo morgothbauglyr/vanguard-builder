@@ -1,153 +1,323 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Ratkin" id="1bf8-e261-53ce-da80" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <infoLinks>
-    <infoLink name="Blood Frenzy (2)" id="3fcc-d2de-4847-5458" hidden="false" targetId="847d-7845-2686-6a4c" type="rule"/>
-    <infoLink name="Pack Mentality" id="c88b-017a-9674-23aa" hidden="false" targetId="7ec2-95a2-9ab0-7d81" type="rule"/>
-  </infoLinks>
+  <entryLinks>
+    <entryLink name="War Chief" id="bad0-2c36-2b0f-4b15" collective="false" hidden="false" targetId="63bb-24bf-dabd-5876" type="selectionEntry"/>
+    <entryLink name="Wretch" id="0195-b028-e10c-f5cb" collective="false" hidden="false" targetId="1026-9544-ab4c-58e6" type="selectionEntry"/>
+    <entryLink name="Brute" id="5152-fc28-1b41-c130" collective="false" hidden="false" targetId="c373-cc81-66d6-cbaa" type="selectionEntry"/>
+    <entryLink name="Shock Trooper" id="37e4-eb73-0f6d-5919" collective="false" hidden="false" targetId="93d0-7373-546c-2ee1" type="selectionEntry"/>
+    <entryLink name="Vermintide" id="8960-ee71-c82c-2d65" hidden="false" targetId="6089-f655-2720-5977" type="selectionEntry"/>
+    <entryLink name="Scurrier" id="2d60-30ca-137d-db2c" collective="false" hidden="false" targetId="138c-2d97-4191-b588" type="selectionEntry"/>
+    <entryLink name="Swarm Crier" id="5a4c-7f17-f097-a926" hidden="false" targetId="da5d-193c-1c92-7560" type="selectionEntry"/>
+    <entryLink name="Ratkin Warrior" id="eae4-719c-5156-1c1a" collective="false" hidden="false" targetId="ef23-1da9-cb4f-2f20" type="selectionEntry"/>
+    <entryLink name="Hackpaw" id="d159-3647-caa4-02b4" collective="false" hidden="false" targetId="71e1-af2c-f054-4f17" type="selectionEntry"/>
+    <entryLink name="Night Terror" id="e58b-75ab-2ba6-52c3" collective="false" hidden="false" targetId="bf14-0e87-336b-6e64" type="selectionEntry"/>
+    <entryLink name="Nightmare Driller" id="1378-74f4-147c-4a8d" hidden="false" targetId="3385-b00e-c324-f63f" type="selectionEntry"/>
+    <entryLink name="Nightmare Gunner" id="df70-4ecc-f8c9-e3cf" hidden="false" targetId="0a74-b430-8d40-a8b9" type="selectionEntry"/>
+    <entryLink name="Ratkin Warlock" id="7caa-eda4-f1bb-028b" collective="false" hidden="false" targetId="093c-b3b3-10ad-f359" type="selectionEntry"/>
+    <entryLink name="Faction Abilities" id="7ad3-c3cd-470a-a038" hidden="false" import="true" targetId="713e-5da0-da83-f65d" type="selectionEntry"/>
+    <entryLink name="Twitch Keenear" id="90c3-9c69-e00c-2be8" hidden="false" import="true" targetId="9aaf-65c8-9c03-38d6" type="selectionEntry"/>
+    <entryLink name="Birthing Daughter" id="670a-1bfd-2042-ee37" hidden="false" import="true" targetId="9b9d-7815-b94f-c338" type="selectionEntry"/>
+    <entryLink name="Brute Enforcer" id="517e-8c49-c3f5-8a1d" hidden="false" import="true" targetId="f50c-e38f-5071-dc7e" type="selectionEntry"/>
+  </entryLinks>
   <publications>
     <publication name="Rulebook" id="1bf8-e261-pubN68796"/>
   </publications>
-  <selectionEntries>
-    <selectionEntry name="Wretch" id="1026-9544-ab4c-58e6" collective="false" hidden="false" import="true" type="model">
+  <sharedProfiles>
+    <profile name="DISPLAY OF WEAKNESS" id="ba93-6967-4d2f-3e4d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of a Turn.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Until the end of the Round, all models in the Warband of the race RATKIN gain Sneaky.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vermin Swarm" id="80c8-c94a-75d1-85cb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
+</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Cast on any friendly model (even if it is Engaged). May also be cast on self, even if caster is Engaged. Each enemy model Engaged by or Engaging the target must make an immediate
+Fallback move of 3” following the normal rules. No Break Away tests are required. Knocked-down models are still moved and remain Knocked-down.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Engaged Cast</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lair" id="f58e-a7f0-7515-7aca" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Instead of rolling to hit and wound as normal, every eligible target of the Breath attack must roll a D8 and add their Sp value. If the result is 8 or less, or a natural 1 was rolled, the model loses one wound with no Armour Roll possible.</characteristic>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blight Cannon" id="393c-5bb2-d048-8c24" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="INSANE POWER SURGE" id="8f05-831d-5c54-284c" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">X</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when this model is activated during one of your Turns.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Declare how much power is being spent before casting any spells. For each power spent, the warlock can cast one of the spells it knows regardless of the action length. Spells can only be boosted if it costs additional power to do so. Resolve the effects of each spell before casting the next. Once all spells are cast, the Warlock is marked as both Activated and Fatigued and roll 1d8 for each spell that was cast. For each 6+ rolled, the Warlock suffers 1 automatic wound with no armour save possible.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wretch" id="e257-5fcf-cee8-7b41" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">7+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vermintide" id="37ee-f9a9-723d-84f5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">7+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ratkin Warrior" id="54f8-1895-b61f-3b9e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hackpaw" id="3952-39a0-fc4a-75f6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shock Trooper" id="bba8-9dc1-1a3a-a64f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Swarm Crier" id="a48d-3921-a900-9e6f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WILD ATTACK" id="362b-f314-b7cf-6118" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">X</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When making a Melee attack, before dice are rolled.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">For each Power spent, add 1 to the value of this model’s Crushing Strength for this Melee attack. This model is marked as Activated and Fatigued following the Melee attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nightmare Gunner" id="fb01-a426-45f2-df6a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="GO LONG" id="85c0-5b18-f497-ae54" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">X</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability before making a Ranged attack with the Blight Cannon.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Spend a maximum of 3 Power. For each Power spent increase the range by 3” but also modify the Nightmare Gunner’s Ra by +1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Night Terror" id="d42d-e800-3713-8ecc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nightmare Driller" id="df2b-b51b-64ce-0b86" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ratkin Warlock" id="d5f0-5e0c-8c1d-80b1" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Birthing Daughter" id="4a36-373c-3934-5122" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blight Grenades" id="f50c-20f8-3eed-91c7" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Area of Effect (2&quot; / 2D8), Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blight Grenades" id="121f-a2cc-45ce-9ecb" hidden="false" typeId="4dc9-b7a9-fe41-a041" typeName="Area Effect">
+      <characteristics>
+        <characteristic name="Range" typeId="f9c3-6e8c-513c-004c">2&quot;</characteristic>
+        <characteristic name="Dice" typeId="2e7f-fdd0-d47c-b762">2D8</characteristic>
+        <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Pack Mentality" id="7ec2-95a2-9ab0-7d81" hidden="false">
+      <description>When making Fallback checks, Ratkin models may add a +1 modifer to their roll for each other friendly non-Grunt Ratkin model within 6”, that have not also already failed their own Fallback check this Round. A natural roll of 1 will still fail the test as normal.</description>
+    </rule>
+    <rule name="Screech Song" id="f279-d28b-c9e1-bec7" hidden="false">
+      <description>Enemy models within 6” of one or more friendly models with this rule suffer a -1 modifier to their Armour rolls.</description>
+    </rule>
+    <rule name="Endless Swarm" id="2059-5d2b-8150-921f" hidden="false">
+      <description>During deployment, the Ratkin player may place three 25mm Nest Entrance tokens on the board (place all 3 at the same time, counting as one model deployment). These cannot be within 6” of an objective or another Nest Entrance token, or in the enemy deployment area. Nest Entrance tokens count as Impassable Height 0 terrain. 
+When a friendly Ratkin GRUNT is removed from play, roll a D8. On a 5+ the GRUNT can be placed adjacent to any friendly Nest Entrance tokens. It may not be placed in base contact with an enemy model. If there is no room to place the GRUNT, it is removed from play as normal. The returned model is marked as Activated and Fatigued, and as they have returned they are counted as remaining models for checking if the Warband is broken. 
+A Nest Entrance can be destroyed - an enemy model must be in base contact with the Nest Entrance token and use a long action to remove it. In scenarios which score for killed models, GRUNTS killed score as normal, even if they return via a Nest Entrance.</description>
+    </rule>
+    <rule name="Eye of the Abyss" id="8ee9-879e-720e-ae99" hidden="false">
+      <description>Declare you are using this ability in the Roll for Power phase. Twitch does not generate any Power Dice this Round. Instead, in the next Roll for Power phase Twitch will generate an additional White Power Dice.</description>
+    </rule>
+    <rule name="Will of the Brood" id="84f4-e1f2-4549-493c" hidden="false">
+      <description>If this model starts the Round within 6” of the Birthing Daughter, upgrade one of its Power Dice from Red to White.</description>
+    </rule>
+    <rule name="Inspire Fear" id="97c9-9bf4-ca36-b492" hidden="false">
+      <description>When within 3” of this model, friendly GRUNTS and WARRIORS gain the Bloodlust ability.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Vermin Swarm" id="2d4d-d388-47b7-c827" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Grunt" id="8c59-1295-cb32-fa29" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
-        <categoryLink name="Troop" id="7a53-9fd5-4136-a113" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Spell" id="8b41-0962-4f2f-d601" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="e414-730e-c4e4-c933" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="70e5-d1ac-252d-6e31" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="8536-b635-a793-c321" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Spear" id="88f4-7eb8-878d-87b9" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
-          <constraints>
-            <constraint id="a859-5971-8b9b-3d7d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <profiles>
-        <profile name="Wretch" id="e257-5fcf-cee8-7b41" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">7+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Hackpaw" id="71e1-af2c-f054-4f17" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Support" id="1f44-3dcd-3a38-c512" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
-        <categoryLink name="Cavalry" id="4b51-318a-ac21-251a" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Elite" id="b565-3a4b-9d72-1b6f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Cavalry" id="b430-76dc-459d-d0ce" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink name="Vermin Swarm" id="463a-2e40-07e3-a338" hidden="false" targetId="80c8-c94a-75d1-85cb" type="profile"/>
+        <infoLink name="Engaged Cast" id="5e2c-3c3c-3ca3-e472" hidden="false" targetId="a8dc-9e80-db50-c93c" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Hackpaw" id="3952-39a0-fc4a-75f6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
-    <selectionEntry name="Ratkin Warrior" id="ef23-1da9-cb4f-2f20" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Lair" id="e34d-8e1a-40ba-7def" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Warrior" id="c925-fa5b-7a91-90e2" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="ce9a-d795-93aa-fab1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Spell" id="891d-0fd0-2e82-fce4" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="e3ca-3f14-9d44-ff19" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="e8ca-db0f-e3ae-fb4e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="dc21-51d0-1c75-49c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <profiles>
-        <profile name="Ratkin Warrior" id="54f8-1895-b61f-3b9e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Scurrier" id="138c-2d97-4191-b588" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Support" id="c73b-fcf1-6eb6-f7cd" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="d20f-300e-78e8-e37a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Throwing Knife" id="d599-75b1-4859-54cd" collective="false" hidden="false" import="true" targetId="5305-9abb-3b6e-6db4" type="selectionEntry">
-          <constraints>
-            <constraint id="a842-669e-9c9f-7979" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="be44-87ca-af60-c338" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
       <infoLinks>
-        <infoLink name="Scout" id="995a-9ca3-0590-d393" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-        <infoLink name="Dodge" id="89e6-8fb6-c119-f5f0" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
-        <infoLink name="Marksman" id="8b2a-e11b-7508-25a9" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
-        <infoLink name="Combined Fire" id="ceee-0d38-bc4f-ae0e" hidden="false" targetId="b43b-e9a2-0881-2568" type="rule"/>
+        <infoLink name="Lair" id="87d1-e6bc-95e8-ee62" hidden="false" targetId="f58e-a7f0-7515-7aca" type="profile"/>
+        <infoLink name="Breath" id="63f0-4929-70e7-72b1" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Scurrier" id="483f-6c07-6ace-7401" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Blight Cannon" id="b023-c0f9-0cda-6278" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="eb99-3877-8a2e-3937-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="eb99-3877-8a2e-3937-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Blight Cannon" id="9801-8fa2-b4b3-06e9" hidden="false" targetId="393c-5bb2-d048-8c24" type="profile"/>
+        <infoLink name="Piercing (1)" id="487c-681a-e030-e293" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry name="Brute" id="c373-cc81-66d6-cbaa" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="eea0-d066-d294-c90b" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="577c-d10b-6ae8-d811" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="d46b-2504-da5a-844f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Ratkin" id="138d-fbb9-f9a3-1760" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
@@ -159,7 +329,7 @@
         <infoLink name="Pound" id="978f-4796-ae83-9ea3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
         <infoLink name="Regenerate (6+)" id="687d-9c40-34b5-696f" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="cec5-1954-de1b-803e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="d682-0fd7-b8b5-1b04" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="d682-0fd7-b8b5-1b04" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Brute" id="b610-8dcc-f61d-0473" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -178,78 +348,27 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Shock Trooper" id="93d0-7373-546c-2ee1" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Hackpaw" id="71e1-af2c-f054-4f17" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Warrior" id="3e22-5f51-b4ae-415a" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
-        <categoryLink name="Troop" id="c477-728c-0053-e285" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-        <categoryLink name="Has Crushing Strength" id="ff09-5b42-c413-8395" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Cavalry" id="4b51-318a-ac21-251a" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Warrior" id="9b2d-55f0-8dd7-06e0" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="3b80-42f1-7617-bcc7" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Ratkin" id="0c82-5050-7da6-0562" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
       </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="9d6f-e1e5-5429-d699" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
       <infoLinks>
-        <infoLink name="Elite" id="6801-b32e-a130-57f8" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="5bf0-ec38-3ee8-a1d2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Hackpaw" id="d571-7d5f-3feb-b9eb" hidden="false" targetId="3952-39a0-fc4a-75f6" type="profile"/>
+        <infoLink name="Elite" id="b565-3a4b-9d72-1b6f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Cavalry" id="b430-76dc-459d-d0ce" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Shock Trooper" id="bba8-9dc1-1a3a-a64f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="War Chief" id="63bb-24bf-dabd-5876" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Command" id="7e0c-1b14-aee6-4bfa" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
-        <categoryLink name="Has Crushing Strength" id="83e1-b216-78e3-3ff7" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="f182-ebd9-635c-576c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Blazing Parry (2)" id="90a4-be60-c065-57df" hidden="false" targetId="c5d8-75e7-2c84-2d20" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="d31d-3233-c9bb-a8b2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Inspiring" id="a289-0694-1d07-3881" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Steady" id="b37b-46c6-44c8-1bc2" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice B/G (1)" id="4f21-03d0-a4f3-c95e" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="War Chief" id="aebf-ec6d-d972-1d6d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Night Terror" id="bf14-0e87-336b-6e64" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="7304-716d-eea2-4631" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="397f-84f9-49f4-25e1" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Ratkin" id="5a47-eb95-b1d9-207b" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
@@ -258,41 +377,56 @@
         <entryLink name=" Items" id="6b8a-5a32-8145-7389" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
+        <infoLink name="Night Terror" id="7582-7197-b296-5f02" hidden="false" targetId="d42d-e800-3713-8ecc" type="profile"/>
         <infoLink name="Elite" id="368e-ea04-2ffa-bfcb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Steady" id="3801-a80f-0248-c341" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Raking Claws (1)" id="b315-4162-112e-32cc" hidden="false" targetId="9b78-ba22-b4ef-05be" type="rule"/>
         <infoLink name="Smash" id="9973-67e4-fb72-a52d" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="122a-ccf5-31df-c106" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="WILD ATTACK" id="8b72-da52-80f3-173b" hidden="false" targetId="362b-f314-b7cf-6118" type="profile"/>
       </infoLinks>
-      <profiles>
-        <profile name="Night Terror" id="d42d-e800-3713-8ecc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Nightmare Driller" id="3385-b00e-c324-f63f" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="163c-b8ca-b253-09e6" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Ratkin" id="0698-ea98-14a2-dc5d" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Nightmare Driller" id="30fd-f862-be80-6477" hidden="false" targetId="df2b-b51b-64ce-0b86" type="profile"/>
+        <infoLink name="Crushing Strength (1)" id="50ed-c382-e506-afc7" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Pound" id="f85e-f0f9-3cfa-d0a5" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+        <infoLink name="Elite" id="d2db-819e-ddf7-3e69" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="WILD ATTACK" id="c3a6-7ace-2c58-4006" hidden="false" targetId="362b-f314-b7cf-6118" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Nightmare Gunner" id="0a74-b430-8d40-a8b9" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="ada3-074a-83e1-b750" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Ratkin" id="aa60-abd3-ef1c-5c05" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="27"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Blight Cannon" id="0b17-5181-9fd2-3ae9" hidden="false" import="true" targetId="b023-c0f9-0cda-6278" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="GO LONG" id="b4a6-af5f-bdfb-030e" hidden="false" targetId="85c0-5b18-f497-ae54" type="profile"/>
+        <infoLink name="Nightmare Gunner" id="232f-75e3-d71a-27fc" hidden="false" targetId="fb01-a426-45f2-df6a" type="profile"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry name="Ratkin Warlock" id="093c-b3b3-10ad-f359" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="f08b-6c30-0b7e-99be" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Ratkin" id="e3bd-8b70-bbee-904d" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="dfa4-6ba6-714d-4e22" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Ratkin (Paid)" id="9aa0-789d-68c9-ac2b" collective="false" hidden="false" import="true" targetId="36c2-5a25-ed54-1be7" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Corrupt" id="2fa3-4a19-53d6-be62" collective="false" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Ratkin (Free)" id="a792-4b3c-dc6b-17b1" collective="false" hidden="false" import="true" targetId="b60f-43ba-f438-a55f" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Basic Ratkin Warlock" id="bec8-0636-5c18-3210" collective="false" hidden="false" import="true" targetId="ae0f-f9dd-77b6-816b" type="selectionEntryGroup">
           <constraints>
             <constraint id="4003-43a5-dfc9-e982" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
@@ -313,13 +447,214 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Insane Power Surge (n)" id="4934-f03a-e8d9-afad" hidden="false" targetId="0463-a247-0695-d99e" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="d6c4-84df-5f60-2a16" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
-        <infoLink name="Headstrong" id="8631-1250-1e17-ce95" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
-        <infoLink name="Inspiring" id="a8a3-e6e5-1b02-a280" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Ratkin Warlock" id="fd32-4979-89df-ac02" hidden="false" targetId="d5f0-5e0c-8c1d-80b1" type="profile"/>
+        <infoLink name="Power Dice White/Orange (1)" id="d6c4-84df-5f60-2a16" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="INSANE POWER SURGE" id="e786-29fc-6144-e1c7" hidden="false" targetId="8f05-831d-5c54-284c" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Ratkin Warrior" id="ef23-1da9-cb4f-2f20" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="c925-fa5b-7a91-90e2" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="ce9a-d795-93aa-fab1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Ratkin" id="fe6a-3812-c803-4de8" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="dc21-51d0-1c75-49c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ratkin Warrior" id="1ebd-5e9c-fc4f-4a9f" hidden="false" targetId="54f8-1895-b61f-3b9e" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Scurrier" id="138c-2d97-4191-b588" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="c73b-fcf1-6eb6-f7cd" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Ratkin" id="ce1c-a972-e08d-9013" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="d20f-300e-78e8-e37a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Throwing Knife" id="d599-75b1-4859-54cd" collective="false" hidden="false" import="true" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
+          <constraints>
+            <constraint id="a842-669e-9c9f-7979" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="be44-87ca-af60-c338" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Scout" id="995a-9ca3-0590-d393" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+        <infoLink name="Dodge" id="89e6-8fb6-c119-f5f0" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink name="Marksman" id="8b2a-e11b-7508-25a9" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="RAPID FIRE" id="1284-25c6-33eb-525d" hidden="false" targetId="3b97-56c0-520e-d2b2" type="profile"/>
       </infoLinks>
       <profiles>
-        <profile name="Ratkin Warlock" id="d5f0-5e0c-8c1d-80b1" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+        <profile name="Scurrier" id="483f-6c07-6ace-7401" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Shock Trooper" id="93d0-7373-546c-2ee1" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Has Crushing Strength" id="ff09-5b42-c413-8395" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Support" id="7624-09df-ad6f-c31c" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Ratkin" id="9682-4142-c760-3264" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="9d6f-e1e5-5429-d699" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Shock Trooper" id="8835-cb78-4f93-e726" hidden="false" targetId="bba8-9dc1-1a3a-a64f" type="profile"/>
+        <infoLink name="Elite" id="6801-b32e-a130-57f8" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="5bf0-ec38-3ee8-a1d2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Swarm Crier" id="da5d-193c-1c92-7560" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Support" id="c544-b78f-0857-fe88" hidden="false" primary="false" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Ratkin" id="e1cb-cce2-11e8-4f64" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Swarm Crier" id="6f23-b15b-7357-89a4" hidden="false" targetId="a48d-3921-a900-9e6f" type="profile"/>
+        <infoLink name="Very Inspiring" id="0365-091f-a9d5-d133" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
+        <infoLink name="Screech Song" id="ca01-5a00-1561-3cf8" hidden="false" targetId="f279-d28b-c9e1-bec7" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Vermintide" id="6089-f655-2720-5977" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Troop" id="ab8b-43c1-f870-5977" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Beast" id="6170-6233-4eb8-2893" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Grunt" id="7a96-c96f-dec6-01b1" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Ratkin" id="20cc-a942-5526-65fd" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Vermintide" id="b292-fbe9-19f1-05cb" hidden="false" targetId="37ee-f9a9-723d-84f5" type="profile"/>
+        <infoLink name="Regenerate (6+)" id="38fd-a197-f6d1-dac5" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Swarm" id="f5c1-d56d-5c68-6a91" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Wretch" id="1026-9544-ab4c-58e6" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="8c59-1295-cb32-fa29" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="7a53-9fd5-4136-a113" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Ratkin" id="a558-2010-6824-ab55" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="8536-b635-a793-c321" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Spear" id="88f4-7eb8-878d-87b9" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+          <constraints>
+            <constraint id="a859-5971-8b9b-3d7d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Wretch" id="995d-dbbb-12fc-dfc9" hidden="false" targetId="e257-5fcf-cee8-7b41" type="profile"/>
+        <infoLink name="Worthless" id="625e-5141-7aad-ecff" hidden="false" targetId="0a86-0161-dd39-1d09" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="War Chief" id="63bb-24bf-dabd-5876" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="7e0c-1b14-aee6-4bfa" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="83e1-b216-78e3-3ff7" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Ratkin" id="b437-72fb-2171-7f45" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="f182-ebd9-635c-576c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Will of the Brood" id="a504-6b91-6ea7-0995" hidden="false" targetId="84f4-e1f2-4549-493c" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="d31d-3233-c9bb-a8b2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Inspiring" id="a289-0694-1d07-3881" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink name="Steady" id="b37b-46c6-44c8-1bc2" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Power Dice Red/Black (2)" id="4f21-03d0-a4f3-c95e" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Inspire Fear" id="2b21-488f-f687-cc5a" hidden="false" targetId="97c9-9bf4-ca36-b492" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="War Chief" id="aebf-ec6d-d972-1d6d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Faction Abilities" id="713e-5da0-da83-f65d" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Faction Ability" id="8914-03e6-8697-811e" hidden="false" primary="true" targetId="b736-f2bd-d93d-6b4d"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="f27b-2c0c-ed53-bcd8-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="f27b-2c0c-ed53-bcd8-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Endless Swarm" id="6490-b545-1e27-0641" hidden="false" targetId="2059-5d2b-8150-921f" type="rule"/>
+        <infoLink name="Pack Mentality" id="2820-cab1-5c1b-1389" hidden="false" targetId="7ec2-95a2-9ab0-7d81" type="rule"/>
+        <infoLink name="DISPLAY OF WEAKNESS" id="288b-636f-9ca0-253e" hidden="false" targetId="ba93-6967-4d2f-3e4d" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Twitch Keenear" id="9aaf-65c8-9c03-38d6" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="68e2-bdf4-b356-b6e8" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Ratkin" id="54c7-5116-0c8b-4a01" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="492b-efec-e60a-9cc9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Spell Selection - Twitch Keenear" id="ccd0-87b0-8fbe-b5a6" hidden="false" targetId="06ec-0a82-019a-d7ed" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Eye of the Abyss" id="2c51-e73b-793a-a072" hidden="false" targetId="8ee9-879e-720e-ae99" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="82a4-3384-a252-9c24" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twitch Keenear" id="6b80-ac24-d5db-6a9c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
@@ -330,293 +665,190 @@
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Unstable Magic" id="0b68-f23e-f3c4-8354" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+          <characteristics>
+            <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">X</characteristic>
+            <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When you activate Twitch.</characteristic>
+            <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34"> Pay n Power.  Add +X dice to the first spell Twitch Casts this Turn. Spells can only be boosted if it costs additional Power to do so. Once the spell has been cast, Twitch is marked as both Activated andFatigued. Roll XD8. For each 6+ rolled, Twitch suffers 1 automatic wound with no Armour roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Vermintide" id="6089-f655-2720-5977" hidden="false" import="true" type="model">
+    <selectionEntry name="Birthing Daughter" id="9b9d-7815-b94f-c338" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Troop" id="ab8b-43c1-f870-5977" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-        <categoryLink name="Beast" id="6170-6233-4eb8-2893" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
-        <categoryLink name="Grunt" id="7a96-c96f-dec6-01b1" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Command" id="4308-7c40-2d75-600e" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Ratkin" id="f33f-347e-7686-a9c1" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0c56-c5b0-8b97-e497" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Blight Grenades" id="be22-4515-f2f9-6213" hidden="false" targetId="dc31-eab4-d31f-10c4" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Inspire Fear" id="6bba-61b1-b94c-8521" hidden="false" targetId="97c9-9bf4-ca36-b492" type="rule"/>
+        <infoLink name="Birthing Daughter" id="d5fa-158f-df8f-b16f" hidden="false" targetId="4a36-373c-3934-5122" type="profile"/>
+        <infoLink name="Power Dice White/Orange (1)" id="a0e9-cbff-4079-5e57" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Dodge" id="9fe4-528b-ccfc-cb2e" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink name="Marksman" id="0994-6f22-9cb1-79b6" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="Stealthy" id="1199-c7dc-aec6-d28f" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+      </infoLinks>
+      <rules>
+        <rule name="Message from the Nest" id="d225-0c23-0427-6a62" hidden="false">
+          <description>If this model starts the Round within 3” of a Nest Entrance token, upgrade its Power Dice from White to Blue.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry name="Blight Grenades" id="dc31-eab4-d31f-10c4" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="111d-7f6b-a847-002d-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="111d-7f6b-a847-002d-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Blight Grenades" id="c20f-b485-70f3-55bd" hidden="false" targetId="121f-a2cc-45ce-9ecb" type="profile"/>
+        <infoLink name="Blight Grenades" id="48cb-0674-4ff9-4054" hidden="false" targetId="f50c-20f8-3eed-91c7" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Brute Enforcer" id="f50c-e38f-5071-dc7e" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Command" id="441d-cbb9-d623-27c0" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Large" id="7aef-db11-9341-5c70" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Ratkin" id="4632-28c2-7f91-3f4f" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Large Command" id="c967-c0d9-2355-cf81" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>
       </costs>
       <infoLinks>
-        <infoLink name="Regenerate (6+)" id="38fd-a197-f6d1-dac5" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Swarm" id="f5c1-d56d-5c68-6a91" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
+        <infoLink name="DEMONIC ROAR" id="0db6-ada3-e1b9-3f14" hidden="false" targetId="4bf3-5177-29d0-ade9" type="profile"/>
+        <infoLink name="Crushing Strength (2)" id="e281-68ca-de46-9943" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Smash" id="956c-6c30-8c74-9b8b" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="3128-9054-82c2-88b8" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Vermintide" id="37ee-f9a9-723d-84f5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+        <profile name="Brute Enforcer" id="45a6-38e0-5568-a9ce" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
             <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">7+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Swarm Crier" id="da5d-193c-1c92-7560" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Support" id="c544-b78f-0857-fe88" hidden="false" primary="false" targetId="c194-28e4-665e-319c"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Very Inspiring" id="0365-091f-a9d5-d133" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
-        <infoLink name="Screech Song" id="ca01-5a00-1561-3cf8" hidden="false" targetId="f279-d28b-c9e1-bec7" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Swarm Crier" id="a48d-3921-a900-9e6f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
             <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Nightmare Gunner" id="0a74-b430-8d40-a8b9" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Large" id="ada3-074a-83e1-b750" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="27"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Blight Cannon" id="0b17-5181-9fd2-3ae9" hidden="false" import="true" targetId="b023-c0f9-0cda-6278" type="selectionEntry">
-          <constraints>
-            <constraint id="44b2-b26c-5387-ba40-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="44b2-b26c-5387-ba40-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Go Long (n)" id="3a8d-c1a7-e66e-61b5" hidden="false" targetId="017e-d157-fa20-d8cc" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Nightmare Gunner" id="fb01-a426-45f2-df6a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Nightmare Driller" id="3385-b00e-c324-f63f" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Large" id="163c-b8ca-b253-09e6" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="50ed-c382-e506-afc7" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Pound" id="f85e-f0f9-3cfa-d0a5" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Elite" id="d2db-819e-ddf7-3e69" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Wild Attack (n)" id="be21-f495-dca8-3330" hidden="false" targetId="fd1e-492c-a63d-b6b8" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Nightmare Driller" id="df2b-b51b-64ce-0b86" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-  </selectionEntries>
-  <sharedRules>
-    <rule name="Blood Frenzy (2)" id="847d-7845-2686-6a4c" hidden="false">
-      <description>Use this ability at the start of one of your Turns. Until the end of the Round, all friendly Ratkin models have the Bloodlust special rule.</description>
-    </rule>
-    <rule name="Pack Mentality" id="7ec2-95a2-9ab0-7d81" hidden="false">
-      <description>When making Fallback checks, Ratkin models may add a +1 modifer to their roll for each other friendly non-Grunt Ratkin model within 6”. A natural roll of 1 will still fail the test as normal.</description>
-    </rule>
-    <rule name="Spell - Vermin Swarm" id="a5ae-238f-eeae-7de8" hidden="false">
-      <description>Can be cast on self and even if target is Engaged. Each enemy model Engaged by or Engaging the target must make an immediate Fallback move of 3” following the normal rules. No Break Away tests are required. Knocked-down models are still moved and remain Knocked-down.</description>
-    </rule>
-    <rule name="Spell - Lair" id="7bfc-b91a-1fb1-ca36" hidden="false">
-      <description>Place a 1”x 6” marker anywhere within, or partly within, 6” of the caster, into Open Ground. The area described by the marker is a Lair opening and is Height 0 Impassable Terrain, but may be jumped across. In the End Phase of each Round roll a die. On a 3+, the Lair opening is removed. The casting model can only have one such Lair opening in play at any time. Any model touching the Lair opening, including when initially placed must roll a die and score less than their Sp. A roll of 8 always fails. Models failing suffer a Melee attack with 3D8, hitting on 5+ and with Crushing Strength (1). Models are then moved to the closest edge of the Lair opening and just clear of it. Models failing to jump across the lair opening are killed.</description>
-    </rule>
-    <rule name="Blazing Parry (2)" id="c5d8-75e7-2c84-2d20" hidden="false">
-      <description>Use this ability when an enemy model Retaliates against the War Chief. The enemy model rolls no dice and the attack fails. The enemy model is marked as both Activated and Fatigued.</description>
-    </rule>
-    <rule name="Insane Power Surge (n)" id="0463-a247-0695-d99e" hidden="false">
-      <description>Use this ability when this model is activated during one of your Turns. Declare how much power is being spent before casting any spells. For each power spent, the warlock can cast one of the spells it knows regardless of the action length. Spells can only be boosted if it costs additional power to do so. Resolve the effects of each spell before casting the next. Once all spells are cast, the Warlock is marked as both Activated and Fatigued and roll 1d8 for each spell that was cast. For each 6+ rolled, the Warlock suffers 1 automatic wound with no armour save possible.</description>
-    </rule>
-    <rule name="Raking Claws (1)" id="9b78-ba22-b4ef-05be" hidden="false">
-      <description>Use this ability when making a Melee attack, before dice are rolled. Add 1 to the value of the model’s Crushing Strength for this Melee attack. This ability can be used any number of times each Round.</description>
-    </rule>
-    <rule name="Limited Capability" id="3d31-d664-abf1-15f8" hidden="false">
-      <description>This model may only be given Melee type equipment.</description>
-    </rule>
-    <rule name="Screech Song" id="f279-d28b-c9e1-bec7" hidden="false">
-      <description>Enemy models within 6” of one or more friendly models with this rule suffer a -1 modifier to their Armour rolls.</description>
-    </rule>
-    <rule name="Go Long (n)" id="017e-d157-fa20-d8cc" hidden="false">
-      <description>Use this ability before making a Ranged attack with the Blight Cannon. Spend a maximum of 3 Power. For each Power spent increase the range by 3” but also modify the Nightmare Gunner’s Ra by +1.</description>
-    </rule>
-    <rule name="Wild Attack (n)" id="fd1e-492c-a63d-b6b8" hidden="false">
-      <description>Use this ability when making a Melee attack, before dice are rolled. For each Power spent, add 1 to the value of this model’s Crushing Strength for this Melee attack. This model is marked as Activated and Fatigued following the Melee attack.</description>
-    </rule>
-  </sharedRules>
-  <sharedSelectionEntries>
-    <selectionEntry name="Vermin Swarm (long)" id="2d4d-d388-47b7-c827" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="08d2-70c9-e9ad-9378" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Spell - Vermin Swarm" id="cfe3-19cd-066e-ad39" hidden="false" targetId="a5ae-238f-eeae-7de8" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Vermin Swarm (long)" id="80c8-c94a-75d1-85cb" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Lair (long)" id="e34d-8e1a-40ba-7def" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Rule Check - Is Faction Spell" id="39db-202e-5ebf-54d0" collective="false" hidden="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Spell - Lair" id="d8c3-c594-a810-59d9" hidden="false" targetId="7bfc-b91a-1fb1-ca36" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Lair (long)" id="f58e-a7f0-7515-7aca" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
-          <characteristics>
-            <characteristic name="Action" typeId="4e66-0225-3cc6-27c7"/>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
-            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
-            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Throwing Knife" id="5305-9abb-3b6e-6db4" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
-      <profiles>
-        <profile name="Throwing Knife" id="8021-2815-9a4d-9b84" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Blight Cannon" id="b023-c0f9-0cda-6278" hidden="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink name="Piercing (1)" id="487c-681a-e030-e293" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Blight Cannon" id="393c-5bb2-d048-8c24" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Basic Ratkin Warlock" id="ae0f-f9dd-77b6-816b" collective="false" hidden="false" import="true" page="41" publicationId="1bf8-e261-pubN68796">
+    <selectionEntryGroup name=" Spell Selection - Ratkin Warlock" id="ae0f-f9dd-77b6-816b" collective="false" hidden="false" import="true" page="41" publicationId="a3d2-75b6-8c4e-cbde">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="60d7-46de-bf95-48e4" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink name="Lightning Bolt" id="79b9-6a4c-e709-a7f6" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink name="Stun" id="4eff-aca9-b85a-48cb" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
-        <entryLink name="Zap" id="5dbb-788d-d590-aec0" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
-        <entryLink name="Shockwave" id="13af-2994-7aa9-5b21" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+        <entryLink name=" Spellbook - Ratkin" id="d034-5f4f-2d56-fe0a" hidden="false" import="true" sortIndex="2" targetId="b60f-43ba-f438-a55f" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="c23f-6f20-2751-1105" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Spellbook - Ratkin Warlock" id="d9db-cd69-ac65-66b6" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="f48b-9629-75ae-9cdb" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="3b9a-fdc0-b956-92de" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Zap" id="5dbb-788d-d590-aec0" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
+            <entryLink name="Shockwave" id="13af-2994-7aa9-5b21" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+            <entryLink name="Stun" id="4eff-aca9-b85a-48cb" collective="false" hidden="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
+            <entryLink name="Lightning Bolt" id="79b9-6a4c-e709-a7f6" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Ratkin (Free)" id="b60f-43ba-f438-a55f" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Ratkin" id="b60f-43ba-f438-a55f" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="ebad-e8b4-78d9-e742" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="ebad-e8b4-78d9-e742" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
         <entryLink name="Vermin Swarm (long)" id="e674-353b-b22e-4674" collective="false" hidden="false" import="true" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
-          <constraints>
-            <constraint id="29b9-ca4c-0ee0-b95c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
+                    <condition childId="6abc-d2e3-789a-2564" childName="Spell - Faction" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink name="Lair (long)" id="f575-fe18-eced-3fa4" collective="false" hidden="false" import="true" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
-          <constraints>
-            <constraint id="68cb-e899-da70-e223" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditions>
+                <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="4"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Ratkin (Paid)" id="36c2-5a25-ed54-1be7" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Ratkin" id="1e6e-bcde-8e43-861c" collective="false" hidden="false" import="true">
+      <comment>- Twitch Keenear</comment>
+      <constraints>
+        <constraint id="caa4-1201-ccd3-8d86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
+      </constraints>
       <entryLinks>
-        <entryLink name="Vermin Swarm (long)" id="4814-34f5-821a-2d44" collective="false" hidden="false" import="true" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
-          <constraints>
-            <constraint id="ec05-f3b4-db30-c33c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
+        <entryLink name="Vermin Swarm" id="dd8b-0738-b4f8-8bdb" collective="false" hidden="false" import="true" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
           <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                    <condition childId="6abc-d2e3-789a-2564" childName="Spell - Faction" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Lair (long)" id="4c73-5d3e-c488-3da5" collective="false" hidden="false" import="true" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
-          <constraints>
-            <constraint id="27b9-1371-262f-1483" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
+        <entryLink name="Lair" id="e661-7385-391c-4609" collective="false" hidden="false" import="true" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
           <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="10"/>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="10">
+              <conditions>
+                <condition childId="1d27-4644-eec1-0394" childName="Spell - Basic" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Spellbook Basic - Twitch Keenear" id="6e1a-20dd-9c51-7683" hidden="false" sortIndex="1">
+      <constraints>
+        <constraint id="969f-1ee9-0e6b-f549" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="9276-888c-2e22-48de" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Zap" id="32bb-805a-59f8-e988" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
+        <entryLink name="Lightning Bolt" id="1871-ef66-67ce-3383" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Spell Selection - Twitch Keenear" id="06ec-0a82-019a-d7ed" hidden="false">
+      <entryLinks>
+        <entryLink name="Spellbook Basic - Twitch Keenear" id="e8e9-a5f8-80c1-e8c7" hidden="false" sortIndex="1" targetId="6e1a-20dd-9c51-7683" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Ratkin" id="92df-371a-503a-84ce" hidden="false" import="true" sortIndex="2" targetId="1e6e-bcde-8e43-861c" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="e50c-15f5-b5f6-4955" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

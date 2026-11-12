@@ -221,8 +221,7 @@
       <characteristics>
         <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
         <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
-</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly model, even if it is Engaged. For the remainder of the Round, that model has a +1 modifier to any Nerve tests it is required to make and may add 1 bonus die to any Armour rolls it must take.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
       </characteristics>
@@ -231,8 +230,7 @@
       <characteristics>
         <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
         <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
-        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
-</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly model, even if it is Engaged. For the remainder of the Round, that model has a +2 modifier to any Nerve tests it is required to make and may add 2 bonus die to any Armour rolls it must take.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
       </characteristics>
@@ -253,13 +251,6 @@
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
       </characteristics>
     </profile>
-    <profile name="BLADE MASTER" id="76ea-5fb8-762e-d1f6" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Melee attack (including Retaliations) before dice are rolled. </characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may attack all enemy models it is Enaged with in its front arc by dividing the attack dice between them. Allocate the dice to be used for each enemy model before any are rolled. If the model initiated the Fight, only one enemy model may Retaliate (enemy player’s choice) and only after all the model&apos;s attacks are resolved.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="HARDY VETERANS" id="aeb2-16eb-3c7f-466d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
@@ -270,7 +261,7 @@
     <profile name="HEAD SWING" id="d344-10b4-d6ad-75d5" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal. </characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Every enemy model that is Engaged with this model must make a Nerve test with a -1 Modifier. If any model fails its test, it is knocked-down and marked as Fatigued. Once all models have made a test, the Melee attack ends. Models may Retaliate if permitted to do so as normal.</characteristic>
       </characteristics>
     </profile>
@@ -286,13 +277,6 @@
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
         <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when casting the Lightning Bolt spell.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Lightning Bolt becomes a short action to cast instead of a long action.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="RAPID FIRE" id="3b97-56c0-520e-d2b2" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of this model&apos;s activation.</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may make separate ranged attacks at two different targets that are within 3&quot; of each other following the normal targeting rules. This cannot be as part of a Group Action. The model may not make a Fatigue Action during this activation.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -345,7 +329,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="7d2b-03ed-9b58-a05a" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Weapon - Frost Hammer" id="c5d6-b523-4647-cc52" hidden="false" targetId="79a0-5d5c-4b24-84a8" type="rule"/>
+        <infoLink name="Frost Hammer" id="c5d6-b523-4647-cc52" hidden="false" targetId="79a0-5d5c-4b24-84a8" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Frost-Trident" id="a92b-70ae-f79a-8fb7" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
@@ -460,7 +444,7 @@
       <infoLinks>
         <infoLink name="Half-Elf Berserker" id="04a0-1631-c37b-7a2b" hidden="false" targetId="68f5-446f-055a-3bfc" type="profile"/>
         <infoLink name="Bloodlust" id="d89d-6991-4779-65be" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Frenzy" id="9313-ad4e-cf5d-517c" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
+        <infoLink name="FRENZY" id="9313-ad4e-cf5d-517c" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Human Clansman" id="c4a5-8c4f-3c3f-21cc" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
@@ -507,14 +491,14 @@
         <entryLink name=" Items" id="87c5-24f0-22bc-7925" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Blade Master" id="e8fd-5701-8685-6c1a" hidden="false" targetId="76ea-5fb8-762e-d1f6" type="profile"/>
+        <infoLink name="BLADE MASTER" id="e8fd-5701-8685-6c1a" hidden="false" targetId="76ea-5fb8-762e-d1f6" type="profile"/>
         <infoLink name="Ice Blade" id="4be7-8502-b7f5-16f8" hidden="false" targetId="0a68-095a-a923-41c5" type="profile"/>
         <infoLink name="6th Sense" id="2876-8767-b0ec-5beb" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Bloodlust" id="22fe-e8d3-d454-1a09" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="ba0c-7e83-440e-8224" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Dodge" id="cc5c-2319-bde6-e961" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="Power Dice W/O (1)" id="f500-866f-5882-c701" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-        <infoLink name="Frenzy" id="5bcd-68d5-77c5-a0fe" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
+        <infoLink name="FRENZY" id="5bcd-68d5-77c5-a0fe" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Ice Elemental" id="4dfc-e61a-8bc3-5010" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
@@ -691,7 +675,7 @@
         <constraint id="6032-4472-7a55-c528" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Hold Fast (short)" id="5525-0edd-e3c8-dd73" collective="false" hidden="false" import="true" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
+        <entryLink name="Hold Fast" id="5525-0edd-e3c8-dd73" collective="false" hidden="false" import="true" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditions>
@@ -700,7 +684,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Winter’s Bite (long)" id="1002-06a5-b601-7ce3" collective="false" hidden="false" import="true" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
+        <entryLink name="Winter’s Bite" id="1002-06a5-b601-7ce3" collective="false" hidden="false" import="true" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
           <constraints>
             <constraint id="e327-e35c-9313-666b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -721,7 +705,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Spell selection - Ice Queen" id="9255-ad3a-b198-7dac" collective="false" hidden="false" import="true" page="41" publicationId="ffea-0323-pubN70796">
       <entryLinks>
-        <entryLink name=" Spellbook - Northern Alliance (Free)" id="9d8b-ede0-7133-bc75" hidden="false" import="true" sortIndex="2" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Northern Alliance" id="9d8b-ede0-7133-bc75" hidden="false" import="true" sortIndex="2" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
         <entryLink name="Spellbook - Noble" id="c3f4-9262-5558-a72c" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>

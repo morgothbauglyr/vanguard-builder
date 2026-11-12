@@ -7,7 +7,7 @@
     <categoryEntry name="Elf" id="c28f-4b04-8d39-6762" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink name="Bitter and Twisted" id="f54d-16ea-d7c8-3ce4" hidden="false" targetId="91d1-7198-2e3c-67b0" type="selectionEntry"/>
+    <entryLink name="Faction Abilities" id="f54d-16ea-d7c8-3ce4" hidden="false" targetId="91d1-7198-2e3c-67b0" type="selectionEntry"/>
     <entryLink name="Voidwalker *" id="d016-2186-4de6-217c" hidden="false" targetId="1b35-b103-b847-b0af" type="selectionEntry"/>
     <entryLink name="Voidtouched Mutant *" id="bcce-b705-29a3-40e9" hidden="false" targetId="e3af-4dbc-5eef-6cab" type="selectionEntry"/>
     <entryLink name="Summoner Crone" id="3202-75b1-9b3a-0df8" collective="false" hidden="false" targetId="e6ca-2117-c882-5adc" type="selectionEntry"/>
@@ -25,6 +25,7 @@
     <entryLink name="Blade Dancer" id="6fc2-2122-fab8-3f28" collective="false" hidden="false" targetId="2889-9be3-269f-f281" type="selectionEntry"/>
     <entryLink name="Phantom" id="d301-2849-81bf-4356" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
     <entryLink name="Citizen Levy (X)" id="237a-fe95-a856-cc8e" collective="false" hidden="false" targetId="ab8e-9780-0b13-8ba1" type="selectionEntry"/>
+    <entryLink name="Master Assassin *" id="ea5e-7a3c-2e2a-fb4a" hidden="false" import="true" targetId="45a6-1d38-52fa-f4f2" type="selectionEntry"/>
   </entryLinks>
   <publications>
     <publication name="Rulebook" id="c0ab-ccb6-pubN68676"/>
@@ -238,6 +239,34 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
+    <profile name="MURDER AT MIDNIGHT" id="2fc7-ea80-e045-268d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model takes a Melee Action or Retaliates</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">If this model is not in the target&apos;s rear arc, place it there. There must be sufficient room for this model to be placed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Master Assassin" id="3a01-8f9d-a205-3355" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="DEADLY BLADES" id="5400-aa6e-5e7d-1e9d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">This model makes a Melee Attack</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model gains Crushing Strength (1). If this model already has Crushing Strength, this Ability has no effect.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Summoned Reaper" id="6a78-9766-f139-71dd" hidden="false">
@@ -246,6 +275,9 @@ of 1 or 2, the Reaper is removed from play.</description>
     </rule>
     <rule name="Whirlwind of Steel" id="0746-6214-0174-7e49" hidden="false">
       <description>Enemy models making a Melee attack against this model, even if it is knocked-down, suffer a -1 modifier when rolling to hit.</description>
+    </rule>
+    <rule name="Backstabber" id="bcbb-1408-d84b-a612" hidden="false">
+      <description>While engaged with a target, as long as this model is in the target&apos;s rear arc, the target cannot retaliate.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -270,7 +302,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Summon the Reaper " id="706e-20df-d96e-3594" hidden="false" targetId="089c-7efb-115e-68d4" type="profile"/>
+        <infoLink name="Summon the Reaper" id="706e-20df-d96e-3594" hidden="false" targetId="089c-7efb-115e-68d4" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Stalker Bow" id="edd9-95a5-b684-3e8d" collective="false" hidden="false" import="true" type="upgrade">
@@ -541,9 +573,9 @@ of 1 or 2, the Reaper is removed from play.</description>
       </entryLinks>
       <infoLinks>
         <infoLink name="Sorceress" id="f1f1-1d09-7d06-3789" hidden="false" targetId="ea4b-c03e-f571-385a" type="profile"/>
-        <infoLink name="Power Dice W/O (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice B/G (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="Inspiring" id="83a1-3b55-44ee-0555" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Master of Magic" id="dc8a-1c52-9a68-6b95" hidden="false" targetId="5cd5-4c4f-7e1e-5b37" type="profile"/>
+        <infoLink name="DRAW DARK POWER" id="dc8a-1c52-9a68-6b95" hidden="false" targetId="5cd5-4c4f-7e1e-5b37" type="profile"/>
         <infoLink name="RANGE BOOST (3&quot;)" id="ed33-5b3b-210a-657a" hidden="false" targetId="0a32-50d1-0ea3-830e" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -564,7 +596,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         <constraint id="1874-0740-1a5b-297f-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name=" Summon the Reaper" id="fcdb-62ff-bc2b-a6b5" hidden="false" targetId="6a78-9766-f139-71dd" type="rule"/>
+        <infoLink name="Summoned Reaper" id="fcdb-62ff-bc2b-a6b5" hidden="false" targetId="6a78-9766-f139-71dd" type="rule"/>
         <infoLink name="Reaper" id="715a-0d8e-8968-8be7" hidden="false" targetId="15c7-9daa-a75b-b6ab" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="8f30-863d-2208-ff30" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Stealthy" id="dc28-6d82-18d0-18e3" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
@@ -610,8 +642,8 @@ of 1 or 2, the Reaper is removed from play.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
       </costs>
       <infoLinks>
+        <infoLink name="DEADLY BLADES" id="1ecd-075d-9880-32cb" hidden="false" targetId="5400-aa6e-5e7d-1e9d" type="profile"/>
         <infoLink name="Twilight Assassin" id="f3f2-3b0e-8be9-8e1a" hidden="false" targetId="1134-f027-d43d-7cd4" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="a280-fc99-b030-6dd3" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Elite" id="b8b9-ed16-659e-3156" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="033f-011d-a4a2-3c38" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Sneaky" id="e31e-4379-fda4-d88d" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
@@ -639,7 +671,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         <infoLink name="Crushing Strength (1)" id="e6ec-551f-be2e-ab66" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Stealthy" id="91bc-7ebd-a77c-0df0" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Climber" id="e594-eeda-fa4a-4acd" hidden="false" targetId="5db9-a777-85c4-8055" type="rule"/>
-        <infoLink name="Wild Charge" id="1b9a-692e-e31e-2d2e" hidden="false" targetId="3cc4-3959-4c8e-b26e" type="profile"/>
+        <infoLink name="WILD CHARGE" id="1b9a-692e-e31e-2d2e" hidden="false" targetId="3cc4-3959-4c8e-b26e" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry name="Cosmic Fire" id="6a35-4e42-f2bf-b21f" hidden="false" import="true" type="upgrade">
@@ -702,6 +734,37 @@ of 1 or 2, the Reaper is removed from play.</description>
         <infoLink name="BITTER AND TWISTED" id="aae4-7b72-9ef9-1a8b" hidden="false" targetId="6915-ce21-e1b3-86a0" type="profile"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry name="Master Assassin *" id="45a6-1d38-52fa-f4f2" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+      <categoryLinks>
+        <categoryLink name="Elf" id="bf9e-a598-c846-7309" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+        <categoryLink name="Command" id="010f-842c-d68d-b897" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Has Crushing Strength" id="5490-7df2-e6ac-bcca" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="507a-9d68-6dfd-7d33" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Master Assassin" id="ab64-a082-4ca3-5581" hidden="false" targetId="3a01-8f9d-a205-3355" type="profile"/>
+        <infoLink name="Backstabber" id="7f5b-cf3b-f926-0bd5" hidden="false" targetId="bcbb-1408-d84b-a612" type="rule"/>
+        <infoLink name="MURDER AT MIDNIGHT" id="03ff-b1ce-e2cc-9080" hidden="false" targetId="2fc7-ea80-e045-268d" type="profile"/>
+        <infoLink name="Crushing Strength (1)" id="7de2-dd38-e7f6-9049" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Dodge" id="8baa-1a33-19d3-5d22" hidden="false" targetId="ffc0-22d9-92b0-a78f" type="rule"/>
+        <infoLink name="Elite" id="fb6f-5994-7a7d-f6aa" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Stealthy" id="6d23-8cf1-f62f-2128" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Sneaky" id="2ac0-555d-ef81-9b1a" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink name="Power Dice W/O (1)" id="c933-842a-410d-c6b9" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="507a-9d68-6dfd-7d33" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name=" Spellbook - Twilight Kin" id="0ca4-940a-1d85-666d" collective="false" hidden="false" import="true">
@@ -709,7 +772,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         <constraint id="05b5-f939-0e64-aab9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Summon the Reaper (long)" id="b48e-9462-603f-f2c1" collective="false" hidden="false" import="true" targetId="feab-38a0-cef0-0be8" type="selectionEntry">
+        <entryLink name="Summon the Reaper" id="b48e-9462-603f-f2c1" collective="false" hidden="false" import="true" targetId="feab-38a0-cef0-0be8" type="selectionEntry">
           <categoryLinks>
             <categoryLink name="Spell" id="4489-8529-7505-c404" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
             <categoryLink name="Spell - Faction" id="1c8a-8bb1-9bed-1691" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
@@ -725,7 +788,7 @@ of 1 or 2, the Reaper is removed from play.</description>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Weeping Sores (short)" id="e8b3-b680-efbc-cbaa" collective="false" hidden="false" import="true" targetId="2b0a-998a-d6e3-c6f7" type="selectionEntry">
+        <entryLink name="Weeping Sores" id="e8b3-b680-efbc-cbaa" collective="false" hidden="false" import="true" targetId="2b0a-998a-d6e3-c6f7" type="selectionEntry">
           <constraints>
             <constraint id="8aa7-2576-4ce6-3859" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -747,7 +810,7 @@ of 1 or 2, the Reaper is removed from play.</description>
     <selectionEntryGroup name=" Spell selection - Summoner Crone" id="ef34-fb59-8c69-cd65" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
       <entryLinks>
         <entryLink name=" Spellbook - Twilight Kin" id="bafe-abd5-3633-f74d" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Corrupt" id="6173-c730-1a62-85bf" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="6173-c730-1a62-85bf" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Summoner Crone" id="356b-861f-1b04-2620" hidden="false" sortIndex="1">
@@ -770,7 +833,7 @@ of 1 or 2, the Reaper is removed from play.</description>
       </constraints>
       <entryLinks>
         <entryLink name=" Spellbook - Twilight Kin" id="20a2-4c9e-7ba6-938f" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Corrupt" id="9092-6ff7-2da2-d9ba" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="9092-6ff7-2da2-d9ba" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Sorceress" id="f04c-6cb8-4104-f3b4" hidden="false" sortIndex="1">

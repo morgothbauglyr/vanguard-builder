@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Forces of Nature" id="4c75-46a3-5cfb-7c16" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink name="Fire Elemental" id="c217-52c5-53f8-99af" collective="false" hidden="false" targetId="f247-f99c-3b8e-3fe4" type="selectionEntry"/>
+  </entryLinks>
   <infoLinks>
     <infoLink name="AMBUSH (1)" id="c6cb-38df-fec7-bb98" hidden="false" targetId="5721-1b92-6ac9-1db4" type="rule"/>
     <infoLink name="FOREST DWELLERS (1)" id="d70c-2c83-8bdf-f354" hidden="false" targetId="6889-3e7a-80a7-c6ff" type="rule"/>
@@ -170,49 +173,6 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Fire Elemental" id="f247-f99c-3b8e-3fe4" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Large" id="e9a9-bf66-23f9-2dfa" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
-        <categoryLink name="Support" id="6097-bc9d-16d1-9b29" hidden="false" primary="false" targetId="c194-28e4-665e-319c"/>
-        <categoryLink name="Has Regenerate" id="32bb-a204-1c02-b80f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="3642-b970-8f52-f189" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Elemental Fire" id="d2da-5c4d-b2db-8253" collective="false" hidden="false" import="true" targetId="86f5-90a4-4824-685f" type="selectionEntry">
-          <constraints>
-            <constraint id="454e-e1c2-fb05-2a13" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="4fac-8ec3-36e8-db68" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Regenerate (6+)" id="2f5b-cec5-0b96-2677" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="96f5-18c5-a070-1a45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
-        <infoLink name="NATURE&apos;S INFERNO (2)" id="c774-f254-5dcb-075b" hidden="false" targetId="85aa-aaf2-0860-e8db" type="rule"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Fire Elemental" id="04bc-9fb6-7a0c-3e5b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry name="Wild Companion" id="f27c-58fd-0d39-c59e" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="770c-ba21-f606-d48a" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
@@ -328,7 +288,7 @@
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="7727-d78b-afb8-8498" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Primoridal" id="15a4-34de-50fd-9a2e" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Primoridal" id="15a4-34de-50fd-9a2e" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Basic Druid" id="cf15-d122-cce8-ddde" collective="false" hidden="false" import="true" targetId="2de8-ecf1-9290-6485" type="selectionEntryGroup">
           <constraints>
             <constraint id="f40e-017f-2c18-4d5c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
@@ -386,7 +346,7 @@
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="c9ba-2dd2-712a-96c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Primoridal" id="4124-0e66-c220-8466" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Primoridal" id="4124-0e66-c220-8466" collective="false" hidden="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Basic Gladewalker Druid" id="ae66-b0e9-672f-0f29" collective="false" hidden="false" import="true" targetId="691a-4874-ea8a-3099" type="selectionEntryGroup">
           <constraints>
             <constraint id="711c-bc3e-1eff-ad0d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
@@ -618,6 +578,37 @@
       </profiles>
     </selectionEntry>
   </selectionEntries>
+  <sharedProfiles>
+    <profile name="Elemental Fire" id="f46c-ab9b-b408-8840" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath, Torrent, Ranged (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="NATURE’S INFERNO" id="bc8e-cf87-e55f-633f" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when this model makes a Ranged attack with
+Elemental Fire, before any dice are rolled.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Elemental Fire gains Piercing (1) for this attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fire Elemental" id="04bc-9fb6-7a0c-3e5b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
   <sharedRules>
     <rule name="FOREST DWELLERS (1)" id="6889-3e7a-80a7-c6ff" hidden="false">
       <description>Until the end of the current Round, all models in this warband have the Pathfinder rule.</description>
@@ -770,22 +761,17 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       </profiles>
     </selectionEntry>
     <selectionEntry name="Elemental Fire" id="86f5-90a4-4824-685f" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="a323-e3b6-51f9-6362-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="a323-e3b6-51f9-6362-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Attack - Elemental Fire" id="b2ea-ae91-a179-c7be" hidden="false" targetId="3051-6282-ea3d-c9a7" type="rule"/>
+        <infoLink name="Elemental Fire" id="ac75-7bd6-ca85-8e05" hidden="false" targetId="f46c-ab9b-b408-8840" type="profile"/>
         <infoLink name="Breath" id="6063-82dc-f4ca-3732" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
       </infoLinks>
-      <profiles>
-        <profile name="Elemental Fire" id="f46c-ab9b-b408-8840" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-          <characteristics>
-            <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
-            <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
-            <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Tanglefoot (long)" id="af30-2c37-5081-0ecd" collective="false" hidden="false" import="true" type="upgrade">
       <constraints>
@@ -823,6 +809,26 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry name="Fire Elemental" id="f247-f99c-3b8e-3fe4" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="e9a9-bf66-23f9-2dfa" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Regenerate" id="32bb-a204-1c02-b80f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Elemental" id="9788-48a4-3c18-6606" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
+      </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="3642-b970-8f52-f189" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Elemental Fire" id="d2da-5c4d-b2db-8253" collective="false" hidden="false" import="true" targetId="86f5-90a4-4824-685f" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fire Elemental" id="4193-f9a4-2f3d-2a77" hidden="false" targetId="04bc-9fb6-7a0c-3e5b" type="profile"/>
+        <infoLink name="Regenerate (6+)" id="2f5b-cec5-0b96-2677" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="NATURE’S INFERNO" id="074d-b5e5-1a24-1c19" hidden="false" targetId="bc8e-cf87-e55f-633f" type="profile"/>
+        <infoLink name="Power Dice Red/Black (1)" id="96f5-18c5-a070-1a45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
