@@ -628,7 +628,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <infoLink name="Sneaky" id="5da5-ebe2-18e1-0f27" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Inspiring" id="587f-0b84-6a7a-2b91" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="3886-8052-37d9-6737" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice R/B (2)" id="b75f-fe64-118e-b88a" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice Red/Black (2)" id="b75f-fe64-118e-b88a" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="95d1-830c-d4c1-776f" type="increment" value="1">
@@ -691,7 +691,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <infoLink name="Dodge" id="6b01-72c2-b219-24d5" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="6th Sense" id="11da-6f8a-f0a7-f044" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Cavalry" id="c624-3e7e-a126-3aba" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="bb3a-1b39-4206-f7a2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="bb3a-1b39-4206-f7a2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <rules>
         <rule name="Spell Siphon (2)" id="53be-d00a-0ab2-256c" hidden="false">
@@ -792,7 +792,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <infoLink name="Magwa &amp; Jo&apos;os" id="db25-3cf5-d53a-722a" hidden="false" targetId="8106-2166-a184-ac9d" type="profile"/>
         <infoLink name="Elite" id="4303-3301-890e-2695" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring (Beasts only)" id="48b6-e9c3-c82a-9aac" hidden="false" targetId="fe66-a62b-ddab-fa89" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="3f79-b798-2b62-ef5c" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="3f79-b798-2b62-ef5c" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Pack Leader" id="825f-0263-b1e6-2983" hidden="false" targetId="5f0c-936a-2cf6-fb0b" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="9157-310b-f67e-2b1e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="ALPHA HOWL!" id="1824-fb8f-25d9-7c2a" hidden="false" targetId="cb6f-e1fe-fa1f-a7c8" type="profile"/>
@@ -1039,7 +1039,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <infoLink name="Stinggit" id="cd57-9775-87c1-157e" hidden="false" targetId="1b0c-c5c1-bb9f-f11b" type="profile"/>
         <infoLink name="Sneaky" id="a181-96b9-54f5-90cf" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Inspiring ( Sneaks Only )" id="e0c5-fd89-a1ac-6889" hidden="false" targetId="03ff-213e-65cd-5787" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="8c16-a46e-3222-6095" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="8c16-a46e-3222-6095" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Scout" id="533e-0261-f112-0beb" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Stealthy" id="d937-6567-ee61-7d3c" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="AGILE FEINT" id="b69e-3947-6e42-a488" hidden="false" targetId="c643-d8b3-2526-4d35" type="profile"/>
@@ -1139,7 +1139,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </entryLinks>
       <infoLinks>
         <infoLink name="Wiz" id="ff79-3b4b-78a5-6da2" hidden="false" targetId="623f-b8bc-466b-890b" type="profile"/>
-        <infoLink name="Power Dice R/B (1)" id="7d3b-6032-0f86-6e90" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="7d3b-6032-0f86-6e90" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Inspiring" id="0484-36ea-eaf7-dcc7" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="CACKLE" id="d5ea-27bd-aed9-3835" hidden="false" targetId="b77c-7f80-1613-ad68" type="profile"/>
       </infoLinks>
@@ -1169,9 +1169,9 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </entryLinks>
       <infoLinks>
         <infoLink name="Shroom Wiz" id="257c-0fc1-e559-91c9" hidden="false" targetId="bfa4-3c78-266d-f9fc" type="profile"/>
-        <infoLink name="Power Dice R/B (3)" id="0880-db8c-559b-27a0" hidden="false" targetId="b97d-fd69-997a-8ad9" type="rule"/>
+        <infoLink name="Power Dice Red/Black (3)" id="0880-db8c-559b-27a0" hidden="false" targetId="b97d-fd69-997a-8ad9" type="rule"/>
         <infoLink name="I CAN SEE TIME!" id="5798-3b41-dfe3-8123" hidden="false" targetId="8099-47ea-d06a-95f1" type="profile"/>
-        <infoLink name="WHEEEE!" id="7930-e631-4efe-e944" hidden="false" targetId="9e8d-812c-1615-8e1c" type="profile"/>
+        <infoLink name="WHEEEE! *" id="7930-e631-4efe-e944" hidden="false" targetId="9e8d-812c-1615-8e1c" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="aa73-ff6c-4c65-5638" type="increment" value="1">
@@ -1195,14 +1195,14 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spell Selection - Wiz" id="1a31-45a4-51fa-961e" collective="false" hidden="false" import="true" page="41" publicationId="90a1-0805-pubN68594">
+    <selectionEntryGroup name=" Spell Selection - Wiz" id="1a31-45a4-51fa-961e" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="90a1-0805-pubN68594">
       <constraints>
         <constraint id="08a4-da05-87e0-a19a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
         <constraint id="1ba2-ad59-1286-3036" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Spellbook - Corrupt" id="aacc-7ca0-89b0-ce95" hidden="false" import="true" sortIndex="6" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Goblins" id="019a-1fd3-a3ba-7f72" hidden="false" import="true" sortIndex="5" targetId="d70e-dd85-80c1-f607" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="aacc-7ca0-89b0-ce95" collapsible="true" hidden="false" import="true" sortIndex="6" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Goblins" id="019a-1fd3-a3ba-7f72" collapsible="true" hidden="false" import="true" sortIndex="5" targetId="d70e-dd85-80c1-f607" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook Wiz" id="bbb6-7918-c616-b2e0" hidden="false" sortIndex="1">
@@ -1225,14 +1225,14 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spell Selection - Shroom Wiz" id="f2a8-2cf3-b7a3-e9a1" collective="false" hidden="false" import="true" page="41" publicationId="90a1-0805-pubN68594">
+    <selectionEntryGroup name=" Spell Selection - Shroom Wiz" id="f2a8-2cf3-b7a3-e9a1" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="90a1-0805-pubN68594">
       <constraints>
         <constraint id="c619-8bf8-5562-7372" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
         <constraint id="2485-8507-7691-c211" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Spellbook - Goblins" id="fe51-22ef-7599-4860" hidden="false" import="true" sortIndex="2" targetId="d70e-dd85-80c1-f607" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Corrupt" id="8a9f-796c-3a79-6d45" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Goblins" id="fe51-22ef-7599-4860" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="d70e-dd85-80c1-f607" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="8a9f-796c-3a79-6d45" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook Shroom Wiz" id="8d69-62bf-1319-ff46" hidden="false" sortIndex="1">
@@ -1247,7 +1247,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Goblins" id="d70e-dd85-80c1-f607" hidden="false">
+    <selectionEntryGroup name="Spellbook - Goblins" id="d70e-dd85-80c1-f607" collapsible="true" hidden="false">
       <entryLinks>
         <entryLink name="Slink" id="9a9d-1cd1-cbaf-19f9" hidden="false" import="true" targetId="2335-9511-3f2b-6927" type="selectionEntry">
           <modifiers>

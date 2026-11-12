@@ -398,7 +398,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         <infoLink name="6th Sense" id="a671-027a-ed80-68f4" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Inspiring" id="ffcc-5f3b-2dac-6c23" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="96d0-5e03-8fe1-ac10" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice W/O (2)" id="ea38-f788-477a-8f25" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="Power Dice White/Orange (2)" id="ea38-f788-477a-8f25" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
         <infoLink name="BATTLE RAGE" id="6a45-fe3d-7ce4-0aa4" hidden="false" targetId="b261-1cc2-d69c-f8ca" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -573,7 +573,7 @@ of 1 or 2, the Reaper is removed from play.</description>
       </entryLinks>
       <infoLinks>
         <infoLink name="Sorceress" id="f1f1-1d09-7d06-3789" hidden="false" targetId="ea4b-c03e-f571-385a" type="profile"/>
-        <infoLink name="Power Dice B/G (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice Blue/Green (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="Inspiring" id="83a1-3b55-44ee-0555" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="DRAW DARK POWER" id="dc8a-1c52-9a68-6b95" hidden="false" targetId="5cd5-4c4f-7e1e-5b37" type="profile"/>
         <infoLink name="RANGE BOOST (3&quot;)" id="ed33-5b3b-210a-657a" hidden="false" targetId="0a32-50d1-0ea3-830e" type="profile"/>
@@ -619,7 +619,7 @@ of 1 or 2, the Reaper is removed from play.</description>
       </entryLinks>
       <infoLinks>
         <infoLink name="Summoner Crone" id="c498-ff5b-3903-ebfb" hidden="false" targetId="1eca-4d7c-3dd7-9c77" type="profile"/>
-        <infoLink name="Power Dice R/B (1)" id="f6b9-cc84-6e9b-0f91" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="f6b9-cc84-6e9b-0f91" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="RANGE BOOST (3&quot;)" id="94f9-4a72-04ad-6297" hidden="false" targetId="0a32-50d1-0ea3-830e" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -641,6 +641,9 @@ of 1 or 2, the Reaper is removed from play.</description>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
       </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="9c75-105e-c8e8-6a35" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="DEADLY BLADES" id="1ecd-075d-9880-32cb" hidden="false" targetId="5400-aa6e-5e7d-1e9d" type="profile"/>
         <infoLink name="Twilight Assassin" id="f3f2-3b0e-8be9-8e1a" hidden="false" targetId="1134-f027-d43d-7cd4" type="profile"/>
@@ -708,6 +711,9 @@ of 1 or 2, the Reaper is removed from play.</description>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="dca0-e515-7d80-a4c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Voidwalker" id="628c-2964-9b84-9a85" hidden="false" targetId="7f6e-7d96-7d05-8059" type="profile"/>
         <infoLink name="Ensnare" id="18f9-62c4-4990-bc14" hidden="false" targetId="f6ec-c30d-a3b1-738b" type="rule"/>
@@ -746,16 +752,19 @@ of 1 or 2, the Reaper is removed from play.</description>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38"/>
       </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="aba7-eccf-8eb2-a17e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Master Assassin" id="ab64-a082-4ca3-5581" hidden="false" targetId="3a01-8f9d-a205-3355" type="profile"/>
         <infoLink name="Backstabber" id="7f5b-cf3b-f926-0bd5" hidden="false" targetId="bcbb-1408-d84b-a612" type="rule"/>
         <infoLink name="MURDER AT MIDNIGHT" id="03ff-b1ce-e2cc-9080" hidden="false" targetId="2fc7-ea80-e045-268d" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="7de2-dd38-e7f6-9049" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Dodge" id="8baa-1a33-19d3-5d22" hidden="false" targetId="ffc0-22d9-92b0-a78f" type="rule"/>
+        <infoLink name="Evasive" id="8baa-1a33-19d3-5d22" hidden="false" targetId="ffc0-22d9-92b0-a78f" type="rule"/>
         <infoLink name="Elite" id="fb6f-5994-7a7d-f6aa" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="6d23-8cf1-f62f-2128" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Sneaky" id="2ac0-555d-ef81-9b1a" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="c933-842a-410d-c6b9" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="c933-842a-410d-c6b9" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="507a-9d68-6dfd-7d33" type="increment" value="1">
@@ -767,7 +776,7 @@ of 1 or 2, the Reaper is removed from play.</description>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Twilight Kin" id="0ca4-940a-1d85-666d" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Twilight Kin" id="0ca4-940a-1d85-666d" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="05b5-f939-0e64-aab9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
@@ -807,10 +816,10 @@ of 1 or 2, the Reaper is removed from play.</description>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spell selection - Summoner Crone" id="ef34-fb59-8c69-cd65" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
+    <selectionEntryGroup name=" Spell selection - Summoner Crone" id="ef34-fb59-8c69-cd65" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
       <entryLinks>
-        <entryLink name=" Spellbook - Twilight Kin" id="bafe-abd5-3633-f74d" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Corrupt" id="6173-c730-1a62-85bf" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Twilight Kin" id="bafe-abd5-3633-f74d" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="6173-c730-1a62-85bf" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Summoner Crone" id="356b-861f-1b04-2620" hidden="false" sortIndex="1">
@@ -826,14 +835,14 @@ of 1 or 2, the Reaper is removed from play.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spell selection - Sorceress" id="99cd-fb26-1a40-85c9" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
+    <selectionEntryGroup name=" Spell selection - Sorceress" id="99cd-fb26-1a40-85c9" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
       <constraints>
         <constraint id="a782-d8d8-ca40-0c4a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="881e-eb95-2bfc-0ca5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Twilight Kin" id="20a2-4c9e-7ba6-938f" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Corrupt" id="9092-6ff7-2da2-d9ba" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Twilight Kin" id="20a2-4c9e-7ba6-938f" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="9092-6ff7-2da2-d9ba" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Sorceress" id="f04c-6cb8-4104-f3b4" hidden="false" sortIndex="1">

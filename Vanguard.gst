@@ -16,7 +16,7 @@
     <categoryEntry name="Large Command" id="5649-5554-ab64-b9dc" hidden="true"/>
     <categoryEntry name="Cavalry" id="f0be-5450-0ab7-43f6" hidden="false"/>
     <categoryEntry name="Cannot have Mount" id="62e6-0d2d-51f7-6eef" hidden="true"/>
-    <categoryEntry name="Spell" id="4e84-0897-bccf-7442" hidden="false"/>
+    <categoryEntry name="Spell" id="4e84-0897-bccf-7442" hidden="true"/>
     <categoryEntry name="Has Crushing Strength" id="c023-9db1-28d3-470e" hidden="true"/>
     <categoryEntry name="Has Regenerate" id="e1b6-5b55-c5a8-92d7" hidden="true"/>
     <categoryEntry name="Beast" id="46ca-5ca3-a00c-938e" hidden="false"/>
@@ -46,6 +46,7 @@
     <categoryEntry name="Orc" id="856b-c467-78b0-fc6b" hidden="false"/>
     <categoryEntry name="Ratkin" id="37c7-bca8-2467-70d0" hidden="false"/>
     <categoryEntry name="Ogre" id="37ce-ffb8-2fa8-7b69" hidden="false"/>
+    <categoryEntry name="Undead" id="c2fc-83d5-89a9-568a" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
@@ -182,6 +183,10 @@
         </categoryLink>
         <categoryLink name="Faction Ability" id="c94d-067a-0766-db7f" hidden="false" targetId="b736-f2bd-d93d-6b4d"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="2d6d-92a9-1581-6836-min" field="forces" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="2d6d-92a9-1581-6836-max" field="forces" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
     </forceEntry>
   </forceEntries>
   <profileTypes>
@@ -292,10 +297,6 @@
     </profileType>
   </profileTypes>
   <publications>
-    <publication name="Rulebook" id="37f5-f8f9-pubN68000"/>
-    <publication name="Reference Cards" id="a3d2-75b6-8c4e-cbde"/>
-    <publication name="FAQ &amp; Errata" id="9dff-33d6-57bd-974c"/>
-    <publication name="Equipment Cards" id="2cf9-338e-6b9a-a228"/>
     <publication name="Homebrew" id="4a94-de20-b936-ea2d" hidden="false" publicationDate="-" publisher="-" publisherUrl="-" shortName="HB"/>
   </publications>
   <sharedProfiles>
@@ -1551,30 +1552,12 @@ Alternatively the model may Shoot as a short action, but with a -1 to hit modifi
     <rule name="Inspiring" id="c182-1549-6080-b945" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
     </rule>
-    <rule name="Power Dice Red/Black (3)" id="b97d-fd69-997a-8ad9" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule name="Power Dice Red/Black (1)" id="df35-5711-86fa-5665" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule name="Power Dice Red/Black (2)" id="5606-f1ee-89dc-5257" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule name="Power Dice White/Orange (2)" id="f6e9-e0d4-227e-a80c" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule name="Power Dice White/Orange (3)" id="a284-293d-4e91-fd5e" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule name="Power Dice White/Orange (1)" id="fb0f-ab7c-3175-77f3" hidden="false">
-      <description>
-</description>
-    </rule>
+    <rule name="Power Dice Red/Black (3)" id="b97d-fd69-997a-8ad9" hidden="false"/>
+    <rule name="Power Dice Red/Black (1)" id="df35-5711-86fa-5665" hidden="false"/>
+    <rule name="Power Dice Red/Black (2)" id="5606-f1ee-89dc-5257" hidden="false"/>
+    <rule name="Power Dice White/Orange (2)" id="f6e9-e0d4-227e-a80c" hidden="false"/>
+    <rule name="Power Dice White/Orange (3)" id="a284-293d-4e91-fd5e" hidden="false"/>
+    <rule name="Power Dice White/Orange (1)" id="fb0f-ab7c-3175-77f3" hidden="false"/>
     <rule name="Smite (2)" id="fed8-40cc-4cff-77d7" hidden="false"/>
     <rule name="Smite (1)" id="276c-ca90-ca2a-fd15" hidden="false"/>
     <rule name="Piercing (3)" id="9fd9-8e4c-3cc5-a0e9" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
@@ -1678,18 +1661,9 @@ Pound: If an attack with this rule scores 3 or more hits and the target is not k
     <rule name="Very Inspiring" id="67df-803d-48b0-1418" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule, and all friendly models within 9” of it, may re-roll failed Nerve tests.</description>
     </rule>
-    <rule name="Power Dice Blue/Green (3)" id="6666-aa83-282c-65d3" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule name="Power Dice Blue/Green (2)" id="619f-55e5-7df8-c3e6" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule name="Power Dice Blue/Green (1)" id="9f0b-f977-bb53-fe2e" hidden="false">
-      <description>
-</description>
-    </rule>
+    <rule name="Power Dice Blue/Green (3)" id="6666-aa83-282c-65d3" hidden="false"/>
+    <rule name="Power Dice Blue/Green (2)" id="619f-55e5-7df8-c3e6" hidden="false"/>
+    <rule name="Power Dice Blue/Green (1)" id="9f0b-f977-bb53-fe2e" hidden="false"/>
     <rule name="Crushing Strength (6)" id="5546-4beb-d018-5968" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
@@ -1833,6 +1807,9 @@ player.</description>
     </rule>
     <rule name="Lowered Armour (1)" id="d471-ad07-79a8-169e" hidden="false">
       <description>This model worsens its Armor by 1 (i.e 5+ becomes 6+). This effect is cumulative.</description>
+    </rule>
+    <rule name="Slow Reload" id="6ae5-c8fe-bcab-5469" hidden="false">
+      <description>Shoot is a long action for any Ranged weapons with the Slow Reload rule.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -3610,7 +3587,7 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (+1)" id="9459-6b98-8bed-e11a" hidden="false" targetId="a183-8a40-07d8-9da4" type="rule"/>
-        <infoLink name="Lowered Armour (-1)" id="ed39-0669-86c9-80df" hidden="false" targetId="d471-ad07-79a8-169e" type="rule"/>
+        <infoLink name="Lowered Armour (1)" id="ed39-0669-86c9-80df" hidden="false" targetId="d471-ad07-79a8-169e" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Two-handed Weapon" id="67f5-f2ce-ef88-b536" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
@@ -3619,8 +3596,7 @@ player.</description>
             <characteristic name="Rarity" typeId="501c-2c79-497a-befb">common</characteristic>
             <characteristic name="Gold" typeId="55ab-9aee-c2c3-927c">2</characteristic>
             <characteristic name="Effect" typeId="08b5-578a-af42-cf55">The model gains Crushing Strength (+1), but also Lowered Armor (1).</characteristic>
-            <characteristic name="Notes" typeId="7735-767f-4672-87c8">
-</characteristic>
+            <characteristic name="Notes" typeId="7735-767f-4672-87c8"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3656,7 +3632,7 @@ player.</description>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Items" id="c9c8-ac7b-333d-0312" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Items" id="c9c8-ac7b-333d-0312" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="74cb-81db-98da-4143" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
       </constraints>
@@ -3668,7 +3644,7 @@ player.</description>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Sundries" id="0ffe-164d-19e0-a1da" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Sundries" id="0ffe-164d-19e0-a1da" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
           <constraints>
             <constraint id="8090-525b-4a1d-fc8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -3763,7 +3739,7 @@ player.</description>
             <entryLink name="Poison Bottle * (Uncommon)" id="2c88-678e-6b9c-ff3e" hidden="false" import="true" targetId="9674-e301-99bc-aae4" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Melee" id="66e8-e5f5-911a-1b3e" hidden="false" import="true">
+        <selectionEntryGroup name="Melee" id="66e8-e5f5-911a-1b3e" collapsible="true" defaultSelectionEntryId="none" hidden="false" import="true">
           <constraints>
             <constraint id="50e3-6f3e-e4a6-f136" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -3834,7 +3810,7 @@ player.</description>
             </entryLink>
             <entryLink name="Blade of Slashing (Rare) *" id="a525-493e-0989-b567" hidden="false" import="true" targetId="0388-228f-7c5e-e5e6" type="selectionEntry"/>
             <entryLink name="Riposting Rapier (Rare)" id="2e58-9a40-e325-171f" hidden="false" import="true" targetId="1355-63c2-5272-f1fc" type="selectionEntry"/>
-            <entryLink name="Two-handed Weapon (uncommon)" id="7099-4edd-2f40-4934" hidden="false" import="true" targetId="a3b9-68d6-48a1-bea4" type="selectionEntry">
+            <entryLink name="Two-handed Weapon (Uncommon) *" id="7099-4edd-2f40-4934" hidden="false" import="true" targetId="a3b9-68d6-48a1-bea4" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -3845,7 +3821,7 @@ player.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Armour" id="952f-a549-5487-1c53" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Armour" id="952f-a549-5487-1c53" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
           <constraints>
             <constraint id="761a-d56f-efe4-3daf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -3892,7 +3868,7 @@ player.</description>
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Ranged" id="3f6a-fbea-f0a6-e3f5" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Ranged" id="3f6a-fbea-f0a6-e3f5" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
           <constraints>
             <constraint id="5517-ab48-d57a-7b28" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -3951,7 +3927,7 @@ player.</description>
             <entryLink name="Pistol (rare) *" id="7e95-9d9e-8db9-d668" hidden="false" import="true" targetId="19b3-170f-8853-71f8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic" id="f528-beb2-baa9-5dff" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Magic" id="f528-beb2-baa9-5dff" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
           <constraints>
             <constraint id="d3eb-71c2-c227-672c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -4178,10 +4154,10 @@ player.</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Phothep&apos;s Ring of Invincibility (unique)" id="5104-c03d-68ee-e321" hidden="false" import="true" targetId="ddf5-9710-ee08-8d4b" type="selectionEntry"/>
+            <entryLink name="Phothep&apos;s Ring of Invincibility (Unique)" id="5104-c03d-68ee-e321" hidden="false" import="true" targetId="ddf5-9710-ee08-8d4b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Mount" id="0015-42c1-97a8-0bf7" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Mount" id="0015-42c1-97a8-0bf7" collapsible="true" defaultSelectionEntryId="none" hidden="false" import="true">
           <constraints>
             <constraint id="c66c-a916-1fa3-91a6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -4248,7 +4224,7 @@ player.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Basic " id="cff4-79e8-2c40-b46c" collective="false" hidden="false" import="true" page="41" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Basic " id="cff4-79e8-2c40-b46c" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="false" page="">
       <entryLinks>
         <entryLink name="Flameblast *" id="2a0b-8540-e2ef-bb9e" hidden="false" targetId="57f1-eb55-0275-ef61" type="selectionEntry"/>
         <entryLink name="Meteor *" id="13bc-e3f7-dadf-8443" hidden="false" targetId="4ffd-e794-1fcd-0549" type="selectionEntry"/>
@@ -4263,23 +4239,27 @@ player.</description>
         <entryLink name="Windblast" id="bb70-7b73-0f6a-f8c4" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
         <entryLink name="Zap" id="d6e2-dee0-bfa6-5738" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
         <entryLink name="Thunderclap *" id="a1d1-9bb6-5f5d-9d4f" hidden="false" import="true" targetId="fb3d-817e-7dde-6ee2" type="selectionEntry"/>
-        <entryLink name="Flame Tongue" id="8e30-a5fe-95c9-3efb" hidden="false" import="true" targetId="82f1-5445-2efb-4372" type="selectionEntry"/>
+        <entryLink name="Flame Tongue *" id="8e30-a5fe-95c9-3efb" hidden="false" import="true" targetId="82f1-5445-2efb-4372" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Noble" id="9d30-0373-64e2-5580" collective="false" hidden="false" import="true" page="123" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Noble" id="9d30-0373-64e2-5580" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true" page="">
       <constraints>
         <constraint id="43b2-53eb-f733-557c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
         <entryLink name="Chain Lightning" id="4367-17f4-b784-fedd" hidden="false" import="true" targetId="3c3a-f11b-6b5c-6355" type="selectionEntry"/>
-        <entryLink name="Dazzle" id="ea4c-0964-9808-087e" hidden="false" import="true" targetId="c2b8-c293-d9ce-92da" type="selectionEntry"/>
+        <entryLink name="Dazzle" id="ea4c-0964-9808-087e" hidden="false" import="true" targetId="c2b8-c293-d9ce-92da" type="selectionEntry">
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+          </costs>
+        </entryLink>
         <entryLink name="Deteriorate" id="3e2c-6928-8c64-d69e" hidden="false" import="true" targetId="a272-3ba8-9519-834c" type="selectionEntry"/>
         <entryLink name="Transpose" id="c837-7d88-6f05-fe4a" hidden="false" import="true" targetId="6df9-6ad8-eef8-09f2" type="selectionEntry"/>
         <entryLink name="Blur" id="26ef-b3f7-0495-d333" hidden="false" import="true" targetId="3601-86d0-95b0-fc28" type="selectionEntry"/>
         <entryLink name="Teleport" id="dbf4-3ae0-a0d4-83ae" hidden="false" import="true" targetId="01a6-2c13-d66c-4161" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Primoridal" id="6890-416f-3aac-976f" collective="false" hidden="false" import="true" page="124" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Primoridal" id="6890-416f-3aac-976f" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true" page="">
       <constraints>
         <constraint id="86bf-ff88-04b7-d151" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
@@ -4292,7 +4272,7 @@ player.</description>
         <entryLink name="Stoneskin" id="f9c4-3539-3331-7d0e" hidden="false" import="true" targetId="e750-a00c-c3de-4573" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Corrupt" id="2924-30ce-7cca-d3bc" collective="false" hidden="false" import="true" page="125" publicationId="37f5-f8f9-pubN68000">
+    <selectionEntryGroup name="Spellbook - Corrupt" id="2924-30ce-7cca-d3bc" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true" page="">
       <constraints>
         <constraint id="27cc-19c3-4b41-a218" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>

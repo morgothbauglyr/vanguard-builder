@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Forces of the Abyss" id="0894-e38c-85dd-ba12" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Forces of the Abyss" id="0894-e38c-85dd-ba12" authorContact="
+" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Abyssal" id="081d-b31d-3d9e-912a" hidden="false"/>
   </categoryEntries>
@@ -23,9 +24,6 @@
     <entryLink name="Infernal Berserker *" id="a9e2-c431-46a0-75dd" hidden="false" import="true" targetId="f969-de91-77bb-d271" type="selectionEntry"/>
     <entryLink name="Efreet *" id="1120-693e-d250-5fb9" hidden="false" import="true" targetId="a6ee-de02-7dec-06df" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="0894-e38c-pubd1e2938"/>
-  </publications>
   <sharedProfiles>
     <profile name="Abyssal Guard" id="da9e-96bd-fb77-08d4" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
@@ -383,7 +381,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Regenerate (6+)" id="9dcf-81a2-ff75-2d2e" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="73c6-4b33-6852-7870" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="73c6-4b33-6852-7870" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Steady" id="316d-5baf-3292-3f9c" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Abyssal Warlock" id="b630-6db8-b3bd-0867" hidden="false" targetId="8869-9a46-3922-93eb" type="profile"/>
         <infoLink name="RANGE BOOST (6&quot;)" id="5cb6-33d4-00d6-31c5" hidden="false" targetId="ec0a-6cfc-234e-3a25" type="profile"/>
@@ -540,7 +538,7 @@
         <infoLink name="Cavalry" id="e203-d073-0fd4-f01d" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="adb5-8583-36c6-d16f" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Expert Rider" id="5e58-c289-0e13-8530" hidden="false" targetId="761a-5ccb-142e-0ebb" type="rule"/>
-        <infoLink name="Power Dice R/B (2)" id="9f72-c25e-e428-f189" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice Red/Black (2)" id="9f72-c25e-e428-f189" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Hellequin Blood-masque" id="e0a8-a05d-9faa-9f36" hidden="false" targetId="2e70-b016-60e0-af02" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -650,7 +648,7 @@
         <infoLink name="Fly" id="5b9e-23c6-2b9e-762b" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
         <infoLink name="Elite" id="4d0d-3eba-b565-41d5" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="9d0c-538a-e1f2-79c8" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Power Dice W/O (2)" id="85e3-292f-aa4d-55b2" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="Power Dice White/Orange (2)" id="85e3-292f-aa4d-55b2" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
         <infoLink name="Seductress" id="0c31-1f5a-4895-2748" hidden="false" targetId="3b1f-273a-88cb-ba55" type="profile"/>
         <infoLink name="CONFUSE" id="85ce-8ba5-85cd-840e" hidden="false" targetId="2944-74d3-e9a5-171c" type="profile"/>
       </infoLinks>
@@ -737,7 +735,7 @@
         <entryLink name=" Items" id="c236-351a-ba2e-2162" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Power Dice R/B (3)" id="36bb-4184-f9cc-729a" hidden="false" targetId="b97d-fd69-997a-8ad9" type="rule"/>
+        <infoLink name="Power Dice Red/Black (3)" id="36bb-4184-f9cc-729a" hidden="false" targetId="b97d-fd69-997a-8ad9" type="rule"/>
         <infoLink name="Elite" id="1b09-5aff-6cdf-1a00" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="443c-5b18-8ea7-0cf2" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Inspiring" id="e97d-6629-99f0-cfdd" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
@@ -769,10 +767,14 @@
       <categoryLinks>
         <categoryLink name="Grunt" id="f9d1-8753-ed4f-291d" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="f1ad-6077-9d0a-3ed4" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Abyssal" id="419e-75eb-aa15-eb00" hidden="false" primary="false" targetId="081d-b31d-3d9e-912a"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="47ea-63db-71f0-7671" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Explode" id="642c-ee2f-4b9c-39d3" hidden="false" targetId="e9a5-bac6-5fb1-cb03" type="rule"/>
         <infoLink name="Pathfinder" id="c6f1-5fc7-425d-956f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
@@ -797,10 +799,14 @@
     <selectionEntry name="Infernal Berserker *" id="f969-de91-77bb-d271" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="4c3f-85d2-f75d-d599" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Abyssal" id="4d29-6bd5-5aac-37b7" hidden="false" primary="false" targetId="081d-b31d-3d9e-912a"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
       </costs>
+      <entryLinks>
+        <entryLink name=" Items" id="30de-4a9d-12de-c512" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Infernal Berserker *" id="deb9-46d1-3c52-5252" hidden="false" targetId="9bf2-0d1f-5a4a-a2d7" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="3e69-a682-93b1-eb45" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
@@ -811,12 +817,14 @@
     <selectionEntry name="Efreet *" id="a6ee-de02-7dec-06df" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="b99b-7e92-fa02-cd29" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Abyssal" id="509f-82e8-e101-ca6a" hidden="false" primary="false" targetId="081d-b31d-3d9e-912a"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
       </costs>
       <entryLinks>
         <entryLink name="Spellbook - Efreet" id="34e1-1426-3e81-5b6e" hidden="false" targetId="117a-6963-1ce3-4d2a" type="selectionEntryGroup"/>
+        <entryLink name=" Items" id="2f06-b670-2da2-6edf" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Efreet *" id="7ec7-f810-942d-c042" hidden="false" targetId="d6ea-a511-5da3-f02c" type="profile"/>
@@ -826,7 +834,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Abyss" id="30c3-93d4-728b-b6b6" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Abyss" id="30c3-93d4-728b-b6b6" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
       <entryLinks>
         <entryLink name="Immolation" id="0539-f3cd-0878-302e" collective="false" hidden="false" import="true" targetId="7784-ddd2-5aec-93d0" type="selectionEntry">
           <costs>
@@ -859,7 +867,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spell Selection - Abyssal Warlock" id="8511-64e9-6697-f7e8" collective="false" hidden="false" import="true" page="41" publicationId="0894-e38c-pubd1e2938">
+    <selectionEntryGroup name=" Spell Selection - Abyssal Warlock" id="8511-64e9-6697-f7e8" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="0894-e38c-pubd1e2938">
       <constraints>
         <constraint id="efdb-399f-b614-eb7b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="fec0-33ad-c55a-c0a3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
@@ -894,7 +902,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Efreet" id="117a-6963-1ce3-4d2a" hidden="false">
+    <selectionEntryGroup name="Spellbook - Efreet" id="117a-6963-1ce3-4d2a" flatten="true" hidden="false">
       <entryLinks>
         <entryLink name="Fireball" id="f459-6e31-546a-2522" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry">
           <constraints>

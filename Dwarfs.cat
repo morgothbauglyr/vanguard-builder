@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Dwarfs" id="8927-8290-f594-f21d" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="false" revision="10" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Dwarf" id="8776-bdcb-2f4b-b764" hidden="false"/>
+  </categoryEntries>
   <entryLinks>
     <entryLink name="Faction Abilities" id="560b-288a-fa9d-048a" hidden="false" targetId="d320-518f-a42e-faf8" type="selectionEntry"/>
     <entryLink name="Battle Driller" id="a948-4c88-e652-b9cf" hidden="false" import="true" targetId="cee6-4f6a-1582-040e" type="selectionEntry"/>
@@ -353,6 +356,10 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Forged Anew" id="49a1-8788-eb57-a63d" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell" id="0c0e-0d46-aa48-7a91" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Faction" id="87b3-d752-0665-92d5" hidden="false" primary="false" targetId="6abc-d2e3-789a-2564"/>
+      </categoryLinks>
       <constraints>
         <constraint id="d4a8-1c4a-b5e7-8fe6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
@@ -372,6 +379,9 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Battledrill" id="bd6c-1cdb-4b06-ce6b" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Dwarf" id="7757-1bc7-fb9b-fde1" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+      </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
@@ -413,6 +423,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Support" id="b3d2-e485-93fe-4660" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="cef5-8fb1-2e71-671a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Cannot have Mount" id="20a9-e3b0-ab68-cd76" hidden="false" primary="false" targetId="62e6-0d2d-51f7-6eef"/>
+        <categoryLink name="Dwarf" id="6953-9164-558b-91a1" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="2fe2-309d-d64c-cf40" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -449,6 +460,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Command" id="a236-a2c5-9397-0c1e" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="2e86-c48d-9a7d-9152" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Dwarf" id="5b45-cb2e-9add-9487" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="910e-c381-254a-283c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -463,7 +475,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Crushing Strength (1)" id="ab43-25c0-5328-33ae" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="be8e-e4a8-38cd-636a" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="7d25-3595-424e-8db0" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice R/B (2)" id="2925-f45d-4531-c44f" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Power Dice Red/Black (2)" id="2925-f45d-4531-c44f" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Elite" id="aa2a-e4d9-c31b-98d1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Steady" id="d165-7082-8aaf-06c9" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Bloodlust" id="6a44-65f1-e056-d8c3" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
@@ -482,6 +494,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Support" id="3dd3-cf38-f0ac-28e2" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Cavalry" id="9fa7-27da-4f4b-768a" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Dwarf" id="f4e2-a2b4-8bc8-3a49" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="3d89-cdc5-9cfc-5955" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -512,6 +525,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Grunt" id="3202-2c15-67f9-cba5" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="9e63-f1c9-36d2-29f1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Dwarf" id="b01f-c0d4-6311-abf4" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="43ed-0f79-ae78-0ed4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -546,6 +560,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Warrior" id="4a52-8a42-bff3-42dc" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="da93-f831-f5f1-c388" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Dwarf" id="215e-b582-998b-62a8" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="9ee9-3a8c-1048-3dc5" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -583,6 +598,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Command" id="15cd-e8f2-9438-3880" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="8cf6-66ec-9c48-c976" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Dwarf" id="49b1-f825-e4cc-e1b5" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="6217-2333-c016-932e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -597,7 +613,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Crushing Strength (1)" id="02e1-6bff-b4f1-d989" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="a285-d313-1a01-3e9f" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="3917-b4c5-b1f9-0198" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="e709-4f85-d6bb-e1f5" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="e709-4f85-d6bb-e1f5" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Dwarf Sergeant" id="5658-7082-7482-e194" hidden="false" targetId="d581-253e-7bd6-79ab" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -612,6 +628,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Large" id="69b2-1aa5-bbd4-9338" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="a316-8a14-ef73-8b91" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Elemental" id="2a2d-ffa5-d62b-d043" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6652-2c4a-4a0a-4ebc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -639,6 +656,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
     <selectionEntry name="Flame Priest" id="dabb-44c6-493f-28ae" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="819f-b896-9357-63d8" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Dwarf" id="4368-a5ff-98a6-29cb" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="c6ef-a538-9c28-2584" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -676,6 +694,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Warrior" id="8d1e-5802-5390-f4f4" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="bd5c-2584-01f6-b803" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Dwarf" id="d58b-982d-6ada-d465" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="d350-537d-6b9c-60e8" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -703,6 +722,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Support" id="658d-d7b1-7c34-5c5f" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="0221-a9f7-1503-ae03" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Dwarf" id="d3ee-355a-2229-ce7a" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="f243-94a7-a23d-26cf" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -716,7 +736,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <infoLinks>
         <infoLink name="Headstrong" id="6c5d-5446-7848-b44c" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="0050-8d6a-6a0e-a5d4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="0a42-fc8a-10b1-390d" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="0a42-fc8a-10b1-390d" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Defender" id="bfaf-2071-8372-2642" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule"/>
         <infoLink name="Ironguard" id="1ed3-3d45-2bc9-f1a3" hidden="false" targetId="bc3e-0753-a7fb-239a" type="profile"/>
       </infoLinks>
@@ -732,6 +752,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Warrior" id="426e-0429-65f8-7fe6" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="56c0-d173-3503-abae" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Dwarf" id="c24e-63d3-560a-6f23" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="b5e3-ce1a-7f29-bec2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -764,6 +785,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Warrior" id="947d-b5fe-9ea3-34ce" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="d82c-a985-09c5-1a28" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Dwarf" id="67a7-0d95-3b0c-c3e2" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="4340-b289-8fad-2948" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -803,6 +825,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Command" id="f2cc-33a8-a0b5-211b" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="006a-1a82-8ede-a6c5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Dwarf" id="0a58-4bd6-8f07-3801" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="b6cd-7ede-c0ba-4922" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -826,7 +849,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Crushing Strength (1)" id="5eab-8979-3b9e-8df5" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="8868-a64d-f5b9-73e1" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="464f-020a-fe30-1103" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="58c9-efe4-5fdc-b2f6" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="58c9-efe4-5fdc-b2f6" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Scout" id="3aaf-9702-54e4-665b" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Combined Fire (Ranger)" id="4432-f3ca-135d-d347" hidden="false" targetId="52d5-d6b4-461f-e937" type="rule"/>
         <infoLink name="Ranger Captain" id="5e8f-62c8-6671-7476" hidden="false" targetId="a885-1d88-a973-7dd7" type="profile"/>
@@ -844,6 +867,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Warrior" id="8724-be7e-7c00-a6d3" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="536e-79d9-fb90-bd24" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="e826-f9b7-63f7-0fbf" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Dwarf" id="f4d3-aa0f-1770-9e15" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="dfea-65d5-95cb-c380" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -880,6 +904,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Large" id="895b-5c68-9c19-b6c0" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="9990-165c-66a7-bf39" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Dwarf" id="6027-d6a6-7094-23c9" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="207d-780f-fe3b-d70c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -903,7 +928,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Crushing Strength (3)" id="3f11-e24b-c87a-4171" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
         <infoLink name="Smash" id="9a5f-6394-1236-4998" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Steady" id="854c-4180-b236-de4c" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="9896-c709-b097-3967" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="9896-c709-b097-3967" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Headstrong" id="0946-1697-d104-0c2c" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Steel Juggernaut" id="b26a-9cd3-4e0f-fb39" hidden="false" targetId="dc14-c3bb-2684-501e" type="profile"/>
         <infoLink name="TREMOR STOMP" id="8ded-3387-7dcc-2f6e" hidden="false" targetId="a15f-69a4-7205-29bb" type="profile"/>
@@ -919,6 +944,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
     <selectionEntry name="Stone Priest" id="6315-3a89-14fb-7b47" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="9cc8-a1f1-bc10-0957" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Dwarf" id="b930-af90-1936-99ad" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <constraints>
         <constraint id="bcb6-eda7-b98b-6b0c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -958,7 +984,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Dwarfs" id="3374-d57c-24bf-593a" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Dwarfs" id="3374-d57c-24bf-593a" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="ecf4-8fed-ca9e-02cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
@@ -988,14 +1014,14 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spell slection - Stone Priest" id="1efa-90a0-441e-0c53" collective="false" hidden="false" import="true" page="41" publicationId="8927-8290-pubN71629">
+    <selectionEntryGroup name=" Spell slection - Stone Priest" id="1efa-90a0-441e-0c53" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="8927-8290-pubN71629">
       <constraints>
         <constraint id="55b6-dce6-7c73-a14d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="aa3c-5172-f58f-d36d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Dwarfs" id="e316-16cf-b954-4223" hidden="false" import="true" sortIndex="2" targetId="3374-d57c-24bf-593a" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Noble" id="1132-195c-bc21-48c6" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Dwarfs" id="e316-16cf-b954-4223" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="3374-d57c-24bf-593a" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Noble" id="1132-195c-bc21-48c6" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Stone Priest" id="774b-7af4-69a8-b44c" hidden="false" sortIndex="1">

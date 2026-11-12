@@ -322,6 +322,13 @@
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
+    <profile name="Ballista Shot" id="f4b5-58ae-e64f-b0d4" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">48&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (3), Reload</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Devastating Charge" id="7fb9-65c2-b83b-92a6" hidden="false">
@@ -499,6 +506,9 @@
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Ballista Shot" id="dcaa-fd4f-940a-c8fb" hidden="false" targetId="217c-ed8e-128d-75a6" type="selectionEntry"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Ballista" id="c32a-8495-bf38-594f" hidden="false" targetId="b71f-562a-a0e9-8db2" type="profile"/>
         <infoLink name="Lumbering" id="250c-5e12-9c43-85a9" hidden="false" targetId="b1a8-29de-d850-c215" type="rule"/>
@@ -510,27 +520,6 @@
           </repeats>
         </modifier>
       </modifiers>
-      <selectionEntries>
-        <selectionEntry name="Ballista Shot" id="217c-ed8e-128d-75a6" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="d598-76fc-7f0e-0378-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="d598-76fc-7f0e-0378-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Piercing (3)" id="d047-cc03-1dbd-927d" hidden="false" targetId="9fd9-8e4c-3cc5-a0e9" type="rule"/>
-            <infoLink name="Reload" id="a42e-3ec9-6805-6f5b" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
-          </infoLinks>
-          <profiles>
-            <profile name="Ballista Shot" id="f4b5-58ae-e64f-b0d4" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
-              <characteristics>
-                <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">48&quot;</characteristic>
-                <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
-                <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (3), Reload</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Beast Knight *" id="bdf5-a5f7-d85c-e29c" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
@@ -538,6 +527,7 @@
         <categoryLink name="Cavalry" id="1e65-0fda-cbb9-0183" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Has Crushing Strength" id="7f9f-3e5b-1efc-1851" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Cannot have Mount" id="0fd9-86ad-68b0-1969" hidden="false" primary="false" targetId="62e6-0d2d-51f7-6eef"/>
+        <categoryLink name="Human" id="34fe-5948-7588-35ae" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="f6de-0069-5334-ae1e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -757,7 +747,7 @@
         <infoLink name="Cavalry" id="4634-e2d8-de98-44c3" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Smash" id="90b0-bd02-2976-fa90" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Devastating Charge" id="2854-ebd1-d42d-31ce" hidden="false" targetId="7fb9-65c2-b83b-92a6" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="0177-6b9d-47ed-c7a5" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="0177-6b9d-47ed-c7a5" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="ce3a-69c6-f0c5-cae3" type="increment" value="1">
@@ -785,7 +775,7 @@
       <infoLinks>
         <infoLink name="Leader of Men" id="f7a4-70e6-dd7a-679f" hidden="false" targetId="f923-b31f-7c41-d31f" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="daa3-ce60-0b80-fcd1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice B/G (1)" id="6d47-3ebc-c39f-e8e7" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice Blue/Green (1)" id="6d47-3ebc-c39f-e8e7" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="Very Inspiring" id="67da-657e-d978-6563" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
         <infoLink name="FOR THE KINGDOM" id="245a-b8ec-9dda-637f" hidden="false" targetId="4fd7-b343-a881-de8a" type="profile"/>
       </infoLinks>
@@ -869,7 +859,7 @@
         <infoLink name="Veteran Soldier" id="f210-964b-2333-983b" hidden="false" targetId="836d-d0b2-5b7b-0153" type="profile"/>
         <infoLink name="Headstrong" id="b66d-d688-6470-2771" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="fcd8-36f7-4bfe-ec80" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="bf68-d064-24fc-7f45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="bf68-d064-24fc-7f45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="d85e-4e9c-3e27-153a" type="increment" value="1">
@@ -909,6 +899,7 @@
     <selectionEntry name="Priest *" id="eec4-9d3b-8184-2521" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="9dfc-750c-628f-6f25" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Human" id="b7ec-dbf5-1360-770b" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
@@ -940,6 +931,7 @@
     <selectionEntry name="Captain of the Watch *" id="f3d5-02ef-54ba-84bd" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="7979-e6c0-a8f1-7057" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Human" id="999b-0dc9-aa44-2c0d" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <constraints>
         <constraint id="fe11-3b39-c953-7623" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -973,16 +965,27 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry name="Ballista Shot" id="217c-ed8e-128d-75a6" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="d598-76fc-7f0e-0378-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="d598-76fc-7f0e-0378-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Ballista Shot" id="5bd4-2715-4ab8-eb3d" hidden="false" targetId="f4b5-58ae-e64f-b0d4" type="profile"/>
+        <infoLink name="Slow Reload" id="6b2d-0fd3-dccc-e67b" hidden="false" targetId="6ae5-c8fe-bcab-5469" type="rule"/>
+        <infoLink name="Piercing (3)" id="d047-cc03-1dbd-927d" hidden="false" targetId="9fd9-8e4c-3cc5-a0e9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spell selection - Wizard" id="1e7e-880c-0d73-1421" collective="false" hidden="false" import="true" page="41" publicationId="4ae3-a7bd-pubN68954">
+    <selectionEntryGroup name=" Spell selection - Wizard" id="1e7e-880c-0d73-1421" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="4ae3-a7bd-pubN68954">
       <constraints>
         <constraint id="b4ec-b156-35c0-7474" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="f9ff-7e79-51b5-2c98" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Kingdom of Men" id="2d09-01b3-6557-8127" hidden="false" import="true" sortIndex="2" targetId="7724-d8e9-4d28-e58a" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Primoridal" id="c42c-af04-1656-566c" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Kingdom of Men" id="2d09-01b3-6557-8127" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="7724-d8e9-4d28-e58a" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Primoridal" id="c42c-af04-1656-566c" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook Wizard" id="ef21-a305-9763-d5dc" hidden="false" sortIndex="1">
@@ -1010,7 +1013,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Kingdom of Men" id="7724-d8e9-4d28-e58a" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Kingdom of Men" id="7724-d8e9-4d28-e58a" collapsible="true" collective="false" hidden="false" import="true">
       <entryLinks>
         <entryLink name="Adrenaline Shot" id="2a6a-c061-a83d-4298" collective="false" hidden="false" import="true" targetId="e17f-88db-1820-4c70" type="selectionEntry">
           <constraints>
@@ -1043,14 +1046,14 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spell selection - Archwizard" id="72cc-e692-06a8-acbc" collective="false" hidden="false" import="true" page="41" publicationId="4ae3-a7bd-pubN68954">
+    <selectionEntryGroup name=" Spell selection - Archwizard" id="72cc-e692-06a8-acbc" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="4ae3-a7bd-pubN68954">
       <constraints>
         <constraint id="d1d2-ed6b-fb22-11b1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="229f-b25a-0c2c-4d73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Kingdom of Men" id="423b-5561-7778-c7b8" hidden="false" import="true" sortIndex="2" targetId="7724-d8e9-4d28-e58a" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Primoridal" id="c4c0-4960-48a0-0440" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Kingdom of Men" id="423b-5561-7778-c7b8" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="7724-d8e9-4d28-e58a" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Primoridal" id="c4c0-4960-48a0-0440" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook Archwizard" id="45d0-dd08-f86f-dd5b" hidden="false" sortIndex="1">

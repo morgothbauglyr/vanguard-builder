@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Northern Alliance" id="257e-724d-d140-2297" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Northern Alliance" id="257e-724d-d140-2297" authorContact="
+" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="Faction Abilities" id="cab4-b908-c0d3-cf0c" hidden="false" targetId="5114-ebbf-c9f3-3cb9" type="selectionEntry"/>
     <entryLink name="Thegn" id="958e-e816-8c5c-71b5" collective="false" hidden="false" targetId="be69-8cbc-af47-b13d" type="selectionEntry"/>
@@ -17,9 +18,6 @@
     <entryLink name="Half-Elf Berserker" id="4750-6485-5f36-06e3" collective="false" hidden="false" targetId="3370-de14-1830-b042" type="selectionEntry"/>
     <entryLink name="Frostfang Cavalry" id="b2af-c72d-48ed-26a1" collective="false" hidden="false" targetId="da6c-db9c-f1df-c5bf" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="ffea-0323-pubN70796"/>
-  </publications>
   <sharedProfiles>
     <profile name="Dwarf Clansman" id="dd46-15d0-a1f0-b1dd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
@@ -497,7 +495,7 @@
         <infoLink name="Bloodlust" id="22fe-e8d3-d454-1a09" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="ba0c-7e83-440e-8224" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Dodge" id="cc5c-2319-bde6-e961" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="f500-866f-5882-c701" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="f500-866f-5882-c701" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="FRENZY" id="5bcd-68d5-77c5-a0fe" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -584,7 +582,7 @@
       <infoLinks>
         <infoLink name="Ice Queen" id="8c06-883c-cb70-de94" hidden="false" targetId="5ea8-bc0e-8f0b-0789" type="profile"/>
         <infoLink name="Inspiring" id="c97c-206c-8671-8cf9" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice B/G (1)" id="c22c-1e15-77f5-f5d2" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice Blue/Green (1)" id="c22c-1e15-77f5-f5d2" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="LASH" id="a018-219d-1647-a9a3" hidden="false" targetId="c7a1-3b94-8775-888d" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -628,7 +626,7 @@
         <infoLink name="Crushing Strength (2)" id="a9fe-baee-e8f9-c7e5" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Regenerate (6+)" id="6147-dd33-f146-06af" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Vicious Swipe" id="b011-8164-ec8a-a72d" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
-        <infoLink name="Power Dice W/O (1)" id="939e-ecdc-c236-2891" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="939e-ecdc-c236-2891" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="4972-fc04-627c-fb68" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -647,7 +645,7 @@
         <infoLink name="Thegn" id="27cc-27e5-a3fe-6367" hidden="false" targetId="3838-b5f4-c1c0-d89b" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="d14f-a841-feaf-c9fa" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Inspiring" id="616f-fee8-70ac-2d9d" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice B/G (1)" id="4e64-e2d7-64c9-a66f" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice Blue/Green (1)" id="4e64-e2d7-64c9-a66f" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="HEAD SWING" id="d992-8a03-1cf1-e797" hidden="false" targetId="d344-10b4-d6ad-75d5" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -667,7 +665,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Spellbook - Northern Alliance" id="9bd4-dbdc-cec2-78ab" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Spellbook - Northern Alliance" id="9bd4-dbdc-cec2-78ab" collapsible="true" collective="false" hidden="false" import="true">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="7789-b9ee-84ef-c2bc" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
       </categoryLinks>
@@ -703,10 +701,10 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spell selection - Ice Queen" id="9255-ad3a-b198-7dac" collective="false" hidden="false" import="true" page="41" publicationId="ffea-0323-pubN70796">
+    <selectionEntryGroup name="Spell selection - Ice Queen" id="9255-ad3a-b198-7dac" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="ffea-0323-pubN70796">
       <entryLinks>
-        <entryLink name="Spellbook - Northern Alliance" id="9d8b-ede0-7133-bc75" hidden="false" import="true" sortIndex="2" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Noble" id="c3f4-9262-5558-a72c" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Northern Alliance" id="9d8b-ede0-7133-bc75" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Noble" id="c3f4-9262-5558-a72c" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Ice Queen" id="a9f7-91e3-541c-f866" hidden="false" sortIndex="1">

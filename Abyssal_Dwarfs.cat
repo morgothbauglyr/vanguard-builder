@@ -331,7 +331,7 @@ is Knocked-down.</characteristic>
       <description>Models with the SLAVE keyword are not considered for determining if the warband is broken. The Warband is broken if it has less than half the starting number of non-SLAVE models remaining. In addition, at the start of each Round, if the number of friendly SLAVE models exceeds the number of friendly non-SLAVE models, the SLAVES are counted as broken for the remainder of the Round. Any SLAVE model failing a Fallback Check is immediately removed from play.</description>
     </rule>
     <rule name="Power Hex" id="50ca-9c27-f8d1-1bfd" hidden="false">
-      <description> When rolling for Power at the start of a Round, enemy models within 6” of the Hexcaster that would normally generate Power must downgrade one of their Power Dice of the Hexcaster’s choice: e.g. blue becomes white, white becomes red and red is discarded. Note: apply the effects of Lust for Power before Power Hex.</description>
+      <description>When rolling for Power at the start of a Round, enemy models within 6” of the Hexcaster that would normally generate Power must downgrade one of their Power Dice of the Hexcaster’s choice: e.g. blue becomes white, white becomes red and red is discarded. Note: apply the effects of Lust for Power before Power Hex.</description>
     </rule>
     <rule name="Magma Blast" id="c0e5-b62d-cc88-ff91" hidden="false">
       <description>Spend a long action to, in any order, Walk and make a Ranged attack as Range 6”, 3D8, Breath, Piercing (1) instead of the normal Magma Stream profile. Then mark the Charnox as Fatigued. Usable once per game.</description>
@@ -363,7 +363,7 @@ is Knocked-down.</characteristic>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Slave to the Flame (long)" id="d9c8-9415-766e-d38e" hidden="false" targetId="76f7-1ff5-6144-a220" type="profile"/>
+        <infoLink name="Slave to the Flame" id="d9c8-9415-766e-d38e" hidden="false" targetId="76f7-1ff5-6144-a220" type="profile"/>
         <infoLink name="Piercing (3)" id="903b-bbbb-8bcb-4b9c" hidden="false" targetId="9fd9-8e4c-3cc5-a0e9" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -937,14 +937,14 @@ is Knocked-down.</characteristic>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spell selection - Iron Caster" id="e4de-0691-31dd-3465" collective="false" hidden="false" import="true" page="41" publicationId="52a4-7ad3-pubN69234">
+    <selectionEntryGroup name=" Spell selection - Iron Caster" id="e4de-0691-31dd-3465" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="52a4-7ad3-pubN69234">
       <constraints>
         <constraint id="bfe6-e963-a47f-6da2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="8a31-ff60-6fed-971d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Abyssal Dwarfs" id="3086-18fd-fc65-406e" hidden="false" import="true" sortIndex="2" targetId="c041-2c13-4152-ed82" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Corrupt" id="745f-7ab2-1295-e623" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Abyssal Dwarfs" id="3086-18fd-fc65-406e" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="c041-2c13-4152-ed82" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="745f-7ab2-1295-e623" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Iron Caster" id="bd64-34ba-17ab-98fe" hidden="false" sortIndex="1">
@@ -964,7 +964,7 @@ is Knocked-down.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Abyssal Dwarfs" id="c041-2c13-4152-ed82" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Abyssal Dwarfs" id="c041-2c13-4152-ed82" collapsible="true" collective="false" hidden="false" import="true">
       <entryLinks>
         <entryLink name="Iron Slam" id="c73e-2c15-7e46-e23e" collective="false" hidden="false" import="true" targetId="5750-9a52-422c-cd80" type="selectionEntry">
           <modifiers>

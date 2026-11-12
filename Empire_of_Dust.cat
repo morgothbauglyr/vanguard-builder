@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Empire of Dust" id="a0cd-c88b-990b-40e9" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Empire of Dust" id="a0cd-c88b-990b-40e9" authorContact="
+" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Empire of Dust" id="5538-0cde-544d-3493" hidden="false"/>
+  </categoryEntries>
   <entryLinks>
-    <entryLink name="Skeleton" id="d621-c3b2-3b63-bcae" collective="false" hidden="false" targetId="ba74-caac-8e8d-1be8" type="selectionEntry"/>
     <entryLink name="Skeleton archer" id="0750-8ce3-e6e8-a25c" collective="false" hidden="false" targetId="e262-8e01-20dd-d231" type="selectionEntry"/>
     <entryLink name="Skeleton" id="046a-7ee6-8286-6bf5" collective="false" hidden="false" targetId="ba74-caac-8e8d-1be8" type="selectionEntry"/>
     <entryLink name="Faction Abilities" id="451e-e94e-e5d7-e2b8" hidden="false" import="true" targetId="a816-a8c8-5e83-767d" type="selectionEntry"/>
@@ -16,9 +19,6 @@
     <entryLink name="Tomb Scorpion" id="d6a9-9997-3b59-ee6a" hidden="false" import="true" targetId="afc2-392e-3234-31a7" type="selectionEntry"/>
     <entryLink name="Vulture" id="86d8-b30f-81e8-1de9" hidden="false" import="true" targetId="caf6-d32c-62cb-7920" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Vanguard abridged Warbands-dec31.pd" id="a0cd-c88b-pubN65537"/>
-  </publications>
   <sharedProfiles>
     <profile name="ATTACK FROM BELOW" id="1e28-b689-4ab6-29ed" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
@@ -303,11 +303,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Entomb" id="89c7-ef56-cfbb-0ae5" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Pharaoh&apos;s champion" id="42c2-05f4-27cb-bc39" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Pharaoh&apos;s champion" id="42c2-05f4-27cb-bc39" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="145d-bb9e-b1df-25e3" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="39d1-4839-d08c-afcb" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="0ccd-376c-ac6c-231e" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Undead" id="a538-f832-159e-7ed3" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="bea6-7c40-778d-a490" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="48"/>
@@ -320,7 +322,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Crushing Strength (2)" id="2b7b-ff65-728e-5eae" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Inspiring" id="4ccf-93e0-ea57-08de" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Regenerate (6+)" id="4f2b-62e4-4561-d9d1" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Power Dice B/G (1)" id="63f5-0d80-fc5b-e0a7" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Power Dice Blue/Green (1)" id="63f5-0d80-fc5b-e0a7" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="CURSE" id="c5d1-fbbf-1d9b-b3e4" hidden="false" targetId="99f2-3cdb-4566-c904" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -330,6 +332,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Troop" id="1170-4687-eccd-447e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="7e5a-6ee0-c200-9846" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="e00d-4342-372b-b885" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Undead" id="85a8-7a06-57c6-357a" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="5748-08c9-aabb-84d6" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
@@ -348,6 +352,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Grunt" id="9a13-c1a9-9253-efa7" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="c78a-e15b-9572-3892" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Empire of Dust" id="f9c0-1f97-a657-de06" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Beast" id="c8bb-b645-3bb4-deec" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
@@ -363,6 +369,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Large" id="8272-cf6e-f936-8838" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="3685-5b87-5cfc-1c28" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Empire of Dust" id="a38b-89d2-1161-583a" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
@@ -388,17 +395,19 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Spellcaster" id="ccfd-6edb-8260-7a26" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Command" id="c4ef-b156-132f-560a" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Undead" id="5a3c-7182-7c7b-0487" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="7288-0dbc-3823-960f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="9dc7-2637-a546-9493" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic High Priest" id="b65f-4f23-2e75-571b" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup"/>
+        <entryLink name=" Spell selection - High Priest" id="b65f-4f23-2e75-571b" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="High priest" id="23c3-30d2-a0c1-17be" hidden="false" targetId="3f64-379a-f865-b426" type="profile"/>
-        <infoLink name="Power Dice W/O (1)" id="6a44-4707-c719-d5bb" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="6a44-4707-c719-d5bb" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="RANGE BOOST (6&quot;)" id="c724-3eb4-da26-af66" hidden="false" targetId="ec0a-6cfc-234e-3a25" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -406,6 +415,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Warrior" id="31e6-d053-9be4-f9d5" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="2fc5-e330-3685-cd72" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Undead" id="9706-e59a-ee2c-0eeb" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="eae2-5594-0e69-0b83" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
@@ -422,6 +433,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Support" id="18d7-1a70-fe41-a82d" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="1017-cf77-a408-0b92" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Undead" id="4c36-be48-74cf-0864" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="c159-0559-879d-a95f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
@@ -433,7 +446,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Revenant champion" id="1782-e55a-66aa-fc43" hidden="false" targetId="3500-e2a2-0d52-855d" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="5a2b-c62b-1699-df47" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Entomb" id="da44-db6b-38f6-beda" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule"/>
-        <infoLink name="Power Dice R/B (1)" id="1c48-6f0e-4d5f-1c11" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Power Dice Red/Black (1)" id="1c48-6f0e-4d5f-1c11" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Direct Effort" id="f659-3f3b-9469-2eac" hidden="false" targetId="105a-2eba-3164-f252" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -441,6 +454,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Support" id="db83-a2cb-aff7-00fb" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="3723-a524-e942-b56a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Undead" id="359c-b8ba-1640-01f8" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="2bab-dd36-9ff2-cb44" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
@@ -460,6 +475,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Grunt" id="c765-827f-9c8c-8160" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="12c6-ad76-8e55-767f" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Undead" id="5a89-c953-a7d4-3337" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="5de8-4c71-00ff-f091" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
@@ -485,6 +502,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Grunt" id="495b-a3df-7530-f63d" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="7c4a-e100-c734-67b4" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Undead" id="f53b-db0f-6e09-b2a8" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="d920-4a23-f4cd-e43e" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
@@ -497,9 +516,12 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Entomb" id="6d2a-531c-4642-23ec" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Tomb Scorpion" id="afc2-392e-3234-31a7" hidden="false" import="true" type="model">
+    <selectionEntry name="Tomb Scorpion *" id="afc2-392e-3234-31a7" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="770b-166a-9883-142e" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Undead" id="8fd8-acdf-ce28-f3b9" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Empire of Dust" id="eaba-f57f-7fde-f55f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Beast" id="d3ec-dbcd-fef4-fb49" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
@@ -512,9 +534,10 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Weaken" id="cc9a-91a4-840b-6de7" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Vulture" id="caf6-d32c-62cb-7920" hidden="false" import="true" type="model">
+    <selectionEntry name="Vulture *" id="caf6-d32c-62cb-7920" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="30fd-0c0c-0b70-35e8" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Beast" id="c703-f52c-bc9e-bacb" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
@@ -527,12 +550,12 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spellbook - Empire of Dust" id="c033-2980-b549-f3c8" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Empire of Dust" id="c033-2980-b549-f3c8" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="03a4-a588-3fb0-da16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Weakness (long)" id="9cba-5a28-c817-7862" collective="false" hidden="false" import="true" targetId="e209-61f6-fcda-7924" type="selectionEntry">
+        <entryLink name="Weakness" id="9cba-5a28-c817-7862" collective="false" hidden="false" import="true" targetId="e209-61f6-fcda-7924" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditionGroups>
@@ -546,7 +569,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Sand Storm (long)" id="cbc1-e3d2-0a35-c28d" collective="false" hidden="false" import="true" targetId="e821-508e-28f1-7215" type="selectionEntry">
+        <entryLink name="Sand Storm" id="cbc1-e3d2-0a35-c28d" collective="false" hidden="false" import="true" targetId="e821-508e-28f1-7215" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditions>
@@ -557,20 +580,20 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spell selection - High Priest" id="d4fd-7e38-9f21-f0e9" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spell selection - High Priest" id="d4fd-7e38-9f21-f0e9" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="1f9a-1ded-cbac-1e62" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="6f00-5c73-d19a-a80e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Empire of Dust" id="fb85-abf3-04e9-fdd2" hidden="false" import="true" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Corrupt" id="8a32-b88d-5285-7fad" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Empire of Dust" id="fb85-abf3-04e9-fdd2" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="8a32-b88d-5285-7fad" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Spellbook - High Priest" id="ce44-fc90-a8b5-a42a" hidden="false">
+        <selectionEntryGroup name="Spellbook - High Priest" id="ce44-fc90-a8b5-a42a" hidden="false" sortIndex="1">
           <constraints>
-            <constraint id="93df-b10b-3e35-35e0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="81a7-cbd5-7898-5217" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+            <constraint id="93df-b10b-3e35-35e0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="81a7-cbd5-7898-5217" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
           </constraints>
           <entryLinks>
             <entryLink name="Windblast" id="d451-1bb8-4f62-2f82" collective="false" hidden="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>

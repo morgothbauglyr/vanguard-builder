@@ -222,7 +222,7 @@
     <profile name="GUN SMOKE" id="3ab2-cf2a-d2a3-21f5" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model attacks with a pistol, before dice are rolled. </characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model attacks with a pistol, before dice are rolled.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model gains the Stealthy and Dodge special rules until the end of the Round,
 regardless of whether the attack hits.</characteristic>
       </characteristics>
@@ -244,7 +244,7 @@ regardless of whether the attack hits.</characteristic>
     <profile name="SAVAGE ROAR" id="cc65-7633-907a-bdc4" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When the Tyrant is the target of a Melee attack, before the attack roll is made. </characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When the Tyrant is the target of a Melee attack, before the attack roll is made.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The attacking model reduces its Crushing Strength by 1, to a minimum of 0 for that attack.</characteristic>
       </characteristics>
     </profile>
@@ -451,6 +451,9 @@ All group members must finish their movement within 6” of each other.</charact
       </profiles>
     </selectionEntry>
     <selectionEntry name="Faction Abilities" id="c574-b3f1-e3f8-d4c4" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Faction Ability" id="a68d-471a-50d0-fdf0" hidden="false" primary="true" targetId="b736-f2bd-d93d-6b4d"/>
+      </categoryLinks>
       <constraints>
         <constraint id="92b4-0ee2-9d8d-c0af-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
         <constraint id="92b4-0ee2-9d8d-c0af-max" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -939,14 +942,18 @@ All group members must finish their movement within 6” of each other.</charact
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spell Selection - Mage-Priest" id="73c3-a16b-3edf-b20e" collective="false" hidden="false" import="true" page="41" publicationId="6a64-c3e7-pubN69392">
+    <selectionEntryGroup name=" Spell Selection - Mage-Priest" id="73c3-a16b-3edf-b20e" collapsible="true" collective="false" hidden="false" page="41" publicationId="6a64-c3e7-pubN69392">
       <constraints>
         <constraint id="5534-6b40-ddb1-2580" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="dc15-10b3-f4d2-55f9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Salamanders" id="bbb2-e97c-a07e-ff1a" hidden="false" import="true" sortIndex="2" targetId="c97d-225f-e168-e62e" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Noble" id="09a6-6feb-71cc-7cc8" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Salamanders" id="bbb2-e97c-a07e-ff1a" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="c97d-225f-e168-e62e" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Noble" id="09a6-6feb-71cc-7cc8" hidden="false" import="true" sortIndex="3" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup">
+          <modifiers>
+            <modifier field="defaultSelectionEntryId" type="set" value="ea4c-0964-9808-087e"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Mage-Priest" id="1be4-d977-7bda-565c" hidden="false" sortIndex="1">
@@ -957,19 +964,11 @@ All group members must finish their movement within 6” of each other.</charact
           <entryLinks>
             <entryLink name="Fireball" id="4c43-6399-a95a-bbd9" collective="false" hidden="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
             <entryLink name="Shockwave" id="a215-ce71-3988-01ab" collective="false" hidden="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
-            <entryLink name="Dazzle" id="be13-fc70-45c9-e3f5" hidden="false" import="true" targetId="c2b8-c293-d9ce-92da" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink name="Spell - Basic" id="43f5-dc0e-c20f-e1ed" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
-              </categoryLinks>
-              <modifiers>
-                <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-              </modifiers>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Salamanders" id="c97d-225f-e168-e62e" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Salamanders" id="c97d-225f-e168-e62e" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
       <constraints>
         <constraint id="ddd2-78d9-37a3-dddb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>

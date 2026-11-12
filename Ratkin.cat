@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Ratkin" id="1bf8-e261-53ce-da80" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Ratkin" id="1bf8-e261-53ce-da80" authorContact="
+" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="War Chief" id="bad0-2c36-2b0f-4b15" collective="false" hidden="false" targetId="63bb-24bf-dabd-5876" type="selectionEntry"/>
     <entryLink name="Wretch" id="0195-b028-e10c-f5cb" collective="false" hidden="false" targetId="1026-9544-ab4c-58e6" type="selectionEntry"/>
@@ -19,9 +20,6 @@
     <entryLink name="Birthing Daughter" id="670a-1bfd-2042-ee37" hidden="false" import="true" targetId="9b9d-7815-b94f-c338" type="selectionEntry"/>
     <entryLink name="Brute Enforcer" id="517e-8c49-c3f5-8a1d" hidden="false" import="true" targetId="f50c-e38f-5071-dc7e" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="1bf8-e261-pubN68796"/>
-  </publications>
   <sharedProfiles>
     <profile name="DISPLAY OF WEAKNESS" id="ba93-6967-4d2f-3e4d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
@@ -34,8 +32,7 @@
       <characteristics>
         <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
         <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
-        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">
-</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Cast on any friendly model (even if it is Engaged). May also be cast on self, even if caster is Engaged. Each enemy model Engaged by or Engaging the target must make an immediate
 Fallback move of 3” following the normal rules. No Break Away tests are required. Knocked-down models are still moved and remain Knocked-down.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Engaged Cast</characteristic>
@@ -427,7 +424,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <entryLinks>
         <entryLink name=" Items" id="dfa4-6ba6-714d-4e22" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Ratkin Warlock" id="bec8-0636-5c18-3210" collective="false" hidden="false" import="true" targetId="ae0f-f9dd-77b6-816b" type="selectionEntryGroup">
+        <entryLink name=" Spell Selection - Ratkin Warlock" id="bec8-0636-5c18-3210" collective="false" hidden="false" import="true" targetId="ae0f-f9dd-77b6-816b" type="selectionEntryGroup">
           <constraints>
             <constraint id="4003-43a5-dfc9-e982" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
             <constraint id="3bc3-0733-0790-ac94" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
@@ -672,7 +669,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
           <characteristics>
             <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">X</characteristic>
             <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When you activate Twitch.</characteristic>
-            <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34"> Pay n Power.  Add +X dice to the first spell Twitch Casts this Turn. Spells can only be boosted if it costs additional Power to do so. Once the spell has been cast, Twitch is marked as both Activated andFatigued. Roll XD8. For each 6+ rolled, Twitch suffers 1 automatic wound with no Armour roll.</characteristic>
+            <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Pay n Power.  Add +X dice to the first spell Twitch Casts this Turn. Spells can only be boosted if it costs additional Power to do so. Once the spell has been cast, Twitch is marked as both Activated andFatigued. Roll XD8. For each 6+ rolled, Twitch suffers 1 automatic wound with no Armour roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -750,13 +747,10 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Spell Selection - Ratkin Warlock" id="ae0f-f9dd-77b6-816b" collective="false" hidden="false" import="true" page="41" publicationId="a3d2-75b6-8c4e-cbde">
-      <categoryLinks>
-        <categoryLink name="Spellcaster" id="60d7-46de-bf95-48e4" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
-      </categoryLinks>
+    <selectionEntryGroup name=" Spell Selection - Ratkin Warlock" id="ae0f-f9dd-77b6-816b" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="a3d2-75b6-8c4e-cbde">
       <entryLinks>
         <entryLink name=" Spellbook - Ratkin" id="d034-5f4f-2d56-fe0a" hidden="false" import="true" sortIndex="2" targetId="b60f-43ba-f438-a55f" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Corrupt" id="c23f-6f20-2751-1105" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="c23f-6f20-2751-1105" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spellbook - Ratkin Warlock" id="d9db-cd69-ac65-66b6" hidden="false" sortIndex="1">
@@ -773,12 +767,12 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Ratkin" id="b60f-43ba-f438-a55f" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Ratkin" id="b60f-43ba-f438-a55f" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="ebad-e8b4-78d9-e742" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Vermin Swarm (long)" id="e674-353b-b22e-4674" collective="false" hidden="false" import="true" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
+        <entryLink name="Vermin Swarm" id="e674-353b-b22e-4674" collective="false" hidden="false" import="true" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditionGroups>
@@ -792,7 +786,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Lair (long)" id="f575-fe18-eced-3fa4" collective="false" hidden="false" import="true" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
+        <entryLink name="Lair" id="f575-fe18-eced-3fa4" collective="false" hidden="false" import="true" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditions>
@@ -803,7 +797,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name=" Spellbook - Ratkin" id="1e6e-bcde-8e43-861c" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name=" Spellbook - Ratkin" id="1e6e-bcde-8e43-861c" collapsible="true" collective="false" hidden="false" import="true">
       <comment>- Twitch Keenear</comment>
       <constraints>
         <constraint id="caa4-1201-ccd3-8d86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -834,21 +828,21 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook Basic - Twitch Keenear" id="6e1a-20dd-9c51-7683" hidden="false" sortIndex="1">
+    <selectionEntryGroup name="Spellbook - Twitch Keenear" id="6e1a-20dd-9c51-7683" hidden="false" sortIndex="1">
       <constraints>
         <constraint id="969f-1ee9-0e6b-f549" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
         <constraint id="9276-888c-2e22-48de" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Zap" id="32bb-805a-59f8-e988" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
         <entryLink name="Lightning Bolt" id="1871-ef66-67ce-3383" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink name="Zap" id="32bb-805a-59f8-e988" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spell Selection - Twitch Keenear" id="06ec-0a82-019a-d7ed" hidden="false">
+    <selectionEntryGroup name="Spell Selection - Twitch Keenear" id="06ec-0a82-019a-d7ed" collapsible="true" hidden="false">
       <entryLinks>
         <entryLink name="Spellbook Basic - Twitch Keenear" id="e8e9-a5f8-80c1-e8c7" hidden="false" sortIndex="1" targetId="6e1a-20dd-9c51-7683" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Ratkin" id="92df-371a-503a-84ce" hidden="false" import="true" sortIndex="2" targetId="1e6e-bcde-8e43-861c" type="selectionEntryGroup"/>
-        <entryLink name="Spellbook - Corrupt" id="e50c-15f5-b5f6-4955" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Ratkin" id="92df-371a-503a-84ce" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="1e6e-bcde-8e43-861c" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Corrupt" id="e50c-15f5-b5f6-4955" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
