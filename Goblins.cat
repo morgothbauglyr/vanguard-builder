@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Goblins" id="90a1-0805-2d59-2786" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <categoryEntries>
-    <categoryEntry name="Goblin" id="54b6-fd45-6d0a-bcab" hidden="false"/>
-    <categoryEntry name="Troll" id="b0f0-86c7-ccee-7509" hidden="false"/>
-  </categoryEntries>
+<catalogue name="Goblins" id="90a1-0805-2d59-2786" authorContact="
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="Shared Units" id="5edb-6518-e3cb-5bf1" targetId="8e84-5ffb-d7d7-2c21" type="catalogue"/>
+  </catalogueLinks>
   <entryLinks>
     <entryLink name="Banggit" id="0263-7e5e-d6b5-7f78" hidden="false" import="true" targetId="1181-5c57-3949-2788" type="selectionEntry"/>
     <entryLink name="Biggit" id="d32d-dee3-e47c-d036" hidden="false" import="true" targetId="7af8-3b3c-9bd0-0da2" type="selectionEntry"/>
@@ -23,9 +23,6 @@
     <entryLink name="Shroom Wiz *" id="f85a-4724-3470-8b1e" hidden="false" import="true" targetId="defc-c13a-cc4a-5402" type="selectionEntry"/>
     <entryLink name="Faction Abilities" id="20e0-f549-aaf4-c6da" hidden="false" import="true" targetId="9031-a02a-72ee-2c94" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="90a1-0805-pubN68594"/>
-  </publications>
   <sharedProfiles>
     <profile name="Spidro Gigante" id="0dc9-6095-46f2-9d33" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
@@ -274,20 +271,6 @@
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
       </characteristics>
     </profile>
-    <profile name="Troll" id="fdc7-932f-7c04-5633" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-      <characteristics>
-        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
-        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Winggit" id="096d-2fc5-fdac-8f53" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
         <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
@@ -356,13 +339,6 @@
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
         <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When declaring a Group Assault Action</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Magwa &amp; Jo&apos;os must the nominated group leader. All the members of the group have the Bloodlust special rule until the end of the turn.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="CACKLE" id="b77c-7f80-1613-ad68" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use when the model activates</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may cast the same spell twice this Turn if it has enough actions.</characteristic>
       </characteristics>
     </profile>
     <profile name="CRAFTY TACTICS" id="7a8d-6794-6e09-42ed" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -591,7 +567,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name=" Items" id="36a2-f709-0810-edf0" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="36a2-f709-0810-edf0" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Banggit" id="b25b-9a4f-093f-7ae3" hidden="false" targetId="fb0e-e482-006f-ede2" type="profile"/>
@@ -621,7 +597,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="60fa-3745-25df-8f89" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="60fa-3745-25df-8f89" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Biggit" id="42b0-90ca-70dd-9cca" hidden="false" targetId="6f9f-6a10-8412-c26e" type="profile"/>
@@ -650,7 +626,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="72fe-0999-86e7-24c9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="72fe-0999-86e7-24c9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Blaggit" id="dc3f-2bef-df71-161d" hidden="false" targetId="38e0-3f6e-670c-1ca7" type="profile"/>
@@ -682,7 +658,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="46"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="a5b1-1acb-24e8-6383" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="a5b1-1acb-24e8-6383" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spellbook - Corrupt" id="6bc9-f132-e456-dabb" collective="false" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -759,7 +735,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="d521-2b35-0f91-368b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d521-2b35-0f91-368b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Luggit" id="04e6-4cc8-6325-b80e" hidden="false" targetId="9274-7f95-3605-9294" type="profile"/>
@@ -790,7 +766,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <infoLinks>
         <infoLink name="Magwa &amp; Jo&apos;os" id="db25-3cf5-d53a-722a" hidden="false" targetId="8106-2166-a184-ac9d" type="profile"/>
-        <infoLink name="Elite" id="4303-3301-890e-2695" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="4303-3301-890e-2695" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring (Beasts only)" id="48b6-e9c3-c82a-9aac" hidden="false" targetId="fe66-a62b-ddab-fa89" type="rule"/>
         <infoLink name="Power Dice White/Orange (1)" id="3f79-b798-2b62-ef5c" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Pack Leader" id="825f-0263-b1e6-2983" hidden="false" targetId="5f0c-936a-2cf6-fb0b" type="rule"/>
@@ -811,7 +787,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <infoLinks>
         <infoLink name="Mawbeast" id="cb7c-34b3-ee7a-6626" hidden="false" targetId="9dac-97a5-5176-6b41" type="profile"/>
-        <infoLink name="Elite" id="4fd0-c96b-ecfc-4f98" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="4fd0-c96b-ecfc-4f98" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="HOWL!" id="0f33-1750-2ef3-7e83" hidden="false" targetId="68ab-a9f4-253d-258f" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -848,7 +824,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name=" Items" id="faf8-32f5-081e-24f4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="faf8-32f5-081e-24f4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mawpup Launcher" id="995b-d8e0-f723-8516" hidden="false" targetId="8d25-bb97-20c9-e7da" type="profile"/>
@@ -876,7 +852,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="de19-1518-205f-0f6b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="de19-1518-205f-0f6b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spear" id="299d-8223-962a-fa13" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <constraints>
             <constraint id="175d-ecac-4687-1cce" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -911,7 +887,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="2426-6ed0-0fed-db73" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2426-6ed0-0fed-db73" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Dastardly Traps" id="3dd3-86b7-e71e-96ec" collective="false" hidden="false" import="true" targetId="b650-452b-e4f2-a3ad" type="selectionEntry">
           <constraints>
             <constraint id="6535-3d93-bd95-6f5b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -952,7 +928,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="adfe-2e45-3b4c-adf1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="adfe-2e45-3b4c-adf1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Throwing Knife" id="e10f-08f7-c9ca-797b" collective="false" hidden="false" import="true" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
           <constraints>
             <constraint id="c238-1374-57de-e6cf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -990,7 +966,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="d46d-46e1-6370-692c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d46d-46e1-6370-692c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Bow" id="543b-dadb-fd92-abc8" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <constraints>
             <constraint id="45a6-06c2-3a40-928e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -1024,7 +1000,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="e3a4-cee5-0f25-8683" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="e3a4-cee5-0f25-8683" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Throwing Knife" id="8674-5764-7293-fb7f" collective="false" hidden="false" import="true" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
           <constraints>
             <constraint id="7266-65d3-3849-63a0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -1048,37 +1024,6 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </infoLinks>
       <modifiers>
         <modifier field="08fe-537e-f25c-36aa" type="increment" value="1">
-          <repeats>
-            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry name="Troll" id="ec50-2bdc-3864-2472" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Large" id="da2e-d858-d376-0523" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
-        <categoryLink name="Has Crushing Strength" id="e4f8-48e3-657e-63b6" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-        <categoryLink name="Has Regenerate" id="e092-98ee-58d9-a737" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
-        <categoryLink name="Troll" id="f4ca-6009-5f25-2f9a" hidden="false" primary="false" targetId="b0f0-86c7-ccee-7509"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="4b07-b3ab-77c5-2cfa" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="7733-bb07-4e2d-1f94" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Troll" id="6951-3f82-04e1-216d" hidden="false" targetId="fdc7-932f-7c04-5633" type="profile"/>
-        <infoLink name="Pound" id="9825-5c0d-1cda-9879" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="df4b-051a-7a47-005b" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Regenerate (6+)" id="ffd6-9fdb-d476-ac90" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Vicious Swipe" id="dce9-dc12-9511-4baf" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="4b07-b3ab-77c5-2cfa" type="increment" value="1">
           <repeats>
             <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
           </repeats>
@@ -1135,7 +1080,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <entryLinks>
         <entryLink name=" Spell Selection - Wiz" id="4807-949c-e384-7168" collective="false" hidden="false" import="true" targetId="1a31-45a4-51fa-961e" type="selectionEntryGroup"/>
-        <entryLink name=" Items" id="c63b-93dc-59e7-6814" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="c63b-93dc-59e7-6814" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Wiz" id="ff79-3b4b-78a5-6da2" hidden="false" targetId="623f-b8bc-466b-890b" type="profile"/>
@@ -1165,7 +1110,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <entryLinks>
         <entryLink name=" Spell Selection - Shroom Wiz" id="26f9-a176-d228-dffb" collective="false" hidden="false" import="true" targetId="f2a8-2cf3-b7a3-e9a1" type="selectionEntryGroup"/>
-        <entryLink name=" Items" id="8556-15d3-3587-762b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="8556-15d3-3587-762b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Shroom Wiz" id="257c-0fc1-e559-91c9" hidden="false" targetId="bfa4-3c78-266d-f9fc" type="profile"/>

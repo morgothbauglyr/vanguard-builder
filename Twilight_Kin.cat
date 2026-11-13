@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Twilight Kin" id="c0ab-ccb6-c10b-a020" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Twilight Kin" id="c0ab-ccb6-c10b-a020" authorContact="
+" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink name="New Catalogue (link)" id="564c-858e-e33a-19c1" importRootEntries="false" targetId="1ecc-fae0-608b-85be" type="catalogue"/>
+    <catalogueLink name="Nightstalkers" id="564c-858e-e33a-19c1" importRootEntries="false" targetId="1ecc-fae0-608b-85be" type="catalogue"/>
   </catalogueLinks>
-  <categoryEntries>
-    <categoryEntry name="Elf" id="c28f-4b04-8d39-6762" hidden="false"/>
-  </categoryEntries>
   <entryLinks>
     <entryLink name="Faction Abilities" id="f54d-16ea-d7c8-3ce4" hidden="false" targetId="91d1-7198-2e3c-67b0" type="selectionEntry"/>
     <entryLink name="Voidwalker *" id="d016-2186-4de6-217c" hidden="false" targetId="1b35-b103-b847-b0af" type="selectionEntry"/>
@@ -27,9 +25,6 @@
     <entryLink name="Citizen Levy (X)" id="237a-fe95-a856-cc8e" collective="false" hidden="false" targetId="ab8e-9780-0b13-8ba1" type="selectionEntry"/>
     <entryLink name="Master Assassin *" id="ea5e-7a3c-2e2a-fb4a" hidden="false" import="true" targetId="45a6-1d38-52fa-f4f2" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="c0ab-ccb6-pubN68676"/>
-  </publications>
   <sharedProfiles>
     <profile name="Summon the Reaper" id="089c-7efb-115e-68d4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
       <characteristics>
@@ -209,13 +204,6 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="BATTLE RAGE" id="b261-1cc2-d69c-f8ca" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">3</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model may make a follow-up move.</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model may Engage an enemy model with a follow-up move and initiate another Melee. This model will not get any bonus dice for charging. Once this second Melee has been resolved, mark this model as Fatigued.</characteristic>
       </characteristics>
     </profile>
     <profile name="BITTER AND TWISTED" id="6915-ce21-e1b3-86a0" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -647,7 +635,7 @@ of 1 or 2, the Reaper is removed from play.</description>
       <infoLinks>
         <infoLink name="DEADLY BLADES" id="1ecd-075d-9880-32cb" hidden="false" targetId="5400-aa6e-5e7d-1e9d" type="profile"/>
         <infoLink name="Twilight Assassin" id="f3f2-3b0e-8be9-8e1a" hidden="false" targetId="1134-f027-d43d-7cd4" type="profile"/>
-        <infoLink name="Elite" id="b8b9-ed16-659e-3156" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="b8b9-ed16-659e-3156" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="033f-011d-a4a2-3c38" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Sneaky" id="e31e-4379-fda4-d88d" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
       </infoLinks>
@@ -717,7 +705,7 @@ of 1 or 2, the Reaper is removed from play.</description>
       <infoLinks>
         <infoLink name="Voidwalker" id="628c-2964-9b84-9a85" hidden="false" targetId="7f6e-7d96-7d05-8059" type="profile"/>
         <infoLink name="Ensnare" id="18f9-62c4-4990-bc14" hidden="false" targetId="f6ec-c30d-a3b1-738b" type="rule"/>
-        <infoLink name="Elite" id="caa9-c8e6-84ae-d00b" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="caa9-c8e6-84ae-d00b" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Pathfinder" id="f597-9702-d5df-ec33" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -761,7 +749,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         <infoLink name="MURDER AT MIDNIGHT" id="03ff-b1ce-e2cc-9080" hidden="false" targetId="2fc7-ea80-e045-268d" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="7de2-dd38-e7f6-9049" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Evasive" id="8baa-1a33-19d3-5d22" hidden="false" targetId="ffc0-22d9-92b0-a78f" type="rule"/>
-        <infoLink name="Elite" id="fb6f-5994-7a7d-f6aa" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="fb6f-5994-7a7d-f6aa" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="6d23-8cf1-f62f-2128" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Sneaky" id="2ac0-555d-ef81-9b1a" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Power Dice White/Orange (1)" id="c933-842a-410d-c6b9" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Salamanders" id="6a64-c3e7-75aa-c9d0" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Salamanders" id="6a64-c3e7-75aa-c9d0" authorContact="
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink name="Forces of Nature" id="0b72-e1dd-e7ad-f520" targetId="4c75-46a3-5cfb-7c16" type="catalogue"/>
+    <catalogueLink name="Shared Units" id="0b72-e1dd-e7ad-f520" targetId="8e84-5ffb-d7d7-2c21" type="catalogue"/>
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Salamander" id="6b7c-7596-f6d2-7b04" hidden="false"/>
@@ -25,9 +26,6 @@
     <entryLink name="Fire Elemental" id="cd01-10ef-e0d9-54bb" hidden="false" import="true" targetId="f247-f99c-3b8e-3fe4" type="selectionEntry"/>
     <entryLink name="Faction Abilities" id="679e-3de3-f922-7e91" hidden="false" import="true" targetId="c574-b3f1-e3f8-d4c4" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="6a64-c3e7-pubN69392"/>
-  </publications>
   <selectionEntries>
     <selectionEntry name="Ghekkotah Warrior" id="eeb4-dae2-8388-bf16" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -42,14 +40,14 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="4100-2115-708c-c954" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="4100-2115-708c-c954" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="SHIFTING SCALES" id="bed9-a227-f4c3-c24b" hidden="false" targetId="1ab5-e218-49a6-91f8" type="profile"/>
         <infoLink name="Ghekkotah Warrior" id="164f-1968-abf3-1dd0" hidden="false" targetId="a1ed-50d7-b487-d7bd" type="profile"/>
         <infoLink name="Pathfinder" id="0ee6-cb07-f2b3-a63f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Stealthy" id="4329-c68c-c7db-0dd8" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Elite" id="1e6f-6319-dbf9-ffaf" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="1e6f-6319-dbf9-ffaf" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="33e3-0a70-64d2-75a2" type="increment" value="1">
@@ -376,13 +374,6 @@ terrain, objectives or other models. The Rhinosaur Cataphract may then choose to
 All group members must finish their movement within 6” of each other.</characteristic>
       </characteristics>
     </profile>
-    <profile name="SLAMBACK" id="5170-f1ea-e295-cb7e" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-      <characteristics>
-        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">when this model Retaliates before dice arerolled.</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Any hits this Retaliation scores are resolved with an additional+1 Crushing Strength.</characteristic>
-      </characteristics>
-    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Blazing Brands" id="a7aa-6bbd-9d27-6f54" hidden="false">
@@ -491,7 +482,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="fc17-c911-230b-2967" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="fc17-c911-230b-2967" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Salamander Unblooded" id="de5c-748f-86f9-0960" hidden="false" targetId="e13b-b0d4-b8a7-fdbc" type="profile"/>
@@ -518,7 +509,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="a1db-8a78-508d-bcab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="a1db-8a78-508d-bcab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Blowpipe" id="aa80-84e5-21a3-2327" collective="false" hidden="false" import="true" targetId="9692-4901-30f6-771e" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
@@ -550,7 +541,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="a79c-d41d-72bd-cc18" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="a79c-d41d-72bd-cc18" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Two-handed Weapon" id="b5f7-25b7-a0dc-f668" collective="false" hidden="false" import="true" targetId="a92e-488d-72b3-41c0" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
@@ -588,7 +579,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="27c2-b6ef-9d1a-187b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="27c2-b6ef-9d1a-187b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="ORDEAL OF FIRE" id="6143-cca4-03aa-d6b2" hidden="false" targetId="357d-7c14-7665-ae18" type="profile"/>
@@ -617,7 +608,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="cc67-55ea-119d-7002" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="cc67-55ea-119d-7002" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ceremonial Guard" id="0bca-98fa-c2b0-3b8d" hidden="false" targetId="e5c8-2b0e-75f6-2bf7" type="profile"/>
@@ -626,7 +617,7 @@ All group members must finish their movement within 6” of each other.</charact
         <infoLink name="Crushing Strength (1)" id="4d04-021f-9042-7267" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="84ec-3bab-8522-c1f1" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Parry" id="14ba-6ae8-1e9f-0478" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="Elite" id="64d2-a2b5-f1bd-890f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="64d2-a2b5-f1bd-890f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="3167-d83c-2c11-18d2" type="increment" value="1">
@@ -649,13 +640,13 @@ All group members must finish their movement within 6” of each other.</charact
       </costs>
       <entryLinks>
         <entryLink name="Blowpipe" id="5b33-52fe-7c55-7d23" hidden="false" import="true" targetId="9692-4901-30f6-771e" type="selectionEntry"/>
-        <entryLink name=" Items" id="11a1-65c6-31e4-ace4" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="11a1-65c6-31e4-ace4" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ghekkotah Clutch Warden" id="35d0-43a0-d958-6cfb" hidden="false" targetId="5563-1fe7-3a1a-84ef" type="profile"/>
         <infoLink name="Pathfinder" id="2253-0815-1560-ff96" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Stealthy" id="0fed-07f1-d4d2-404d" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Elite" id="2b84-4e6c-ca9e-3ca1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="2b84-4e6c-ca9e-3ca1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring (Ghekkotah only)" id="83f5-de80-5589-9e65" hidden="false" targetId="a8e2-751f-d827-31c6" type="rule"/>
         <infoLink name="Power Dice Red/Black (1)" id="a86f-5ec1-cc7d-f355" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="SHIFTING SCALES" id="764f-bd6b-d052-929f" hidden="false" targetId="1ab5-e218-49a6-91f8" type="profile"/>
@@ -695,7 +686,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="21"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="def1-d479-5c74-d0e0" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="def1-d479-5c74-d0e0" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Pistol" id="debb-3f9e-5647-29da" collective="false" hidden="false" import="true" targetId="5235-9816-1af9-0f07" type="selectionEntry">
           <constraints>
             <constraint id="2bc3-ae7c-1f2f-e7f5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -734,7 +725,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="45f3-a396-7ed8-0faa" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="45f3-a396-7ed8-0faa" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="SAVAGE ROAR" id="203b-0dfd-7455-5e05" hidden="false" targetId="cc65-7633-907a-bdc4" type="profile"/>
@@ -765,7 +756,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="f340-3da1-5d79-1bf2" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="f340-3da1-5d79-1bf2" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Rhinosaur Caraphract" id="d7bf-9063-3c8f-9051" hidden="false" targetId="98e2-f6ed-2295-679d" type="profile"/>
@@ -822,7 +813,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="1d6a-8180-8449-a8e3" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="1d6a-8180-8449-a8e3" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="SHIELD WALL" id="5dfe-d015-1a82-d7cb" hidden="false" targetId="2c1b-7f2a-05cd-8231" type="profile"/>
@@ -831,7 +822,7 @@ All group members must finish their movement within 6” of each other.</charact
         <infoLink name="Crushing Strength (1)" id="1f3d-7e04-e87c-caf0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="4ffe-840e-8af2-1b45" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Parry" id="e87f-a2d9-a40f-78c1" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="Elite" id="74e9-ac6c-2877-2789" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="74e9-ac6c-2877-2789" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="5bdf-dd3d-24c0-2703" type="increment" value="1">
@@ -853,7 +844,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="03cb-24b4-3c32-419e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="03cb-24b4-3c32-419e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell Selection - Mage-Priest" id="68a1-192d-d8d9-5f56" collective="false" hidden="false" import="true" targetId="73c3-a16b-3edf-b20e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -885,7 +876,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="4290-dcbe-30e9-e20c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="4290-dcbe-30e9-e20c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Pistol" id="96b4-dc0e-fd49-5e29" collective="false" hidden="false" import="true" targetId="5235-9816-1af9-0f07" type="selectionEntry">
           <constraints>
             <constraint id="fe99-bfb3-c48e-1c5a-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
@@ -896,7 +887,7 @@ All group members must finish their movement within 6” of each other.</charact
       <infoLinks>
         <infoLink name="Firebrand" id="d4de-640a-76e2-3c1e" hidden="false" targetId="4c79-84da-ab7d-ae02" type="profile"/>
         <infoLink name="Power Dice White/Orange (1)" id="2fea-64c2-a40d-0de1" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-        <infoLink name="Elite" id="e537-ef1e-65ad-f8b1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="e537-ef1e-65ad-f8b1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Regenerate (7+)" id="f8d9-6007-fd5f-b24f" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="c6be-0ddb-dd6a-18e4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="6th Sense" id="16dd-d825-8586-62ea" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
@@ -920,7 +911,7 @@ All group members must finish their movement within 6” of each other.</charact
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="bd62-2ba1-c5cc-bb29" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="bd62-2ba1-c5cc-bb29" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="SLAMBACK" id="a3d5-a613-dde1-4cff" hidden="false" targetId="5170-f1ea-e295-cb7e" type="profile"/>

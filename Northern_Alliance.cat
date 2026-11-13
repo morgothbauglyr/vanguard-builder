@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Northern Alliance" id="257e-724d-d140-2297" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="Faction Abilities" id="cab4-b908-c0d3-cf0c" hidden="false" targetId="5114-ebbf-c9f3-3cb9" type="selectionEntry"/>
     <entryLink name="Thegn" id="958e-e816-8c5c-71b5" collective="false" hidden="false" targetId="be69-8cbc-af47-b13d" type="selectionEntry"/>
@@ -360,6 +360,7 @@
       <categoryLinks>
         <categoryLink name="Grunt" id="8528-831f-12f7-b4d7" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="20dd-6204-91d5-679d" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Dwarf" id="b62a-6284-96d0-c067" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
@@ -389,6 +390,7 @@
       <categoryLinks>
         <categoryLink name="Grunt" id="299e-33ec-06d5-e8f3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="2ed1-9380-e758-facf" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Elf" id="de95-4168-3e3a-7c3a" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
@@ -413,6 +415,7 @@
         <categoryLink name="Large" id="82ac-59e2-6ccb-cf5f" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Cavalry" id="5356-cb18-1e80-2876" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Has Crushing Strength" id="a533-54db-8832-2032" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Human" id="a582-b555-8fe8-fb4f" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
@@ -432,6 +435,7 @@
       <categoryLinks>
         <categoryLink name="Warrior" id="a8e0-3f38-9af8-0ab8" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="1ecd-3718-3606-59d6" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Half-Elf" id="6fe3-6aa3-af19-3ab0" hidden="false" primary="false" targetId="9b8d-956f-af20-2d48"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
@@ -449,6 +453,7 @@
       <categoryLinks>
         <categoryLink name="Grunt" id="1ec1-af5e-9952-af8c" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="d83b-440d-05e5-4355" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Human" id="cd89-fc8a-adf3-e2f7" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
@@ -465,6 +470,7 @@
         <categoryLink name="Warrior" id="e51b-8925-46f5-5fe0" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="c878-e13c-43fd-ed88" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="a17f-d44a-d105-1c26" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Human" id="d882-ef8d-5289-e47c" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
@@ -481,6 +487,7 @@
       <categoryLinks>
         <categoryLink name="Command" id="3f4e-92b3-a653-4ac2" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="9d2d-b0f6-529f-e2ef" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Half-Elf" id="e5aa-26e8-e153-ec73" hidden="false" primary="false" targetId="9b8d-956f-af20-2d48"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
@@ -503,6 +510,7 @@
       <categoryLinks>
         <categoryLink name="Large" id="ef54-2c9e-5b3c-d79f" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="428f-13aa-bddd-4443" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Elemental" id="f795-0007-be0b-1da3" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="47"/>
@@ -521,6 +529,7 @@
     <selectionEntry name="Ice Kin Hunter" id="8061-440d-5419-dc41" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="2335-2578-270a-d5fc" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Elf" id="16e5-f559-6ec9-b33e" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22"/>
@@ -550,6 +559,7 @@
         <categoryLink name="Warrior" id="7b9d-97dc-c9b5-acd1" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="b6a4-061f-07cd-8918" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Regenerate" id="b684-ad07-0a8a-90f6" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Naiad" id="5430-ae10-d839-4412" hidden="false" primary="false" targetId="8837-a5f4-0674-a61d"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
@@ -571,6 +581,7 @@
     <selectionEntry name="Ice Queen" id="3a3a-da30-5132-1a13" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="a81e-f4c3-1b12-07c0" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Elf" id="bf41-ff90-e810-2505" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
@@ -591,6 +602,7 @@
         <categoryLink name="Large" id="8422-1650-5d22-1268" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="ad75-c89e-2f63-741b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="8922-4470-f01e-d9e6" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Troll" id="3e7e-827b-c11e-7705" hidden="false" primary="false" targetId="b0f0-86c7-ccee-7509"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
@@ -600,7 +612,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Snow Troll" id="e3f5-04cd-4b66-34b0" hidden="false" targetId="3152-34de-b380-a47b" type="profile"/>
-        <infoLink name="Elite" id="b8bd-5395-47d2-a3c3" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="b8bd-5395-47d2-a3c3" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="e16c-3af6-22fc-f345" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Regenerate (6+)" id="1cd5-b43f-b428-8f2e" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Vicious Swipe" id="6c51-4af0-3e25-178d" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
@@ -613,6 +625,7 @@
         <categoryLink name="Large Command" id="7002-72a9-491f-195a" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
         <categoryLink name="Has Regenerate" id="2068-5184-dabc-9e6f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Large" id="1fbd-37f2-bf32-b4ee" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Troll" id="627d-8af3-9539-5d23" hidden="false" primary="false" targetId="b0f0-86c7-ccee-7509"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54"/>
@@ -622,7 +635,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Snow Troll Prime" id="1003-759d-dec5-7384" hidden="false" targetId="849d-a9dc-c37c-7e56" type="profile"/>
-        <infoLink name="Elite" id="3ab3-bc7d-3dc6-6946" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="3ab3-bc7d-3dc6-6946" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="a9fe-baee-e8f9-c7e5" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Regenerate (6+)" id="6147-dd33-f146-06af" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Vicious Swipe" id="b011-8164-ec8a-a72d" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
@@ -634,6 +647,7 @@
       <categoryLinks>
         <categoryLink name="Command" id="4bdf-ea9b-bb2c-108d" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="751f-b0f0-cd9b-d17c" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Human" id="f5e8-84bd-67cb-1a03" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>

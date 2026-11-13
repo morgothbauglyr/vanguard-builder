@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Nightstalkers" id="1ecc-fae0-608b-85be" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <categoryEntries>
-    <categoryEntry name="Nightstalker" id="4100-0b22-ed1d-21f6" hidden="false"/>
-  </categoryEntries>
+<catalogue name="Nightstalkers" id="1ecc-fae0-608b-85be" authorContact="
+" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="Fiend" id="d007-6b27-c20c-1671" hidden="false" targetId="5724-87d4-671d-36a0" type="selectionEntry"/>
     <entryLink name="Needlefangs" id="9aef-ff31-493e-8128" collective="false" hidden="false" targetId="e79d-182d-85da-32ae" type="selectionEntry"/>
@@ -20,9 +18,6 @@
     <entryLink name="Banshee" id="303c-d158-01c9-8273" collective="false" hidden="false" targetId="11da-f8a6-074f-4935" type="selectionEntry"/>
     <entryLink name="Butcher Fleshripper" id="4c3a-0a30-2cbe-2cdf" collective="false" hidden="false" targetId="ad19-df39-aadd-cfb2" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="1ecc-fae0-pubN70108"/>
-  </publications>
   <sharedProfiles>
     <profile name="Reaper" id="15c7-9daa-a75b-b6ab" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
@@ -349,7 +344,7 @@
         <infoLink name="Phantom" id="ce09-1af9-ac8c-7fa8" hidden="false" targetId="e379-d049-73e4-293f" type="profile"/>
         <infoLink name="Stealthy" id="4c26-aad1-02b1-a0fe" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Fly" id="eb24-7c97-3b2e-5612" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Elite" id="0988-2e9e-70ca-9c48" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="0988-2e9e-70ca-9c48" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="b888-7b8c-3051-2872" type="increment" value="1">

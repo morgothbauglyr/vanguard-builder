@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Shared Units" id="8e84-5ffb-d7d7-2c21" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="true" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Fire Elemental" id="04bc-9fb6-7a0c-3e5b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Water Elemental" id="78ef-ac90-6fc1-b471" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Elemental Fire" id="f46c-ab9b-b408-8840" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Breath, Torrent, Ranged (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="NATURE’S INFERNO" id="bc8e-cf87-e55f-633f" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when this model makes a Ranged attack with
+Elemental Fire, before any dice are rolled.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Elemental Fire gains Piercing (1) for this attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Troll" id="fdc7-932f-7c04-5633" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Earth Elemental" id="ec9d-80d2-e145-f3e0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">6</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry name="Fire Elemental" id="f247-f99c-3b8e-3fe4" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="e9a9-bf66-23f9-2dfa" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Regenerate" id="32bb-a204-1c02-b80f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Elemental" id="9788-48a4-3c18-6606" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="9c4c-a642-3ff8-f3fe" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Items" id="3642-b970-8f52-f189" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Elemental Fire" id="d2da-5c4d-b2db-8253" collective="false" hidden="false" import="true" targetId="86f5-90a4-4824-685f" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fire Elemental" id="4193-f9a4-2f3d-2a77" hidden="false" targetId="04bc-9fb6-7a0c-3e5b" type="profile"/>
+        <infoLink name="Regenerate (6+)" id="2f5b-cec5-0b96-2677" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="NATURE’S INFERNO" id="074d-b5e5-1a24-1c19" hidden="false" targetId="bc8e-cf87-e55f-633f" type="profile"/>
+        <infoLink name="Power Dice Red/Black (1)" id="96f5-18c5-a070-1a45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="9c4c-a642-3ff8-f3fe" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Water Elemental" id="ddde-c9a8-1d8c-57ac" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="71fb-c7c6-5545-6852" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Support" id="3092-15a5-3f4e-78bf" hidden="false" primary="false" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Has Crushing Strength" id="8b57-c99b-4783-18c1" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Has Regenerate" id="e6c3-1bcc-f133-aa90" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Elemental" id="d8e6-8b9f-2813-698c" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="1d3a-dda1-eb78-1c92" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Items" id="9e61-60b5-9947-3cb4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Water Elemental" id="5dce-9af2-87ec-772d" hidden="false" targetId="78ef-ac90-6fc1-b471" type="profile"/>
+        <infoLink name="Regenerate (6+)" id="51e9-92d1-7db6-5280" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Crushing Strength (2)" id="2825-a6bd-6b96-6793" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="1d3a-dda1-eb78-1c92" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Elemental Fire" id="86f5-90a4-4824-685f" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="a323-e3b6-51f9-6362-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="a323-e3b6-51f9-6362-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Elemental Fire" id="ac75-7bd6-ca85-8e05" hidden="false" targetId="f46c-ab9b-b408-8840" type="profile"/>
+        <infoLink name="Breath" id="6063-82dc-f4ca-3732" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Troll" id="ec50-2bdc-3864-2472" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="da2e-d858-d376-0523" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Crushing Strength" id="e4f8-48e3-657e-63b6" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Has Regenerate" id="e092-98ee-58d9-a737" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Troll" id="f4ca-6009-5f25-2f9a" hidden="false" primary="false" targetId="b0f0-86c7-ccee-7509"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="4b07-b3ab-77c5-2cfa" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Items" id="7733-bb07-4e2d-1f94" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Troll" id="6951-3f82-04e1-216d" hidden="false" targetId="fdc7-932f-7c04-5633" type="profile"/>
+        <infoLink name="Pound" id="9825-5c0d-1cda-9879" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+        <infoLink name="Crushing Strength (2)" id="df4b-051a-7a47-005b" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="ffd6-9fdb-d476-ac90" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Vicious Swipe" id="dce9-dc12-9511-4baf" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="4b07-b3ab-77c5-2cfa" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Earth Elemental" id="8069-db9f-2e92-dffc" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Large" id="69b2-1aa5-bbd4-9338" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Has Crushing Strength" id="a316-8a14-ef73-8b91" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Elemental" id="2a2d-ffa5-d62b-d043" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="6652-2c4a-4a0a-4ebc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Items" id="6b27-ddf7-0021-2d22" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Crushing Strength (2)" id="9feb-1ff7-5de1-d1da" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Smash" id="5e03-6b9b-e940-5c52" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink name="Steady" id="e41b-a963-ee69-913d" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink name="Earth Elemental" id="6d7c-fdc0-9991-fb11" hidden="false" targetId="ec9d-80d2-e145-f3e0" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="6652-2c4a-4a0a-4ebc" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

@@ -47,6 +47,18 @@
     <categoryEntry name="Ratkin" id="37c7-bca8-2467-70d0" hidden="false"/>
     <categoryEntry name="Ogre" id="37ce-ffb8-2fa8-7b69" hidden="false"/>
     <categoryEntry name="Undead" id="c2fc-83d5-89a9-568a" hidden="false"/>
+    <categoryEntry name="Human" id="b96e-aef3-406c-e708" hidden="false"/>
+    <categoryEntry name="Naiad" id="8837-a5f4-0674-a61d" hidden="false"/>
+    <categoryEntry name="Riverguard" id="c1cb-372f-ff47-b6e5" hidden="false"/>
+    <categoryEntry name="Dwarf" id="8776-bdcb-2f4b-b764" hidden="false"/>
+    <categoryEntry name="Elf" id="c28f-4b04-8d39-6762" hidden="false"/>
+    <categoryEntry name="Nightstalker" id="4100-0b22-ed1d-21f6" hidden="false"/>
+    <categoryEntry name="Half-Elf" id="9b8d-956f-af20-2d48" hidden="false"/>
+    <categoryEntry name="Goblin" id="54b6-fd45-6d0a-bcab" hidden="false"/>
+    <categoryEntry name="Troll" id="b0f0-86c7-ccee-7509" hidden="false"/>
+    <categoryEntry name="Grunt (Ogres)" id="5a7a-fe5f-4c55-b48f" hidden="false"/>
+    <categoryEntry name="Large (Ogres)" id="a8c1-0f86-be6c-7e6f" hidden="false"/>
+    <categoryEntry name="Beastman" id="8ac4-4f1f-0eec-fefa" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
@@ -80,6 +92,7 @@
             <modifier field="3619-1a15-8c88-ab4d" type="decrement" value="1">
               <repeats>
                 <repeat childId="29ef-0bb1-9ab6-8e5c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
+                <repeat childId="5a7a-fe5f-4c55-b48f" childName="Grunt (Ogres)" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1515,6 +1528,97 @@ This Special Ability may be used any number of times in a Round.</characteristic
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (4)</characteristic>
       </characteristics>
     </profile>
+    <profile name="Longbow" id="bdbd-f56b-ad42-6c57" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">15&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
+      </characteristics>
+    </profile>
+    <profile name="Sling" id="3f94-a5cb-7215-6ffa" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f"/>
+      </characteristics>
+    </profile>
+    <profile name="BATTLE RAGE" id="b261-1cc2-d69c-f8ca" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">3</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model may make a follow-up move.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model may Engage an enemy model with a follow-up move and initiate another Melee. This model will not get any bonus dice for charging. Once this second Melee has been resolved, mark this model as Fatigued.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Musket" id="cdf7-7515-6d84-850a" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Marksman, Piercing (2), Reload</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Javelin" id="278a-b83c-1c8b-6b80" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Pound</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="BOUNDER" id="8701-5553-c6e5-1004" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model is activated.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Grants this model the Fly ability until the end of the Round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Harpoon-gun" id="497e-058c-5430-3f04" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="EVASION" id="57c6-05f2-dc33-1b61" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model activates.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Grants this model the Dodge and Parry abilities until the end of the Round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="SLAMBACK" id="5170-f1ea-e295-cb7e" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">when this model Retaliates before dice arerolled.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Any hits this Retaliation scores are resolved with an additional+1 Crushing Strength.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Compound Bow" id="2c71-8452-2713-0063" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">9&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Pound</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Poisoned Throwing Weapon" id="3349-410f-a031-6379" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Crossbow" id="8eb0-009b-bed9-4749" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+      <characteristics>
+        <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">12&quot;</characteristic>
+        <characteristic name="Dice" typeId="2088-497d-b499-8476">2D8</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (2), Reload, Weaken</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="CACKLE" id="b77c-7f80-1613-ad68" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use when the model activates</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may cast the same spell twice this Turn if it has enough actions.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Reload" id="607b-a841-9e41-92c0" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
@@ -1539,8 +1643,7 @@ Alternatively the model may Shoot as a short action, but with a -1 to hit modifi
     <rule name="Crushing Strength (3)" id="a715-6836-a848-093a" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
-    <rule name="Elite" id="7ab6-3cc6-82ce-2437" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
-      <comment>Renamed from Vicious</comment>
+    <rule name="Vicious" id="7ab6-3cc6-82ce-2437" hidden="false" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule can re-roll any 1s when making Melee attacks.</description>
     </rule>
     <rule name="Steady" id="b26e-9018-2d56-fa19" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
@@ -1700,7 +1803,7 @@ when rolling for hits (including casting spells).</description>
       <description>If this model is not Engaged with an enemy model and within 2&quot; of a friendly model that is Engaged with an enemy model, that friendly model gains +1D8 for it&apos;s melee attacks. Only 1 bonus die may be given to a model in this way. Models with Long Reach participating in a Group Charge Action to do not have to engage enemy models but must end their move within 2” of a model in the group that is engaged.</description>
     </rule>
     <rule name="Combined Fire" id="b43b-e9a2-0881-2568" hidden="false">
-      <description>When involved in a Group Shoot Action, models of this type add +1 dice to their Ranged Attack roll if one or more other models of the same type in the group fire at the same target.</description>
+      <description>When involved in a Group Shoot Action, models with this rule add +1 dice to their Ranged Attack roll if one or more other models with the same rule in the group fire at the same target. If this rule has a denominator (N) appended, it must be the same for all models.</description>
     </rule>
     <rule name="Inspiring (Grunts &amp; Warriors only)" id="393c-e681-96ad-82c7" hidden="false">
       <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
@@ -1762,7 +1865,7 @@ when rolling for hits (including casting spells).</description>
     <rule name="Halberd" id="c25f-4a60-cc36-4a32" hidden="false">
       <description>The model has the Crushing Strength (1) and Vicious special rules when making a free Melee attack after a qualifying charge. In addition, enemy models that have the Cavalry special rule, do not get the +1 to-hit bonus for attacking this model in its front arc in Melee.</description>
     </rule>
-    <rule name="Vicious *" id="1ecc-286f-cb53-764b" hidden="false" publicationId="4a94-de20-b936-ea2d">
+    <rule name="Deadly *" id="1ecc-286f-cb53-764b" hidden="false" publicationId="4a94-de20-b936-ea2d">
       <description>The player owning the attacking model can force the target player to re-roll one successful armor save. This can be used to re-roll an Exploding 8 to try and prevent it Exploding!</description>
     </rule>
     <rule name="Climber" id="5db9-a777-85c4-8055" hidden="false">
@@ -1778,13 +1881,14 @@ when rolling for hits (including casting spells).</description>
       <description>This model cannot be Knocked-down for any reason and remains standing if any rule requires it to be Knocked-down.</description>
     </rule>
     <rule name="Vicious Swipe" id="6b03-4684-97f3-c6a9" hidden="false">
-      <description>When attempting to Break Away from this unit, enemy models have a -1 modifier when they make their Armour Save roll.</description>
+      <description>When attempting to Break Away from this model, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
     <rule name="Explode" id="e9a5-bac6-5fb1-cb03" hidden="false">
       <description>When this model is removed as a casualty, all models in 3&quot; take one automatic hit.</description>
     </rule>
-    <rule name="Evasive" id="ffc0-22d9-92b0-a78f" hidden="false">
-      <description>This model deftly evades enemy attacks. Crushing Strength from enemy attacks is reduced to a maximum of (1).</description>
+    <rule name="Evasive" id="ffc0-22d9-92b0-a78f" hidden="false" publicationId="4a94-de20-b936-ea2d">
+      <description>When making Melee attacks at a model with this rule, attacking models suffer a -1 modifier
+when rolling for hits.</description>
     </rule>
     <rule name="Worthless" id="0a86-0161-dd39-1d09" hidden="false">
       <description>This model may never claim or score objectives/VPs, and is never worth VPs to the owning
@@ -1810,6 +1914,18 @@ player.</description>
     </rule>
     <rule name="Slow Reload" id="6ae5-c8fe-bcab-5469" hidden="false">
       <description>Shoot is a long action for any Ranged weapons with the Slow Reload rule.</description>
+    </rule>
+    <rule name="Cumbersome" id="6c53-a6c0-aa68-6dc7" hidden="false">
+      <description>This model cannot Climb, or be given any kind of Mount.</description>
+    </rule>
+    <rule name="Entangle" id="85c4-9aa4-c6ee-5a59" hidden="false">
+      <description>Break away actions from this model are made rolling 2 dice for the Armour roll rather than the normal 1. Each failed roll causes a wound.</description>
+    </rule>
+    <rule name="Exhausting" id="424e-7d48-2087-3f92" hidden="false">
+      <description>A model hit with this weapon in Melee, is marked as Fatigued.</description>
+    </rule>
+    <rule name="Ensnare" id="7161-27b3-c5fe-64c7" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+      <description>Models attempting to Break Away from this model must re-roll successfull Armour rolls.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -2128,7 +2244,7 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Blade of Slashing" id="e11f-8f76-2151-7dda" hidden="false" targetId="7789-92be-cdb5-8468" type="profile"/>
-        <infoLink name="Vicious *" id="c34e-9101-c12f-11f7" hidden="false" targetId="1ecc-286f-cb53-764b" type="rule"/>
+        <infoLink name="Deadly *" id="c34e-9101-c12f-11f7" hidden="false" targetId="1ecc-286f-cb53-764b" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Rule Check - Is Faction Spell" id="8264-6e8e-3e44-c2c9" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
@@ -2765,7 +2881,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4"/>
       </costs>
       <infoLinks>
-        <infoLink name="Elite" id="a1af-387d-3c3a-b707" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="a1af-387d-3c3a-b707" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Blade of the Beast Slayer" id="04eb-5e18-e6b3-489e" hidden="false" targetId="0433-9f97-b173-58a8" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -2882,7 +2998,7 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Soulthirst Blade" id="dbd1-66c4-ab87-87d9" hidden="false" targetId="3a52-eb10-fd47-b7f0" type="profile"/>
-        <infoLink name="Elite" id="c0a5-0ef9-0722-d22c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="c0a5-0ef9-0722-d22c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Medallion of Life (Unique)" id="8ae1-5225-f66d-c4a2" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
@@ -3630,9 +3746,116 @@ player.</description>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Longbow" id="507f-5e6a-3dd5-9782" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="7223-1133-8a86-27c1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Longbow" id="4d3b-35bf-fa15-b208" hidden="false" targetId="bdbd-f56b-ad42-6c57" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Sling" id="f0b9-e671-b920-7035" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Sling" id="c90a-b1e0-ac67-f0f2" hidden="false" targetId="3f94-a5cb-7215-6ffa" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Halberd" id="e475-1d52-512e-ebc5" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="1957-ede3-c232-63ee" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Halberd" id="5314-c4ba-9b6a-e1dd" hidden="false" targetId="c25f-4a60-cc36-4a32" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Musket" id="1ce1-adff-1e34-8702" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="4566-da1d-10fb-339b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Musket" id="b424-131d-c44d-335d" hidden="false" targetId="cdf7-7515-6d84-850a" type="profile"/>
+        <infoLink name="Piercing (2)" id="d3fe-b47b-0a76-8f11" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Marksman" id="b949-03da-7112-de91" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
+        <infoLink name="Reload" id="b6d8-eb52-888a-c1c4" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Javelin" id="b0c4-65da-186f-f194" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="fefe-2cda-210a-dceb" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Javelin" id="545a-03b6-7094-7bd5" hidden="false" targetId="278a-b83c-1c8b-6b80" type="profile"/>
+        <infoLink name="Pound" id="b5ab-10da-fd4f-6b2b" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Harpoon-gun" id="d71a-d386-7476-f5d0" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="f219-0788-8d70-3b37" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Harpoon-gun" id="aa0c-5b7a-82e9-a0d8" hidden="false" targetId="497e-058c-5430-3f04" type="profile"/>
+        <infoLink name="Piercing (1)" id="f689-0b5a-259c-d192" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Trident" id="d7a4-ea56-28b9-e013" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="4b3d-e548-76b8-ec18" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Exhausting" id="ac8d-2013-a530-f1b9" hidden="false" targetId="424e-7d48-2087-3f92" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Compound Bow" id="f5a3-e2a8-fb97-eb47" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="a66f-5664-39f0-3e1f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Compound Bow" id="c929-b2b9-19d6-1190" hidden="false" targetId="2c71-8452-2713-0063" type="profile"/>
+        <infoLink name="Pound" id="7f2c-b2c1-777d-b0a3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Poisoned Throwing Weapon" id="050f-71c1-67ec-9868" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="5dbd-ef5c-678c-3683" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Poisoned Throwing Weapon" id="c1a4-09f1-0574-4eb3" hidden="false" targetId="3349-410f-a031-6379" type="profile"/>
+        <infoLink name="Piercing (1)" id="e417-6a59-5b6e-ba91" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Heavy Crossbow" id="56c8-38a6-0bee-253a" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
+      <constraints>
+        <constraint id="0bd0-75fb-d82b-c05d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Heavy Crossbow" id="4fcc-0591-e274-2e2c" hidden="false" targetId="8eb0-009b-bed9-4749" type="profile"/>
+        <infoLink name="Reload" id="8af6-7d50-bad9-5d97" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
+        <infoLink name="Piercing (2)" id="584e-4966-555e-ab17" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Weaken" id="5437-632c-a559-29f4" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Net" id="f0f3-31e0-0168-f571" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="b0c9-24a4-f10c-8334" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Entangle" id="34d8-0ed6-a8d2-8f02" hidden="false" targetId="85c4-9aa4-c6ee-5a59" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name=" Items" id="c9c8-ac7b-333d-0312" collapsible="true" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Items" id="c9c8-ac7b-333d-0312" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="74cb-81db-98da-4143" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
       </constraints>
@@ -4224,7 +4447,7 @@ player.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Basic " id="cff4-79e8-2c40-b46c" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="false" page="">
+    <selectionEntryGroup name="Spellbook - Basic " id="cff4-79e8-2c40-b46c" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="false">
       <entryLinks>
         <entryLink name="Flameblast *" id="2a0b-8540-e2ef-bb9e" hidden="false" targetId="57f1-eb55-0275-ef61" type="selectionEntry"/>
         <entryLink name="Meteor *" id="13bc-e3f7-dadf-8443" hidden="false" targetId="4ffd-e794-1fcd-0549" type="selectionEntry"/>
@@ -4242,7 +4465,7 @@ player.</description>
         <entryLink name="Flame Tongue *" id="8e30-a5fe-95c9-3efb" hidden="false" import="true" targetId="82f1-5445-2efb-4372" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Noble" id="9d30-0373-64e2-5580" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true" page="">
+    <selectionEntryGroup name="Spellbook - Noble" id="9d30-0373-64e2-5580" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
       <constraints>
         <constraint id="43b2-53eb-f733-557c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
@@ -4259,7 +4482,7 @@ player.</description>
         <entryLink name="Teleport" id="dbf4-3ae0-a0d4-83ae" hidden="false" import="true" targetId="01a6-2c13-d66c-4161" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Primoridal" id="6890-416f-3aac-976f" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true" page="">
+    <selectionEntryGroup name="Spellbook - Primoridal" id="6890-416f-3aac-976f" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
       <constraints>
         <constraint id="86bf-ff88-04b7-d151" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
@@ -4272,7 +4495,7 @@ player.</description>
         <entryLink name="Stoneskin" id="f9c4-3539-3331-7d0e" hidden="false" import="true" targetId="e750-a00c-c3de-4573" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spellbook - Corrupt" id="2924-30ce-7cca-d3bc" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true" page="">
+    <selectionEntryGroup name="Spellbook - Corrupt" id="2924-30ce-7cca-d3bc" collapsible="true" collective="false" defaultSelectionEntryId="none" hidden="false" import="true">
       <constraints>
         <constraint id="27cc-19c3-4b41-a218" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>

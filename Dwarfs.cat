@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Dwarfs" id="8927-8290-f594-f21d" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="false" revision="10" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <categoryEntries>
-    <categoryEntry name="Dwarf" id="8776-bdcb-2f4b-b764" hidden="false"/>
-  </categoryEntries>
+<catalogue name="Dwarfs" id="8927-8290-f594-f21d" authorContact="
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="false" revision="10" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="Shared Units" id="be7c-a5eb-383a-5f96" targetId="8e84-5ffb-d7d7-2c21" type="catalogue"/>
+  </catalogueLinks>
   <entryLinks>
     <entryLink name="Faction Abilities" id="560b-288a-fa9d-048a" hidden="false" targetId="d320-518f-a42e-faf8" type="selectionEntry"/>
     <entryLink name="Battle Driller" id="a948-4c88-e652-b9cf" hidden="false" import="true" targetId="cee6-4f6a-1582-040e" type="selectionEntry"/>
@@ -21,9 +22,6 @@
     <entryLink name="Steel Juggernaut" id="98ca-24aa-d502-07c9" hidden="false" import="true" targetId="633c-a900-fbcf-a8dd" type="selectionEntry"/>
     <entryLink name="Stone Priest" id="8f9e-51f1-4932-2cf4" hidden="false" import="true" targetId="6315-3a89-14fb-7b47" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="8927-8290-pubN71629"/>
-  </publications>
   <sharedProfiles>
     <profile name="Battle Driller" id="05a8-80d1-027e-8606" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
       <characteristics>
@@ -107,20 +105,6 @@
         <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Earth Elemental" id="ec9d-80d2-e145-f3e0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-      <characteristics>
-        <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
-        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
-        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">6</characteristic>
-        <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
-        <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
       </characteristics>
     </profile>
     <profile name="Flame Priest" id="9ff0-05df-1606-50ec" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -314,26 +298,14 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
     <rule name="Shieldbreaker Hammer" id="df56-154a-31a4-ba5b" hidden="false">
       <description>The model may reroll one of its Melee attack dice that failed to cause a hit.</description>
     </rule>
-    <rule name="Combined Fire (Ironwatch)" id="77bd-2e36-8af2-0916" hidden="false">
-      <description>When involved in a Group Shoot Action, Ironwatch models add +1 dice to their Ranged Attack roll if one or more other Ironwatch models in the group fire at the same target.</description>
-    </rule>
     <rule name="Battledrill" id="b0f8-686f-9124-0d75" hidden="false">
       <description>When this model makes a Melee attack (not a Retaliation) with the Battledrill, hits are scored on a 5+ regardless of any modifiers. Every hit scored counts as an exploding 8 result and so another die can be rolled.</description>
-    </rule>
-    <rule name="Cumbersome" id="6c53-a6c0-aa68-6dc7" hidden="false">
-      <description>This model cannot Climb, or be given any kind of Mount.</description>
     </rule>
     <rule name="Hammer and Anvil" id="16e1-5b86-4dfd-4a49" hidden="false">
       <description>Ironclad models Engaged with the same enemy model as one or more friendly Shieldbreakers, have the Swarm special rule.</description>
     </rule>
-    <rule name="Combined Fire (Ranger)" id="52d5-d6b4-461f-e937" hidden="false">
-      <description>When involved in a Group Shoot Action, Dwarf Ranger models (including Ranger Captains) add +1 dice to their Ranged attack roll if one or more other Dwarf Ranger models in the group fire at the same target.</description>
-    </rule>
     <rule name="Concentrated Fire" id="8be9-95c7-8650-21b7" hidden="false">
       <description>Once per game, the Flame Priest can take a long action to attack using its Dwarf Flame Thrower with Range 9” and Piercing (2), instead of the normal profile. This will also Fatigue the Flame Priest.</description>
-    </rule>
-    <rule name="Cumbersome" id="9fc5-7ae2-f0ff-b7d1" hidden="false">
-      <description>This model cannot Climb, or be given any kind of Mount.</description>
     </rule>
     <rule name="Bullheaded" id="3270-2e91-2529-bee7" hidden="false">
       <description>DWARF models in this warband add +1 to the result when rolling for Headstrong. This means that on a 5+, the Fatigue counter is removed and the model may act as normal.</description>
@@ -432,7 +404,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="f65d-ef8e-24e5-1bab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="f65d-ef8e-24e5-1bab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Battledrill" id="e4e6-f0a2-8949-f92b" collective="false" hidden="false" import="true" targetId="bd6c-1cdb-4b06-ce6b" type="selectionEntry">
           <constraints>
             <constraint id="31bc-d2c2-e6f0-5a0d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -469,14 +441,14 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="43"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="10f8-44f8-3cb9-60be" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="10f8-44f8-3cb9-60be" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="ab43-25c0-5328-33ae" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Headstrong" id="be8e-e4a8-38cd-636a" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="7d25-3595-424e-8db0" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Power Dice Red/Black (2)" id="2925-f45d-4531-c44f" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
-        <infoLink name="Elite" id="aa2a-e4d9-c31b-98d1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="aa2a-e4d9-c31b-98d1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Steady" id="d165-7082-8aaf-06c9" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Bloodlust" id="6a44-65f1-e056-d8c3" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Berserker Lord" id="98d1-dca4-c267-d75b" hidden="false" targetId="cd13-a1a3-e86b-1494" type="profile"/>
@@ -503,11 +475,11 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="ad9c-8bdb-afd1-0f14" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="ad9c-8bdb-afd1-0f14" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Cavalry" id="1b14-e2d3-0f31-e8ef" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink name="Elite" id="5eff-2865-40bf-611e" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="5eff-2865-40bf-611e" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Parry" id="c7e8-ab4d-883d-aef6" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
         <infoLink name="Bloodlust" id="c91e-9a90-d74d-1322" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Brock Rider" id="e60b-2d30-b30c-2228" hidden="false" targetId="9bdd-2a12-c1aa-c108" type="profile"/>
@@ -542,7 +514,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
             <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
           </modifiers>
         </entryLink>
-        <entryLink name=" Items" id="5178-871c-6f48-3425" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="5178-871c-6f48-3425" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="0f96-0be1-6ed5-37d6" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
@@ -569,7 +541,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="b295-459a-4cf0-6fd2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="b295-459a-4cf0-6fd2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Light Crossbow" id="bc7a-e37a-838f-e82e" collective="false" hidden="false" import="true" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
           <constraints>
             <constraint id="ebaf-1a92-4b8e-a49f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -583,7 +555,11 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <infoLinks>
         <infoLink name="Headstrong" id="020f-3fcf-0542-e178" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Scout" id="473e-26fb-85f1-99ed" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-        <infoLink name="Combined Fire (Ranger)" id="9f1e-7596-0a80-b16b" hidden="false" targetId="52d5-d6b4-461f-e937" type="rule"/>
+        <infoLink name="Combined Fire" id="9f1e-7596-0a80-b16b" hidden="false" targetId="b43b-e9a2-0881-2568" type="rule">
+          <modifiers>
+            <modifier field="name" join=" " type="append" value="(Ranger)"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Dwarf Ranger" id="a2fd-f79f-975f-d598" hidden="false" targetId="12eb-55c0-bfa3-3bf7" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -607,7 +583,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="038c-ae90-3395-32c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="038c-ae90-3395-32c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Crushing Strength (1)" id="02e1-6bff-b4f1-d989" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
@@ -618,35 +594,6 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       </infoLinks>
       <modifiers>
         <modifier field="6217-2333-c016-932e" type="increment" value="1">
-          <repeats>
-            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry name="Earth Elemental" id="8069-db9f-2e92-dffc" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Large" id="69b2-1aa5-bbd4-9338" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
-        <categoryLink name="Has Crushing Strength" id="a316-8a14-ef73-8b91" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-        <categoryLink name="Elemental" id="2a2d-ffa5-d62b-d043" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="6652-2c4a-4a0a-4ebc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="6b27-ddf7-0021-2d22" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Crushing Strength (2)" id="9feb-1ff7-5de1-d1da" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Smash" id="5e03-6b9b-e940-5c52" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Steady" id="e41b-a963-ee69-913d" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Earth Elemental" id="6d7c-fdc0-9991-fb11" hidden="false" targetId="ec9d-80d2-e145-f3e0" type="profile"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="6652-2c4a-4a0a-4ebc" type="increment" value="1">
           <repeats>
             <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
           </repeats>
@@ -665,7 +612,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="bbad-8660-88b4-49da" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="bbad-8660-88b4-49da" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Dwarf Flame Thrower" id="bd6b-bcb1-c915-34f6" collective="false" hidden="false" import="true" targetId="af38-a8b6-9f81-6026" type="selectionEntry">
           <constraints>
             <constraint id="a0ea-29ae-41a6-d5a8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -703,7 +650,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="f194-38a6-cc39-5f37" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="f194-38a6-cc39-5f37" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Hammer and Anvil" id="2a95-082b-713e-b5d1" hidden="false" targetId="16e1-5b86-4dfd-4a49" type="rule"/>
@@ -731,7 +678,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="bc93-8f06-4bc9-a34d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="bc93-8f06-4bc9-a34d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="6c5d-5446-7848-b44c" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
@@ -761,7 +708,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="f153-06d3-07c3-3746" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="f153-06d3-07c3-3746" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Crossbow" id="9bad-3b91-8734-9d22" collective="false" hidden="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry">
           <constraints>
             <constraint id="1a20-a73f-b4ea-d810" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -770,7 +717,11 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="72d9-8c7d-5ec5-6133" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
-        <infoLink name="Combined Fire (Ironwatch)" id="7554-fe31-efe5-4d72" hidden="false" targetId="77bd-2e36-8af2-0916" type="rule"/>
+        <infoLink name="Combined Fire" id="7554-fe31-efe5-4d72" hidden="false" targetId="b43b-e9a2-0881-2568" type="rule">
+          <modifiers>
+            <modifier field="name" join=" " type="append" value="(Ironwatch)"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Ironwatch" id="dac1-e2fb-eb6b-e370" hidden="false" targetId="77ae-2680-04e3-4169" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -794,7 +745,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="a9dc-d88b-bee9-0c3e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="a9dc-d88b-bee9-0c3e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Throwing Mastiff" id="3df6-f36f-70a0-b256" collective="false" hidden="false" import="true" targetId="99f3-675a-d20a-fa2c" type="selectionEntry">
           <constraints>
             <constraint id="a125-fab1-350b-1dc2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -807,10 +758,10 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       </entryLinks>
       <infoLinks>
         <infoLink name="Headstrong" id="4c01-2dac-5ed7-e992" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
-        <infoLink name="Elite" id="e2e4-6d0a-4252-1d51" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="e2e4-6d0a-4252-1d51" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stubborn" id="b1c0-d996-bb5f-b6ad" hidden="false" targetId="93a5-2c7a-91a6-c4e9" type="rule"/>
         <infoLink name="Swarm" id="d4ca-8f0e-564f-3cab" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
-        <infoLink name="Cumbersome" id="9ccb-ab49-44fa-1f50" hidden="false" targetId="9fc5-7ae2-f0ff-b7d1" type="rule"/>
+        <infoLink name="Cumbersome" id="9ccb-ab49-44fa-1f50" hidden="false" targetId="6c53-a6c0-aa68-6dc7" type="rule"/>
         <infoLink name="Mastiff Packmaster" id="cd9a-22b1-25e4-8111" hidden="false" targetId="46c6-924f-6e17-4e02" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -834,7 +785,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="9e1f-4438-82d5-c301" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="9e1f-4438-82d5-c301" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Light Crossbow" id="acfe-c25b-844c-1169" collective="false" hidden="false" import="true" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
           <constraints>
             <constraint id="5c4c-deb4-5fb1-8978" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -851,7 +802,11 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <infoLink name="Inspiring" id="464f-020a-fe30-1103" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Power Dice White/Orange (1)" id="58c9-efe4-5fdc-b2f6" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Scout" id="3aaf-9702-54e4-665b" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-        <infoLink name="Combined Fire (Ranger)" id="4432-f3ca-135d-d347" hidden="false" targetId="52d5-d6b4-461f-e937" type="rule"/>
+        <infoLink name="Combined Fire" id="4432-f3ca-135d-d347" hidden="false" targetId="b43b-e9a2-0881-2568" type="rule">
+          <modifiers>
+            <modifier field="name" join=" " type="append" value="(Ranger)"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Ranger Captain" id="5e8f-62c8-6671-7476" hidden="false" targetId="a885-1d88-a973-7dd7" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -876,7 +831,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="d57b-8086-0287-dc46" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d57b-8086-0287-dc46" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Shieldbreaker Hammer" id="74a1-3091-ca10-e433" collective="false" hidden="false" import="true" targetId="6830-fba8-662e-933e" type="selectionEntry">
           <constraints>
             <constraint id="ac79-03aa-aee1-fcef" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -913,7 +868,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="2216-f790-ec69-1809" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2216-f790-ec69-1809" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Light Cannon" id="3752-d4ea-13e6-250f" collective="false" hidden="false" import="true" targetId="d866-e580-8ac7-c6a1" type="selectionEntry">
           <constraints>
             <constraint id="ab66-e97d-2c6b-fc20" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -953,7 +908,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="98e9-8492-a1f4-3397" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="98e9-8492-a1f4-3397" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell slection - Stone Priest" id="4a40-8351-ee83-5181" collective="false" hidden="false" import="true" targetId="1efa-90a0-441e-0c53" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>

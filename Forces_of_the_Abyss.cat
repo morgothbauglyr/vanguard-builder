@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Forces of the Abyss" id="0894-e38c-85dd-ba12" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Abyssal" id="081d-b31d-3d9e-912a" hidden="false"/>
   </categoryEntries>
@@ -475,7 +475,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Fly" id="d86b-9287-a4aa-995c" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Elite" id="5c53-a041-9b62-1a27" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="5c53-a041-9b62-1a27" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Regenerate (4+)" id="874b-4b6a-6b01-dd3d" hidden="false" targetId="5f0e-2718-148a-6b7e" type="rule"/>
         <infoLink name="Gargoyle" id="c43d-3983-4a68-b6e1" hidden="false" targetId="78a1-0d7d-0b28-1f47" type="profile"/>
       </infoLinks>
@@ -563,7 +563,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Smash" id="7d27-0cd4-894c-b579" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Elite" id="1a9b-cc63-7078-f7d7" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="1a9b-cc63-7078-f7d7" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Hellhound" id="d779-4946-7808-7c60" hidden="false" targetId="00c0-95c3-da37-b1e7" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -590,7 +590,7 @@
         <entryLink name=" Items" id="3210-8f2a-861b-c029" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Elite" id="3234-78d1-35b7-cd68" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="3234-78d1-35b7-cd68" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stubborn" id="0e6c-5e81-f1ff-de75" hidden="false" targetId="93a5-2c7a-91a6-c4e9" type="rule"/>
         <infoLink name="Swarm" id="b981-5536-5753-92b4" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
         <infoLink name="Imps" id="cc3e-c63c-a90a-afa0" hidden="false" targetId="7e1c-c92a-4414-23fd" type="profile"/>
@@ -646,7 +646,7 @@
       <infoLinks>
         <infoLink name="Fatal Attraction" id="b45d-9f62-fffa-77a9" hidden="false" targetId="7e77-f028-7a06-6cd2" type="rule"/>
         <infoLink name="Fly" id="5b9e-23c6-2b9e-762b" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Elite" id="4d0d-3eba-b565-41d5" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="4d0d-3eba-b565-41d5" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="9d0c-538a-e1f2-79c8" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Power Dice White/Orange (2)" id="85e3-292f-aa4d-55b2" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
         <infoLink name="Seductress" id="0c31-1f5a-4895-2748" hidden="false" targetId="3b1f-273a-88cb-ba55" type="profile"/>
@@ -677,7 +677,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Stealthy" id="aec9-64f0-af11-0648" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Elite" id="a9c6-89cd-5c4d-3c66" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="a9c6-89cd-5c4d-3c66" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Fatal Attraction" id="ede9-3c85-a391-6d9c" hidden="false" targetId="7e77-f028-7a06-6cd2" type="rule"/>
         <infoLink name="Succubus" id="2414-5a9e-5edb-5f37" hidden="false" targetId="0f2e-6b22-1c28-307c" type="profile"/>
       </infoLinks>
@@ -736,7 +736,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Power Dice Red/Black (3)" id="36bb-4184-f9cc-729a" hidden="false" targetId="b97d-fd69-997a-8ad9" type="rule"/>
-        <infoLink name="Elite" id="1b09-5aff-6cdf-1a00" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="1b09-5aff-6cdf-1a00" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="443c-5b18-8ea7-0cf2" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Inspiring" id="e97d-6629-99f0-cfdd" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Regenerate (6+)" id="2e3e-4902-33d6-ce51" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
@@ -769,6 +769,9 @@
         <categoryLink name="Troop" id="f1ad-6077-9d0a-3ed4" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Abyssal" id="419e-75eb-aa15-eb00" hidden="false" primary="false" targetId="081d-b31d-3d9e-912a"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="ebe8-e91b-eb6e-5415" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
@@ -779,6 +782,13 @@
         <infoLink name="Explode" id="642c-ee2f-4b9c-39d3" hidden="false" targetId="e9a5-bac6-5fb1-cb03" type="rule"/>
         <infoLink name="Pathfinder" id="c6f1-5fc7-425d-956f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="ebe8-e91b-eb6e-5415" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Tortured Soul" id="b6de-9391-f573-8c66" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
@@ -801,6 +811,9 @@
         <categoryLink name="Large" id="4c3f-85d2-f75d-d599" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Abyssal" id="4d29-6bd5-5aac-37b7" hidden="false" primary="false" targetId="081d-b31d-3d9e-912a"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="ace0-efc7-d431-a845" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
       </costs>
@@ -813,12 +826,22 @@
         <infoLink name="Regenerate (6+)" id="84b6-07d7-1cc9-91d5" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="WILD CHARGE" id="182d-2540-d4a8-88d0" hidden="false" targetId="3cc4-3959-4c8e-b26e" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="ace0-efc7-d431-a845" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Efreet *" id="a6ee-de02-7dec-06df" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="b99b-7e92-fa02-cd29" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Abyssal" id="509f-82e8-e101-ca6a" hidden="false" primary="false" targetId="081d-b31d-3d9e-912a"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="6611-c20f-940f-c09f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
       </costs>
@@ -831,6 +854,13 @@
         <infoLink name="Infernal Immolation" id="5cee-a420-fcfa-d9f6" hidden="false" targetId="4d4d-f673-7c80-8104" type="rule"/>
         <infoLink name="Support Caster *" id="6079-b252-b451-d8e5" hidden="false" targetId="c96e-9f0b-a1d3-6280" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="6611-c20f-940f-c09f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

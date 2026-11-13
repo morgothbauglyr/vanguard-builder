@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Basileans" id="2ca9-c8c4-57e1-efec" authorContact="therealbitpsycho@gmail.com" authorName="BitPsycho" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Basileans" id="2ca9-c8c4-57e1-efec" authorContact="
+" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Basilean" id="eef5-9402-d582-1aef" hidden="false"/>
   </categoryEntries>
@@ -19,9 +20,6 @@
     <entryLink name="Sisterhood" id="e846-3e5c-2427-040a" collective="false" hidden="false" targetId="4470-f95d-22e6-ce1c" type="selectionEntry"/>
     <entryLink name="Sergeant" id="e783-b2af-d0d5-3d5a" collective="false" hidden="false" targetId="a2cd-da42-efa1-3b8e" type="selectionEntry"/>
   </entryLinks>
-  <publications>
-    <publication name="Rulebook" id="2ca9-c8c4-pubN70502"/>
-  </publications>
   <rules>
     <rule name="Iron Resolve (2)" id="765e-101e-046d-a0aa" hidden="false">
       <description>This ability may be used any number of times and at any time a Basilean model suffers 1 or more hits from an attack or spell. When the ability is used, the model can make all required Armour rolls for the attack at an unmodified 3+. Each model in the warband may only use this ability once per Round.</description>
@@ -634,7 +632,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
       </costs>
       <infoLinks>
         <infoLink name="Gur Panther" id="ad96-8df9-3a36-6867" hidden="false" targetId="8818-db08-caaa-5e4b" type="profile"/>
-        <infoLink name="Elite" id="afc6-21d0-fea8-fdfb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="afc6-21d0-fea8-fdfb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Reactive Bite" id="eda2-db02-fdac-e5ec" hidden="false" targetId="fc35-aa6b-42a6-904a" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -755,7 +753,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <infoLink name="BLESSING OF THE GODS" id="b871-f46c-fd62-1314" hidden="false" targetId="aaad-976f-caea-ef54" type="profile"/>
         <infoLink name="Abbess" id="0869-08b4-bb1e-e6ca" hidden="false" targetId="8f11-c869-e08c-d646" type="profile"/>
         <infoLink name="Power Dice White/Orange (2)" id="e4b9-87bc-2778-b108" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
-        <infoLink name="Elite" id="1218-2790-b27e-c1a4" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="1218-2790-b27e-c1a4" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring" id="f605-2328-da1a-635d" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="64e0-45d8-05b8-e4dd" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
