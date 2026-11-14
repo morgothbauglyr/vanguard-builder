@@ -312,6 +312,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="bea6-7c40-778d-a490" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="5f5a-51ab-d984-29a4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="1e3f-9d6f-c66a-978b" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="48"/>
       </costs>
@@ -326,6 +329,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Power Dice Blue/Green (1)" id="63f5-0d80-fc5b-e0a7" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="CURSE" id="c5d1-fbbf-1d9b-b3e4" hidden="false" targetId="99f2-3cdb-4566-c904" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="1e3f-9d6f-c66a-978b" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Mummy" id="dca2-329b-0796-a71e" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -337,6 +347,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="5748-08c9-aabb-84d6" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="2c6a-50e0-b7fc-b130" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="929b-f686-ebac-adaf" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
@@ -349,6 +362,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Regenerate (6+)" id="a21b-d287-8aa3-a52b" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="CURSE" id="4e52-d49f-41e3-842b" hidden="false" targetId="99f2-3cdb-4566-c904" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="929b-f686-ebac-adaf" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Desert swarm" id="9d96-52d9-ab5c-50a2" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -358,6 +378,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Beast" id="c8bb-b645-3bb4-deec" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Model" id="c37a-30c5-15ae-8840" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="a603-f6cc-e356-b434" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
@@ -367,6 +390,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Vicious" id="36f0-7704-9eda-950f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="THEY&apos;RE INSIDE MY ARMOUR!" id="5f65-67eb-1733-201c" hidden="false" targetId="09ac-a21d-97e5-cbeb" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="a603-f6cc-e356-b434" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Enslaved guardian" id="2a74-92c8-6ef8-8d23" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -375,6 +405,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="a38b-89d2-1161-583a" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="9ccf-0725-17f9-550d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="3165-1d57-252c-f8c2" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
@@ -394,6 +427,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Explode" id="ee52-825d-7be7-9a17" hidden="false" targetId="e9a5-bac6-5fb1-cb03" type="rule"/>
         <infoLink name="Support Caster *" id="1e64-57fb-2eb2-aaac" hidden="false" targetId="c96e-9f0b-a1d3-6280" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="3165-1d57-252c-f8c2" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="High priest" id="8acc-af11-5460-356d" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -403,6 +443,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="7288-0dbc-3823-960f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="8733-afce-1f0b-f714" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="932d-887e-6fce-50d6" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
       </costs>
@@ -415,6 +458,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Power Dice White/Orange (1)" id="6a44-4707-c719-d5bb" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="RANGE BOOST (6&quot;)" id="c724-3eb4-da26-af66" hidden="false" targetId="ec0a-6cfc-234e-3a25" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="932d-887e-6fce-50d6" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Revenant" id="176d-642b-b360-c23b" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -424,6 +474,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="eae2-5594-0e69-0b83" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="953a-684d-411e-b938" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="7fb0-f078-cae5-f6e9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
@@ -434,6 +487,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Revenant" id="d6ec-c746-6646-b01a" hidden="false" targetId="c9fc-6822-50e9-e749" type="profile"/>
         <infoLink name="Entomb" id="196f-5437-4085-9a52" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="7fb0-f078-cae5-f6e9" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Revenant champion" id="70d5-6d1f-b9c1-38db" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -443,6 +503,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="c159-0559-879d-a95f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="47f1-e0ee-cce3-7d68" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="b0a6-5996-9b9e-bbba" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
       </costs>
@@ -456,6 +519,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Power Dice Red/Black (1)" id="1c48-6f0e-4d5f-1c11" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Direct Effort" id="f659-3f3b-9469-2eac" hidden="false" targetId="105a-2eba-3164-f252" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="b0a6-5996-9b9e-bbba" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Sand wraith" id="fa18-51d0-8a99-c491" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -465,6 +535,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="2bab-dd36-9ff2-cb44" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="47f4-f334-6235-16c0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="76b9-8cda-ed79-3579" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
       </costs>
@@ -478,6 +551,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Stealthy" id="8c24-8c8e-e9a9-2882" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Entomb" id="9aa5-3fca-a5f2-15e6" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="76b9-8cda-ed79-3579" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Skeleton archer" id="e262-8e01-20dd-d231" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -487,6 +567,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="5de8-4c71-00ff-f091" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="102d-81c1-6dfa-480b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="30de-7571-b668-b903" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
       </costs>
@@ -506,6 +589,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Skeleton archer" id="2825-84a8-e2e2-aab6" hidden="false" targetId="b434-3b94-021d-3bff" type="profile"/>
         <infoLink name="Entomb" id="5ab4-67a1-7573-f62f" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="30de-7571-b668-b903" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Skeleton" id="ba74-caac-8e8d-1be8" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -515,6 +605,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Empire of Dust" id="d920-4a23-f4cd-e43e" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Model" id="880b-c5fe-2dab-78ac" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="2fc0-ec66-37a5-f1a1" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
@@ -525,6 +618,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Skeleton" id="5ccd-7f9e-5223-9175" hidden="false" targetId="6576-b61a-51f5-850d" type="profile"/>
         <infoLink name="Entomb" id="6d2a-531c-4642-23ec" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="2fc0-ec66-37a5-f1a1" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Tomb Scorpion *" id="afc2-392e-3234-31a7" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
@@ -534,6 +634,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Beast" id="d3ec-dbcd-fef4-fb49" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Model" id="8a3d-8f87-296a-c6c4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="43b8-c3b5-9c4b-75c4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
       </costs>
@@ -544,6 +647,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Pathfinder" id="e952-7798-458d-433c" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Weaken" id="cc9a-91a4-840b-6de7" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="43b8-c3b5-9c4b-75c4" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Vulture *" id="caf6-d32c-62cb-7920" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
@@ -551,6 +661,9 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Beast" id="c703-f52c-bc9e-bacb" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Model" id="c6a5-a86f-65fc-b690" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="0688-6d64-89ed-2b38" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
       </costs>
@@ -559,6 +672,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <infoLink name="Fly" id="8ab2-9963-99d0-f5b2" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
         <infoLink name="LIFELEECH" id="64bc-b6ba-ca16-248f" hidden="false" targetId="7dfb-f62b-52e8-1eb1" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="0688-6d64-89ed-2b38" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

@@ -59,7 +59,7 @@
     <categoryEntry name="Grunt (Ogres)" id="5a7a-fe5f-4c55-b48f" hidden="false"/>
     <categoryEntry name="Large (Ogres)" id="a8c1-0f86-be6c-7e6f" hidden="false"/>
     <categoryEntry name="Beastman" id="8ac4-4f1f-0eec-fefa" hidden="false"/>
-    <categoryEntry name="Model" id="957c-0d8a-3170-73d3" hidden="true"/>
+    <categoryEntry name="Model" id="957c-0d8a-3170-73d3" hidden="false" tracked="true"/>
   </categoryEntries>
   <costTypes>
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
@@ -196,14 +196,14 @@
           </modifiers>
         </categoryLink>
         <categoryLink name="Faction Ability" id="c94d-067a-0766-db7f" hidden="false" targetId="b736-f2bd-d93d-6b4d"/>
-        <categoryLink name="Model" id="a125-35b9-06d5-54e5" exportable="false" hidden="false" targetId="957c-0d8a-3170-73d3">
+        <categoryLink name="Model" id="a125-35b9-06d5-54e5" exportable="false" hidden="false" targetId="957c-0d8a-3170-73d3" tracked="true">
           <constraints>
-            <constraint id="3623-3f96-14f5-52ac" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="5"/>
+            <constraint id="3623-3f96-14f5-52ac" field="selections" includeChildForces="true" includeChildSelections="true" message="**{difference} models over limit.** {current} out of {value} maximum." scope="roster" shared="true" type="max" value="5"/>
           </constraints>
           <modifiers>
             <modifier field="3623-3f96-14f5-52ac" type="increment" value="1">
               <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="20"/>
+                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="5" roundUp="false" scope="roster" shared="true" value="100"/>
               </repeats>
             </modifier>
           </modifiers>
