@@ -203,7 +203,7 @@
           <modifiers>
             <modifier field="3623-3f96-14f5-52ac" type="increment" value="1">
               <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="5" roundUp="false" scope="roster" shared="true" value="100"/>
+                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="20"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -304,7 +304,7 @@
           <modifiers>
             <modifier field="d2d5-9371-5544-f5b4" type="increment" value="1">
               <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="5" roundUp="false" scope="roster" shared="true" value="100"/>
+                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="20"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -443,7 +443,7 @@
           <modifiers>
             <modifier field="4c91-d663-3b46-22fe" type="increment" value="1">
               <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="5" roundUp="false" scope="roster" shared="true" value="100"/>
+                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="20"/>
               </repeats>
             </modifier>
           </modifiers>
