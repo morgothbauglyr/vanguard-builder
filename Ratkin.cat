@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Ratkin" id="1bf8-e261-53ce-da80" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="War Chief" id="bad0-2c36-2b0f-4b15" collective="false" hidden="false" targetId="63bb-24bf-dabd-5876" type="selectionEntry"/>
     <entryLink name="Wretch" id="0195-b028-e10c-f5cb" collective="false" hidden="false" targetId="1026-9544-ab4c-58e6" type="selectionEntry"/>
@@ -315,12 +315,13 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Has Crushing Strength" id="577c-d10b-6ae8-d811" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="d46b-2504-da5a-844f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Ratkin" id="138d-fbb9-f9a3-1760" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="09d9-be5e-8fea-ff38" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="0bbe-b10b-3318-b307" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="0bbe-b10b-3318-b307" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Pound" id="978f-4796-ae83-9ea3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
@@ -351,13 +352,14 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Warrior" id="9b2d-55f0-8dd7-06e0" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="3b80-42f1-7617-bcc7" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Ratkin" id="0c82-5050-7da6-0562" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="c738-dd15-ba4d-ca67" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
       </costs>
       <infoLinks>
         <infoLink name="Hackpaw" id="d571-7d5f-3feb-b9eb" hidden="false" targetId="3952-39a0-fc4a-75f6" type="profile"/>
-        <infoLink name="Elite" id="b565-3a4b-9d72-1b6f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="b565-3a4b-9d72-1b6f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Cavalry" id="b430-76dc-459d-d0ce" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -366,16 +368,17 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Large" id="7304-716d-eea2-4631" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="397f-84f9-49f4-25e1" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ratkin" id="5a47-eb95-b1d9-207b" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="e07b-f88c-cf07-f6cc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="6b8a-5a32-8145-7389" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="6b8a-5a32-8145-7389" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Night Terror" id="7582-7197-b296-5f02" hidden="false" targetId="d42d-e800-3713-8ecc" type="profile"/>
-        <infoLink name="Elite" id="368e-ea04-2ffa-bfcb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="368e-ea04-2ffa-bfcb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Steady" id="3801-a80f-0248-c341" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Smash" id="9973-67e4-fb72-a52d" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="122a-ccf5-31df-c106" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
@@ -386,6 +389,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <categoryLinks>
         <categoryLink name="Large" id="163c-b8ca-b253-09e6" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Ratkin" id="0698-ea98-14a2-dc5d" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="43a5-6d07-9ed9-607a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
@@ -394,7 +398,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <infoLink name="Nightmare Driller" id="30fd-f862-be80-6477" hidden="false" targetId="df2b-b51b-64ce-0b86" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="50ed-c382-e506-afc7" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Pound" id="f85e-f0f9-3cfa-d0a5" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Elite" id="d2db-819e-ddf7-3e69" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="d2db-819e-ddf7-3e69" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="WILD ATTACK" id="c3a6-7ace-2c58-4006" hidden="false" targetId="362b-f314-b7cf-6118" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -402,6 +406,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <categoryLinks>
         <categoryLink name="Large" id="ada3-074a-83e1-b750" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Ratkin" id="aa60-abd3-ef1c-5c05" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="ebc0-1d2f-864d-60a2" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="27"/>
@@ -418,12 +423,13 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <categoryLinks>
         <categoryLink name="Spellcaster" id="f08b-6c30-0b7e-99be" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Ratkin" id="e3bd-8b70-bbee-904d" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="484e-00ea-70a6-ec2c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="dfa4-6ba6-714d-4e22" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="dfa4-6ba6-714d-4e22" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell Selection - Ratkin Warlock" id="bec8-0636-5c18-3210" collective="false" hidden="false" import="true" targetId="ae0f-f9dd-77b6-816b" type="selectionEntryGroup">
           <constraints>
             <constraint id="4003-43a5-dfc9-e982" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
@@ -454,12 +460,13 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Warrior" id="c925-fa5b-7a91-90e2" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="ce9a-d795-93aa-fab1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Ratkin" id="fe6a-3812-c803-4de8" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="a1c3-12cd-0d56-61f7" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="dc21-51d0-1c75-49c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="dc21-51d0-1c75-49c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ratkin Warrior" id="1ebd-5e9c-fc4f-4a9f" hidden="false" targetId="54f8-1895-b61f-3b9e" type="profile"/>
@@ -469,12 +476,13 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <categoryLinks>
         <categoryLink name="Support" id="c73b-fcf1-6eb6-f7cd" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Ratkin" id="ce1c-a972-e08d-9013" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="bbfd-979d-a15f-7ab4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="d20f-300e-78e8-e37a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d20f-300e-78e8-e37a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Throwing Knife" id="d599-75b1-4859-54cd" collective="false" hidden="false" import="true" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
           <constraints>
             <constraint id="a842-669e-9c9f-7979" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -513,16 +521,17 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Has Crushing Strength" id="ff09-5b42-c413-8395" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Support" id="7624-09df-ad6f-c31c" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Ratkin" id="9682-4142-c760-3264" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="33cf-b62f-708a-17fe" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="9d6f-e1e5-5429-d699" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="9d6f-e1e5-5429-d699" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Shock Trooper" id="8835-cb78-4f93-e726" hidden="false" targetId="bba8-9dc1-1a3a-a64f" type="profile"/>
-        <infoLink name="Elite" id="6801-b32e-a130-57f8" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="6801-b32e-a130-57f8" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="5bf0-ec38-3ee8-a1d2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -530,6 +539,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <categoryLinks>
         <categoryLink name="Support" id="c544-b78f-0857-fe88" hidden="false" primary="false" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Ratkin" id="e1cb-cce2-11e8-4f64" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="69f6-1e0f-ed73-6a4f" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
@@ -546,6 +556,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Beast" id="6170-6233-4eb8-2893" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Grunt" id="7a96-c96f-dec6-01b1" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Ratkin" id="20cc-a942-5526-65fd" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="a6e8-3e03-6b14-f2cc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
@@ -561,12 +572,13 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Grunt" id="8c59-1295-cb32-fa29" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="7a53-9fd5-4136-a113" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Ratkin" id="a558-2010-6824-ab55" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="3d05-6031-4381-84e6" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="8536-b635-a793-c321" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="8536-b635-a793-c321" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spear" id="88f4-7eb8-878d-87b9" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <constraints>
             <constraint id="a859-5971-8b9b-3d7d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -586,12 +598,13 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Command" id="7e0c-1b14-aee6-4bfa" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="83e1-b216-78e3-3ff7" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ratkin" id="b437-72fb-2171-7f45" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="4d24-c8e0-15ad-79cc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="f182-ebd9-635c-576c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="f182-ebd9-635c-576c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Will of the Brood" id="a504-6b91-6ea7-0995" hidden="false" targetId="84f4-e1f2-4549-493c" type="rule"/>
@@ -636,6 +649,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <categoryLinks>
         <categoryLink name="Spellcaster" id="68e2-bdf4-b356-b6e8" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Ratkin" id="54c7-5116-0c8b-4a01" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="8132-91c4-090f-49e2" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="492b-efec-e60a-9cc9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -678,6 +692,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <categoryLinks>
         <categoryLink name="Command" id="4308-7c40-2d75-600e" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Ratkin" id="f33f-347e-7686-a9c1" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
+        <categoryLink name="Model" id="8e01-8ddc-8af3-e7b0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="0c56-c5b0-8b97-e497" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -718,6 +733,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <categoryLink name="Large" id="7aef-db11-9341-5c70" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Ratkin" id="4632-28c2-7f91-3f4f" hidden="false" primary="false" targetId="37c7-bca8-2467-70d0"/>
         <categoryLink name="Large Command" id="c967-c0d9-2355-cf81" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
+        <categoryLink name="Model" id="fbe9-543e-0b0d-41c0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>
@@ -840,7 +856,7 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
     </selectionEntryGroup>
     <selectionEntryGroup name="Spell Selection - Twitch Keenear" id="06ec-0a82-019a-d7ed" collapsible="true" hidden="false">
       <entryLinks>
-        <entryLink name="Spellbook Basic - Twitch Keenear" id="e8e9-a5f8-80c1-e8c7" hidden="false" sortIndex="1" targetId="6e1a-20dd-9c51-7683" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Twitch Keenear" id="e8e9-a5f8-80c1-e8c7" hidden="false" sortIndex="1" targetId="6e1a-20dd-9c51-7683" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Ratkin" id="92df-371a-503a-84ce" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="1e6e-bcde-8e43-861c" type="selectionEntryGroup"/>
         <entryLink name="Spellbook - Corrupt" id="e50c-15f5-b5f6-4955" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
       </entryLinks>

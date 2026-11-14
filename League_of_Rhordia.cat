@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="League of Rhordia" id="ab31-6738-d472-dd41" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Halfling" id="ed7a-47d1-f2bd-e911" hidden="false"/>
   </categoryEntries>
   <entryLinks>
+    <entryLink name="Halfling Sorcerer" id="7c72-1165-d618-c94e" collective="false" hidden="false" targetId="2315-34cf-ff8d-0cfc" type="selectionEntry"/>
     <entryLink name="House Guard Captain" id="a96d-e2aa-6c67-a6e2" collective="false" hidden="false" targetId="4038-ed11-811b-b973" type="selectionEntry"/>
     <entryLink name="Honour Guard" id="608f-bf8b-31f0-d5da" collective="false" hidden="false" targetId="3dbc-3355-586b-bde8" type="selectionEntry"/>
     <entryLink name="Household Knight" id="5077-7828-f78e-abe0" collective="false" hidden="false" targetId="427c-0ef7-e9c6-993f" type="selectionEntry"/>
@@ -17,52 +18,6 @@
   <infoLinks>
     <infoLink name="IN RHOR&apos;S NAME! (2)" id="bcb5-bd03-e1ab-f55d" hidden="false" targetId="2619-2b58-6d58-4add" type="rule"/>
   </infoLinks>
-  <selectionEntries>
-    <selectionEntry name="Halfling Sorcerer" id="2315-34cf-ff8d-0cfc" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Spellcaster" id="67f6-e91d-cde0-d410" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
-        <categoryLink name="Halfling" id="5531-9c0d-35a0-455a" hidden="false" primary="false" targetId="ed7a-47d1-f2bd-e911"/>
-      </categoryLinks>
-      <constraints>
-        <constraint id="5ad7-ea40-d1b0-226f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
-      </constraints>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
-      </costs>
-      <entryLinks>
-        <entryLink name=" Items" id="5789-6ad2-b970-700c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Halfling Sorcerer" id="de9f-3138-f855-9611" collective="false" hidden="false" import="true" targetId="ca05-4079-1998-6762" type="selectionEntryGroup"/>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="6th Sense" id="6aaa-778b-3704-4140" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
-        <infoLink name="Stealthy" id="ba29-5b59-ff46-c72b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="5b9c-9152-8459-4412" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="5ad7-ea40-d1b0-226f" type="increment" value="1">
-          <repeats>
-            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Halfling Sorcerer" id="ea8d-b82c-878b-9cdd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">7+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-  </selectionEntries>
   <sharedProfiles>
     <profile name="IN RHOR’S NAME!" id="a8d4-189f-8bf5-4ba9" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
@@ -166,8 +121,7 @@ This ability may be used more than once per Round.</characteristic>
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
         <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When taking a Fatigue or Heroic Effort action</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Recover 1 wound this model has previously suffered before taking the action.
-</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Recover 1 wound this model has previously suffered before taking the action.</characteristic>
       </characteristics>
     </profile>
     <profile name="Honour Guard" id="56db-71c5-f1fa-3a77" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -266,6 +220,7 @@ member of the warband for the duration of the current game only, and does count 
       <categoryLinks>
         <categoryLink name="Support" id="46bf-077d-0f5c-22eb" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Human" id="e27c-262e-06be-73cb" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="17d0-acd5-b596-2d34" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3b8d-2e29-5956-6dcf" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -274,7 +229,7 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="03c4-0be1-dbc1-ab77" collective="false" hidden="false" import="true" sortIndex="1" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="03c4-0be1-dbc1-ab77" collective="false" hidden="false" import="true" sortIndex="1" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Rhor Marksman" id="d1ec-6923-3402-eb00" hidden="false" targetId="f2b8-388a-3694-0080" type="profile"/>
@@ -313,6 +268,7 @@ member of the warband for the duration of the current game only, and does count 
         <categoryLink name="Grunt" id="0915-9d22-a08c-6875" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="657b-6eb7-df7a-594e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="7d61-3e18-644e-8d88" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="1ae1-a383-1470-f8bc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="4e76-96d1-e4c2-7197" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -321,7 +277,7 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="14b5-d4cd-086b-ea5c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="14b5-d4cd-086b-ea5c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spear" id="ed91-fd49-fbeb-d766" collective="false" hidden="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
@@ -344,6 +300,7 @@ member of the warband for the duration of the current game only, and does count 
         <categoryLink name="Warrior" id="6edf-06eb-fd3d-55da" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="45c9-8f17-6a34-2e11" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Halfling" id="e8e2-4bff-6225-5643" hidden="false" primary="false" targetId="ed7a-47d1-f2bd-e911"/>
+        <categoryLink name="Model" id="7418-ef5a-89b4-06f5" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="fdb7-0c34-9b4f-4a61" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -352,7 +309,7 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="3112-8645-346e-97fc" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="3112-8645-346e-97fc" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Bow" id="2f5b-514a-e6e2-d7da" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
@@ -378,6 +335,7 @@ member of the warband for the duration of the current game only, and does count 
         <categoryLink name="Warrior" id="938b-115f-9d71-cb6a" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="27ad-85e6-46d5-31d2" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="39d3-250e-6053-583c" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="6257-6d2b-9b72-b9f2" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="1ae6-b94d-b0fb-52f6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -386,7 +344,7 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="ecac-610b-97db-568c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="ecac-610b-97db-568c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Halberd" id="94f8-d984-f57c-62af" collective="false" hidden="false" import="true" targetId="e475-1d52-512e-ebc5" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="2"/>
@@ -411,6 +369,7 @@ member of the warband for the duration of the current game only, and does count 
         <categoryLink name="Cavalry" id="2d38-75d0-62e0-e17f" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Has Crushing Strength" id="8763-f86b-8b51-86d2" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="2eaa-c89a-68ac-5c7a" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="e732-37bb-e701-25af" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="be1e-6bf5-767e-97c3" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -419,7 +378,7 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="2826-a866-94c1-9660" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2826-a866-94c1-9660" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Household Knight" id="531f-4dab-65b3-2d21" hidden="false" targetId="3476-db52-4b62-3c1f" type="profile"/>
@@ -444,6 +403,7 @@ member of the warband for the duration of the current game only, and does count 
         <categoryLink name="Cavalry" id="4017-7371-021b-ac26" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Beast" id="15c2-8781-2320-21f7" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Human" id="3e58-a083-0433-763a" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="6b99-3c56-dd20-a749" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b759-124d-6b9a-ea07" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -471,6 +431,7 @@ member of the warband for the duration of the current game only, and does count 
         <categoryLink name="Command" id="fb78-b1ae-c156-edea" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="10aa-b3a6-fb26-7c82" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="3440-a1f0-06d7-ee17" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="518a-edb7-5acb-5bb3" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="55c2-5f22-365a-9e8e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
@@ -479,7 +440,7 @@ member of the warband for the duration of the current game only, and does count 
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="2443-3e0d-f2ac-c4f6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2443-3e0d-f2ac-c4f6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="UNLEASH THE DOGS OF WAR" id="cc59-0044-2277-8f85" hidden="false" targetId="005a-46a7-0a55-9f46" type="profile"/>
@@ -499,6 +460,51 @@ member of the warband for the duration of the current game only, and does count 
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry name="Halfling Sorcerer" id="2315-34cf-ff8d-0cfc" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Spellcaster" id="67f6-e91d-cde0-d410" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Halfling" id="5531-9c0d-35a0-455a" hidden="false" primary="false" targetId="ed7a-47d1-f2bd-e911"/>
+        <categoryLink name="Model" id="d8b3-6f81-a2ca-86b6" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="5ad7-ea40-d1b0-226f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Items" id="5789-6ad2-b970-700c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spellbook - Basic Halfling Sorcerer" id="de9f-3138-f855-9611" collective="false" hidden="false" import="true" targetId="ca05-4079-1998-6762" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="6th Sense" id="6aaa-778b-3704-4140" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
+        <infoLink name="Stealthy" id="ba29-5b59-ff46-c72b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink name="Power Dice White/Orange (1)" id="5b9c-9152-8459-4412" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="5ad7-ea40-d1b0-226f" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Halfling Sorcerer" id="ea8d-b82c-878b-9cdd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">7+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name=" Spellbook - League of Rhordia" id="f0f2-f4c5-0df6-d7ca" collapsible="true" collective="false" hidden="false" import="true">
@@ -506,7 +512,7 @@ member of the warband for the duration of the current game only, and does count 
         <constraint id="00ee-8266-3769-cc7a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Celestial Screen (short)" id="c334-e7e4-a46f-9de8" collective="false" hidden="false" import="true" targetId="dd1c-5ff2-e105-2c2d" type="selectionEntry">
+        <entryLink name="Celestial Screen" id="c334-e7e4-a46f-9de8" collective="false" hidden="false" import="true" targetId="dd1c-5ff2-e105-2c2d" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditions>
@@ -515,7 +521,7 @@ member of the warband for the duration of the current game only, and does count 
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Illusory Bombard (long)" id="e089-0c32-68c3-af64" collective="false" hidden="false" import="true" targetId="c88a-b5c6-944d-c4a9" type="selectionEntry">
+        <entryLink name="Illusory Bombard" id="e089-0c32-68c3-af64" collective="false" hidden="false" import="true" targetId="c88a-b5c6-944d-c4a9" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditionGroups>

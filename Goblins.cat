@@ -520,6 +520,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Large" id="9737-b000-2d72-51b4" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Beast" id="2b96-e22f-2159-ee94" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="ee20-69a9-5112-5f8e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
@@ -550,6 +551,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Support" id="8e50-a73f-724a-d3fb" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Goblin" id="b48f-3b49-3549-caa6" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="1ad1-b91d-4573-4db0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2a37-840d-d466-2d69" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -589,6 +591,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Command" id="81f5-b75f-5846-ae8c" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="4e6e-d7df-7ce6-deeb" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Goblin" id="a87b-c8b9-9c44-f1a1" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="9ca8-8937-2de8-2ce0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="95d1-830c-d4c1-776f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -618,6 +621,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Support" id="b40d-da0d-1886-c90d" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Goblin" id="8bcb-1fea-8f8d-cbc1" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="326b-d0d7-9072-88d4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="5a06-3f19-01a5-2226" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -650,6 +654,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Spellcaster" id="af89-391f-1b32-8827" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Cavalry" id="84b3-a327-02f1-167f" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Goblin" id="bb6c-af50-aa85-b5df" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="15a0-8529-ed54-09db" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="742c-628d-4f11-02c8" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -727,6 +732,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Troop" id="0332-6288-47ae-58b3" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="d8cc-9e69-be5a-6af8" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Goblin" id="e758-7598-b746-7501" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="00c3-b4e7-b826-84e8" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="5c00-8e65-8fa7-229b" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -757,6 +763,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Has Crushing Strength" id="a628-aa0b-2bf7-d6e9" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Goblin" id="8676-0f2e-c2b3-3252" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
         <categoryLink name="Beast" id="e70a-39a7-11ce-4b64" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="4a00-da95-b6a5-c7b8" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6ee5-2b2b-13a8-3824" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -778,6 +785,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Support" id="8438-8ce2-67de-28cd" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Beast" id="fe81-5e40-3eb7-eec8" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="c2a6-af05-e40c-626a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="86ff-0f15-faa8-eacf" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -807,6 +815,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Support" id="925a-1dfd-3dde-dd43" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Goblin" id="2f03-8d18-e54e-50a6" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="07e2-af7f-01b3-478a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="f823-231f-2d12-0ffe" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -844,6 +853,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Grunt" id="6c47-452d-b81a-043d" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="b64b-78de-5a98-6ea1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Goblin" id="71f7-4e3f-21dd-2ea1" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="b968-7d33-b40d-1c6b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="49e8-ee96-bd80-58ba" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -879,6 +889,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Support" id="116f-9d06-5615-d8de" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Goblin" id="cd8c-d435-64fe-d13b" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="f1c3-1fd2-585a-1367" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="8e8a-649a-7254-0d5d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -920,6 +931,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Warrior" id="e5e7-b2e9-3897-dd4d" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="7db2-cdeb-0ce8-832a" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Goblin" id="17d3-f998-d43c-dceb" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="0001-a103-f77a-79e2" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="4f54-e736-6975-a717" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -958,6 +970,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Grunt" id="3168-bda2-72b5-0a93" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="6328-6a7b-f9fd-1f7f" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Goblin" id="0067-4282-9fec-5c33" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="236b-4343-71ad-b328" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3777-ac8a-053b-96f0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -992,6 +1005,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Command" id="e87f-2182-5233-6f2a" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Goblin" id="321d-fde6-12bb-ba71" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="4d98-d862-b140-d82c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="08fe-537e-f25c-36aa" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -1035,6 +1049,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Large" id="af7b-39e7-aa81-9911" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Goblin" id="6a78-f2e7-35be-cf84" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
         <categoryLink name="Machine" id="f9f4-d71d-c903-1e99" hidden="false" primary="false" targetId="f2ce-7a17-00cb-6f89"/>
+        <categoryLink name="Model" id="142f-dc34-ef9c-c81c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="0ac5-e4b8-9655-a012" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -1071,6 +1086,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <categoryLinks>
         <categoryLink name="Spellcaster" id="9b52-e8b9-4bd4-773e" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Goblin" id="47d9-cc01-41fc-0b32" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="be1e-247d-ed2a-a29c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="aa9e-7197-7830-d53e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -1101,6 +1117,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <categoryLink name="Spellcaster" id="eec4-6b73-4e9c-d77d" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Goblin" id="3968-9e46-3786-8b70" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
         <categoryLink name="Command" id="ba1d-f0b5-9f69-f945" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Model" id="a948-3314-00e6-94d7" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="aa73-ff6c-4c65-5638" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>

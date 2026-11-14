@@ -474,6 +474,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Troop" id="3d9d-9078-4962-c698" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="c745-fcca-a126-26d5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Salamander" id="bb5f-2dda-f69b-2305" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Model" id="ca50-7fa4-1283-97fc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="1eb9-bf6a-cf2c-9441" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -501,6 +502,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Troop" id="09bb-de25-27f8-efc0" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Grunt" id="11fe-2f92-5a1a-271e" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Ghekkotah" id="4f0e-39e3-c0f0-559d" hidden="false" primary="false" targetId="a3cb-4a4b-9100-7648"/>
+        <categoryLink name="Model" id="1896-8864-143e-e11a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="7c32-46ef-d8e2-dc2e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -533,6 +535,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Has Crushing Strength" id="494c-3031-7487-f91a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Troop" id="16cc-f497-81bf-17d0" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Salamander" id="6166-e5b5-ecfa-3ea9" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Model" id="8701-b01b-2315-e7ef" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="c714-fdca-8bcd-6d6f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -571,6 +574,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Troop" id="a9d9-c6f5-75ad-6175" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Salamander" id="af5d-d10e-5896-dd7d" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
         <categoryLink name="Warrior" id="4313-ce49-e4fb-9cb4" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Model" id="1f22-0cc7-05c9-a80e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="124a-34c1-5efd-5050" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -600,6 +604,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Support" id="d034-d9e8-865e-0259" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Salamander" id="8bac-a05a-d849-dd66" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
         <categoryLink name="Has Crushing Strength" id="1c4f-b25c-437a-8cb6" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Model" id="1c06-a2f0-3653-02d0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3167-d83c-2c11-18d2" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -631,6 +636,7 @@ All group members must finish their movement within 6” of each other.</charact
       <categoryLinks>
         <categoryLink name="Support" id="e3b0-c1c8-6d43-2b61" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Ghekkotah" id="685c-7aae-8912-4bc5" hidden="false" primary="false" targetId="a3cb-4a4b-9100-7648"/>
+        <categoryLink name="Model" id="4e0c-62b5-2917-ebee" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6135-4993-6928-a3ff" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -678,6 +684,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Support" id="39e5-1897-9f2f-c150" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="afd8-f4c8-5d28-1dd1" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Salamander" id="5d80-3b67-b51a-3b40" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Model" id="b65d-7eba-d600-933e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="e1e4-c98a-14af-6697" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -717,6 +724,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Large" id="5d67-3142-c365-5793" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Salamander" id="e186-2532-7ade-ad45" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
         <categoryLink name="Has Crushing Strength" id="f923-8137-a842-d658" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Model" id="1754-d656-1d36-e63d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="ba72-ee8b-7237-4dde" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -748,6 +756,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Salamander" id="b822-01d0-471e-ca61" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
         <categoryLink name="Cavalry" id="a61b-1e52-f44f-3cc8" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Has Crushing Strength" id="7117-389e-be8f-8c72" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Model" id="ecb6-7760-dc93-81ab" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="14d8-2373-e1ba-59b4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -778,6 +787,7 @@ All group members must finish their movement within 6” of each other.</charact
       <categoryLinks>
         <categoryLink name="Large" id="5da7-7310-ad85-d0fc" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Beast" id="c665-acb8-4d9e-8032" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="4890-8518-e6ee-f77b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="a9c3-b263-6dee-07a0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -805,6 +815,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Command" id="1a01-965a-3885-8f3b" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Salamander" id="9023-88ec-3af8-b659" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
         <categoryLink name="Has Crushing Strength" id="e3f0-4b96-538b-a8c5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Model" id="8c98-5149-dea4-92b4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="5bdf-dd3d-24c0-2703" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -836,6 +847,7 @@ All group members must finish their movement within 6” of each other.</charact
       <categoryLinks>
         <categoryLink name="Spellcaster" id="9e3f-cc8e-f337-de4d" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Salamander" id="57b2-456a-be70-7ca1" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Model" id="0ae4-e3f9-0f3a-660e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="aea2-7d62-b57b-39b8" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -868,6 +880,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Has Crushing Strength" id="fe27-f28f-0471-e394" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="789f-2954-637b-66f9" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Salamander" id="8a01-0ce5-291a-b692" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Model" id="2483-8111-b057-e2af" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="4eb0-b782-1772-2847" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -903,6 +916,7 @@ All group members must finish their movement within 6” of each other.</charact
         <categoryLink name="Command" id="a237-7482-fbb6-f520" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="49b2-b196-489a-43fc" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Salamander" id="a5da-9e8e-b176-2f0f" hidden="false" primary="false" targetId="6b7c-7596-f6d2-7b04"/>
+        <categoryLink name="Model" id="dfde-fa3e-ae62-9a77" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="7f1e-0d7f-5d30-917e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>

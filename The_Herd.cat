@@ -218,7 +218,11 @@ Spend the Power to nominate a group and activate them together. The members of t
         <categoryLink name="Warrior" id="45dc-3e84-eadc-977c" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="43ca-255c-9b15-e234" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Beastman" id="c9db-76ab-0e13-fb2b" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
+        <categoryLink name="Model" id="237e-ade7-131d-f03c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="fb56-00bc-2f9e-7c4f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
       </costs>
@@ -234,12 +238,23 @@ Spend the Power to nominate a group and activate them together. The members of t
       <infoLinks>
         <infoLink name="Longhorn" id="36c0-1aeb-dd43-bbc2" hidden="false" targetId="db23-e292-9991-0c48" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="fb56-00bc-2f9e-7c4f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Shaman" id="1a82-b130-fd52-9ffb" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="d144-44df-6cab-c515" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Beastman" id="b775-22af-b4e7-5548" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
+        <categoryLink name="Model" id="607f-86c4-fdff-9578" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="9beb-d801-4566-00c4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
       </costs>
@@ -253,6 +268,13 @@ Spend the Power to nominate a group and activate them together. The members of t
         <infoLink name="Inspiring" id="99f9-0c69-2630-2020" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Power Dice Red/Black (2)" id="46a8-a5b6-9a6b-39d6" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="9beb-d801-4566-00c4" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Lycan" id="24ab-2523-3135-d607" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -260,7 +282,11 @@ Spend the Power to nominate a group and activate them together. The members of t
         <categoryLink name="Has Crushing Strength" id="e75f-4523-4601-8e43" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="c7c8-3ddd-4380-ab4b" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Beastman" id="1e10-d965-af7b-1d96" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
+        <categoryLink name="Model" id="61ad-f720-880f-cc62" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="78b8-7484-aee5-6e5d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
@@ -274,13 +300,24 @@ Spend the Power to nominate a group and activate them together. The members of t
         <infoLink name="Vicious" id="63a4-4ee6-d437-f15c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="1ed7-6141-99db-e32e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="78b8-7484-aee5-6e5d" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Tribal Warrior" id="6325-9698-eb00-275c" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Grunt" id="1555-4655-256f-9305" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="b5fd-96a3-a871-3e89" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Beastman" id="0d97-34f0-fbaf-494f" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
+        <categoryLink name="Model" id="5ee0-356b-6bfa-8713" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="8368-b965-acb5-57ad" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
       </costs>
@@ -295,13 +332,24 @@ Spend the Power to nominate a group and activate them together. The members of t
       <infoLinks>
         <infoLink name="Tribal Warrior" id="6c51-9e92-b356-3278" hidden="false" targetId="b122-9ff4-3d3f-a3ee" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="8368-b965-acb5-57ad" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Spirit Walker" id="63e1-7429-93ba-995f" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Warrior" id="777d-5bb7-3cdb-f2a4" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Beastman" id="92ea-19ae-0547-b056" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
         <categoryLink name="Troop" id="c67d-531a-2060-b062" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Model" id="6a59-2188-6460-cbb7" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="dcf7-08a9-a50e-a7fc" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
       </costs>
@@ -314,12 +362,23 @@ Spend the Power to nominate a group and activate them together. The members of t
         <infoLink name="Vengeful Spirits" id="c58f-6d81-0c33-ec37" hidden="false" targetId="0708-fe76-01cf-9e01" type="rule"/>
         <infoLink name="Stealthy" id="3df3-f100-e96d-aa61" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="dcf7-08a9-a50e-a7fc" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Tribal Hunter" id="a2dc-5fa3-0fb5-32fa" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="ead0-635c-368e-105a" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Beastman" id="c931-9754-8977-0f9f" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
+        <categoryLink name="Model" id="3a8d-2920-e3dc-104c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="3a75-8caa-3f08-9f67" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
       </costs>
@@ -344,13 +403,24 @@ Spend the Power to nominate a group and activate them together. The members of t
         </infoLink>
         <infoLink name="Scout" id="1bfe-7729-1cd9-1c5a" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="3a75-8caa-3f08-9f67" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Great Chieftain" id="c1f9-c63d-7b08-4dea" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="16ba-1866-056d-f9b8" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="404b-d840-bacc-1ffc" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Beastman" id="3386-deb8-f8ca-bcb4" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
+        <categoryLink name="Model" id="5cd4-5016-d19c-0b3d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="9e89-a2e7-f232-3020" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
@@ -365,13 +435,24 @@ Spend the Power to nominate a group and activate them together. The members of t
         <infoLink name="Power Dice White/Orange (1)" id="be8b-a9f3-9f1b-d501" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="BATTLE RAGE" id="285f-5989-5251-39d9" hidden="false" targetId="b261-1cc2-d69c-f8ca" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="9e89-a2e7-f232-3020" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Harpy" id="fb39-7f77-71cf-e82d" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="0798-e16b-cc39-7704" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Beastman" id="1315-37e2-f24e-8862" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
         <categoryLink name="Beast" id="bf32-f94b-f2a3-f178" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="2a79-6406-7495-e6fc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="0deb-163d-f912-565e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
       </costs>
@@ -380,6 +461,13 @@ Spend the Power to nominate a group and activate them together. The members of t
         <infoLink name="Fly" id="a749-3c74-683f-0552" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
         <infoLink name="Vicious" id="10c5-c1cd-a5de-59c4" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="0deb-163d-f912-565e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Faction Abilities" id="12ed-54dd-9593-cda3" hidden="false" import="true" type="upgrade">
       <categoryLinks>

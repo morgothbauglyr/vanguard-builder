@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Varangur" id="3bc8-d98b-7255-9049" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
+    <entryLink name="Warrior" id="8f59-d20a-cd30-8c93" collective="false" hidden="false" targetId="f6b6-dde3-9268-239f" type="selectionEntry"/>
     <entryLink name="Night Raider" id="2b16-58c4-dc25-045e" collective="false" hidden="false" targetId="5fae-b59a-89a7-dbd8" type="selectionEntry"/>
     <entryLink name="Chieftain" id="9c55-ba73-cf0d-b8ba" collective="false" hidden="false" targetId="4e1e-fb32-9819-658d" type="selectionEntry"/>
     <entryLink name="Reaver" id="bd96-f63e-97c5-e71a" collective="false" hidden="false" targetId="87ca-bd4a-57e0-d043" type="selectionEntry"/>
@@ -11,53 +12,6 @@
     <entryLink name="Magus" id="1804-9e0d-28de-e21f" collective="false" hidden="false" targetId="c490-0c71-486c-226c" type="selectionEntry"/>
     <entryLink name="Faction Abilities" id="bc38-1e3f-6d59-2772" hidden="false" import="true" targetId="dcb9-d929-fd0f-bd2c" type="selectionEntry"/>
   </entryLinks>
-  <selectionEntries>
-    <selectionEntry name="Warrior" id="f6b6-dde3-9268-239f" collective="false" hidden="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink name="Grunt" id="d5ed-aca6-7826-fcc3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
-        <categoryLink name="Troop" id="9900-c465-99aa-7e80" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Gifts of Korgaan" id="ae14-5a74-ffbe-2aff" collective="false" hidden="false" import="true" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
-        <entryLink name=" Items" id="8460-69ae-2435-672d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Two-handed Weapon" id="447c-807b-4397-38f9" collective="false" hidden="false" import="true" targetId="a92e-488d-72b3-41c0" type="selectionEntry">
-          <constraints>
-            <constraint id="c4ed-d510-9c06-767c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="c172-2fca-249d-b33a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="2"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <profiles>
-        <profile name="Warrior" id="1774-48ba-fa91-0fe5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
-          <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
-            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
-            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
-            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier field="cbb8-58cf-daa7-a95a" type="set" value="6+">
-              <conditions>
-                <condition childId="a92e-488d-72b3-41c0" childName="Two-handed Weapon" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="f6b6-dde3-9268-239f" shared="true" type="greaterThan" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-    </selectionEntry>
-  </selectionEntries>
   <sharedProfiles>
     <profile name="Rage of Korgaan (long) - deprecated" id="5bbe-c9de-af90-4a9d" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
       <characteristics>
@@ -293,27 +247,42 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
       <categoryLinks>
         <categoryLink name="Spellcaster" id="c723-3b7e-acb6-761a" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Human" id="f50e-e7f6-3bd0-97a9" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="d2be-9f33-83cc-5435" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="3ea0-af27-8372-1e18" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
       </costs>
       <entryLinks>
         <entryLink name="Gifts of Korgaan" id="9f7b-b77c-8283-3633" collective="false" hidden="false" import="true" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
-        <entryLink name=" Items" id="bd6c-4af9-307d-dd74" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Magus" id="a573-a4fd-0fea-36bc" collective="false" hidden="false" import="true" targetId="5850-e63d-9dbc-1647" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="bd6c-4af9-307d-dd74" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name=" Spell Selection - Magus" id="a573-a4fd-0fea-36bc" collective="false" hidden="false" import="true" targetId="5850-e63d-9dbc-1647" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Magus" id="71e7-05c6-bdfa-b32b" hidden="false" targetId="f939-6f36-44d3-9b8c" type="profile"/>
         <infoLink name="Power Dice Red/Black (1)" id="0e9f-a74c-27aa-609f" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="FAMULUS" id="08fc-3607-1e80-fe8a" hidden="false" targetId="2176-77e1-c210-d204" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="3ea0-af27-8372-1e18" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Thrall" id="47c1-7833-ba09-bb30" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Grunt" id="f87a-2068-bbb3-3125" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="9ee9-26e5-fd4d-0298" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="5373-ad87-9740-7796" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="df1a-418e-74ea-5843" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="7857-979d-8874-b618" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
@@ -325,12 +294,23 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <infoLink name="Thrall" id="06dc-9632-79ea-b8c0" hidden="false" targetId="81be-a1ab-f378-1583" type="profile"/>
         <infoLink name="Swarm" id="88e5-e63d-b840-0c7f" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="7857-979d-8874-b618" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Night Raider" id="5fae-b59a-89a7-dbd8" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="d0b4-05f7-815e-7ad8" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Human" id="f97f-71ef-16d0-680a" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="b749-ae15-b49d-cfa4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="6f6a-b475-ce80-daea" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
       </costs>
@@ -344,6 +324,13 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <infoLink name="Stealthy" id="d270-46aa-8f2a-3d85" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Pathfinder" id="3760-f6e0-01c2-6d03" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="6f6a-b475-ce80-daea" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapon" id="268e-0dee-425c-d841" hidden="false">
           <constraints>
@@ -368,7 +355,11 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <categoryLink name="Has Crushing Strength" id="d3d9-3c2d-5ab1-7b51" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Beast" id="e9d9-fb5c-9c8d-1c16" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Human" id="083b-ce70-d395-aebd" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="dad6-6f68-daa7-4aeb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="9882-1a8c-192d-8277" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
       </costs>
@@ -382,6 +373,13 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <infoLink name="Bloodlust" id="60ff-7cef-4933-a56c" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Crushing Strength (3)" id="c513-7567-10d8-c1cc" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="9882-1a8c-192d-8277" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Bloodsworn" id="d3e5-ff07-5293-a477" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -389,7 +387,11 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <categoryLink name="Troop" id="16bd-6856-3e54-06ab" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="25c5-c36b-0770-ca3e" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="96b3-75cf-bc4e-7736" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="4dc9-b89f-8016-578f" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="f40f-6593-87ed-fbae" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13"/>
       </costs>
@@ -401,12 +403,23 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <infoLink name="Bloodsworn" id="f6e5-3df7-ee07-7e9a" hidden="false" targetId="8b57-bfcf-024d-b3a8" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="3fa4-7551-a468-1511" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="f40f-6593-87ed-fbae" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Reaver" id="87ca-bd4a-57e0-d043" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="e4d1-d360-e3a4-8bbc" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Human" id="6928-3fb1-363f-3da3" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="d0e9-30f5-327b-50bf" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="bda8-eb34-c9a8-0477" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
@@ -419,12 +432,23 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <infoLink name="Vicious" id="b576-ab96-2ca5-e213" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="FRENZY" id="8600-ff1a-8c51-f0c0" hidden="false" targetId="b280-d15f-9f0a-8e99" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="bda8-eb34-c9a8-0477" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Chieftain" id="4e1e-fb32-9819-658d" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="318d-42ea-4036-bce1" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="7be0-0863-3036-c648" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Model" id="8725-8ae4-fe63-bdaf" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="e9e1-9061-febd-a8a3" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
       </costs>
@@ -440,6 +464,13 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <infoLink name="Power Dice Red/Black (1)" id="def9-c096-23cd-9d42" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Power Dice White/Orange (1)" id="6167-8269-bb04-a17d" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="e9e1-9061-febd-a8a3" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Faction Abilities" id="dcb9-d929-fd0f-bd2c" hidden="false" import="true" type="upgrade">
       <categoryLinks>
@@ -452,6 +483,61 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
       <infoLinks>
         <infoLink name="Gifts of Korgaan" id="c78d-b2a0-70a6-28c8" hidden="false" targetId="c836-4604-dfd6-bd4a" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Warrior" id="f6b6-dde3-9268-239f" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Grunt" id="d5ed-aca6-7826-fcc3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
+        <categoryLink name="Troop" id="9900-c465-99aa-7e80" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="1e49-5bc6-bb1a-6cfe" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Gifts of Korgaan" id="ae14-5a74-ffbe-2aff" collective="false" hidden="false" import="true" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="8460-69ae-2435-672d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Two-handed Weapon" id="447c-807b-4397-38f9" collective="false" hidden="false" import="true" targetId="a92e-488d-72b3-41c0" type="selectionEntry">
+          <constraints>
+            <constraint id="c4ed-d510-9c06-767c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
+            <constraint id="c172-2fca-249d-b33a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="b888-e3bd-8798-6364" type="set" value="2"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier field="1e49-5bc6-bb1a-6cfe" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Warrior" id="1774-48ba-fa91-0fe5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="cbb8-58cf-daa7-a95a" type="set" value="6+">
+              <conditions>
+                <condition childId="a92e-488d-72b3-41c0" childName="Two-handed Weapon" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="f6b6-dde3-9268-239f" shared="true" type="greaterThan" value="0"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -493,7 +579,7 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <constraint id="28e4-3ebe-19d6-07bf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Shattering Blow (long)" id="5242-f932-7b41-7e4f" collective="false" hidden="false" import="true" targetId="5806-0097-a181-b68f" type="selectionEntry">
+        <entryLink name="Shattering Blow" id="5242-f932-7b41-7e4f" collective="false" hidden="false" import="true" targetId="5806-0097-a181-b68f" type="selectionEntry">
           <constraints>
             <constraint id="3e38-60aa-1799-4261" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -510,7 +596,7 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rage of Korgaan (long)" id="0c1d-7ff8-953e-204d" collective="false" hidden="false" import="true" targetId="b208-20e5-4712-5bef" type="selectionEntry">
+        <entryLink name="Rage of Korgaan" id="0c1d-7ff8-953e-204d" collective="false" hidden="false" import="true" targetId="b208-20e5-4712-5bef" type="selectionEntry">
           <constraints>
             <constraint id="cb7e-41a4-179e-c57a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Undead" id="6a99-197b-8983-b9e9" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="Zombie Troll" id="80e4-2269-3dfb-964c" collective="false" hidden="false" targetId="2db2-38c9-d4bf-5721" type="selectionEntry"/>
     <entryLink name="Zombie" id="b231-f389-6bbb-2661" collective="false" hidden="false" targetId="4b35-7921-4262-75ef" type="selectionEntry"/>
@@ -488,6 +488,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Warrior" id="b1e8-0674-96da-c185" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="7473-2145-ff1c-e63c" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="21db-1c84-da21-0ce5" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="5f17-1d17-50e7-2c75" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="cfcf-7a49-d6dd-3171" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -496,12 +497,12 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="2ac6-88e8-d3c6-0c6f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2ac6-88e8-d3c6-0c6f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Armoured Zombie Orc" id="d951-f998-5ef5-4a64" hidden="false" targetId="4de4-2932-6791-e6ff" type="profile"/>
         <infoLink name="Mob Assault" id="e673-d11a-9549-f25e" hidden="false" targetId="02e7-0f47-e451-32e3" type="rule"/>
-        <infoLink name="Elite" id="a4c0-1d6f-432f-d21c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="a4c0-1d6f-432f-d21c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="cfcf-7a49-d6dd-3171" type="increment" value="1">
@@ -516,6 +517,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Warrior" id="db08-3b1e-9444-9cc7" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="394b-02f6-5f53-07bb" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="98b2-7543-02b4-3e53" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="d655-cfba-c80e-ade9" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="72b7-2d88-58ec-1c0d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -524,7 +526,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="da78-095f-4c2e-56c7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="da78-095f-4c2e-56c7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Revenant" id="ecd0-394f-88c5-ba19" hidden="false" targetId="19bd-67f6-9596-294c" type="profile"/>
@@ -542,6 +544,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Support" id="49f2-4109-36a4-987d" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="01f2-c6ca-2f41-08bc" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="5d5b-78e5-c823-6ce4" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="3ce1-5acb-b66e-5ae9" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="1007-3c9a-705b-5b79" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -550,13 +553,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="6ec2-e7f3-7ebe-39c7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="6ec2-e7f3-7ebe-39c7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Barrow Wight" id="ac0b-1697-c005-073a" hidden="false" targetId="a0cc-fe04-4e83-5ffc" type="profile"/>
         <infoLink name="Power Dice Red/Black (1)" id="93b5-66cb-c8c7-9e18" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="3197-569a-b9cc-4ec6" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Elite" id="96b9-352b-af53-dfad" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="96b9-352b-af53-dfad" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Pathfinder" id="74c2-2041-e7b5-c33f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="ANCIENT FURY" id="8202-17f3-74a8-5656" hidden="false" targetId="0a96-da07-b7c9-e7cc" type="profile"/>
       </infoLinks>
@@ -572,6 +575,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Command" id="61fb-b01e-dc04-2468" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Undead" id="7c4a-2984-465e-32e6" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="1e65-e7ca-4a49-b920" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="f4ba-ab35-5b22-53e9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -580,7 +584,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="e7a9-acc7-2d00-bfba" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="e7a9-acc7-2d00-bfba" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Crypt Gouger" id="8dc0-ea8b-ddf3-2d8c" hidden="false" targetId="c55f-c1b5-b692-4f7e" type="profile"/>
@@ -604,6 +608,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Support" id="645f-509a-eef9-f33c" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Undead" id="b3ea-de67-0c49-bc94" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="5fc7-eb46-e12b-7965" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="9055-a4c3-62ed-328c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -612,7 +617,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="bc77-f36f-963d-7181" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="bc77-f36f-963d-7181" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Ectoplasmic Blast" id="b320-ff88-c6e7-9817" hidden="false" import="true" targetId="5418-c010-dc81-0e82" type="selectionEntry">
           <constraints>
             <constraint id="7119-2df3-ab5e-2ba1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
@@ -644,6 +649,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Grunt" id="a388-1f49-8639-8006" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="234d-1609-0a18-2168" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="0758-678e-c75e-7102" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="3fa9-1f10-8619-3e11" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="7f36-9cfa-4399-e428" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -652,7 +658,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="f4a0-fba5-ccbf-b8a5" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="f4a0-fba5-ccbf-b8a5" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ghoul" id="9b78-3fdc-0fdc-b25a" hidden="false" targetId="3890-340e-da92-cf48" type="profile"/>
@@ -671,6 +677,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Large" id="f18e-9e2c-086d-1575" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="3728-e89e-4a7a-ebee" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="40c9-8c5f-c221-9e97" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="1863-b41b-950f-b339" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="ca0e-2452-1dab-e578" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -679,7 +686,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="0983-ce26-66a5-937a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="0983-ce26-66a5-937a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Goreblight" id="6fee-ecf3-7c98-f2ef" hidden="false" targetId="602d-548f-aa2f-2ce5" type="profile"/>
@@ -700,6 +707,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Command" id="fc4e-3dd7-8935-0c7e" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Spellcaster" id="d2cc-de71-af7b-2951" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Undead" id="1b7c-d0be-35b3-bd69" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="8745-2d54-cd2e-d913" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="a34f-2100-1c44-a9d0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -708,8 +716,8 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="6290-3531-55c5-b870" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spell selection - Necromancer" id="bbbe-98a7-e412-6b9f" collective="false" hidden="false" import="true" targetId="b223-67e5-a489-372e" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="6290-3531-55c5-b870" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Spell selection - Necromancer" id="bbbe-98a7-e412-6b9f" collective="false" hidden="false" import="true" targetId="b223-67e5-a489-372e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Necromancer" id="b0bd-97bd-f6a5-989e" hidden="false" targetId="5a91-251b-23cf-d7fd" type="profile"/>
@@ -729,6 +737,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Troop" id="aa3f-2c1f-07f5-b705" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Beast" id="9651-4eec-135e-eded" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Undead" id="0f9b-a9fb-99df-5ccf" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="69b5-a969-3150-fad7" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="8b3a-7a4b-dd23-5f4f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -738,7 +747,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       </costs>
       <infoLinks>
         <infoLink name="Skeletal Dog Pack" id="613d-d036-fc85-5f92" hidden="false" targetId="da83-c190-9fc4-d00d" type="profile"/>
-        <infoLink name="Elite" id="f96c-055c-0e99-e247" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="f96c-055c-0e99-e247" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Swarm" id="003b-1a2e-d701-22b6" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -754,6 +763,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Grunt" id="1329-2051-5656-346e" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="afde-80e2-25e5-0a56" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="4e13-a960-4ed4-b906" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="e2b3-2688-0165-f9de" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="11b8-d2af-1aaa-b49a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -762,7 +772,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="9717-a412-7766-4a44" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="9717-a412-7766-4a44" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skeleton" id="d756-839a-c5e3-a612" hidden="false" targetId="e4cd-06fb-ba17-5cae" type="profile"/>
@@ -780,6 +790,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Grunt" id="a1ff-cd27-dc67-9b69" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="e6a9-884d-5ced-4578" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="f482-2ff1-d595-1e52" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="a47f-2078-af41-a4f1" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="0ac6-4118-cfc2-c149" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -788,7 +799,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="ca8f-4e05-affb-65de" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="ca8f-4e05-affb-65de" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Eldritch Warbow" id="a016-2ed9-b968-aa76" collective="false" hidden="false" import="true" targetId="8f2b-ae39-805c-08ec" type="selectionEntry">
           <constraints>
             <constraint id="e150-d56e-a851-a4bd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -816,6 +827,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Support" id="3a07-8506-e0bf-e291" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="f218-62cd-7c2b-618f" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="5c66-aeec-ccb5-531d" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="41b0-5b68-855c-9b8f" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="c6dd-3a4f-db24-5d38" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -824,12 +836,12 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="4fcc-7ff2-58d0-d671" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="4fcc-7ff2-58d0-d671" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Soul Reaver" id="179d-d4b4-f93a-1b08" hidden="false" targetId="9840-e5a6-02ad-67c5" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="dec3-3624-907c-7850" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Elite" id="b42d-8a75-53c9-f718" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="b42d-8a75-53c9-f718" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="f1f6-1093-57f9-bcca" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -846,6 +858,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Command" id="d2b3-0c2b-508a-44df" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="62c3-4850-2297-c46d" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="8baa-94b4-ed10-1a6e" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="5092-72b2-d98c-eb33" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6181-57e4-ba36-6dfd" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -854,7 +867,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="3f90-2f36-b992-ff62" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="3f90-2f36-b992-ff62" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Vampire" id="b09e-3cb6-69e7-403c" hidden="false" targetId="812c-bccd-9a5b-8037" type="profile"/>
@@ -882,6 +895,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Grunt" id="8551-c81d-002b-e966" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="9443-d6ad-6f40-c3a3" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Beast" id="c54f-4153-8231-1f35" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="f513-e0ca-02f3-cdf5" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="256f-7608-821d-0b9e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -909,6 +923,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Large" id="76e7-74d0-cab7-e846" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="7132-89b1-a8c7-6fac" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Beast" id="194d-891e-4ddc-8462" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="8c8e-cbbb-6f4a-4304" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2170-d9b3-16db-9b2d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -917,11 +932,11 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="401e-c680-aba1-df0d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="401e-c680-aba1-df0d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Werewolf" id="b9a1-1baf-2cbc-4335" hidden="false" targetId="42f6-37d9-5c5b-e2b2" type="profile"/>
-        <infoLink name="Elite" id="48f6-465b-6983-4981" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="48f6-465b-6983-4981" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Crushing Strength (2)" id="e519-3eac-d8d8-04e8" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Bloodlust" id="2a0b-7b85-1352-d27c" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
@@ -938,6 +953,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Support" id="d615-b3d4-962f-5f2a" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="c6e2-a617-d331-a667" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="d8f1-8643-b814-fe88" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="3086-0b70-9b9c-b09a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="e778-454f-533f-8502" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -946,7 +962,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="e0dd-2de8-5cf4-aade" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="e0dd-2de8-5cf4-aade" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Wraith" id="7a93-0718-a782-2fee" hidden="false" targetId="3f70-056d-ef98-a941" type="profile"/>
@@ -966,6 +982,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Grunt" id="7762-fca4-0d96-fe88" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="4efc-8d4d-cce7-5949" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="a3f7-29a4-cfa5-8339" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="7b05-7692-d3fc-8062" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2527-31b3-5859-cf03" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -974,7 +991,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="97b6-925c-9078-3611" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="97b6-925c-9078-3611" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Zombie" id="1869-bd46-62b0-7195" hidden="false" targetId="9cc2-ba28-1e05-ed33" type="profile"/>
@@ -993,6 +1010,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Large" id="ca32-1bc2-e762-ebd5" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="2c59-1a6a-020d-fa9a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="1b37-f26b-0f0d-e396" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="1360-d97c-06f7-d358" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3ab1-c378-4d03-c216" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -1001,7 +1019,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="8ccd-3f5d-cc22-a9ec" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="8ccd-3f5d-cc22-a9ec" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Zombie Troll" id="a22f-2bcd-40e9-f51f" hidden="false" targetId="0692-1aa3-a47c-6c20" type="profile"/>
@@ -1023,6 +1041,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Troop" id="8250-b449-c06a-cd32" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Beast" id="8143-9982-d514-e226" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Undead" id="4b90-af64-7778-4b7a" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="c187-4544-012b-8c91" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="541e-f1d3-92a3-d58e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -1049,6 +1068,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Warrior" id="ad9c-580f-a795-ad1c" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="b52e-6afb-7a06-3061" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="055c-511e-4323-9130" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="3428-e2dd-42db-adeb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2758-978c-9a60-83b5" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -1058,7 +1078,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       </costs>
       <entryLinks>
         <entryLink name="Terror Shriek" id="f234-6d84-68de-f66e" hidden="false" targetId="2e9b-585d-48c6-baba" type="selectionEntry"/>
-        <entryLink name=" Items" id="daa5-6f08-fdb5-eecd" collapsible="true" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="daa5-6f08-fdb5-eecd" collapsible="true" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Banshee" id="c1e5-1b11-1e4a-338a" hidden="false" targetId="a30f-450c-c58b-895e" type="profile"/>
@@ -1082,6 +1102,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Grunt" id="72d0-6dd9-c942-6c14" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="cab0-00e7-ff93-2ec0" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="c3e8-53e6-c17e-7da3" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
+        <categoryLink name="Model" id="6bf2-c803-eaf4-e65d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b1e4-0978-70e2-ba62" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -1090,7 +1111,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="4f7b-5dcf-13d0-7df1" collapsible="true" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="4f7b-5dcf-13d0-7df1" collapsible="true" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Fly" id="ee90-0926-4cc2-0b90" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>

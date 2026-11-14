@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Northern Alliance" id="257e-724d-d140-2297" authorContact="
 " battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Northern Alliance" id="1c60-4335-548d-3af5" hidden="false"/>
+  </categoryEntries>
   <entryLinks>
     <entryLink name="Faction Abilities" id="cab4-b908-c0d3-cf0c" hidden="false" targetId="5114-ebbf-c9f3-3cb9" type="selectionEntry"/>
     <entryLink name="Thegn" id="958e-e816-8c5c-71b5" collective="false" hidden="false" targetId="be69-8cbc-af47-b13d" type="selectionEntry"/>
@@ -361,6 +364,8 @@
         <categoryLink name="Grunt" id="8528-831f-12f7-b4d7" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="20dd-6204-91d5-679d" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Dwarf" id="b62a-6284-96d0-c067" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Northern Alliance" id="d5bf-b1f6-9375-190b" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="5bd1-f95c-a9f2-d02e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
@@ -371,7 +376,7 @@
             <constraint id="c169-c1e7-8f27-1fdf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name=" Items" id="7035-83b8-f193-4488" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="7035-83b8-f193-4488" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dwarf Clansman" id="78cb-4137-a335-973f" hidden="false" targetId="dd46-15d0-a1f0-b1dd" type="profile">
@@ -391,6 +396,8 @@
         <categoryLink name="Grunt" id="299e-33ec-06d5-e8f3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="2ed1-9380-e758-facf" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Elf" id="de95-4168-3e3a-7c3a" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+        <categoryLink name="Northern Alliance" id="7cce-59f7-140e-8aaf" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="3d00-74e4-476a-0fcf" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
@@ -404,7 +411,7 @@
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name=" Items" id="5f22-f44e-70b1-ae41" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="5f22-f44e-70b1-ae41" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Elf Clansman" id="06b3-6471-0aaf-524a" hidden="false" targetId="0f43-dd7b-637c-c642" type="profile"/>
@@ -416,6 +423,8 @@
         <categoryLink name="Cavalry" id="5356-cb18-1e80-2876" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Has Crushing Strength" id="a533-54db-8832-2032" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="a582-b555-8fe8-fb4f" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Northern Alliance" id="421e-a29e-776a-6dd4" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="b52c-f719-14d3-3f0a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35"/>
@@ -436,12 +445,14 @@
         <categoryLink name="Warrior" id="a8e0-3f38-9af8-0ab8" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="1ecd-3718-3606-59d6" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Half-Elf" id="6fe3-6aa3-af19-3ab0" hidden="false" primary="false" targetId="9b8d-956f-af20-2d48"/>
+        <categoryLink name="Northern Alliance" id="e35c-2e87-4927-5f13" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="1a16-08aa-85b6-e55b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="fb27-1eda-2699-b6ab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="fb27-1eda-2699-b6ab" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Half-Elf Berserker" id="04a0-1631-c37b-7a2b" hidden="false" targetId="68f5-446f-055a-3bfc" type="profile"/>
@@ -454,12 +465,14 @@
         <categoryLink name="Grunt" id="1ec1-af5e-9952-af8c" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="d83b-440d-05e5-4355" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="cd89-fc8a-adf3-e2f7" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Northern Alliance" id="bde2-5be2-189a-2488" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="6ff4-edb6-857f-58fb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="8e44-8791-2f60-4c14" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="8e44-8791-2f60-4c14" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Human Clansman" id="307b-1258-e436-c5b1" hidden="false" targetId="3f9d-e647-50e6-921c" type="profile"/>
@@ -471,12 +484,14 @@
         <categoryLink name="Troop" id="c878-e13c-43fd-ed88" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="a17f-d44a-d105-1c26" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="d882-ef8d-5289-e47c" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Northern Alliance" id="38c7-ba23-1861-9d94" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="1a0f-6a7a-3193-3ba0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="8da6-a8c9-d945-6e57" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="8da6-a8c9-d945-6e57" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Huscarl" id="215b-6071-94be-5c3d" hidden="false" targetId="4acd-492e-018d-fe16" type="profile"/>
@@ -488,12 +503,14 @@
         <categoryLink name="Command" id="3f4e-92b3-a653-4ac2" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="9d2d-b0f6-529f-e2ef" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Half-Elf" id="e5aa-26e8-e153-ec73" hidden="false" primary="false" targetId="9b8d-956f-af20-2d48"/>
+        <categoryLink name="Northern Alliance" id="b3ce-d6da-5595-23ff" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="0586-4c93-0101-0068" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="87c5-24f0-22bc-7925" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="87c5-24f0-22bc-7925" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="BLADE MASTER" id="e8fd-5701-8685-6c1a" hidden="false" targetId="76ea-5fb8-762e-d1f6" type="profile"/>
@@ -511,13 +528,15 @@
         <categoryLink name="Large" id="ef54-2c9e-5b3c-d79f" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="428f-13aa-bddd-4443" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Elemental" id="f795-0007-be0b-1da3" hidden="false" primary="false" targetId="0436-7e86-818f-9cb3"/>
+        <categoryLink name="Northern Alliance" id="e0f1-8163-11b9-27ff" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="85cb-162d-7715-045a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="47"/>
       </costs>
       <entryLinks>
         <entryLink name="Icy Breath" id="5d8f-dd39-0f45-021e" collective="false" hidden="false" import="true" targetId="a342-7c80-73a9-a964" type="selectionEntry"/>
-        <entryLink name=" Items" id="2a80-6f49-c870-788a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2a80-6f49-c870-788a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ice Elemental" id="624e-00c8-f235-1353" hidden="false" targetId="2f49-d247-733b-8582" type="profile"/>
@@ -530,6 +549,8 @@
       <categoryLinks>
         <categoryLink name="Support" id="2335-2578-270a-d5fc" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Elf" id="16e5-f559-6ec9-b33e" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+        <categoryLink name="Northern Alliance" id="bda8-c06f-54f5-1b8e" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="82bd-84f4-6ed2-7995" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22"/>
@@ -544,7 +565,7 @@
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name=" Items" id="45cf-866b-21b4-7a07" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="45cf-866b-21b4-7a07" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ice Kin Hunter" id="63b9-3b6b-6fb3-8002" hidden="false" targetId="1d33-f7c9-5875-cda6" type="profile"/>
@@ -560,6 +581,8 @@
         <categoryLink name="Troop" id="b6a4-061f-07cd-8918" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Regenerate" id="b684-ad07-0a8a-90f6" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Naiad" id="5430-ae10-d839-4412" hidden="false" primary="false" targetId="8837-a5f4-0674-a61d"/>
+        <categoryLink name="Northern Alliance" id="94ed-a7f7-45e4-c8de" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="c868-6fba-a4fd-8f73" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
@@ -571,7 +594,7 @@
             <constraint id="1b16-5cf6-d7fd-7070" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name=" Items" id="d8a3-6392-1ae4-6220" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d8a3-6392-1ae4-6220" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ice Naiad" id="4300-e01b-32a6-1998" hidden="false" targetId="3e10-dde8-d04b-ca8a" type="profile"/>
@@ -582,13 +605,15 @@
       <categoryLinks>
         <categoryLink name="Spellcaster" id="a81e-f4c3-1b12-07c0" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Elf" id="bf41-ff90-e810-2505" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+        <categoryLink name="Northern Alliance" id="6fc2-d93d-73ae-8000" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="def1-ac6d-2832-8cc6" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
       <entryLinks>
         <entryLink name="Spell selection - Ice Queen" id="0bf2-a3df-ef3d-ff71" collective="false" hidden="false" import="true" targetId="9255-ad3a-b198-7dac" type="selectionEntryGroup"/>
-        <entryLink name=" Items" id="2754-0d91-1bc0-35e1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2754-0d91-1bc0-35e1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ice Queen" id="8c06-883c-cb70-de94" hidden="false" targetId="5ea8-bc0e-8f0b-0789" type="profile"/>
@@ -603,12 +628,14 @@
         <categoryLink name="Has Crushing Strength" id="ad75-c89e-2f63-741b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="8922-4470-f01e-d9e6" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Troll" id="3e7e-827b-c11e-7705" hidden="false" primary="false" targetId="b0f0-86c7-ccee-7509"/>
+        <categoryLink name="Northern Alliance" id="b61d-7f5c-c6b0-ef4a" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="ad35-98b1-d66e-635d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="3b6d-e1ba-b5f4-5bca" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="3b6d-e1ba-b5f4-5bca" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Snow Troll" id="e3f5-04cd-4b66-34b0" hidden="false" targetId="3152-34de-b380-a47b" type="profile"/>
@@ -626,12 +653,14 @@
         <categoryLink name="Has Regenerate" id="2068-5184-dabc-9e6f" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Large" id="1fbd-37f2-bf32-b4ee" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Troll" id="627d-8af3-9539-5d23" hidden="false" primary="false" targetId="b0f0-86c7-ccee-7509"/>
+        <categoryLink name="Northern Alliance" id="7128-a89b-6b60-f70a" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="97ea-f786-84bf-d2a9" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="3bd0-469e-b593-0406" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="3bd0-469e-b593-0406" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Snow Troll Prime" id="1003-759d-dec5-7384" hidden="false" targetId="849d-a9dc-c37c-7e56" type="profile"/>
@@ -648,12 +677,14 @@
         <categoryLink name="Command" id="4bdf-ea9b-bb2c-108d" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="751f-b0f0-cd9b-d17c" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="f5e8-84bd-67cb-1a03" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Northern Alliance" id="10f7-5746-63d2-383a" hidden="false" primary="false" targetId="1c60-4335-548d-3af5"/>
+        <categoryLink name="Model" id="5eda-519f-9f33-97ee" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="a36e-38dd-1dec-2ba6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="a36e-38dd-1dec-2ba6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Thegn" id="27cc-27e5-a3fe-6367" hidden="false" targetId="3838-b5f4-c1c0-d89b" type="profile"/>

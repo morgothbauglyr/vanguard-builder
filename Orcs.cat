@@ -247,6 +247,7 @@
         <categoryLink name="Grunt" id="b655-8cd7-6520-ccac" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="2b09-74b0-fc38-0046" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Orcling" id="65f4-48cc-0679-1536" hidden="false" primary="false" targetId="5852-58fc-7ff0-6e4d"/>
+        <categoryLink name="Model" id="6274-02c1-ca71-6881" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="31af-7c38-3c57-8aa0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -276,6 +277,7 @@
         <categoryLink name="Troop" id="7d8e-a740-5c65-f4e5" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="20dd-46f2-ec51-560c" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Orc" id="6108-1a19-e774-a727" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="a1fc-188e-594f-1307" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="4408-e066-97c6-9904" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -303,6 +305,7 @@
         <categoryLink name="Command" id="3ff8-8e0d-b25f-3b05" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="1ac9-0dee-2b63-589d" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Orc" id="28a5-bcfc-ac5e-616b" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="6f27-a3d7-a186-5c32" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3445-8238-3a61-ba8d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -333,6 +336,7 @@
         <categoryLink name="Grunt" id="14ee-0e8e-ce58-4068" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="19ac-c693-1d3f-4adc" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Orc" id="48aa-0196-d7f7-3490" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="d2bc-1e96-2ef6-fd34" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d689-e55a-b975-4256" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -366,6 +370,7 @@
         <categoryLink name="Troop" id="6fe6-a9a7-8f91-6da6" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="1d10-8ab4-9891-b411" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Orc" id="0117-a7dd-d2a8-ddab" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="0390-0dc2-69aa-7836" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="8717-d995-2485-c640" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -396,6 +401,7 @@
         <categoryLink name="Troop" id="c6d7-5d56-c7be-1c87" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="42c4-8ea5-0af2-4525" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Orc" id="6c50-6c85-8c85-1c69" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="d6d6-f453-b8df-8550" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="038f-19eb-0fb5-c320" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -424,6 +430,7 @@
         <categoryLink name="Cavalry" id="82a1-98eb-1322-ca61" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Has Crushing Strength" id="5dc2-e35c-f9a7-e569" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Orc" id="ad78-4511-bf0a-2d30" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="3121-3487-7a51-9adc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="f9f1-cc66-1c89-7e76" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -454,6 +461,7 @@
         <categoryLink name="Command" id="4083-58c1-bcba-d604" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="f738-776f-3c54-ab85" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Orc" id="da87-3f5c-47ac-2c29" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="e0ac-5f7e-d342-72fa" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="00b5-9daa-c336-1a97" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -484,6 +492,7 @@
       <categoryLinks>
         <categoryLink name="Spellcaster" id="1834-355e-3701-4179" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Orc" id="a239-3276-f19b-feff" hidden="false" primary="false" targetId="9f27-f0c3-8d43-5d51"/>
+        <categoryLink name="Model" id="8394-d27a-c573-91bd" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="30ea-2e40-f9af-3d78" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>

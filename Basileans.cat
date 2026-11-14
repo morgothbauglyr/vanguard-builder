@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Basileans" id="2ca9-c8c4-57e1-efec" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Basilean" id="eef5-9402-d582-1aef" hidden="false"/>
   </categoryEntries>
@@ -338,6 +338,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Grunt" id="1c8a-98e5-e78d-bb33" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="1a9b-1ffb-1d8c-9d3e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Basilean" id="0c74-4728-4220-8524" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="a41f-4eb1-26cb-36cc" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="0dfc-22c7-78ed-b217" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -351,7 +352,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
             <modifier field="b888-e3bd-8798-6364" type="set" value="1"/>
           </modifiers>
         </entryLink>
-        <entryLink name=" Items" id="6899-b6a6-7fec-2337" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="6899-b6a6-7fec-2337" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Man-At-Arms" id="6a4b-1b54-817a-9937" hidden="false" targetId="8351-424d-7af2-64ba" type="profile"/>
@@ -369,6 +370,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Grunt" id="2095-1069-91b4-26f6" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="c30c-a2e2-29ff-5a02" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Basilean" id="863e-16fa-748e-c117" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="75ed-6b76-a7ff-fcc8" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="55f3-4fda-3c5c-522b" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -382,7 +384,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
             <constraint id="ca60-c831-7390-5a7a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name=" Items" id="ed3b-ff17-93d8-6b8c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="ed3b-ff17-93d8-6b8c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Crossbowman" id="41d4-402b-56c8-a45a" hidden="false" targetId="8c10-a933-e0cc-9478" type="profile"/>
@@ -400,6 +402,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Warrior" id="f40d-ea8d-6774-026a" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="5314-c7fb-1186-d36c" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Basilean" id="f463-79eb-3fab-a09a" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="215c-d0ea-9464-da2d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="7036-534a-93ab-334a" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -408,7 +411,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="da79-bb29-6da4-caf1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="da79-bb29-6da4-caf1" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Sisterhood" id="7045-151c-8d97-6bfe" hidden="false" targetId="4223-1062-1408-2eb0" type="profile"/>
@@ -426,6 +429,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Warrior" id="b033-bdea-9593-8764" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="a74e-4efa-e064-3adc" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Basilean" id="27e8-fd4f-529c-8676" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="f426-09ac-daf8-7331" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="c55d-2c39-f1a2-7522" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -434,7 +438,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="459b-58b0-6b33-31a6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="459b-58b0-6b33-31a6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="EVADE" id="a45d-43a8-4828-c747" hidden="false" targetId="3993-2a78-45b1-e2d4" type="profile"/>
@@ -455,6 +459,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Warrior" id="1b96-9a29-1158-921a" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="fc3e-edbd-5e69-8169" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Basilean" id="0fbd-a2a6-4fb4-3b84" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="6d68-c06c-4e16-b795" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="5d53-9c06-c94b-f691" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -463,7 +468,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="716f-cdc5-c65a-529a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="716f-cdc5-c65a-529a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Bow" id="b083-a23a-473d-cafc" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <constraints>
             <constraint id="9059-42ce-b26c-71a3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -488,6 +493,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Troop" id="e57d-57e5-8966-ad46" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="b28c-8ef6-7b0c-b931" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Basilean" id="53f0-8621-3e6c-ae60" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="178a-6208-c288-b5ba" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="667f-2f80-fee0-c3bd" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -496,7 +502,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="a8e1-7d8e-847a-81b7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="a8e1-7d8e-847a-81b7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Paladin Defender" id="e9db-d722-e775-c5a5" hidden="false" targetId="66ef-fdec-c47e-e7ef" type="profile"/>
@@ -517,6 +523,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Command" id="ba83-af0b-61f4-4130" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Troop" id="45f7-3938-ddfd-2b1e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Basilean" id="f4dc-8345-25fd-3cd1" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="e073-f24b-fcc3-7aac" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="f7d9-8b56-1ee9-9b27" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
@@ -525,7 +532,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="274a-dc55-704b-87d4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="274a-dc55-704b-87d4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="RALLY ON ME!" id="a992-bdb4-19c7-e489" hidden="false" targetId="4283-2827-8b18-3f0b" type="profile"/>
@@ -546,6 +553,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
       <categoryLinks>
         <categoryLink name="Support" id="3131-a5b9-a2a4-1416" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Basilean" id="3301-7e0f-6d82-57ec" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="c2f8-0a98-0e01-6627" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d5fe-5a70-7668-aaaf" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -554,7 +562,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="529f-9c81-4c36-cc11" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="529f-9c81-4c36-cc11" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Power Dice Red/Black (1)" id="d607-3a70-d0c8-2285" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
@@ -587,6 +595,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
       <categoryLinks>
         <categoryLink name="Spellcaster" id="9b66-65cf-caf6-8c73" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Basilean" id="3486-1d70-f28c-a69a" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="c28b-8fcb-3f0f-71f2" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="daf2-02c3-f26a-4ee4" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -595,7 +604,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="f9f0-aea0-f649-6011" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="f9f0-aea0-f649-6011" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - War-Wizard" id="fdad-e92d-1bff-ca4e" collective="false" hidden="false" import="true" targetId="3743-eda4-9f31-9725" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -623,6 +632,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Support" id="a30d-26f8-ec25-a33e" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Beast" id="49aa-0241-4bc8-2d81" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Basilean" id="92fa-27cc-f784-508c" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="709d-160d-8408-b807" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="5bcf-7848-adb3-a170" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -648,6 +658,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Spellcaster" id="644e-1a0b-a35f-1a98" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Has Crushing Strength" id="5708-3f24-b4b6-b6c5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Basilean" id="e2c8-4392-c89e-fb19" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="b42f-3727-4d91-c166" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="7aea-562b-cde9-5463" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
@@ -656,7 +667,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="492b-c5b0-8ad0-3d2f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="492b-c5b0-8ad0-3d2f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - Paladin Chaplain" id="94b7-511b-293e-5bdb" collective="false" hidden="false" import="true" targetId="4292-7980-5b3c-f3d3" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -679,6 +690,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Has Crushing Strength" id="64c1-1538-3bfe-b211" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="ee97-aa0b-2e9c-d0e6" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
         <categoryLink name="Basilean" id="7c26-e704-ec7a-9ff5" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="550b-0520-63a2-3759" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3f89-755c-4fef-c970" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -687,7 +699,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="7af6-f0bf-2291-7c4e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="7af6-f0bf-2291-7c4e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ogre Palace Guard" id="615a-389e-a7a0-5810" hidden="false" targetId="d70f-fa1c-c6a9-d422" type="profile"/>
@@ -708,6 +720,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Command" id="7d12-f0a4-0eea-7798" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="8604-7fd9-b17a-b814" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Basilean" id="bab1-affe-3ad6-3b73" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="aeeb-bd1a-eacd-f36e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="99e4-862f-3681-e10a" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -716,7 +729,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="bf74-bb68-5ff6-0df9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="bf74-bb68-5ff6-0df9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="SMITE!" id="4dd3-6f8b-7577-776c" hidden="false" targetId="aa27-dcb9-151a-f297" type="profile"/>
@@ -739,6 +752,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <categoryLink name="Command" id="a354-8d5c-38ab-1cdf" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="21d0-350a-9a8a-abca" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Basilean" id="472f-1e26-efc0-7f42" hidden="false" primary="false" targetId="eef5-9402-d582-1aef"/>
+        <categoryLink name="Model" id="f15b-903b-91a8-ed85" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="0a33-12fd-b8d8-73ec" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -747,7 +761,7 @@ Boosted version: Cost 1 Power. As above but the target model may make a second 2
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="921f-c660-7f94-07c4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="921f-c660-7f94-07c4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="BLESSING OF THE GODS" id="b871-f46c-fd62-1314" hidden="false" targetId="aaad-976f-caea-ef54" type="profile"/>

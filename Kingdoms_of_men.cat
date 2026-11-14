@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Kingdoms of men" id="4ae3-a7bd-8c61-17e5" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="model" id="a56a-0986-3050-1e40" hidden="false"/>
+  </categoryEntries>
   <entryLinks>
     <entryLink name="Priest *" id="d51b-77f7-4cd0-dbfd" hidden="false" targetId="eec4-9d3b-8184-2521" type="selectionEntry"/>
     <entryLink name="Wizard" id="b1d3-6960-c1d1-b3a1" collective="false" hidden="false" targetId="8444-955e-abb4-f580" type="selectionEntry"/>
@@ -356,6 +359,7 @@
         <categoryLink name="Grunt" id="cff7-3b8c-8fb6-1bfd" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="ea45-f8f5-14dd-bb41" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="58df-7755-55ae-9d66" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="23a6-29e5-a1cb-d113" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="8173-695c-ac01-db58" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -364,7 +368,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="6151-3442-901c-5f20" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="6151-3442-901c-5f20" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Crossbowman" id="3354-875d-3b47-797c" hidden="false" targetId="7852-ff8b-ad0e-bb89" type="profile"/>
@@ -394,6 +398,7 @@
         <categoryLink name="Command" id="e367-6413-5415-1f65" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Human" id="061f-358d-4f92-d299" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
         <categoryLink name="Spellcaster" id="8c5f-5868-df3a-7e29" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
+        <categoryLink name="Model" id="7851-4140-a3c8-8cf0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="acf6-7168-ec66-0f78" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -402,7 +407,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="cfe3-d4b2-2848-342e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="cfe3-d4b2-2848-342e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - Archwizard" id="11f7-f3c3-f78b-a563" collective="false" hidden="false" import="true" targetId="72cc-e692-06a8-acbc" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -425,6 +430,7 @@
         <categoryLink name="Warrior" id="8621-fcaf-4f44-ef19" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="bed0-ccea-770c-8b8c" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="0cbc-d69c-f950-9f38" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="4f77-c243-887d-a2a5" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="79ce-47c7-1503-c9a0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -433,7 +439,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="7097-c352-8c1f-f8d3" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="7097-c352-8c1f-f8d3" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Rifle" id="0a59-3968-6366-f178" collective="false" hidden="false" import="true" targetId="bd04-09be-458e-ae12" type="selectionEntry">
           <constraints>
             <constraint id="790f-f6e5-6af0-c910" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -459,6 +465,7 @@
       <categoryLinks>
         <categoryLink name="Human" id="35f9-7ae1-e8e4-782d" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
         <categoryLink name="Support" id="6ab7-eac7-c4af-776b" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Model" id="ca4c-e2c0-a30a-e8fb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d860-dff4-a3cd-cc2d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -467,7 +474,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="2e7a-21df-f6af-c757" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="2e7a-21df-f6af-c757" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Throwing Knife (Uncommon) *" id="ad59-b971-af07-2dea" hidden="false" import="true" targetId="6a18-4227-239c-0d6c" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
@@ -493,6 +500,7 @@
         <categoryLink name="Large" id="609b-9582-4656-ec77" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Machine" id="d53a-7be1-e327-8e5d" hidden="false" primary="false" targetId="f2ce-7a17-00cb-6f89"/>
         <categoryLink name="Human" id="bd04-87ea-7fb0-d08a" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="6f38-a5af-2090-bdad" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d9dd-239f-ae8d-fc24" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -522,6 +530,7 @@
         <categoryLink name="Has Crushing Strength" id="7f9f-3e5b-1efc-1851" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Cannot have Mount" id="0fd9-86ad-68b0-1969" hidden="false" primary="false" targetId="62e6-0d2d-51f7-6eef"/>
         <categoryLink name="Human" id="34fe-5948-7588-35ae" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="666b-d8e9-4888-3ba3" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="f6de-0069-5334-ae1e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -550,6 +559,7 @@
         <categoryLink name="Warrior" id="3fff-46f1-11f1-5218" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="42ba-84af-4f9e-e44a" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="20d6-9a38-6633-db6e" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="0958-2738-679e-cb9e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3e4a-84a9-a5d0-47b9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -558,7 +568,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="21"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="4568-c408-a1b1-e246" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="4568-c408-a1b1-e246" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Berserker" id="30dd-703a-fa16-d487" hidden="false" targetId="d2f5-7249-473d-8e75" type="profile"/>
@@ -580,6 +590,7 @@
         <categoryLink name="Troop" id="3a80-5dac-67a4-7553" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Grunt" id="ae77-4ab8-abe1-6173" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Human" id="69e0-f4e3-c9cd-63dc" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="5697-f379-1ac8-b49b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="20e1-e17f-d8b6-b2cd" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -588,7 +599,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="7c93-3583-8d1a-788e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="7c93-3583-8d1a-788e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Fanatic" id="93d5-2dee-7160-af0a" hidden="false" targetId="231b-6911-010a-f004" type="profile"/>
@@ -610,6 +621,7 @@
         <categoryLink name="Troop" id="3aaa-f54d-fc13-4d64" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="542c-b506-0153-0bff" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="deb6-146d-b1e5-ee0d" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="a817-1459-8e38-e9a7" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="fd5e-5644-6d2e-50fb" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -618,7 +630,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="d429-8e7d-d86d-8c2c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d429-8e7d-d86d-8c2c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Large Shield (Common)" id="82c6-9d88-5e34-5637" collective="false" hidden="false" import="true" targetId="04d9-f451-24a2-d244" type="selectionEntry">
           <constraints>
             <constraint id="254a-db51-067d-672e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -655,6 +667,7 @@
         <categoryLink name="Grunt" id="8a8a-575a-db29-51e9" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="2398-951d-918b-8c7e" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="7d21-7aa5-225a-7a9e" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="2edf-17d6-b6e6-d06e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="82e6-13e8-fbb1-fd62" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -663,7 +676,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="5c21-cab0-fee7-27cb" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="5c21-cab0-fee7-27cb" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Foot Soldier" id="40c6-d7b3-7828-0d71" hidden="false" targetId="da5a-252d-08de-e7f1" type="profile"/>
@@ -725,6 +738,7 @@
         <categoryLink name="Support" id="efaf-64f2-45f6-a686" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Cavalry" id="4e0d-7af1-346d-2b60" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Human" id="398d-d28e-f6c2-498a" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="7bbd-5998-0739-d150" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="ce3a-69c6-f0c5-cae3" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -733,7 +747,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="1d36-05a1-ebc9-6c23" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="1d36-05a1-ebc9-6c23" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Knight" id="8ac4-8421-377b-3e9e" hidden="false" targetId="20b2-46f6-d90f-d9ca" type="profile"/>
@@ -756,6 +770,7 @@
         <categoryLink name="Command" id="551e-0992-7d37-1696" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="fb07-a1f9-958a-089d" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="fbb0-70dd-1940-0ab8" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="ea5c-7996-142c-12fa" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="61b8-bf0b-0105-4c26" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -764,7 +779,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="4522-1195-1467-c66d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="4522-1195-1467-c66d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Leader of Men" id="f7a4-70e6-dd7a-679f" hidden="false" targetId="f923-b31f-7c41-d31f" type="profile"/>
@@ -786,6 +801,7 @@
         <categoryLink name="Cavalry" id="50db-aa4a-411a-c48b" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Human" id="33ef-1659-3a8e-2e49" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
         <categoryLink name="Support" id="b558-4af9-756b-34b9" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Model" id="6532-540b-c735-d2b9" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="384c-5a38-6547-07b0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -794,7 +810,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="ca48-92a9-dac9-d38d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="ca48-92a9-dac9-d38d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Light Cavalrist" id="b9ff-4125-bddf-0219" hidden="false" targetId="b2ce-c5cb-871b-b8fd" type="profile"/>
@@ -813,6 +829,7 @@
         <categoryLink name="Large" id="dfdf-a6b3-3adb-c9ef" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="de8e-b863-ce99-9cd4" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="878e-5593-9a01-5201" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="ed09-f816-a10e-af80" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="9d45-251c-3c7a-a9a2" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -821,7 +838,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="423b-d8ea-879c-4c47" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="423b-d8ea-879c-4c47" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ogre Warrior" id="2cf0-8d2a-2607-7582" hidden="false" targetId="0098-f0c0-d012-70e1" type="profile"/>
@@ -839,6 +856,7 @@
       <categoryLinks>
         <categoryLink name="Support" id="9fe5-3c4f-a05e-97ce" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Human" id="6c08-fa60-6595-1e09" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="6108-4d95-024a-e112" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d85e-4e9c-3e27-153a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -847,7 +865,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="7762-a164-28ab-2b5a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="7762-a164-28ab-2b5a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Veteran Soldier" id="f210-964b-2333-983b" hidden="false" targetId="836d-d0b2-5b7b-0153" type="profile"/>
@@ -867,6 +885,7 @@
       <categoryLinks>
         <categoryLink name="Spellcaster" id="c294-6faa-f8c0-225f" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Human" id="d05e-1cdc-6ac1-2137" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="b200-c7c5-9a52-a56b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2976-bf66-b9bf-1115" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -875,7 +894,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="d0c9-d06f-d774-0192" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d0c9-d06f-d774-0192" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - Wizard" id="27e3-427f-344b-423a" collective="false" hidden="false" import="true" targetId="1e7e-880c-0d73-1421" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -894,6 +913,7 @@
       <categoryLinks>
         <categoryLink name="Support" id="9dfc-750c-628f-6f25" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Human" id="b7ec-dbf5-1360-770b" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="231c-768c-c99d-9d53" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
@@ -926,6 +946,7 @@
       <categoryLinks>
         <categoryLink name="Command" id="7979-e6c0-a8f1-7057" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Human" id="999b-0dc9-aa44-2c0d" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="e855-2814-8973-1f34" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="fe11-3b39-c953-7623" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>

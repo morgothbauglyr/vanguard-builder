@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Ogres" id="fcbe-01ec-655a-a186" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="false" revision="11" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" library="false" revision="11" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="Siege Breaker" id="4cf1-d00a-dc58-cbd9" collective="false" hidden="false" targetId="2344-f0a4-1a41-0d8a" type="selectionEntry"/>
     <entryLink name="Berserker Brave" id="0235-d92d-930e-34cd" collective="false" hidden="false" targetId="4fef-d987-fa61-1a13" type="selectionEntry"/>
@@ -459,6 +459,7 @@
       <categoryLinks>
         <categoryLink name="Goblin" id="a869-a280-fd24-bb98" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
         <categoryLink name="Grunt (Ogres)" id="aae1-acf0-b4b0-39e7" hidden="false" primary="true" targetId="5a7a-fe5f-4c55-b48f"/>
+        <categoryLink name="Model" id="2f7d-1a32-87c4-ac53" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
@@ -477,6 +478,7 @@
         <categoryLink name="Large (Ogres)" id="9e46-4c42-23ff-1e86" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Troop" id="4645-eef6-44ca-3a4d" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Ogre" id="7f98-d520-1b3d-b1a7" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="dbe8-ca3e-e8c8-c46f" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18"/>
@@ -496,6 +498,7 @@
         <categoryLink name="Troop" id="2a81-1fe5-77db-cb57" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="e45d-aca1-5353-b3da" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="dd87-a3d5-9e24-d3c0" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="8197-7ef3-deaf-a09c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22"/>
@@ -515,6 +518,7 @@
         <categoryLink name="Troop" id="5457-8014-bbee-424f" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="8a7d-9f33-7ae8-8bb1" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="e8c2-7b27-9255-b27c" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="f1c1-42d8-4ba1-f206" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="21"/>
@@ -536,6 +540,7 @@
         <categoryLink name="Large (Ogres)" id="bf23-9780-77e7-5252" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Has Crushing Strength" id="bef1-0ec8-b47e-a824" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="53b1-018f-0504-a107" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="74e7-44f3-5cee-cae4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="25"/>
@@ -559,6 +564,7 @@
         <categoryLink name="Large (Ogres)" id="d10f-89cf-9024-df06" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Has Crushing Strength" id="b0e8-f6c3-e7cf-e195" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="7c2b-cd14-92d7-9549" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="b20c-2f51-ead2-94cb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
@@ -578,6 +584,7 @@
         <categoryLink name="Large (Ogres)" id="f4e9-59f4-64a4-21bc" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Has Crushing Strength" id="e563-1112-7a0b-abb4" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="3e59-ca8a-faea-4e1b" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="dc19-4503-b86d-3a8d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>
@@ -599,6 +606,7 @@
         <categoryLink name="Support" id="dcda-2a06-8325-184e" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="c463-25cc-85a0-d6f2" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Goblin" id="8667-f023-da05-9ec7" hidden="false" primary="false" targetId="54b6-fd45-6d0a-bcab"/>
+        <categoryLink name="Model" id="ecc9-4af8-19eb-cef9" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
@@ -619,12 +627,13 @@
         <categoryLink name="Spellcaster" id="506e-73f6-603b-dbb6" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Large (Ogres)" id="cf7a-7b49-c44b-cb9c" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Ogre" id="9d4a-778c-89fb-813d" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="910b-34fe-6cc3-26f1" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Spellbook - Ogre Warlock" id="b778-5ec8-5211-4ff4" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup"/>
+        <entryLink name=" Spell Selection - Ogre Warlock" id="b778-5ec8-5211-4ff4" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup"/>
         <entryLink name="Items" id="aa7d-8c58-50e9-e355" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -640,6 +649,7 @@
         <categoryLink name="Large Command" id="0990-4f45-3835-b7e5" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
         <categoryLink name="Has Crushing Strength" id="3a7b-7a9b-d989-234a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="1cc8-07a1-9068-b39f" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="59a8-ef99-6b4e-d89b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
@@ -659,6 +669,7 @@
       <categoryLinks>
         <categoryLink name="Grunt (Ogres)" id="caf0-12db-5f1d-3af5" hidden="false" primary="true" targetId="5a7a-fe5f-4c55-b48f"/>
         <categoryLink name="Beast" id="9b33-d7e2-8d9e-8ec2" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="071c-f109-847a-a5db" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
@@ -675,6 +686,7 @@
         <categoryLink name="Troop" id="abd3-e9b8-032c-2962" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="7812-aa07-6be2-73e5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="a170-f27b-4365-1114" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="72a0-393f-20ae-a8b5" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
@@ -696,6 +708,7 @@
         <categoryLink name="Large (Ogres)" id="c9c3-b274-1e44-e709" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Has Crushing Strength" id="4bc2-9041-ab3b-7431" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="41cc-7f08-0bb6-ec99" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="58a1-9878-a246-9999" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
@@ -721,6 +734,7 @@
         <categoryLink name="Large (Ogres)" id="539f-af00-3616-f3dc" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Has Crushing Strength" id="e735-0710-9b01-5629" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="7b4b-c2d7-1621-6cbe" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="76e7-a372-c098-0696" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42"/>
@@ -745,6 +759,7 @@
         <categoryLink name="Large (Ogres)" id="7f40-8f41-04e0-00ce" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Has Crushing Strength" id="9b31-8aab-2215-2d92" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="839d-aebe-2e2e-8e81" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="a069-9986-467f-9801" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="748c-59eb-402a-63e5" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -771,6 +786,7 @@
         <categoryLink name="Large (Ogres)" id="824d-f103-3001-477d" hidden="false" primary="false" targetId="a8c1-0f86-be6c-7e6f"/>
         <categoryLink name="Has Crushing Strength" id="7ac4-2c3b-dbd4-e128" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Ogre" id="fcc3-d9a0-f377-fc69" hidden="false" primary="false" targetId="37ce-ffb8-2fa8-7b69"/>
+        <categoryLink name="Model" id="821f-5a9f-fc5c-890a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34"/>
@@ -794,7 +810,7 @@
         <constraint id="03a4-a588-3fb0-da16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Battle Fury (long)" id="f36b-4aef-a74e-a955" collective="false" hidden="false" import="true" targetId="1b32-27a2-3ffa-30c3" type="selectionEntry">
+        <entryLink name="Battle Fury" id="f36b-4aef-a74e-a955" collective="false" hidden="false" import="true" targetId="1b32-27a2-3ffa-30c3" type="selectionEntry">
           <constraints>
             <constraint id="9285-c1d5-6340-c410" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -806,7 +822,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Might of the Tribes (long)" id="caed-7d8c-0d37-27d3" collective="false" hidden="false" import="true" targetId="eacf-5b2c-564e-59a9" type="selectionEntry">
+        <entryLink name="Might of the Tribes" id="caed-7d8c-0d37-27d3" collective="false" hidden="false" import="true" targetId="eacf-5b2c-564e-59a9" type="selectionEntry">
           <constraints>
             <constraint id="6708-9e72-e2df-c8f1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>

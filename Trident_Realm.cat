@@ -400,6 +400,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Troop" id="18f5-8aa5-1331-f8b2" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Neritican" id="0e39-24bf-c009-9f46" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Beast" id="1037-14ec-7aff-742e" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="caad-8aed-4425-d6ac" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="adbb-bdfd-6337-12e2" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -425,6 +426,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Warrior" id="d9d3-5e52-b848-f991" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="76da-a702-c6bb-6722" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Neritican" id="7187-c663-c04d-ab00" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Model" id="bbdf-15e1-a579-2674" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="fa67-8c46-5bb1-49d1" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -452,6 +454,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Troop" id="3e72-c367-187a-7b44" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Neritican" id="ae34-1967-1f07-3978" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Riverguard" id="14c3-39bb-a18d-04f1" hidden="false" primary="false" targetId="c1cb-372f-ff47-b6e5"/>
+        <categoryLink name="Model" id="40d7-9741-889c-cc8e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6492-27e9-0ca4-ae67" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -493,6 +496,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Has Regenerate" id="e663-e913-e6f5-c7fa" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Neritican" id="ec19-2b0c-50b5-6a54" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Naiad" id="85ac-e2c5-fb38-2bd8" hidden="false" primary="false" targetId="8837-a5f4-0674-a61d"/>
+        <categoryLink name="Model" id="3a26-0301-289e-addb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="93ad-f171-a619-7bd6" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -526,6 +530,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Has Crushing Strength" id="cad5-3f03-6416-c5c8" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Neritican" id="18e8-5ad8-2935-e533" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Riverguard" id="3f80-d271-3f71-2920" hidden="false" primary="false" targetId="c1cb-372f-ff47-b6e5"/>
+        <categoryLink name="Model" id="85ec-cb6d-bc6a-e287" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d4a9-8b3f-7340-ece9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -557,6 +562,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Command" id="2bf4-5e06-2734-9dfa" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Neritican" id="da06-fe78-e057-8f5a" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Riverguard" id="6c08-cd74-f21b-c3cc" hidden="false" primary="false" targetId="c1cb-372f-ff47-b6e5"/>
+        <categoryLink name="Model" id="b9e5-ab33-9763-fd57" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6f35-5a9a-1b0a-c2ac" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -600,6 +606,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Neritican" id="3727-22bd-c6fe-eec4" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Has Regenerate" id="52c7-48b6-2627-fa77" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Naiad" id="bb79-8b7f-09ed-5b3f" hidden="false" primary="false" targetId="8837-a5f4-0674-a61d"/>
+        <categoryLink name="Model" id="f4a5-7325-dd1a-6faf" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b7c9-40ca-2437-bd52" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -638,6 +645,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       <categoryLinks>
         <categoryLink name="Spellcaster" id="01c8-c1f8-da89-1328" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Neritican" id="5c25-1ca5-a030-4f57" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Model" id="8193-a48b-858f-639a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3eac-6653-f2c2-2c8a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -669,6 +677,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Has Crushing Strength" id="16d2-a22a-8d99-403b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Has Regenerate" id="854a-db29-850a-2d37" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Naiad" id="41d0-776b-0deb-c6f5" hidden="false" primary="false" targetId="8837-a5f4-0674-a61d"/>
+        <categoryLink name="Model" id="2e94-61b3-46f0-a9d7" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="8602-5d68-a461-03fa" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -706,6 +715,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Troop" id="35bf-ba14-a7b0-5a99" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Neritican" id="00d5-f579-8bae-1322" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Naiad" id="e94e-c955-bf21-ce68" hidden="false" primary="false" targetId="8837-a5f4-0674-a61d"/>
+        <categoryLink name="Model" id="97e8-b0f2-6cfe-e18c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2825-de43-9e77-c094" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -744,6 +754,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Cavalry" id="79c7-f139-e047-9c9b" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Has Crushing Strength" id="4e3c-d244-611c-c342" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Riverguard" id="6072-5e6f-b6a9-b47d" hidden="false" primary="false" targetId="c1cb-372f-ff47-b6e5"/>
+        <categoryLink name="Model" id="e140-4f24-a43d-58fb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3d48-3083-8f27-c022" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -781,6 +792,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Has Regenerate" id="a110-e2b5-66a6-1bd8" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Has Crushing Strength" id="d9af-bb97-7578-7244" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Riverguard" id="394e-55ea-0512-7228" hidden="false" primary="false" targetId="c1cb-372f-ff47-b6e5"/>
+        <categoryLink name="Model" id="5cc3-2684-0ac9-4b79" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="e0c0-c8ab-b26b-8616" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -816,6 +828,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Neritican" id="8010-522d-ce59-ebb3" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
         <categoryLink name="Beast" id="b119-e183-41e3-db70" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Has Crushing Strength" id="998c-51c2-884f-9e8b" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Model" id="5d6f-342e-122c-bcac" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="7ab9-6b90-72c1-26df" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -846,6 +859,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <categoryLink name="Spellcaster" id="b7b5-24e1-10a8-4e19" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Command" id="eeb3-98af-3688-f4b2" hidden="false" primary="false" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Neritican" id="d6d5-059f-efe9-a16a" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Model" id="a1d5-053d-20c9-1f9c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="0c04-3a39-ff76-3aa0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -875,6 +889,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       <categoryLinks>
         <categoryLink name="Support" id="b6c2-6b44-dbb6-525c" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Neritican" id="8811-8cd8-7abc-e9dc" hidden="false" primary="false" targetId="130e-52f0-0f36-1c32"/>
+        <categoryLink name="Model" id="b905-a72b-122b-8c01" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="41ff-81c7-8b21-5678" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -906,6 +921,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       <categoryLinks>
         <categoryLink name="Support" id="4ea2-603a-a3a1-3197" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Naiad" id="0890-9026-f60c-9e40" hidden="false" primary="false" targetId="8837-a5f4-0674-a61d"/>
+        <categoryLink name="Model" id="882e-63ca-f33a-f90c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2742-c083-3f58-419b" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>

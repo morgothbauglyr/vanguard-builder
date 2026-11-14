@@ -205,6 +205,7 @@ Fatigued.</characteristic>
         <categoryLink name="Troop" id="d0ef-ad50-9d80-3994" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Villein" id="0036-3fb4-28ed-5dcc" hidden="false" primary="false" targetId="9542-f6e8-0aef-faa0"/>
         <categoryLink name="Human" id="786e-998b-5830-2503" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="80fb-f8f1-787f-d5ed" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6755-86af-a882-b3e7" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -231,12 +232,13 @@ Fatigued.</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Spearmen" id="7062-7829-a703-1775" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Spearman" id="7062-7829-a703-1775" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Grunt" id="6ef9-2199-f2b8-7cfc" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="26fd-c27f-4dd4-9150" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Villein" id="8d7a-5a08-686f-f70c" hidden="false" primary="false" targetId="9542-f6e8-0aef-faa0"/>
         <categoryLink name="Human" id="21e0-dca1-1ab9-30ca" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="18c9-9636-403a-6b22" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="f678-e722-c467-35a0" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -266,6 +268,7 @@ Fatigued.</characteristic>
         <categoryLink name="Troop" id="f373-77a8-4300-fabb" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Human" id="55d9-86bf-2340-f66f" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
         <categoryLink name="Knight" id="e7b0-57b5-92e2-5149" hidden="false" primary="false" targetId="edb7-a294-8571-0bef"/>
+        <categoryLink name="Model" id="aa9e-a553-2e31-6c45" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2ba7-e3eb-ffe6-1a6f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -298,6 +301,7 @@ Fatigued.</characteristic>
         <categoryLink name="Has Crushing Strength" id="c2c6-99d7-ed02-f1fc" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Human" id="3a87-3534-659d-03dd" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
         <categoryLink name="Knight" id="d38b-ece2-76a6-1e4d" hidden="false" primary="false" targetId="edb7-a294-8571-0bef"/>
+        <categoryLink name="Model" id="c41d-78c2-6ba1-ca5d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="594f-7c7d-02b6-14a4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="3734-3c1c-d6b8-29c2" shared="true" type="max" value="0"/>
@@ -328,6 +332,7 @@ Fatigued.</characteristic>
       <categoryLinks>
         <categoryLink name="Spellcaster" id="3ce4-2f3c-48bf-d898" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Human" id="43e8-3a9d-2813-a0a1" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="e438-8745-b4dc-ca9c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d424-364c-efdf-a747" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -357,6 +362,7 @@ Fatigued.</characteristic>
         <categoryLink name="Support" id="a587-1af0-01cb-71db" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Human" id="8fab-5852-5f23-8a0d" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
         <categoryLink name="Villein" id="7cd7-d231-6ead-205e" hidden="false" primary="false" targetId="9542-f6e8-0aef-faa0"/>
+        <categoryLink name="Model" id="ba5d-e66f-e034-4951" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="a22c-680f-b692-a4e5" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -390,6 +396,7 @@ Fatigued.</characteristic>
       <categoryLinks>
         <categoryLink name="Command" id="e134-f187-c532-33c6" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="2ca9-fa91-f9ed-0057" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Model" id="d9d6-c779-a8e9-9e72" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b60d-c8a2-72ce-6cb9" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>

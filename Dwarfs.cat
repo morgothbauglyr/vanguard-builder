@@ -353,6 +353,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
     <selectionEntry name="Battledrill" id="bd6c-1cdb-4b06-ce6b" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Dwarf" id="7757-1bc7-fb9b-fde1" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="f87a-5fc6-1518-7b83" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
@@ -396,6 +397,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Has Crushing Strength" id="cef5-8fb1-2e71-671a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Cannot have Mount" id="20a9-e3b0-ab68-cd76" hidden="false" primary="false" targetId="62e6-0d2d-51f7-6eef"/>
         <categoryLink name="Dwarf" id="6953-9164-558b-91a1" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="a032-a05c-6b7a-741c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2fe2-309d-d64c-cf40" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -433,6 +435,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Command" id="a236-a2c5-9397-0c1e" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="2e86-c48d-9a7d-9152" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Dwarf" id="5b45-cb2e-9add-9487" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="1219-e713-9488-1366" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="910e-c381-254a-283c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -467,6 +470,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Support" id="3dd3-cf38-f0ac-28e2" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Cavalry" id="9fa7-27da-4f4b-768a" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Dwarf" id="f4e2-a2b4-8bc8-3a49" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="76b2-4533-38a7-bb88" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3d89-cdc5-9cfc-5955" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -498,6 +502,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Grunt" id="3202-2c15-67f9-cba5" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="9e63-f1c9-36d2-29f1" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Dwarf" id="b01f-c0d4-6311-abf4" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="7568-b819-9179-3d29" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="43ed-0f79-ae78-0ed4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -533,6 +538,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Warrior" id="4a52-8a42-bff3-42dc" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="da93-f831-f5f1-c388" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Dwarf" id="215e-b582-998b-62a8" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="a38c-f9df-2fe1-37bb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="9ee9-3a8c-1048-3dc5" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -575,6 +581,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Command" id="15cd-e8f2-9438-3880" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="8cf6-66ec-9c48-c976" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Dwarf" id="49b1-f825-e4cc-e1b5" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="c413-b268-ba82-9fad" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6217-2333-c016-932e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -604,6 +611,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Support" id="819f-b896-9357-63d8" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Dwarf" id="4368-a5ff-98a6-29cb" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="0469-07e5-d11b-524e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="c6ef-a538-9c28-2584" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -642,6 +650,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Warrior" id="8d1e-5802-5390-f4f4" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="bd5c-2584-01f6-b803" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Dwarf" id="d58b-982d-6ada-d465" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="04c8-fd04-da83-32bb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="d350-537d-6b9c-60e8" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -670,6 +679,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Support" id="658d-d7b1-7c34-5c5f" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="0221-a9f7-1503-ae03" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Dwarf" id="d3ee-355a-2229-ce7a" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="4483-64fc-3635-b4d3" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="f243-94a7-a23d-26cf" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -700,6 +710,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Warrior" id="426e-0429-65f8-7fe6" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="56c0-d173-3503-abae" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Dwarf" id="c24e-63d3-560a-6f23" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="8494-33ed-4d59-a251" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b5e3-ce1a-7f29-bec2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -737,6 +748,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Warrior" id="947d-b5fe-9ea3-34ce" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="d82c-a985-09c5-1a28" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Dwarf" id="67a7-0d95-3b0c-c3e2" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="3d17-ebaa-8d9d-658e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="4340-b289-8fad-2948" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -777,6 +789,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Command" id="f2cc-33a8-a0b5-211b" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="006a-1a82-8ede-a6c5" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Dwarf" id="0a58-4bd6-8f07-3801" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="2b97-9828-731a-4668" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b6cd-7ede-c0ba-4922" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -823,6 +836,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Troop" id="536e-79d9-fb90-bd24" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="e826-f9b7-63f7-0fbf" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Dwarf" id="f4d3-aa0f-1770-9e15" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="ffa7-1e73-2b2c-4996" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="dfea-65d5-95cb-c380" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -860,6 +874,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
         <categoryLink name="Large" id="895b-5c68-9c19-b6c0" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="9990-165c-66a7-bf39" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Dwarf" id="6027-d6a6-7094-23c9" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="7006-4185-7187-b83f" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="207d-780f-fe3b-d70c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
@@ -900,6 +915,7 @@ All models (including friendly ones) of up to Height 2 within 3” of the model 
       <categoryLinks>
         <categoryLink name="Spellcaster" id="9cc8-a1f1-bc10-0957" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Dwarf" id="b930-af90-1936-99ad" hidden="false" primary="false" targetId="8776-bdcb-2f4b-b764"/>
+        <categoryLink name="Model" id="5f61-4515-991b-4ae8" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="bcb6-eda7-b98b-6b0c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>

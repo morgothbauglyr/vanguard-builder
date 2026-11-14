@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Nightstalkers" id="1ecc-fae0-608b-85be" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="Fiend" id="d007-6b27-c20c-1671" hidden="false" targetId="5724-87d4-671d-36a0" type="selectionEntry"/>
     <entryLink name="Needlefangs" id="9aef-ff31-493e-8128" collective="false" hidden="false" targetId="e79d-182d-85da-32ae" type="selectionEntry"/>
@@ -330,6 +330,7 @@
         <categoryLink name="Warrior" id="fc04-f053-dd98-f9d1" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="57a8-fe14-b4c0-6042" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Nightstalker" id="0f24-3e2c-c648-3bbc" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="8578-cdde-e771-e66c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b888-7b8c-3051-2872" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -338,7 +339,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="7350-0522-8504-0cc9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="7350-0522-8504-0cc9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Phantom" id="ce09-1af9-ac8c-7fa8" hidden="false" targetId="e379-d049-73e4-293f" type="profile"/>
@@ -359,6 +360,7 @@
         <categoryLink name="Large" id="574e-6ed3-e563-efaa" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="424e-1327-186e-a15c" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Nightstalker" id="a322-cf9e-ced0-e93a" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="322d-c56b-4dd0-d34e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="1024-cc8f-50e2-ca2c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -367,7 +369,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="dbb9-3cc8-bbbc-35fd" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="dbb9-3cc8-bbbc-35fd" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Butcher" id="2cb2-734a-812b-d4ae" hidden="false" targetId="6a87-787f-3a2e-882b" type="profile"/>
@@ -389,6 +391,7 @@
         <categoryLink name="Troop" id="fbc3-8e42-e5ff-e762" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Crushing Strength" id="c147-f009-f52d-20cf" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Nightstalker" id="cfb1-b998-55cc-9743" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="179e-836b-707b-3bb3" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="dc50-a150-7486-0d27" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -397,7 +400,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="7ded-2a9d-1006-f5ff" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="7ded-2a9d-1006-f5ff" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Stealthy" id="fb14-a58d-a662-ab9d" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
@@ -416,6 +419,7 @@
       <categoryLinks>
         <categoryLink name="Large" id="cfd2-211b-990e-a23d" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Nightstalker" id="7aea-b2d5-cdda-1a82" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="7dac-ab84-ef2e-ec3b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="3330-3a37-9ff1-b6d9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -424,7 +428,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="d647-8957-266e-16e9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="d647-8957-266e-16e9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ravager" id="4b95-fca2-a791-bea8" hidden="false" targetId="dbb9-8154-5cbc-3a3a" type="profile"/>
@@ -462,6 +466,7 @@
         <categoryLink name="Support" id="8feb-da39-14aa-677d" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Regenerate" id="06e2-c4de-5bd9-8b57" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Nightstalker" id="e5ef-6d6c-4133-037a" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="23c3-c995-7280-d94a" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2fc6-abfc-4307-d99f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -486,6 +491,8 @@
     <selectionEntry name="Banshee" id="11da-f8a6-074f-4935" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="380b-d5a7-8172-f3a0" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Nightstalker" id="59a4-7101-2978-e108" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="0083-06e6-4171-ec68" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="80ce-981b-2070-3e21" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -494,7 +501,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="e44e-b773-b1c9-eeec" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="e44e-b773-b1c9-eeec" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Banshee" id="b2f6-676e-7d20-fc3a" hidden="false" targetId="c9fe-c3f1-a930-34aa" type="profile"/>
@@ -517,6 +524,8 @@
         <categoryLink name="Has Crushing Strength" id="6c92-8cc2-da6a-4fd2" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Large Command" id="f41f-218c-a5c2-4364" hidden="false" primary="false" targetId="5649-5554-ab64-b9dc"/>
         <categoryLink name="Large" id="c2dc-c29f-26f8-e68c" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Nightstalker" id="9a28-2a15-ad01-c9be" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="3ecd-2e7e-1843-1b47" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="df11-0bf8-d586-62e1" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -525,7 +534,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="b72b-2355-bf37-255f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="b72b-2355-bf37-255f" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Butcher Fleshripper" id="0f38-cb01-c0a9-42f0" hidden="false" targetId="09b1-1a0d-e981-33dd" type="profile"/>
@@ -545,6 +554,8 @@
       <categoryLinks>
         <categoryLink name="Warrior" id="89e8-ed79-ffcb-01eb" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="f042-8d9c-5d56-9b67" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Nightstalker" id="38a7-1e9d-2a33-fd2a" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="04af-a614-d607-5cd4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6dcb-5b3c-0c61-3c60" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -553,7 +564,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="6888-4763-f399-8cbe" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="6888-4763-f399-8cbe" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Horror" id="c28b-24e1-846b-5b16" hidden="false" targetId="1a58-4a71-caf0-ea4c" type="profile"/>
@@ -572,6 +583,8 @@
       <categoryLinks>
         <categoryLink name="Command" id="23c6-335a-6f8f-4d7d" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Has Crushing Strength" id="992a-1cbe-34bf-61af" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
+        <categoryLink name="Nightstalker" id="b07a-8231-8ba9-1ed8" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="e3e3-c67e-bbc5-9d17" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="fd7c-6049-8d58-e9c4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -580,7 +593,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="01d1-beee-1be9-5b2b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="01d1-beee-1be9-5b2b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Reaper Souldrinker" id="09ad-0fbe-9065-5821" hidden="false" targetId="0b9a-2433-47ee-2622" type="profile"/>
@@ -601,6 +614,8 @@
       <categoryLinks>
         <categoryLink name="Grunt" id="b975-83cd-6918-b14f" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="4a47-9690-ce07-16db" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Nightstalker" id="7e89-2e06-2b63-672d" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="2658-11c0-3537-2f20" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="b73d-b6f4-37f5-147d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -609,7 +624,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="b6f7-5d1a-24bc-0d59" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="b6f7-5d1a-24bc-0d59" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Scarecrow" id="9625-a30f-7489-5b50" hidden="false" targetId="61f1-5a72-f86a-d4b2" type="profile"/>
@@ -627,6 +642,8 @@
     <selectionEntry name="Shade" id="651a-3e11-846f-758c" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Command" id="2c95-8534-55d5-b802" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Nightstalker" id="c22e-edaf-8dfe-2a30" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="4c9a-e25c-285b-28e2" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="31fd-6b07-284d-d938" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -635,7 +652,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="53aa-5be4-61f7-c23d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="53aa-5be4-61f7-c23d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Shade" id="aa3d-3f93-1e83-e1cd" hidden="false" targetId="2fb5-599a-c661-f7c3" type="profile"/>
@@ -656,6 +673,8 @@
       <categoryLinks>
         <categoryLink name="Warrior" id="aea2-a464-9293-bcae" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="6df9-721d-59e8-e122" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Nightstalker" id="364d-3a5c-5a6c-bfd8" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="d184-ca92-08e2-905c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="6f2d-8479-8a20-37e0" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -664,7 +683,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="3a04-a600-ec72-6e43" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="3a04-a600-ec72-6e43" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Firebolt" id="ebd5-7e9c-01cd-3a6d" collective="false" hidden="false" import="true" targetId="94a2-994e-20a1-3082" type="selectionEntry">
           <constraints>
             <constraint id="cbae-8536-a76f-2021" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -700,6 +719,8 @@
       <categoryLinks>
         <categoryLink name="Spellcaster" id="da9b-2a7c-660a-9437" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Large" id="bb5f-43b1-fff7-706b" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Nightstalker" id="3975-d2cb-2a69-e6cc" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="a30a-bff1-d1fb-c9c8" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="371a-b62c-f01f-bdeb" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -708,7 +729,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="bf41-6a93-608c-fe41" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="bf41-6a93-608c-fe41" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - Mind-screech" id="b46f-323d-60d2-a69c" collective="false" hidden="false" import="true" targetId="a4a7-2b8c-9e8b-68dd" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -731,6 +752,8 @@
       <categoryLinks>
         <categoryLink name="Grunt" id="825b-fe47-4b8b-0ce3" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="8a2a-afbd-851e-fdcd" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Nightstalker" id="733c-4e79-2ac0-acc3" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="5fe5-cdcd-2e63-db67" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="2c99-f179-4b30-1d7f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
@@ -739,7 +762,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="11eb-5e8a-4d00-3e46" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="11eb-5e8a-4d00-3e46" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Stealthy" id="6abb-7400-0749-7773" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
@@ -773,6 +796,8 @@
     <selectionEntry name="Fiend" id="5724-87d4-671d-36a0" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Large" id="6da3-db54-7213-47b2" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
+        <categoryLink name="Nightstalker" id="a4e9-9648-d1e9-e674" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
+        <categoryLink name="Model" id="386d-2444-f4a4-4873" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>

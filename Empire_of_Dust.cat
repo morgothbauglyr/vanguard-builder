@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Empire of Dust" id="a0cd-c88b-990b-40e9" authorContact="
-" authorName="" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+" battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Empire of Dust" id="5538-0cde-544d-3493" hidden="false"/>
   </categoryEntries>
@@ -16,8 +16,8 @@
     <entryLink name="Revenant" id="4c4b-7e12-71e9-eca7" collective="false" hidden="false" targetId="176d-642b-b360-c23b" type="selectionEntry"/>
     <entryLink name="Enslaved guardian" id="1400-bef0-c8a5-0e7c" collective="false" hidden="false" targetId="2a74-92c8-6ef8-8d23" type="selectionEntry"/>
     <entryLink name="High priest" id="fc79-894d-fcef-854e" collective="false" hidden="false" targetId="8acc-af11-5460-356d" type="selectionEntry"/>
-    <entryLink name="Tomb Scorpion" id="d6a9-9997-3b59-ee6a" hidden="false" import="true" targetId="afc2-392e-3234-31a7" type="selectionEntry"/>
-    <entryLink name="Vulture" id="86d8-b30f-81e8-1de9" hidden="false" import="true" targetId="caf6-d32c-62cb-7920" type="selectionEntry"/>
+    <entryLink name="Tomb Scorpion *" id="d6a9-9997-3b59-ee6a" hidden="false" import="true" targetId="afc2-392e-3234-31a7" type="selectionEntry"/>
+    <entryLink name="Vulture *" id="86d8-b30f-81e8-1de9" hidden="false" import="true" targetId="caf6-d32c-62cb-7920" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="ATTACK FROM BELOW" id="1e28-b689-4ab6-29ed" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -310,12 +310,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Has Regenerate" id="0ccd-376c-ac6c-231e" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Undead" id="a538-f832-159e-7ed3" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="bea6-7c40-778d-a490" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="5f5a-51ab-d984-29a4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="48"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="70e9-b8a8-7445-57c9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="70e9-b8a8-7445-57c9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Pharaoh&apos;s champion" id="c1b9-c0c8-0542-f72b" hidden="false" targetId="41e3-0f21-de79-7d0c" type="profile"/>
@@ -334,12 +335,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Has Regenerate" id="e00d-4342-372b-b885" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
         <categoryLink name="Undead" id="85a8-7a06-57c6-357a" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="5748-08c9-aabb-84d6" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="2c6a-50e0-b7fc-b130" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="6d84-d21e-0bf6-ba13" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="6d84-d21e-0bf6-ba13" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mummy" id="2d25-4d51-90b4-8dee" hidden="false" targetId="623e-72a7-d906-89aa" type="profile"/>
@@ -354,6 +356,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Troop" id="c78a-e15b-9572-3892" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Empire of Dust" id="f9c0-1f97-a657-de06" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Beast" id="c8bb-b645-3bb4-deec" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="c37a-30c5-15ae-8840" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
@@ -361,7 +364,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <infoLinks>
         <infoLink name="Desert swarm" id="a27f-c5a4-26ee-e81b" hidden="false" targetId="cd80-e4e0-18e5-0194" type="profile"/>
         <infoLink name="Swarm" id="9ac8-8d8e-142e-4c13" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
-        <infoLink name="Elite" id="36f0-7704-9eda-950f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink name="Vicious" id="36f0-7704-9eda-950f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="THEY&apos;RE INSIDE MY ARMOUR!" id="5f65-67eb-1733-201c" hidden="false" targetId="09ac-a21d-97e5-cbeb" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -370,6 +373,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Large" id="8272-cf6e-f936-8838" hidden="false" primary="true" targetId="5386-cda4-ccc0-f38d"/>
         <categoryLink name="Has Crushing Strength" id="3685-5b87-5cfc-1c28" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Empire of Dust" id="a38b-89d2-1161-583a" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="9ccf-0725-17f9-550d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44"/>
@@ -381,7 +385,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
             <constraint id="3eb1-0d74-aa8c-7955" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name=" Items" id="e564-c580-f7f9-c5de" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="e564-c580-f7f9-c5de" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Enslaved guardian" id="5e52-48d4-bbb3-a864" hidden="false" targetId="3928-c0e3-fe2e-a3fb" type="profile"/>
@@ -397,12 +401,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Command" id="c4ef-b156-132f-560a" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
         <categoryLink name="Undead" id="5a3c-7182-7c7b-0487" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="7288-0dbc-3823-960f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="8733-afce-1f0b-f714" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="9dc7-2637-a546-9493" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="9dc7-2637-a546-9493" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - High Priest" id="b65f-4f23-2e75-571b" collective="false" hidden="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -417,12 +422,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Troop" id="2fc5-e330-3685-cd72" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="9706-e59a-ee2c-0eeb" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="eae2-5594-0e69-0b83" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="953a-684d-411e-b938" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="9bcf-b873-39de-7842" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="9bcf-b873-39de-7842" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Revenant" id="d6ec-c746-6646-b01a" hidden="false" targetId="c9fc-6822-50e9-e749" type="profile"/>
@@ -435,12 +441,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Has Crushing Strength" id="1017-cf77-a408-0b92" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="4c36-be48-74cf-0864" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="c159-0559-879d-a95f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="47f1-e0ee-cce3-7d68" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="9b63-ef76-daf1-f573" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="9b63-ef76-daf1-f573" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Revenant champion" id="1782-e55a-66aa-fc43" hidden="false" targetId="3500-e2a2-0d52-855d" type="profile"/>
@@ -456,12 +463,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Has Crushing Strength" id="3723-a524-e942-b56a" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Undead" id="359c-b8ba-1640-01f8" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="2bab-dd36-9ff2-cb44" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="47f4-f334-6235-16c0" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="aba7-1df0-b68e-7e73" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="aba7-1df0-b68e-7e73" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Sand wraith" id="19ca-aa54-9dca-6871" hidden="false" targetId="6528-b20f-1f79-3a99" type="profile"/>
@@ -477,6 +485,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Troop" id="12c6-ad76-8e55-767f" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="5a89-c953-a7d4-3337" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="5de8-4c71-00ff-f091" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="102d-81c1-6dfa-480b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7"/>
@@ -491,7 +500,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name=" Items" id="b774-7b9b-a5bc-e873" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="b774-7b9b-a5bc-e873" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skeleton archer" id="2825-84a8-e2e2-aab6" hidden="false" targetId="b434-3b94-021d-3bff" type="profile"/>
@@ -504,12 +513,13 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Troop" id="7c4a-e100-c734-67b4" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Undead" id="f53b-db0f-6e09-b2a8" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="d920-4a23-f4cd-e43e" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
+        <categoryLink name="Model" id="880b-c5fe-2dab-78ac" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6"/>
       </costs>
       <entryLinks>
-        <entryLink name=" Items" id="dc9d-e357-1f1e-0e06" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Items" id="dc9d-e357-1f1e-0e06" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skeleton" id="5ccd-7f9e-5223-9175" hidden="false" targetId="6576-b61a-51f5-850d" type="profile"/>
@@ -522,6 +532,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         <categoryLink name="Undead" id="8fd8-acdf-ce28-f3b9" hidden="false" primary="false" targetId="c2fc-83d5-89a9-568a"/>
         <categoryLink name="Empire of Dust" id="eaba-f57f-7fde-f55f" hidden="false" primary="false" targetId="5538-0cde-544d-3493"/>
         <categoryLink name="Beast" id="d3ec-dbcd-fef4-fb49" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="8a3d-8f87-296a-c6c4" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
@@ -538,6 +549,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <categoryLinks>
         <categoryLink name="Support" id="30fd-0c0c-0b70-35e8" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Beast" id="c703-f52c-bc9e-bacb" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="c6a5-a86f-65fc-b690" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24"/>

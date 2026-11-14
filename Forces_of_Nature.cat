@@ -48,7 +48,7 @@
     <profile name="ENTANGLE" id="6568-1938-e9af-d72f" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697"/>
-        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when the model suffers a Melee attack. </characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when the model suffers a Melee attack.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model has the Parry special rule^until the attack is resolved.</characteristic>
       </characteristics>
     </profile>
@@ -321,7 +321,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <categoryLink name="Warrior" id="c827-f6c7-221f-5fa7" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="1719-d1dc-a19b-c81d" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Has Regenerate" id="9b6a-d5af-1a34-e52d" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Model" id="1f5a-08e4-7478-7697" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="ccb6-7cbf-e5b2-901e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12"/>
       </costs>
@@ -338,12 +342,23 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Naiad" id="0c00-1063-4ac7-d153" hidden="false" targetId="768b-651d-2737-7539" type="profile"/>
         <infoLink name="Regenerate (7+)" id="fbee-315c-29cc-d72e" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="ccb6-7cbf-e5b2-901e" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Naiad Ensarer" id="39f1-d869-4e2b-a0ca" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="293b-15a3-6e3f-9c42" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Regenerate" id="52d0-6eb0-b88a-5eaf" hidden="false" primary="false" targetId="e1b6-5b55-c5a8-92d7"/>
+        <categoryLink name="Model" id="575b-cb8b-46fd-9dfb" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="672e-c95c-d194-f03d" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20"/>
       </costs>
@@ -366,13 +381,24 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="ENTANGLE" id="fd6c-521d-fbd3-13c4" hidden="false" targetId="6568-1938-e9af-d72f" type="profile"/>
         <infoLink name="Swarm" id="185e-9cbb-c562-d64d" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="672e-c95c-d194-f03d" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Centaur Bray-Strider" id="f93b-c6ce-84d6-1b60" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Warrior" id="7e24-e9b1-799e-4df2" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="57e0-a233-cdea-6ec7" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Cavalry" id="f85f-a03e-f8b6-0b79" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Model" id="7bf2-bb36-675d-2ff7" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="e904-e6ac-9bec-337c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22"/>
       </costs>
@@ -385,13 +411,24 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Cavalry" id="58b7-20f4-67dc-3cc2" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Headstrong" id="bef8-0fab-415c-ac32" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="e904-e6ac-9bec-337c" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Centaur Bray-Hunter" id="0866-5987-0109-360d" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Warrior" id="38b8-9c0b-6ea2-736a" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="0774-9ee7-a2fa-63af" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
         <categoryLink name="Cavalry" id="9284-f916-3c41-a566" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
+        <categoryLink name="Model" id="b31e-e2a5-fce0-50c5" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="8664-a74a-6736-65cf" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20"/>
       </costs>
@@ -408,11 +445,22 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Cavalry" id="2740-db0d-7f48-b4e5" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Headstrong" id="af0a-a549-c8d5-578a" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="8664-a74a-6736-65cf" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Wild Companion" id="f27c-58fd-0d39-c59e" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Support" id="770c-ba21-f606-d48a" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
+        <categoryLink name="Model" id="f6c0-8ea6-f3dc-798b" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="a8be-1d95-787d-a54c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
       </costs>
@@ -421,19 +469,30 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Wild Companion" id="8210-e13e-2904-3e8d" hidden="false" targetId="6fcb-3ab3-b0c3-f451" type="profile"/>
         <infoLink name="Pathfinder" id="988f-1f36-105f-56e1" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="a8be-1d95-787d-a54c" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Druid" id="e403-3620-c63c-85e1" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="e894-3c07-0f49-cc71" hidden="false" primary="true" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Nature" id="d40d-722b-de7a-90e6" hidden="false" primary="false" targetId="d358-54b3-f464-d6b5"/>
         <categoryLink name="Human" id="c5a7-3409-e8c0-bf70" hidden="false" primary="false" targetId="b96e-aef3-406c-e708"/>
+        <categoryLink name="Model" id="1bf2-f763-f42a-ae16" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="4e84-6b3e-84b0-dc26" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
       </costs>
       <entryLinks>
         <entryLink name="Items" id="7727-d78b-afb8-8498" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Druid" id="cf15-d122-cce8-ddde" collective="false" hidden="false" import="true" targetId="2de8-ecf1-9290-6485" type="selectionEntryGroup"/>
+        <entryLink name="Spell Selection - Druid" id="cf15-d122-cce8-ddde" collective="false" hidden="false" import="true" targetId="2de8-ecf1-9290-6485" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Druid" id="446c-3a26-f5fc-a8a5" hidden="false" targetId="dc6f-f556-c46d-a0d5" type="profile"/>
@@ -442,6 +501,13 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Power Dice Red/Black (1)" id="cc53-8724-d8c7-caae" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="RANGE BOOST (6&quot;)" id="d5e9-00a8-7163-7aa3" hidden="false" targetId="ec0a-6cfc-234e-3a25" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="4e84-6b3e-84b0-dc26" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Centaur Chief" id="0b67-84a8-9072-79cb" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -449,7 +515,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <categoryLink name="Cavalry" id="c7a7-f1a5-9483-a7ce" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Nature" id="5bab-4344-43d1-0edf" hidden="false" primary="false" targetId="d358-54b3-f464-d6b5"/>
         <categoryLink name="Beastman" id="9606-a951-0819-9644" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
+        <categoryLink name="Model" id="f804-a062-7344-147c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="dde9-e6eb-f06b-9ca9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="43"/>
       </costs>
@@ -469,6 +539,13 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Headstrong" id="f6f2-1205-4078-1842" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="cc95-1dff-fac2-f9e0" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="dde9-e6eb-f06b-9ca9" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Centaur Tenderhoof" id="d151-99d0-8432-771f" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -477,7 +554,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <categoryLink name="Cavalry" id="1b0a-b343-2bf0-914f" hidden="false" primary="false" targetId="f0be-5450-0ab7-43f6"/>
         <categoryLink name="Beastman" id="9c56-8841-0f53-a6f3" hidden="false" primary="false" targetId="8ac4-4f1f-0eec-fefa"/>
         <categoryLink name="Nature" id="6c2b-811b-5ad1-69b2" hidden="false" primary="false" targetId="d358-54b3-f464-d6b5"/>
+        <categoryLink name="Model" id="2421-120b-7717-506e" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="59e4-3732-feae-746f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15"/>
       </costs>
@@ -490,6 +571,13 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Headstrong" id="ca19-0016-11d7-4b93" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Point to Prove" id="441b-8e93-0355-fac2" hidden="false" targetId="c824-34e5-e605-3d62" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="59e4-3732-feae-746f" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Forest Shambler" id="9c45-5c9d-af55-c7c0" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -497,7 +585,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <categoryLink name="Has Crushing Strength" id="5230-e222-a3b6-7eaf" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
         <categoryLink name="Nature" id="298b-c217-8fbb-ebf4" hidden="false" primary="false" targetId="d358-54b3-f464-d6b5"/>
         <categoryLink name="Beast" id="5e70-4339-f7c3-d184" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
+        <categoryLink name="Model" id="f055-8b9f-f0f4-0129" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="4272-20f8-58ae-8f4b" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33"/>
       </costs>
@@ -506,21 +598,30 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <infoLink name="Crushing Strength (2)" id="4e40-798e-a209-ea33" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink name="Steady" id="8fcd-b537-fa45-39c1" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="4272-20f8-58ae-8f4b" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Gladewalker Druid" id="ada0-1168-0051-29d6" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Spellcaster" id="5603-ff71-bff3-27af" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb"/>
         <categoryLink name="Command" id="682a-7f45-e828-ab89" hidden="false" primary="true" targetId="8fce-4123-76c7-3f6f"/>
+        <categoryLink name="Model" id="ef92-342b-6e3a-bf6d" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <constraints>
         <constraint id="699d-f5a9-8c9b-1e91" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
+        <constraint id="289b-2e7a-6406-10b9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
       </constraints>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40"/>
       </costs>
       <entryLinks>
         <entryLink name="Items" id="c9ba-2dd2-712a-96c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name=" Spellbook - Basic Gladewalker Druid" id="ae66-b0e9-672f-0f29" collective="false" hidden="false" import="true" targetId="691a-4874-ea8a-3099" type="selectionEntryGroup"/>
+        <entryLink name="Spell Selection - Gladewalker Druid" id="ae66-b0e9-672f-0f29" collective="false" hidden="false" import="true" targetId="691a-4874-ea8a-3099" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="NATURE’S DEFENCE" id="7343-66ec-c4d7-9722" hidden="false" targetId="adf9-8852-24c1-3a5f" type="profile"/>
@@ -535,6 +636,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
             <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
           </repeats>
         </modifier>
+        <modifier field="289b-2e7a-6406-10b9" type="increment" value="1">
+          <repeats>
+            <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -544,7 +650,7 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         <constraint id="482f-bed0-4ff4-5a69" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Vengeful Flock (long)" id="8491-eb2c-9a6c-a631" collective="false" hidden="false" import="true" targetId="c6f0-2536-e081-4b9a" type="selectionEntry">
+        <entryLink name="Vengeful Flock" id="8491-eb2c-9a6c-a631" collective="false" hidden="false" import="true" targetId="c6f0-2536-e081-4b9a" type="selectionEntry">
           <modifiers>
             <modifier field="b888-e3bd-8798-6364" type="set" value="10">
               <conditionGroups>
@@ -569,7 +675,7 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spell Selection - Druid" id="2de8-ecf1-9290-6485" collapsible="true" collective="false" hidden="false" import="true" page="" publicationId="4c75-46a3-pubN69892">
+    <selectionEntryGroup name="Spell Selection - Druid" id="2de8-ecf1-9290-6485" collapsible="true" collective="false" hidden="false" import="true" publicationId="4c75-46a3-pubN69892">
       <constraints>
         <constraint id="9655-7a00-9f5a-89b3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="c3aa-4e64-5643-fe25" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
@@ -592,13 +698,13 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spell Selection - Gladewalker Druid" id="691a-4874-ea8a-3099" collapsible="true" collective="false" hidden="false" import="true" page="" publicationId="4c75-46a3-pubN69892">
+    <selectionEntryGroup name="Spell Selection - Gladewalker Druid" id="691a-4874-ea8a-3099" collapsible="true" collective="false" hidden="false" import="true" publicationId="4c75-46a3-pubN69892">
       <constraints>
         <constraint id="3ead-146d-9619-12fe" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
         <constraint id="ec0d-620b-3194-4970" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
       </constraints>
       <entryLinks>
-        <entryLink name=" Spellbook - Forces of Nature (Free)" id="f59b-fc2d-ffa9-cd1f" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="df99-79f1-525b-01fe" type="selectionEntryGroup"/>
+        <entryLink name="Spellbook - Forces of Nature" id="f59b-fc2d-ffa9-cd1f" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="df99-79f1-525b-01fe" type="selectionEntryGroup"/>
         <entryLink name="Spellbook - Primoridal" id="4606-a04f-3cdd-47b9" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="6890-416f-3aac-976f" type="selectionEntryGroup">
           <modifiers>
             <modifier affects="fbbb-1f05-b56a-ad1c" field="hidden" type="set" value="true"/>
