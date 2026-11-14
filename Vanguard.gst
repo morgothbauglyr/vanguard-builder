@@ -1632,6 +1632,24 @@ This Special Ability may be used any number of times in a Round.</characteristic
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">The model may cast the same spell twice this Turn if it has enough actions.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Doomblast" id="2fdb-5316-8d15-155f" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">short</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Weaken</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomblast (Boosted)" id="49b2-dc30-023b-8c0c" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+      <characteristics>
+        <characteristic name="Action" typeId="4e66-0225-3cc6-27c7">long</characteristic>
+        <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+        <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+        <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
+        <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Power Cost (2), Piercing (2), Weaken</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Reload" id="607b-a841-9e41-92c0" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
@@ -3593,6 +3611,9 @@ player.</description>
         <categoryLink name="Spell - Basic" id="7669-9b15-2e0e-85af" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
         <categoryLink name="Spell" id="7f6d-c7a5-4a62-521a" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="2c6e-c756-ab3b-1962" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <infoLinks>
         <infoLink name="Thunderclap *" id="6db2-32be-101e-3dce" hidden="false" targetId="0e2f-614b-7c03-fc06" type="profile"/>
         <infoLink name="Thunderclap *" id="9a0a-94fe-5428-57ae" hidden="false" targetId="5380-53c9-c868-13b8" type="profile"/>
@@ -3864,6 +3885,20 @@ player.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Entangle" id="34d8-0ed6-a8d2-8f02" hidden="false" targetId="85c4-9aa4-c6ee-5a59" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Doomblast" id="0bd2-c875-c8f0-7854" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Spell" id="06fa-8e9d-08db-bae0" hidden="false" primary="true" targetId="4e84-0897-bccf-7442"/>
+        <categoryLink name="Spell - Basic" id="b5e4-1fee-140b-84d0" hidden="false" primary="false" targetId="1d27-4644-eec1-0394"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="33a1-24a9-4029-c00c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Doomblast (Boosted)" id="622d-5daf-6c08-5aa6" hidden="false" targetId="49b2-dc30-023b-8c0c" type="profile"/>
+        <infoLink name="Weaken" id="ac73-579f-54ab-3880" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
+        <infoLink name="Doomblast" id="0204-1dcc-61b7-c4e8" hidden="false" targetId="2fdb-5316-8d15-155f" type="profile"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

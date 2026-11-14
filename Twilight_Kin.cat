@@ -854,7 +854,7 @@ of 1 or 2, the Reaper is removed from play.</description>
           <entryLinks>
             <entryLink name="Zap" id="1563-5d07-22c6-832c" collective="false" hidden="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
             <entryLink name="Lightning Bolt" id="aa6f-5d5b-0fd4-cd2f" collective="false" hidden="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-            <entryLink name="Thunderclap *" id="08b4-20eb-043d-b9b7" collective="false" hidden="false" import="true" targetId="fb3d-817e-7dde-6ee2" type="selectionEntry"/>
+            <entryLink name="Thunderclap *" id="ac4e-cc33-6a49-6635" hidden="false" import="true" targetId="fb3d-817e-7dde-6ee2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
