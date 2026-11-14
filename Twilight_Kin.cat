@@ -9,6 +9,7 @@
     <entryLink name="Voidwalker *" id="d016-2186-4de6-217c" hidden="false" targetId="1b35-b103-b847-b0af" type="selectionEntry"/>
     <entryLink name="Voidtouched Mutant *" id="bcce-b705-29a3-40e9" hidden="false" targetId="e3af-4dbc-5eef-6cab" type="selectionEntry"/>
     <entryLink name="Summoner Crone" id="3202-75b1-9b3a-0df8" collective="false" hidden="false" targetId="e6ca-2117-c882-5adc" type="selectionEntry"/>
+    <entryLink name="Summoned Reaper" id="9283-66d7-4ddd-19b0" collective="false" hidden="false" targetId="38d7-3b95-d478-ee2a" type="selectionEntry"/>
     <entryLink name="Twilight Assassin *" id="67e8-927f-8f91-0d1c" hidden="false" targetId="780a-38b7-ed44-ade9" type="selectionEntry"/>
     <entryLink name="Leithguard *" id="4aa8-258a-d868-34ba" collective="false" hidden="false" targetId="a8d5-4a12-f89d-7d73" type="selectionEntry"/>
     <entryLink name="Shadow" id="b377-b96c-be3d-b7ed" collective="false" hidden="false" targetId="8334-76d9-80d5-b442" type="selectionEntry"/>
@@ -23,7 +24,6 @@
     <entryLink name="Phantom" id="d301-2849-81bf-4356" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
     <entryLink name="Citizen Levy (X)" id="237a-fe95-a856-cc8e" collective="false" hidden="false" targetId="ab8e-9780-0b13-8ba1" type="selectionEntry"/>
     <entryLink name="Master Assassin *" id="ea5e-7a3c-2e2a-fb4a" hidden="false" import="true" targetId="45a6-1d38-52fa-f4f2" type="selectionEntry"/>
-    <entryLink name="Summoned Reaper" id="9283-66d7-4ddd-19b0" collective="false" hidden="false" import="true" targetId="38d7-3b95-d478-ee2a" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Summon the Reaper" id="089c-7efb-115e-68d4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -584,8 +584,8 @@ of 1 or 2, the Reaper is removed from play.</description>
     </selectionEntry>
     <selectionEntry name="Summoned Reaper" id="38d7-3b95-d478-ee2a" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
       <categoryLinks>
+        <categoryLink name="Additional Special Rules" id="3731-e4fe-89a6-8121" hidden="false" primary="true" targetId="9c8b-2b85-5f43-b599"/>
         <categoryLink name="Nightstalker" id="7d3f-450e-7dca-fc90" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
-        <categoryLink name="Faction Ability" id="782d-ffb6-1690-edd6" hidden="false" primary="true" targetId="b736-f2bd-d93d-6b4d"/>
       </categoryLinks>
       <constraints>
         <constraint id="1874-0740-1a5b-297f-min" field="selections" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
