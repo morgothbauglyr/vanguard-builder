@@ -69,8 +69,8 @@
       <categoryLinks>
         <categoryLink name="Command" id="f01a-7562-e5a6-9fe8" hidden="false" primary="false" targetId="8fce-4123-76c7-3f6f">
           <constraints>
-            <constraint id="5ea7-b586-52f1-b417" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="min" value="1"/>
-            <constraint id="d131-c299-3e04-cbf7" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="0"/>
+            <constraint id="5ea7-b586-52f1-b417" field="selections" includeChildForces="true" includeChildSelections="true" message="The Warband requires a minimum of 1 **Command** model." percentValue="false" scope="roster" shared="true" type="min" value="1"/>
+            <constraint id="d131-c299-3e04-cbf7" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Command** models. You may select 1 **Command** model for every 3 **Grunt** or *Warrior** models." percentValue="false" scope="roster" shared="false" type="max" value="0"/>
           </constraints>
           <modifiers>
             <modifier field="d131-c299-3e04-cbf7" type="increment" value="1">
@@ -87,7 +87,7 @@
         </categoryLink>
         <categoryLink name="Grunt" id="16cd-c297-cd47-0f5f" hidden="false" primary="false" targetId="acf5-674c-f31b-80a2">
           <constraints>
-            <constraint id="3619-1a15-8c88-ab4d" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="min" value="5"/>
+            <constraint id="3619-1a15-8c88-ab4d" field="selections" includeChildForces="true" includeChildSelections="true" message="The Warband requires a minimum of {value} **Grunt** or **Warrior** models" percentValue="false" scope="roster" shared="false" type="min" value="5"/>
           </constraints>
           <modifiers>
             <modifier field="3619-1a15-8c88-ab4d" type="decrement" value="1">
@@ -100,19 +100,20 @@
         </categoryLink>
         <categoryLink name="Warrior" id="21a1-5df1-1b7c-f034" hidden="false" primary="false" targetId="29ef-0bb1-9ab6-8e5c">
           <constraints>
-            <constraint id="5933-24c9-7e0e-2d2c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="min" value="5"/>
+            <constraint id="5933-24c9-7e0e-2d2c" field="selections" includeChildForces="true" includeChildSelections="true" message="The Warband requires a minimum of {value} **Grunt** or **Warrior** models" percentValue="false" scope="roster" shared="false" type="min" value="5"/>
           </constraints>
           <modifiers>
             <modifier field="5933-24c9-7e0e-2d2c" type="decrement" value="1">
               <repeats>
                 <repeat childId="acf5-674c-f31b-80a2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
+                <repeat childId="5a7a-fe5f-4c55-b48f" childName="Grunt (Ogres)" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Support" id="cd54-3c4c-f51d-c27e" hidden="false" primary="false" targetId="c194-28e4-665e-319c">
           <constraints>
-            <constraint id="711d-47ee-927e-81df" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="0"/>
+            <constraint id="711d-47ee-927e-81df" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Support** models. You may select 1 **Support** model for every 3 **Grunt** or *Warrior* models." percentValue="false" scope="roster" shared="false" type="max" value="0"/>
           </constraints>
           <modifiers>
             <modifier field="711d-47ee-927e-81df" type="increment" value="1">
@@ -129,7 +130,7 @@
         </categoryLink>
         <categoryLink name="Spellcaster" id="6f5d-28f5-5c15-9bae" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb">
           <constraints>
-            <constraint id="ef03-b5e3-0379-e179" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
+            <constraint id="ef03-b5e3-0379-e179" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Spellcaster** models. You may select 1 **Spellcaster** model for every 3 **Grunt** or *Warrior* models." percentValue="false" scope="roster" shared="true" type="max" value="0"/>
           </constraints>
           <modifiers>
             <modifier field="ef03-b5e3-0379-e179" type="increment" value="1">
@@ -146,7 +147,7 @@
         </categoryLink>
         <categoryLink name="Large" id="6f62-c4f6-cd1e-6636" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d">
           <constraints>
-            <constraint id="902d-71ae-0a7e-d3de" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
+            <constraint id="902d-71ae-0a7e-d3de" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Large** models. You may select 1 **Large** model for every 150 total points." percentValue="false" scope="roster" shared="true" type="max" value="0"/>
           </constraints>
           <modifiers>
             <modifier field="902d-71ae-0a7e-d3de" type="increment" value="1">
@@ -168,7 +169,7 @@
         </categoryLink>
         <categoryLink name="Item - Unique" id="4ae7-09a8-d2ea-971b" hidden="false" targetId="af77-71a6-ae26-6c62">
           <constraints>
-            <constraint id="498e-e798-c739-8b47" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+            <constraint id="498e-e798-c739-8b47" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Unique** items. You may select 1 **Unique** item for every 150 points." scope="roster" shared="true" type="max" value="0"/>
           </constraints>
           <modifiers>
             <modifier field="498e-e798-c739-8b47" type="increment" value="1">
@@ -185,7 +186,7 @@
         </categoryLink>
         <categoryLink name="Item - Rare" id="1e26-8914-3711-4a5e" hidden="false" targetId="93ab-84de-150c-48d6">
           <constraints>
-            <constraint id="ff9a-6651-b4f1-38c8" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
+            <constraint id="ff9a-6651-b4f1-38c8" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Rare** items. You may select 1 **Rare** item for every 75 points." scope="roster" shared="true" type="max" value="0"/>
           </constraints>
           <modifiers>
             <modifier field="ff9a-6651-b4f1-38c8" type="increment" value="1">
@@ -203,247 +204,7 @@
           <modifiers>
             <modifier field="3623-3f96-14f5-52ac" type="increment" value="1">
               <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="20"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry name="Warband (0-100 pts)" id="536b-b213-85f7-fa7b" hidden="true">
-      <categoryLinks>
-        <categoryLink name="Command" id="ba36-681c-c813-fa18" hidden="false" primary="false" targetId="8fce-4123-76c7-3f6f">
-          <constraints>
-            <constraint id="2849-b148-7eb2-3014" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="2849-b148-7eb2-3014" type="increment" value="1">
-              <repeats>
-                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
-              </repeats>
-            </modifier>
-            <modifier field="2849-b148-7eb2-3014" type="increment" value="1">
-              <repeats>
-                <repeat childId="1951-64f4-88df-1a2c" childName="+1 Command" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-            <modifier field="2849-b148-7eb2-3014" type="decrement" value="1">
-              <conditions>
-                <condition childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="3"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Grunt" id="b264-260a-794f-c21b" hidden="false" primary="false" targetId="acf5-674c-f31b-80a2"/>
-        <categoryLink name="Warrior" id="39bc-79fd-9590-6739" hidden="false" primary="false" targetId="29ef-0bb1-9ab6-8e5c">
-          <constraints>
-            <constraint id="3f5f-cf3e-5276-baf5" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="min" value="2"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Support" id="bf8c-ebd1-fed4-145f" hidden="false" primary="false" targetId="c194-28e4-665e-319c">
-          <constraints>
-            <constraint id="90a4-6b00-777b-f1ae" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="90a4-6b00-777b-f1ae" type="increment" value="1">
-              <repeats>
-                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
-              </repeats>
-            </modifier>
-            <modifier field="90a4-6b00-777b-f1ae" type="increment" value="1">
-              <repeats>
-                <repeat childId="9e8a-8bfd-c8a2-5b7b" childName="+1 Support" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Spellcaster" id="052d-33cb-0eff-c552" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb">
-          <constraints>
-            <constraint id="8f20-6d39-3c6e-a260" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="8f20-6d39-3c6e-a260" type="increment" value="1">
-              <repeats>
-                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
-              </repeats>
-            </modifier>
-            <modifier field="8f20-6d39-3c6e-a260" type="increment" value="1">
-              <repeats>
-                <repeat childId="c245-14cb-7ad8-08eb" childName="+1 Spellcaster" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Large" id="ebcf-f3a9-22a0-bd33" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d">
-          <constraints>
-            <constraint id="350b-1746-33b3-21c4" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Item - Unique" id="3b05-f7a2-f170-4524" hidden="false" targetId="af77-71a6-ae26-6c62">
-          <constraints>
-            <constraint id="83fd-1a87-38a1-8ac0" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Item - Rare" id="d3da-7384-2d74-0521" hidden="false" targetId="93ab-84de-150c-48d6">
-          <constraints>
-            <constraint id="8851-75f2-a69e-c283" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="8851-75f2-a69e-c283" type="increment" value="1">
-              <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="75"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Faction Ability" id="18fd-744c-9f8e-5f2a" hidden="false" targetId="b736-f2bd-d93d-6b4d"/>
-        <categoryLink name="Model" id="0c50-0d57-e12d-d4d8" exportable="false" hidden="false" targetId="957c-0d8a-3170-73d3" tracked="true">
-          <constraints>
-            <constraint id="d2d5-9371-5544-f5b4" field="selections" includeChildForces="true" includeChildSelections="true" message="**{difference} models over limit.** {current} out of {value} maximum." scope="roster" shared="true" type="max" value="5"/>
-          </constraints>
-          <modifiers>
-            <modifier field="d2d5-9371-5544-f5b4" type="increment" value="1">
-              <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="20"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry name="Warband (101-199 pts)" id="474d-c355-7866-3feb" hidden="true">
-      <categoryLinks>
-        <categoryLink name="Command" id="1277-36cb-2c1a-b1e6" hidden="false" primary="false" targetId="8fce-4123-76c7-3f6f">
-          <constraints>
-            <constraint id="0045-4579-3b2b-5e2d" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="0045-4579-3b2b-5e2d" type="increment" value="1">
-              <repeats>
-                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
-              </repeats>
-            </modifier>
-            <modifier field="0045-4579-3b2b-5e2d" type="increment" value="1">
-              <repeats>
-                <repeat childId="1951-64f4-88df-1a2c" childName="+1 Command" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Grunt" id="292d-1287-1e8a-78d4" hidden="false" primary="false" targetId="acf5-674c-f31b-80a2">
-          <constraints>
-            <constraint id="0c33-bd8f-54e0-95b0" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="min" value="4"/>
-          </constraints>
-          <modifiers>
-            <modifier field="0c33-bd8f-54e0-95b0" type="decrement" value="1">
-              <repeats>
-                <repeat childId="29ef-0bb1-9ab6-8e5c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-                <repeat childId="5a7a-fe5f-4c55-b48f" childName="Grunt (Ogres)" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Warrior" id="016b-f453-9bab-bd81" hidden="false" primary="false" targetId="29ef-0bb1-9ab6-8e5c">
-          <constraints>
-            <constraint id="753d-c7d9-a725-82e0" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="min" value="4"/>
-          </constraints>
-          <modifiers>
-            <modifier field="753d-c7d9-a725-82e0" type="decrement" value="1">
-              <repeats>
-                <repeat childId="acf5-674c-f31b-80a2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Support" id="ff00-b870-40f1-a741" hidden="false" primary="false" targetId="c194-28e4-665e-319c">
-          <constraints>
-            <constraint id="0fec-477d-daa4-9b01" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="0fec-477d-daa4-9b01" type="increment" value="1">
-              <repeats>
-                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
-              </repeats>
-            </modifier>
-            <modifier field="0fec-477d-daa4-9b01" type="increment" value="1">
-              <repeats>
-                <repeat childId="9e8a-8bfd-c8a2-5b7b" childName="+1 Support" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Spellcaster" id="98c8-4bc8-a857-ac56" hidden="false" primary="false" targetId="e745-e5aa-ccb6-cecb">
-          <constraints>
-            <constraint id="9208-0e24-451a-b24e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="9208-0e24-451a-b24e" type="increment" value="1">
-              <repeats>
-                <repeat childId="681e-00ba-4082-fb91" childName="Troop" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="3"/>
-              </repeats>
-            </modifier>
-            <modifier field="9208-0e24-451a-b24e" type="increment" value="1">
-              <repeats>
-                <repeat childId="c245-14cb-7ad8-08eb" childName="+1 Spellcaster" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Large" id="ce4c-a107-c08a-be4d" hidden="false" primary="false" targetId="5386-cda4-ccc0-f38d">
-          <constraints>
-            <constraint id="d7e3-89ef-b0e3-9cb2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="d7e3-89ef-b0e3-9cb2" type="increment" value="1">
-              <repeats>
-                <repeat field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="150"/>
-              </repeats>
-            </modifier>
-            <modifier field="d7e3-89ef-b0e3-9cb2" type="increment" value="1">
-              <conditions>
-                <condition childId="5649-5554-ab64-b9dc" childName="Large Command" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
-              </conditions>
-            </modifier>
-            <modifier field="d7e3-89ef-b0e3-9cb2" type="increment" value="1">
-              <repeats>
-                <repeat childId="0e3f-0c65-189b-70eb" childName="+1 Large" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Item - Unique" id="0b85-a3b8-bf47-6ba3" hidden="false" targetId="af77-71a6-ae26-6c62">
-          <constraints>
-            <constraint id="b59b-6088-3dcc-af39" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="b59b-6088-3dcc-af39" type="increment" value="1">
-              <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="150"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Item - Rare" id="5766-e25f-7e58-a251" hidden="false" targetId="93ab-84de-150c-48d6">
-          <constraints>
-            <constraint id="91de-b691-9e7d-888f" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="91de-b691-9e7d-888f" type="increment" value="1">
-              <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="75"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Faction Ability" id="3ec6-7f72-687b-36ae" hidden="false" targetId="b736-f2bd-d93d-6b4d"/>
-        <categoryLink name="Model" id="ccdb-2f85-d9e3-0da1" exportable="false" hidden="false" targetId="957c-0d8a-3170-73d3" tracked="true">
-          <constraints>
-            <constraint id="4c91-d663-3b46-22fe" field="selections" includeChildForces="true" includeChildSelections="true" message="**{difference} models over limit.** {current} out of {value} maximum." scope="roster" shared="true" type="max" value="5"/>
-          </constraints>
-          <modifiers>
-            <modifier field="4c91-d663-3b46-22fe" type="increment" value="1">
-              <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="20"/>
+                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="5" roundUp="false" scope="roster" shared="true" value="100"/>
               </repeats>
             </modifier>
           </modifiers>
