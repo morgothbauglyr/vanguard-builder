@@ -60,6 +60,8 @@
     <categoryEntry name="Large (Ogres)" id="a8c1-0f86-be6c-7e6f" hidden="false"/>
     <categoryEntry name="Beastman" id="8ac4-4f1f-0eec-fefa" hidden="false"/>
     <categoryEntry name="Model" id="957c-0d8a-3170-73d3" hidden="false" tracked="true"/>
+    <categoryEntry name="Abyssal" id="081d-b31d-3d9e-912a" hidden="false"/>
+    <categoryEntry name="Efreet" id="a0ad-62cd-304f-2a6a" hidden="true"/>
   </categoryEntries>
   <costTypes>
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
@@ -2304,12 +2306,20 @@ player.</description>
         <infoLink name="Breath" id="3218-b537-41ec-f536" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
         <infoLink name="Fireball (Boosted)" id="edf6-2ad6-546c-ba50" hidden="false" targetId="b810-d5ea-5d87-057c" type="profile">
           <modifiers>
-            <modifier field="8297-1752-8ed2-7571" type="set" value="3D8"/>
+            <modifier field="8297-1752-8ed2-7571" type="set" value="3D8">
+              <conditions>
+                <condition childId="a0ad-62cd-304f-2a6a" childName="Efreet" field="selections" includeChildSelections="true" scope="parent" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Fireball" id="2d63-84b7-26c7-7e7b" hidden="false" targetId="ee3a-a7b1-7519-c4a2" type="profile">
           <modifiers>
-            <modifier field="8297-1752-8ed2-7571" type="set" value="3D8"/>
+            <modifier field="8297-1752-8ed2-7571" type="set" value="3D8">
+              <conditions>
+                <condition childId="a0ad-62cd-304f-2a6a" childName="Efreet" field="selections" includeChildSelections="true" scope="parent" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -3593,12 +3603,20 @@ player.</description>
       <infoLinks>
         <infoLink name="Flameblast *" id="9d5b-2b5d-8439-d840" hidden="false" targetId="2b46-6085-7569-37eb" type="profile">
           <modifiers>
-            <modifier field="8297-1752-8ed2-7571" type="set" value="4D8"/>
+            <modifier field="8297-1752-8ed2-7571" type="set" value="4D8">
+              <conditions>
+                <condition childId="a0ad-62cd-304f-2a6a" childName="Efreet" field="selections" includeChildSelections="true" scope="parent" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Flameblast *" id="9b9f-7984-0705-a3a8" hidden="false" targetId="9f27-e1bc-16d4-b6af" type="profile">
           <modifiers>
-            <modifier field="2e7f-fdd0-d47c-b762" type="set" value="4D8"/>
+            <modifier field="2e7f-fdd0-d47c-b762" type="set" value="4D8">
+              <conditions>
+                <condition childId="a0ad-62cd-304f-2a6a" childName="Efreet" field="selections" includeChildSelections="true" scope="parent" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>

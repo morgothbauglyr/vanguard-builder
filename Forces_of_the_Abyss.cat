@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Forces of the Abyss" id="0894-e38c-85dd-ba12" authorContact="
 " battleScribeVersion="2.03" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" library="false" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <categoryEntries>
-    <categoryEntry name="Abyssal" id="081d-b31d-3d9e-912a" hidden="false"/>
-  </categoryEntries>
   <entryLinks>
     <entryLink name="Abyssal Guard" id="6b95-8a7f-b6e4-ca54" hidden="false" import="true" targetId="1864-7997-9702-5899" type="selectionEntry"/>
     <entryLink name="Abyssal Warlock" id="a496-3b63-aaf1-b19e" hidden="false" import="true" targetId="d6cb-8684-a42a-81c4" type="selectionEntry"/>
@@ -296,7 +293,7 @@
       <description>While within 3” of one or more models in a warband with this rule, enemy models suffer a -1 modifier on their Melee attacks.</description>
     </rule>
     <rule name="Infernal Immolation" id="4d4d-f673-7c80-8104" hidden="false">
-      <description>The Efreet&apos;s Fireball and Flameblast spells gains +1D8.</description>
+      <description>The Efreet&apos;s Fireball and Flameblast spells gains +1D8 (Profile modified automatically).</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -855,6 +852,7 @@
         <categoryLink name="Support" id="b99b-7e92-fa02-cd29" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Abyssal" id="509f-82e8-e101-ca6a" hidden="false" primary="false" targetId="081d-b31d-3d9e-912a"/>
         <categoryLink name="Model" id="bc02-291a-e9e4-b8d2" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
+        <categoryLink name="Efreet" id="4550-8269-b5cd-6fe4" hidden="false" primary="false" targetId="a0ad-62cd-304f-2a6a"/>
       </categoryLinks>
       <constraints>
         <constraint id="6611-c20f-940f-c09f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
