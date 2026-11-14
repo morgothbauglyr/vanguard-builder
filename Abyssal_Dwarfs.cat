@@ -302,6 +302,13 @@ is Knocked-down.</characteristic>
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Reduce the wounds suffered by the ABYSSAL DWARF Command model by one. The Ratkin Slave is then removed from play as a casualty.</characteristic>
       </characteristics>
     </profile>
+    <profile name="INFERNAL INFLUENCE" id="4c5d-8951-372b-7738" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">After taking an Action with this model.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Any standing, unengaged, friendly ABYSSAL DWARF models within 6” of the Overmaster can immediately Walk up to 2” in any direction, following the rules for Walk actions.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="SLAVEHOOKS (X)" id="bbda-fb67-8865-7dd4" hidden="false">
@@ -545,6 +552,7 @@ is Knocked-down.</characteristic>
         <entryLink name="Items" id="6f8e-94a4-a63c-4420" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
+        <infoLink name="INFERNAL INFLUENCE" id="814d-b2ae-2c9d-9a95" hidden="false" targetId="4c5d-8951-372b-7738" type="profile"/>
         <infoLink name="Overmaster" id="5851-26e4-8dd2-c64d" hidden="false" targetId="9688-dc5a-13fd-7e68" type="profile"/>
         <infoLink name="Power Dice Red/Black (1)" id="dc5a-8936-2368-3163" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Steady" id="3760-8885-1a38-21be" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
@@ -560,15 +568,6 @@ is Knocked-down.</characteristic>
           </repeats>
         </modifier>
       </modifiers>
-      <profiles>
-        <profile name="INFERNAL INFLUENCE" id="4c5d-8951-372b-7738" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
-          <characteristics>
-            <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
-            <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">After taking an Action with this model.</characteristic>
-            <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Any standing, unengaged, friendly ABYSSAL DWARF models within 6” of the Overmaster can immediately move up to 2” in any direction, following the normal movement rules.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry name="Mutated Mastiff" id="0000-7ad0-c30e-3a01" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
