@@ -65,7 +65,7 @@
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <forceEntries>
-    <forceEntry name="Warband" id="3734-3c1c-d6b8-29c2" hidden="false">
+    <forceEntry name="Warband" id="3734-3c1c-d6b8-29c2" hidden="false" import="false">
       <categoryLinks>
         <categoryLink name="Command" id="f01a-7562-e5a6-9fe8" hidden="false" primary="false" targetId="8fce-4123-76c7-3f6f">
           <constraints>
@@ -83,6 +83,16 @@
                 <repeat childId="1951-64f4-88df-1a2c" childName="+1 Command" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
               </repeats>
             </modifier>
+            <modifier field="5ea7-b586-52f1-b417" type="set" value="0">
+              <conditions>
+                <condition field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="200"/>
+              </conditions>
+            </modifier>
+            <modifier field="d131-c299-3e04-cbf7" type="set" value="1">
+              <conditions>
+                <condition field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atMost" value="100"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Grunt" id="16cd-c297-cd47-0f5f" hidden="false" primary="false" targetId="acf5-674c-f31b-80a2">
@@ -96,6 +106,16 @@
                 <repeat childId="5a7a-fe5f-4c55-b48f" childName="Grunt (Ogres)" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
               </repeats>
             </modifier>
+            <modifier field="3619-1a15-8c88-ab4d" type="decrement" value="1">
+              <conditions>
+                <condition field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="200"/>
+              </conditions>
+            </modifier>
+            <modifier field="3619-1a15-8c88-ab4d" type="set" value="0">
+              <conditions>
+                <condition field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atMost" value="100"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Warrior" id="21a1-5df1-1b7c-f034" hidden="false" primary="false" targetId="29ef-0bb1-9ab6-8e5c">
@@ -106,7 +126,18 @@
             <modifier field="5933-24c9-7e0e-2d2c" type="decrement" value="1">
               <repeats>
                 <repeat childId="acf5-674c-f31b-80a2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
+                <repeat childId="5a7a-fe5f-4c55-b48f" childName="Grunt (Ogres)" field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="1"/>
               </repeats>
+            </modifier>
+            <modifier field="5933-24c9-7e0e-2d2c" type="decrement" value="1">
+              <conditions>
+                <condition childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="200"/>
+              </conditions>
+            </modifier>
+            <modifier field="5933-24c9-7e0e-2d2c" type="decrement" value="2">
+              <conditions>
+                <condition childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atMost" value="100"/>
+              </conditions>
             </modifier>
           </modifiers>
         </categoryLink>
