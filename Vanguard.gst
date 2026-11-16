@@ -1453,7 +1453,7 @@ familiar next to the casting model (within 1”) as a reminder (it has no physic
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
         <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">At the start of this model&apos;s activation.</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Increase this model&apos;s SP by 1.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Increase this model&apos;s Sp by 1 when it performs a Charge Action. For any other movement Sp remains unchanged.</characteristic>
       </characteristics>
     </profile>
     <profile name="RANGE BOOST (6&quot;)" id="ec0a-6cfc-234e-3a25" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -1721,7 +1721,7 @@ Alternatively the model may Shoot as a short action, but with a -1 to hit modifi
     <rule name="Pound" id="7fd8-583b-4c57-d0c9" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>If an attack with this rule scores 3 or more hits and the target is not killed, it is Knocked-down. Apply this rule after any possible Down But Not Out result.</description>
     </rule>
-    <rule name="Regenerate (n+)" id="2314-80d9-833b-9841" hidden="false" page="" publicationId="37f5-f8f9-pubN68000">
+    <rule name="Regenerate (n+)" id="2314-80d9-833b-9841" hidden="false" publicationId="37f5-f8f9-pubN68000">
       <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
 equal to or better than the n value, the model recovers one wound previously suffered in the
 game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
@@ -1895,7 +1895,7 @@ player.</description>
         <constraint id="531b-7993-9145-f83c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="9075-c2a4-08b7-f061" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="9075-c2a4-08b7-f061" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -2010,7 +2010,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
       </costs>
       <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="5fbf-d99f-6133-4457" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+        <infoLink name="Crushing Strength (n)" id="5fbf-d99f-6133-4457" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -2151,7 +2151,7 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Marksman" id="c12b-e0ee-f452-18f4" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
-        <infoLink name="Piercing (1)" id="04cb-9f06-32e6-4c9b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="04cb-9f06-32e6-4c9b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -2302,7 +2302,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="d247-2f3d-3f45-2c67" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="d247-2f3d-3f45-2c67" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -2324,7 +2324,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="8f9a-b006-bf7e-4a8d" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="8f9a-b006-bf7e-4a8d" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -2468,7 +2468,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="7f8a-7beb-9468-5154" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="7f8a-7beb-9468-5154" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -2860,7 +2860,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="5555-76e8-db5c-2eab" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+        <infoLink name="Crushing Strength (n)" id="5555-76e8-db5c-2eab" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3016,7 +3016,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <infoLinks>
-        <infoLink name="Regenerate (6+)" id="cbcd-4a89-5912-fb62" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="cbcd-4a89-5912-fb62" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Medallion of Life" id="9395-6a8b-7ba4-0298" hidden="false" targetId="3f10-1065-ef2d-9ea8" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -3080,7 +3080,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
       </costs>
       <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="8e8d-3a26-3f48-fb50" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="8e8d-3a26-3f48-fb50" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Energy Chrystal (Uncommon)" id="44ca-a538-18ed-43c0" collective="false" displayGroup="Items" hidden="false" import="true" publicationId="2cf9-338e-6b9a-a228" type="upgrade">
@@ -3540,7 +3540,7 @@ player.</description>
       <infoLinks>
         <infoLink name="Rifle" id="55e7-638c-d283-ddc4" hidden="false" targetId="601d-8267-5d52-9b4c" type="profile"/>
         <infoLink name="Marksman" id="98b2-e2f5-155f-3623" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
-        <infoLink name="Piercing (1)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3559,7 +3559,7 @@ player.</description>
       <infoLinks>
         <infoLink name="Meteor (Boosted)*" id="9564-daf3-3161-c1f1" hidden="false" targetId="fc73-dc4b-2345-0a94" type="profile"/>
         <infoLink name="Meteor (Boosted) *" id="c628-a5f6-9cd1-7e87" hidden="false" targetId="a58d-3b04-79fc-2bf3" type="profile"/>
-        <infoLink name="Piercing (1)" id="63e9-1bf5-427d-16d3" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="63e9-1bf5-427d-16d3" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3635,7 +3635,7 @@ player.</description>
       <infoLinks>
         <infoLink name="Rifle" id="1315-5cb5-9a99-e1e7" hidden="false" targetId="601d-8267-5d52-9b4c" type="profile"/>
         <infoLink name="Marksman" id="6fb3-0d2f-6be4-e814" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
-        <infoLink name="Piercing (1)" id="567a-c740-9254-47e0" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="567a-c740-9254-47e0" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3693,7 +3693,7 @@ player.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Pistol" id="5283-c8aa-4b9b-f163" hidden="false" targetId="87f9-3979-0e14-456d" type="profile"/>
-        <infoLink name="Piercing (1)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3710,7 +3710,7 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (+1)" id="19df-0289-aff6-b969" hidden="false" targetId="a183-8a40-07d8-9da4" type="rule"/>
-        <infoLink name="Lowered Armour (1)" id="b689-feaa-688f-4c2c" hidden="false" targetId="d471-ad07-79a8-169e" type="rule">
+        <infoLink name="Lowered Armour (n)" id="b689-feaa-688f-4c2c" hidden="false" targetId="d471-ad07-79a8-169e" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3739,7 +3739,7 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (+1)" id="9459-6b98-8bed-e11a" hidden="false" targetId="a183-8a40-07d8-9da4" type="rule"/>
-        <infoLink name="Lowered Armour (1)" id="ed39-0669-86c9-80df" hidden="false" targetId="d471-ad07-79a8-169e" type="rule">
+        <infoLink name="Lowered Armour (n)" id="ed39-0669-86c9-80df" hidden="false" targetId="d471-ad07-79a8-169e" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3771,7 +3771,7 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Pistol" id="9581-15c1-6c42-6757" hidden="false" targetId="87f9-3979-0e14-456d" type="profile"/>
-        <infoLink name="Piercing (1)" id="4794-c5cc-dfeb-c27c" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="4794-c5cc-dfeb-c27c" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3847,7 +3847,7 @@ player.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Harpoon-gun" id="aa0c-5b7a-82e9-a0d8" hidden="false" targetId="497e-058c-5430-3f04" type="profile"/>
-        <infoLink name="Piercing (1)" id="f689-0b5a-259c-d192" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="f689-0b5a-259c-d192" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
@@ -3880,7 +3880,7 @@ player.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Poisoned Throwing Weapon" id="c1a4-09f1-0574-4eb3" hidden="false" targetId="3349-410f-a031-6379" type="profile"/>
-        <infoLink name="Piercing (1)" id="e417-6a59-5b6e-ba91" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink name="Piercing (n)" id="e417-6a59-5b6e-ba91" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
           <modifiers>
             <modifier arg="(n" field="name" type="replace" value="(1"/>
           </modifiers>
