@@ -69,9 +69,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Mob Assault, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Barrow Wight" id="a0cc-fe04-4e83-5ffc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -83,9 +84,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Pathfinder, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Crypt Gouger" id="c55f-c1b5-b692-4f7e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -97,9 +99,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Dodge, Pathfinder, Scout, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Ghost" id="6a51-3ebd-f73a-98ff" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -111,9 +114,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">7+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Chilling Presence, Dodge, Fly, Stealthy, Support Caster</characteristic>
       </characteristics>
     </profile>
     <profile name="Ghoul" id="3890-340e-da92-cf48" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -125,9 +129,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Dodge</characteristic>
       </characteristics>
     </profile>
     <profile name="Goreblight" id="602d-548f-aa2f-2ce5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -139,9 +144,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">6</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Steady</characteristic>
       </characteristics>
     </profile>
     <profile name="Necromancer" id="5a91-251b-23cf-d7fd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -153,9 +159,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Revenant" id="19bd-67f6-9596-294c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -167,9 +174,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Skeletal Dog Pack" id="da83-c190-9fc4-d00d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -181,9 +189,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Swarm, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Skeleton" id="e4cd-06fb-ba17-5cae" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -195,9 +204,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Skeleton Archer" id="4000-736f-9b9e-d2de" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -209,9 +219,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Soul Reaver" id="9840-e5a6-02ad-67c5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -223,9 +234,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Crushing Strength (1), Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Vampire" id="812c-bccd-9a5b-8037" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -237,9 +249,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">6th Sense, Bloodlust, Crushing Strength (1), Fly, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Vampire Bat Swarm" id="989f-3720-3072-ee5f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -251,9 +264,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Fly, Smash, Swarm</characteristic>
       </characteristics>
     </profile>
     <profile name="Werewolf" id="42f6-37d9-5c5b-e2b2" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -265,9 +279,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Crushing Strength (2), Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Wraith" id="3f70-056d-ef98-a941" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -279,9 +294,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Fly</characteristic>
       </characteristics>
     </profile>
     <profile name="Zombie" id="9cc2-ba28-1e05-ed33" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -293,9 +309,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Mob Assault</characteristic>
       </characteristics>
     </profile>
     <profile name="Zombie Troll" id="0692-1aa3-a47c-6c20" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -307,9 +324,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Mob Assault, Vicious Swipe</characteristic>
       </characteristics>
     </profile>
     <profile name="Haunting Spirits" id="d240-3837-92b0-669b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -321,9 +339,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Fly, Swarm, Uncanny Presence</characteristic>
       </characteristics>
     </profile>
     <profile name="Banshee" id="a30f-450c-c58b-895e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -335,9 +354,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Fly</characteristic>
       </characteristics>
     </profile>
     <profile name="Terror Shriek" id="d28b-92e0-5932-52e2" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -365,7 +385,7 @@
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
         <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">When this model activates.</characteristic>
-        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Place a new Zombie model anywhere within 3” of the Caster and more than 1” from any enemy models. Mark the new model as Activated. The newly raised Skeleton is now a member of the warband for the duration of the current game only.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Place a new Zombie model anywhere within 3” of the Caster or withing 3&quot; of a grave marker and more than 1” from any enemy models. Mark the new model as Activated. The newly raised Zombie is now a member of the warband for the duration of the current game only.</characteristic>
       </characteristics>
     </profile>
     <profile name="CHILLING STRIKE" id="effa-f50d-2648-5020" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -396,6 +416,13 @@
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Every enemy model within 3&quot; and LOS of this model is hit with a XD8 Melee attack from this model where X is the amount of Power used (with a minimum of 1). No retaliations are possible from these attacks.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Shallow Graves" id="64e1-413a-1eaa-84f7" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+      <characteristics>
+        <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697"/>
+        <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">As a short action.</characteristic>
+        <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model may place a 25mm grave marker anywhere within 4&quot; (not into impassable terrain or onto a model). When a friendly Necromancer casts Raise Dead, the raised skeleton can be placed within 3&quot; of a grave marker rather than the Necromancer and then the grave marker is removed. Grave markers cannot be destroyed or moved but otherwise do not affect movement or LOS.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Deathless Bond" id="e5ea-d5c6-d980-b72b" hidden="false">
@@ -406,13 +433,14 @@
 Once the warband is broken however, all UNDEAD models that are reduced to zero (or fewer) wounds, automatically get a Too Much Damage result.</description>
     </rule>
     <rule name="Shallow Graves (short)" id="c2dd-c89e-2c7d-b490" hidden="false">
-      <description>As a short action, this model may place a 25mm grave marker anywhere within 4&quot; (not into impassable terrain or onto a model). When a friendly Necromancer casts Raise Dead, the raised skeleton can be placed within 3&quot; of a grave marker rather than the Necromancer and then the grave marker is removed. Grave markers cannot be destroyed or moved but otherwise do not affect movement or LOS.</description>
+      <description>, </description>
     </rule>
     <rule name="Chilling Presence" id="77cc-7ee8-a477-8446" hidden="false">
       <description>When an enemy model activates within  3&quot; of this model, it must make a Fallback! check, as though its warband were broken, before it makes any actions or uses abilities.</description>
     </rule>
     <rule name="Uncanny Presence *" id="4e6f-0f4f-b4c5-b9a6" hidden="false">
       <description>Enemy models within 3&quot; of this model reduce their Ne by 1. If an enemy model is in range of multiple sources of this effect, only one is applied.</description>
+      <alias>Uncanny Presence</alias>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -554,11 +582,20 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       </costs>
       <entryLinks>
         <entryLink name="Items" id="6ec2-e7f3-7ebe-39c7" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="48a8-c32a-4c2e-ecf7" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="3c8d-c7bd-98e4-c2e5-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="3c8d-c7bd-98e4-c2e5-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Barrow Wight" id="ac0b-1697-c005-073a" hidden="false" targetId="a0cc-fe04-4e83-5ffc" type="profile"/>
-        <infoLink name="Power Dice Red/Black (1)" id="93b5-66cb-c8c7-9e18" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="3197-569a-b9cc-4ec6" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="3197-569a-b9cc-4ec6" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Vicious" id="96b9-352b-af53-dfad" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Pathfinder" id="74c2-2041-e7b5-c33f" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="ANCIENT FURY" id="8202-17f3-74a8-5656" hidden="false" targetId="0a96-da07-b7c9-e7cc" type="profile"/>
@@ -585,15 +622,20 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       </costs>
       <entryLinks>
         <entryLink name="Items" id="e7a9-acc7-2d00-bfba" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="fef0-8cde-aac9-d13d" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="80df-0db4-9092-c1cb-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="80df-0db4-9092-c1cb-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
+        <infoLink name="Shallow Graves" id="75b1-0fdd-8ff7-1c96" hidden="false" targetId="64e1-413a-1eaa-84f7" type="profile"/>
         <infoLink name="Crypt Gouger" id="8dc0-ea8b-ddf3-2d8c" hidden="false" targetId="c55f-c1b5-b692-4f7e" type="profile"/>
-        <infoLink name="Power Dice Red/Black (2)" id="2079-6584-cdb3-db26" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Dodge" id="7b17-4f5e-dc72-6e2a" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="Stealthy" id="046b-2b2b-04c1-b3c5" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Pathfinder" id="1e9f-c0ce-c595-5b6c" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Scout" id="806e-7f5e-1020-e545" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-        <infoLink name="Shallow Graves (short)" id="6b7c-bcc5-464e-c6d7" hidden="false" targetId="c2dd-c89e-2c7d-b490" type="rule"/>
         <infoLink name="BRAAAINS" id="b368-04f1-ce02-7c59" hidden="false" targetId="2f8b-dcfd-6eb2-69b7" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -691,7 +733,11 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <infoLinks>
         <infoLink name="Goreblight" id="6fee-ecf3-7c98-f2ef" hidden="false" targetId="602d-548f-aa2f-2ce5" type="profile"/>
         <infoLink name="Steady" id="f334-69b0-b7cc-0c56" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="d729-8220-d0e8-c5fe" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="d729-8220-d0e8-c5fe" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="TORMENTOR FLAILS" id="c7f7-0dc7-4751-79c7" hidden="false" targetId="fe17-3b04-6927-3a1f" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -718,10 +764,15 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <entryLinks>
         <entryLink name="Items" id="6290-3531-55c5-b870" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spell selection - Necromancer" id="bbbe-98a7-e412-6b9f" collective="false" hidden="false" import="true" targetId="b223-67e5-a489-372e" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="a2a5-e4b7-cefa-4596" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="a5dd-dacb-5df7-ea50-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="a5dd-dacb-5df7-ea50-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Necromancer" id="b0bd-97bd-f6a5-989e" hidden="false" targetId="5a91-251b-23cf-d7fd" type="profile"/>
-        <infoLink name="Power Dice White/Orange (2)" id="ce0c-9705-affd-e25e" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="a34f-2100-1c44-a9d0" type="increment" value="1">
@@ -840,7 +891,11 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       </entryLinks>
       <infoLinks>
         <infoLink name="Soul Reaver" id="179d-d4b4-f93a-1b08" hidden="false" targetId="9840-e5a6-02ad-67c5" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="dec3-3624-907c-7850" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="dec3-3624-907c-7850" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Vicious" id="b42d-8a75-53c9-f718" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Bloodlust" id="f1f6-1093-57f9-bcca" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
@@ -868,15 +923,24 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       </costs>
       <entryLinks>
         <entryLink name="Items" id="3f90-2f36-b992-ff62" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Blue/Green)" id="4736-f8c3-0206-6bf4" hidden="false" import="true" targetId="cef6-f523-38be-0b4f" type="selectionEntry">
+          <constraints>
+            <constraint id="08be-8a51-7723-ef0a-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="08be-8a51-7723-ef0a-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Vampire" id="b09e-3cb6-69e7-403c" hidden="false" targetId="812c-bccd-9a5b-8037" type="profile"/>
         <infoLink name="Fly" id="4384-fd4a-a2dd-818f" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="ee3f-855b-13a3-f2ee" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="ee3f-855b-13a3-f2ee" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Stealthy" id="b955-18ca-374c-af89" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Bloodlust" id="6418-5213-61a4-bdd9" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="6th Sense" id="b49a-1c4e-c682-f060" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
-        <infoLink name="Power Dice Blue/Green (1)" id="ef09-1085-1b26-e10f" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="BLOOD SIPHON" id="48d1-1e82-364b-377c" hidden="false" targetId="aff3-973e-b437-7931" type="profile">
           <comment>renamed from ankle biter</comment>
         </infoLink>
@@ -937,7 +1001,11 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <infoLinks>
         <infoLink name="Werewolf" id="b9a1-1baf-2cbc-4335" hidden="false" targetId="42f6-37d9-5c5b-e2b2" type="profile"/>
         <infoLink name="Vicious" id="48f6-465b-6983-4981" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="e519-3eac-d8d8-04e8" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="e519-3eac-d8d8-04e8" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Bloodlust" id="2a0b-7b85-1352-d27c" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -967,7 +1035,11 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <infoLinks>
         <infoLink name="Wraith" id="7a93-0718-a782-2fee" hidden="false" targetId="3f70-056d-ef98-a941" type="profile"/>
         <infoLink name="Fly" id="9768-52dd-c787-2677" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="6766-8044-5b75-432f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="6766-8044-5b75-432f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="e778-454f-533f-8502" type="increment" value="1">
@@ -1024,7 +1096,11 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
       <infoLinks>
         <infoLink name="Zombie Troll" id="a22f-2bcd-40e9-f51f" hidden="false" targetId="0692-1aa3-a47c-6c20" type="profile"/>
         <infoLink name="Mob Assault" id="8483-8f5d-edcc-9658" hidden="false" targetId="02e7-0f47-e451-32e3" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="d060-234a-58aa-d43a" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="d060-234a-58aa-d43a" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Vicious Swipe" id="47f3-6a85-16f5-4ec1" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -1063,7 +1139,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Banshee *" id="7bee-f4be-3a13-92dc" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+    <selectionEntry name="Wailing Banshee *" id="7bee-f4be-3a13-92dc" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Warrior" id="ad9c-580f-a795-ad1c" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
         <categoryLink name="Troop" id="b52e-6afb-7a06-3061" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
@@ -1133,9 +1209,10 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Fly</characteristic>
           </characteristics>
         </profile>
       </profiles>

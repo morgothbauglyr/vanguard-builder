@@ -10,9 +10,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Regenerate (6+)</characteristic>
       </characteristics>
     </profile>
     <profile name="Water Elemental" id="78ef-ac90-6fc1-b471" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -24,9 +25,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Regenerate (6+)</characteristic>
       </characteristics>
     </profile>
     <profile name="Elemental Fire" id="f46c-ab9b-b408-8840" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -53,9 +55,10 @@ Elemental Fire, before any dice are rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Pound, Regenerate (6+), Vicious Swipe</characteristic>
       </characteristics>
     </profile>
     <profile name="Earth Elemental" id="ec9d-80d2-e145-f3e0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -67,9 +70,10 @@ Elemental Fire, before any dice are rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">6</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Smash, Steady</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -89,12 +93,21 @@ Elemental Fire, before any dice are rolled.</characteristic>
       <entryLinks>
         <entryLink name="Items" id="3642-b970-8f52-f189" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Elemental Fire" id="d2da-5c4d-b2db-8253" collective="false" hidden="false" import="true" targetId="86f5-90a4-4824-685f" type="selectionEntry"/>
+        <entryLink name="Power Dice - (Red/Black)" id="08bc-9921-31ec-5d01" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="8e28-2d09-7e0d-ed93-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8e28-2d09-7e0d-ed93-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Fire Elemental" id="4193-f9a4-2f3d-2a77" hidden="false" targetId="04bc-9fb6-7a0c-3e5b" type="profile"/>
-        <infoLink name="Regenerate (6+)" id="2f5b-cec5-0b96-2677" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="2f5b-cec5-0b96-2677" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(6"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="NATURE’S INFERNO" id="074d-b5e5-1a24-1c19" hidden="false" targetId="bc8e-cf87-e55f-633f" type="profile"/>
-        <infoLink name="Power Dice Red/Black (1)" id="96f5-18c5-a070-1a45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="9c4c-a642-3ff8-f3fe" type="increment" value="1">
@@ -123,8 +136,16 @@ Elemental Fire, before any dice are rolled.</characteristic>
       </entryLinks>
       <infoLinks>
         <infoLink name="Water Elemental" id="5dce-9af2-87ec-772d" hidden="false" targetId="78ef-ac90-6fc1-b471" type="profile"/>
-        <infoLink name="Regenerate (6+)" id="51e9-92d1-7db6-5280" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="2825-a6bd-6b96-6793" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="51e9-92d1-7db6-5280" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(6"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Crushing Strength (n)" id="2825-a6bd-6b96-6793" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="1d3a-dda1-eb78-1c92" type="increment" value="1">
@@ -166,8 +187,16 @@ Elemental Fire, before any dice are rolled.</characteristic>
       <infoLinks>
         <infoLink name="Troll" id="6951-3f82-04e1-216d" hidden="false" targetId="fdc7-932f-7c04-5633" type="profile"/>
         <infoLink name="Pound" id="9825-5c0d-1cda-9879" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="df4b-051a-7a47-005b" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Regenerate (6+)" id="ffd6-9fdb-d476-ac90" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="df4b-051a-7a47-005b" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Regenerate (6+)" id="ffd6-9fdb-d476-ac90" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(6"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Vicious Swipe" id="dce9-dc12-9511-4baf" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -194,7 +223,11 @@ Elemental Fire, before any dice are rolled.</characteristic>
         <entryLink name="Items" id="6b27-ddf7-0021-2d22" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Crushing Strength (2)" id="9feb-1ff7-5de1-d1da" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="9feb-1ff7-5de1-d1da" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Smash" id="5e03-6b9b-e940-5c52" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Steady" id="e41b-a963-ee69-913d" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Earth Elemental" id="6d7c-fdc0-9991-fb11" hidden="false" targetId="ec9d-80d2-e145-f3e0" type="profile"/>

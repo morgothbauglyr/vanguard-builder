@@ -48,9 +48,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Thrall" id="81be-a1ab-f378-1583" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -62,9 +63,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Swarm</characteristic>
       </characteristics>
     </profile>
     <profile name="Night Raider" id="1ec9-36e6-5149-e9c4" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -76,9 +78,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Pathfinder, Scout, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Clansman" id="2c0d-1738-e5b7-d6c9" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -90,9 +93,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Direfang Rider" id="396c-865d-7909-5f35" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -104,9 +108,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13"/>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13"/>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Cavalry, Crushing Strength (3), Smash</characteristic>
       </characteristics>
     </profile>
     <profile name="Bloodsworn" id="8b57-bfcf-024d-b3a8" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -118,9 +123,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1)</characteristic>
       </characteristics>
     </profile>
     <profile name="Reaver" id="6a3f-0b0b-5469-037e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -132,9 +138,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="STRENGTH OF KORGAAN" id="1590-9750-4870-a2db" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -153,9 +160,10 @@ rolled.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Inspiring</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -225,7 +233,11 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5"/>
       </costs>
       <infoLinks>
-        <infoLink name="Regenerate (7+)" id="06d1-4fad-9ce7-7ed6" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="06d1-4fad-9ce7-7ed6" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(7"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Rage of Korgaan" id="b208-20e5-4712-5bef" collective="false" hidden="false" import="true" type="upgrade">
@@ -259,10 +271,15 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <entryLink name="Gifts of Korgaan" id="9f7b-b77c-8283-3633" collective="false" hidden="false" import="true" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
         <entryLink name="Items" id="bd6c-4af9-307d-dd74" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell Selection - Magus" id="a573-a4fd-0fea-36bc" collective="false" hidden="false" import="true" targetId="5850-e63d-9dbc-1647" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="7b47-a8ed-2447-45bb" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="8b2e-f6c9-32aa-192f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8b2e-f6c9-32aa-192f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Magus" id="71e7-05c6-bdfa-b32b" hidden="false" targetId="f939-6f36-44d3-9b8c" type="profile"/>
-        <infoLink name="Power Dice Red/Black (1)" id="0e9f-a74c-27aa-609f" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="FAMULUS" id="08fc-3607-1e80-fe8a" hidden="false" targetId="2176-77e1-c210-d204" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -371,7 +388,11 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
         <infoLink name="Smash" id="2829-f1d2-418a-f916" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Cavalry" id="b435-f244-af61-7d62" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Bloodlust" id="60ff-7cef-4933-a56c" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
-        <infoLink name="Crushing Strength (3)" id="c513-7567-10d8-c1cc" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="c513-7567-10d8-c1cc" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(3"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="9882-1a8c-192d-8277" type="increment" value="1">
@@ -401,7 +422,11 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
       </entryLinks>
       <infoLinks>
         <infoLink name="Bloodsworn" id="f6e5-3df7-ee07-7e9a" hidden="false" targetId="8b57-bfcf-024d-b3a8" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="3fa4-7551-a468-1511" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="3fa4-7551-a468-1511" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="f40f-6593-87ed-fbae" type="increment" value="1">
@@ -455,14 +480,28 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
       <entryLinks>
         <entryLink name="Gifts of Korgaan" id="1442-f899-c588-3806" collective="false" hidden="false" import="true" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
         <entryLink name="Items" id="defa-f364-533e-7c15" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="47a2-4156-7d31-aa54" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="8dba-de47-3ec3-18fe-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8dba-de47-3ec3-18fe-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Power Dice - (White/Orange)" id="e2c1-f54e-d5d5-da6a" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="2255-bd9b-6428-3dd8-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="2255-bd9b-6428-3dd8-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Chieftain" id="9477-f1a6-a54d-ddab" hidden="false" targetId="286b-06a6-c5af-5350" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="55f5-51cf-3ea3-0d31" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="55f5-51cf-3ea3-0d31" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="STRENGTH OF KORGAAN" id="4fd6-6100-3154-6225" hidden="false" targetId="1590-9750-4870-a2db" type="profile"/>
         <infoLink name="Inspiring" id="cd64-af93-4634-b036" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="def9-c096-23cd-9d42" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="6167-8269-bb04-a17d" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="e9e1-9061-febd-a8a3" type="increment" value="1">
@@ -525,9 +564,10 @@ Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pt
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
           </characteristics>
           <modifiers>
             <modifier field="cbb8-58cf-daa7-a95a" type="set" value="6+">

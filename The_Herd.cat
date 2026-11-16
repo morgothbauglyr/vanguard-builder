@@ -25,9 +25,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
       <modifiers>
         <modifier field="cbb8-58cf-daa7-a95a" type="set" value="6+">
@@ -65,9 +66,10 @@ minimum of 0) until the end of the Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="NATURE&apos;S BOON" id="f75e-c880-1bde-121e" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -86,9 +88,10 @@ minimum of 0) until the end of the Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Regenerate (6+), Smash, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Tribal Warrior" id="b122-9ff4-3d3f-a3ee" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -100,9 +103,10 @@ minimum of 0) until the end of the Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Spirit Walker" id="4c68-dffe-c8ad-0b26" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -114,9 +118,10 @@ minimum of 0) until the end of the Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Dodge, Stealthy, Vengeful Spirits</characteristic>
       </characteristics>
     </profile>
     <profile name="Tribal Hunter" id="caaf-fed7-d035-ab74" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -128,9 +133,10 @@ minimum of 0) until the end of the Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Scout</characteristic>
       </characteristics>
     </profile>
     <profile name="Great Chieftain" id="4815-df01-6e89-0d3e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -142,9 +148,10 @@ minimum of 0) until the end of the Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Harpy" id="7194-581e-9729-1ec0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -156,9 +163,10 @@ minimum of 0) until the end of the Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Fly, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="KYRON&apos;S HUNT" id="6d10-f455-78c1-d135" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -261,12 +269,17 @@ Spend the Power to nominate a group and activate them together. The members of t
       <entryLinks>
         <entryLink name="Items" id="01b2-fe51-74ce-2957" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell Selection -  Shaman" id="08ed-acf1-9028-8a9b" collective="false" hidden="false" import="true" targetId="f3c1-25d6-6a56-0cf7" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="91c3-fa35-d64f-2654" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="9a1c-1f74-d0e3-1172-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="9a1c-1f74-d0e3-1172-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="NATURE&apos;S BOON" id="2d5b-b395-d1aa-f27d" hidden="false" targetId="f75e-c880-1bde-121e" type="profile"/>
         <infoLink name="Shaman" id="44d3-989b-34c5-2f80" hidden="false" targetId="2b38-9580-a9e3-3c15" type="profile"/>
         <infoLink name="Inspiring" id="99f9-0c69-2630-2020" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice Red/Black (2)" id="46a8-a5b6-9a6b-39d6" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="9beb-d801-4566-00c4" type="increment" value="1">
@@ -298,7 +311,11 @@ Spend the Power to nominate a group and activate them together. The members of t
         <infoLink name="Smash" id="5cf4-d048-3083-8280" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Regenerate (6+)" id="3c55-78a6-75d3-7677" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Vicious" id="63a4-4ee6-d437-f15c" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="1ed7-6141-99db-e32e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength" id="1ed7-6141-99db-e32e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="78b8-7484-aee5-6e5d" type="increment" value="1">
@@ -426,13 +443,27 @@ Spend the Power to nominate a group and activate them together. The members of t
       </costs>
       <entryLinks>
         <entryLink name="Items" id="9e5d-f300-946a-9c46" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="2ebb-5f14-7d72-6d2a" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="1da5-aeae-8d78-48f3-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="1da5-aeae-8d78-48f3-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Power Dice - (White/Orange)" id="eb45-6352-dbb3-8ec9" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="500f-ebc6-85a6-8013-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="500f-ebc6-85a6-8013-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Great Chieftain" id="09b7-db45-9c00-0148" hidden="false" targetId="4815-df01-6e89-0d3e" type="profile"/>
         <infoLink name="Inspiring" id="a8f3-ad36-a926-0c35" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="3524-ad09-8624-4f9f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="7802-f91f-9c14-8258" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="be8b-a9f3-9f1b-d501" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="3524-ad09-8624-4f9f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="BATTLE RAGE" id="285f-5989-5251-39d9" hidden="false" targetId="b261-1cc2-d69c-f8ca" type="profile"/>
       </infoLinks>
       <modifiers>

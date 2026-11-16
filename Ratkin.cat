@@ -70,9 +70,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">7+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Worthless</characteristic>
       </characteristics>
     </profile>
     <profile name="Vermintide" id="37ee-f9a9-723d-84f5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -84,9 +85,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Regenerate (6+), Swarm</characteristic>
       </characteristics>
     </profile>
     <profile name="Ratkin Warrior" id="54f8-1895-b61f-3b9e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -98,9 +100,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Hackpaw" id="3952-39a0-fc4a-75f6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -112,9 +115,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Shock Trooper" id="bba8-9dc1-1a3a-a64f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -126,9 +130,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Swarm Crier" id="a48d-3921-a900-9e6f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -140,9 +145,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Screech Song, Very Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="WILD ATTACK" id="362b-f314-b7cf-6118" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -161,9 +167,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="GO LONG" id="85c0-5b18-f497-ae54" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -182,9 +189,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Smash, Steady, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Nightmare Driller" id="df2b-b51b-64ce-0b86" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -196,9 +204,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Pound, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Ratkin Warlock" id="d5f0-5e0c-8c1d-80b1" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -210,9 +219,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Birthing Daughter" id="4a36-373c-3934-5122" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -224,9 +234,10 @@ Fallback move of 3” following the normal rules. No Break Away tests are requir
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Dodge, Inspire Fear, Marksman, Message from the Nest, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Blight Grenades" id="f50c-20f8-3eed-91c7" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -306,7 +317,11 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </constraints>
       <infoLinks>
         <infoLink name="Blight Cannon" id="9801-8fa2-b4b3-06e9" hidden="false" targetId="393c-5bb2-d048-8c24" type="profile"/>
-        <infoLink name="Piercing (1)" id="487c-681a-e030-e293" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="487c-681a-e030-e293" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Brute" id="c373-cc81-66d6-cbaa" collective="false" hidden="false" import="true" type="model">
@@ -322,12 +337,25 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <entryLinks>
         <entryLink name="Items" id="0bbe-b10b-3318-b307" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="42a8-8ad2-4cfd-3c50" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="7750-4dd6-d7c8-fea0-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7750-4dd6-d7c8-fea0-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Pound" id="978f-4796-ae83-9ea3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Regenerate (6+)" id="687d-9c40-34b5-696f" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="cec5-1954-de1b-803e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="d682-0fd7-b8b5-1b04" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="687d-9c40-34b5-696f" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(6+"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Crushing Strength (n)" id="cec5-1954-de1b-803e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Brute" id="b610-8dcc-f61d-0473" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -339,9 +367,10 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">7+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Pound, Regenerate (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -381,7 +410,11 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
         <infoLink name="Vicious" id="368e-ea04-2ffa-bfcb" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Steady" id="3801-a80f-0248-c341" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Smash" id="9973-67e4-fb72-a52d" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="122a-ccf5-31df-c106" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="122a-ccf5-31df-c106" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="WILD ATTACK" id="8b72-da52-80f3-173b" hidden="false" targetId="362b-f314-b7cf-6118" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -396,7 +429,11 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <infoLinks>
         <infoLink name="Nightmare Driller" id="30fd-f862-be80-6477" hidden="false" targetId="df2b-b51b-64ce-0b86" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="50ed-c382-e506-afc7" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="50ed-c382-e506-afc7" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Pound" id="f85e-f0f9-3cfa-d0a5" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
         <infoLink name="Vicious" id="d2db-819e-ddf7-3e69" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="WILD ATTACK" id="c3a6-7ace-2c58-4006" hidden="false" targetId="362b-f314-b7cf-6118" type="profile"/>
@@ -448,10 +485,15 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink name="Power Dice - (White/Orange)" id="302e-063e-b5c5-774b" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="acc3-f26a-41dc-84d5-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="acc3-f26a-41dc-84d5-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ratkin Warlock" id="fd32-4979-89df-ac02" hidden="false" targetId="d5f0-5e0c-8c1d-80b1" type="profile"/>
-        <infoLink name="Power Dice White/Orange (1)" id="d6c4-84df-5f60-2a16" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="INSANE POWER SURGE" id="e786-29fc-6144-e1c7" hidden="false" targetId="8f05-831d-5c54-284c" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -509,9 +551,10 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Dodge, Marksman, Scout</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -532,7 +575,11 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       <infoLinks>
         <infoLink name="Shock Trooper" id="8835-cb78-4f93-e726" hidden="false" targetId="bba8-9dc1-1a3a-a64f" type="profile"/>
         <infoLink name="Vicious" id="6801-b32e-a130-57f8" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="5bf0-ec38-3ee8-a1d2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="5bf0-ec38-3ee8-a1d2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Swarm Crier" id="da5d-193c-1c92-7560" hidden="false" import="true" type="model">
@@ -563,7 +610,11 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <infoLinks>
         <infoLink name="Vermintide" id="b292-fbe9-19f1-05cb" hidden="false" targetId="37ee-f9a9-723d-84f5" type="profile"/>
-        <infoLink name="Regenerate (6+)" id="38fd-a197-f6d1-dac5" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="38fd-a197-f6d1-dac5" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(6"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Swarm" id="f5c1-d56d-5c68-6a91" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -605,13 +656,22 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <entryLinks>
         <entryLink name="Items" id="f182-ebd9-635c-576c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="7305-ff5f-0433-a233" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="72eb-2c0a-59f9-4a31-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="72eb-2c0a-59f9-4a31-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Will of the Brood" id="a504-6b91-6ea7-0995" hidden="false" targetId="84f4-e1f2-4549-493c" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="d31d-3233-c9bb-a8b2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="d31d-3233-c9bb-a8b2" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Inspiring" id="a289-0694-1d07-3881" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Steady" id="b37b-46c6-44c8-1bc2" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice Red/Black (2)" id="4f21-03d0-a4f3-c95e" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Inspire Fear" id="2b21-488f-f687-cc5a" hidden="false" targetId="97c9-9bf4-ca36-b492" type="rule"/>
       </infoLinks>
       <profiles>
@@ -624,9 +684,10 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Inspire Fear, Inspiring, Steady, Will of the Brood</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -659,10 +720,15 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <entryLinks>
         <entryLink name="Spell Selection - Twitch Keenear" id="ccd0-87b0-8fbe-b5a6" hidden="false" targetId="06ec-0a82-019a-d7ed" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="e69b-e593-e858-56cc" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="448d-a229-a257-50b5-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="448d-a229-a257-50b5-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Eye of the Abyss" id="2c51-e73b-793a-a072" hidden="false" targetId="8ee9-879e-720e-ae99" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="82a4-3384-a252-9c24" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Twitch Keenear" id="6b80-ac24-d5db-6a9c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -674,9 +740,10 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Eye of the Abyss</characteristic>
           </characteristics>
         </profile>
         <profile name="Unstable Magic" id="0b68-f23e-f3c4-8354" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -702,11 +769,16 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <entryLinks>
         <entryLink name="Blight Grenades" id="be22-4515-f2f9-6213" hidden="false" targetId="dc31-eab4-d31f-10c4" type="selectionEntry"/>
+        <entryLink name="Power Dice - (White/Orange)" id="48cd-067e-a319-957a" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="d0b4-e551-2cd7-5128-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d0b4-e551-2cd7-5128-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Inspire Fear" id="6bba-61b1-b94c-8521" hidden="false" targetId="97c9-9bf4-ca36-b492" type="rule"/>
         <infoLink name="Birthing Daughter" id="d5fa-158f-df8f-b16f" hidden="false" targetId="4a36-373c-3934-5122" type="profile"/>
-        <infoLink name="Power Dice White/Orange (1)" id="a0e9-cbff-4079-5e57" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Dodge" id="9fe4-528b-ccfc-cb2e" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="Marksman" id="0994-6f22-9cb1-79b6" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
         <infoLink name="Stealthy" id="1199-c7dc-aec6-d28f" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
@@ -740,9 +812,17 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
       </costs>
       <infoLinks>
         <infoLink name="DEMONIC ROAR" id="0db6-ada3-e1b9-3f14" hidden="false" targetId="4bf3-5177-29d0-ade9" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="e281-68ca-de46-9943" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="e281-68ca-de46-9943" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Smash" id="956c-6c30-8c74-9b8b" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Regenerate (6+)" id="3128-9054-82c2-88b8" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
+        <infoLink name="Regenerate (6+)" id="3128-9054-82c2-88b8" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(6"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Brute Enforcer" id="45a6-38e0-5568-a9ce" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -754,9 +834,10 @@ A Nest Entrance can be destroyed - an enemy model must be in base contact with t
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Regenerate (6+), Smash</characteristic>
           </characteristics>
         </profile>
       </profiles>

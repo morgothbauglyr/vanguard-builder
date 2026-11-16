@@ -93,9 +93,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1)</characteristic>
       </characteristics>
     </profile>
     <profile name="Ghekkotah Warrior" id="a1ed-50d7-b487-d7bd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -107,9 +108,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="SHIFTING SCALES" id="1ab5-e218-49a6-91f8" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -128,9 +130,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Marksman, Pathfinder, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Salamander Prime" id="c1e7-fdc1-e59c-b188" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -142,9 +145,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Headstrong</characteristic>
       </characteristics>
       <modifiers>
         <modifier field="cbb8-58cf-daa7-a95a" type="set" value="6+">
@@ -163,9 +167,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Inspiring (Grunts and Warriors)</characteristic>
       </characteristics>
     </profile>
     <profile name="ORDEAL OF FIRE" id="357d-7c14-7665-ae18" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -184,9 +189,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Brothers in Arms, Crushing Strength (1), Headstrong, Parry, Rekindle the Embers, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Ghekkotah Clutch Warden" id="5563-1fe7-3a1a-84ef" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -198,9 +204,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring (Gekkotah), Pathfinder, Scout, Stealthy, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Corsair" id="8855-cc31-4399-c573" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -212,9 +219,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Blazing Brands, Crushing Strength (1), Scout</characteristic>
       </characteristics>
     </profile>
     <profile name="GUN SMOKE" id="3ab2-cf2a-d2a3-21f5" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -234,9 +242,10 @@ regardless of whether the attack hits.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Crushing Strength (1), Simmering Rage</characteristic>
       </characteristics>
     </profile>
     <profile name="SAVAGE ROAR" id="cc65-7633-907a-bdc4" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -263,9 +272,10 @@ terrain, objectives or other models. The Rhinosaur Cataphract may then choose to
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Crushing Strength (2), Smash, Steady</characteristic>
       </characteristics>
     </profile>
     <profile name="LEAP OF DEATH" id="871c-8a0d-744d-3efd" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -284,9 +294,10 @@ terrain, objectives or other models. The Rhinosaur Cataphract may then choose to
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Ceremonial Guard Captain" id="e73f-100c-ca70-16d0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -298,9 +309,10 @@ terrain, objectives or other models. The Rhinosaur Cataphract may then choose to
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Headstrong, Parry, Rekindle the Embers, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="SHIELD WALL" id="2c1b-7f2a-05cd-8231" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -319,9 +331,10 @@ terrain, objectives or other models. The Rhinosaur Cataphract may then choose to
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Elemental Fuel</characteristic>
       </characteristics>
     </profile>
     <profile name="HEALING FLAME" id="630d-7214-64ef-df1c" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -347,9 +360,10 @@ terrain, objectives or other models. The Rhinosaur Cataphract may then choose to
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">6th Sense, Crushing Strength (1), Fancy Swordplay, Regenerate (7+), Riposte, Salamander Legend, Scout, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Battle-Captain" id="ca28-f0b9-7d39-2013" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -361,9 +375,10 @@ terrain, objectives or other models. The Rhinosaur Cataphract may then choose to
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Headstrong, inspiring, Steady</characteristic>
       </characteristics>
     </profile>
     <profile name="EVASIVE MANOUVRES" id="e24b-7b72-a53f-dd33" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -429,7 +444,11 @@ All group members must finish their movement within 6” of each other.</charact
         <constraint id="475d-ea06-9767-fb2b-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="7006-bfce-2b5a-4f81" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="7006-bfce-2b5a-4f81" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Acid Spit" id="dbd9-b03e-26b9-118d" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -465,7 +484,11 @@ All group members must finish their movement within 6” of each other.</charact
       </constraints>
       <infoLinks>
         <infoLink name="Feel the Burn" id="e2df-49ee-c1c3-f1d3" hidden="false" targetId="ecb3-c645-06ab-c6b5" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="8190-962a-ba3d-9d82" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="8190-962a-ba3d-9d82" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Salamander Unblooded" id="b4e7-de81-8b2e-2577" collective="false" hidden="false" import="true" type="model">
@@ -487,7 +510,11 @@ All group members must finish their movement within 6” of each other.</charact
       </entryLinks>
       <infoLinks>
         <infoLink name="Salamander Unblooded" id="de5c-748f-86f9-0960" hidden="false" targetId="e13b-b0d4-b8a7-fdbc" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="181e-ac54-6b8a-df22" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="181e-ac54-6b8a-df22" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="1eb9-bf6a-cf2c-9441" type="increment" value="1">
@@ -551,9 +578,14 @@ All group members must finish their movement within 6” of each other.</charact
         <infoLink name="Salamander Prime" id="0424-22c7-0743-2dd0" hidden="false" targetId="c1e7-fdc1-e59c-b188" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="8a38-5279-3c4e-1fa0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
           <modifiers>
-            <modifier field="hidden" type="set" value="true">
+            <modifier arg="(n" field="name" type="replace" value="(2">
               <conditions>
                 <condition childId="a92e-488d-72b3-41c0" childName="Two-handed Weapon" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier arg="(n" field="name" type="replace" value="(1">
+              <conditions>
+                <condition childId="a92e-488d-72b3-41c0" childName="Two-handed Weapon" field="selections" scope="parent" shared="true" type="lessThan" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -588,8 +620,16 @@ All group members must finish their movement within 6” of each other.</charact
       <infoLinks>
         <infoLink name="ORDEAL OF FIRE" id="6143-cca4-03aa-d6b2" hidden="false" targetId="357d-7c14-7665-ae18" type="profile"/>
         <infoLink name="Salamander Veteran" id="d5ce-e64d-313b-5b10" hidden="false" targetId="91c4-6cb7-9198-d0f6" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="3a5d-383e-8474-cdf8" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Inspiring (Grunts &amp; Warriors only)" id="b7a1-a91d-d93e-7fc1" hidden="false" targetId="393c-e681-96ad-82c7" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="3a5d-383e-8474-cdf8" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Inspiring" id="b7a1-a91d-d93e-7fc1" hidden="false" targetId="c182-1549-6080-b945" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="(Grunts and Warriors)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="124a-34c1-5efd-5050" type="increment" value="1">
@@ -619,7 +659,11 @@ All group members must finish their movement within 6” of each other.</charact
         <infoLink name="Ceremonial Guard" id="0bca-98fa-c2b0-3b8d" hidden="false" targetId="e5c8-2b0e-75f6-2bf7" type="profile"/>
         <infoLink name="Brothers in Arms" id="fb06-35d4-0c73-dfcc" hidden="false" targetId="0007-21d3-a56c-c645" type="rule"/>
         <infoLink name="Rekindle the Embers" id="face-bb2f-a2ed-5d20" hidden="false" targetId="3429-95d3-0f47-64ca" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="4d04-021f-9042-7267" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="4d04-021f-9042-7267" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Headstrong" id="84ec-3bab-8522-c1f1" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Parry" id="14ba-6ae8-1e9f-0478" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
         <infoLink name="Vicious" id="64d2-a2b5-f1bd-890f" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
@@ -647,6 +691,12 @@ All group members must finish their movement within 6” of each other.</charact
       <entryLinks>
         <entryLink name="Blowpipe" id="5b33-52fe-7c55-7d23" hidden="false" import="true" targetId="9692-4901-30f6-771e" type="selectionEntry"/>
         <entryLink name="Items" id="11a1-65c6-31e4-ace4" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="cc86-2af9-03d3-80f3" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="8dd1-5de5-bdbf-7317-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8dd1-5de5-bdbf-7317-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ghekkotah Clutch Warden" id="35d0-43a0-d958-6cfb" hidden="false" targetId="5563-1fe7-3a1a-84ef" type="profile"/>
@@ -654,7 +704,6 @@ All group members must finish their movement within 6” of each other.</charact
         <infoLink name="Stealthy" id="0fed-07f1-d4d2-404d" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Vicious" id="2b84-4e6c-ca9e-3ca1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Inspiring (Ghekkotah only)" id="83f5-de80-5589-9e65" hidden="false" targetId="a8e2-751f-d827-31c6" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="a86f-5ec1-cc7d-f355" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="SHIFTING SCALES" id="764f-bd6b-d052-929f" hidden="false" targetId="1ab5-e218-49a6-91f8" type="profile"/>
         <infoLink name="Scout" id="dfb9-1070-0d95-bdf9" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
       </infoLinks>
@@ -709,7 +758,11 @@ All group members must finish their movement within 6” of each other.</charact
         <infoLink name="Corsair" id="90ec-ceae-9c63-a188" hidden="false" targetId="8855-cc31-4399-c573" type="profile"/>
         <infoLink name="Blazing Brands" id="a54c-1c65-06be-c076" hidden="false" targetId="a7aa-6bbd-9d27-6f54" type="rule"/>
         <infoLink name="Scout" id="6fd5-cbc2-9ade-6391" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="b4d1-b08d-d739-e87d" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="b4d1-b08d-d739-e87d" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="e1e4-c98a-14af-6697" type="increment" value="1">
@@ -738,7 +791,11 @@ All group members must finish their movement within 6” of each other.</charact
       <infoLinks>
         <infoLink name="SAVAGE ROAR" id="203b-0dfd-7455-5e05" hidden="false" targetId="cc65-7633-907a-bdc4" type="profile"/>
         <infoLink name="Tyrant" id="4d97-be47-2b21-38d3" hidden="false" targetId="deba-6c79-2a00-674a" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="4a82-8fab-46b6-23ad" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="4a82-8fab-46b6-23ad" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Bloodlust" id="eb77-7c91-9e25-7334" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
         <infoLink name="Simmering Rage" id="d3a7-08fc-9fc1-3176" hidden="false" targetId="209b-acdf-a3de-0bfd" type="rule"/>
       </infoLinks>
@@ -769,7 +826,11 @@ All group members must finish their movement within 6” of each other.</charact
       </entryLinks>
       <infoLinks>
         <infoLink name="Rhinosaur Caraphract" id="d7bf-9063-3c8f-9051" hidden="false" targetId="98e2-f6ed-2295-679d" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="ae4c-f276-4234-2ecd" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="ae4c-f276-4234-2ecd" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="SAVAGE IMPACT" id="ff54-3456-d921-b915" hidden="false" targetId="9a76-f299-4d22-ff54" type="profile"/>
         <infoLink name="Cavalry" id="778d-2d9d-29b9-b4b6" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Smash" id="dfe7-60aa-5c98-c483" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
@@ -831,7 +892,11 @@ All group members must finish their movement within 6” of each other.</charact
         <infoLink name="Ceremonial Guard Captain" id="8733-e9dd-302f-a5f4" hidden="false" targetId="e73f-100c-ca70-16d0" type="profile"/>
         <infoLink name="Rekindle the Embers" id="eba2-e415-e629-304d" hidden="false" targetId="3429-95d3-0f47-64ca" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="1f3d-7e04-e87c-caf0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Headstrong" id="4ffe-840e-8af2-1b45" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+        <infoLink name="Headstrong" id="4ffe-840e-8af2-1b45" hidden="false" targetId="895c-93e1-e820-84d0" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Parry" id="e87f-a2d9-a40f-78c1" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
         <infoLink name="Vicious" id="74e9-ac6c-2877-2789" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
       </infoLinks>
@@ -858,12 +923,17 @@ All group members must finish their movement within 6” of each other.</charact
       <entryLinks>
         <entryLink name="Items" id="03cb-24b4-3c32-419e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell Selection - Mage-Priest" id="68a1-192d-d8d9-5f56" collective="false" hidden="false" import="true" targetId="73c3-a16b-3edf-b20e" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="2c3f-e9d4-c775-0003" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="396c-3cb3-236f-b996-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="396c-3cb3-236f-b996-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="INNER FIRE" id="5f4f-ed81-317f-2d6a" hidden="false" targetId="a431-40dd-4368-55aa" type="profile"/>
         <infoLink name="Mage-Priest" id="de05-701e-54fb-2016" hidden="false" targetId="dbf2-c4bb-6e94-4f99" type="profile"/>
         <infoLink name="HEALING FLAME" id="3a03-f7b4-77d8-19d2" hidden="false" targetId="630d-7214-64ef-df1c" type="profile"/>
-        <infoLink name="Power Dice Red/Black (2)" id="91b7-a19e-a082-71a2" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Elemental Fuel" id="4a56-f6df-6e95-9868" hidden="false" targetId="34d6-4f22-1438-3f01" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -896,13 +966,26 @@ All group members must finish their movement within 6” of each other.</charact
             <constraint id="fe99-bfb3-c48e-1c5a-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
+        <entryLink name="Power Dice - (White/Orange)" id="2185-aa55-028d-7792" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="6ac8-76a0-271b-fd81-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="6ac8-76a0-271b-fd81-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Firebrand" id="d4de-640a-76e2-3c1e" hidden="false" targetId="4c79-84da-ab7d-ae02" type="profile"/>
-        <infoLink name="Power Dice White/Orange (1)" id="2fea-64c2-a40d-0de1" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Vicious" id="e537-ef1e-65ad-f8b1" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Regenerate (7+)" id="f8d9-6007-fd5f-b24f" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="c6be-0ddb-dd6a-18e4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="f8d9-6007-fd5f-b24f" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(7"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Crushing Strength (1)" id="c6be-0ddb-dd6a-18e4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="6th Sense" id="16dd-d825-8586-62ea" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Scout" id="be3b-a291-7df4-bf54" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Salamander Legend" id="97df-9d96-77f1-a0c3" hidden="false" targetId="1131-ad33-a947-c46b" type="rule"/>
@@ -926,16 +1009,25 @@ All group members must finish their movement within 6” of each other.</charact
       </costs>
       <entryLinks>
         <entryLink name="Items" id="bd62-2ba1-c5cc-bb29" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="52c2-2ee4-8e26-3e44" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="83e1-82f7-595f-a06e-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="83e1-82f7-595f-a06e-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="SLAMBACK" id="a3d5-a613-dde1-4cff" hidden="false" targetId="5170-f1ea-e295-cb7e" type="profile"/>
         <infoLink name="Battle-Captain" id="966c-0a31-af21-a845" hidden="false" targetId="ca28-f0b9-7d39-2013" type="profile"/>
         <infoLink name="EVASIVE MANOUVRES" id="1a13-2d5b-4875-c298" hidden="false" targetId="e24b-7b72-a53f-dd33" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="537a-3f4a-1448-816e" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="537a-3f4a-1448-816e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Headstrong" id="c661-2326-3c15-2b08" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="12ab-3619-4f7b-eda4" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Steady" id="de5f-2afd-dad4-1f47" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="18bb-1fe5-7935-8ad2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="7f1e-0d7f-5d30-917e" type="increment" value="1">

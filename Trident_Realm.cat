@@ -57,9 +57,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">7+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Swarm, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Thuul" id="64b5-85a8-e935-d6c1" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -71,9 +72,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Riverguard" id="eddf-23e3-878d-cc3d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -85,9 +87,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Combined Fire (Riverguard), Pathfinder, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Naiad Heartpiercer" id="2274-7a92-4b69-3454" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -99,9 +102,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Regenerate (7+)</characteristic>
       </characteristics>
     </profile>
     <profile name="Riverguard Treeleaper" id="fe29-4536-d699-a565" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -113,9 +117,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Death from Above, Pathfinder, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Riverguard Sentinel" id="f07c-e68c-d0aa-35fb" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -127,9 +132,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Combined Fire (Riverguard), Marksman, Pathfinder, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Naiad Lurker" id="5eb2-a2c6-2508-df68" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -141,9 +147,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Regenerate (7+), Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Thuul Mythican" id="875e-e193-9005-1af5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -155,9 +162,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Naiad Centurion" id="2e56-d145-318b-93e6" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -169,9 +177,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1). Inspiring, Regenerate (7+)</characteristic>
       </characteristics>
     </profile>
     <profile name="Naiad Initiate" id="8eab-046e-92a8-27ec" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -183,9 +192,10 @@ Knocked-down, it may stand up for free. This ability may be used any number of t
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Kyron&apos;s Blessing</characteristic>
       </characteristics>
     </profile>
     <profile name="TONGUE LASH" id="24de-0216-0e14-f689" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -205,9 +215,10 @@ Any model hit by the attack is not wounded but is moved directly (the shortest r
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Crushing Strength (1), Defensive Toxins, Regenerate (7+), Smash, Steady</characteristic>
       </characteristics>
     </profile>
     <profile name="Riverguard Dambuster Sentinel" id="7005-a14b-dfb5-babf" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -219,9 +230,10 @@ Any model hit by the attack is not wounded but is moved directly (the shortest r
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Crushing Strength (1), Defensive Toxins, Regenerate (7+), Smash, Steady, Very Inspiring (Riverguard only)</characteristic>
       </characteristics>
     </profile>
     <profile name="Giga" id="2be6-1a5d-52a7-defd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -233,9 +245,10 @@ Any model hit by the attack is not wounded but is moved directly (the shortest r
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Pound, Steady, Vicious Swipe</characteristic>
       </characteristics>
     </profile>
     <profile name="Mythican Aquamage" id="5a5b-47ef-0356-78ef" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -247,9 +260,10 @@ Any model hit by the attack is not wounded but is moved directly (the shortest r
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Elemental Master, Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Placoderm Defender" id="07c4-720f-b228-5c2c" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -261,9 +275,10 @@ Any model hit by the attack is not wounded but is moved directly (the shortest r
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D2</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Defender, Fluid Defense, Parry, Steady</characteristic>
       </characteristics>
     </profile>
     <profile name="Naiad Envoy" id="54be-b678-a4ee-f4e5" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -275,36 +290,16 @@ Any model hit by the attack is not wounded but is moved directly (the shortest r
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Kraken&apos;s Call, Unbreakable</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <sharedRules>
-    <rule name="Spell - Riptide" id="8f7e-a461-a88b-93a4" hidden="false">
-      <description>Target an enemy model even if it is Engaged. The model is moved 3” (as directly and as far as possible) away from the caster, making Armour rolls if forced to Break Away as normal. The model must  then make a Nerve test. If it fails, it is Knocked-down. Models with Steady may roll to avoid this as normal.</description>
-    </rule>
-    <rule name="Spell - Crushing Pressure" id="7a97-4229-8776-c990" hidden="false">
-      <description>If the target suffers any wounds, they are pinned in place and cannot make any Walk or Run actions for the rest of this Round.</description>
-    </rule>
     <rule name="RISING TIDES (1)" id="fd9f-cfe1-fed3-435a" hidden="false">
       <description>Use this ability when you activate a model. That model may EITHER add 2 to its Sp stat until the end of the Round OR, if it is Knocked-down, it may stand up for free. This ability may be used any number of times in a Round.</description>
-    </rule>
-    <rule name="Vicious Swipe" id="22b8-f8ac-e757-9f41" hidden="false">
-      <description>When attempting to Break Away from a Giga, enemy models have a  -1 modifier when they make their Armour roll.</description>
-    </rule>
-    <rule name="BOUNDER (1)" id="e92a-80d0-8e3e-ba30" hidden="false">
-      <description>Use this ability when this model is activated. Grants this model the Fly ability until the end of the Round.</description>
-    </rule>
-    <rule name="EVASION (1)" id="f14f-1146-9788-eac7" hidden="false">
-      <description>Use this ability when this model activates. Grants this model the Dodge and Parry abilities until the end of the Round.</description>
-    </rule>
-    <rule name="BATTLE RAGE (2)" id="e956-4817-e249-a976" hidden="false">
-      <description>If this model can Engage an enemy model with a follow-up move, it may Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
-    </rule>
-    <rule name="Combined Fire" id="9572-126b-ed39-c8f9" hidden="false">
-      <description>When involved in a Group Shoot Action, Riverguard models add +1 dice to their Ranged Attack roll if one or more other Riverguard models in the group fire at the same target. This includes any Riverguard Sentinels in the Group.</description>
     </rule>
     <rule name="Kyron&apos;s Blessing" id="1fdb-8a87-696f-1b9a" hidden="false">
       <description>While within 6&quot; of  one or more friendly Water Elementals, this model has its Ar value improved by 1 (e.g. 6+ becomes 5+).</description>
@@ -320,20 +315,12 @@ In addition, this model may cast its Riptide spell as a short action instead of 
       <description>In the End Phase, any enemy models Engaged by the Dambuster automatically suffer one hit
 with Crushing Strength (2).</description>
     </rule>
-    <rule name="TONGUE LASH (2)" id="9422-4d23-502f-c924" hidden="false">
-      <description>Use during the model’s Turn to make a Ranged attack as follows: Range 9”, 2D8. Any model hit by the attack is not wounded but is moved directly (the shortest route) into base contact with the Dambuster’s
-front arc and marked as Fatigued. The model’s front arc and base should be flush with the Dambuster’s. Models that were Knocked-down remain so. If it is not possible to move the model, or it is Large, the attack has no effect.</description>
-    </rule>
     <rule name="Fluid Defense" id="4353-28e2-7b1f-9084" hidden="false">
       <description>While within 2&quot; of this model, friendly WARRIOR models have the Parry special rule.</description>
-    </rule>
-    <rule name="SLAMBACK (1)" id="9be6-0f68-1b99-9a02" hidden="false">
-      <description>Use this ability when this model declares a Retaliation before dice are rolled. Any hits the Retaliation scores are resolved with Crushing Strength (2).</description>
     </rule>
     <rule name="Kraken&apos;s Call" id="0dbc-a8d5-6085-2386" hidden="false">
       <description>While within 6&quot; of this model, friendly models have the Unbreakable  and Bloodlust special rules.</description>
     </rule>
-    <rule name="Very Inspiring (Riverguard only)" id="2f13-440c-deae-0811" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Crushing Pressure" id="3e97-62a4-37d3-7986" collective="false" hidden="false" import="true" type="upgrade">
@@ -514,7 +501,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       </entryLinks>
       <infoLinks>
         <infoLink name="Naiad Heartpiercer" id="8c6d-e28e-1402-17ca" hidden="false" targetId="2274-7a92-4b69-3454" type="profile"/>
-        <infoLink name="Regenerate (7+)" id="ff41-0f62-febb-3a5b" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="ff41-0f62-febb-3a5b" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="93ad-f171-a619-7bd6" type="increment" value="1">
@@ -577,6 +564,12 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
           </constraints>
         </entryLink>
         <entryLink name="Items" id="953a-05df-8f33-b392" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="a6e2-e66f-1b62-85cc" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="3457-8e54-06e9-f677-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="3457-8e54-06e9-f677-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="EVASION" id="3260-eed0-7ac7-837f" hidden="false" targetId="57c6-05f2-dc33-1b61" type="profile"/>
@@ -584,7 +577,6 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <infoLink name="Pathfinder" id="52f5-c3ad-9fee-04e6" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Marksman" id="41e8-fa78-a3fa-025f" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
         <infoLink name="Stealthy" id="13b2-63aa-7a7d-c213" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Power Dice Red/Black (2)" id="7df2-f295-52eb-2993" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
         <infoLink name="Combined Fire" id="43d6-b428-6818-20b7" hidden="false" targetId="b43b-e9a2-0881-2568" type="rule">
           <modifiers>
             <modifier field="name" join=" " type="append" value="(Riverguard)"/>
@@ -626,11 +618,20 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
           </constraints>
         </entryLink>
         <entryLink name="Items" id="be48-4c3d-4dbc-bb8e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="8cfe-6ba2-1a7a-e237" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="2ee1-08bf-7da2-74f1-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="2ee1-08bf-7da2-74f1-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Naiad Lurker" id="34c1-7dbf-e7a3-3811" hidden="false" targetId="5eb2-a2c6-2508-df68" type="profile"/>
-        <infoLink name="Power Dice Red/Black (1)" id="8a3d-0e8a-108c-e0c1" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
-        <infoLink name="Regenerate (7+)" id="127c-ac8b-e252-50f2" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="127c-ac8b-e252-50f2" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(7+"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Stealthy" id="7e56-5285-6498-d75b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -656,10 +657,15 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       <entryLinks>
         <entryLink name="Items" id="d4fc-f193-2a6b-c5e3" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell Selection - Thuul Mythican" id="1728-08cc-04df-c7da" collective="false" hidden="false" import="true" targetId="9d50-15cd-cc21-61c9" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="943b-01fd-6e1e-2fc1" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="8b21-a869-719a-07fc-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8b21-a869-719a-07fc-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Thuul Mythican" id="c91f-8fae-f183-74d4" hidden="false" targetId="875e-e193-9005-1af5" type="profile"/>
-        <infoLink name="Power Dice White/Orange (1)" id="6f2c-8c89-8077-5cfd" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="2cdc-1a66-3e1b-6fd3" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -692,13 +698,18 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
           </constraints>
         </entryLink>
         <entryLink name="Items" id="8410-1c4e-5db2-3862" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Blue/Green)" id="fd86-c64f-f0e4-b58e" hidden="false" import="true" targetId="cef6-f523-38be-0b4f" type="selectionEntry">
+          <constraints>
+            <constraint id="d79a-31c4-74c3-0751-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d79a-31c4-74c3-0751-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Naiad Centurion" id="704b-a21d-be20-a0e6" hidden="false" targetId="2e56-d145-318b-93e6" type="profile"/>
         <infoLink name="Crushing Strength (1)" id="54b8-d63f-83ea-aad1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Inspiring" id="2f5f-9585-1942-52ea" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Regenerate (7+)" id="6407-e377-3acc-baae" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
-        <infoLink name="Power Dice Blue/Green (1)" id="5dbc-3a94-7701-6404" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="6407-e377-3acc-baae" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="BATTLE RAGE" id="1037-9941-b5f9-7c5f" hidden="false" targetId="b261-1cc2-d69c-f8ca" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -769,7 +780,7 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <infoLink name="Riverguard Dambuster" id="f0ba-54dd-c052-4f15" hidden="false" targetId="147e-042c-6a41-f5f3" type="profile"/>
         <infoLink name="Smash" id="422a-5a45-e6eb-b93f" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="TONGUE LASH" id="b64f-52fb-69a2-83e9" hidden="false" targetId="24de-0216-0e14-f689" type="profile"/>
-        <infoLink name="Regenerate (7+)" id="da80-8f09-c4c0-cf3d" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="da80-8f09-c4c0-cf3d" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink name="Crushing Strength (1)" id="6a10-19ca-ff5a-e286" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Defensive Toxins" id="9797-c1e0-c979-9d0c" hidden="false" targetId="f2b2-cbe4-1910-bb06" type="rule"/>
         <infoLink name="Steady" id="287b-436b-a2d2-2537" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
@@ -802,16 +813,26 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       </costs>
       <entryLinks>
         <entryLink name="Items" id="ef9b-79ca-9455-4dfc" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="5361-a9f2-cf1a-73b6" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="3566-1ceb-f7aa-f13d-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="3566-1ceb-f7aa-f13d-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Riverguard Dambuster Sentinel" id="547f-6953-9149-2350" hidden="false" targetId="7005-a14b-dfb5-babf" type="profile"/>
         <infoLink name="Smash" id="88cd-d26b-909e-6959" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Regenerate (7+)" id="297f-f423-ccfb-d064" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="297f-f423-ccfb-d064" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(7+"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Crushing Strength (1)" id="f34d-b2a6-0408-5787" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink name="Defensive Toxins" id="4d75-f713-8b01-c686" hidden="false" targetId="f2b2-cbe4-1910-bb06" type="rule"/>
         <infoLink name="Steady" id="2812-fe94-e41a-cbc1" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Cavalry" id="7ad0-ff56-5f9f-9557" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink name="Very Inspiring (Riverguard only)" id="a16e-bf07-d7a8-bec4" hidden="false" targetId="2f13-440c-deae-0811" type="rule"/>
+        <infoLink name="Very Inspiring" id="a16e-bf07-d7a8-bec4" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
         <infoLink name="TONGUE LASH" id="b310-0ab4-2dd7-a55c" hidden="false" targetId="24de-0216-0e14-f689" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -841,7 +862,11 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       </entryLinks>
       <infoLinks>
         <infoLink name="Giga" id="949a-70d1-35a7-f12e" hidden="false" targetId="2be6-1a5d-52a7-defd" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="3468-7446-6c04-ea38" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="3468-7446-6c04-ea38" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Pound" id="bd95-bb16-864f-a41f" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
         <infoLink name="Steady" id="aca5-143c-1b86-077b" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Vicious Swipe" id="e539-4b3f-6fa1-c3b4" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
@@ -870,10 +895,15 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
       <entryLinks>
         <entryLink name="Items" id="b56c-1269-4edd-4ce4" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell Selection - Mythican Aquamage" id="9482-3688-31b3-805b" collective="false" hidden="false" import="true" targetId="e386-c40c-67ca-6c71" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="8aff-21b2-c213-c23e" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="faf1-7269-f926-1cde-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="faf1-7269-f926-1cde-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mythican Aquamage" id="6eef-9a8b-51e8-fb95" hidden="false" targetId="5a5b-47ef-0356-78ef" type="profile"/>
-        <infoLink name="Power Dice White/Orange (1)" id="8bd5-bcc4-3fdc-00cf" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="e309-9351-d643-9e12" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Elemental  Mastery" id="c805-b3e0-caf9-f6a5" hidden="false" targetId="5909-b9c3-50ca-6819" type="rule"/>
       </infoLinks>
@@ -905,7 +935,6 @@ front arc and marked as Fatigued. The model’s front arc and base should be flu
         <infoLink name="Steady" id="45a2-1947-dfbf-07c9" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink name="Defender" id="78bb-3429-f04e-2b4f" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule"/>
         <infoLink name="Parry" id="baf8-c6f8-d323-ec4c" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="SLAMBACK (1)" id="f59d-acdf-16f3-026e" hidden="false" targetId="9be6-0f68-1b99-9a02" type="rule"/>
         <infoLink name="Fluid Defense" id="da35-28ae-5656-e6c4" hidden="false" targetId="4353-28e2-7b1f-9084" type="rule"/>
         <infoLink name="SLAMBACK" id="c5af-884d-ef84-a92f" hidden="false" targetId="5170-f1ea-e295-cb7e" type="profile"/>
       </infoLinks>

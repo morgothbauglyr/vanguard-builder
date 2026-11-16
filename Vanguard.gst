@@ -9,7 +9,7 @@
     <categoryEntry name="Spellcaster" id="e745-e5aa-ccb6-cecb" hidden="false"/>
     <categoryEntry name="Large" id="5386-cda4-ccc0-f38d" hidden="false"/>
     <categoryEntry name="Mercenary" id="5999-b2cc-3385-f57d" hidden="false"/>
-    <categoryEntry name="Additional Special Rules" id="9c8b-2b85-5f43-b599" hidden="false"/>
+    <categoryEntry name="Quick Reference" id="9c8b-2b85-5f43-b599" hidden="false"/>
     <categoryEntry name="Troop" id="681e-00ba-4082-fb91" hidden="true">
       <description>Grunt or Warrior</description>
     </categoryEntry>
@@ -62,6 +62,7 @@
     <categoryEntry name="Model" id="957c-0d8a-3170-73d3" hidden="false" tracked="true"/>
     <categoryEntry name="Abyssal" id="081d-b31d-3d9e-912a" hidden="false"/>
     <categoryEntry name="Efreet" id="a0ad-62cd-304f-2a6a" hidden="true"/>
+    <categoryEntry name="Power Dice" id="4960-df95-eaee-87ec" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name=" Points" id="b888-e3bd-8798-6364" defaultCostLimit="-1" hidden="false"/>
@@ -169,6 +170,20 @@
             </modifier>
           </modifiers>
         </categoryLink>
+        <categoryLink name="Faction Ability" id="c94d-067a-0766-db7f" hidden="false" targetId="b736-f2bd-d93d-6b4d"/>
+        <categoryLink name="Quick Reference" id="475e-a06f-25e2-bd84" hidden="false" targetId="9c8b-2b85-5f43-b599"/>
+        <categoryLink name="Item - Rare" id="1e26-8914-3711-4a5e" hidden="false" targetId="93ab-84de-150c-48d6">
+          <constraints>
+            <constraint id="ff9a-6651-b4f1-38c8" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Rare** items. You may select 1 **Rare** item for every 75 points." scope="roster" shared="true" type="max" value="0"/>
+          </constraints>
+          <modifiers>
+            <modifier field="ff9a-6651-b4f1-38c8" type="increment" value="1">
+              <repeats>
+                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="75"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink name="Item - Unique" id="4ae7-09a8-d2ea-971b" hidden="false" targetId="af77-71a6-ae26-6c62">
           <constraints>
             <constraint id="498e-e798-c739-8b47" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Unique** items. You may select 1 **Unique** item for every 150 points." scope="roster" shared="true" type="max" value="0"/>
@@ -186,19 +201,6 @@
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink name="Item - Rare" id="1e26-8914-3711-4a5e" hidden="false" targetId="93ab-84de-150c-48d6">
-          <constraints>
-            <constraint id="ff9a-6651-b4f1-38c8" field="selections" includeChildForces="true" includeChildSelections="true" message="Too many **Rare** items. You may select 1 **Rare** item for every 75 points." scope="roster" shared="true" type="max" value="0"/>
-          </constraints>
-          <modifiers>
-            <modifier field="ff9a-6651-b4f1-38c8" type="increment" value="1">
-              <repeats>
-                <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="75"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Faction Ability" id="c94d-067a-0766-db7f" hidden="false" targetId="b736-f2bd-d93d-6b4d"/>
         <categoryLink name="Model" id="a125-35b9-06d5-54e5" exportable="false" hidden="false" targetId="957c-0d8a-3170-73d3" tracked="true">
           <constraints>
             <constraint id="3623-3f96-14f5-52ac" field="selections" includeChildForces="true" includeChildSelections="true" message="**{difference} models over limit.** {current} out of {value} maximum." scope="roster" shared="true" type="max" value="5"/>
@@ -224,8 +226,8 @@
         <characteristicType name="Ne" id="945e-25f3-67f4-228d"/>
         <characteristicType name="Wn" id="0d6a-358f-3234-b66b"/>
         <characteristicType name="H" id="492c-c3ca-0905-99c9"/>
-        <characteristicType name="Ranged" id="0a27-40ac-5701-ef13"/>
         <characteristicType name="Melee" id="01d6-153a-0767-f01e"/>
+        <characteristicType name="Ranged" id="0a27-40ac-5701-ef13"/>
         <characteristicType name="Base" id="b790-5251-7057-2f74">
           <formatRules>
             <formatRule name="New Format Rule" id="934b-ebbc-94b3-7aed" hidden="false" match="^20mm$" replace="Infantry" type="regex"/>
@@ -235,6 +237,7 @@
             <formatRule name="New Format Rule" id="2cdc-9272-b5bc-420e" hidden="false" match="^Cav$" replace="Cavalry" type="regex"/>
           </formatRules>
         </characteristicType>
+        <characteristicType name="Rules" id="f713-56af-9c2c-d9ac" kind="longText"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Spell" id="33dc-fb92-76ea-f796" sortIndex="5">
@@ -1655,23 +1658,20 @@ This Special Ability may be used any number of times in a Round.</characteristic
       <description>Shoot is a long action for any Ranged weapons with the Reload rule. However, the model may pivot on the spot before making an attack. 
 Alternatively the model may Shoot as a short action, but with a -1 to hit modifier. In this case it may not pivot first.</description>
     </rule>
-    <rule name="Sharp Shooter (1)" id="6bf5-bb0a-1a02-94d8" hidden="false">
-      <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (1).</description>
-    </rule>
     <rule name="Parry" id="ae52-7371-2843-ca27" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>When targeted in Melee, which includes Retaliate, the player owning the target model can force the attacking player to re-roll one die that scored a hit. This can be used to re-roll an Exploding 8 to try and prevent it Exploding!</description>
     </rule>
-    <rule name="Crushing Strength (1)" id="4c89-1651-1e0c-f54a" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
+    <rule name="Crushing Strength (n)" id="4c89-1651-1e0c-f54a" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
+      <alias>Crushing Strength</alias>
+      <alias>Crushing Strength (n)</alias>
+      <alias>Crushing Strength (1)</alias>
+      <alias>Crushing Strength (2)</alias>
+      <alias>Crushing Strength (3)</alias>
+      <alias>Crushing Strength (4)</alias>
     </rule>
     <rule name="Defender" id="a9d4-371e-0de9-bb9d" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Brace is a short action for models with this special rule.</description>
-    </rule>
-    <rule name="Crushing Strength (2)" id="dbde-2f47-77ef-7c4b" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Crushing Strength (3)" id="a715-6836-a848-093a" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
     <rule name="Vicious" id="7ab6-3cc6-82ce-2437" hidden="false" publicationId="37f5-f8f9-pubN68000">
       <description>A model with this rule can re-roll any 1s when making Melee attacks.</description>
@@ -1683,23 +1683,9 @@ Alternatively the model may Shoot as a short action, but with a -1 to hit modifi
       <description>When attacking the rear arc of a model in Melee, rolls of 7 or 8 are Exploding! and therefore score a hit and can be rerolled.</description>
     </rule>
     <rule name="Inspiring" id="c182-1549-6080-b945" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
+      <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests. If this rule has a denominator (n) it applies to this model and all friendly models of type (n).</description>
     </rule>
-    <rule name="Power Dice Red/Black (3)" id="b97d-fd69-997a-8ad9" hidden="false"/>
-    <rule name="Power Dice Red/Black (1)" id="df35-5711-86fa-5665" hidden="false"/>
-    <rule name="Power Dice Red/Black (2)" id="5606-f1ee-89dc-5257" hidden="false"/>
-    <rule name="Power Dice White/Orange (2)" id="f6e9-e0d4-227e-a80c" hidden="false"/>
-    <rule name="Power Dice White/Orange (3)" id="a284-293d-4e91-fd5e" hidden="false"/>
-    <rule name="Power Dice White/Orange (1)" id="fb0f-ab7c-3175-77f3" hidden="false"/>
-    <rule name="Smite (2)" id="fed8-40cc-4cff-77d7" hidden="false"/>
-    <rule name="Smite (1)" id="276c-ca90-ca2a-fd15" hidden="false"/>
-    <rule name="Piercing (3)" id="9fd9-8e4c-3cc5-a0e9" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Piercing (2)" id="3134-cb69-0b82-ff1a" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Piercing (1)" id="c368-af1a-68cf-2b9b" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
+    <rule name="Piercing (n)" id="c368-af1a-68cf-2b9b" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
     <rule name="Marksman" id="eaf9-1104-cc8b-b6e6" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
@@ -1735,45 +1721,17 @@ Alternatively the model may Shoot as a short action, but with a -1 to hit modifi
     <rule name="Pound" id="7fd8-583b-4c57-d0c9" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>If an attack with this rule scores 3 or more hits and the target is not killed, it is Knocked-down. Apply this rule after any possible Down But Not Out result.</description>
     </rule>
-    <rule name="Regenerate (8+)" id="bc84-d44c-03ae-d1bb" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
+    <rule name="Regenerate (n+)" id="2314-80d9-833b-9841" hidden="false" page="" publicationId="37f5-f8f9-pubN68000">
       <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
 equal to or better than the n value, the model recovers one wound previously suffered in the
 game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
-    </rule>
-    <rule name="Regenerate (7+)" id="c15d-9055-202a-1475" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
-equal to or better than the n value, the model recovers one wound previously suffered in the
-game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
-    </rule>
-    <rule name="Regenerate (6+)" id="2314-80d9-833b-9841" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
-equal to or better than the n value, the model recovers one wound previously suffered in the
-game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
-    </rule>
-    <rule name="Regenerate (5+)" id="ef68-9142-4f24-536d" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
-equal to or better than the n value, the model recovers one wound previously suffered in the
-game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
-    </rule>
-    <rule name="Regenerate (4+)" id="5f0e-2718-148a-6b7e" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
-equal to or better than the n value, the model recovers one wound previously suffered in the
-game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
-    </rule>
-    <rule name="Regenerate (3+)" id="c7f8-80d0-ae56-741e" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
-equal to or better than the n value, the model recovers one wound previously suffered in the
-game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
-    </rule>
-    <rule name="Regenerate (2+)" id="162e-1274-1350-0962" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
-equal to or better than the n value, the model recovers one wound previously suffered in the
-game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
-    </rule>
-    <rule name="Regenerate (1+)" id="e21e-6b67-d369-f9a9" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>When a model with this rule activates for the first time in a Round, roll a die. If the result is
-equal to or better than the n value, the model recovers one wound previously suffered in the
-game. Note the Exploding 8s! mechanic does not apply to this roll.</description>
+      <alias>Regenerate (2+)</alias>
+      <alias>Regenerate (3+)</alias>
+      <alias>Regenerate (4+)</alias>
+      <alias>Regenerate (5+)</alias>
+      <alias>Regenerate (6+)</alias>
+      <alias>Regenerate (7+)</alias>
+      <alias>Regenerate (8+)</alias>
     </rule>
     <rule name="Scout" id="5209-65f6-aa6e-7643" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
       <description>After all standard model deployments have been made, but before the game starts, models with the Scout skill may set up outside their deployment area but not within 12” of the enemy deployment area or 12” of an enemy model. In addition, Scouts cannot be placed within 4” of anything identified as a scenario Objective. If both players have models with Scout, the player that finished deploying their other models first chooses the first Scout model to be deployed – the players then alternate placing their Scouts. Models with Scout may always be placed in their own deployment area as normal if desired.</description>
@@ -1792,36 +1750,8 @@ Pound: If an attack with this rule scores 3 or more hits and the target is not k
       <description>A model with with this rule automatically passes any Fallback Check it is required to make for any reason.</description>
     </rule>
     <rule name="Very Inspiring" id="67df-803d-48b0-1418" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
-      <description>A model with this rule, and all friendly models within 9” of it, may re-roll failed Nerve tests.</description>
+      <description>A model with this rule, and all friendly models within 9” of it, may re-roll failed Nerve tests. If this rule has a denominator (n) it applies to this model and all friendly models of type (n).</description>
     </rule>
-    <rule name="Power Dice Blue/Green (3)" id="6666-aa83-282c-65d3" hidden="false"/>
-    <rule name="Power Dice Blue/Green (2)" id="619f-55e5-7df8-c3e6" hidden="false"/>
-    <rule name="Power Dice Blue/Green (1)" id="9f0b-f977-bb53-fe2e" hidden="false"/>
-    <rule name="Crushing Strength (6)" id="5546-4beb-d018-5968" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Crushing Strength (5)" id="e9db-f562-b331-603f" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Crushing Strength (4)" id="3139-18f2-d0e2-1d87" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Piercing (4)" id="8d8f-4cd7-7400-d829" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Piercing (5)" id="cdce-6b41-1230-e504" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Piercing (6)" id="a07f-848d-66cf-34ce" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
-    <rule name="Sharp Shooter (2)" id="4635-d7af-a665-e8a5" hidden="false">
-      <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (2).</description>
-    </rule>
-    <rule name="Sharp Shooter (3)" id="bd53-0a42-384a-47a6" hidden="false">
-      <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (3).</description>
-    </rule>
-    <rule name="Smite (3)" id="ded7-4bf3-7ab8-068e" hidden="false"/>
     <rule name="Stealthy" id="079c-f110-bd18-b3d5" hidden="false" page="39" publicationId="37f5-f8f9-pubN68000">
       <description>When making Ranged attacks at a model with this rule, attacking models suffer a -1 modifier
 when rolling for hits (including casting spells).</description>
@@ -1835,26 +1765,17 @@ when rolling for hits (including casting spells).</description>
     <rule name="Combined Fire" id="b43b-e9a2-0881-2568" hidden="false">
       <description>When involved in a Group Shoot Action, models with this rule add +1 dice to their Ranged Attack roll if one or more other models with the same rule in the group fire at the same target. If this rule has a denominator (N) appended, it must be the same for all models.</description>
     </rule>
-    <rule name="Inspiring (Grunts &amp; Warriors only)" id="393c-e681-96ad-82c7" hidden="false">
-      <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
-    </rule>
-    <rule name="Inspiring (Grunts only)" id="53dc-34e5-7b90-e03c" hidden="false">
-      <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
-    </rule>
-    <rule name="Inspiring (Beasts only)" id="fe66-a62b-ddab-fa89" hidden="false">
-      <description>A model with this rule, and all friendly models within 6” of it, may re-roll failed Nerve tests.</description>
-    </rule>
     <rule name="Master Tactician" id="dd07-9d5f-1c25-383f" hidden="false">
       <description>After both sides have finished deployment, you may redeploy up to 2 of your models. If both sides have models with this ability, then they alternate redeployments starting with the side which finished deployment first. The redeployments do not count towards determining who finished first.</description>
     </rule>
     <rule name="Area Effect" id="77ba-b2d8-11ad-a1c9" hidden="false">
-      <description>Attacks that have the Area Effect rule may also hit models near to the original target and at the same Terrain Height the target is currently on or in. The Area Effect rule will detail the size of the affected area, how many attack dice are rolled and any Special Rules that may apply (note that the Special Rules from the initial attack don’t automatically apply). Once any damage and effects on the original target are resolved, the extended area effect attacks are then resolved in any order the player using the attack wishes. Unlike normal Ranged attacks, you may not spend Power to gain additional dice on Area Effect attacks.</description>
+      <description>Attacks that have the Area Effect rule may also hit models near to the original target and at the same Terrain Height the target is currently on or in. 
+The Area Effect profile of the same name will detail the radius of the affected area, how many attack dice are rolled and any Special Rules that may apply (note that the Special Rules from the initial attack don’t automatically apply). 
+Once any damage and effects on the original target are resolved, the extended area effect attacks are then resolved in any order the player using the attack wishes. 
+Unlike normal Ranged attacks, you may not spend Power to gain additional dice on Area Effect attacks.</description>
     </rule>
     <rule name="Polearm" id="a345-368f-6337-e54d" hidden="false" publicationId="4a94-de20-b936-ea2d">
       <description>The model has the Crushing Strength (1) and Vicious special rules when making a free Melee attack after a qualifying charge. In addition, enemy models that have the Cavalry special rule, do not get the +1 to-hit bonus for attacking this model in its front arc in Melee.</description>
-    </rule>
-    <rule name="Piercing (n)" id="5972-bb61-ccbd-1037" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Ranged attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
     </rule>
     <rule name="Weaken" id="1c25-a379-3b06-355c" hidden="false">
       <description>If an attack with this rule wounds the target, it is marked as Fatigued.</description>
@@ -1871,17 +1792,13 @@ when rolling for hits (including casting spells).</description>
     <rule name="Torrent" id="c62a-d2c1-4b9f-b24d" hidden="false">
       <description>Rolling to hit for this ranged attack is never modified.</description>
     </rule>
-    <rule name="Power Cost (2)" id="520b-88f6-e24c-081b" hidden="false">
+    <rule name="Power Cost (n)" id="520b-88f6-e24c-081b" hidden="false">
       <description>Pay (n) Power to perform this action.</description>
-    </rule>
-    <rule name="Power Cost (1)" id="f706-050b-b8e1-59ea" hidden="false">
-      <description>Pay (n) Power to perform this action.</description>
-    </rule>
-    <rule name="Power Cost (4)" id="01fc-19e6-e568-e0a8" hidden="false">
-      <description>Pay (n) Power to perform this action.</description>
-    </rule>
-    <rule name="Power Cost (3)" id="4529-0434-4eb6-d38e" hidden="false">
-      <description>Pay (n) Power to perform this action.</description>
+      <alias>Power Cost (1)</alias>
+      <alias>Power Cost (2)</alias>
+      <alias>Power Cost (3)</alias>
+      <alias>Power Cost (4)</alias>
+      <alias>Power Cost (n)</alias>
     </rule>
     <rule name="No Damage" id="ccc2-04b6-98b0-e4cd" hidden="false">
       <description>This attack does not cause the target to suffer any wounds.</description>
@@ -1889,20 +1806,29 @@ when rolling for hits (including casting spells).</description>
     <rule name="Melee (n+)" id="e57f-74e7-b63f-02d7" hidden="false">
       <description>This Melee Attack hits on n+</description>
     </rule>
-    <rule name="Ranged n+" id="6d20-c94f-c2f3-10df" hidden="false">
+    <rule name="Ranged (n+)" id="6d20-c94f-c2f3-10df" hidden="false">
       <description>This Ranged Attack hits on n+</description>
+      <alias>Ranged (2+)</alias>
+      <alias>Ranged (3+)</alias>
+      <alias>Ranged (4+)</alias>
+      <alias>Ranged (5+)</alias>
+      <alias>Ranged (6+)</alias>
+      <alias>Ranged (7+)</alias>
+      <alias>Ranged (9+)</alias>
     </rule>
     <rule name="Halberd" id="c25f-4a60-cc36-4a32" hidden="false">
       <description>The model has the Crushing Strength (1) and Vicious special rules when making a free Melee attack after a qualifying charge. In addition, enemy models that have the Cavalry special rule, do not get the +1 to-hit bonus for attacking this model in its front arc in Melee.</description>
     </rule>
     <rule name="Deadly *" id="1ecc-286f-cb53-764b" hidden="false" publicationId="4a94-de20-b936-ea2d">
       <description>The player owning the attacking model can force the target player to re-roll one successful armor save. This can be used to re-roll an Exploding 8 to try and prevent it Exploding!</description>
+      <alias>Deadly</alias>
     </rule>
     <rule name="Climber" id="5db9-a777-85c4-8055" hidden="false">
       <description>This model may Climb even though it&apos;s other characteristics would normally prevent it from doing so.</description>
     </rule>
     <rule name="Support Caster *" id="c96e-9f0b-a1d3-6280" hidden="false" publicationId="4a94-de20-b936-ea2d">
       <description>This unit may use the Cast action even though it is not of the SPELLCASTER class. For any other purposes such as list building and campaign advancement they count only as their original class.</description>
+      <alias>Support Caster</alias>
     </rule>
     <rule name="Immobilize" id="e51d-ace9-df8b-eeb3" hidden="false">
       <description>If this attack causes any wounds to the target, the target becomes immobilized. A model that is immobilized has it&apos;s Sp reduced to 0 until the end of it&apos;s next activation. It also cannot make a Break Away action.</description>
@@ -1930,16 +1856,10 @@ player.</description>
     <rule name="Crushing Strength (+1)" id="a183-8a40-07d8-9da4" hidden="false">
       <description>This model gains Crushing Strength (1) or, if it already has Crushing Strength (n), increases n by 1.</description>
     </rule>
-    <rule name="Crushing Strength (n)" id="1d1e-d82f-335a-f222" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
-      <description>Melee attacks from models or weapons with this rule apply a -(n) modifier to the target’s Armour Roll when attempting to save against hits.</description>
-    </rule>
     <rule name="Piercing (+1)" id="784c-4463-7f33-2eb8" hidden="false" page="38" publicationId="37f5-f8f9-pubN68000">
       <description>This model gains Piercing (1) or, if it already has Piercing (n), increases n by 1.</description>
     </rule>
-    <rule name="Lowered Armour (n)" id="2981-aa7b-6e88-ca75" hidden="false">
-      <description>This model worsens its Armor by n (i.e 5+ becomes 6+).</description>
-    </rule>
-    <rule name="Lowered Armour (1)" id="d471-ad07-79a8-169e" hidden="false">
+    <rule name="Lowered Armour (n)" id="d471-ad07-79a8-169e" hidden="false">
       <description>This model worsens its Armor by 1 (i.e 5+ becomes 6+). This effect is cumulative.</description>
     </rule>
     <rule name="Slow Reload" id="6ae5-c8fe-bcab-5469" hidden="false">
@@ -1957,6 +1877,9 @@ player.</description>
     <rule name="Ensnare" id="7161-27b3-c5fe-64c7" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
       <description>Models attempting to Break Away from this model must re-roll successfull Armour rolls.</description>
     </rule>
+    <rule name="Ability Attack" id="fbf1-70df-effd-cc1b" hidden="false">
+      <description>This attack can only be used with the corresponding ability</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Spear" id="da36-7b90-c7e5-26c1" collective="false" displayGroup="Equipment" hidden="false" import="true" type="upgrade">
@@ -1972,7 +1895,11 @@ player.</description>
         <constraint id="531b-7993-9145-f83c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="9075-c2a4-08b7-f061" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="9075-c2a4-08b7-f061" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Reload" id="4585-4b49-78cd-0588" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
         <infoLink name="Crossbow" id="eff0-c692-a42f-a4b6" hidden="false" targetId="1d03-e284-fedb-26f4" type="profile"/>
       </infoLinks>
@@ -2051,7 +1978,7 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (n)" id="43a1-fca9-cf71-5ad1" hidden="false" targetId="5972-bb61-ccbd-1037" type="rule"/>
+        <infoLink name="Piercing (+1)" id="43a1-fca9-cf71-5ad1" hidden="false" targetId="784c-4463-7f33-2eb8" type="rule"/>
         <infoLink name="Bodkin Arrow" id="83f2-e60f-ea30-abef" hidden="false" targetId="e683-6050-9fd3-6587" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -2083,7 +2010,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3"/>
       </costs>
       <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="5fbf-d99f-6133-4457" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="5fbf-d99f-6133-4457" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Heavy Weapon" id="5147-2aa0-9ca5-c7a0" hidden="false" targetId="ea6c-2b56-8bf9-d1e9" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -2220,7 +2151,11 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Marksman" id="c12b-e0ee-f452-18f4" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
-        <infoLink name="Piercing (1)" id="04cb-9f06-32e6-4c9b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="04cb-9f06-32e6-4c9b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Reload" id="2921-1fa7-11c6-d478" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
         <infoLink name="Marksman&apos;s Rifle" id="6643-3378-01e4-09c0" hidden="false" targetId="754f-f24a-844c-8ddf" type="profile"/>
         <infoLink name="Marksman&apos;s Rifle" id="e3df-1473-d08a-7aa8" hidden="false" targetId="8aa5-c3cd-b2f3-90e0" type="profile"/>
@@ -2367,7 +2302,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="d247-2f3d-3f45-2c67" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="d247-2f3d-3f45-2c67" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Marksman" id="9bae-fc92-7fd6-4d7a" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
         <infoLink name="Lightning Bolt (Boosted)" id="5e82-0cce-e382-b469" hidden="false" targetId="765f-a174-e22d-79b2" type="profile"/>
         <infoLink name="Lightning Bolt" id="d7b2-0eac-fdae-8ba8" hidden="false" targetId="11b4-1653-e59c-d6d9" type="profile"/>
@@ -2385,7 +2324,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="8f9a-b006-bf7e-4a8d" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="8f9a-b006-bf7e-4a8d" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Mind Storm" id="3182-8b87-cd2d-a27e" hidden="false" targetId="9bb7-b067-32b0-0222" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -2525,7 +2468,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (1)" id="7f8a-7beb-9468-5154" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="7f8a-7beb-9468-5154" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Reload" id="bbe0-35c5-8237-faa0" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
         <infoLink name="Crossbow" id="70eb-b159-ab0c-2cd1" hidden="false" targetId="1d03-e284-fedb-26f4" type="profile"/>
         <infoLink name="Crossbow" id="fe15-b593-d9c9-4959" hidden="false" targetId="0fe5-9659-462d-446e" type="profile"/>
@@ -2576,7 +2523,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (2)" id="f014-2ee9-6e18-8a41" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Piercing (n)" id="f014-2ee9-6e18-8a41" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Holy Hand Grenades" id="78d9-ed1e-c93e-9969" hidden="false" targetId="966e-c899-e372-2142" type="profile"/>
         <infoLink name="Holy Hand Grenades" id="2ff0-8ac0-75db-5034" hidden="false" targetId="0d7d-5ae6-832a-1a71" type="profile"/>
         <infoLink name="Holy Hand Grenades" id="ec84-69ec-29c1-db05" hidden="false" targetId="0d34-925d-b949-8752" type="profile"/>
@@ -2620,7 +2571,11 @@ player.</description>
       <infoLinks>
         <infoLink name="Firescorch Scroll" id="010a-b53f-ced9-3fbc" hidden="false" targetId="6f97-4783-578e-ea17" type="profile"/>
         <infoLink name="Firescorch Scroll" id="e577-319b-7893-e5ae" hidden="false" targetId="f38a-5cdd-dfee-e8c5" type="profile"/>
-        <infoLink name="Piercing (2)" id="d446-e584-5989-8704" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Piercing (n)" id="d446-e584-5989-8704" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Breath" id="175b-d73b-692f-854a" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -2861,7 +2816,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5"/>
       </costs>
       <infoLinks>
-        <infoLink name="Regenerate (7+)" id="67c2-93f3-b1e9-b4a1" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="67c2-93f3-b1e9-b4a1" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(7"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Darklord&apos;s Onyx Ring" id="d8c8-6369-aa43-ea55" hidden="false" targetId="0605-2caa-3f0f-45b3" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -2901,7 +2860,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
       </costs>
       <infoLinks>
-        <infoLink name="Crushing Strength (1)" id="5555-76e8-db5c-2eab" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="5555-76e8-db5c-2eab" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Pound" id="8f37-9f43-df40-4290" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
         <infoLink name="Forgebreaker" id="bf90-4fbe-eb81-029c" hidden="false" targetId="3f11-4380-3309-4f8f" type="profile"/>
       </infoLinks>
@@ -3253,7 +3216,11 @@ player.</description>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10"/>
       </costs>
       <infoLinks>
-        <infoLink name="Piercing (2)" id="7433-a5c1-ff46-6170" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Piercing (n)" id="7433-a5c1-ff46-6170" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Chain Lightning" id="fc9e-0734-c2ac-edef" hidden="false" targetId="caa5-a074-f67e-4ea3" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -3573,7 +3540,11 @@ player.</description>
       <infoLinks>
         <infoLink name="Rifle" id="55e7-638c-d283-ddc4" hidden="false" targetId="601d-8267-5d52-9b4c" type="profile"/>
         <infoLink name="Marksman" id="98b2-e2f5-155f-3623" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
-        <infoLink name="Piercing (1)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="f11a-69d9-914a-c1e5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Reload" id="05e0-3d08-6188-2291" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -3588,7 +3559,11 @@ player.</description>
       <infoLinks>
         <infoLink name="Meteor (Boosted)*" id="9564-daf3-3161-c1f1" hidden="false" targetId="fc73-dc4b-2345-0a94" type="profile"/>
         <infoLink name="Meteor (Boosted) *" id="c628-a5f6-9cd1-7e87" hidden="false" targetId="a58d-3b04-79fc-2bf3" type="profile"/>
-        <infoLink name="Piercing (1)" id="63e9-1bf5-427d-16d3" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="63e9-1bf5-427d-16d3" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Meteor *" id="06f8-4ea4-6bf3-0e53" hidden="false" targetId="85ed-6229-b1f6-478b" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -3660,7 +3635,11 @@ player.</description>
       <infoLinks>
         <infoLink name="Rifle" id="1315-5cb5-9a99-e1e7" hidden="false" targetId="601d-8267-5d52-9b4c" type="profile"/>
         <infoLink name="Marksman" id="6fb3-0d2f-6be4-e814" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
-        <infoLink name="Piercing (1)" id="567a-c740-9254-47e0" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="567a-c740-9254-47e0" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Reload" id="6166-7717-13c3-6118" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
       <profiles>
@@ -3714,7 +3693,11 @@ player.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Pistol" id="5283-c8aa-4b9b-f163" hidden="false" targetId="87f9-3979-0e14-456d" type="profile"/>
-        <infoLink name="Piercing (1)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="c516-2db1-a31b-5ffa" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Pound" id="87fd-6612-8588-a3d3" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -3727,7 +3710,11 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (+1)" id="19df-0289-aff6-b969" hidden="false" targetId="a183-8a40-07d8-9da4" type="rule"/>
-        <infoLink name="Lowered Armour (1)" id="b689-feaa-688f-4c2c" hidden="false" targetId="d471-ad07-79a8-169e" type="rule"/>
+        <infoLink name="Lowered Armour (1)" id="b689-feaa-688f-4c2c" hidden="false" targetId="d471-ad07-79a8-169e" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Flame Tongue *" id="82f1-5445-2efb-4372" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="upgrade">
@@ -3752,7 +3739,11 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Crushing Strength (+1)" id="9459-6b98-8bed-e11a" hidden="false" targetId="a183-8a40-07d8-9da4" type="rule"/>
-        <infoLink name="Lowered Armour (1)" id="ed39-0669-86c9-80df" hidden="false" targetId="d471-ad07-79a8-169e" type="rule"/>
+        <infoLink name="Lowered Armour (1)" id="ed39-0669-86c9-80df" hidden="false" targetId="d471-ad07-79a8-169e" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Two-handed Weapon" id="67f5-f2ce-ef88-b536" hidden="false" typeId="b118-12cb-7836-115e" typeName="Item">
@@ -3780,7 +3771,11 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Pistol" id="9581-15c1-6c42-6757" hidden="false" targetId="87f9-3979-0e14-456d" type="profile"/>
-        <infoLink name="Piercing (1)" id="4794-c5cc-dfeb-c27c" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="4794-c5cc-dfeb-c27c" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Pound" id="7300-3cba-78f2-7d46" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
       </infoLinks>
       <profiles>
@@ -3828,7 +3823,11 @@ player.</description>
       </costs>
       <infoLinks>
         <infoLink name="Musket" id="b424-131d-c44d-335d" hidden="false" targetId="cdf7-7515-6d84-850a" type="profile"/>
-        <infoLink name="Piercing (2)" id="d3fe-b47b-0a76-8f11" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Piercing (n)" id="d3fe-b47b-0a76-8f11" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Marksman" id="b949-03da-7112-de91" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule"/>
         <infoLink name="Reload" id="b6d8-eb52-888a-c1c4" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
@@ -3848,7 +3847,11 @@ player.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Harpoon-gun" id="aa0c-5b7a-82e9-a0d8" hidden="false" targetId="497e-058c-5430-3f04" type="profile"/>
-        <infoLink name="Piercing (1)" id="f689-0b5a-259c-d192" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="f689-0b5a-259c-d192" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Trident" id="d7a4-ea56-28b9-e013" collective="false" hidden="false" import="true" type="upgrade">
@@ -3877,7 +3880,11 @@ player.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Poisoned Throwing Weapon" id="c1a4-09f1-0574-4eb3" hidden="false" targetId="3349-410f-a031-6379" type="profile"/>
-        <infoLink name="Piercing (1)" id="e417-6a59-5b6e-ba91" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="e417-6a59-5b6e-ba91" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Heavy Crossbow" id="56c8-38a6-0bee-253a" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="upgrade">
@@ -3890,7 +3897,11 @@ player.</description>
       <infoLinks>
         <infoLink name="Heavy Crossbow" id="4fcc-0591-e274-2e2c" hidden="false" targetId="8eb0-009b-bed9-4749" type="profile"/>
         <infoLink name="Reload" id="8af6-7d50-bad9-5d97" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
-        <infoLink name="Piercing (2)" id="584e-4966-555e-ab17" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Piercing (n)" id="584e-4966-555e-ab17" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Weaken" id="5437-632c-a559-29f4" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -3915,6 +3926,21 @@ player.</description>
         <infoLink name="Weaken" id="ac73-579f-54ab-3880" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
         <infoLink name="Doomblast" id="0204-1dcc-61b7-c4e8" hidden="false" targetId="2fdb-5316-8d15-155f" type="profile"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Power Dice - (Red/Black)" id="5c3f-b3c5-55fe-5053" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Power Dice" id="3ddc-772b-0b81-df5a" hidden="false" primary="true" targetId="4960-df95-eaee-87ec"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry name="Power Dice - (White/Orange)" id="7d3b-91eb-6c4d-4118" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Power Dice" id="d0a2-e180-b331-f2aa" hidden="false" primary="true" targetId="4960-df95-eaee-87ec"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry name="Power Dice - (Blue/Green)" id="cef6-f523-38be-0b4f" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Power Dice" id="e295-db87-0150-4337" hidden="false" primary="true" targetId="4960-df95-eaee-87ec"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

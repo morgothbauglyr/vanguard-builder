@@ -33,7 +33,6 @@
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly model in range. For each hit scored, instead of causing damage, the target’s Ne and Ar stats are improved by 1 until the end of the Round.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Instill Courage" id="327b-c04f-04cb-b053" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -43,7 +42,6 @@
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571"/>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">No roll necessary. The target friendly model gains the Stubborn and Steady special rules until the end of the Round.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Archwizard" id="62c9-bc69-7238-b334" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -55,9 +53,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Master of Magic, Very Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Arquebusier" id="4016-cdf0-8c31-b64a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -69,9 +68,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Assassin" id="939e-8018-fbbd-7805" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -83,9 +83,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Pathfinder, Sneaky, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Ballista" id="b71f-562a-a0e9-8db2" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -97,9 +98,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Lumbering</characteristic>
       </characteristics>
     </profile>
     <profile name="Beast Knight" id="ee74-3073-cc2c-3041" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -111,9 +113,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Crushing Strength (2), Devastating Charge, Headstrong, Smash</characteristic>
       </characteristics>
     </profile>
     <profile name="Berserker" id="d2f5-7249-473d-8e75" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -125,9 +128,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Steady, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Crossbowman" id="7852-ff8b-ad0e-bb89" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -139,9 +143,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Fanatic" id="231b-6911-010a-f004" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -153,9 +158,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Foot Guard" id="ddbb-5787-711b-be01" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -167,9 +173,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Defender</characteristic>
       </characteristics>
     </profile>
     <profile name="Foot Soldier" id="da5a-252d-08de-e7f1" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -181,9 +188,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Knight" id="20b2-46f6-d90f-d9ca" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -195,9 +203,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Devastating Charge, Headstrong, Smash</characteristic>
       </characteristics>
     </profile>
     <profile name="Leader of Men" id="f923-b31f-7c41-d31f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -209,9 +218,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Very Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Light Cavalrist" id="b2ce-c5cb-871b-b8fd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -223,9 +233,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry</characteristic>
       </characteristics>
     </profile>
     <profile name="Ogre Warrior" id="0098-f0c0-d012-70e1" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -237,9 +248,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1)</characteristic>
       </characteristics>
     </profile>
     <profile name="Veteran Soldier" id="836d-d0b2-5b7b-0153" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -251,9 +263,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Headstrong, Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Wizard" id="6efc-3b78-1ac1-f719" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -265,9 +278,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Priest" id="0e7a-8d51-ba26-11e0" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -279,9 +293,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Support Caster</characteristic>
       </characteristics>
     </profile>
     <profile name="STRENGTH OF MEN" id="e69f-7034-a1cf-4853" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -314,16 +329,17 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Very Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Ballista Shot" id="f4b5-58ae-e64f-b0d4" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
       <characteristics>
         <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">48&quot;</characteristic>
         <characteristic name="Dice" typeId="2088-497d-b499-8476">3D8</characteristic>
-        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (3), Reload</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (3), Slow Reload</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -409,11 +425,16 @@
       <entryLinks>
         <entryLink name="Items" id="cfe3-d4b2-2848-342e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - Archwizard" id="11f7-f3c3-f78b-a563" collective="false" hidden="false" import="true" targetId="72cc-e692-06a8-acbc" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="139f-71be-d808-9dba" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="7c81-ca27-d4c9-2c69-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="7c81-ca27-d4c9-2c69-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Master of Magic" id="3d54-ee27-83d7-c88c" hidden="false" targetId="a1a9-27ee-64a9-c78e" type="rule"/>
         <infoLink name="Archwizard" id="f005-e60b-1d32-dcd9" hidden="false" targetId="62c9-bc69-7238-b334" type="profile"/>
-        <infoLink name="Power Dice White/Orange (2)" id="4b4f-cbce-05d3-da5e" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
         <infoLink name="Very Inspiring" id="0c12-19a5-65bd-618b" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
         <infoLink name="DRAW POWER" id="0393-2214-13ea-20cb" hidden="false" targetId="13b4-8630-5434-6ee2" type="profile"/>
       </infoLinks>
@@ -541,7 +562,11 @@
       <infoLinks>
         <infoLink name="Beast Knight" id="a5d1-0e99-7f6e-4ebe" hidden="false" targetId="ee74-3073-cc2c-3041" type="profile"/>
         <infoLink name="Cavalry" id="7296-7796-6e1d-9891" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink name="Crushing Strength (2)" id="c75a-bf19-27af-384b" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="c75a-bf19-27af-384b" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Smash" id="d1e0-c404-0a08-396b" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Devastating Charge" id="54ec-e470-7af8-b9d4" hidden="false" targetId="7fb9-65c2-b83b-92a6" type="rule"/>
         <infoLink name="Headstrong" id="b847-ef59-1365-79a5" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
@@ -596,7 +621,7 @@
         <constraint id="20e1-e17f-d8b6-b2cd" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="0"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9"/>
       </costs>
       <entryLinks>
         <entryLink name="Items" id="7c93-3583-8d1a-788e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
@@ -643,7 +668,11 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Foot Guard" id="047e-fdb1-ef81-142a" hidden="false" targetId="ddbb-5787-711b-be01" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="5369-1bf1-8468-f4e8" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="5369-1bf1-8468-f4e8" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Defender" id="03c9-88f6-5d8d-9185" hidden="false" targetId="a9d4-371e-0de9-bb9d" type="rule">
           <modifiers>
             <modifier field="hidden" type="set" value="true">
@@ -748,6 +777,12 @@
       </costs>
       <entryLinks>
         <entryLink name="Items" id="1d36-05a1-ebc9-6c23" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="fd65-8562-cd11-ecff" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="d40a-d7ac-f3da-5757-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d40a-d7ac-f3da-5757-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Knight" id="8ac4-8421-377b-3e9e" hidden="false" targetId="20b2-46f6-d90f-d9ca" type="profile"/>
@@ -755,7 +790,6 @@
         <infoLink name="Cavalry" id="4634-e2d8-de98-44c3" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Smash" id="90b0-bd02-2976-fa90" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Devastating Charge" id="2854-ebd1-d42d-31ce" hidden="false" targetId="7fb9-65c2-b83b-92a6" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="0177-6b9d-47ed-c7a5" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="ce3a-69c6-f0c5-cae3" type="increment" value="1">
@@ -780,11 +814,20 @@
       </costs>
       <entryLinks>
         <entryLink name="Items" id="4522-1195-1467-c66d" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Blue/Green)" id="2a46-d52a-278a-081f" hidden="false" import="true" targetId="cef6-f523-38be-0b4f" type="selectionEntry">
+          <constraints>
+            <constraint id="a444-76d4-74c2-d677-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="a444-76d4-74c2-d677-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Leader of Men" id="f7a4-70e6-dd7a-679f" hidden="false" targetId="f923-b31f-7c41-d31f" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="daa3-ce60-0b80-fcd1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice Blue/Green (1)" id="6d47-3ebc-c39f-e8e7" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="daa3-ce60-0b80-fcd1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Very Inspiring" id="67da-657e-d978-6563" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
         <infoLink name="FOR THE KINGDOM" id="245a-b8ec-9dda-637f" hidden="false" targetId="4fd7-b343-a881-de8a" type="profile"/>
       </infoLinks>
@@ -842,7 +885,11 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Ogre Warrior" id="2cf0-8d2a-2607-7582" hidden="false" targetId="0098-f0c0-d012-70e1" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="64e5-65fd-4a39-908c" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="64e5-65fd-4a39-908c" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="9d45-251c-3c7a-a9a2" type="increment" value="1">
@@ -866,12 +913,17 @@
       </costs>
       <entryLinks>
         <entryLink name="Items" id="7762-a164-28ab-2b5a" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="228e-db12-5b04-3976" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="d9e4-0dfd-0530-cbc3-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d9e4-0dfd-0530-cbc3-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Veteran Soldier" id="f210-964b-2333-983b" hidden="false" targetId="836d-d0b2-5b7b-0153" type="profile"/>
         <infoLink name="Headstrong" id="b66d-d688-6470-2771" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="fcd8-36f7-4bfe-ec80" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="bf68-d064-24fc-7f45" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="d85e-4e9c-3e27-153a" type="increment" value="1">
@@ -954,9 +1006,16 @@
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Power Dice - (White/Orange)" id="e212-c70b-fdc7-cc2f" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="d601-231f-2c37-6d88-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d601-231f-2c37-6d88-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Captain of the Watch *" id="f87e-a595-0400-3755" hidden="false" targetId="6a21-8f00-ddd3-a5b4" type="profile"/>
-        <infoLink name="Power Dice White/Orange (1)" id="fb40-e50f-68d1-39d7" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="EVER VIGILANT" id="cac6-bf47-3464-356a" hidden="false" targetId="5cc2-0e45-91f7-216b" type="profile"/>
         <infoLink name="Very Inspiring" id="897c-c078-0739-3e1c" hidden="false" targetId="67df-803d-48b0-1418" type="rule"/>
       </infoLinks>
@@ -988,7 +1047,11 @@
       <infoLinks>
         <infoLink name="Ballista Shot" id="5bd4-2715-4ab8-eb3d" hidden="false" targetId="f4b5-58ae-e64f-b0d4" type="profile"/>
         <infoLink name="Slow Reload" id="6b2d-0fd3-dccc-e67b" hidden="false" targetId="6ae5-c8fe-bcab-5469" type="rule"/>
-        <infoLink name="Piercing (3)" id="d047-cc03-1dbd-927d" hidden="false" targetId="9fd9-8e4c-3cc5-a0e9" type="rule"/>
+        <infoLink name="Piercing (n)" id="d047-cc03-1dbd-927d" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -22,6 +22,8 @@
     <entryLink name="Wiz" id="c986-52b4-dc36-04ac" hidden="false" import="true" targetId="4805-5858-0499-cb12" type="selectionEntry"/>
     <entryLink name="Shroom Wiz *" id="f85a-4724-3470-8b1e" hidden="false" import="true" targetId="defc-c13a-cc4a-5402" type="selectionEntry"/>
     <entryLink name="Faction Abilities" id="20e0-f549-aaf4-c6da" hidden="false" import="true" targetId="9031-a02a-72ee-2c94" type="selectionEntry"/>
+    <entryLink name="Blaggit" id="d1be-7c4f-b891-7cf8" hidden="false" import="true" targetId="ba79-c641-953d-57ca" type="selectionEntry"/>
+    <entryLink name="Mawpup Launcher" id="b639-7089-bef4-a849" hidden="false" import="true" targetId="93ea-291e-3728-4920" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Spidro Gigante" id="0dc9-6095-46f2-9d33" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -33,9 +35,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Climber, Crushing Strength, Pathfinder, Vicious Swipe, Weaken</characteristic>
       </characteristics>
     </profile>
     <profile name="Web Spinner" id="adeb-f599-769b-b2ed" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -52,7 +55,6 @@
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">For each hit scored, the target suffers a -1 modifier to any Melee or Ranged attack it makes until the end of the Round.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Shrivel (Boosted)" id="1160-6c16-629d-58a6" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -62,7 +64,6 @@
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">For each hit scored, the target suffers a -1 modifier to any Melee or Ranged attack it makes until the end of the Round.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Slink" id="21a3-7192-ca82-9ae8" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -72,7 +73,6 @@
         <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
         <characteristic name="Effect" typeId="1a53-41d9-8d96-a949">Target a friendly GOBLIN model, with a -1 modifier on the roll. If a hit is  scored, instead of suffering a wound, the target model removes any Activation counter on it and can be activated again this Round in a later Turn.</characteristic>
         <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-        <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
       </characteristics>
     </profile>
     <profile name="Shroom Wiz" id="bfa4-3c78-266d-f9fc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -84,9 +84,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Banggit" id="fb0e-e482-006f-ede2" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -98,9 +99,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Dodge, Sneaky</characteristic>
       </characteristics>
     </profile>
     <profile name="Biggit" id="6f9f-6a10-8412-c26e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -112,9 +114,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Inspiring, Sneaky</characteristic>
       </characteristics>
     </profile>
     <profile name="Blaggit" id="38e0-3f6e-670c-1ca7" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -126,9 +129,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Dodge, Rabble Rouser, Scout, Sneaky, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Kuzlo &amp; Madfall" id="1aa3-7da8-d722-9f01" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -140,9 +144,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">5</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">6th Sense, Cavalry, Dodge, Gobble, Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Luggit" id="9274-7f95-3605-9294" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -154,9 +159,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Smash, Sneaky</characteristic>
       </characteristics>
     </profile>
     <profile name="Magwa &amp; Jo&apos;os" id="8106-2166-a184-ac9d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -168,9 +174,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Inspiring (Beast), Pack Leader, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Mawbeast" id="9dac-97a5-5176-6b41" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -182,9 +189,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Mawpup Launcher" id="8d25-bb97-20c9-e7da" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -196,9 +204,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Pup and Over</characteristic>
       </characteristics>
     </profile>
     <profile name="Rabble" id="7f9e-78a0-4e87-536f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -210,9 +219,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Sneaky, Swarm</characteristic>
       </characteristics>
     </profile>
     <profile name="Snaggit" id="a924-87aa-2d8e-a91d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -224,9 +234,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Pathfinder, Sneaky</characteristic>
       </characteristics>
     </profile>
     <profile name="Sneak" id="2600-1cb6-e3e0-808e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -238,9 +249,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Pathfinder, Smokebombs, Sneaky</characteristic>
       </characteristics>
     </profile>
     <profile name="Spitter" id="0b82-cc52-0219-b37b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -252,9 +264,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Stinggit" id="1b0c-c5c1-bb9f-f11b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -266,9 +279,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring (Sneaks only), Scout, Sneaky, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Winggit" id="096d-2fc5-fdac-8f53" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -280,9 +294,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Eye in the Sky, Fly, Implacable</characteristic>
       </characteristics>
     </profile>
     <profile name="Wiz" id="623f-b8bc-466b-890b" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -294,23 +309,24 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring</characteristic>
       </characteristics>
     </profile>
-    <profile name="Dastardly Traps" id="9f49-0a59-4edd-79c2" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
+    <profile name="Trap" id="9f49-0a59-4edd-79c2" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
       <characteristics>
         <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">3&quot;</characteristic>
         <characteristic name="Dice" typeId="2088-497d-b499-8476">2D8</characteristic>
-        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1), Ranged (5+)</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (1), Ranged (5+), Ability: Dastardly Traps</characteristic>
       </characteristics>
     </profile>
     <profile name="Dodgy Grenades" id="4009-bb1e-4247-21fa" hidden="false" typeId="4dc9-b7a9-fe41-a041" typeName="Area Effect">
       <characteristics>
         <characteristic name="Range" typeId="f9c3-6e8c-513c-004c">2&quot;</characteristic>
         <characteristic name="Dice" typeId="2e7f-fdd0-d47c-b762">1D8</characteristic>
-        <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b">(Piercing (X)</characteristic>
+        <characteristic name="Rules" typeId="db39-0dbc-ae1f-4d0b">Piercing (n)</characteristic>
       </characteristics>
     </profile>
     <profile name="Firebombs" id="7c0e-a58e-741e-2eaa" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -369,7 +385,7 @@
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">Any friendly, non-Fatigued and non-activated Mawbeasts within 6” of this model can immediately make a Walk action directly towards this model without being marked as activated. An individual Mawbeast can only Howl! once per Round.</characteristic>
       </characteristics>
     </profile>
-    <profile name="I CAN SEE TIME!" id="8099-47ea-d06a-95f1" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+    <profile name="I CAN SEE TIME! *" id="8099-47ea-d06a-95f1" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
       <characteristics>
         <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">1</characteristic>
         <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">Use this ability when activating this model.</characteristic>
@@ -402,7 +418,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <characteristics>
         <characteristic name="Range" typeId="41f5-319f-6ccd-eaec">6&quot;</characteristic>
         <characteristic name="Dice" typeId="2088-497d-b499-8476"/>
-        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Piercing (X), Area Effect</characteristic>
+        <characteristic name="Rules" typeId="b478-b971-cc61-444f">Power Cost (n), Piercing (n), Area Effect, Oops</characteristic>
       </characteristics>
     </profile>
     <profile name="DASTARDLY TRAPS" id="15dc-72da-9b22-18d6" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -421,10 +437,9 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
     </profile>
   </sharedProfiles>
   <sharedRules>
-    <rule name="Dodgy Grenades" id="3337-2f17-f0ea-8545" hidden="false">
-      <description>Using the Ability **Dodgy Grenades** is required to use this attack.</description>
+    <rule name="Inspiring ( Sneaks Only )" id="03ff-213e-65cd-5787" hidden="false">
+      <description>A model with this rule, and all friendly Sneak models within 6” of it, may re-roll failed Nerve tests.</description>
     </rule>
-    <rule name="Inspiring ( Sneaks Only )" id="03ff-213e-65cd-5787" hidden="false"/>
     <rule name="Smokebombs" id="0411-af6c-8d01-c995" hidden="false">
       <description>This model can always Break Away without having to make any Armour rolls.</description>
     </rule>
@@ -440,8 +455,11 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
     <rule name="Pack Leader" id="5f0c-936a-2cf6-fb0b" hidden="false">
       <description>You may take up two additional Mawbeast units in your Warband beyond those normally allowed in the Warband selection rules.</description>
     </rule>
-    <rule name="Dastardly Traps" id="3b26-96e1-2ad1-d070" hidden="false">
-      <description>Using the Ability **Dastardly Traps** is required to use this attack.</description>
+    <rule name="Ability: Dastardly Traps" id="3b26-96e1-2ad1-d070" hidden="false">
+      <description>Using the Ability **DASTARDLY TRAPS** is required to use this attack.</description>
+    </rule>
+    <rule name="Oops" id="b10f-503e-b796-7ccf" hidden="false">
+      <description>Before the attack is made, roll a single die and add the Power spent on this attack (n) to the result. On a result of 8 or more, the grenade explodes before being thrown - the Banggit suffers 1 automatic hit with Piercing (n) and the ranged attack fails. Otherwise, the attack proceeds as normal.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -475,8 +493,8 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0"/>
       </costs>
       <infoLinks>
+        <infoLink name="Dodgy Grenades" id="09dc-7523-6ed9-8b1f" hidden="false" targetId="b10f-503e-b796-7ccf" type="rule"/>
         <infoLink name="Dodgy Grenades" id="1875-90cf-e977-6b3a" hidden="false" targetId="a03e-59ee-5e9f-782a" type="profile"/>
-        <infoLink name="Dodgy Grenades" id="6843-0a1a-63bc-6f08" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
         <infoLink name="Dodgy Grenades" id="88c1-c7a6-0690-df0b" hidden="false" targetId="4009-bb1e-4247-21fa" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -486,7 +504,11 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <infoLinks>
         <infoLink name="Firebombs" id="0886-d10d-f296-0d55" hidden="false" targetId="7c0e-a58e-741e-2eaa" type="profile"/>
-        <infoLink name="Piercing (2)" id="9753-9f98-6614-7d2e" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+        <infoLink name="Piercing (n)" id="9753-9f98-6614-7d2e" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Firebombs" id="f1b2-d0a3-0e10-a2ff" hidden="false" typeId="4dc9-b7a9-fe41-a041" typeName="Area Effect">
@@ -504,14 +526,15 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <infoLinks>
         <infoLink name="Mawpup Launcher" id="7764-b4c0-e166-df88" hidden="false" targetId="801c-572e-78e8-18c7" type="profile"/>
-        <infoLink name="Piercing (1)" id="785a-2c50-b25f-f0f5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="785a-2c50-b25f-f0f5" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Reload" id="f96e-3c99-3298-c9b9" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Dastardly Traps" id="b650-452b-e4f2-a3ad" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2"/>
-      </costs>
+    <selectionEntry name="Trap" id="b650-452b-e4f2-a3ad" collective="false" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Dastardly Traps" id="e0ac-5f63-8db2-ff62" hidden="false" targetId="9f49-0a59-4edd-79c2" type="profile"/>
       </infoLinks>
@@ -532,7 +555,11 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <infoLink name="Spidro Gigante" id="b029-6704-c8f4-c0c6" hidden="false" targetId="0dc9-6095-46f2-9d33" type="profile"/>
         <infoLink name="Pathfinder" id="136b-b4be-638e-87b5" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
         <infoLink name="Climber" id="e4ad-a3ea-94a4-edd4" hidden="false" targetId="5db9-a777-85c4-8055" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="2136-c697-def2-d84f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="2136-c697-def2-d84f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Weaken" id="d6b7-3c14-0303-d4dc" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
         <infoLink name="Vicious Swipe" id="84df-8e95-7360-e0c9" hidden="false" targetId="6b03-4684-97f3-c6a9" type="rule"/>
       </infoLinks>
@@ -575,8 +602,6 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <infoLink name="Banggit" id="b25b-9a4f-093f-7ae3" hidden="false" targetId="fb0e-e482-006f-ede2" type="profile"/>
         <infoLink name="Dodge" id="50a2-6f32-1a1c-6c79" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="Sneaky" id="efd4-e1cd-4012-f6a9" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
-        <infoLink name="Dodgy Grenades" id="2bae-9457-036c-534c" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
-        <infoLink name="DODGY GRENADES" id="9fe2-b048-c3f0-b030" hidden="false" targetId="fcb3-1fd8-fe07-9a2e" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="2a37-840d-d466-2d69" type="increment" value="1">
@@ -601,13 +626,22 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <entryLinks>
         <entryLink name="Items" id="60fa-3745-25df-8f89" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice Red/Black" id="848f-efe6-a3c4-1199" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="2ccd-9d15-5e07-7847-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="2ccd-9d15-5e07-7847-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Biggit" id="42b0-90ca-70dd-9cca" hidden="false" targetId="6f9f-6a10-8412-c26e" type="profile"/>
         <infoLink name="Sneaky" id="5da5-ebe2-18e1-0f27" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Inspiring" id="587f-0b84-6a7a-2b91" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="3886-8052-37d9-6737" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice Red/Black (2)" id="b75f-fe64-118e-b88a" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="3886-8052-37d9-6737" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="95d1-830c-d4c1-776f" type="increment" value="1">
@@ -665,6 +699,12 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <entryLinks>
         <entryLink name="Items" id="a5b1-1acb-24e8-6383" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spellbook - Corrupt" id="6bc9-f132-e456-dabb" collective="false" hidden="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="e137-bcb8-7801-6a3e" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="8934-2a43-5af7-e4e5-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8934-2a43-5af7-e4e5-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Kuzlo &amp; Madfall" id="8ec8-c255-1252-3e37" hidden="false" targetId="1aa3-7da8-d722-9f01" type="profile"/>
@@ -672,12 +712,17 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
         <infoLink name="Dodge" id="6b01-72c2-b219-24d5" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
         <infoLink name="6th Sense" id="11da-6f8a-f0a7-f044" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Cavalry" id="c624-3e7e-a126-3aba" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="bb3a-1b39-4206-f7a2" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
+      <profiles>
+        <profile name="Spell Siphon" id="038c-b7ee-46ba-5333" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
+          <characteristics>
+            <characteristic name="Power Cost" typeId="1bf9-e90f-6415-1697">2</characteristic>
+            <characteristic name="Timing" typeId="4502-0f40-9d79-bc93">During this model&apos;s activation</characteristic>
+            <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model can choose to cast any one spell known by an enemy spellcaster within 9&quot; and LOS. The siphoned spell is cast with its original action length, range, dice and effects. Siphoned spells cannot be boosted. The enemy model can continue to use the same spell in their own Turn as normal.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
-        <rule name="Spell Siphon (2)" id="53be-d00a-0ab2-256c" hidden="false">
-          <description>This model can choose to cast any one spell known by an enemy spellcaster within 9&quot; and LOS. The siphoned spell is cast with its original action length, range, dice and effects. Siphoned spells cannot be boosted.  The enemy model can continue to use the same spell in their own Turn as normal.</description>
-        </rule>
         <rule name="Gobble" id="71e1-1d24-06e4-97c3" hidden="false">
           <description>When this model achieves a hit with all its dice in a single Melee attack against GRUNT or WARRIOR of height 2 or less, the enemy model is removed from play as a casualty. No armour save is allowed.</description>
         </rule>
@@ -717,7 +762,6 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
                     <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
                     <characteristic name="Effect" typeId="1a53-41d9-8d96-a949"/>
                     <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
-                    <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -746,7 +790,11 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <infoLinks>
         <infoLink name="Luggit" id="04e6-4cc8-6325-b80e" hidden="false" targetId="9274-7f95-3605-9294" type="profile"/>
         <infoLink name="Sneaky" id="79f5-b762-3127-1984" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="fa2f-d328-b31b-427f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="fa2f-d328-b31b-427f" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Smash" id="6c39-4425-b00f-d692" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -771,13 +819,24 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Power Dice - (White/Orange)" id="2d1a-e57e-08f3-1b0a" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="f13d-c1b4-ef0d-e3e6-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="f13d-c1b4-ef0d-e3e6-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Magwa &amp; Jo&apos;os" id="db25-3cf5-d53a-722a" hidden="false" targetId="8106-2166-a184-ac9d" type="profile"/>
         <infoLink name="Vicious" id="4303-3301-890e-2695" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink name="Inspiring (Beasts only)" id="48b6-e9c3-c82a-9aac" hidden="false" targetId="fe66-a62b-ddab-fa89" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="3f79-b798-2b62-ef5c" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink name="Inspiring" id="48b6-e9c3-c82a-9aac" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="Pack Leader" id="825f-0263-b1e6-2983" hidden="false" targetId="5f0c-936a-2cf6-fb0b" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="9157-310b-f67e-2b1e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="9157-310b-f67e-2b1e" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="ALPHA HOWL!" id="1824-fb8f-25d9-7c2a" hidden="false" targetId="cb6f-e1fe-fa1f-a7c8" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -899,7 +958,7 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       </costs>
       <entryLinks>
         <entryLink name="Items" id="2426-6ed0-0fed-db73" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Dastardly Traps" id="3dd3-86b7-e71e-96ec" collective="false" hidden="false" import="true" targetId="b650-452b-e4f2-a3ad" type="selectionEntry">
+        <entryLink name="Trap" id="3dd3-86b7-e71e-96ec" collective="false" hidden="false" import="true" targetId="b650-452b-e4f2-a3ad" type="selectionEntry">
           <constraints>
             <constraint id="6535-3d93-bd95-6f5b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="28f2-64be-4649-453f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -907,9 +966,6 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
           <infoLinks>
             <infoLink name="Dastardly Traps" id="300e-0eb3-800e-6db5" hidden="false" targetId="3b26-96e1-2ad1-d070" type="rule"/>
           </infoLinks>
-          <modifiers>
-            <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
-          </modifiers>
         </entryLink>
       </entryLinks>
       <infoLinks>
@@ -1024,12 +1080,17 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
             <modifier field="b888-e3bd-8798-6364" type="set" value="0"/>
           </modifiers>
         </entryLink>
+        <entryLink name="Power Dice - (White/Orange)" id="750a-a851-57c6-6cfd" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="8b30-2fed-be93-e39e-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8b30-2fed-be93-e39e-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Stinggit" id="cd57-9775-87c1-157e" hidden="false" targetId="1b0c-c5c1-bb9f-f11b" type="profile"/>
         <infoLink name="Sneaky" id="a181-96b9-54f5-90cf" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
         <infoLink name="Inspiring ( Sneaks Only )" id="e0c5-fd89-a1ac-6889" hidden="false" targetId="03ff-213e-65cd-5787" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="8c16-a46e-3222-6095" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Scout" id="533e-0261-f112-0beb" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink name="Stealthy" id="d937-6567-ee61-7d3c" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="AGILE FEINT" id="b69e-3947-6e42-a488" hidden="false" targetId="c643-d8b3-2526-4d35" type="profile"/>
@@ -1097,10 +1158,15 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <entryLinks>
         <entryLink name=" Spell Selection - Wiz" id="4807-949c-e384-7168" collective="false" hidden="false" import="true" targetId="1a31-45a4-51fa-961e" type="selectionEntryGroup"/>
         <entryLink name="Items" id="c63b-93dc-59e7-6814" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="51dd-a4a6-2acd-380d" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="7b9b-0649-0069-79d0-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7b9b-0649-0069-79d0-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Wiz" id="ff79-3b4b-78a5-6da2" hidden="false" targetId="623f-b8bc-466b-890b" type="profile"/>
-        <infoLink name="Power Dice Red/Black (1)" id="7d3b-6032-0f86-6e90" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Inspiring" id="0484-36ea-eaf7-dcc7" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="CACKLE" id="d5ea-27bd-aed9-3835" hidden="false" targetId="b77c-7f80-1613-ad68" type="profile"/>
       </infoLinks>
@@ -1128,12 +1194,18 @@ Dogdy Grenades Range 6”, Piercing (X), Area Effect (2” / 1D8 / Piercing (X))
       <entryLinks>
         <entryLink name=" Spell Selection - Shroom Wiz" id="26f9-a176-d228-dffb" collective="false" hidden="false" import="true" targetId="f2a8-2cf3-b7a3-e9a1" type="selectionEntryGroup"/>
         <entryLink name="Items" id="8556-15d3-3587-762b" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="3a24-9e0b-6c5e-d107" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="d78b-a1b7-8f40-cbdd-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="d78b-a1b7-8f40-cbdd-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Shroom Wiz" id="257c-0fc1-e559-91c9" hidden="false" targetId="bfa4-3c78-266d-f9fc" type="profile"/>
-        <infoLink name="Power Dice Red/Black (3)" id="0880-db8c-559b-27a0" hidden="false" targetId="b97d-fd69-997a-8ad9" type="rule"/>
         <infoLink name="I CAN SEE TIME!" id="5798-3b41-dfe3-8123" hidden="false" targetId="8099-47ea-d06a-95f1" type="profile"/>
         <infoLink name="WHEEEE! *" id="7930-e631-4efe-e944" hidden="false" targetId="9e8d-812c-1615-8e1c" type="profile"/>
+        <infoLink name="Inspiring" id="a314-0e05-1716-f580" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="aa73-ff6c-4c65-5638" type="increment" value="1">

@@ -56,9 +56,10 @@ This ability may be used more than once per Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">3D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Combined Fire (Marksman)</characteristic>
       </characteristics>
     </profile>
     <profile name="City Militia" id="c530-5a3e-0283-f7f3" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -70,9 +71,10 @@ This ability may be used more than once per Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Halfling Brave" id="67f3-cb3a-2f4c-54cf" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -84,9 +86,10 @@ This ability may be used more than once per Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Pathfinder, Sneaky, Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="House Guard" id="9c53-204a-b79e-1dbd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -98,9 +101,10 @@ This ability may be used more than once per Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Headstrong</characteristic>
       </characteristics>
     </profile>
     <profile name="Household Knight" id="3476-db52-4b62-3c1f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -112,9 +116,10 @@ This ability may be used more than once per Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Crushing Strength (1), Expert Rider, Smash</characteristic>
       </characteristics>
     </profile>
     <profile name="THE BINDING" id="6396-9118-380e-43fb" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -133,9 +138,10 @@ This ability may be used more than once per Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Monster</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Crushing Strength (2), Headstrong</characteristic>
       </characteristics>
     </profile>
     <profile name="House Guard Captain" id="2157-5415-95f5-cb96" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -147,9 +153,10 @@ This ability may be used more than once per Round.</characteristic>
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Inspiring, Parry</characteristic>
       </characteristics>
     </profile>
     <profile name="UNLEASH THE DOGS OF WAR" id="005a-46a7-0a55-9f46" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -379,13 +386,22 @@ member of the warband for the duration of the current game only, and does count 
       </costs>
       <entryLinks>
         <entryLink name="Items" id="2826-a866-94c1-9660" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="d969-4f7b-f66f-770d" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="8792-8e92-9dcd-3f7f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8792-8e92-9dcd-3f7f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Household Knight" id="531f-4dab-65b3-2d21" hidden="false" targetId="3476-db52-4b62-3c1f" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="73e6-bd79-da11-169a" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="73e6-bd79-da11-169a" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Cavalry" id="d177-cbec-3752-5afc" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink name="Smash" id="cdad-a7e1-00c1-9bd5" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="b0b7-0cbe-df51-3ba1" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="Expert Rider" id="5653-42cc-5171-99f2" hidden="false" targetId="761a-5ccb-142e-0ebb" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -413,7 +429,11 @@ member of the warband for the duration of the current game only, and does count 
       </costs>
       <infoLinks>
         <infoLink name="Honour Guard" id="ece9-707e-48c3-d94b" hidden="false" targetId="56db-71c5-f1fa-3a77" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="65d4-c933-72c8-f4a4" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="65d4-c933-72c8-f4a4" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="THE BINDING" id="e824-722d-dd0f-b429" hidden="false" targetId="6396-9118-380e-43fb" type="profile"/>
         <infoLink name="Headstrong" id="0745-7270-df76-152b" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Cavalry" id="d26f-b0db-6126-77ad" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
@@ -441,16 +461,30 @@ member of the warband for the duration of the current game only, and does count 
       </costs>
       <entryLinks>
         <entryLink name="Items" id="2443-3e0d-f2ac-c4f6" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="d625-f76c-2e8a-61b7" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="2b89-af19-6650-2abb-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="2b89-af19-6650-2abb-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Power Dice - (White/Orange)" id="2ddb-2f2e-25ed-0106" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="11c2-ec5b-d102-3ef5-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="11c2-ec5b-d102-3ef5-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="UNLEASH THE DOGS OF WAR" id="cc59-0044-2277-8f85" hidden="false" targetId="005a-46a7-0a55-9f46" type="profile"/>
         <infoLink name="House Guard Captain" id="6511-d407-61aa-c981" hidden="false" targetId="2157-5415-95f5-cb96" type="profile"/>
         <infoLink name="Headstrong" id="6e24-7b18-b89f-ae55" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="8f27-320b-f0e3-960f" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="531e-a844-1cad-6fb1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="531e-a844-1cad-6fb1" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Parry" id="8771-4348-557b-e373" hidden="false" targetId="ae52-7371-2843-ca27" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="9685-4473-b78e-a7a0" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="ace4-b56f-06b7-8118" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="55c2-5f22-365a-9e8e" type="increment" value="1">
@@ -475,11 +509,16 @@ member of the warband for the duration of the current game only, and does count 
       <entryLinks>
         <entryLink name="Items" id="5789-6ad2-b970-700c" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spellbook - Basic Halfling Sorcerer" id="de9f-3138-f855-9611" collective="false" hidden="false" import="true" targetId="ca05-4079-1998-6762" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="5694-e7b0-352d-e266" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="e00e-b117-3a95-c11c-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="e00e-b117-3a95-c11c-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="6th Sense" id="6aaa-778b-3704-4140" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Stealthy" id="ba29-5b59-ff46-c72b" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="5b9c-9152-8459-4412" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="5ad7-ea40-d1b0-226f" type="increment" value="1">
@@ -498,9 +537,10 @@ member of the warband for the duration of the current game only, and does count 
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">6th Sense, Stealthy</characteristic>
           </characteristics>
         </profile>
       </profiles>

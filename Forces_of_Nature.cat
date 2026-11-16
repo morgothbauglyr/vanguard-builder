@@ -40,9 +40,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Regenerate (7+)</characteristic>
       </characteristics>
     </profile>
     <profile name="ENTANGLE" id="6568-1938-e9af-d72f" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -61,9 +62,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Regenerate (7+), Swarm</characteristic>
       </characteristics>
     </profile>
     <profile name="Centaur Bray-Strider" id="f473-e5cd-16bd-080f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -75,9 +77,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Headstrong, Smash</characteristic>
       </characteristics>
     </profile>
     <profile name="Centaur Bray-Hunter" id="2e67-1b76-1f9e-26cc" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -89,9 +92,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Headstrong</characteristic>
       </characteristics>
     </profile>
     <profile name="Centaur Bow" id="828f-1bf2-0e9c-9f11" hidden="false" typeId="3cda-8938-b7d6-58ab" typeName="Attack - Ranged">
@@ -110,9 +114,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Pathfinder</characteristic>
       </characteristics>
     </profile>
     <profile name="HIS MASTER’S VOICE" id="2cc4-691c-d42f-7503" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -131,9 +136,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Centaur Chief" id="fcf5-9886-f34a-db8a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -145,9 +151,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Headstrong, Inspiring, Smash</characteristic>
       </characteristics>
     </profile>
     <profile name="Centaur Tenderhoof" id="9b80-96ba-aba7-838d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -159,9 +166,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Cavalry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Cavalry, Headstrong, Point to Prove</characteristic>
       </characteristics>
     </profile>
     <profile name="Forest Shambler" id="7264-0d6e-4ac6-fa9f" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -173,9 +181,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">6</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Large Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (2), Steady</characteristic>
       </characteristics>
     </profile>
     <profile name="Gladewalker Druid" id="9b3c-b150-8ba7-2d0d" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -187,9 +196,10 @@
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Heavy Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring, Steady</characteristic>
       </characteristics>
     </profile>
     <profile name="NATURE’S DEFENCE" id="adf9-8852-24c1-3a5f" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -340,7 +350,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       </entryLinks>
       <infoLinks>
         <infoLink name="Naiad" id="0c00-1063-4ac7-d153" hidden="false" targetId="768b-651d-2737-7539" type="profile"/>
-        <infoLink name="Regenerate (7+)" id="fbee-315c-29cc-d72e" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="fbee-315c-29cc-d72e" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(7"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="ccb6-7cbf-e5b2-901e" type="increment" value="1">
@@ -377,7 +391,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       </entryLinks>
       <infoLinks>
         <infoLink name="Naiad Ensarer" id="0d2d-988f-fc47-6876" hidden="false" targetId="be22-1704-ce37-6d1e" type="profile"/>
-        <infoLink name="Regenerate (7+)" id="3a4b-ceb7-2456-9cb0" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+        <infoLink name="Regenerate (n+)" id="3a4b-ceb7-2456-9cb0" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(7"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="ENTANGLE" id="fd6c-521d-fbd3-13c4" hidden="false" targetId="6568-1938-e9af-d72f" type="profile"/>
         <infoLink name="Swarm" id="185e-9cbb-c562-d64d" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
@@ -493,12 +511,16 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       <entryLinks>
         <entryLink name="Items" id="7727-d78b-afb8-8498" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spell Selection - Druid" id="cf15-d122-cce8-ddde" collective="false" hidden="false" import="true" targetId="2de8-ecf1-9290-6485" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="cc18-5c19-c2d0-449f" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="efbe-e271-b465-0ccc-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="efbe-e271-b465-0ccc-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Druid" id="446c-3a26-f5fc-a8a5" hidden="false" targetId="dc6f-f556-c46d-a0d5" type="profile"/>
-        <infoLink name="RANGE BOOST (2)" id="4ec1-7ec4-edb7-cf50" hidden="false" targetId="84d4-320d-f36e-8b09" type="rule"/>
         <infoLink name="Inspiring" id="f77e-d09a-c24e-7302" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Power Dice Red/Black (1)" id="cc53-8724-d8c7-caae" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="RANGE BOOST (6&quot;)" id="d5e9-00a8-7163-7aa3" hidden="false" targetId="ec0a-6cfc-234e-3a25" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -530,12 +552,17 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
             <constraint id="abd2-ef04-cac9-1114" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
+        <entryLink name="Power Dice - (White/Orange)" id="6e62-86b1-57c3-de3c" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="4aa8-3b3f-6c60-d01a-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="4aa8-3b3f-6c60-d01a-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Centaur Chief" id="6a20-fc1f-2305-cf1c" hidden="false" targetId="fcf5-9886-f34a-db8a" type="profile"/>
         <infoLink name="Smash" id="6e06-971a-8c31-309b" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink name="Cavalry" id="bf79-b01a-28b4-4f9e" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="b4fe-a2a5-116b-96e5" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Headstrong" id="f6f2-1205-4078-1842" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
         <infoLink name="Inspiring" id="cc95-1dff-fac2-f9e0" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
@@ -595,7 +622,11 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       </costs>
       <infoLinks>
         <infoLink name="Forest Shambler" id="2787-f4e8-7f91-7b24" hidden="false" targetId="7264-0d6e-4ac6-fa9f" type="profile"/>
-        <infoLink name="Crushing Strength (2)" id="4e40-798e-a209-ea33" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink name="Crushing Strength (n)" id="4e40-798e-a209-ea33" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(2"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Steady" id="8fcd-b537-fa45-39c1" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -622,12 +653,17 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
       <entryLinks>
         <entryLink name="Items" id="c9ba-2dd2-712a-96c2" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name="Spell Selection - Gladewalker Druid" id="ae66-b0e9-672f-0f29" collective="false" hidden="false" import="true" targetId="691a-4874-ea8a-3099" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="a845-d81a-da13-a994" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="2bc7-1599-b525-3ae6-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="2bc7-1599-b525-3ae6-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="NATURE’S DEFENCE" id="7343-66ec-c4d7-9722" hidden="false" targetId="adf9-8852-24c1-3a5f" type="profile"/>
         <infoLink name="Gladewalker Druid" id="4dfc-9fc9-10de-5856" hidden="false" targetId="9b3c-b150-8ba7-2d0d" type="profile"/>
         <infoLink name="Steady" id="f484-615a-9e3b-183e" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="2a49-0117-00c6-b501" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink name="Inspiring" id="57f0-1cac-3987-dc0b" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
       <modifiers>

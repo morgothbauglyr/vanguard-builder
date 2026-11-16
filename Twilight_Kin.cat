@@ -61,9 +61,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Bloodlust, Dodge, Whirlwind of Steel</characteristic>
       </characteristics>
     </profile>
     <profile name="Citizen Levy" id="3996-5894-4a4e-c025" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -75,9 +76,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Executioner" id="e7d8-77b1-b6e6-0f2a" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -89,9 +91,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">6th Sense, Curshing Strength (1), Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="Impaler" id="f72f-9590-7c8c-f12e" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -103,9 +106,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1)</characteristic>
       </characteristics>
     </profile>
     <profile name="Leithguard" id="fac3-a0bf-fab0-c9fd" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -117,9 +121,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Shadow" id="68e7-7620-33e6-8b43" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -131,9 +136,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Scout</characteristic>
       </characteristics>
     </profile>
     <profile name="Summoner Crone" id="d797-a074-4cb6-0980" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -145,9 +151,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Summoner Crone" id="1eca-4d7c-3dd7-9c77" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -159,9 +166,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
       </characteristics>
     </profile>
     <profile name="Twilight Assassin" id="1134-f027-d43d-7cd4" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -173,9 +181,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Sneaky, Stealthy, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="Voidtouched Mutant" id="a5db-e8e5-2be6-5746" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -187,9 +196,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">1</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Crushing Strength (1), Stealthy</characteristic>
       </characteristics>
     </profile>
     <profile name="Voidwalker" id="7f6e-7d96-7d05-8059" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -201,9 +211,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Ensnare, Pathfinder, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="BITTER AND TWISTED" id="6915-ce21-e1b3-86a0" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -222,9 +233,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Inspiring</characteristic>
       </characteristics>
     </profile>
     <profile name="MURDER AT MIDNIGHT" id="2fc7-ea80-e045-268d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -243,9 +255,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
         <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
         <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
         <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Backstabber, Crushing Strength (1), Evasive, Sneaky, Stealthy, Vicious</characteristic>
       </characteristics>
     </profile>
     <profile name="DEADLY BLADES" id="5400-aa6e-5e7d-1e9d" hidden="false" typeId="39ba-3647-6510-7709" typeName="Ability">
@@ -300,7 +313,11 @@ of 1 or 2, the Reaper is removed from play.</description>
       <infoLinks>
         <infoLink name="Stalker Bow" id="520d-487f-c872-cd35" hidden="false" targetId="b620-64ae-8c05-572a" type="profile"/>
         <infoLink name="Pound" id="70cc-0207-1f56-370f" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink name="Piercing (1)" id="378e-a40a-05df-aa1b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink name="Piercing (1)" id="378e-a40a-05df-aa1b" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Blade Dancer" id="2889-9be3-269f-f281" collective="false" hidden="false" import="true" publicationId="a3d2-75b6-8c4e-cbde" type="model">
@@ -332,7 +349,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Citizen Levy (X)" id="ab8e-9780-0b13-8ba1" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+    <selectionEntry name="Citizen Levy" id="ab8e-9780-0b13-8ba1" collective="false" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Grunt" id="b71e-d69e-4bcd-bb84" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="e580-41a1-fc37-14aa" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
@@ -383,13 +400,22 @@ of 1 or 2, the Reaper is removed from play.</description>
       </costs>
       <entryLinks>
         <entryLink name="Items" id="9854-ac05-9b15-4efd" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="8da1-bb06-f0c5-e5a1" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="1fe2-986c-9bca-28ca-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="1fe2-986c-9bca-28ca-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Executioner" id="d140-cac7-c38c-76aa" hidden="false" targetId="e7d8-77b1-b6e6-0f2a" type="profile"/>
         <infoLink name="6th Sense" id="a671-027a-ed80-68f4" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule"/>
         <infoLink name="Inspiring" id="ffcc-5f3b-2dac-6c23" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink name="Crushing Strength (1)" id="96d0-5e03-8fe1-ac10" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink name="Power Dice White/Orange (2)" id="ea38-f788-477a-8f25" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="96d0-5e03-8fe1-ac10" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="BATTLE RAGE" id="6a45-fe3d-7ce4-0aa4" hidden="false" targetId="b261-1cc2-d69c-f8ca" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -419,7 +445,11 @@ of 1 or 2, the Reaper is removed from play.</description>
       </entryLinks>
       <infoLinks>
         <infoLink name="Impaler" id="92a3-0df4-162d-28a2" hidden="false" targetId="f72f-9590-7c8c-f12e" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="8ccd-bb56-88a3-ece0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="8ccd-bb56-88a3-ece0" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="fc80-b257-1b32-b72a" type="increment" value="1">
@@ -506,9 +536,10 @@ of 1 or 2, the Reaper is removed from play.</description>
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
-            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+            <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac"/>
           </characteristics>
         </profile>
       </profiles>
@@ -566,10 +597,15 @@ of 1 or 2, the Reaper is removed from play.</description>
       <entryLinks>
         <entryLink name="Items" id="431e-7ef5-9602-22f9" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - Sorceress" id="37c0-4eeb-fa0f-d75e" collective="false" hidden="false" import="true" targetId="99cd-fb26-1a40-85c9" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Blue/Green)" id="6961-c4a7-56dd-c198" hidden="false" import="true" targetId="cef6-f523-38be-0b4f" type="selectionEntry">
+          <constraints>
+            <constraint id="db98-53ba-3cb8-dc89-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="db98-53ba-3cb8-dc89-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Sorceress" id="f1f1-1d09-7d06-3789" hidden="false" targetId="ea4b-c03e-f571-385a" type="profile"/>
-        <infoLink name="Power Dice Blue/Green (1)" id="295b-f033-5a3c-4eef" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
         <infoLink name="Inspiring" id="83a1-3b55-44ee-0555" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
         <infoLink name="DRAW DARK POWER" id="dc8a-1c52-9a68-6b95" hidden="false" targetId="5cd5-4c4f-7e1e-5b37" type="profile"/>
         <infoLink name="RANGE BOOST (3&quot;)" id="ed33-5b3b-210a-657a" hidden="false" targetId="0a32-50d1-0ea3-830e" type="profile"/>
@@ -593,8 +629,16 @@ of 1 or 2, the Reaper is removed from play.</description>
       </constraints>
       <infoLinks>
         <infoLink name="Summoned Reaper" id="fcdb-62ff-bc2b-a6b5" hidden="false" targetId="6a78-9766-f139-71dd" type="rule"/>
-        <infoLink name="Reaper" id="715a-0d8e-8968-8be7" hidden="false" targetId="15c7-9daa-a75b-b6ab" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="8f30-863d-2208-ff30" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Reaper" id="715a-0d8e-8968-8be7" hidden="false" targetId="15c7-9daa-a75b-b6ab" type="profile">
+          <modifiers>
+            <modifier field="f713-56af-9c2c-d9ac" join=" " type="append" value="Summoned Reaper"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Crushing Strength (1)" id="8f30-863d-2208-ff30" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Stealthy" id="dc28-6d82-18d0-18e3" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -613,10 +657,15 @@ of 1 or 2, the Reaper is removed from play.</description>
       <entryLinks>
         <entryLink name="Items" id="c658-d03f-b092-53ce" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink name=" Spell selection - Summoner Crone" id="afaa-1281-79e9-b1f4" collective="false" hidden="false" import="true" targetId="ef34-fb59-8c69-cd65" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (Red/Black)" id="d209-88bd-38e2-6144" hidden="false" import="true" targetId="5c3f-b3c5-55fe-5053" type="selectionEntry">
+          <constraints>
+            <constraint id="3f55-949e-5e2e-5f9e-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="3f55-949e-5e2e-5f9e-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Summoner Crone" id="c498-ff5b-3903-ebfb" hidden="false" targetId="1eca-4d7c-3dd7-9c77" type="profile"/>
-        <infoLink name="Power Dice Red/Black (1)" id="f6b9-cc84-6e9b-0f91" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
         <infoLink name="RANGE BOOST (3&quot;)" id="94f9-4a72-04ad-6297" hidden="false" targetId="0a32-50d1-0ea3-830e" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -661,18 +710,23 @@ of 1 or 2, the Reaper is removed from play.</description>
       <categoryLinks>
         <categoryLink name="Support" id="a503-fb20-36b9-9d7a" hidden="false" primary="true" targetId="c194-28e4-665e-319c"/>
         <categoryLink name="Has Crushing Strength" id="98f5-e8e5-7afa-0cb3" hidden="false" primary="false" targetId="c023-9db1-28d3-470e"/>
-        <categoryLink name="Beast" id="feea-d9ef-3952-533a" hidden="false" primary="false" targetId="46ca-5ca3-a00c-938e"/>
         <categoryLink name="Nightstalker" id="72af-e600-a0f9-af7d" hidden="false" primary="false" targetId="4100-0b22-ed1d-21f6"/>
         <categoryLink name="Model" id="4746-b8a2-3cb7-678c" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Items" id="3301-1b54-a927-b7be" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Voidtouched Mutant" id="c793-7997-39dc-98f5" hidden="false" targetId="a5db-e8e5-2be6-5746" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="e6ec-551f-be2e-ab66" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="e6ec-551f-be2e-ab66" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Stealthy" id="91bc-7ebd-a77c-0df0" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
-        <infoLink name="Climber" id="e594-eeda-fa4a-4acd" hidden="false" targetId="5db9-a777-85c4-8055" type="rule"/>
         <infoLink name="WILD CHARGE" id="1b9a-692e-e31e-2d2e" hidden="false" targetId="3cc4-3959-4c8e-b26e" type="profile"/>
       </infoLinks>
       <selectionEntries>
@@ -755,17 +809,26 @@ of 1 or 2, the Reaper is removed from play.</description>
       </costs>
       <entryLinks>
         <entryLink name="Items" id="aba7-eccf-8eb2-a17e" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Power Dice - (White/Orange)" id="a64d-c0e2-d3b9-5c9b" hidden="false" import="true" targetId="7d3b-91eb-6c4d-4118" type="selectionEntry">
+          <constraints>
+            <constraint id="d8c6-191a-224a-4ecc-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d8c6-191a-224a-4ecc-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Master Assassin" id="ab64-a082-4ca3-5581" hidden="false" targetId="3a01-8f9d-a205-3355" type="profile"/>
         <infoLink name="Backstabber" id="7f5b-cf3b-f926-0bd5" hidden="false" targetId="bcbb-1408-d84b-a612" type="rule"/>
         <infoLink name="MURDER AT MIDNIGHT" id="03ff-b1ce-e2cc-9080" hidden="false" targetId="2fc7-ea80-e045-268d" type="profile"/>
-        <infoLink name="Crushing Strength (1)" id="7de2-dd38-e7f6-9049" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink name="Crushing Strength (1)" id="7de2-dd38-e7f6-9049" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <modifiers>
+            <modifier arg="(n" field="name" type="replace" value="(1"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Evasive" id="8baa-1a33-19d3-5d22" hidden="false" targetId="ffc0-22d9-92b0-a78f" type="rule"/>
         <infoLink name="Vicious" id="fb6f-5994-7a7d-f6aa" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink name="Stealthy" id="6d23-8cf1-f62f-2128" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
         <infoLink name="Sneaky" id="2ac0-555d-ef81-9b1a" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
-        <infoLink name="Power Dice White/Orange (1)" id="c933-842a-410d-c6b9" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="507a-9d68-6dfd-7d33" type="increment" value="1">
