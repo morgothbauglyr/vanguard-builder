@@ -880,6 +880,10 @@ of 1 or 2, the Reaper is removed from play.</description>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name=" Spell selection - Summoner Crone" id="ef34-fb59-8c69-cd65" collapsible="true" collective="false" hidden="false" import="true" page="41" publicationId="c0ab-ccb6-pubN68676">
+      <constraints>
+        <constraint id="99dc-e600-4d06-a5d6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+        <constraint id="bd59-37b8-7a72-5e6b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
+      </constraints>
       <entryLinks>
         <entryLink name=" Spellbook - Twilight Kin" id="bafe-abd5-3633-f74d" collapsible="true" hidden="false" import="true" sortIndex="2" targetId="0ca4-940a-1d85-666d" type="selectionEntryGroup"/>
         <entryLink name="Spellbook - Corrupt" id="6173-c730-1a62-85bf" collapsible="true" hidden="false" import="true" sortIndex="3" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
