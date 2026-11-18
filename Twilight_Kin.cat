@@ -24,6 +24,7 @@
     <entryLink name="Phantom" id="d301-2849-81bf-4356" hidden="false" import="true" targetId="6742-6719-e2c6-c54d" type="selectionEntry"/>
     <entryLink name="Citizen Levy" id="237a-fe95-a856-cc8e" collective="false" hidden="false" targetId="ab8e-9780-0b13-8ba1" type="selectionEntry"/>
     <entryLink name="Master Assassin *" id="ea5e-7a3c-2e2a-fb4a" hidden="false" import="true" targetId="45a6-1d38-52fa-f4f2" type="selectionEntry"/>
+    <entryLink name="Twilight Archer" id="ebe2-bb84-5a4d-759b" hidden="false" import="true" targetId="211e-43aa-8fae-e9b2" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Summon the Reaper" id="089c-7efb-115e-68d4" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
@@ -268,6 +269,21 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
         <characteristic name="Effect" typeId="b9cf-1e25-5292-ae34">This model gains Crushing Strength (1). If this model already has Crushing Strength, this Ability has no effect.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Twilight Archer" id="81dd-ceb4-3753-3f96" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+      <characteristics>
+        <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+        <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+        <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+        <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+        <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+        <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+        <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+        <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+        <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+        <characteristic name="Base" typeId="b790-5251-7057-2f74">Infantry</characteristic>
+        <characteristic name="Rules" typeId="f713-56af-9c2c-d9ac">Venom Arrows</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Summoned Reaper" id="6a78-9766-f139-71dd" hidden="false">
@@ -279,6 +295,9 @@ of 1 or 2, the Reaper is removed from play.</description>
     </rule>
     <rule name="Backstabber" id="bcbb-1408-d84b-a612" hidden="false">
       <description>While engaged with a target, as long as this model is in the target&apos;s rear arc, the target cannot retaliate.</description>
+    </rule>
+    <rule name="Venom Arrows" id="2a18-9269-6025-da6f" hidden="false">
+      <description>Ranged attacks with this unit&apos;s bow cause Weaken</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -494,7 +513,7 @@ of 1 or 2, the Reaper is removed from play.</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry name="Leithguard Archer *" id="97b6-1d59-6a1c-9dda" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
+    <selectionEntry name="Leithguard Arbalist *" id="97b6-1d59-6a1c-9dda" hidden="false" import="true" publicationId="4a94-de20-b936-ea2d" type="model">
       <categoryLinks>
         <categoryLink name="Grunt" id="6dd9-f469-f734-d254" hidden="false" primary="true" targetId="acf5-674c-f31b-80a2"/>
         <categoryLink name="Troop" id="b3e8-a32f-bc9f-5293" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
@@ -509,7 +528,7 @@ of 1 or 2, the Reaper is removed from play.</description>
       </costs>
       <entryLinks>
         <entryLink name="Items" id="abd4-32ab-c5c2-9d27" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink name="Bow" id="1b98-9e14-a5ac-93a7" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink name="Light Crossbow" id="1b98-9e14-a5ac-93a7" hidden="false" import="true" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
           <constraints>
             <constraint id="5223-87fd-d780-0c9d-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="5223-87fd-d780-0c9d-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -833,6 +852,40 @@ of 1 or 2, the Reaper is removed from play.</description>
         <modifier field="507a-9d68-6dfd-7d33" type="increment" value="1">
           <repeats>
             <repeat childId="any" field="limit::b888-e3bd-8798-6364" includeChildForces="true" includeChildSelections="true" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Twilight Archer *" id="211e-43aa-8fae-e9b2" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Warrior" id="9ca0-265f-99d0-4b82" hidden="false" primary="true" targetId="29ef-0bb1-9ab6-8e5c"/>
+        <categoryLink name="Troop" id="b453-4f4e-cf00-4ee4" hidden="false" primary="false" targetId="681e-00ba-4082-fb91"/>
+        <categoryLink name="Elf" id="c04a-7f34-f4dd-2c6c" hidden="false" primary="false" targetId="c28f-4b04-8d39-6762"/>
+        <categoryLink name="Model" id="0ee5-2b2a-8a2b-e373" hidden="false" primary="false" targetId="957c-0d8a-3170-73d3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="1e81-7e7f-c1a8-2b08" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="0"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Items" id="036a-57df-8908-75ac" collective="false" hidden="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink name="Bow" id="b095-ddd9-c3f1-85c1" collective="false" hidden="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+          <constraints>
+            <constraint id="fe5d-ee22-f633-8d5e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Venom Arrows" id="7eb9-4fb8-7dba-3f8e" hidden="false" targetId="2a18-9269-6025-da6f" type="rule"/>
+        <infoLink name="Twilight Archer" id="3663-4f47-7419-9e89" hidden="false" targetId="81dd-ceb4-3753-3f96" type="profile"/>
+        <infoLink name="Weaken" id="37ce-0ad1-ca7f-a158" hidden="false" targetId="1c25-a379-3b06-355c" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="1e81-7e7f-c1a8-2b08" type="increment" value="1">
+          <repeats>
+            <repeat childId="model" field="limit::b888-e3bd-8798-6364" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="40"/>
           </repeats>
         </modifier>
       </modifiers>

@@ -1874,7 +1874,7 @@ player.</description>
     <rule name="Exhausting" id="424e-7d48-2087-3f92" hidden="false">
       <description>A model hit with this weapon in Melee, is marked as Fatigued.</description>
     </rule>
-    <rule name="Ensnare" id="7161-27b3-c5fe-64c7" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
+    <rule name="Tackle" id="7161-27b3-c5fe-64c7" hidden="false" publicationId="a3d2-75b6-8c4e-cbde">
       <description>Models attempting to Break Away from this model must re-roll successfull Armour rolls.</description>
     </rule>
     <rule name="Ability Attack" id="fbf1-70df-effd-cc1b" hidden="false">
